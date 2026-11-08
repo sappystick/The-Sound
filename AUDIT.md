@@ -98,7 +98,7 @@ The Attic column is the control. With classical pronunciation, almost every vari
 |---|---|
 | Prologue centre in 1:12 (P66, P75, 01, 03, Syriac, Coptic, Latin) | Count syllables of 1:1–18 in each witness; the midpoint falls in verse 12 (`earliest_text.py`, `aramaic_prologue.py`) |
 | σχίζω/σχίσμα: the crowd divided 3 times (7:43, 9:16, 10:19); "let us not tear it" (19:24); "the net was not torn" (21:11); LXX Leviticus 21:10, the high priest shall not tear his garments | Concordance |
-| 153 fish; Ezekiel 47:10, fishermen from En-gedi to En-eglaim. The only fishing verse in the Hebrew Bible whose gematria yields 17/153 (Emerton) | Ezekiel 47:10; gematria of עין גדי (17) and עין עגלים (153) |
+| 153 fish; Ezekiel 47:10, fishermen from En-gedi to En-eglaim. The only fishing verse in the Hebrew Bible whose gematria yields 17/153 (Emerton) | Ezekiel 47:10; gematria of גדי (Gedi, 17) and עגלים (Eglaim, 153) |
 | Hyssop, blood and water together only in Leviticus 14, Numbers 19, John 19 and Hebrews 9 | Concordance |
 | "I am the + image" in 47% of John's "I am" sayings, against 4% in the Septuagint | `iam_forms.py` |
 | John's noise share 0.326, against 0.344–0.347 for the Synoptics | `acoustic.py`; depends on the engine's Koine phoneme model |

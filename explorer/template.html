@@ -1,0 +1,334 @@
+<title>The Sound of John</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a spoken scroll. One full-width track of the whole book in time, a reader beneath it, then the audit. */
+:root{
+  --bg:#eceee9; --panel:#f6f7f3; --ink:#18202c; --muted:#5d6672; --rule:#cfd4cc;
+  --lapis:#2c58a0; --bronze:#9a6a24; --rose:#b2445a; --leaf:#3f7d4c; --violet:#6c4fa6; --water:#22809a;
+  --ok:#2f7a45; --warn:#a7701a; --bad:#b2445a; --track:#e1e4dd;
+  --display:"GFS Didot","Noto Serif",Georgia,serif; --body:"Noto Serif",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e;
+  --lapis:#7ea4e6; --bronze:#d7a65a; --rose:#e57d92; --leaf:#7cc28a; --violet:#b39ae8; --water:#6cc6dc;
+  --ok:#7cc28a; --warn:#e0ad55; --bad:#e57d92; --track:#1d232e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e;
+  --lapis:#7ea4e6; --bronze:#d7a65a; --rose:#e57d92; --leaf:#7cc28a; --violet:#b39ae8; --water:#6cc6dc;
+  --ok:#7cc28a; --warn:#e0ad55; --bad:#e57d92; --track:#1d232e; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.05;letter-spacing:.01em}
+h2{font-size:1.75rem;margin-bottom:6px}
+.eyebrow{font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--bronze)}
+.lede{max-width:66ch;color:var(--muted);margin:12px 0 0}
+header{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;border-bottom:1px solid var(--rule);padding-bottom:22px}
+.greekmark{font-family:var(--display);font-size:clamp(1.3rem,2.6vw,1.9rem);color:var(--lapis);text-align:right;line-height:1.25}
+.stats{display:flex;flex-wrap:wrap;gap:8px 26px;margin-top:16px;font:400 .82rem/1.3 var(--mono);color:var(--muted)}
+.stats b{display:block;font:400 1.35rem/1.2 var(--display);color:var(--ink)}
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;margin:22px 0 14px}
+nav.tabs a{font:500 .8rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:3px;border:1px solid transparent}
+nav.tabs a[aria-current="page"]{color:var(--ink);border-color:var(--rule);background:var(--panel)}
+nav.tabs a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--lapis);outline-offset:2px}
+section.view{display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+section.view>*{min-width:0}
+[hidden]{display:none!important}
+/* track */
+.trackbox{background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:14px 14px 8px}
+.trackhead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 18px;align-items:baseline;margin-bottom:8px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font:400 .74rem/1.2 var(--mono);color:var(--muted)}
+.legend button{font:inherit;color:inherit;background:none;border:0;padding:2px 0;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.legend button[aria-pressed="false"]{opacity:.35}
+.sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+.svgscroll{overflow-x:auto}
+svg#track{width:100%;min-width:640px;height:auto;display:block;cursor:crosshair;touch-action:pan-x}
+svg text{fill:var(--muted);font:10px var(--mono)}
+/* reader */
+.reader{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:18px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:18px}
+.vref{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.vref h2{font-size:2.4rem;margin:0}
+.secname{font:400 .78rem/1.4 var(--mono);color:var(--bronze)}
+.greek{font-family:var(--display);font-size:1.55rem;line-height:1.5;margin:12px 0 10px}
+.ipa{font:400 .86rem/1.5 var(--mono);color:var(--lapis);margin:0 0 10px}
+.kjv{color:var(--muted);font-size:.95rem;margin:0}
+.ctrls{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+button.b{font:500 .78rem/1 var(--mono);letter-spacing:.04em;padding:9px 12px;border-radius:3px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+button.b.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+video{width:100%;max-width:100%;border-radius:3px;margin-top:14px;background:#000;aspect-ratio:16/9}
+dl.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0;font-size:.9rem}
+dl.kv dt{font:400 .74rem/1.9 var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+dl.kv dd{margin:0;font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font:500 .7rem/1 var(--mono);padding:4px 7px;border-radius:999px;border:1px solid currentColor;margin:2px 4px 2px 0}
+.meter{height:6px;background:var(--track);border-radius:3px;position:relative;margin-top:4px;max-width:180px}
+.meter i{position:absolute;top:0;bottom:0;background:var(--bronze);border-radius:3px}
+a.vlink{color:var(--lapis);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+/* claims */
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font:500 .74rem/1 var(--mono);padding:8px 10px;border-radius:999px;border:1px solid var(--rule);background:var(--panel);color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.claims{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.claim{background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:16px;display:grid;gap:8px;align-content:start;border-top:3px solid var(--c,var(--rule))}
+.claim h3{font-size:1.18rem;line-height:1.3}
+.claim .st{font:500 .7rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.claim p{margin:0;font-size:.92rem}
+.claim details{font-size:.88rem;color:var(--muted)}
+.claim summary{cursor:pointer;font:500 .74rem/1.8 var(--mono);color:var(--ink)}
+.claim code,.mono{font:400 .8rem var(--mono)}
+/* charts */
+.chart{overflow-x:auto}
+.chart svg{display:block;min-width:560px;width:100%;height:auto}
+table{border-collapse:collapse;width:100%;font-size:.9rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule)}
+th{font:500 .72rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tablebox{overflow-x:auto}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:18px}
+pre.cmd{background:var(--bg);border:1px solid var(--rule);border-radius:3px;padding:12px;overflow-x:auto;font:400 .78rem/1.6 var(--mono);margin:8px 0 0}
+.note{font-size:.88rem;color:var(--muted);max-width:75ch}
+.ok{color:var(--ok)} .warn{color:var(--warn)} .bad{color:var(--bad)}
+@media (max-width:820px){.reader{grid-template-columns:1fr} header{grid-template-columns:1fr} .greekmark{text-align:left}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <div class="eyebrow">An audited listening study</div>
+    <h1>The Sound of John</h1>
+    <p class="lede">The Fourth Gospel reconstructed as it would have been heard: every verse in Koine pronunciation, timed, measured and set against the findings of thirty-one rounds of tests. Every claim below carries its audit status, its numbers, and how to check it yourself.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="greekmark" lang="grc">Ἐν ἀρχῇ ἦν ὁ λόγος</div>
+</header>
+
+<nav class="tabs" aria-label="Views">
+  <a href="#listen" data-view="listen">Listen &amp; explore</a>
+  <a href="#claims" data-view="claims">Findings &amp; audit</a>
+  <a href="#robust" data-view="robust">Robustness</a>
+  <a href="#method" data-view="method">Method &amp; trail</a>
+</nav>
+
+<section class="view" id="v-listen">
+  <div class="trackbox">
+    <div class="trackhead">
+      <div class="eyebrow">The whole Gospel in spoken time · click any point</div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="svgscroll"><svg id="track" viewBox="0 0 1000 210" role="img" aria-label="Track of the Gospel of John in spoken time"></svg></div>
+  </div>
+  <div class="reader">
+    <div class="card">
+      <div class="vref"><h2 id="vref">1:1</h2><span class="secname" id="secname"></span></div>
+      <div class="greek" lang="grc" id="greek"></div>
+      <p class="ipa" id="ipa"></p>
+      <p class="kjv" id="kjv"></p>
+      <div class="ctrls">
+        <button class="b" id="prev" aria-label="Previous verse">← Prev</button>
+        <button class="b" id="next" aria-label="Next verse">Next →</button>
+        <button class="b primary" id="play">Play from this verse</button>
+        <button class="b" id="follow" aria-pressed="true">Follow along: on</button>
+      </div>
+      <video id="vid" controls preload="none" playsinline hidden></video>
+      <p class="note" id="novideo" hidden>The spoken reconstruction is still being attached to this page.</p>
+    </div>
+    <div class="card">
+      <div class="eyebrow" style="margin-bottom:10px">Data at this verse</div>
+      <dl class="kv" id="kv"></dl>
+    </div>
+  </div>
+</section>
+
+<section class="view" id="v-claims" hidden>
+  <div>
+    <h2>Findings and their audit status</h2>
+    <p class="note">The audit was pre-registered: outlines, settings and pass/fail rules were committed before any robustness test ran. Statuses come from that run.</p>
+  </div>
+  <div class="filters" id="filters"></div>
+  <div class="claims" id="claimlist"></div>
+</section>
+
+<section class="view" id="v-robust" hidden>
+  <div class="card">
+    <h2>Does the text draw its own outline?</h2>
+    <p class="note">Each dot is one setting: an outline × a minimum section length × a definition of the voice signal, for k = 4 sections. Further right means the blind cuts land closer to that outline than random cuts do. Hollow rings are the baseline settings. The dashed line is p = 0.05.</p>
+    <div class="chart"><svg id="segchart" viewBox="0 0 900 300" role="img" aria-label="p-values by book"></svg></div>
+    <p class="note" id="hrnote"></p>
+  </div>
+  <div class="two">
+    <div class="card">
+      <h3>Living water at the centre (downgraded)</h3>
+      <div class="tablebox"><table id="c3"></table></div>
+      <p class="note" id="c3note"></p>
+    </div>
+    <div class="card">
+      <h3>Variants that sound the same</h3>
+      <div class="tablebox"><table id="c11"></table></div>
+      <p class="note">Under Attic pronunciation almost every variant changes the sound; under Koine about half do not. The scribes wrote what they heard. P75 has only 86 variants, which is why it falls short of the 50% rule.</p>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Multiple testing across the whole project</h3>
+    <p class="note" id="gnote"></p>
+  </div>
+</section>
+
+<section class="view" id="v-method" hidden>
+  <div class="two">
+    <div class="card">
+      <h3>How the spoken reconstruction is made</h3>
+      <p class="note">Text: SBLGNT. Pronunciation: Koine Greek of about the first century (vowel mergers, aspirates as stops), from the project's phonological engine. Delivery: public reading. Room: a synagogue hall, reverberation time 1.4 s. Pauses: 0.6 s between verses; 3 s before the three major self-found section breaks (1:16, 13:33, 18:1); 2 s before the minor ones. The voice is a formant synthesiser: it renders sounds, stress, pitch and the room, not a human performer.</p>
+    </div>
+    <div class="card">
+      <h3>Reproduce it</h3>
+      <p class="note">Clone the open sources, then run the audit. Every script fixes its random seed.</p>
+      <pre class="cmd" id="cmd">bash sources/fetch_sources.sh
+bash robustness/reproduce.sh</pre>
+      <div class="ctrls"><button class="b" id="copy">Copy commands</button><span class="note" id="copied" aria-live="polite"></span></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Audit trail</h3>
+    <div class="tablebox"><table id="trail"></table></div>
+  </div>
+</section>
+</div>
+
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s), css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const VS = D.verses, N = VS.length, TOT = D.total, IDX = {}; VS.forEach((v, i) => IDX[v.v] = i);
+const MK = {i_am_ring:["“I am” ring","--violet","The twelve “I am the …” sayings; their ring around the centre does not survive project-wide correction."],
+  prologue_centre:["Prologue centre","--lapis","The spoken midpoint of 1:1–18 falls in verse 12 in P66, P75, Sinaiticus, Vaticanus, Syriac, Coptic and Latin."],
+  schism_chain:["Torn / not torn","--rose","Schizō five times: the crowd divided three times, then the seamless tunic and the net “not torn” (Leviticus 21:10)."],
+  vertical_axis:["Ascend / descend","--leaf","John's vertical axis, about twice the Synoptic rate."],
+  high_priest:["High priest","--bronze","Caiaphas, the disciple known to the high priest, the seamless tunic."],
+  living_water:["Living water","--water","Living water occurs in the New Testament only in John."],
+  seams:["Seam","--muted","Sharpest turns of wording, found blind."]};
+const BLOCKS=[["water","2:1","4:42"],["bread & life","6:1","6:71"],["light","8:12","9:41"],["hour & glory","12:20","13:32"],["abide & love","14:1","17:26"]];
+const fmt = s => { s = Math.max(0, s); const m = Math.floor(s / 60); return `${Math.floor(m/60)}:${String(m%60).padStart(2,"0")}:${String(Math.floor(s%60)).padStart(2,"0")}`; };
+// ---------- stats
+$("#stats").innerHTML = [["Verses", N], ["Spoken time", fmt(TOT)], ["Tests pooled", D.g2.n.toLocaleString()], ["Pre-registered", D.prereg.slice(0,7)]]
+  .map(([a,b]) => `<div>${a}<b>${b}</b></div>`).join("");
+// ---------- sections (from self-found breaks)
+const starts = [0]; VS.forEach((v,i) => { if (v.br && i) starts.push(i); });
+function secOf(i){ let s = 0; for (let k = 0; k < starts.length; k++) if (starts[k] <= i) s = k; const a = starts[s], b = (starts[s+1] ?? N) - 1; return [s+1, VS[a].v, VS[b].v]; }
+// ---------- track
+const W = 1000, X = t => 8 + (W - 16) * t / TOT;
+const layers = {mode:true, noise:true, sections:true, markers:true, blocks:true};
+const LEG = [["blocks","Theme blocks","--track"],["mode","Voice: discourse (up) / action (down)","--bronze"],["noise","Noise share","--muted"],["sections","Self-found breaks","--ink"],["markers","Markers","--violet"]];
+$("#legend").innerHTML = LEG.map(([k,l,c]) => `<button aria-pressed="true" data-l="${k}"><span class="sw" style="background:var(${c})"></span>${l}</button>`).join("");
+$("#legend").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const k = b.dataset.l; layers[k] = !layers[k]; b.setAttribute("aria-pressed", layers[k]); drawTrack(); });
+let cur = 0;
+function drawTrack(){
+  let h = "";
+  if (layers.blocks) BLOCKS.forEach(([nm,a,b],j) => { const x1 = X(VS[IDX[a]].t), x2 = X(VS[IDX[b]].t + VS[IDX[b]].d); h += `<rect x="${x1}" y="14" width="${x2-x1}" height="112" fill="var(--track)"/><text x="${x1+3}" y="${j%2?24:34}">${nm}</text>`; });
+  h += `<line x1="8" x2="${W-8}" y1="70" y2="70" stroke="var(--rule)"/>`;
+  if (layers.mode){ let p = ""; VS.forEach((v,i) => { p += (i ? "L" : "M") + X(v.t).toFixed(1) + "," + (70 - 24 * Math.max(-1.6, Math.min(1.6, v.sm))).toFixed(1); }); h += `<path d="${p}" fill="none" stroke="var(--bronze)" stroke-width="1.4"/>`; }
+  if (layers.noise) VS.forEach(v => { const hh = Math.max(0, (v.nz - 0.24) * 120); h += `<rect x="${X(v.t).toFixed(1)}" y="${(160 - hh).toFixed(1)}" width="1" height="${hh.toFixed(1)}" fill="var(--muted)" opacity=".55"/>`; });
+  if (layers.sections) VS.forEach(v => { if (v.br) h += `<line x1="${X(v.t)}" x2="${X(v.t)}" y1="8" y2="164" stroke="var(--ink)" stroke-width="${v.br==="major"?2:0.8}" ${v.br==="major"?"":'stroke-dasharray="3 3"'}/>${v.br==="major"?`<text x="${X(v.t)+3}" y="12" style="fill:var(--ink)">${v.v}</text>`:""}`; });
+  if (layers.markers){ const lanes = Object.keys(MK); VS.forEach(v => v.mk.forEach(m => { const li = lanes.indexOf(m); if (li < 0) return; h += `<rect x="${X(v.t)-1}" y="${168 + li*4}" width="2.4" height="3" fill="var(${MK[m][1]})"/>`; })); }
+  for (let c = 1; c <= 21; c++) h += `<text x="${X(D.chapStart[c])}" y="206">${c}</text>`;
+  const v = VS[cur], x = X(v.t);
+  h += `<line x1="${x}" x2="${x}" y1="4" y2="198" stroke="var(--lapis)" stroke-width="2"/><polygon points="${x-5},2 ${x+5},2 ${x},9" fill="var(--lapis)"/>`;
+  $("#track").innerHTML = h;
+}
+function idxAtTime(t){ let lo = 0, hi = N - 1; while (lo < hi){ const m = (lo + hi + 1) >> 1; if (VS[m].t <= t + 0.01) lo = m; else hi = m - 1; } return lo; }
+const svg = $("#track");
+function pick(ev){ const r = svg.getBoundingClientRect(); const x = (ev.clientX - r.left) / r.width * W; select(idxAtTime((x - 8) / (W - 16) * TOT), true); }
+svg.addEventListener("click", pick);
+// ---------- reader
+function select(i, user){
+  cur = Math.max(0, Math.min(N - 1, i)); const v = VS[cur], s = secOf(cur);
+  $("#vref").textContent = v.v; $("#secname").textContent = `section ${s[0]} · ${s[1]}–${s[2]}`;
+  $("#greek").textContent = v.g; $("#ipa").textContent = v.ipa || ""; $("#ipa").hidden = !v.ipa; $("#kjv").textContent = v.e;
+  const blk = BLOCKS.find(([n,a,b]) => cur >= IDX[a] && cur <= IDX[b]);
+  const mk = v.mk.map(m => `<span class="pill" style="color:var(${MK[m]?.[1]||"--muted"})" title="${MK[m]?.[2]||""}">${MK[m]?.[0]||m}</span>`).join("") || "—";
+  const ec = v.ec.map(e => `<a class="vlink" data-v="${e}">${e}</a>`).join(", ") || "—";
+  const kv = [["Spoken at", `${fmt(v.t)} · ${v.d.toFixed(1)} s`], ["Section break", v.br ? `${v.br} (pause before)` : "—"], ["Theme block", blk ? blk[0] : "—"],
+    ["Voice mode", `${v.m >= 0 ? "+" : ""}${v.m.toFixed(2)} ${v.m >= 0 ? "discourse" : "action"}<div class="meter"><i style="left:${v.m >= 0 ? 50 : 50 + Math.max(-50, v.m * 20)}%;width:${Math.min(50, Math.abs(v.m) * 20)}%"></i></div>`],
+    ["Noise share", `${v.nz.toFixed(3)} <span class="note">(book 0.326)</span><div class="meter"><i style="left:0;width:${Math.max(0, Math.min(100, (v.nz - 0.2) / 0.25 * 100))}%"></i></div>`],
+    ["Syllables", v.sy], ["Breath groups", v.bg], ["Historic presents", v.hp], ["Body / motion", v.bd.join(", ") || "—"], ["Markers", mk], ["Echoes", ec]];
+  $("#kv").innerHTML = kv.map(([a,b]) => `<dt>${a}</dt><dd>${b}</dd>`).join("");
+  drawTrack();
+  if (user){ try { history.replaceState(null, "", "#listen"); } catch(e){} if (!vid.paused) seekTo(cur); }
+}
+$("#kv").addEventListener("click", e => { const a = e.target.closest("a.vlink"); if (a) select(IDX[a.dataset.v], true); });
+$("#prev").onclick = () => select(cur - 1, true); $("#next").onclick = () => select(cur + 1, true);
+document.addEventListener("keydown", e => { if (document.querySelector("#v-listen").hidden || e.target.closest("input,select,textarea,video")) return; if (e.key === "ArrowRight") select(cur + 1, true); if (e.key === "ArrowLeft") select(cur - 1, true); });
+// ---------- video
+const vid = $("#vid"); let follow = true, vidCh = 0;
+if (!D.hasVideo){ $("#play").disabled = true; $("#novideo").hidden = false; }
+function seekTo(i){
+  const v = VS[i], c = v.c, off = v.t - D.chapStart[c] - 0.1;
+  const go = () => { try { vid.currentTime = Math.max(0, off); } catch(e){} vid.play().catch(()=>{}); };
+  if (vidCh !== c){ vidCh = c; vid.src = `video/john_ch${String(c).padStart(2,"0")}.mp4`; vid.hidden = false; vid.addEventListener("loadedmetadata", go, {once:true}); vid.load(); } else go();
+}
+$("#play").onclick = () => seekTo(cur);
+$("#follow").onclick = e => { follow = !follow; e.target.setAttribute("aria-pressed", follow); e.target.textContent = `Follow along: ${follow ? "on" : "off"}`; };
+vid.addEventListener("timeupdate", () => { if (!follow || !vidCh) return; const t = D.chapStart[vidCh] + vid.currentTime; const i = idxAtTime(t); if (i !== cur && VS[i].c === vidCh) select(i, false); });
+vid.addEventListener("ended", () => { if (vidCh < 21){ const i = IDX[`${vidCh+1}:1`]; select(i, false); seekTo(i); } });
+// ---------- claims
+const ST = {holds:["Holds","--ok"], revised:["Holds, revised","--lapis"], partial:["Partial","--warn"], down:["Downgraded","--bad"], hand:["Check by hand","--bronze"], ns:["Not surviving correction","--muted"]};
+const CLAIMS = [
+ ["holds","John's outline is drawn by the voice","Blind segmentation of the switch between narration and direct address puts its cuts at 1:16, 13:33 and 18:1: the end of the prologue, the start of the farewell discourse, the arrest.","p = 0.00023 against Brown's outline with one million random cut sets; significant in 9 of 9 parameter settings. Weaker against outlines that start the farewell at 13:1 (Moloney 0.03, Dodd 0.10). Part of the effect is built in, since the farewell discourse is by definition speech.","Read 13:31–33 and 18:1 aloud: the voice changes exactly there.","robustness/robustness.py · robustness/highres.py · code/analysis/round30.py","13:33"],
+ ["holds","Only John is built this way","The same signal fails to recover the outlines of Mark, Matthew, Luke, Acts and Genesis.","John has the lowest p in 88% of 288 outline × setting combinations. Share of settings significant: Mark 17%, Matthew 0%, Luke 0%, Acts 0%, Genesis 0%.","Compare how often Matthew's or Luke's sections begin with a change of speaker.","robustness/results.json → segmentation · code/analysis/round31.py","18:1"],
+ ["revised","Clause edges survive in unspaced papyri","A compression model given only the letters of P66, P75, Sinaiticus or Vaticanus cuts at John's clause ends more often than elsewhere. It does not do this for Luke written by the same scribe, for Mark, or for Paul.","Revised in round 29: the cause is John's habit of starting clauses without a connective (asyndeton). Mark's and Luke's καί and ὁ δέ glue onto the preceding word and hide the edge.","Write out a page of John and of Mark without spaces and look for where clauses begin.","code/analysis/self_structure.py · round28.py · round29.py","1:1"],
+ ["partial","Scribes wrote what they heard","About half of manuscript variants in John sound identical in Koine pronunciation.","P66 60%, Sinaiticus 53%, Vaticanus 53%, P75 35% (only 86 variants). Under Attic pronunciation about 0%, so the effect comes from Koine sound change.","Look up itacism variants such as ἡμεῖς / ὑμεῖς in any apparatus.","code/analysis/ms_sound.py (MS_ERA switch)","4:22"],
+ ["down","Living water at the centre of Leviticus and the Song","The phrase מים חיים sits at the exact centre of Leviticus and of the Song of Songs.","Fails the pre-registered every-count rule. Leviticus: centre by Hebrew letters 14:50 (on the phrase), by words 14:47 (3 verses away), by verses 15:7 (6 verses away), Septuagint verses 13 away. The Song holds in all counts. Chance corrected for 39 books: 0.007.","Count Leviticus's 859 verses: the middle verse is in chapter 15.","robustness/results.json → C3","4:10"],
+ ["hand","The prologue's spoken centre is 1:12","Counted in syllables, the midpoint of 1:1–18 falls in verse 12 in P66, P75, Sinaiticus, Vaticanus and the Syriac, Coptic and Latin.","A count, not a statistical test. Also found again by self-found letter units in round 27.","Count the syllables of 1:1–18 and find the middle one.","code/analysis/earliest_text.py · aramaic_prologue.py","1:12"],
+ ["hand","Torn and not torn","σχίζω/σχίσμα: the crowd is divided three times (7:43, 9:16, 10:19), then the tunic is not torn (19:24) and the net is not torn (21:11). Behind it stands Leviticus 21:10: the high priest shall not tear his garments.","A concordance fact. Its order and placement were tested; the order test did not reach significance (p 0.15).","Look up σχίζω and σχίσμα in a concordance of John.","code/analysis/round13.py · round14.py","19:24"],
+ ["hand","153 fish and Ezekiel 47:10","Fishermen from En-gedi to En-eglaim: the gematria of Gedi is 17 and of Eglaim 153. It is the only fishing verse in the Hebrew Bible with this property.","Known since Emerton (1958). Confirmed here as unique among fishing verses.","Add the letter values of גדי and עגלים.","code/analysis/river_key.py","21:11"],
+ ["hand","“I am the …” with an image","47% of John's “I am” sayings take the form “I am the + image” (bread, light, door, shepherd, resurrection, way, vine). The Septuagint has this form 4% of the time, never with a name or title.","A count across corpora; set against Sulgi, Isis and the Book of the Dead, none of which use John's images.","List every ἐγώ εἰμι in John.","code/analysis/iam_forms.py · egypt.py · isis.py","6:35"],
+ ["hand","John is the quietest Gospel","In the engine's Koine pronunciation, John has the lowest share of noisy consonants (0.326, against 0.344–0.347 for the Synoptics), and this holds on content words alone.","A measurement that depends on the pronunciation model.","Listen to any discourse chapter against a Synoptic narrative.","code/analysis/acoustic.py","14:27"],
+ ["ns","The “I am” ring","The twelve “I am the …” sayings mirror around the Gospel's centre.","Reported p 0.009–0.03. Does not survive the project-wide correction across 5,767 tests.","—","code/analysis/john_book.py","10:11"],
+ ["ns","“Life” at book centres","Book centres across the Bible lean towards “life / the living” (5 of 39).","p 0.001 at the permutation floor; needs a rerun with more permutations before it can pass the correction.","—","code/analysis/round22.py","11:25"]];
+let filt = "all";
+$("#filters").innerHTML = [["all","All"], ...Object.entries(ST).map(([k,[l]]) => [k,l])].map(([k,l]) => `<button data-f="${k}" aria-pressed="${k==="all"}">${l}</button>`).join("");
+$("#filters").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; filt = b.dataset.f; document.querySelectorAll("#filters button").forEach(x => x.setAttribute("aria-pressed", x === b)); drawClaims(); });
+function drawClaims(){
+  $("#claimlist").innerHTML = CLAIMS.filter(c => filt === "all" || c[0] === filt).map(([s,t,cl,ev,ch,fi,v]) =>
+    `<article class="claim" style="--c:var(${ST[s][1]})"><div class="st">${ST[s][0]}</div><h3>${t}</h3><p>${cl}</p>
+     <details><summary>Evidence and audit</summary><p>${ev}</p><p><b>Check it yourself:</b> ${ch}</p><p class="mono">${fi}</p></details>
+     <p><a class="vlink" data-go="${v}">Hear it at ${v} →</a></p></article>`).join("");
+}
+$("#claimlist").addEventListener("click", e => { const a = e.target.closest("a[data-go]"); if (!a) return; location.hash = "listen"; select(IDX[a.dataset.go], true); });
+// ---------- robustness charts
+function drawSeg(){
+  const books = [["Jn","John"],["Mk","Mark"],["Mt","Matthew"],["Lk","Luke"],["Ac","Acts"],["Gen","Genesis"]];
+  const L = 110, R = 880, xm = 4, X2 = p => L + (R - L) * Math.min(xm, -Math.log10(Math.max(p, 1e-4))) / xm;
+  let h = ""; [0,1,2,3,4].forEach(t => { const x = L + (R - L) * t / xm; h += `<line x1="${x}" x2="${x}" y1="20" y2="270" stroke="var(--rule)"/><text x="${x}" y="290" text-anchor="middle">${t === 0 ? "1" : "10⁻" + t}</text>`; });
+  const x05 = X2(0.05); h += `<line x1="${x05}" x2="${x05}" y1="16" y2="272" stroke="var(--bad)" stroke-dasharray="4 4"/><text x="${x05+4}" y="14" style="fill:var(--bad)">p = 0.05</text>`;
+  books.forEach(([b,nm],j) => {
+    const y = 40 + j * 42; h += `<text x="${L-12}" y="${y+4}" text-anchor="end" style="fill:var(--ink);font-size:12px">${nm}</text>`;
+    D.seg.filter(r => r.b === b).forEach((r,q) => { const jit = ((q * 37) % 23 - 11) * 0.9, base = r.ms === 15 && r.md === "full";
+      h += `<circle cx="${X2(r.p).toFixed(1)}" cy="${(y + jit).toFixed(1)}" r="${base ? 5 : 3}" fill="${base ? "none" : (b === "Jn" ? "var(--lapis)" : "var(--muted)")}" stroke="${b === "Jn" ? "var(--lapis)" : "var(--muted)"}" stroke-width="${base ? 1.6 : 0}" opacity="${base ? 1 : .55}"><title>${nm} · ${r.o} · min ${r.ms} · ${r.md} · p ${r.p.toFixed(4)} · cuts ${r.cu.join(" ")}</title></circle>`; });
+  });
+  h += `<text x="${(L+R)/2}" y="300" text-anchor="middle" style="font-size:10px"></text>`;
+  $("#segchart").innerHTML = h;
+  const hr = D.hr; $("#hrnote").innerHTML = `One million random cut sets for John's baseline cuts (1:16, 13:33, 18:1): Brown <b>p ${hr["Jn/Brown"].p.toExponential(1)}</b> · round-30 outline p ${hr["Jn/round30"].p.toFixed(4)} · Moloney p ${hr["Jn/Moloney"].p.toFixed(3)} · Dodd p ${hr["Jn/Dodd"].p.toFixed(3)}. Mark for comparison: ${hr["Mk/A"].p.toFixed(3)} and ${hr["Mk/B"].p.toFixed(3)}. Values below 10⁻⁴ are drawn at the edge.`;
+}
+function drawTables(){
+  const rows = [["Leviticus, Hebrew", D.c3.Lev.centres], ["Song of Songs, Hebrew", D.c3.Song.centres], ["Leviticus, Greek", D.c3.Lev_LXX.centres], ["Song of Songs, Greek", D.c3.Song_LXX.centres]];
+  let h = "<tr><th>Text</th><th>Count by</th><th>Centre</th><th>Verses from phrase</th></tr>";
+  rows.forEach(([nm,c]) => Object.entries(c).forEach(([u,r]) => { h += `<tr><td>${nm}</td><td>${u}</td><td>${r.centre}</td><td class="${r.dist <= 3 ? "ok" : "bad"}">${r.dist}</td></tr>`; }));
+  $("#c3").innerHTML = h; $("#c3note").textContent = `The phrase occurs in Leviticus at ${D.c3.Lev.hits.join(", ")} and in the Song at ${D.c3.Song.hits.join(", ")}. Chance that two or more of the 39 books would have it within 3 verses of their centre: ${D.c3p.toFixed(3)}, before allowing for the many motifs that were inspected.`;
+  const eras = Object.keys(D.c11), mss = Object.keys(D.c11[eras[0]]);
+  let t = "<tr><th>Pronunciation</th>" + mss.map(m => `<th>${m}</th>`).join("") + "</tr>";
+  eras.forEach(e => { t += `<tr><td>${e}</td>` + mss.map(m => `<td>${Math.round(D.c11[e][m] * 100)}%</td>`).join("") + "</tr>"; });
+  $("#c11").innerHTML = t;
+  $("#gnote").innerHTML = `Narrow pool: ${D.g.n} p-values written in the discoveries file; Benjamini–Hochberg at q = 0.05 keeps ${D.g.survive} (threshold ${D.g.threshold.toFixed(3)}). Wide pool: <b>${D.g2.n.toLocaleString()}</b> p-values stored across all results files, including descriptive sub-tests; threshold <b>${D.g2.thr.toFixed(5)}</b>. John's voice-drawn outline (Brown, p 0.00023) passes even the wide pool. Most other single results do not, so they are reported as leads for replication, not as discoveries.`;
+  const tr = [["Pre-registration commit", D.prereg], ...Object.entries(D.hashes).map(([f,h]) => [`SHA-256 · ${f}`, h])];
+  $("#trail").innerHTML = "<tr><th>Item</th><th>Value</th></tr>" + tr.map(([a,b]) => `<tr><td>${a}</td><td class="mono">${b}</td></tr>`).join("") +
+    `<tr><td>Sources</td><td class="mono">SBLGNT aaed91e · OSHB morphhb 3d15126 · Swete LXX 26bad3e · CNTR 4e743a4</td></tr><tr><td>Full record</td><td class="mono">AUDIT.md · robustness/PREREGISTRATION.md · robustness/results.json</td></tr>`;
+}
+$("#copy").onclick = () => { const t = $("#cmd").textContent; navigator.clipboard.writeText(t).then(() => $("#copied").textContent = "Copied", () => { const r = document.createRange(); r.selectNodeContents($("#cmd")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("#copied").textContent = "Selected: press Ctrl+C or ⌘C"; }); };
+// ---------- routing
+function route(){ const v = (location.hash || "#listen").slice(1); const ok = ["listen","claims","robust","method"].includes(v) ? v : "listen";
+  ["listen","claims","robust","method"].forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); }
+addEventListener("hashchange", route); route();
+select(IDX["1:1"], false); drawClaims(); drawSeg(); drawTables();
+</script>

@@ -127,3 +127,16 @@ Model: Greek known to be translated from Hebrew (Genesis, Kingdoms, Psalms, Dani
   - Profile: a Semitic speaker composing directly in Greek, in his own spoken style. Not a translation (consistent with the Greek-only puns, round 15).
 - **V The prologue is the most Semitic part of John (0.59).** It has no particles at all, and 79% of its sentences have no connective, closest to the Greek Psalms (72%). That fits the theory that the prologue was a hymn, possibly with a Semitic poetic background, and fits "breathes like a psalm".
 - **Context:** Revelation scores as translation Greek (0.74), Mark leans Semitic (0.69), and Romans and Hebrews are composed Greek (0.36–0.39). 1 John scores 0.62.
+
+## N. Round 17: the prologue in Aramaic, and the form of "I am" (code/analysis/aramaic_prologue.py, iam_forms.py)
+- **N The Aramaic (Syriac) prologue is not more patterned than the Greek.** Against its own baseline (every other 18-verse window of the Peshitta Gospels): staircase average (51st percentile), rhyme none, consonant word-play high but not exceptional (86th). The Greek staircase is at the 80th percentile.
+  - The **centre stays in 1:12** in both languages.
+  - Syriac sound-echoes visible by eye: 1:5 *nuhra … manhar* (light … shines, one root) with *ḥeshukha* twice; 1:14 *shubḥeh shubḥa* ("his glory, glory") and *aggen* ("dwelt / overshadowed"), the Syriac verb of divine presence.
+  - Burney's "Aramaic original hymn" is not supported by measurable structure. The prologue's patterning is a Greek-language feature, though its style is Semitic (round 16).
+- **V John's "I am" has its own form.**
+  - "I am **the** + noun" (the bread, the light, the door, the way) is 47% of John's "I am" uses (15 of 32), against 4% in the Septuagint and 8% in the Synoptics. Philo's 20% is mostly quotations of Exodus 3:14, "I am the One who is".
+  - The Septuagint's dominant form, "I am the Lord" (36%), **never appears in John**.
+  - John's other strong form is the absolute "I am" (31%; e.g. 8:58), matching Isaiah's divine *egō eimi* (Septuagint 24%).
+  - The Isis-hymn form, "I am [Name], [title]", is absent from John (its only case is Pilate's "Am I a Jew?").
+  - Profile: John joins Isaiah's absolute divine "I am" to everyday images (bread, light, door, vine), with no name and no title. He follows neither the Septuagint's formula nor the Egyptian aretalogy pattern.
+- **Pending:** the Isis aretalogies (Kyme, Andros) themselves. Their Greek text sits on sites outside this session's network allowance (attalus.org; the PHI inscriptions database). Allowing one of those hosts would let them run through the same measures.

@@ -312,3 +312,26 @@ Three tests that impose no units of ours, each with a null or a control.
 - **N** The best three-part division of John's mode series is 1:1–13:32 | 13:33–17:26 | 18:1–21:25, which is 605, 123 and 138 verses (153, 33 and 42 minutes in the sound model). These are not equal thirds, so "three ~76-minute sittings" is rejected. The one-third period was the trace of one large block.
 - **S (method)** That block is the farewell discourse, found blind. The cut falls exactly at 18:1, and the other cut at 13:33, two verses from the 13:31 where commentators begin the discourse. The 3-part fit beats power-law noise surrogates (variance explained 0.141 against 0.082; p < 0.001).
 - The same test on Matthew finds the Sermon on the Mount (5:11–7:8; p < 0.001 against the surrogates). The tool recovers each Gospel's largest discourse without being told. It is a structural finder, not a sign of any special design in John.
+
+## AC. John's sections from the text alone, 4 to 8 parts (round 30, `round30.py`)
+Optimal segmentation (dynamic programming, sections of at least 15 verses) of two signals that know nothing of chapters or outlines:
+- the action/discourse **mode**;
+- the **vocabulary** (subject change).
+
+Cuts were scored against a standard commentators' outline and against chapter starts, with 5,000 random cut sets as the null. Section names are each section's own most distinctive words.
+- **S The four-part shape is recovered exactly.** On the mode signal the best 4 parts are:
+  - 1:1–15 [light, dwelt, full, enlighten];
+  - 1:16–13:32 [crowd, feast, come down, blind];
+  - 13:33–17:26 [world, love, little while, fruit];
+  - 18:1–21:25 [Pilate, crucify, soldiers, Peter].
+
+  All three cuts fall within 3 verses of the outline: 1:16 against 1:19 (the prologue ends at 1:18), 13:33 against 13:31, and 18:1 exactly. The mean distance is 1.7 verses against 19.5 for random cuts (p 0.001). Prologue, signs, farewell, passion: the classic structure, found without being told. The farewell begins at 13:31, not at 13:1 where outlines put the "Book of Glory".
+- **Most stable cuts** (counted over 10 segmentations): 18:1 ×7, 13:33 ×5, 6:29 ×4, 7:52 ×4, 8:56 ×4, 17:1 ×3, 17:26 ×3.
+- **Finer sections follow John's discourses, not his feasts.** With 5–8 parts, agreement with the feast-based outline (5:1, 7:1, 10:22, 12:12) is no better than chance (p 0.09–0.29). The units the text marks off itself are:
+  - the bread-of-life discourse, 6:29–6:60 [bread, heaven, eat/chew, eat], ending exactly where the disciples react (6:60);
+  - the Abraham debate, 7:52–8:55 [Abraham, liar, set free, free]. SBLGNT omits 7:53–8:11, so this cut sits on the adulteress seam;
+  - the blind man's interrogation, 9:8–9:34 [sinner, see again, open, eyes];
+  - Lazarus and the shepherd, 9:35–14:x [Lazarus, Martha, feet, sheep];
+  - the vine and the Paraclete, 14:4/14:5–16:33 [fruit, branch, Paraclete, sorrow];
+  - the prayer, 17:1–17:25 [sanctify, world, yours, give], which matches chapter 17 exactly.
+- **Meaning:** at the largest scale, John's own signals draw the four-part structure scholars use. Below that, the text divides itself by *speeches* (bread, Abraham, the blind man's trial, vine/Paraclete, prayer), not by the festival calendar. The festivals are narrative frame; the discourses are the units a listener would hear as sections.

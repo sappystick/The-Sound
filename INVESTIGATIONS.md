@@ -7,9 +7,9 @@ Prologue centre (all manuscripts; Syriac, Coptic, Latin) · "I am" ring · livin
 Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse-level mirrors · reversed links · noisy turning points · intimate quiet (pronoun effect) · within-verse effect (language and quotation) · an Aramaic original being more patterned.
 
 ## Open (next)
+0. **New from rounds 18–19:** the vertical axis (ascend/descend) set against the Songs of Ascents (Psalms 120–134); Inana's Descent full motif map against John 11 and 20; Gudea's temple-dream (Literature volume) against John 2:19–21.
 1. **Isis aretalogies** (Kyme, Andros): needs attalus.org or the PHI site allowed in network settings; then compare their "I am" form, sound and structure with John.
-2. **"Lamb of God" as *ṭalyā* (lamb / servant):** test against Isaiah 53's servant vocabulary in John 1:29–36 and the Septuagint.
-3. **Synagogue festival readings:** John 6 against the Passover readings; John 7–9 against Tabernacles (Zechariah 14 is done).
+3. **Synagogue festival readings:** John 6 → Exodus 16 confirmed (round 19); next: John 5 and 10 (Dedication) against their festival readings.
 4. **Performance map:** breath groups, "Amen, amen" cues and the narrator's *oun*, laid out as reading sessions.
 5. **Egyptian themes** (Memphite Theology, Ma'at, the opening of the mouth, the Book of the Dead's "I am" chains): needs translated texts; fixed-list comparison with a control, as done for the Scrolls.
 6. **Ignatius in depth:** the full overlap of his "bread of God" and "spirit … whence it comes" passages with John.

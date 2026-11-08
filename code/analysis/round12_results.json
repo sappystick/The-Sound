@@ -1,0 +1,230 @@
+{
+ "idioms": {
+  "sons of light": {
+   "scrolls": 20,
+   "qs": 5,
+   "hb": 0,
+   "johannine": 1,
+   "other_nt": 1,
+   "lxx": 0
+  },
+  "sons of darkness": {
+   "scrolls": 14,
+   "qs": 1,
+   "hb": 0,
+   "johannine": 0,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "spirit of truth": {
+   "scrolls": 2,
+   "qs": 1,
+   "hb": 0,
+   "johannine": 4,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "spirit of deceit / error": {
+   "scrolls": 8,
+   "qs": 2,
+   "hb": 0,
+   "johannine": 1,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "doing the truth": {
+   "scrolls": 5,
+   "qs": 3,
+   "hb": 1,
+   "johannine": 2,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "walking in truth / in darkness": {
+   "scrolls": 3,
+   "qs": 1,
+   "hb": 1,
+   "johannine": 3,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "light of life": {
+   "scrolls": 4,
+   "qs": 1,
+   "hb": 2,
+   "johannine": 1,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "eternal life": {
+   "scrolls": 8,
+   "qs": 1,
+   "hb": 1,
+   "johannine": 19,
+   "other_nt": 18,
+   "lxx": 3
+  },
+  "love the brothers / hate": {
+   "scrolls": 0,
+   "qs": 0,
+   "hb": 0,
+   "johannine": 2,
+   "other_nt": 0,
+   "lxx": 0
+  },
+  "men of truth": {
+   "scrolls": 9,
+   "qs": 0,
+   "hb": 1,
+   "johannine": 3,
+   "other_nt": 0,
+   "lxx": 0
+  }
+ },
+ "arc": {
+  "events": [
+   [
+    0.002,
+    "separation",
+    "1:3"
+   ],
+   [
+    0.159,
+    "completion",
+    "4:34"
+   ],
+   [
+    0.223,
+    "completion",
+    "5:36"
+   ],
+   [
+    0.363,
+    "separation",
+    "7:43"
+   ],
+   [
+    0.445,
+    "separation",
+    "9:16"
+   ],
+   [
+    0.487,
+    "separation",
+    "10:12"
+   ],
+   [
+    0.491,
+    "one (unity)",
+    "10:16"
+   ],
+   [
+    0.496,
+    "separation",
+    "10:19"
+   ],
+   [
+    0.507,
+    "one (unity)",
+    "10:30"
+   ],
+   [
+    0.573,
+    "one (unity)",
+    "11:52"
+   ],
+   [
+    0.573,
+    "separation",
+    "11:52"
+   ],
+   [
+    0.723,
+    "separation",
+    "15:5"
+   ],
+   [
+    0.785,
+    "separation",
+    "16:32"
+   ],
+   [
+    0.792,
+    "completion",
+    "17:4"
+   ],
+   [
+    0.8,
+    "one (unity)",
+    "17:11"
+   ],
+   [
+    0.812,
+    "one (unity)",
+    "17:21"
+   ],
+   [
+    0.814,
+    "one (unity)",
+    "17:22"
+   ],
+   [
+    0.814,
+    "completion",
+    "17:23"
+   ],
+   [
+    0.814,
+    "one (unity)",
+    "17:23"
+   ],
+   [
+    0.907,
+    "completion",
+    "19:28"
+   ],
+   [
+    0.909,
+    "completion",
+    "19:30"
+   ],
+   [
+    0.932,
+    "separation",
+    "20:7"
+   ]
+  ],
+  "inversions": 56,
+  "p": 0.08525
+ },
+ "ego": {
+  "Jn": [
+   3.5626376473636485,
+   11.335665241611608,
+   7.449151444487629,
+   13.278922140173599,
+   6.153646845446301
+  ],
+  "Mt": [
+   2.182334006219652,
+   1.6367505046647388,
+   0.2727917507774565,
+   1.9095422554421955,
+   1.6367505046647388
+  ],
+  "Mk": [
+   0.4430267588162325,
+   0.886053517632465,
+   0.4430267588162325,
+   3.1011873117136277,
+   2.2151337940811624
+  ],
+  "Lk": [
+   1.0284891494394734,
+   0.771366862079605,
+   0.5142445747197367,
+   1.0284891494394734,
+   2.056978298878947
+  ]
+ }
+}

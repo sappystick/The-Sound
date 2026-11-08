@@ -57,3 +57,23 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
   - **Clement of Alexandria** (c. 200) has many: living water, bread of life, light of the world, lamb of God, only-begotten son, true vine.
   - **Ignatius** (c. 110) has two strong ones: "bread of God" and "knows whence it comes and where it goes" (John 3:8).
   - **Polycarp and Hermas** have none. Philo has none (the control passes).
+
+## I. Round 12: Scroll idioms widened; separation → one → completion; the "I" line (code/analysis/round12.py)
+- **V A cluster of Scroll-Johannine idioms.** These occur in the Dead Sea Scrolls and in John or 1–3 John, but not (or once at most) in the Hebrew Bible, the Septuagint or the rest of the NT:
+  - "sons of light" (Scrolls 20; Hebrew Bible 0)
+  - "spirit of truth" (Scrolls 2; John 4×)
+  - "spirit of error/deceit" (Scrolls 8; 1 John 4:6)
+  - "doing the truth" (Scrolls 5, Hebrew Bible 1; John 3:21, 1 John 1:6)
+  - "walking in truth / in darkness" (Scrolls 3, Hebrew Bible 1; Johannine 3, other NT 0)
+  - "of the truth / men of truth" (Scrolls 9, Hebrew Bible 1; Johannine only)
+  The link is known in scholarship (Charlesworth and others); the counts here quantify it.
+- **O Separation → one → completion.**
+  - Separation words cluster in the middle: schism at 7:43, 9:16 and 10:19; scatter at 10:12, 11:52 and 16:32.
+  - "One" runs from 10:16 ("one flock") and 10:30 ("I and the Father are one") to 17:21–23.
+  - Completion culminates in 17:23 ("perfected into one"), 19:28 and 19:30 ("It is finished").
+  - Ordered more than chance? p = 0.085, suggestive but not significant.
+- **V The "I" line.**
+  - John uses emphatic *egō* 3–13 times per 1,000 words, against under 3 in Matthew, Mark and Luke.
+  - Jesus' last plain emphatic "I" is 18:37: "*for this I was born* … to bear witness to the truth". After that (19:6 is Pilate) the plain *egō* never returns.
+  - The risen Jesus' only emphatic "I" is *kagō* ("and I / so I") in 20:21: "As the Father has sent me, *so I* send you". It is joined to the Father and followed by the breath (20:22).
+  - This is a textual observation that fits the "not from myself" thread. It is too small to test statistically.

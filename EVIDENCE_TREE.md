@@ -55,5 +55,5 @@ Code for each result is in `code/analysis/` (the script is named in brackets).
 - **N** Version 1 (token pairs, rotation null) gave false hits from repeated formulas (Leviticus 11 against John 16:4) and missed the controls. It was rejected.
 - **N** No book's positions line up with John's beyond chance after correction. Genesis is strongest (any-shape p = 0.010 uncorrected) and is a targeted follow-up, given John's Genesis overlay.
 - **N** Across all book pairs: no same-place, mirror or simple-ratio tendency.
-- **O** Micro scale: a shared rare phrase sits at the same fraction of both verses more than random pairing (words p < 0.001; letters p < 0.001). This is probably formulaic syntax (phrases that open verses); test again with formulas removed.
+- **N** Micro scale: the same-slot effect is language (each phrase's habitual slot; also found in Josephus and the Hebrew Bible), plus quotation (it strengthens with shared wording). It is not design [micro_verse].
 - **V** (method limit) A single parallel chapter, such as 2 Samuel 22 with Psalm 18, is invisible at whole-book level. Point connections need a chapter-level test.

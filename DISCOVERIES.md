@@ -19,7 +19,6 @@
 
 ## C. Potential (open; needs more data or a targeted test)
 - **Inverted links:** John 18 (Jesus before Pilate) ~ Acts 26 (Paul before Agrippa) in reverse order ("all the Jews", "Jesus the Nazarene", "do you say this of yourself"); John 4 ("this mountain", worship) ~ Matthew 17 ("say to this mountain") in reverse. Only 4 links each.
-- **Within-verse position:** shared rare phrases sit at the same fraction of both verses, and the effect grows when formulas are removed (0.276 against 0.326, p < 0.001). Not explained yet.
 - **Egypt / Hermetica** lean toward John's vocabulary (not significant). Genesis is John's strongest book-level position link (p = 0.010 uncorrected), but John's chapter order does not follow Genesis (rho −0.21).
 
 ## D. Negative (tested, not found)
@@ -28,3 +27,9 @@
 - Verse-level mirrors, frames and cycles after correction. Repeating cycles are in narrative, not poetry (narrative 11.2%, poetry 4.7%).
 - Atbash beyond its known cases: the scan recovers Sheshach → Babel (Jeremiah 51:41) but finds only noise otherwise (13 hits, against 7 for a random cipher).
 - Name acrostics in the Greek New Testament: none (the control finds Lamentations 1 and Psalm 34).
+
+## E. Round 8: the within-verse effect, resolved (code/analysis/micro_verse.py)
+- **Explained as language, not design.** Each phrase has a habitual slot: some open sentences, others close them. Cross-book pairs are *no closer* than two random uses of the same phrase (0.303 against 0.286). The same effect appears in Josephus (ratio 0.92) and in the Hebrew Bible (0.88).
+- **The one real signal is quotation.** When two verses share more rare words, the phrase sits in almost the same place (ratio 0.89 → 0.41 → 0.28 → 0.08 as shared words rise from 0 to 4+). Copying keeps word order.
+- **New Testament writers reshape the Old Testament when they quote it.** NT~OT pairs keep the position least (0.93), against NT~NT (0.78, the Synoptic parallels) and refrains in the same chapter (0.63).
+- **A blind quotation detector** built from this finds only known links for John: Isaiah 53:1 (John 12:38); "baptize with water ... Holy Spirit" (Matthew 3:11, Luke 3:16, Acts 11:16); the cock crowing (Matthew 26:74, Mark 14:68); "take up your mat" (Mark 2:9). John shares remarkably little verbatim wording with any other book, which fits the view that John is independent of the Synoptics.

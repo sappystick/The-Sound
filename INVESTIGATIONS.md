@@ -4,9 +4,10 @@
 Prologue centre (all manuscripts; Syriac, Coptic, Latin) · "I am" ring · living water at the centres of Leviticus and the Song of Songs · hyssop, blood and water · 153 → Ezekiel 47 (unique fishing verse) · Wisdom 18 and the light family · narrator decoding and "not from myself" (John only) · John farthest from the spells; psalm-like breath · John's quieter sound · Scroll-Johannine idioms · the schism word (people divided; tunic and net not torn) · Leviticus 21:10 against the torn garments of the Synoptics · high-priest words in P66, P75, Sinaiticus and Vaticanus · sound-alike variants (the spoken text was more stable than the written) · Greek-only word-chains · John composed in Greek by a Semitic voice; prologue psalm-like · John's own "I am" form.
 
 ## Closed: negative or corrected
-Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse-level mirrors · reversed links · noisy turning points · intimate quiet (pronoun effect) · within-verse effect (language and quotation) · an Aramaic original being more patterned.
+Recurrence rings · multi-layer co-peaking · line breaks at self-found units (round 27) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse-level mirrors · reversed links · noisy turning points · intimate quiet (pronoun effect) · within-verse effect (language and quotation) · an Aramaic original being more patterned.
 
 ## Open (next)
+000. **From round 27:** test the action/discourse alternation as a rhythm (period of the mode switch; is it regular, like scenes?). Run segmentation on Sinaiticus/Vaticanus and on a non-Johannine papyrus, as controls for the breath-edge effect.
 00. **Sound model:** add manuscript line-breaks as breath groups (P66, P75, 01, 03); render sample passages through the engine in each room; listener tests.
 0. **New from rounds 18–19:** the vertical axis (ascend/descend) set against the Songs of Ascents (Psalms 120–134); Inana's Descent full motif map against John 11 and 20; Gudea's temple-dream (Literature volume) against John 2:19–21.
 1. **Isis:** Isidorus' hymns and the Kyme structure done (round 20). Still wanted: the *ancient* Greek of the Kyme aretalogy (IK Kyme 41) for a sound test.

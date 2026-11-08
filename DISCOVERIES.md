@@ -242,3 +242,28 @@ A configurable, evidence-labelled reconstruction of John as heard (see model/REA
 - **N Not in the Gospels.** With the same engine applied to prose, fast-action narrative verses are no lighter than other narrative in John (−0.002), Mark, Matthew or Luke. John's prose is the lightest overall, marginally (heavy share 0.611 against 0.612–0.620).
 - **N No hidden structure across scales in John's sound stream.** A test that imposes no units (detrended fluctuation analysis, which finds patterns repeating at every scale at once) gives John α = 0.503 for syllable weight and 0.518 for word length, the same as shuffled text (0.503; 0.514). Mark and Matthew show slight long-range structure in syllable weight (0.53); Josephus none.
 - **Meaning:** John's sound is uniformly smooth: quiet, light, even, with no rhythmic shapes drawn into it. His structure lies elsewhere: centres, the "I am" ring, theme blocks, tense zooms and pointers to other scripture.
+
+## Z. Structure the text finds for itself (round 27, `self_structure.py`)
+Three tests that impose no units of ours, each with a null or a control.
+
+**1. The letters choose their own units.** The unspaced letter streams of P66 (64,263 letters) and P75 (46,599 letters) were segmented two ways: by a compression model (a unigram lexicon under a minimum-description-length prior) and by byte-pair encoding.
+- **S Breath edges are written into the letter stream.** The self-found boundaries fall at clause/breath ends more often than at other word ends: MDL 52% vs 43% (P66) and 56% vs 45% (P75); BPE 79% vs 60% and 82% vs 62% (all p < 0.0001). Comparing the *same word form* at a clause end and elsewhere removes word-type effects, and a lift of +3.3% to +6.7% remains (p 0.028, 0.024, < 0.0001, < 0.0001). Nothing in the stream marks the clause; the letters around it make the edge cheaper to cut.
+- **S The prologue centre is 1:12 in self-found units too**, in both papyri. Counted in editors' words it is 1:11; counted in letters it is 1:12.
+- **The units the model glues are spoken words, not printed ones.** Preposition + article (ἐκ τοῦ, εἰς τήν, ἐν τῷ), καὶ ὁ, ἦν δέ, and **ἐγὼ εἰμί ×13 in P66** (οὐκ εἰμί in P75). John's "I am" behaves as one unit in the letters themselves.
+- **N Scribal line breaks ignore the units.** Mid-word line breaks are no more likely at self-found boundaries (MDL 19.5% vs 18.3%; BPE 8.4% vs 10.9%). Scribes broke lines by space, which agrees with "lines ≈ breath size, but not sense-lines".
+
+**2. Recurrence plot** (`map/john_recurrence.png`). Each pair of verses is scored by IDF-weighted shared vocabulary; the top 1.5% of pairs count as recurrent.
+- The detector was validated on two controls. Mark × Matthew shows lines parallel to the diagonal (0.166 against 0.010 shuffled). Mark followed by its own reversed order shows crossing lines (ratio 1.35).
+- In John, echo lines and ring lines both exceed a shuffle within each chapter (0.076 vs 0.048, and 0.073 vs 0.046). They also exceed a whole-book shuffle at long range, 30 or more verses apart (0.061 vs 0.030 for both).
+- **N No preference for rings.** The ring : echo ratio is 0.97, against 0.98 in the null (p 0.58). The lines are short (at most 3 verses). John has local and long-range returns, but no book-wide geometric ring.
+- **Long-range links found blind** (all known to commentators, recovered without being told):
+  - 3:18–20 ↔ 12:35–37, crossing: light, darkness and believing, at the opening and the close of the public ministry;
+  - 5:30–32 ↔ 8:13–16: testimony;
+  - 13:36–37 ↔ 21:20–22: Peter and "follow me";
+  - 6:28 ↔ 14:10: "the works of God";
+  - 15:19 ↔ 17:5.
+
+**3. Lining up the layers.** Six per-verse tracks (sound, tense, voice, movement, themes and pointers) were smoothed over 7 verses and tested against circular shifts.
+- **S Two modes.** Sound ↔ voice r −0.41 (p < 0.001). Voice ↔ themes +0.38 (p < 0.001). Tense ↔ movement +0.34 (p 0.003; partly shared verbs). Movement ↔ themes −0.24 (p 0.02). The text alternates between narrative action (historic presents, movement, harder sound) and discourse (1st/2nd person, theme words, quiet sound).
+- **N No multi-layer synchrony.** Verses where three or more layers peak together: 64 against 62 expected (p 0.45). Leaving out sound and voice, the count is 154 against 142 (p 0.20). The pointers (centres, "I am", the schism word, the vertical axis, the high priest, living water) are independent of every other layer (|r| ≤ 0.11).
+- **Meaning:** John's layers do not fire together. They take turns. The meaning-markers sit on a separate track from sound and motion, so the "extra dimension" is the alternation itself, together with the cross-references, not a stacked peak.

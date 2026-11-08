@@ -225,3 +225,13 @@ A configurable, evidence-labelled reconstruction of John as heard (see model/REA
 - **T4 Actions on breath boundaries:** no for John (ratio 1.05); Matthew 1.50, Mark 1.25, Luke 1.14.
 - **S Shape poetry (Alexandria and Rhodes).** The line-length detector finds the known shape poems: Simias' Wings (+0.99), Axe (−0.53), Egg (+0.39), and the Altars of Dosiadas (+0.46) and Besantinus (+0.58), all p ≤ 0.02. John's prologue verses have no shape (+0.04, p = 0.86). P75's prologue lines lean toward longer lines in the middle (−0.48, p = 0.04), a single marginal result probably caused by column layout. **N: no shape-poem geometry in John.**
 - **Verdict on "3D writing":** John is composed as voiced dialogue, more densely first- and second-person than Greek drama, with narrative carrying ordinary staging and a distinctive vertical (heaven–earth) axis. No hidden spatial, shape or movement notation was found.
+
+## X. Round 25: tense, rhythm and participles (code/analysis/action_rhythm.py)
+- **V Tense as a camera.**
+  - **John uses the historic present more than any other Gospel:** 14.1 per 1,000 words, against Mark 11.6, Matthew 6.4 and Luke 2.2.
+  - **He zooms in at his turning points.** In the fixed list of scenes (the well, the blind man, Lazarus' tomb, the footwashing, the arrest, the cross, the empty tomb, the lakeside), the rate is 28.7 per 1,000 against 14.1 in random verse sets (p < 0.0001). Without "says" (*legei*) it is still double (10.6 against 5.5, p = 0.003).
+  - By chapter, the resurrection chapters are densest: 20 (39 per 1,000) and 21 (38), then 13 (24), 1 (23) and 4 (22). The farewell prayer (17) has none.
+  - John also uses the imperfect ("the camera holding") 25% of the time, against Mark 35%, Luke 25% and Matthew 13%.
+  - **Meaning:** the narrator moves the listener into the present tense at the moments of encounter, especially at the empty tomb and the lakeside. This is the ancient *enargeia* (vividness) technique.
+- **N/INCONCLUSIVE Rhythm acting out motion.** Our syllable-weight measure (word-internal, classical values) **fails its control**: Odyssey 11.596 (pushing the stone uphill) does not come out heavier than 11.598 (the stone rolling down). It cannot see metre across word boundaries or settle ambiguous α/ι/υ lengths. Neither John nor Mark shows lighter rhythm in fast-action verses (both −0.025, not significant), but the method is not valid yet. **Needed:** true metrical scansion (positions across word boundaries), checked on Homer, before testing John.
+- **N** Participle chains are not denser at turning points (0.050 against 0.046). Turning-point verses open *with* a connective more often (fewer asyndetic openings: 0.44 against 0.52). Narrative "and / then" carries the action.

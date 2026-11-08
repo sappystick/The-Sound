@@ -117,3 +117,13 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
   - the double meaning of *anōthen* ("again" / "from above", 3:3) collapses to *men d-rish* ("anew");
   - "lifted up" (3:14; 12:32) becomes *rwm* (exalted), losing the cross.
   But **"wind/spirit" survives** (*ruḥa*, 3:8), and **"I am" survives** (*ena ithay*, 8:58). Conclusion: John's word-chains and misunderstanding scenes were composed for the *Greek* ear. Some images (wind/spirit, "I am") would also have worked in spoken Aramaic, but the schism chain and the *anōthen* pun did not.
+
+## M. Round 16: translated from Aramaic, or composed in Greek? (code/analysis/semitic.py)
+Model: Greek known to be translated from Hebrew (Genesis, Kingdoms, Psalms, Daniel, Ezekiel) against Greek known to be composed in Greek (Wisdom, 2 and 4 Maccabees, Josephus, Philo, Hermetica). It separates them with 97% accuracy. Score: 0 = composed, 1 = translated.
+- **V John sits exactly between (0.49).** It is neither a translation nor polished Greek.
+  - Unlike translations, John almost never starts a sentence with "and" (7% of sentences, against 42–79%).
+  - Unlike Greek authors, John almost never uses the particles *men* and *te*.
+  - Instead he has two habits of his own: **asyndeton**, sentences joined by no connective at all (56%, the highest of any text tested; Aramaic tends this way, and Burney noted it in 1922), and the narrator's *oun* ("so, then": 12.8 per 1,000 words, rising to 21.8 in the passion narrative).
+  - Profile: a Semitic speaker composing directly in Greek, in his own spoken style. Not a translation (consistent with the Greek-only puns, round 15).
+- **V The prologue is the most Semitic part of John (0.59).** It has no particles at all, and 79% of its sentences have no connective, closest to the Greek Psalms (72%). That fits the theory that the prologue was a hymn, possibly with a Semitic poetic background, and fits "breathes like a psalm".
+- **Context:** Revelation scores as translation Greek (0.74), Mark leans Semitic (0.69), and Romans and Hebrews are composed Greek (0.36–0.39). 1 John scores 0.62.

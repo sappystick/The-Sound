@@ -77,3 +77,16 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
   - Jesus' last plain emphatic "I" is 18:37: "*for this I was born* … to bear witness to the truth". After that (19:6 is Pilate) the plain *egō* never returns.
   - The risen Jesus' only emphatic "I" is *kagō* ("and I / so I") in 20:21: "As the Father has sent me, *so I* send you". It is joined to the Father and followed by the breath (20:22).
   - This is a textual observation that fits the "not from myself" thread. It is too small to test statistically.
+
+## J. Round 13: separation traced across the sources (code/analysis/round13.py)
+- **V John's "schism" word has a pattern.** *Schizo / schisma* ("tear, division") occurs 5 times in John: 3 times of *people* divided over Jesus (7:43, 9:16, 10:19), then twice *negated*:
+  - the seamless tunic: "let us **not tear** it" (19:24);
+  - the net with the 153 fish: "the net was **not torn**" (21:11).
+  So the word joins the high-priest thread and the 153 thread: people split, but what belongs to him stays whole. Reading the tunic as unity is ancient (Cyprian, *On the Unity of the Church*, c. 251); the five-occurrence pattern is our count.
+- **V "Apart" (*chōris*) frames the book:** "without him nothing came to be" (1:3); "apart from me you can do nothing" (15:5); the face-cloth "rolled up apart" in the empty tomb (20:7).
+- **V Gathering:** "gather up the fragments, *that nothing be lost*" (6:12–13); "to *gather into one* the scattered children of God" (11:52). Against it stand the council "gathered" against him (11:47) and the dry branches "gathered and burned" (15:6).
+- **Contrasts across the sources** (separate-word share of separate + gather):
+  - Separating-heavy: Paul 0.88, Hermetica 0.81, Plato's *Timaeus* 0.79, Genesis 1–11 0.69, Philo 0.67.
+  - **John is balanced (0.55).** Matthew, Mark and Luke and the Septuagint lean to gathering (0.44–0.45).
+  - Genesis 1 creates by separating (*diachorizo*: 1:4, 6, 7, 14, 18). Philo names the Logos "the Cutter" (*tomeus*) that divides all things.
+  - The Community Rule uses *badal* (separate) 25 times and *yachad* (together; the Community's own name) 35 times the Hebrew Bible's rate. **Qumran separates in order to unite inside; John's Logos divides those who hear him, while gathering "into one" what is his.**

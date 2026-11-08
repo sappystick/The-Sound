@@ -1,0 +1,3854 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "declaim",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "m",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "m"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "o",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "tʰ",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "e"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "e",
+     "r"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "uː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɣ",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "o",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o",
+     "s"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "i",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "a",
+     "n"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "l",
+     "e"
+    ],
+    "accent": "circ",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "m",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "y"
+    ],
+    "accent": "acute",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "pʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "o",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "r",
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "v"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "a",
+     "n"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "t",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "o",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "pʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "tʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "r",
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "v"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "i"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "o",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "l",
+     "iː"
+    ],
+    "accent": "acute",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "pʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "e"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "e"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ð",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "iː",
+     "s"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "tʰ",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "y"
+    ],
+    "accent": "acute",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ð",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "a"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "t",
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "l",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "l",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "a"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "i",
+     "n"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "iː"
+    ],
+    "accent": "acute",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "n",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "y"
+    ],
+    "accent": "acute",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "i",
+     "n"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "tʰ",
+     "o",
+     "s"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "t",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "l",
+     "e"
+    ],
+    "accent": "circ",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "m",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ð",
+     "y"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "o",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "pʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "iː",
+     "n"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "pʰ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "a",
+     "v"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "uː"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "a",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "e"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "t",
+     "e"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "m"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "o"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": "acute",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "o",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "ð",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "iː",
+     "s"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "a",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "y"
+    ],
+    "accent": "acute",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "m",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "e"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "m"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "o",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "iː",
+     "s"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "t",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "l",
+     "e"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "o",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "y"
+    ],
+    "accent": "acute",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "n"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "a",
+     "v"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "o"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": "circ",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "t",
+     "o",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "pʰ",
+     "ɛ"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "k",
+     "a",
+     "r"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "p",
+     "o",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "y",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "t",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "kʰ",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "i",
+     "s"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "m",
+     "uː"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": null,
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ð",
+     "y"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "n",
+     "a",
+     "s"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "tʰ",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "p",
+     "y"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "iː",
+     "n"
+    ],
+    "accent": "circ",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "uː"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "ð",
+     "ɛ",
+     "n"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "ɛ.ˈɣo iː.mi e ˈam.pɛ.los e a.le.tʰi.ˈne kɛ o pa.ˈter muː o ɣɛ.or.ˈɣos ɛs.tin ˈpan ˈkle.ma ɛn ɛ.ˈmy me ˈpʰɛ.ron kar.ˈpon ˈɛ.riː av.ˈto kɛ ˈpan to kar.ˈpon ˈpʰɛ.ron ka.ˈtʰɛ.riː av.ˈto ˈi.na kar.ˈpon ˈpliː.o.na ˈpʰɛ.re ˈe.ðe y.ˈmiːs ka.tʰa.ˈry ɛs.tɛ ði.ˈa ton ˈlo.ɣon on lɛ.ˈla.le.ka y.ˈmin ˈmiː.na.tɛ ɛn ɛ.ˈmy ka.ˈɣo ɛn y.ˈmin ka.ˈtʰos to ˈkle.ma uː ˈðy.na.tɛ kar.ˈpon ˈpʰɛ.riːn apʰ ɛ.av.ˈtuː ɛ.ˈan me ˈmɛ.ne ɛn ˈte am.ˈpɛ.lo ˈuː.tos uː.ˈðɛ y.ˈmiːs ɛ.ˈan me ɛn ɛ.ˈmy ˈmɛ.ne.tɛ ɛ.ˈɣo iː.mi e ˈam.pɛ.los y.ˈmiːs ta ˈkle.ma.ta o ˈmɛ.non ɛn ɛ.ˈmy ka.ˈɣo ɛn av.ˈto ˈuː.tos ˈpʰɛ.riː kar.ˈpon po.ˈlyn ˈo.ti kʰo.ˈris ɛ.ˈmuː uː ˈðy.nas.tʰɛ py.ˈiːn uː.ˈðɛn",
+ "melody": [
+  {
+   "t": 0.05,
+   "dur": 0.143,
+   "hz": [
+    118.0
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.312,
+   "dur": 0.178,
+   "hz": [
+    155.0
+   ],
+   "cents_from_first": [
+    472.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 0.571,
+   "dur": 0.255,
+   "hz": [
+    117.9
+   ],
+   "cents_from_first": [
+    -1.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.916,
+   "dur": 0.143,
+   "hz": [
+    117.9
+   ],
+   "cents_from_first": [
+    -1.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 1.138,
+   "dur": 0.143,
+   "hz": [
+    117.8
+   ],
+   "cents_from_first": [
+    -3.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 1.361,
+   "dur": 0.178,
+   "hz": [
+    154.6
+   ],
+   "cents_from_first": [
+    467.9
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 1.719,
+   "dur": 0.143,
+   "hz": [
+    124.7,
+    100.7
+   ],
+   "cents_from_first": [
+    96.2,
+    -274.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 1.939,
+   "dur": 0.143,
+   "hz": [
+    117.7
+   ],
+   "cents_from_first": [
+    -4.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 2.282,
+   "dur": 0.143,
+   "hz": [
+    117.6
+   ],
+   "cents_from_first": [
+    -6.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 2.504,
+   "dur": 0.143,
+   "hz": [
+    117.5
+   ],
+   "cents_from_first": [
+    -7.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 2.725,
+   "dur": 0.143,
+   "hz": [
+    117.5
+   ],
+   "cents_from_first": [
+    -7.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 2.999,
+   "dur": 0.143,
+   "hz": [
+    117.5
+   ],
+   "cents_from_first": [
+    -7.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 3.232,
+   "dur": 0.178,
+   "hz": [
+    154.3
+   ],
+   "cents_from_first": [
+    464.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 3.58,
+   "dur": 0.255,
+   "hz": [
+    117.4
+   ],
+   "cents_from_first": [
+    -9.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 3.915,
+   "dur": 0.143,
+   "hz": [
+    117.3
+   ],
+   "cents_from_first": [
+    -10.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 4.227,
+   "dur": 0.143,
+   "hz": [
+    117.2
+   ],
+   "cents_from_first": [
+    -12.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 4.46,
+   "dur": 0.178,
+   "hz": [
+    153.9
+   ],
+   "cents_from_first": [
+    460.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 4.904,
+   "dur": 0.255,
+   "hz": [
+    117.1
+   ],
+   "cents_from_first": [
+    -13.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 5.239,
+   "dur": 0.143,
+   "hz": [
+    117.0
+   ],
+   "cents_from_first": [
+    -15.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 5.582,
+   "dur": 0.143,
+   "hz": [
+    116.8
+   ],
+   "cents_from_first": [
+    -17.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 5.724,
+   "dur": 0.143,
+   "hz": [
+    116.8
+   ],
+   "cents_from_first": [
+    -17.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 6.083,
+   "dur": 0.178,
+   "hz": [
+    153.5
+   ],
+   "cents_from_first": [
+    455.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 6.461,
+   "dur": 0.143,
+   "hz": [
+    116.7
+   ],
+   "cents_from_first": [
+    -18.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 6.813,
+   "dur": 0.143,
+   "hz": [
+    116.7
+   ],
+   "cents_from_first": [
+    -18.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 7.216,
+   "dur": 0.319,
+   "hz": [
+    153.2,
+    99.8
+   ],
+   "cents_from_first": [
+    452.4,
+    -290.1
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 7.872,
+   "dur": 0.319,
+   "hz": [
+    153.1,
+    99.7
+   ],
+   "cents_from_first": [
+    450.9,
+    -291.6
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 8.281,
+   "dur": 0.143,
+   "hz": [
+    123.5,
+    99.7
+   ],
+   "cents_from_first": [
+    79.2,
+    -291.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 8.504,
+   "dur": 0.143,
+   "hz": [
+    116.4
+   ],
+   "cents_from_first": [
+    -23.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 8.816,
+   "dur": 0.143,
+   "hz": [
+    116.3
+   ],
+   "cents_from_first": [
+    -24.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 9.049,
+   "dur": 0.319,
+   "hz": [
+    116.3,
+    152.8
+   ],
+   "cents_from_first": [
+    -24.7,
+    447.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 9.537,
+   "dur": 0.143,
+   "hz": [
+    116.2
+   ],
+   "cents_from_first": [
+    -26.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 9.892,
+   "dur": 0.178,
+   "hz": [
+    152.6
+   ],
+   "cents_from_first": [
+    444.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 10.166,
+   "dur": 0.143,
+   "hz": [
+    123.1,
+    99.3
+   ],
+   "cents_from_first": [
+    73.0,
+    -297.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 10.568,
+   "dur": 0.143,
+   "hz": [
+    116.0
+   ],
+   "cents_from_first": [
+    -29.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 10.897,
+   "dur": 0.178,
+   "hz": [
+    152.4
+   ],
+   "cents_from_first": [
+    443.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 11.245,
+   "dur": 0.319,
+   "hz": [
+    115.9,
+    152.3
+   ],
+   "cents_from_first": [
+    -30.9,
+    441.6
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 11.66,
+   "dur": 0.255,
+   "hz": [
+    122.9,
+    99.2
+   ],
+   "cents_from_first": [
+    69.9,
+    -300.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 11.995,
+   "dur": 0.255,
+   "hz": [
+    115.8
+   ],
+   "cents_from_first": [
+    -32.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 12.46,
+   "dur": 0.178,
+   "hz": [
+    152.1
+   ],
+   "cents_from_first": [
+    440.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 12.808,
+   "dur": 0.255,
+   "hz": [
+    115.7
+   ],
+   "cents_from_first": [
+    -34.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 13.233,
+   "dur": 0.319,
+   "hz": [
+    151.9,
+    98.9
+   ],
+   "cents_from_first": [
+    436.9,
+    -305.6
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 13.812,
+   "dur": 0.143,
+   "hz": [
+    115.5
+   ],
+   "cents_from_first": [
+    -37.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 14.124,
+   "dur": 0.143,
+   "hz": [
+    115.4
+   ],
+   "cents_from_first": [
+    -38.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 14.453,
+   "dur": 0.178,
+   "hz": [
+    151.6
+   ],
+   "cents_from_first": [
+    433.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 14.933,
+   "dur": 0.178,
+   "hz": [
+    151.5
+   ],
+   "cents_from_first": [
+    432.3
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 15.207,
+   "dur": 0.143,
+   "hz": [
+    122.2,
+    98.6
+   ],
+   "cents_from_first": [
+    60.7,
+    -310.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 15.609,
+   "dur": 0.143,
+   "hz": [
+    115.2
+   ],
+   "cents_from_first": [
+    -41.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 15.884,
+   "dur": 0.319,
+   "hz": [
+    115.2,
+    151.3
+   ],
+   "cents_from_first": [
+    -41.8,
+    430.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 16.299,
+   "dur": 0.255,
+   "hz": [
+    122.1,
+    98.6
+   ],
+   "cents_from_first": [
+    59.1,
+    -311.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 16.634,
+   "dur": 0.255,
+   "hz": [
+    115.1
+   ],
+   "cents_from_first": [
+    -43.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 17.099,
+   "dur": 0.178,
+   "hz": [
+    151.2
+   ],
+   "cents_from_first": [
+    429.2
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 17.357,
+   "dur": 0.178,
+   "hz": [
+    151.1
+   ],
+   "cents_from_first": [
+    427.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 17.625,
+   "dur": 0.143,
+   "hz": [
+    121.9,
+    98.4
+   ],
+   "cents_from_first": [
+    56.0,
+    -314.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 17.937,
+   "dur": 0.143,
+   "hz": [
+    114.9
+   ],
+   "cents_from_first": [
+    -46.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 18.266,
+   "dur": 0.178,
+   "hz": [
+    150.9
+   ],
+   "cents_from_first": [
+    426.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 18.782,
+   "dur": 0.319,
+   "hz": [
+    114.8,
+    150.8
+   ],
+   "cents_from_first": [
+    -47.9,
+    424.6
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 19.101,
+   "dur": 0.143,
+   "hz": [
+    121.7,
+    98.2
+   ],
+   "cents_from_first": [
+    52.9,
+    -317.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 19.333,
+   "dur": 0.143,
+   "hz": [
+    114.8
+   ],
+   "cents_from_first": [
+    -47.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 19.688,
+   "dur": 0.178,
+   "hz": [
+    150.7
+   ],
+   "cents_from_first": [
+    423.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 19.962,
+   "dur": 0.255,
+   "hz": [
+    121.6,
+    98.1
+   ],
+   "cents_from_first": [
+    51.4,
+    -319.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 20.297,
+   "dur": 0.178,
+   "hz": [
+    150.5
+   ],
+   "cents_from_first": [
+    421.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 20.595,
+   "dur": 0.143,
+   "hz": [
+    121.4,
+    98.0
+   ],
+   "cents_from_first": [
+    49.8,
+    -321.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 20.818,
+   "dur": 0.143,
+   "hz": [
+    114.5
+   ],
+   "cents_from_first": [
+    -52.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 21.05,
+   "dur": 0.319,
+   "hz": [
+    150.4,
+    97.9
+   ],
+   "cents_from_first": [
+    419.9,
+    -322.6
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 21.659,
+   "dur": 0.143,
+   "hz": [
+    114.4
+   ],
+   "cents_from_first": [
+    -54.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 21.933,
+   "dur": 0.143,
+   "hz": [
+    114.4
+   ],
+   "cents_from_first": [
+    -54.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 22.172,
+   "dur": 0.319,
+   "hz": [
+    114.4,
+    150.3
+   ],
+   "cents_from_first": [
+    -54.1,
+    418.4
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 22.571,
+   "dur": 0.143,
+   "hz": [
+    114.3
+   ],
+   "cents_from_first": [
+    -55.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 22.923,
+   "dur": 0.143,
+   "hz": [
+    114.3
+   ],
+   "cents_from_first": [
+    -55.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 23.266,
+   "dur": 0.143,
+   "hz": [
+    114.2
+   ],
+   "cents_from_first": [
+    -57.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 23.408,
+   "dur": 0.178,
+   "hz": [
+    150.0
+   ],
+   "cents_from_first": [
+    415.3
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 23.756,
+   "dur": 0.143,
+   "hz": [
+    114.1
+   ],
+   "cents_from_first": [
+    -58.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 24.147,
+   "dur": 0.178,
+   "hz": [
+    149.7
+   ],
+   "cents_from_first": [
+    412.2
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 24.445,
+   "dur": 0.143,
+   "hz": [
+    120.8,
+    97.5
+   ],
+   "cents_from_first": [
+    40.6,
+    -330.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 24.757,
+   "dur": 0.143,
+   "hz": [
+    113.9
+   ],
+   "cents_from_first": [
+    -61.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 25.148,
+   "dur": 0.143,
+   "hz": [
+    113.8
+   ],
+   "cents_from_first": [
+    -63.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 25.368,
+   "dur": 0.178,
+   "hz": [
+    149.5
+   ],
+   "cents_from_first": [
+    409.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 25.624,
+   "dur": 0.143,
+   "hz": [
+    120.6,
+    97.3
+   ],
+   "cents_from_first": [
+    37.5,
+    -333.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 25.857,
+   "dur": 0.143,
+   "hz": [
+    113.8
+   ],
+   "cents_from_first": [
+    -63.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 26.079,
+   "dur": 0.143,
+   "hz": [
+    113.7
+   ],
+   "cents_from_first": [
+    -64.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 26.312,
+   "dur": 0.319,
+   "hz": [
+    149.3,
+    97.2
+   ],
+   "cents_from_first": [
+    407.6,
+    -334.9
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 26.891,
+   "dur": 0.319,
+   "hz": [
+    113.6,
+    149.2
+   ],
+   "cents_from_first": [
+    -66.5,
+    406.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 27.299,
+   "dur": 0.143,
+   "hz": [
+    120.4,
+    97.2
+   ],
+   "cents_from_first": [
+    34.4,
+    -336.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 27.532,
+   "dur": 0.143,
+   "hz": [
+    113.6
+   ],
+   "cents_from_first": [
+    -66.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 27.754,
+   "dur": 0.143,
+   "hz": [
+    113.5
+   ],
+   "cents_from_first": [
+    -68.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 28.067,
+   "dur": 0.143,
+   "hz": [
+    113.4
+   ],
+   "cents_from_first": [
+    -69.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 28.299,
+   "dur": 0.319,
+   "hz": [
+    113.4,
+    148.9
+   ],
+   "cents_from_first": [
+    -69.6,
+    402.9
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 28.788,
+   "dur": 0.143,
+   "hz": [
+    113.2
+   ],
+   "cents_from_first": [
+    -71.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 29.051,
+   "dur": 0.178,
+   "hz": [
+    148.8
+   ],
+   "cents_from_first": [
+    401.4
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 29.309,
+   "dur": 0.143,
+   "hz": [
+    113.1
+   ],
+   "cents_from_first": [
+    -72.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 29.621,
+   "dur": 0.143,
+   "hz": [
+    113.0
+   ],
+   "cents_from_first": [
+    -74.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 29.854,
+   "dur": 0.319,
+   "hz": [
+    148.5,
+    96.7
+   ],
+   "cents_from_first": [
+    398.3,
+    -344.2
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 30.433,
+   "dur": 0.143,
+   "hz": [
+    112.9
+   ],
+   "cents_from_first": [
+    -75.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 30.707,
+   "dur": 0.178,
+   "hz": [
+    148.4
+   ],
+   "cents_from_first": [
+    396.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 31.175,
+   "dur": 0.143,
+   "hz": [
+    112.8
+   ],
+   "cents_from_first": [
+    -77.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 31.566,
+   "dur": 0.319,
+   "hz": [
+    148.1,
+    96.5
+   ],
+   "cents_from_first": [
+    393.6,
+    -348.9
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 31.974,
+   "dur": 0.143,
+   "hz": [
+    119.5,
+    96.5
+   ],
+   "cents_from_first": [
+    22.0,
+    -348.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 32.197,
+   "dur": 0.255,
+   "hz": [
+    112.6
+   ],
+   "cents_from_first": [
+    -80.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 32.652,
+   "dur": 0.178,
+   "hz": [
+    147.9
+   ],
+   "cents_from_first": [
+    390.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 32.92,
+   "dur": 0.143,
+   "hz": [
+    119.3,
+    96.3
+   ],
+   "cents_from_first": [
+    18.9,
+    -352.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 33.153,
+   "dur": 0.255,
+   "hz": [
+    112.5
+   ],
+   "cents_from_first": [
+    -82.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 33.578,
+   "dur": 0.143,
+   "hz": [
+    112.4
+   ],
+   "cents_from_first": [
+    -83.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 33.906,
+   "dur": 0.178,
+   "hz": [
+    147.7
+   ],
+   "cents_from_first": [
+    389.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 34.386,
+   "dur": 0.178,
+   "hz": [
+    147.6
+   ],
+   "cents_from_first": [
+    387.4
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 34.66,
+   "dur": 0.255,
+   "hz": [
+    119.1,
+    96.1
+   ],
+   "cents_from_first": [
+    15.8,
+    -355.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 35.085,
+   "dur": 0.143,
+   "hz": [
+    112.2
+   ],
+   "cents_from_first": [
+    -86.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 35.44,
+   "dur": 0.143,
+   "hz": [
+    112.1
+   ],
+   "cents_from_first": [
+    -88.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 35.582,
+   "dur": 0.255,
+   "hz": [
+    112.1
+   ],
+   "cents_from_first": [
+    -88.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 36.047,
+   "dur": 0.319,
+   "hz": [
+    147.3,
+    95.9
+   ],
+   "cents_from_first": [
+    384.4,
+    -358.1
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 36.446,
+   "dur": 0.143,
+   "hz": [
+    112.0
+   ],
+   "cents_from_first": [
+    -89.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 36.589,
+   "dur": 0.178,
+   "hz": [
+    147.2
+   ],
+   "cents_from_first": [
+    382.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 37.027,
+   "dur": 0.143,
+   "hz": [
+    111.9
+   ],
+   "cents_from_first": [
+    -91.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 37.339,
+   "dur": 0.178,
+   "hz": [
+    146.9
+   ],
+   "cents_from_first": [
+    379.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 37.607,
+   "dur": 0.255,
+   "hz": [
+    118.6,
+    95.7
+   ],
+   "cents_from_first": [
+    8.1,
+    -362.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 37.942,
+   "dur": 0.143,
+   "hz": [
+    111.7
+   ],
+   "cents_from_first": [
+    -94.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 38.345,
+   "dur": 0.319,
+   "hz": [
+    146.7,
+    95.5
+   ],
+   "cents_from_first": [
+    376.6,
+    -365.9
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 38.744,
+   "dur": 0.143,
+   "hz": [
+    111.5
+   ],
+   "cents_from_first": [
+    -97.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 39.066,
+   "dur": 0.178,
+   "hz": [
+    146.5
+   ],
+   "cents_from_first": [
+    375.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 39.322,
+   "dur": 0.255,
+   "hz": [
+    118.2,
+    95.4
+   ],
+   "cents_from_first": [
+    3.5,
+    -367.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 39.657,
+   "dur": 0.319,
+   "hz": [
+    111.4,
+    146.4
+   ],
+   "cents_from_first": [
+    -99.0,
+    373.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 40.066,
+   "dur": 0.143,
+   "hz": [
+    118.1,
+    95.4
+   ],
+   "cents_from_first": [
+    1.9,
+    -369.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 40.408,
+   "dur": 0.255,
+   "hz": [
+    111.3
+   ],
+   "cents_from_first": [
+    -100.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 40.783,
+   "dur": 0.178,
+   "hz": [
+    146.3
+   ],
+   "cents_from_first": [
+    372.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 41.042,
+   "dur": 0.143,
+   "hz": [
+    111.2
+   ],
+   "cents_from_first": [
+    -102.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 41.274,
+   "dur": 0.319,
+   "hz": [
+    146.2,
+    95.2
+   ],
+   "cents_from_first": [
+    370.4,
+    -372.1
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 41.793,
+   "dur": 0.143,
+   "hz": [
+    111.1
+   ],
+   "cents_from_first": [
+    -103.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 41.935,
+   "dur": 0.178,
+   "hz": [
+    146.0
+   ],
+   "cents_from_first": [
+    368.9
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 42.373,
+   "dur": 0.143,
+   "hz": [
+    111.0
+   ],
+   "cents_from_first": [
+    -105.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 42.596,
+   "dur": 0.143,
+   "hz": [
+    110.9
+   ],
+   "cents_from_first": [
+    -106.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 42.908,
+   "dur": 0.143,
+   "hz": [
+    110.8
+   ],
+   "cents_from_first": [
+    -108.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 43.141,
+   "dur": 0.319,
+   "hz": [
+    110.8,
+    145.6
+   ],
+   "cents_from_first": [
+    -108.2,
+    364.3
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 43.63,
+   "dur": 0.178,
+   "hz": [
+    145.5
+   ],
+   "cents_from_first": [
+    362.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 43.898,
+   "dur": 0.143,
+   "hz": [
+    117.4,
+    94.8
+   ],
+   "cents_from_first": [
+    -8.9,
+    -379.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 44.13,
+   "dur": 0.143,
+   "hz": [
+    110.7
+   ],
+   "cents_from_first": [
+    -109.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 44.353,
+   "dur": 0.143,
+   "hz": [
+    110.6
+   ],
+   "cents_from_first": [
+    -111.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 44.615,
+   "dur": 0.178,
+   "hz": [
+    145.4
+   ],
+   "cents_from_first": [
+    361.2
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 44.873,
+   "dur": 0.255,
+   "hz": [
+    110.6
+   ],
+   "cents_from_first": [
+    -112.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 45.218,
+   "dur": 0.143,
+   "hz": [
+    110.6
+   ],
+   "cents_from_first": [
+    -112.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 45.441,
+   "dur": 0.143,
+   "hz": [
+    110.5
+   ],
+   "cents_from_first": [
+    -114.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 45.663,
+   "dur": 0.178,
+   "hz": [
+    145.0
+   ],
+   "cents_from_first": [
+    356.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 46.022,
+   "dur": 0.143,
+   "hz": [
+    117.0,
+    94.4
+   ],
+   "cents_from_first": [
+    -15.1,
+    -386.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 46.242,
+   "dur": 0.143,
+   "hz": [
+    110.4
+   ],
+   "cents_from_first": [
+    -116.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 46.585,
+   "dur": 0.143,
+   "hz": [
+    110.3
+   ],
+   "cents_from_first": [
+    -117.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 46.817,
+   "dur": 0.319,
+   "hz": [
+    144.9,
+    94.3
+   ],
+   "cents_from_first": [
+    355.0,
+    -387.5
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 47.426,
+   "dur": 0.143,
+   "hz": [
+    110.2
+   ],
+   "cents_from_first": [
+    -119.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 47.816,
+   "dur": 0.178,
+   "hz": [
+    144.6
+   ],
+   "cents_from_first": [
+    351.9
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 48.084,
+   "dur": 0.143,
+   "hz": [
+    116.7,
+    94.2
+   ],
+   "cents_from_first": [
+    -19.7,
+    -390.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 48.317,
+   "dur": 0.143,
+   "hz": [
+    110.1
+   ],
+   "cents_from_first": [
+    -120.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 48.539,
+   "dur": 0.143,
+   "hz": [
+    110.0
+   ],
+   "cents_from_first": [
+    -122.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 48.852,
+   "dur": 0.178,
+   "hz": [
+    144.3
+   ],
+   "cents_from_first": [
+    348.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 49.12,
+   "dur": 0.143,
+   "hz": [
+    116.5,
+    94.0
+   ],
+   "cents_from_first": [
+    -22.8,
+    -393.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 49.433,
+   "dur": 0.143,
+   "hz": [
+    109.8
+   ],
+   "cents_from_first": [
+    -125.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 49.745,
+   "dur": 0.143,
+   "hz": [
+    109.7
+   ],
+   "cents_from_first": [
+    -126.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 49.978,
+   "dur": 0.319,
+   "hz": [
+    109.7,
+    144.1
+   ],
+   "cents_from_first": [
+    -126.8,
+    345.7
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 50.466,
+   "dur": 0.143,
+   "hz": [
+    109.6
+   ],
+   "cents_from_first": [
+    -128.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 50.729,
+   "dur": 0.178,
+   "hz": [
+    144.0
+   ],
+   "cents_from_first": [
+    344.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 50.987,
+   "dur": 0.143,
+   "hz": [
+    109.5
+   ],
+   "cents_from_first": [
+    -129.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 51.299,
+   "dur": 0.255,
+   "hz": [
+    109.4
+   ],
+   "cents_from_first": [
+    -131.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 51.764,
+   "dur": 0.319,
+   "hz": [
+    143.7,
+    93.6
+   ],
+   "cents_from_first": [
+    341.1,
+    -401.4
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 52.163,
+   "dur": 0.319,
+   "hz": [
+    143.6,
+    93.5
+   ],
+   "cents_from_first": [
+    339.5,
+    -403.0
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 52.572,
+   "dur": 0.143,
+   "hz": [
+    115.8,
+    93.5
+   ],
+   "cents_from_first": [
+    -32.1,
+    -403.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 53.046,
+   "dur": 0.178,
+   "hz": [
+    143.4
+   ],
+   "cents_from_first": [
+    338.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 53.321,
+   "dur": 0.255,
+   "hz": [
+    115.7,
+    93.4
+   ],
+   "cents_from_first": [
+    -33.7,
+    -404.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 53.746,
+   "dur": 0.143,
+   "hz": [
+    109.1
+   ],
+   "cents_from_first": [
+    -136.1
+   ],
+   "accent": null
+  },
+  {
+   "t": 54.074,
+   "dur": 0.178,
+   "hz": [
+    143.3
+   ],
+   "cents_from_first": [
+    336.4
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 54.512,
+   "dur": 0.143,
+   "hz": [
+    109.0
+   ],
+   "cents_from_first": [
+    -137.6
+   ],
+   "accent": null
+  },
+  {
+   "t": 54.733,
+   "dur": 0.178,
+   "hz": [
+    143.2
+   ],
+   "cents_from_first": [
+    334.9
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 55.081,
+   "dur": 0.178,
+   "hz": [
+    143.1
+   ],
+   "cents_from_first": [
+    333.3
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 55.349,
+   "dur": 0.143,
+   "hz": [
+    115.4,
+    93.2
+   ],
+   "cents_from_first": [
+    -38.3,
+    -409.2
+   ],
+   "accent": null
+  },
+  {
+   "t": 55.703,
+   "dur": 0.143,
+   "hz": [
+    108.8
+   ],
+   "cents_from_first": [
+    -140.7
+   ],
+   "accent": null
+  },
+  {
+   "t": 55.942,
+   "dur": 0.178,
+   "hz": [
+    142.9
+   ],
+   "cents_from_first": [
+    331.8
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 56.32,
+   "dur": 0.143,
+   "hz": [
+    108.7
+   ],
+   "cents_from_first": [
+    -142.3
+   ],
+   "accent": null
+  },
+  {
+   "t": 56.553,
+   "dur": 0.319,
+   "hz": [
+    142.8,
+    93.0
+   ],
+   "cents_from_first": [
+    330.2,
+    -412.3
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 56.951,
+   "dur": 0.255,
+   "hz": [
+    108.6
+   ],
+   "cents_from_first": [
+    -143.8
+   ],
+   "accent": null
+  },
+  {
+   "t": 57.406,
+   "dur": 0.178,
+   "hz": [
+    142.5
+   ],
+   "cents_from_first": [
+    327.1
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 57.674,
+   "dur": 0.143,
+   "hz": [
+    115.0,
+    92.8
+   ],
+   "cents_from_first": [
+    -44.5,
+    -415.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 58.069,
+   "dur": 0.143,
+   "hz": [
+    108.5
+   ],
+   "cents_from_first": [
+    -145.4
+   ],
+   "accent": null
+  },
+  {
+   "t": 58.381,
+   "dur": 0.255,
+   "hz": [
+    108.4
+   ],
+   "cents_from_first": [
+    -146.9
+   ],
+   "accent": null
+  },
+  {
+   "t": 58.636,
+   "dur": 0.319,
+   "hz": [
+    142.4,
+    92.7
+   ],
+   "cents_from_first": [
+    325.6,
+    -416.9
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 59.125,
+   "dur": 0.255,
+   "hz": [
+    108.3
+   ],
+   "cents_from_first": [
+    -148.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 59.5,
+   "dur": 0.178,
+   "hz": [
+    142.3,
+    89.9
+   ],
+   "cents_from_first": [
+    324.0,
+    -471.2
+   ],
+   "accent": "acute"
+  }
+ ],
+ "text": "Ἐγώ εἰμι ἡ ἄμπελος ἡ ἀληθινή, καὶ ὁ πατήρ μου ὁ γεωργός ἐστιν· πᾶν κλῆμα ἐν ἐμοὶ μὴ φέρον καρπὸν αἴρει αὐτό, καὶ πᾶν τὸ καρπὸν φέρον καθαίρει αὐτὸ ἵνα καρπὸν πλείονα φέρῃ. ἤδη ὑμεῖς καθαροί ἐστε διὰ τὸν λόγον ὃν λελάληκα ὑμῖν· μείνατε ἐν ἐμοί, κἀγὼ ἐν ὑμῖν. καθὼς τὸ κλῆμα οὐ δύναται καρπὸν φέρειν ἀφ’ ἑαυτοῦ ἐὰν μὴ μένῃ ἐν τῇ ἀμπέλῳ, οὕτως οὐδὲ ὑμεῖς ἐὰν μὴ ἐν ἐμοὶ μένητε. ἐγώ εἰμι ἡ ἄμπελος, ὑμεῖς τὰ κλήματα. ὁ μένων ἐν ἐμοὶ κἀγὼ ἐν αὐτῷ οὗτος φέρει καρπὸν πολύν, ὅτι χωρὶς ἐμοῦ οὐ δύνασθε ποιεῖν οὐδέν.",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

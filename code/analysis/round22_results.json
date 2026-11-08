@@ -1,0 +1,90 @@
+{
+ "p75_lines": {
+  "breaks": 860,
+  "at_clause": 0.10930232558139535,
+  "random": 0.0857360465116279,
+  "split_words": 571
+ },
+ "myth": {
+  "John (Greek)": [
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0
+  ],
+  "Mark (Greek)": [
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0
+  ],
+  "Hymn to Demeter (Persephone)": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "Plutarch, Isis and Osiris": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "Inana's Descent (English)": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "control: Hymn to Apollo": [
+   1,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "control: Hymn to Hermes": [
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0
+  ],
+  "control: Genesis 37-50 (Joseph)": [
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0
+  ]
+ }
+}

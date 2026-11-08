@@ -22,6 +22,8 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 | 14 | The vertical axis: ascend/descend twice the Synoptic rate; heaven–earth and temple-ascent strands | round19 |
 | 15 | "Lamb of God" leans to the Isaiah 53 Servant (rank 97 of 4,012) over the Passover lamb (725); shared word *amnos* | round19 |
 | 16 | The papyri's written lines match breath groups: P75 averages 12.4 syllables a line (CV 0.16) and its prologue lines 13.5, the same as the spoken breath groups. The great codices use narrow columns (6–8) | round21 |
+| 18 | Book centres lean toward "life / the living" (5 of 39 against 0.9; p 0.001), extending living water | round22 |
+| 19 | John shares the Book of the Dead's definite "I am the …" form but none of its content; John's seven images never occur there | egypt |
 | 17 | Blind recovery of John's shared tradition (John 1~Mark 1, 6~Matthew 14, 19~Matthew 27 / Mark 15) | round7 |
 
 ## 2. KNOWN+: confirmed and quantified
@@ -30,11 +32,8 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 ## 3. OPEN: possible discoveries, each with a defined test
 | Lead | Test | What it would show |
 |---|---|---|
-| Separation → one → completion (p 0.085 / 0.15) | Pre-register the word lists; retest on 1 John and the Synoptics as controls | Whether the arc is designed |
 | Genesis 28 letter-centre / Jacob's ladder | Letter-centres of all 39 Hebrew books with a fixed motif list (heaven/earth links) | Whether "ladder at the centre" is a pattern or a one-off |
 | Egypt / Hermetica lean (not significant) | Add Isis hymns (Kyme ancient Greek), the Andros aretalogy, more Hermetica | Whether the lean firms up |
-| Manuscript lines = breath groups | Compare P75 line ends with clause ends, against random line cuts | Whether the copyists wrote for reading aloud |
-| Quiet sound of the farewell discourse | Sound-map 1 John and the Psalms with pronouns removed | Whether "quiet intimacy" exists beyond the pronoun effect |
 | Dedication background | John 10 against the full Dedication liturgy (Psalms 30, 113–118) | Festival design of chapters 5–10 |
 
 ## 4. INTRIGUING: needs specific analysis
@@ -45,7 +44,7 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 - **Sound-alike meaning flips** (we/you; drinks/hungers in P75). *Path:* list every flip in all papyri and test whether flips cluster at theologically loaded verses.
 
 ## 5. CLOSED-NEG
-Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse mirrors · reversed links · Songs of Ascents ↔ the vertical axis (median rank 702) · noisy turning points (fixed lists) · pronoun-driven intimate quiet · within-verse effect (language and quotation) · an Aramaic original more patterned · atbash beyond known cases · Greek NT name acrostics · Genesis order in John.
+Separation arc (all Gospels at chance) · quiet farewell beyond pronouns · papyrus lines as sense-lines (weak; mostly column width) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse mirrors · reversed links · Songs of Ascents ↔ the vertical axis (median rank 702) · noisy turning points (fixed lists) · pronoun-driven intimate quiet · within-verse effect (language and quotation) · an Aramaic original more patterned · atbash beyond known cases · Greek NT name acrostics · Genesis order in John.
 
 ## 6. Path: the most efficient order
 1. **Sound model upgrade** (feeds several leads): use P75 line breaks as breath groups and test line-end versus clause-end. This tests manuscript lines and the quiet farewell in one build.

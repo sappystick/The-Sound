@@ -1,0 +1,86 @@
+{
+ "John 1:1-18": {
+  "Greek syllables": {
+   "position": 0.499,
+   "offset_units": -0.5,
+   "total": 499
+  },
+  "Greek words": {
+   "position": 0.5437,
+   "offset_units": 11.0,
+   "total": 252
+  },
+  "Latin syllables": {
+   "position": 0.5075,
+   "offset_units": 3.5,
+   "total": 469
+  },
+  "Latin words": {
+   "position": 0.5127,
+   "offset_units": 3.0,
+   "total": 236
+  },
+  "Coptic syllables": {
+   "position": 0.5071,
+   "offset_units": 3.5,
+   "total": 491
+  },
+  "Coptic words": {
+   "position": 0.5063,
+   "offset_units": 1.5,
+   "total": 237
+  },
+  "Syriac letters (proxy)": {
+   "position": 0.5106,
+   "offset_units": 8.0,
+   "total": 756
+  },
+  "Syriac words": {
+   "position": 0.5082,
+   "offset_units": 1.5,
+   "total": 183
+  }
+ },
+ "Philippians 2:6-11": {
+  "Greek syllables": {
+   "position": 0.4918,
+   "offset_units": -1.5,
+   "total": 183
+  },
+  "Greek words": {
+   "position": 0.4737,
+   "offset_units": -2.0,
+   "total": 76
+  },
+  "Latin syllables": {
+   "position": 0.5287,
+   "offset_units": 5.0,
+   "total": 174
+  },
+  "Latin words": {
+   "position": 0.519,
+   "offset_units": 1.5,
+   "total": 79
+  },
+  "Coptic syllables": {
+   "position": 0.5068,
+   "offset_units": 1.0,
+   "total": 146
+  },
+  "Coptic words": {
+   "position": 0.4667,
+   "offset_units": -2.5,
+   "total": 75
+  },
+  "Syriac letters (proxy)": {
+   "position": 0.5406,
+   "offset_units": 11.5,
+   "total": 283
+  },
+  "Syriac words": {
+   "position": 0.5075,
+   "offset_units": 0.5,
+   "total": 67
+  }
+ }
+}

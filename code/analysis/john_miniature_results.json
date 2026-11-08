@@ -1,0 +1,815 @@
+{
+ "position": {
+  "by_chapter": {
+   "1": [
+    "1Pe"
+   ],
+   "2": [
+    "Genesis",
+    "Judices",
+    "Regnorum_III",
+    "Paralipomenon_II",
+    "Esdras_A",
+    "Esdras_B",
+    "Nahum",
+    "Sophonias",
+    "Aggaeus",
+    "Ezechiel",
+    "Bel_et_Draco_Theodotionis_versio"
+   ],
+   "3": [
+    "Heb"
+   ],
+   "4": [
+    "Ruth",
+    "Judith"
+   ],
+   "5": [
+    "Sapientia_Salomonis"
+   ],
+   "6": [
+    "Josue"
+   ],
+   "7": [
+    "Threni_seu_Lamentationes"
+   ],
+   "8": [
+    "Ro",
+    "1Co",
+    "Ga"
+   ],
+   "9": [
+    "Job",
+    "Epistula_Jeremiae",
+    "Susanna_Theodotionis_versio"
+   ],
+   "10": [
+    "Zacharias",
+    "Isaias",
+    "Jeremias"
+   ],
+   "11": [
+    "Machabaeorum_i"
+   ],
+   "12": [],
+   "13": [
+    "Habacuc"
+   ],
+   "14": [
+    "2Co",
+    "1Jn"
+   ],
+   "15": [
+    "Deuteronomium",
+    "Psalmi",
+    "Proverbia",
+    "Amos",
+    "Joel",
+    "Malachias",
+    "Eph",
+    "Jas"
+   ],
+   "16": [
+    "Tobias",
+    "Michaeas",
+    "Php"
+   ],
+   "17": [
+    "Odae",
+    "Ecclesiasticus",
+    "Psalmi_Salomonis",
+    "Osee",
+    "Baruch",
+    "Daniel_Theodotionis_versio",
+    "Col",
+    "1Th",
+    "2Th",
+    "1Ti",
+    "2Ti",
+    "Tit",
+    "2Pe"
+   ],
+   "18": [
+    "Regnorum_I",
+    "Regnorum_II",
+    "Regnorum_IV",
+    "Mt",
+    "Mk",
+    "Ac"
+   ],
+   "19": [
+    "Exodus",
+    "Leviticus",
+    "Numeri",
+    "Machabaeorum_ii",
+    "Machabaeorum_iii",
+    "Machabaeorum_iv",
+    "Canticum"
+   ],
+   "20": [
+    "Lk"
+   ],
+   "21": [
+    "Paralipomenon_I",
+    "Esther",
+    "Jonas",
+    "Re"
+   ]
+  },
+  "rho": 0.057293594964827846,
+  "p": 0.8002,
+  "smooth": 58.46370127723964,
+  "smooth_p": 0.781,
+  "john_order": [
+   "1Pe",
+   "Genesis",
+   "Paralipomenon_II",
+   "Esdras_A",
+   "Regnorum_III",
+   "Ezechiel",
+   "Judices",
+   "Esdras_B",
+   "Aggaeus",
+   "Bel_et_Draco_Theodotionis_versio",
+   "Sophonias",
+   "Nahum",
+   "Heb",
+   "Judith",
+   "Ruth",
+   "Sapientia_Salomonis",
+   "Josue",
+   "Threni_seu_Lamentationes",
+   "1Co",
+   "Ga",
+   "Ro",
+   "Job",
+   "Susanna_Theodotionis_versio",
+   "Epistula_Jeremiae",
+   "Isaias",
+   "Jeremias",
+   "Zacharias",
+   "Machabaeorum_i",
+   "Habacuc",
+   "1Jn",
+   "2Co",
+   "Eph",
+   "Jas",
+   "Deuteronomium",
+   "Malachias",
+   "Proverbia",
+   "Psalmi",
+   "Amos",
+   "Joel",
+   "Php",
+   "Tobias",
+   "Michaeas",
+   "2Pe",
+   "Col",
+   "1Th",
+   "2Th",
+   "1Ti",
+   "Daniel_Theodotionis_versio",
+   "Ecclesiasticus",
+   "Odae",
+   "2Ti",
+   "Baruch",
+   "Osee",
+   "Tit",
+   "Psalmi_Salomonis",
+   "Mk",
+   "Mt",
+   "Ac",
+   "Regnorum_I",
+   "Regnorum_II",
+   "Regnorum_IV",
+   "Exodus",
+   "Machabaeorum_ii",
+   "Numeri",
+   "Machabaeorum_iv",
+   "Machabaeorum_iii",
+   "Leviticus",
+   "Canticum",
+   "Lk",
+   "Re",
+   "Esther",
+   "Jonas",
+   "Paralipomenon_I"
+  ]
+ },
+ "centres": {
+  "mean_rank": 5.301369863013699,
+  "n": 73
+ },
+ "step_books": {
+  "Genesis": {
+   "score": 4.06,
+   "p": 0.114
+  },
+  "Exodus": {
+   "score": 6.12,
+   "p": 0.016
+  },
+  "Leviticus": {
+   "score": -0.57,
+   "p": 0.552
+  },
+  "Numeri": {
+   "score": -0.41,
+   "p": 0.558
+  },
+  "Deuteronomium": {
+   "score": 2.76,
+   "p": 0.156
+  },
+  "Josue": {
+   "score": -0.58,
+   "p": 0.61
+  },
+  "Judices": {
+   "score": -3.92,
+   "p": 0.85
+  },
+  "Regnorum_I": {
+   "score": 2.75,
+   "p": 0.252
+  },
+  "Regnorum_II": {
+   "score": -0.5,
+   "p": 0.548
+  },
+  "Regnorum_III": {
+   "score": -0.32,
+   "p": 0.546
+  },
+  "Regnorum_IV": {
+   "score": 2.38,
+   "p": 0.238
+  },
+  "Paralipomenon_I": {
+   "score": -2.4,
+   "p": 0.806
+  },
+  "Paralipomenon_II": {
+   "score": -6.27,
+   "p": 0.962
+  },
+  "Esdras_A": {
+   "score": 3.83,
+   "p": 0.132
+  },
+  "Esdras_B": {
+   "score": -0.13,
+   "p": 0.52
+  },
+  "Esther": {
+   "score": -2.55,
+   "p": 0.72
+  },
+  "Judith": {
+   "score": 1.01,
+   "p": 0.352
+  },
+  "Tobias": {
+   "score": 5.68,
+   "p": 0.088
+  },
+  "Machabaeorum_i": {
+   "score": 3.58,
+   "p": 0.182
+  },
+  "Machabaeorum_ii": {
+   "score": -1.19,
+   "p": 0.634
+  },
+  "Machabaeorum_iii": {
+   "score": 4.2,
+   "p": 0.174
+  },
+  "Machabaeorum_iv": {
+   "score": 1.87,
+   "p": 0.332
+  },
+  "Psalmi": {
+   "score": 0.78,
+   "p": 0.384
+  },
+  "Odae": {
+   "score": 6.97,
+   "p": 0.008
+  },
+  "Proverbia": {
+   "score": -1.43,
+   "p": 0.62
+  },
+  "Job": {
+   "score": 0.41,
+   "p": 0.46
+  },
+  "Sapientia_Salomonis": {
+   "score": 5.57,
+   "p": 0.07
+  },
+  "Ecclesiasticus": {
+   "score": -2.37,
+   "p": 0.744
+  },
+  "Psalmi_Salomonis": {
+   "score": 14.22,
+   "p": 0.0
+  },
+  "Zacharias": {
+   "score": -5.9,
+   "p": 0.978
+  },
+  "Isaias": {
+   "score": 0.92,
+   "p": 0.378
+  },
+  "Jeremias": {
+   "score": 1.74,
+   "p": 0.3
+  },
+  "Ezechiel": {
+   "score": -5.46,
+   "p": 0.93
+  },
+  "Daniel_Theodotionis_versio": {
+   "score": -4.64,
+   "p": 0.912
+  },
+  "Mt": {
+   "score": -1.14,
+   "p": 0.598
+  },
+  "Mk": {
+   "score": 0.12,
+   "p": 0.46
+  },
+  "Lk": {
+   "score": 5.17,
+   "p": 0.084
+  },
+  "Ac": {
+   "score": 3.57,
+   "p": 0.146
+  },
+  "Ro": {
+   "score": 3.95,
+   "p": 0.11
+  },
+  "1Co": {
+   "score": 1.17,
+   "p": 0.372
+  },
+  "2Co": {
+   "score": 1.52,
+   "p": 0.296
+  },
+  "Heb": {
+   "score": 0.79,
+   "p": 0.356
+  },
+  "Re": {
+   "score": -0.12,
+   "p": 0.54
+  }
+ },
+ "step_canon": {
+  "Whole Bible, Vaticanus order + NT (without John)": {
+   "score": -0.94,
+   "p": 0.7735
+  },
+  "Hebrew order + NT (without John)": {
+   "score": -0.23,
+   "p": 0.578
+  },
+  "New Testament (without John)": {
+   "score": 4.36,
+   "p": 0.073
+  },
+  "Old Testament, Vaticanus order": {
+   "score": 1.91,
+   "p": 0.243
+  }
+ },
+ "echoes": [
+  {
+   "nt": "Mt 1:23",
+   "word": "Ἐμμανουήλ·",
+   "ot": "Isaias 7:14",
+   "p": 0.0033,
+   "shared": [
+    "γαστρ",
+    "εξει",
+    "ιδου",
+    "καλεσ",
+    "κυριο",
+    "ονομα",
+    "παρθε",
+    "τεξετ"
+   ]
+  },
+  {
+   "nt": "Mt 3:14",
+   "word": "διεκώλυεν",
+   "ot": "Judith 4:7",
+   "p": 0.0066,
+   "shared": [
+    "διακα",
+    "λεγων"
+   ]
+  },
+  {
+   "nt": "Mt 5:33",
+   "word": "ἐπιορκήσεις,",
+   "ot": "Sapientia_Salomonis 14:28",
+   "p": 0.0033,
+   "shared": [
+    "θεου",
+    "μοιχε",
+    "ομοσα"
+   ]
+  },
+  {
+   "nt": "Mk 13:35",
+   "word": "ἀλεκτοροφωνίας",
+   "ot": "Machabaeorum_iii 4:2",
+   "p": 0.0033,
+   "shared": [
+    "εξαιφ"
+   ]
+  },
+  {
+   "nt": "Lk 6:35",
+   "word": "ἀπελπίζοντες·",
+   "ot": "Machabaeorum_ii 9:18",
+   "p": 0.0033,
+   "shared": [
+    "εσεσθ",
+    "εσται",
+    "τουσ",
+    "υμιν",
+    "χρηστ"
+   ]
+  },
+  {
+   "nt": "Lk 7:41",
+   "word": "δανιστῇ",
+   "ot": "Proverbia 29:13",
+   "p": 0.0033,
+   "shared": [
+    "αμφοτ",
+    "χρεοφ"
+   ]
+  },
+  {
+   "nt": "Lk 7:45",
+   "word": "διέλιπεν",
+   "ot": "Regnorum_I 10:8",
+   "p": 0.01,
+   "shared": [
+    "στραφ"
+   ]
+  },
+  {
+   "nt": "Lk 16:1",
+   "word": "διεβλήθη",
+   "ot": "Machabaeorum_ii 3:11",
+   "p": 0.0066,
+   "shared": [
+    "ειχεν",
+    "ελεγε",
+    "παντα",
+    "τουσ"
+   ]
+  },
+  {
+   "nt": "Ac 1:20",
+   "word": "ἔπαυλις",
+   "ot": "Psalmi 68:26",
+   "p": 0.0066,
+   "shared": [
+    "γενηθ",
+    "εστω",
+    "κατοι"
+   ]
+  },
+  {
+   "nt": "Ac 2:10",
+   "word": "Κυρήνην,",
+   "ot": "Machabaeorum_i 15:23",
+   "p": 0.0066,
+   "shared": [
+    "παμφυ"
+   ]
+  },
+  {
+   "nt": "Ac 7:19",
+   "word": "κατασοφισάμενος",
+   "ot": "Exodus 1:10",
+   "p": 0.0033,
+   "shared": [
+    "αιγυπ",
+    "ανεστ",
+    "βασιλ",
+    "γενοσ",
+    "ετερο",
+    "ηδει",
+    "ιωσηφ",
+    "τουσ"
+   ]
+  },
+  {
+   "nt": "Ac 7:43",
+   "word": "Μολὸχ",
+   "ot": "Amos 5:26",
+   "p": 0.0033,
+   "shared": [
+    "ανελα",
+    "αστρο",
+    "εθνων",
+    "επεκε",
+    "εποιη",
+    "θεοσ",
+    "θεου",
+    "θυσια"
+   ]
+  },
+  {
+   "nt": "Ac 7:43",
+   "word": "⸀Ῥαιφάν,",
+   "ot": "Amos 5:26",
+   "p": 0.0033,
+   "shared": [
+    "ανελα",
+    "αστρο",
+    "εθνων",
+    "επεκε",
+    "εποιη",
+    "θεοσ",
+    "θεου",
+    "θυσια"
+   ]
+  },
+  {
+   "nt": "Ac 17:4",
+   "word": "προσεκληρώθησαν",
+   "ot": "Machabaeorum_ii 4:14",
+   "p": 0.0033,
+   "shared": [
+    "αυτου",
+    "ελλην",
+    "ιασον",
+    "τουσ"
+   ]
+  },
+  {
+   "nt": "Ac 17:18",
+   "word": "Ἐπικουρείων",
+   "ot": "Machabaeorum_iv 9:31",
+   "p": 0.01,
+   "shared": [
+    "δοκει"
+   ]
+  },
+  {
+   "nt": "Ac 17:18",
+   "word": "καταγγελεὺς",
+   "ot": "Machabaeorum_ii 9:17",
+   "p": 0.01,
+   "shared": [
+    "αθηνα",
+    "αυτου",
+    "ιουδα",
+    "τουσ"
+   ]
+  },
+  {
+   "nt": "Ac 17:23",
+   "word": "βωμὸν",
+   "ot": "Jeremias 7:32",
+   "p": 0.0066,
+   "shared": [
+    "βωμον",
+    "κυριο",
+    "λεγει",
+    "ουραν",
+    "τουτο",
+    "υπαρχ"
+   ]
+  },
+  {
+   "nt": "Ac 22:25",
+   "word": "μαστίζειν;",
+   "ot": "Sapientia_Salomonis 5:11",
+   "p": 0.0066,
+   "shared": [
+    "αερα",
+    "ουτωσ"
+   ]
+  },
+  {
+   "nt": "Ac 27:9",
+   "word": "ἐπισφαλοῦς",
+   "ot": "Sapientia_Salomonis 9:14",
+   "p": 0.01,
+   "shared": [
+    "μολισ"
+   ]
+  },
+  {
+   "nt": "Ac 28:11",
+   "word": "παρασήμῳ",
+   "ot": "Machabaeorum_iii 2:29",
+   "p": 0.0066,
+   "shared": [
+    "αλεξα",
+    "τουτο"
+   ]
+  },
+  {
+   "nt": "Ro 9:28",
+   "word": "⸀συντέμνων",
+   "ot": "Isaias 10:22",
+   "p": 0.0033,
+   "shared": [
+    "αμμοσ",
+    "δικαι",
+    "εσται",
+    "θαλασ",
+    "ισραη",
+    "κυριο",
+    "λαοσ",
+    "λογον"
+   ]
+  },
+  {
+   "nt": "2Co 11:2",
+   "word": "ἡρμοσάμην",
+   "ot": "Machabaeorum_iii 1:19",
+   "p": 0.0033,
+   "shared": [
+    "εκειν",
+    "παρθε",
+    "συνισ"
+   ]
+  },
+  {
+   "nt": "2Ti 3:9",
+   "word": "ἔκδηλος",
+   "ot": "Machabaeorum_iii 3:19",
+   "p": 0.01,
+   "shared": [
+    "ανθρω",
+    "ανοια",
+    "πασιν"
+   ]
+  },
+  {
+   "nt": "2Ti 3:16",
+   "word": "ἐπανόρθωσιν,",
+   "ot": "Machabaeorum_ii 2:22",
+   "p": 0.0033,
+   "shared": [
+    "επιφα",
+    "μελλο"
+   ]
+  },
+  {
+   "nt": "Heb 5:7",
+   "word": "ἱκετηρίας",
+   "ot": "Machabaeorum_ii 9:18",
+   "p": 0.01,
+   "shared": [
+    "ουτωσ",
+    "ταξιν"
+   ]
+  },
+  {
+   "nt": "Heb 11:28",
+   "word": "ὀλοθρεύων",
+   "ot": "Psalmi_Salomonis 4:15",
+   "p": 0.0066,
+   "shared": [
+    "ορων"
+   ]
+  },
+  {
+   "nt": "Heb 12:5",
+   "word": "ὀλιγώρει",
+   "ot": "Proverbia 3:11",
+   "p": 0.0033,
+   "shared": [
+    "εκλυο",
+    "ελεγχ",
+    "κυριο",
+    "μαστι",
+    "μηδε",
+    "παιδε",
+    "παντα",
+    "παραδ"
+   ]
+  },
+  {
+   "nt": "Heb 12:18",
+   "word": "θυέλλῃ",
+   "ot": "Exodus 10:22",
+   "p": 0.0066,
+   "shared": [
+    "ψηλαφ"
+   ]
+  },
+  {
+   "nt": "Jas 5:7",
+   "word": "ὄψιμον.",
+   "ot": "Osee 6:3",
+   "p": 0.0066,
+   "shared": [
+    "ημερα",
+    "κυριο",
+    "προιμ"
+   ]
+  },
+  {
+   "nt": "1Pe 1:4",
+   "word": "ἀμάραντον,",
+   "ot": "Sapientia_Salomonis 6:12",
+   "p": 0.0033,
+   "shared": [
+    "προγν",
+    "τουσ"
+   ]
+  },
+  {
+   "nt": "1Pe 3:3",
+   "word": "ἐνδύσεως",
+   "ot": "Esther 4:4b",
+   "p": 0.0033,
+   "shared": [
+    "ενωπι",
+    "εποπτ",
+    "θεον",
+    "καρδι",
+    "πολυτ"
+   ]
+  },
+  {
+   "nt": "1Pe 4:3",
+   "word": "οἰνοφλυγίαις,",
+   "ot": "Deuteronomium 21:20",
+   "p": 0.0033,
+   "shared": [
+    "αλλα",
+    "αμαρτ",
+    "αποδω",
+    "επιλο",
+    "θεου"
+   ]
+  },
+  {
+   "nt": "Re 18:12",
+   "word": "μαρμάρου,",
+   "ot": "Canticum 5:15",
+   "p": 0.0066,
+   "shared": [
+    "απηλθ",
+    "ελεφα",
+    "επιθυ",
+    "λιβαν",
+    "λιθου"
+   ]
+  },
+  {
+   "nt": "Re 21:20",
+   "word": "χρυσόλιθος,",
+   "ot": "Exodus 28:20",
+   "p": 0.0033,
+   "shared": [
+    "αμεθυ",
+    "βηρυλ",
+    "δευτε",
+    "εκαστ",
+    "ιασπι",
+    "καθαρ",
+    "τεταρ",
+    "τριτο"
+   ]
+  },
+  {
+   "nt": "Re 21:20",
+   "word": "ἀμέθυστος·",
+   "ot": "Exodus 28:19",
+   "p": 0.0033,
+   "shared": [
+    "βηρυλ",
+    "δευτε",
+    "εκαστ",
+    "ιασπι",
+    "σαρδι",
+    "σμαρα",
+    "τεταρ",
+    "τοπαζ"
+   ]
+  }
+ ]
+}

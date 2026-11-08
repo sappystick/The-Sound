@@ -1,0 +1,400 @@
+{
+ "numbers": {
+  "word count": {
+   "k": 169,
+   "n": 1355,
+   "share": 0.1247,
+   "p": 0.05711842056907919
+  },
+  "syllable count": {
+   "k": 204,
+   "n": 1355,
+   "share": 0.1506,
+   "p": 0.4149792240151071
+  },
+  "letter-value total": {
+   "k": 189,
+   "n": 1355,
+   "share": 0.1395,
+   "p": 0.7561582508684372
+  }
+ },
+ "clusters": [
+  {
+   "k": 0,
+   "n": 428,
+   "groups": {
+    "History": 163,
+    "Poetry & Wisdom": 71,
+    "Law": 70,
+    "Prophets": 67,
+    "Acts & Letters": 44,
+    "Gospels": 8,
+    "Revelation": 5
+   },
+   "profile": [
+    [
+     "o_share",
+     -0.85
+    ],
+    [
+     "brightness",
+     0.78
+    ],
+    [
+     "sight",
+     -0.36
+    ]
+   ],
+   "examples": "Exodus 12, Paralipomenon_II 23, Leviticus 5, Genesis 12, Judices 4"
+  },
+  {
+   "k": 1,
+   "n": 336,
+   "groups": {
+    "History": 99,
+    "Poetry & Wisdom": 75,
+    "Prophets": 53,
+    "Law": 46,
+    "Acts & Letters": 40,
+    "Gospels": 16,
+    "Revelation": 7
+   },
+   "profile": [
+    [
+     "brightness",
+     -0.8
+    ],
+    [
+     "o_share",
+     0.74
+    ],
+    [
+     "voice",
+     -0.4
+    ]
+   ],
+   "examples": "Leviticus 9, Deuteronomium 2, Regnorum_IV 11, Judices 3, Job 42"
+  },
+  {
+   "k": 2,
+   "n": 77,
+   "groups": {
+    "Poetry & Wisdom": 36,
+    "Prophets": 17,
+    "Gospels": 7,
+    "Acts & Letters": 7,
+    "Law": 6,
+    "Revelation": 3,
+    "History": 1
+   },
+   "profile": [
+    [
+     "light",
+     3.33
+    ],
+    [
+     "breath_mean",
+     -0.62
+    ],
+    [
+     "water",
+     0.34
+    ]
+   ],
+   "examples": "Proverbia 13, Baruch 3, Proverbia 4, Ac 26, Psalmi 89"
+  },
+  {
+   "k": 3,
+   "n": 260,
+   "groups": {
+    "Prophets": 81,
+    "History": 62,
+    "Gospels": 53,
+    "Law": 44,
+    "Acts & Letters": 11,
+    "Poetry & Wisdom": 5,
+    "Revelation": 4
+   },
+   "profile": [
+    [
+     "voice",
+     1.41
+    ],
+    [
+     "sight",
+     0.76
+    ],
+    [
+     "breath_mean",
+     0.31
+    ]
+   ],
+   "examples": "Mt 22, Ezechiel 20, Regnorum_I 14, Mk 2, Genesis 3"
+  },
+  {
+   "k": 4,
+   "n": 82,
+   "groups": {
+    "Acts & Letters": 39,
+    "Poetry & Wisdom": 20,
+    "Prophets": 14,
+    "Gospels": 5,
+    "History": 2,
+    "Law": 1,
+    "Revelation": 1
+   },
+   "profile": [
+    [
+     "breath",
+     2.74
+    ],
+    [
+     "ring_z",
+     0.3
+    ],
+    [
+     "sight",
+     0.26
+    ]
+   ],
+   "examples": "Jud 1, Ac 2, Lk 4, Eph 4, Ezechiel 5"
+  },
+  {
+   "k": 5,
+   "n": 172,
+   "groups": {
+    "Poetry & Wisdom": 99,
+    "Prophets": 26,
+    "Law": 20,
+    "History": 17,
+    "Acts & Letters": 8,
+    "Revelation": 2
+   },
+   "profile": [
+    [
+     "divine",
+     1.43
+    ],
+    [
+     "breath_mean",
+     -0.7
+    ],
+    [
+     "ring_z",
+     0.64
+    ]
+   ],
+   "examples": "Paralipomenon_I 16, Psalmi 21, Paralipomenon_I 29, Sophonias 2, Odae 2"
+  }
+ ],
+ "book_rings": {
+  "Genesis": 0.39,
+  "Exodus": 0.99,
+  "Leviticus": 0.92,
+  "Numeri": 0.302,
+  "Deuteronomium": 0.136,
+  "Josue": 0.592,
+  "Judices": 0.396,
+  "Regnorum_I": 0.99,
+  "Regnorum_II": 0.302,
+  "Regnorum_III": 0.68,
+  "Regnorum_IV": 0.994,
+  "Paralipomenon_I": 0.272,
+  "Paralipomenon_II": 0.694,
+  "Esdras_A": 0.738,
+  "Esdras_B": 0.974,
+  "Esther": 0.386,
+  "Judith": 0.764,
+  "Tobias": 0.596,
+  "Machabaeorum_i": 0.866,
+  "Machabaeorum_ii": 0.834,
+  "Machabaeorum_iii": 0.644,
+  "Machabaeorum_iv": 0.992,
+  "Psalmi": 0.876,
+  "Odae": 0.372,
+  "Proverbia": 0.296,
+  "Canticum": 0.954,
+  "Job": 0.158,
+  "Sapientia_Salomonis": 0.86,
+  "Ecclesiasticus": 0.322,
+  "Psalmi_Salomonis": 0.722,
+  "Osee": 0.094,
+  "Amos": 0.594,
+  "Michaeas": 0.926,
+  "Zacharias": 0.662,
+  "Isaias": 0.792,
+  "Jeremias": 0.966,
+  "Baruch": 0.734,
+  "Threni_seu_Lamentationes": 0.366,
+  "Ezechiel": 0.642,
+  "Daniel_Theodotionis_versio": 0.984,
+  "Mt": 0.056,
+  "Mk": 0.978,
+  "Lk": 0.48,
+  "Jn": 0.786,
+  "Ac": 0.94,
+  "Ro": 0.906,
+  "1Co": 0.348,
+  "2Co": 0.148,
+  "Ga": 0.394,
+  "Eph": 0.676,
+  "1Th": 0.702,
+  "1Ti": 0.07,
+  "Heb": 0.782,
+  "Jas": 0.544,
+  "1Pe": 0.584,
+  "1Jn": 0.504,
+  "Re": 0.544,
+  "Daniel 2-7 check": 0.136
+ },
+ "revelation_nearest": {
+  "1": "Regnorum_II 19",
+  "2": "Ezechiel 12",
+  "3": "Isaias 42",
+  "4": "Isaias 6",
+  "5": "Regnorum_I 11",
+  "6": "Isaias 6",
+  "7": "Numeri 2",
+  "8": "Isaias 6",
+  "9": "Bel_et_Draco_Theodotionis_versio 1",
+  "10": "Jeremias 32",
+  "11": "Regnorum_III 21",
+  "12": "Judices 13",
+  "13": "Daniel_Theodotionis_versio 7",
+  "14": "Paralipomenon_I 29",
+  "15": "Psalmi 85",
+  "16": "Bel_et_Draco_Theodotionis_versio 1",
+  "17": "Paralipomenon_II 20",
+  "18": "Joel 2",
+  "19": "Paralipomenon_II 20",
+  "20": "Daniel_Theodotionis_versio 7",
+  "21": "Zacharias 8",
+  "22": "Zacharias 8"
+ },
+ "features": [
+  "brightness",
+  "o_share",
+  "breath_mean",
+  "pace_change",
+  "breath_mirror",
+  "ring_z",
+  "staircase",
+  "divine",
+  "light",
+  "water",
+  "breath",
+  "voice",
+  "sight"
+ ],
+ "loadings": [
+  [
+   [
+    "brightness",
+    0.603
+   ],
+   [
+    "o_share",
+    -0.645
+   ],
+   [
+    "breath_mean",
+    0.194
+   ],
+   [
+    "pace_change",
+    -0.036
+   ],
+   [
+    "breath_mirror",
+    -0.065
+   ],
+   [
+    "ring_z",
+    -0.195
+   ],
+   [
+    "staircase",
+    0.163
+   ],
+   [
+    "divine",
+    -0.208
+   ],
+   [
+    "light",
+    -0.132
+   ],
+   [
+    "water",
+    -0.08
+   ],
+   [
+    "breath",
+    -0.111
+   ],
+   [
+    "voice",
+    0.033
+   ],
+   [
+    "sight",
+    -0.178
+   ]
+  ],
+  [
+   [
+    "brightness",
+    0.065
+   ],
+   [
+    "o_share",
+    0.008
+   ],
+   [
+    "breath_mean",
+    0.319
+   ],
+   [
+    "pace_change",
+    -0.214
+   ],
+   [
+    "breath_mirror",
+    -0.114
+   ],
+   [
+    "ring_z",
+    0.15
+   ],
+   [
+    "staircase",
+    -0.401
+   ],
+   [
+    "divine",
+    0.021
+   ],
+   [
+    "light",
+    -0.152
+   ],
+   [
+    "water",
+    -0.343
+   ],
+   [
+    "breath",
+    0.044
+   ],
+   [
+    "voice",
+    0.581
+   ],
+   [
+    "sight",
+    0.413
+   ]
+  ]
+ ]
+}

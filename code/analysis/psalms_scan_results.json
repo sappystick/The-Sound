@@ -1,0 +1,5182 @@
+{
+ "full_words": {
+  "n": 145,
+  "significant": 1,
+  "expected": 7.2,
+  "p": 0.9994112610528304,
+  "rows": [
+   {
+    "psalm": 1,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.0299,
+    "p": 0.225,
+    "diff": 2.0,
+    "total": 67
+   },
+   {
+    "psalm": 2,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0109,
+    "p": 0.173,
+    "diff": 1.0,
+    "total": 92
+   },
+   {
+    "psalm": 3,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0857,
+    "p": 0.803,
+    "diff": 6.0,
+    "total": 70
+   },
+   {
+    "psalm": 4,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.026,
+    "p": 0.274,
+    "diff": 2.0,
+    "total": 77
+   },
+   {
+    "psalm": 5,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0179,
+    "p": 0.268,
+    "diff": 2.0,
+    "total": 112
+   },
+   {
+    "psalm": 6,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0118,
+    "p": 0.258,
+    "diff": 1.0,
+    "total": 85
+   },
+   {
+    "psalm": 7,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0141,
+    "p": 0.292,
+    "diff": 2.0,
+    "total": 142
+   },
+   {
+    "psalm": 8,
+    "verses": 10,
+    "central_verse": 5,
+    "exactness": 0.039,
+    "p": 0.461,
+    "diff": 3.0,
+    "total": 77
+   },
+   {
+    "psalm": 9,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0181,
+    "p": 0.46,
+    "diff": 3.0,
+    "total": 166
+   },
+   {
+    "psalm": 10,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0539,
+    "p": 0.942,
+    "diff": 9.0,
+    "total": 167
+   },
+   {
+    "psalm": 11,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.0725,
+    "p": 0.575,
+    "diff": 5.0,
+    "total": 69
+   },
+   {
+    "psalm": 12,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0506,
+    "p": 0.512,
+    "diff": 4.0,
+    "total": 79
+   },
+   {
+    "psalm": 13,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1455,
+    "p": 0.954,
+    "diff": 8.0,
+    "total": 55
+   },
+   {
+    "psalm": 14,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.1233,
+    "p": 0.776,
+    "diff": 9.0,
+    "total": 73
+   },
+   {
+    "psalm": 15,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.1455,
+    "p": 0.873,
+    "diff": 8.0,
+    "total": 55
+   },
+   {
+    "psalm": 16,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0309,
+    "p": 0.31,
+    "diff": 3.0,
+    "total": 97
+   },
+   {
+    "psalm": 17,
+    "verses": 15,
+    "central_verse": 8,
+    "exactness": 0.0079,
+    "p": 0.171,
+    "diff": 1.0,
+    "total": 126
+   },
+   {
+    "psalm": 18,
+    "verses": 51,
+    "central_verse": 25,
+    "exactness": 0.005,
+    "p": 0.329,
+    "diff": 2.0,
+    "total": 398
+   },
+   {
+    "psalm": 19,
+    "verses": 15,
+    "central_verse": 8,
+    "exactness": 0.0635,
+    "p": 0.947,
+    "diff": 8.0,
+    "total": 126
+   },
+   {
+    "psalm": 20,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0714,
+    "p": 0.694,
+    "diff": 5.0,
+    "total": 70
+   },
+   {
+    "psalm": 21,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0667,
+    "p": 0.952,
+    "diff": 7.0,
+    "total": 105
+   },
+   {
+    "psalm": 22,
+    "verses": 32,
+    "central_verse": 17,
+    "exactness": 0.0158,
+    "p": 0.567,
+    "diff": 4.0,
+    "total": 253
+   },
+   {
+    "psalm": 23,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.0351,
+    "p": 0.183,
+    "diff": 2.0,
+    "total": 57
+   },
+   {
+    "psalm": 24,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0444,
+    "p": 0.327,
+    "diff": 4.0,
+    "total": 90
+   },
+   {
+    "psalm": 25,
+    "verses": 22,
+    "central_verse": 11,
+    "exactness": 0.044,
+    "p": 0.941,
+    "diff": 7.0,
+    "total": 159
+   },
+   {
+    "psalm": 26,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0116,
+    "p": 0.251,
+    "diff": 1.0,
+    "total": 86
+   },
+   {
+    "psalm": 27,
+    "verses": 14,
+    "central_verse": 6,
+    "exactness": 0.0537,
+    "p": 0.768,
+    "diff": 8.0,
+    "total": 149
+   },
+   {
+    "psalm": 28,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.0833,
+    "p": 0.796,
+    "diff": 8.0,
+    "total": 96
+   },
+   {
+    "psalm": 29,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0549,
+    "p": 0.679,
+    "diff": 5.0,
+    "total": 91
+   },
+   {
+    "psalm": 30,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0612,
+    "p": 0.828,
+    "diff": 6.0,
+    "total": 98
+   },
+   {
+    "psalm": 31,
+    "verses": 25,
+    "central_verse": 13,
+    "exactness": 0.0182,
+    "p": 0.505,
+    "diff": 4.0,
+    "total": 220
+   },
+   {
+    "psalm": 32,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0455,
+    "p": 0.553,
+    "diff": 5.0,
+    "total": 110
+   },
+   {
+    "psalm": 33,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0497,
+    "p": 0.997,
+    "diff": 8.0,
+    "total": 161
+   },
+   {
+    "psalm": 34,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0242,
+    "p": 0.666,
+    "diff": 4.0,
+    "total": 165
+   },
+   {
+    "psalm": 35,
+    "verses": 28,
+    "central_verse": 14,
+    "exactness": 0.0306,
+    "p": 0.873,
+    "diff": 7.0,
+    "total": 229
+   },
+   {
+    "psalm": 36,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.02,
+    "p": 0.359,
+    "diff": 2.0,
+    "total": 100
+   },
+   {
+    "psalm": 37,
+    "verses": 40,
+    "central_verse": 20,
+    "exactness": 0.0134,
+    "p": 0.606,
+    "diff": 4.0,
+    "total": 298
+   },
+   {
+    "psalm": 38,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0178,
+    "p": 0.495,
+    "diff": 3.0,
+    "total": 169
+   },
+   {
+    "psalm": 39,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0615,
+    "p": 0.846,
+    "diff": 8.0,
+    "total": 130
+   },
+   {
+    "psalm": 40,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0216,
+    "p": 0.432,
+    "diff": 4.0,
+    "total": 185
+   },
+   {
+    "psalm": 41,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0583,
+    "p": 0.874,
+    "diff": 7.0,
+    "total": 120
+   },
+   {
+    "psalm": 42,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0677,
+    "p": 0.888,
+    "diff": 9.0,
+    "total": 133
+   },
+   {
+    "psalm": 43,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0678,
+    "p": 1.0,
+    "diff": 4.0,
+    "total": 59
+   },
+   {
+    "psalm": 44,
+    "verses": 27,
+    "central_verse": 14,
+    "exactness": 0.0101,
+    "p": 0.346,
+    "diff": 2.0,
+    "total": 198
+   },
+   {
+    "psalm": 45,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.025,
+    "p": 0.496,
+    "diff": 4.0,
+    "total": 160
+   },
+   {
+    "psalm": 46,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.02,
+    "p": 0.316,
+    "diff": 2.0,
+    "total": 100
+   },
+   {
+    "psalm": 47,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.039,
+    "p": 0.473,
+    "diff": 3.0,
+    "total": 77
+   },
+   {
+    "psalm": 48,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.027,
+    "p": 0.48,
+    "diff": 3.0,
+    "total": 111
+   },
+   {
+    "psalm": 49,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0238,
+    "p": 0.522,
+    "diff": 4.0,
+    "total": 168
+   },
+   {
+    "psalm": 50,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0281,
+    "p": 0.708,
+    "diff": 5.0,
+    "total": 178
+   },
+   {
+    "psalm": 51,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0195,
+    "p": 0.437,
+    "diff": 3.0,
+    "total": 154
+   },
+   {
+    "psalm": 52,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0778,
+    "p": 0.863,
+    "diff": 7.0,
+    "total": 90
+   },
+   {
+    "psalm": 53,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.1299,
+    "p": 0.879,
+    "diff": 10.0,
+    "total": 77
+   },
+   {
+    "psalm": 54,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0794,
+    "p": 0.757,
+    "diff": 5.0,
+    "total": 63
+   },
+   {
+    "psalm": 55,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0052,
+    "p": 0.188,
+    "diff": 1.0,
+    "total": 194
+   },
+   {
+    "psalm": 56,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0496,
+    "p": 0.767,
+    "diff": 6.0,
+    "total": 121
+   },
+   {
+    "psalm": 57,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0377,
+    "p": 0.512,
+    "diff": 4.0,
+    "total": 106
+   },
+   {
+    "psalm": 58,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0099,
+    "p": 0.158,
+    "diff": 1.0,
+    "total": 101
+   },
+   {
+    "psalm": 59,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0253,
+    "p": 0.529,
+    "diff": 4.0,
+    "total": 158
+   },
+   {
+    "psalm": 60,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0614,
+    "p": 0.902,
+    "diff": 7.0,
+    "total": 114
+   },
+   {
+    "psalm": 61,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.1029,
+    "p": 0.874,
+    "diff": 7.0,
+    "total": 68
+   },
+   {
+    "psalm": 62,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0256,
+    "p": 0.386,
+    "diff": 3.0,
+    "total": 117
+   },
+   {
+    "psalm": 63,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.086,
+    "p": 0.919,
+    "diff": 8.0,
+    "total": 93
+   },
+   {
+    "psalm": 64,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0854,
+    "p": 0.937,
+    "diff": 7.0,
+    "total": 82
+   },
+   {
+    "psalm": 65,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0,
+    "p": 0.048,
+    "diff": 0.0,
+    "total": 109
+   },
+   {
+    "psalm": 66,
+    "verses": 20,
+    "central_verse": 10,
+    "exactness": 0.0065,
+    "p": 0.2,
+    "diff": 1.0,
+    "total": 155
+   },
+   {
+    "psalm": 67,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0755,
+    "p": 0.776,
+    "diff": 4.0,
+    "total": 53
+   },
+   {
+    "psalm": 68,
+    "verses": 36,
+    "central_verse": 19,
+    "exactness": 0.0258,
+    "p": 0.931,
+    "diff": 8.0,
+    "total": 310
+   },
+   {
+    "psalm": 69,
+    "verses": 37,
+    "central_verse": 18,
+    "exactness": 0.0275,
+    "p": 0.937,
+    "diff": 8.0,
+    "total": 291
+   },
+   {
+    "psalm": 70,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1277,
+    "p": 0.8,
+    "diff": 6.0,
+    "total": 47
+   },
+   {
+    "psalm": 71,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0243,
+    "p": 0.631,
+    "diff": 5.0,
+    "total": 206
+   },
+   {
+    "psalm": 72,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0307,
+    "p": 0.658,
+    "diff": 5.0,
+    "total": 163
+   },
+   {
+    "psalm": 73,
+    "verses": 28,
+    "central_verse": 15,
+    "exactness": 0.0254,
+    "p": 0.799,
+    "diff": 5.0,
+    "total": 197
+   },
+   {
+    "psalm": 74,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0102,
+    "p": 0.311,
+    "diff": 2.0,
+    "total": 197
+   },
+   {
+    "psalm": 75,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.069,
+    "p": 0.776,
+    "diff": 6.0,
+    "total": 87
+   },
+   {
+    "psalm": 76,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0444,
+    "p": 0.647,
+    "diff": 4.0,
+    "total": 90
+   },
+   {
+    "psalm": 77,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0064,
+    "p": 0.201,
+    "diff": 1.0,
+    "total": 157
+   },
+   {
+    "psalm": 78,
+    "verses": 72,
+    "central_verse": 34,
+    "exactness": 0.0038,
+    "p": 0.32,
+    "diff": 2.0,
+    "total": 530
+   },
+   {
+    "psalm": 79,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0451,
+    "p": 0.672,
+    "diff": 6.0,
+    "total": 133
+   },
+   {
+    "psalm": 80,
+    "verses": 20,
+    "central_verse": 11,
+    "exactness": 0.0143,
+    "p": 0.389,
+    "diff": 2.0,
+    "total": 140
+   },
+   {
+    "psalm": 81,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.008,
+    "p": 0.211,
+    "diff": 1.0,
+    "total": 125
+   },
+   {
+    "psalm": 82,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.1148,
+    "p": 0.902,
+    "diff": 7.0,
+    "total": 61
+   },
+   {
+    "psalm": 83,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0231,
+    "p": 0.545,
+    "diff": 3.0,
+    "total": 130
+   },
+   {
+    "psalm": 84,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0259,
+    "p": 0.361,
+    "diff": 3.0,
+    "total": 116
+   },
+   {
+    "psalm": 85,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0309,
+    "p": 0.534,
+    "diff": 3.0,
+    "total": 97
+   },
+   {
+    "psalm": 86,
+    "verses": 17,
+    "central_verse": 10,
+    "exactness": 0.034,
+    "p": 0.615,
+    "diff": 5.0,
+    "total": 147
+   },
+   {
+    "psalm": 87,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.037,
+    "p": 0.291,
+    "diff": 2.0,
+    "total": 54
+   },
+   {
+    "psalm": 88,
+    "verses": 19,
+    "central_verse": 9,
+    "exactness": 0.0352,
+    "p": 0.768,
+    "diff": 5.0,
+    "total": 142
+   },
+   {
+    "psalm": 89,
+    "verses": 53,
+    "central_verse": 26,
+    "exactness": 0.0078,
+    "p": 0.469,
+    "diff": 3.0,
+    "total": 386
+   },
+   {
+    "psalm": 90,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0284,
+    "p": 0.532,
+    "diff": 4.0,
+    "total": 141
+   },
+   {
+    "psalm": 91,
+    "verses": 16,
+    "central_verse": 8,
+    "exactness": 0.0536,
+    "p": 0.875,
+    "diff": 6.0,
+    "total": 112
+   },
+   {
+    "psalm": 92,
+    "verses": 16,
+    "central_verse": 9,
+    "exactness": 0.0265,
+    "p": 0.494,
+    "diff": 3.0,
+    "total": 113
+   },
+   {
+    "psalm": 93,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0,
+    "p": 0.2,
+    "diff": 0.0,
+    "total": 45
+   },
+   {
+    "psalm": 94,
+    "verses": 23,
+    "central_verse": 13,
+    "exactness": 0.0178,
+    "p": 0.475,
+    "diff": 3.0,
+    "total": 169
+   },
+   {
+    "psalm": 95,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.1011,
+    "p": 0.959,
+    "diff": 9.0,
+    "total": 89
+   },
+   {
+    "psalm": 96,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0357,
+    "p": 0.549,
+    "diff": 4.0,
+    "total": 112
+   },
+   {
+    "psalm": 97,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0105,
+    "p": 0.193,
+    "diff": 1.0,
+    "total": 95
+   },
+   {
+    "psalm": 98,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.0533,
+    "p": 0.461,
+    "diff": 4.0,
+    "total": 75
+   },
+   {
+    "psalm": 99,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0843,
+    "p": 0.844,
+    "diff": 7.0,
+    "total": 83
+   },
+   {
+    "psalm": 100,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.1136,
+    "p": 0.585,
+    "diff": 5.0,
+    "total": 44
+   },
+   {
+    "psalm": 101,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0595,
+    "p": 0.413,
+    "diff": 5.0,
+    "total": 84
+   },
+   {
+    "psalm": 102,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0093,
+    "p": 0.363,
+    "diff": 2.0,
+    "total": 214
+   },
+   {
+    "psalm": 103,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.024,
+    "p": 0.596,
+    "diff": 4.0,
+    "total": 167
+   },
+   {
+    "psalm": 104,
+    "verses": 35,
+    "central_verse": 18,
+    "exactness": 0.0185,
+    "p": 0.714,
+    "diff": 5.0,
+    "total": 271
+   },
+   {
+    "psalm": 105,
+    "verses": 45,
+    "central_verse": 23,
+    "exactness": 0.0034,
+    "p": 0.243,
+    "diff": 1.0,
+    "total": 296
+   },
+   {
+    "psalm": 106,
+    "verses": 48,
+    "central_verse": 24,
+    "exactness": 0.006,
+    "p": 0.335,
+    "diff": 2.0,
+    "total": 332
+   },
+   {
+    "psalm": 107,
+    "verses": 43,
+    "central_verse": 22,
+    "exactness": 0.0072,
+    "p": 0.42,
+    "diff": 2.0,
+    "total": 278
+   },
+   {
+    "psalm": 108,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0404,
+    "p": 0.636,
+    "diff": 4.0,
+    "total": 99
+   },
+   {
+    "psalm": 109,
+    "verses": 31,
+    "central_verse": 16,
+    "exactness": 0.0088,
+    "p": 0.374,
+    "diff": 2.0,
+    "total": 227
+   },
+   {
+    "psalm": 110,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.1231,
+    "p": 0.935,
+    "diff": 8.0,
+    "total": 65
+   },
+   {
+    "psalm": 111,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0,
+    "p": 0.09,
+    "diff": 0.0,
+    "total": 74
+   },
+   {
+    "psalm": 112,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.038,
+    "p": 0.224,
+    "diff": 3.0,
+    "total": 79
+   },
+   {
+    "psalm": 113,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.1,
+    "p": 0.922,
+    "diff": 6.0,
+    "total": 60
+   },
+   {
+    "psalm": 114,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0769,
+    "p": 0.466,
+    "diff": 4.0,
+    "total": 52
+   },
+   {
+    "psalm": 115,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0222,
+    "p": 0.453,
+    "diff": 3.0,
+    "total": 135
+   },
+   {
+    "psalm": 116,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0076,
+    "p": 0.21,
+    "diff": 1.0,
+    "total": 131
+   },
+   {
+    "psalm": 118,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0253,
+    "p": 0.837,
+    "diff": 5.0,
+    "total": 198
+   },
+   {
+    "psalm": 119,
+    "verses": 176,
+    "central_verse": 88,
+    "exactness": 0.0037,
+    "p": 0.768,
+    "diff": 4.0,
+    "total": 1067
+   },
+   {
+    "psalm": 120,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.0196,
+    "p": 0.382,
+    "diff": 1.0,
+    "total": 51
+   },
+   {
+    "psalm": 121,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.0893,
+    "p": 0.694,
+    "diff": 5.0,
+    "total": 56
+   },
+   {
+    "psalm": 122,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0968,
+    "p": 0.882,
+    "diff": 6.0,
+    "total": 62
+   },
+   {
+    "psalm": 124,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.0702,
+    "p": 0.476,
+    "diff": 4.0,
+    "total": 57
+   },
+   {
+    "psalm": 125,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.102,
+    "p": 0.624,
+    "diff": 5.0,
+    "total": 49
+   },
+   {
+    "psalm": 126,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.0196,
+    "p": 0.16,
+    "diff": 1.0,
+    "total": 51
+   },
+   {
+    "psalm": 127,
+    "verses": 5,
+    "central_verse": 2,
+    "exactness": 0.1167,
+    "p": 0.676,
+    "diff": 7.0,
+    "total": 60
+   },
+   {
+    "psalm": 128,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1489,
+    "p": 0.903,
+    "diff": 7.0,
+    "total": 47
+   },
+   {
+    "psalm": 129,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0909,
+    "p": 0.779,
+    "diff": 5.0,
+    "total": 55
+   },
+   {
+    "psalm": 130,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.037,
+    "p": 0.459,
+    "diff": 2.0,
+    "total": 54
+   },
+   {
+    "psalm": 132,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0611,
+    "p": 0.948,
+    "diff": 8.0,
+    "total": 131
+   },
+   {
+    "psalm": 135,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.012,
+    "p": 0.338,
+    "diff": 2.0,
+    "total": 167
+   },
+   {
+    "psalm": 136,
+    "verses": 26,
+    "central_verse": 13,
+    "exactness": 0.006,
+    "p": 0.134,
+    "diff": 1.0,
+    "total": 166
+   },
+   {
+    "psalm": 137,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.1071,
+    "p": 0.896,
+    "diff": 9.0,
+    "total": 84
+   },
+   {
+    "psalm": 138,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.0921,
+    "p": 0.779,
+    "diff": 7.0,
+    "total": 76
+   },
+   {
+    "psalm": 139,
+    "verses": 24,
+    "central_verse": 13,
+    "exactness": 0.0223,
+    "p": 0.581,
+    "diff": 4.0,
+    "total": 179
+   },
+   {
+    "psalm": 140,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0588,
+    "p": 0.856,
+    "diff": 7.0,
+    "total": 119
+   },
+   {
+    "psalm": 141,
+    "verses": 10,
+    "central_verse": 5,
+    "exactness": 0.0,
+    "p": 0.05,
+    "diff": 0.0,
+    "total": 95
+   },
+   {
+    "psalm": 142,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0133,
+    "p": 0.197,
+    "diff": 1.0,
+    "total": 75
+   },
+   {
+    "psalm": 143,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0684,
+    "p": 0.823,
+    "diff": 8.0,
+    "total": 117
+   },
+   {
+    "psalm": 144,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.0385,
+    "p": 0.663,
+    "diff": 5.0,
+    "total": 130
+   },
+   {
+    "psalm": 145,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0131,
+    "p": 0.364,
+    "diff": 2.0,
+    "total": 153
+   },
+   {
+    "psalm": 146,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0118,
+    "p": 0.154,
+    "diff": 1.0,
+    "total": 85
+   },
+   {
+    "psalm": 147,
+    "verses": 20,
+    "central_verse": 11,
+    "exactness": 0.0493,
+    "p": 0.959,
+    "diff": 7.0,
+    "total": 142
+   },
+   {
+    "psalm": 148,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0179,
+    "p": 0.288,
+    "diff": 2.0,
+    "total": 112
+   },
+   {
+    "psalm": 149,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0312,
+    "p": 0.49,
+    "diff": 2.0,
+    "total": 64
+   },
+   {
+    "psalm": 150,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1351,
+    "p": 0.886,
+    "diff": 5.0,
+    "total": 37
+   }
+  ]
+ },
+ "full_syllables": {
+  "n": 145,
+  "significant": 4,
+  "expected": 7.2,
+  "p": 0.9351774299667194,
+  "rows": [
+   {
+    "psalm": 1,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.034,
+    "p": 0.156,
+    "diff": 5.0,
+    "total": 147
+   },
+   {
+    "psalm": 2,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0321,
+    "p": 0.392,
+    "diff": 7.0,
+    "total": 218
+   },
+   {
+    "psalm": 3,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0943,
+    "p": 0.83,
+    "diff": 15.0,
+    "total": 159
+   },
+   {
+    "psalm": 4,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0225,
+    "p": 0.231,
+    "diff": 4.0,
+    "total": 178
+   },
+   {
+    "psalm": 5,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0542,
+    "p": 0.719,
+    "diff": 15.0,
+    "total": 277
+   },
+   {
+    "psalm": 6,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.005,
+    "p": 0.093,
+    "diff": 1.0,
+    "total": 201
+   },
+   {
+    "psalm": 7,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0365,
+    "p": 0.684,
+    "diff": 12.0,
+    "total": 329
+   },
+   {
+    "psalm": 8,
+    "verses": 10,
+    "central_verse": 5,
+    "exactness": 0.0366,
+    "p": 0.388,
+    "diff": 7.0,
+    "total": 191
+   },
+   {
+    "psalm": 9,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0228,
+    "p": 0.532,
+    "diff": 9.0,
+    "total": 395
+   },
+   {
+    "psalm": 10,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0269,
+    "p": 0.536,
+    "diff": 10.0,
+    "total": 372
+   },
+   {
+    "psalm": 11,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.0519,
+    "p": 0.375,
+    "diff": 8.0,
+    "total": 154
+   },
+   {
+    "psalm": 12,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.086,
+    "p": 0.831,
+    "diff": 16.0,
+    "total": 186
+   },
+   {
+    "psalm": 13,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.104,
+    "p": 0.753,
+    "diff": 13.0,
+    "total": 125
+   },
+   {
+    "psalm": 14,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.1039,
+    "p": 0.761,
+    "diff": 16.0,
+    "total": 154
+   },
+   {
+    "psalm": 15,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.1017,
+    "p": 0.916,
+    "diff": 12.0,
+    "total": 118
+   },
+   {
+    "psalm": 16,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0421,
+    "p": 0.511,
+    "diff": 9.0,
+    "total": 214
+   },
+   {
+    "psalm": 17,
+    "verses": 15,
+    "central_verse": 8,
+    "exactness": 0.003,
+    "p": 0.068,
+    "diff": 1.0,
+    "total": 330
+   },
+   {
+    "psalm": 18,
+    "verses": 51,
+    "central_verse": 24,
+    "exactness": 0.0062,
+    "p": 0.35,
+    "diff": 6.0,
+    "total": 967
+   },
+   {
+    "psalm": 19,
+    "verses": 15,
+    "central_verse": 8,
+    "exactness": 0.043,
+    "p": 0.689,
+    "diff": 13.0,
+    "total": 302
+   },
+   {
+    "psalm": 20,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0725,
+    "p": 0.736,
+    "diff": 14.0,
+    "total": 193
+   },
+   {
+    "psalm": 21,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0471,
+    "p": 0.695,
+    "diff": 12.0,
+    "total": 255
+   },
+   {
+    "psalm": 22,
+    "verses": 32,
+    "central_verse": 17,
+    "exactness": 0.0309,
+    "p": 0.926,
+    "diff": 19.0,
+    "total": 614
+   },
+   {
+    "psalm": 23,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.015,
+    "p": 0.122,
+    "diff": 2.0,
+    "total": 133
+   },
+   {
+    "psalm": 24,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0254,
+    "p": 0.134,
+    "diff": 5.0,
+    "total": 197
+   },
+   {
+    "psalm": 25,
+    "verses": 22,
+    "central_verse": 10,
+    "exactness": 0.0267,
+    "p": 0.595,
+    "diff": 10.0,
+    "total": 374
+   },
+   {
+    "psalm": 26,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0047,
+    "p": 0.054,
+    "diff": 1.0,
+    "total": 212
+   },
+   {
+    "psalm": 27,
+    "verses": 14,
+    "central_verse": 6,
+    "exactness": 0.0538,
+    "p": 0.775,
+    "diff": 19.0,
+    "total": 353
+   },
+   {
+    "psalm": 28,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.0759,
+    "p": 0.671,
+    "diff": 17.0,
+    "total": 224
+   },
+   {
+    "psalm": 29,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0254,
+    "p": 0.269,
+    "diff": 5.0,
+    "total": 197
+   },
+   {
+    "psalm": 30,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0697,
+    "p": 0.901,
+    "diff": 17.0,
+    "total": 244
+   },
+   {
+    "psalm": 31,
+    "verses": 25,
+    "central_verse": 13,
+    "exactness": 0.0129,
+    "p": 0.334,
+    "diff": 7.0,
+    "total": 543
+   },
+   {
+    "psalm": 32,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0549,
+    "p": 0.573,
+    "diff": 14.0,
+    "total": 255
+   },
+   {
+    "psalm": 33,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0503,
+    "p": 0.997,
+    "diff": 18.0,
+    "total": 358
+   },
+   {
+    "psalm": 34,
+    "verses": 23,
+    "central_verse": 11,
+    "exactness": 0.0444,
+    "p": 0.989,
+    "diff": 17.0,
+    "total": 383
+   },
+   {
+    "psalm": 35,
+    "verses": 28,
+    "central_verse": 15,
+    "exactness": 0.0284,
+    "p": 0.783,
+    "diff": 16.0,
+    "total": 564
+   },
+   {
+    "psalm": 36,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0085,
+    "p": 0.168,
+    "diff": 2.0,
+    "total": 235
+   },
+   {
+    "psalm": 37,
+    "verses": 40,
+    "central_verse": 20,
+    "exactness": 0.0195,
+    "p": 0.797,
+    "diff": 14.0,
+    "total": 717
+   },
+   {
+    "psalm": 38,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0197,
+    "p": 0.509,
+    "diff": 8.0,
+    "total": 406
+   },
+   {
+    "psalm": 39,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0627,
+    "p": 0.856,
+    "diff": 19.0,
+    "total": 303
+   },
+   {
+    "psalm": 40,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0299,
+    "p": 0.532,
+    "diff": 14.0,
+    "total": 468
+   },
+   {
+    "psalm": 41,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0255,
+    "p": 0.399,
+    "diff": 7.0,
+    "total": 274
+   },
+   {
+    "psalm": 42,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0611,
+    "p": 0.806,
+    "diff": 19.0,
+    "total": 311
+   },
+   {
+    "psalm": 43,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.042,
+    "p": 0.93,
+    "diff": 6.0,
+    "total": 143
+   },
+   {
+    "psalm": 44,
+    "verses": 27,
+    "central_verse": 13,
+    "exactness": 0.0325,
+    "p": 0.903,
+    "diff": 16.0,
+    "total": 492
+   },
+   {
+    "psalm": 45,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.018,
+    "p": 0.363,
+    "diff": 7.0,
+    "total": 389
+   },
+   {
+    "psalm": 46,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0129,
+    "p": 0.192,
+    "diff": 3.0,
+    "total": 233
+   },
+   {
+    "psalm": 47,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0057,
+    "p": 0.097,
+    "diff": 1.0,
+    "total": 174
+   },
+   {
+    "psalm": 48,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.0259,
+    "p": 0.392,
+    "diff": 7.0,
+    "total": 270
+   },
+   {
+    "psalm": 49,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0139,
+    "p": 0.305,
+    "diff": 5.0,
+    "total": 359
+   },
+   {
+    "psalm": 50,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.016,
+    "p": 0.386,
+    "diff": 7.0,
+    "total": 437
+   },
+   {
+    "psalm": 51,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0351,
+    "p": 0.766,
+    "diff": 14.0,
+    "total": 399
+   },
+   {
+    "psalm": 52,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.027,
+    "p": 0.327,
+    "diff": 6.0,
+    "total": 222
+   },
+   {
+    "psalm": 53,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.1018,
+    "p": 0.732,
+    "diff": 17.0,
+    "total": 167
+   },
+   {
+    "psalm": 54,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0318,
+    "p": 0.323,
+    "diff": 5.0,
+    "total": 157
+   },
+   {
+    "psalm": 55,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0341,
+    "p": 0.81,
+    "diff": 16.0,
+    "total": 469
+   },
+   {
+    "psalm": 56,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0573,
+    "p": 0.812,
+    "diff": 16.0,
+    "total": 279
+   },
+   {
+    "psalm": 57,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0496,
+    "p": 0.604,
+    "diff": 13.0,
+    "total": 262
+   },
+   {
+    "psalm": 58,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.017,
+    "p": 0.136,
+    "diff": 4.0,
+    "total": 235
+   },
+   {
+    "psalm": 59,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0098,
+    "p": 0.21,
+    "diff": 4.0,
+    "total": 407
+   },
+   {
+    "psalm": 60,
+    "verses": 14,
+    "central_verse": 7,
+    "exactness": 0.0427,
+    "p": 0.693,
+    "diff": 12.0,
+    "total": 281
+   },
+   {
+    "psalm": 61,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0617,
+    "p": 0.59,
+    "diff": 10.0,
+    "total": 162
+   },
+   {
+    "psalm": 62,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0467,
+    "p": 0.619,
+    "diff": 12.0,
+    "total": 257
+   },
+   {
+    "psalm": 63,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0611,
+    "p": 0.733,
+    "diff": 14.0,
+    "total": 229
+   },
+   {
+    "psalm": 64,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0722,
+    "p": 0.798,
+    "diff": 14.0,
+    "total": 194
+   },
+   {
+    "psalm": 65,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0244,
+    "p": 0.321,
+    "diff": 7.0,
+    "total": 287
+   },
+   {
+    "psalm": 66,
+    "verses": 20,
+    "central_verse": 10,
+    "exactness": 0.0027,
+    "p": 0.075,
+    "diff": 1.0,
+    "total": 375
+   },
+   {
+    "psalm": 67,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.087,
+    "p": 0.727,
+    "diff": 12.0,
+    "total": 138
+   },
+   {
+    "psalm": 68,
+    "verses": 36,
+    "central_verse": 19,
+    "exactness": 0.0313,
+    "p": 0.981,
+    "diff": 24.0,
+    "total": 766
+   },
+   {
+    "psalm": 69,
+    "verses": 37,
+    "central_verse": 18,
+    "exactness": 0.0068,
+    "p": 0.265,
+    "diff": 5.0,
+    "total": 730
+   },
+   {
+    "psalm": 70,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.0472,
+    "p": 0.338,
+    "diff": 6.0,
+    "total": 127
+   },
+   {
+    "psalm": 71,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0175,
+    "p": 0.427,
+    "diff": 9.0,
+    "total": 514
+   },
+   {
+    "psalm": 72,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0315,
+    "p": 0.634,
+    "diff": 12.0,
+    "total": 381
+   },
+   {
+    "psalm": 73,
+    "verses": 28,
+    "central_verse": 15,
+    "exactness": 0.0042,
+    "p": 0.17,
+    "diff": 2.0,
+    "total": 474
+   },
+   {
+    "psalm": 74,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.028,
+    "p": 0.705,
+    "diff": 13.0,
+    "total": 464
+   },
+   {
+    "psalm": 75,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0385,
+    "p": 0.433,
+    "diff": 8.0,
+    "total": 208
+   },
+   {
+    "psalm": 76,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0455,
+    "p": 0.661,
+    "diff": 10.0,
+    "total": 220
+   },
+   {
+    "psalm": 77,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0204,
+    "p": 0.457,
+    "diff": 8.0,
+    "total": 393
+   },
+   {
+    "psalm": 78,
+    "verses": 72,
+    "central_verse": 35,
+    "exactness": 0.0052,
+    "p": 0.384,
+    "diff": 7.0,
+    "total": 1348
+   },
+   {
+    "psalm": 79,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0466,
+    "p": 0.629,
+    "diff": 16.0,
+    "total": 343
+   },
+   {
+    "psalm": 80,
+    "verses": 20,
+    "central_verse": 10,
+    "exactness": 0.008,
+    "p": 0.179,
+    "diff": 3.0,
+    "total": 374
+   },
+   {
+    "psalm": 81,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0227,
+    "p": 0.398,
+    "diff": 7.0,
+    "total": 309
+   },
+   {
+    "psalm": 82,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0909,
+    "p": 0.709,
+    "diff": 13.0,
+    "total": 143
+   },
+   {
+    "psalm": 83,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0479,
+    "p": 0.894,
+    "diff": 15.0,
+    "total": 313
+   },
+   {
+    "psalm": 84,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0667,
+    "p": 0.85,
+    "diff": 18.0,
+    "total": 270
+   },
+   {
+    "psalm": 85,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0083,
+    "p": 0.104,
+    "diff": 2.0,
+    "total": 242
+   },
+   {
+    "psalm": 86,
+    "verses": 17,
+    "central_verse": 10,
+    "exactness": 0.0236,
+    "p": 0.455,
+    "diff": 9.0,
+    "total": 381
+   },
+   {
+    "psalm": 87,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.0175,
+    "p": 0.193,
+    "diff": 2.0,
+    "total": 114
+   },
+   {
+    "psalm": 88,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0557,
+    "p": 0.966,
+    "diff": 21.0,
+    "total": 377
+   },
+   {
+    "psalm": 89,
+    "verses": 53,
+    "central_verse": 26,
+    "exactness": 0.0106,
+    "p": 0.598,
+    "diff": 10.0,
+    "total": 939
+   },
+   {
+    "psalm": 90,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0391,
+    "p": 0.701,
+    "diff": 14.0,
+    "total": 358
+   },
+   {
+    "psalm": 91,
+    "verses": 16,
+    "central_verse": 9,
+    "exactness": 0.0285,
+    "p": 0.474,
+    "diff": 8.0,
+    "total": 281
+   },
+   {
+    "psalm": 92,
+    "verses": 16,
+    "central_verse": 9,
+    "exactness": 0.0255,
+    "p": 0.447,
+    "diff": 7.0,
+    "total": 275
+   },
+   {
+    "psalm": 93,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0882,
+    "p": 0.607,
+    "diff": 9.0,
+    "total": 102
+   },
+   {
+    "psalm": 94,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0363,
+    "p": 0.871,
+    "diff": 14.0,
+    "total": 386
+   },
+   {
+    "psalm": 95,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.1117,
+    "p": 0.999,
+    "diff": 23.0,
+    "total": 206
+   },
+   {
+    "psalm": 96,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.032,
+    "p": 0.49,
+    "diff": 8.0,
+    "total": 250
+   },
+   {
+    "psalm": 97,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0219,
+    "p": 0.294,
+    "diff": 5.0,
+    "total": 228
+   },
+   {
+    "psalm": 98,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.0503,
+    "p": 0.479,
+    "diff": 9.0,
+    "total": 179
+   },
+   {
+    "psalm": 99,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.11,
+    "p": 0.943,
+    "diff": 22.0,
+    "total": 200
+   },
+   {
+    "psalm": 100,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.1224,
+    "p": 0.732,
+    "diff": 12.0,
+    "total": 98
+   },
+   {
+    "psalm": 101,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0532,
+    "p": 0.372,
+    "diff": 10.0,
+    "total": 188
+   },
+   {
+    "psalm": 102,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0058,
+    "p": 0.176,
+    "diff": 3.0,
+    "total": 514
+   },
+   {
+    "psalm": 103,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0172,
+    "p": 0.413,
+    "diff": 7.0,
+    "total": 407
+   },
+   {
+    "psalm": 104,
+    "verses": 35,
+    "central_verse": 18,
+    "exactness": 0.0,
+    "p": 0.032,
+    "diff": 0.0,
+    "total": 660
+   },
+   {
+    "psalm": 105,
+    "verses": 45,
+    "central_verse": 23,
+    "exactness": 0.0014,
+    "p": 0.125,
+    "diff": 1.0,
+    "total": 693
+   },
+   {
+    "psalm": 106,
+    "verses": 48,
+    "central_verse": 25,
+    "exactness": 0.0079,
+    "p": 0.421,
+    "diff": 7.0,
+    "total": 881
+   },
+   {
+    "psalm": 107,
+    "verses": 43,
+    "central_verse": 22,
+    "exactness": 0.0155,
+    "p": 0.733,
+    "diff": 11.0,
+    "total": 708
+   },
+   {
+    "psalm": 108,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0123,
+    "p": 0.205,
+    "diff": 3.0,
+    "total": 243
+   },
+   {
+    "psalm": 109,
+    "verses": 31,
+    "central_verse": 16,
+    "exactness": 0.0246,
+    "p": 0.789,
+    "diff": 14.0,
+    "total": 570
+   },
+   {
+    "psalm": 110,
+    "verses": 7,
+    "central_verse": 3,
+    "exactness": 0.1655,
+    "p": 0.979,
+    "diff": 24.0,
+    "total": 145
+   },
+   {
+    "psalm": 111,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0055,
+    "p": 0.067,
+    "diff": 1.0,
+    "total": 182
+   },
+   {
+    "psalm": 112,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0282,
+    "p": 0.209,
+    "diff": 5.0,
+    "total": 177
+   },
+   {
+    "psalm": 113,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0,
+    "p": 0.02,
+    "diff": 0.0,
+    "total": 134
+   },
+   {
+    "psalm": 114,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0781,
+    "p": 0.182,
+    "diff": 10.0,
+    "total": 128
+   },
+   {
+    "psalm": 115,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0163,
+    "p": 0.324,
+    "diff": 5.0,
+    "total": 306
+   },
+   {
+    "psalm": 116,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0199,
+    "p": 0.422,
+    "diff": 6.0,
+    "total": 301
+   },
+   {
+    "psalm": 118,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0331,
+    "p": 0.944,
+    "diff": 14.0,
+    "total": 423
+   },
+   {
+    "psalm": 119,
+    "verses": 176,
+    "central_verse": 89,
+    "exactness": 0.0049,
+    "p": 0.908,
+    "diff": 14.0,
+    "total": 2832
+   },
+   {
+    "psalm": 120,
+    "verses": 7,
+    "central_verse": 4,
+    "exactness": 0.0727,
+    "p": 0.744,
+    "diff": 8.0,
+    "total": 110
+   },
+   {
+    "psalm": 121,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.1057,
+    "p": 0.852,
+    "diff": 13.0,
+    "total": 123
+   },
+   {
+    "psalm": 122,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.08,
+    "p": 0.827,
+    "diff": 12.0,
+    "total": 150
+   },
+   {
+    "psalm": 124,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.1135,
+    "p": 0.902,
+    "diff": 16.0,
+    "total": 141
+   },
+   {
+    "psalm": 125,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0163,
+    "p": 0.221,
+    "diff": 2.0,
+    "total": 123
+   },
+   {
+    "psalm": 126,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.0333,
+    "p": 0.204,
+    "diff": 4.0,
+    "total": 120
+   },
+   {
+    "psalm": 127,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.1736,
+    "p": 0.801,
+    "diff": 21.0,
+    "total": 121
+   },
+   {
+    "psalm": 128,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1491,
+    "p": 0.838,
+    "diff": 17.0,
+    "total": 114
+   },
+   {
+    "psalm": 129,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0866,
+    "p": 0.783,
+    "diff": 11.0,
+    "total": 127
+   },
+   {
+    "psalm": 130,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0977,
+    "p": 0.777,
+    "diff": 13.0,
+    "total": 133
+   },
+   {
+    "psalm": 132,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0031,
+    "p": 0.07,
+    "diff": 1.0,
+    "total": 320
+   },
+   {
+    "psalm": 135,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0235,
+    "p": 0.518,
+    "diff": 9.0,
+    "total": 383
+   },
+   {
+    "psalm": 136,
+    "verses": 26,
+    "central_verse": 13,
+    "exactness": 0.0,
+    "p": 0.033,
+    "diff": 0.0,
+    "total": 400
+   },
+   {
+    "psalm": 137,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0994,
+    "p": 0.884,
+    "diff": 18.0,
+    "total": 181
+   },
+   {
+    "psalm": 138,
+    "verses": 8,
+    "central_verse": 4,
+    "exactness": 0.0773,
+    "p": 0.684,
+    "diff": 14.0,
+    "total": 181
+   },
+   {
+    "psalm": 139,
+    "verses": 24,
+    "central_verse": 13,
+    "exactness": 0.0047,
+    "p": 0.148,
+    "diff": 2.0,
+    "total": 430
+   },
+   {
+    "psalm": 140,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0688,
+    "p": 0.934,
+    "diff": 19.0,
+    "total": 276
+   },
+   {
+    "psalm": 141,
+    "verses": 10,
+    "central_verse": 5,
+    "exactness": 0.0179,
+    "p": 0.182,
+    "diff": 4.0,
+    "total": 224
+   },
+   {
+    "psalm": 142,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0173,
+    "p": 0.097,
+    "diff": 3.0,
+    "total": 173
+   },
+   {
+    "psalm": 143,
+    "verses": 12,
+    "central_verse": 6,
+    "exactness": 0.0795,
+    "p": 0.898,
+    "diff": 24.0,
+    "total": 302
+   },
+   {
+    "psalm": 144,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.0,
+    "p": 0.018,
+    "diff": 0.0,
+    "total": 329
+   },
+   {
+    "psalm": 145,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0077,
+    "p": 0.208,
+    "diff": 3.0,
+    "total": 389
+   },
+   {
+    "psalm": 146,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0308,
+    "p": 0.317,
+    "diff": 6.0,
+    "total": 195
+   },
+   {
+    "psalm": 147,
+    "verses": 20,
+    "central_verse": 10,
+    "exactness": 0.0355,
+    "p": 0.741,
+    "diff": 12.0,
+    "total": 338
+   },
+   {
+    "psalm": 148,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0236,
+    "p": 0.359,
+    "diff": 6.0,
+    "total": 254
+   },
+   {
+    "psalm": 149,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0192,
+    "p": 0.556,
+    "diff": 3.0,
+    "total": 156
+   },
+   {
+    "psalm": 150,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1596,
+    "p": 0.913,
+    "diff": 15.0,
+    "total": 94
+   }
+  ]
+ },
+ "no_heading_words": {
+  "n": 141,
+  "significant": 0,
+  "expected": 7.1,
+  "p": 1.0,
+  "rows": [
+   {
+    "psalm": 1,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.0299,
+    "p": 0.223,
+    "diff": 2.0,
+    "total": 67
+   },
+   {
+    "psalm": 2,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0109,
+    "p": 0.181,
+    "diff": 1.0,
+    "total": 92
+   },
+   {
+    "psalm": 3,
+    "verses": 8,
+    "central_verse": 6,
+    "exactness": 0.0469,
+    "p": 0.604,
+    "diff": 3.0,
+    "total": 64
+   },
+   {
+    "psalm": 4,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0274,
+    "p": 0.181,
+    "diff": 2.0,
+    "total": 73
+   },
+   {
+    "psalm": 5,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.028,
+    "p": 0.392,
+    "diff": 3.0,
+    "total": 107
+   },
+   {
+    "psalm": 6,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0886,
+    "p": 0.916,
+    "diff": 7.0,
+    "total": 79
+   },
+   {
+    "psalm": 7,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0606,
+    "p": 0.966,
+    "diff": 8.0,
+    "total": 132
+   },
+   {
+    "psalm": 8,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0278,
+    "p": 0.306,
+    "diff": 2.0,
+    "total": 72
+   },
+   {
+    "psalm": 9,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0497,
+    "p": 0.976,
+    "diff": 8.0,
+    "total": 161
+   },
+   {
+    "psalm": 10,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0539,
+    "p": 0.945,
+    "diff": 9.0,
+    "total": 167
+   },
+   {
+    "psalm": 11,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1034,
+    "p": 0.65,
+    "diff": 6.0,
+    "total": 58
+   },
+   {
+    "psalm": 12,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.1216,
+    "p": 0.91,
+    "diff": 9.0,
+    "total": 74
+   },
+   {
+    "psalm": 13,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.0962,
+    "p": 0.879,
+    "diff": 5.0,
+    "total": 52
+   },
+   {
+    "psalm": 14,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.0667,
+    "p": 0.532,
+    "diff": 4.0,
+    "total": 60
+   },
+   {
+    "psalm": 16,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.0778,
+    "p": 0.826,
+    "diff": 7.0,
+    "total": 90
+   },
+   {
+    "psalm": 17,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0175,
+    "p": 0.321,
+    "diff": 2.0,
+    "total": 114
+   },
+   {
+    "psalm": 18,
+    "verses": 50,
+    "central_verse": 26,
+    "exactness": 0.0079,
+    "p": 0.47,
+    "diff": 3.0,
+    "total": 378
+   },
+   {
+    "psalm": 19,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0732,
+    "p": 0.983,
+    "diff": 9.0,
+    "total": 123
+   },
+   {
+    "psalm": 20,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.1194,
+    "p": 0.95,
+    "diff": 8.0,
+    "total": 67
+   },
+   {
+    "psalm": 21,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0588,
+    "p": 0.899,
+    "diff": 6.0,
+    "total": 102
+   },
+   {
+    "psalm": 22,
+    "verses": 31,
+    "central_verse": 18,
+    "exactness": 0.0243,
+    "p": 0.797,
+    "diff": 6.0,
+    "total": 247
+   },
+   {
+    "psalm": 23,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.1569,
+    "p": 0.755,
+    "diff": 8.0,
+    "total": 51
+   },
+   {
+    "psalm": 24,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.0488,
+    "p": 0.668,
+    "diff": 4.0,
+    "total": 82
+   },
+   {
+    "psalm": 25,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.013,
+    "p": 0.352,
+    "diff": 2.0,
+    "total": 154
+   },
+   {
+    "psalm": 26,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.04,
+    "p": 0.586,
+    "diff": 3.0,
+    "total": 75
+   },
+   {
+    "psalm": 27,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0,
+    "p": 0.059,
+    "diff": 0.0,
+    "total": 138
+   },
+   {
+    "psalm": 28,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0123,
+    "p": 0.202,
+    "diff": 1.0,
+    "total": 81
+   },
+   {
+    "psalm": 29,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0617,
+    "p": 0.637,
+    "diff": 5.0,
+    "total": 81
+   },
+   {
+    "psalm": 30,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.043,
+    "p": 0.515,
+    "diff": 4.0,
+    "total": 93
+   },
+   {
+    "psalm": 31,
+    "verses": 24,
+    "central_verse": 13,
+    "exactness": 0.0323,
+    "p": 0.853,
+    "diff": 7.0,
+    "total": 217
+   },
+   {
+    "psalm": 32,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0194,
+    "p": 0.286,
+    "diff": 2.0,
+    "total": 103
+   },
+   {
+    "psalm": 33,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0497,
+    "p": 0.996,
+    "diff": 8.0,
+    "total": 161
+   },
+   {
+    "psalm": 34,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0255,
+    "p": 0.566,
+    "diff": 4.0,
+    "total": 157
+   },
+   {
+    "psalm": 35,
+    "verses": 27,
+    "central_verse": 15,
+    "exactness": 0.0181,
+    "p": 0.554,
+    "diff": 4.0,
+    "total": 221
+   },
+   {
+    "psalm": 36,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0208,
+    "p": 0.327,
+    "diff": 2.0,
+    "total": 96
+   },
+   {
+    "psalm": 37,
+    "verses": 39,
+    "central_verse": 21,
+    "exactness": 0.0172,
+    "p": 0.713,
+    "diff": 5.0,
+    "total": 290
+   },
+   {
+    "psalm": 38,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0361,
+    "p": 0.853,
+    "diff": 6.0,
+    "total": 166
+   },
+   {
+    "psalm": 39,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.048,
+    "p": 0.674,
+    "diff": 6.0,
+    "total": 125
+   },
+   {
+    "psalm": 40,
+    "verses": 17,
+    "central_verse": 10,
+    "exactness": 0.0385,
+    "p": 0.718,
+    "diff": 7.0,
+    "total": 182
+   },
+   {
+    "psalm": 41,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0342,
+    "p": 0.559,
+    "diff": 4.0,
+    "total": 117
+   },
+   {
+    "psalm": 42,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0388,
+    "p": 0.577,
+    "diff": 5.0,
+    "total": 129
+   },
+   {
+    "psalm": 43,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0678,
+    "p": 1.0,
+    "diff": 4.0,
+    "total": 59
+   },
+   {
+    "psalm": 44,
+    "verses": 26,
+    "central_verse": 14,
+    "exactness": 0.0103,
+    "p": 0.323,
+    "diff": 2.0,
+    "total": 194
+   },
+   {
+    "psalm": 45,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0263,
+    "p": 0.524,
+    "diff": 4.0,
+    "total": 152
+   },
+   {
+    "psalm": 46,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0426,
+    "p": 0.66,
+    "diff": 4.0,
+    "total": 94
+   },
+   {
+    "psalm": 47,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.0137,
+    "p": 0.227,
+    "diff": 1.0,
+    "total": 73
+   },
+   {
+    "psalm": 48,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0093,
+    "p": 0.225,
+    "diff": 1.0,
+    "total": 107
+   },
+   {
+    "psalm": 49,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0488,
+    "p": 0.927,
+    "diff": 8.0,
+    "total": 164
+   },
+   {
+    "psalm": 50,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0422,
+    "p": 0.925,
+    "diff": 7.0,
+    "total": 166
+   },
+   {
+    "psalm": 51,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0,
+    "p": 0.058,
+    "diff": 0.0,
+    "total": 151
+   },
+   {
+    "psalm": 52,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.046,
+    "p": 0.515,
+    "diff": 4.0,
+    "total": 87
+   },
+   {
+    "psalm": 53,
+    "verses": 6,
+    "central_verse": 5,
+    "exactness": 0.0694,
+    "p": 0.14,
+    "diff": 5.0,
+    "total": 72
+   },
+   {
+    "psalm": 54,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.1525,
+    "p": 1.0,
+    "diff": 9.0,
+    "total": 59
+   },
+   {
+    "psalm": 55,
+    "verses": 23,
+    "central_verse": 14,
+    "exactness": 0.0158,
+    "p": 0.452,
+    "diff": 3.0,
+    "total": 190
+   },
+   {
+    "psalm": 56,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0,
+    "p": 0.076,
+    "diff": 0.0,
+    "total": 110
+   },
+   {
+    "psalm": 57,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0515,
+    "p": 0.609,
+    "diff": 5.0,
+    "total": 97
+   },
+   {
+    "psalm": 58,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0625,
+    "p": 0.965,
+    "diff": 6.0,
+    "total": 96
+   },
+   {
+    "psalm": 59,
+    "verses": 17,
+    "central_verse": 11,
+    "exactness": 0.0408,
+    "p": 0.717,
+    "diff": 6.0,
+    "total": 147
+   },
+   {
+    "psalm": 60,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0187,
+    "p": 0.231,
+    "diff": 2.0,
+    "total": 107
+   },
+   {
+    "psalm": 61,
+    "verses": 8,
+    "central_verse": 6,
+    "exactness": 0.0781,
+    "p": 0.608,
+    "diff": 5.0,
+    "total": 64
+   },
+   {
+    "psalm": 62,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0179,
+    "p": 0.233,
+    "diff": 2.0,
+    "total": 112
+   },
+   {
+    "psalm": 63,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0341,
+    "p": 0.508,
+    "diff": 3.0,
+    "total": 88
+   },
+   {
+    "psalm": 64,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.1266,
+    "p": 1.0,
+    "diff": 10.0,
+    "total": 79
+   },
+   {
+    "psalm": 65,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0381,
+    "p": 0.549,
+    "diff": 4.0,
+    "total": 105
+   },
+   {
+    "psalm": 66,
+    "verses": 19,
+    "central_verse": 11,
+    "exactness": 0.0338,
+    "p": 0.685,
+    "diff": 5.0,
+    "total": 148
+   },
+   {
+    "psalm": 67,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0,
+    "p": 0.086,
+    "diff": 0.0,
+    "total": 49
+   },
+   {
+    "psalm": 68,
+    "verses": 35,
+    "central_verse": 19,
+    "exactness": 0.0131,
+    "p": 0.492,
+    "diff": 4.0,
+    "total": 306
+   },
+   {
+    "psalm": 69,
+    "verses": 36,
+    "central_verse": 18,
+    "exactness": 0.0139,
+    "p": 0.57,
+    "diff": 4.0,
+    "total": 287
+   },
+   {
+    "psalm": 70,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.2045,
+    "p": 0.97,
+    "diff": 9.0,
+    "total": 44
+   },
+   {
+    "psalm": 71,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0243,
+    "p": 0.618,
+    "diff": 5.0,
+    "total": 206
+   },
+   {
+    "psalm": 72,
+    "verses": 19,
+    "central_verse": 12,
+    "exactness": 0.0194,
+    "p": 0.401,
+    "diff": 3.0,
+    "total": 155
+   },
+   {
+    "psalm": 73,
+    "verses": 27,
+    "central_verse": 15,
+    "exactness": 0.0159,
+    "p": 0.492,
+    "diff": 3.0,
+    "total": 189
+   },
+   {
+    "psalm": 74,
+    "verses": 22,
+    "central_verse": 13,
+    "exactness": 0.0214,
+    "p": 0.512,
+    "diff": 4.0,
+    "total": 187
+   },
+   {
+    "psalm": 75,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.0,
+    "p": 0.064,
+    "diff": 0.0,
+    "total": 81
+   },
+   {
+    "psalm": 76,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0588,
+    "p": 0.792,
+    "diff": 5.0,
+    "total": 85
+   },
+   {
+    "psalm": 77,
+    "verses": 20,
+    "central_verse": 11,
+    "exactness": 0.0464,
+    "p": 0.919,
+    "diff": 7.0,
+    "total": 151
+   },
+   {
+    "psalm": 78,
+    "verses": 71,
+    "central_verse": 35,
+    "exactness": 0.0038,
+    "p": 0.333,
+    "diff": 2.0,
+    "total": 521
+   },
+   {
+    "psalm": 79,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0168,
+    "p": 0.282,
+    "diff": 2.0,
+    "total": 119
+   },
+   {
+    "psalm": 80,
+    "verses": 19,
+    "central_verse": 11,
+    "exactness": 0.0299,
+    "p": 0.694,
+    "diff": 4.0,
+    "total": 134
+   },
+   {
+    "psalm": 81,
+    "verses": 16,
+    "central_verse": 9,
+    "exactness": 0.0248,
+    "p": 0.426,
+    "diff": 3.0,
+    "total": 121
+   },
+   {
+    "psalm": 82,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0385,
+    "p": 0.495,
+    "diff": 2.0,
+    "total": 52
+   },
+   {
+    "psalm": 83,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0,
+    "p": 0.08,
+    "diff": 0.0,
+    "total": 127
+   },
+   {
+    "psalm": 84,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0727,
+    "p": 0.875,
+    "diff": 8.0,
+    "total": 110
+   },
+   {
+    "psalm": 85,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0753,
+    "p": 0.876,
+    "diff": 7.0,
+    "total": 93
+   },
+   {
+    "psalm": 86,
+    "verses": 16,
+    "central_verse": 10,
+    "exactness": 0.0365,
+    "p": 0.63,
+    "diff": 5.0,
+    "total": 137
+   },
+   {
+    "psalm": 87,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1915,
+    "p": 0.986,
+    "diff": 9.0,
+    "total": 47
+   },
+   {
+    "psalm": 88,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0305,
+    "p": 0.634,
+    "diff": 4.0,
+    "total": 131
+   },
+   {
+    "psalm": 89,
+    "verses": 52,
+    "central_verse": 26,
+    "exactness": 0.0,
+    "p": 0.07,
+    "diff": 0.0,
+    "total": 383
+   },
+   {
+    "psalm": 90,
+    "verses": 16,
+    "central_verse": 10,
+    "exactness": 0.0769,
+    "p": 0.975,
+    "diff": 10.0,
+    "total": 130
+   },
+   {
+    "psalm": 91,
+    "verses": 16,
+    "central_verse": 8,
+    "exactness": 0.0536,
+    "p": 0.858,
+    "diff": 6.0,
+    "total": 112
+   },
+   {
+    "psalm": 92,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.0092,
+    "p": 0.195,
+    "diff": 1.0,
+    "total": 109
+   },
+   {
+    "psalm": 93,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0,
+    "p": 0.205,
+    "diff": 0.0,
+    "total": 45
+   },
+   {
+    "psalm": 94,
+    "verses": 23,
+    "central_verse": 13,
+    "exactness": 0.0178,
+    "p": 0.458,
+    "diff": 3.0,
+    "total": 169
+   },
+   {
+    "psalm": 95,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.1011,
+    "p": 0.97,
+    "diff": 9.0,
+    "total": 89
+   },
+   {
+    "psalm": 96,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0357,
+    "p": 0.572,
+    "diff": 4.0,
+    "total": 112
+   },
+   {
+    "psalm": 97,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0105,
+    "p": 0.216,
+    "diff": 1.0,
+    "total": 95
+   },
+   {
+    "psalm": 98,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0645,
+    "p": 0.45,
+    "diff": 4.0,
+    "total": 62
+   },
+   {
+    "psalm": 99,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0843,
+    "p": 0.867,
+    "diff": 7.0,
+    "total": 83
+   },
+   {
+    "psalm": 101,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0395,
+    "p": 0.433,
+    "diff": 3.0,
+    "total": 76
+   },
+   {
+    "psalm": 102,
+    "verses": 28,
+    "central_verse": 15,
+    "exactness": 0.0291,
+    "p": 0.869,
+    "diff": 6.0,
+    "total": 206
+   },
+   {
+    "psalm": 103,
+    "verses": 21,
+    "central_verse": 13,
+    "exactness": 0.0064,
+    "p": 0.214,
+    "diff": 1.0,
+    "total": 157
+   },
+   {
+    "psalm": 104,
+    "verses": 35,
+    "central_verse": 18,
+    "exactness": 0.0185,
+    "p": 0.73,
+    "diff": 5.0,
+    "total": 271
+   },
+   {
+    "psalm": 105,
+    "verses": 45,
+    "central_verse": 23,
+    "exactness": 0.0034,
+    "p": 0.237,
+    "diff": 1.0,
+    "total": 296
+   },
+   {
+    "psalm": 106,
+    "verses": 48,
+    "central_verse": 24,
+    "exactness": 0.006,
+    "p": 0.39,
+    "diff": 2.0,
+    "total": 332
+   },
+   {
+    "psalm": 107,
+    "verses": 43,
+    "central_verse": 22,
+    "exactness": 0.0072,
+    "p": 0.411,
+    "diff": 2.0,
+    "total": 278
+   },
+   {
+    "psalm": 108,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0729,
+    "p": 0.959,
+    "diff": 7.0,
+    "total": 96
+   },
+   {
+    "psalm": 109,
+    "verses": 30,
+    "central_verse": 16,
+    "exactness": 0.0409,
+    "p": 0.995,
+    "diff": 9.0,
+    "total": 220
+   },
+   {
+    "psalm": 110,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.0755,
+    "p": 0.275,
+    "diff": 4.0,
+    "total": 53
+   },
+   {
+    "psalm": 111,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0,
+    "p": 0.088,
+    "diff": 0.0,
+    "total": 74
+   },
+   {
+    "psalm": 112,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.038,
+    "p": 0.249,
+    "diff": 3.0,
+    "total": 79
+   },
+   {
+    "psalm": 113,
+    "verses": 9,
+    "central_verse": 4,
+    "exactness": 0.1,
+    "p": 0.939,
+    "diff": 6.0,
+    "total": 60
+   },
+   {
+    "psalm": 114,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0769,
+    "p": 0.456,
+    "diff": 4.0,
+    "total": 52
+   },
+   {
+    "psalm": 115,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0222,
+    "p": 0.431,
+    "diff": 3.0,
+    "total": 135
+   },
+   {
+    "psalm": 116,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0076,
+    "p": 0.19,
+    "diff": 1.0,
+    "total": 131
+   },
+   {
+    "psalm": 118,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0253,
+    "p": 0.826,
+    "diff": 5.0,
+    "total": 198
+   },
+   {
+    "psalm": 119,
+    "verses": 176,
+    "central_verse": 88,
+    "exactness": 0.0037,
+    "p": 0.754,
+    "diff": 4.0,
+    "total": 1067
+   },
+   {
+    "psalm": 120,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1628,
+    "p": 0.903,
+    "diff": 7.0,
+    "total": 43
+   },
+   {
+    "psalm": 121,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0,
+    "p": 0.428,
+    "diff": 0.0,
+    "total": 47
+   },
+   {
+    "psalm": 122,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0566,
+    "p": 0.527,
+    "diff": 3.0,
+    "total": 53
+   },
+   {
+    "psalm": 124,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0213,
+    "p": 0.258,
+    "diff": 1.0,
+    "total": 47
+   },
+   {
+    "psalm": 126,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.119,
+    "p": 0.595,
+    "diff": 5.0,
+    "total": 42
+   },
+   {
+    "psalm": 128,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.0513,
+    "p": 0.555,
+    "diff": 2.0,
+    "total": 39
+   },
+   {
+    "psalm": 129,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0638,
+    "p": 0.48,
+    "diff": 3.0,
+    "total": 47
+   },
+   {
+    "psalm": 130,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0612,
+    "p": 0.382,
+    "diff": 3.0,
+    "total": 49
+   },
+   {
+    "psalm": 132,
+    "verses": 17,
+    "central_verse": 11,
+    "exactness": 0.0244,
+    "p": 0.533,
+    "diff": 3.0,
+    "total": 123
+   },
+   {
+    "psalm": 135,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.012,
+    "p": 0.318,
+    "diff": 2.0,
+    "total": 167
+   },
+   {
+    "psalm": 136,
+    "verses": 26,
+    "central_verse": 13,
+    "exactness": 0.006,
+    "p": 0.117,
+    "diff": 1.0,
+    "total": 166
+   },
+   {
+    "psalm": 137,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.1071,
+    "p": 0.898,
+    "diff": 9.0,
+    "total": 84
+   },
+   {
+    "psalm": 138,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.029,
+    "p": 0.197,
+    "diff": 2.0,
+    "total": 69
+   },
+   {
+    "psalm": 139,
+    "verses": 23,
+    "central_verse": 14,
+    "exactness": 0.0405,
+    "p": 0.94,
+    "diff": 7.0,
+    "total": 173
+   },
+   {
+    "psalm": 140,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0345,
+    "p": 0.486,
+    "diff": 4.0,
+    "total": 116
+   },
+   {
+    "psalm": 141,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.1176,
+    "p": 0.959,
+    "diff": 10.0,
+    "total": 85
+   },
+   {
+    "psalm": 142,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0857,
+    "p": 0.724,
+    "diff": 6.0,
+    "total": 70
+   },
+   {
+    "psalm": 143,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0283,
+    "p": 0.381,
+    "diff": 3.0,
+    "total": 106
+   },
+   {
+    "psalm": 144,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0331,
+    "p": 0.503,
+    "diff": 4.0,
+    "total": 121
+   },
+   {
+    "psalm": 145,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0131,
+    "p": 0.349,
+    "diff": 2.0,
+    "total": 153
+   },
+   {
+    "psalm": 146,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0118,
+    "p": 0.182,
+    "diff": 1.0,
+    "total": 85
+   },
+   {
+    "psalm": 147,
+    "verses": 20,
+    "central_verse": 11,
+    "exactness": 0.0493,
+    "p": 0.966,
+    "diff": 7.0,
+    "total": 142
+   },
+   {
+    "psalm": 148,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0179,
+    "p": 0.275,
+    "diff": 2.0,
+    "total": 112
+   },
+   {
+    "psalm": 149,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0312,
+    "p": 0.438,
+    "diff": 2.0,
+    "total": 64
+   },
+   {
+    "psalm": 150,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1351,
+    "p": 0.89,
+    "diff": 5.0,
+    "total": 37
+   }
+  ]
+ },
+ "no_heading_syllables": {
+  "n": 141,
+  "significant": 4,
+  "expected": 7.1,
+  "p": 0.9259584181964858,
+  "rows": [
+   {
+    "psalm": 1,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.034,
+    "p": 0.168,
+    "diff": 5.0,
+    "total": 147
+   },
+   {
+    "psalm": 2,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0321,
+    "p": 0.401,
+    "diff": 7.0,
+    "total": 218
+   },
+   {
+    "psalm": 3,
+    "verses": 8,
+    "central_verse": 6,
+    "exactness": 0.0556,
+    "p": 0.602,
+    "diff": 8.0,
+    "total": 144
+   },
+   {
+    "psalm": 4,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0482,
+    "p": 0.351,
+    "diff": 8.0,
+    "total": 166
+   },
+   {
+    "psalm": 5,
+    "verses": 12,
+    "central_verse": 9,
+    "exactness": 0.0909,
+    "p": 0.967,
+    "diff": 24.0,
+    "total": 264
+   },
+   {
+    "psalm": 6,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0811,
+    "p": 0.742,
+    "diff": 15.0,
+    "total": 185
+   },
+   {
+    "psalm": 7,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0226,
+    "p": 0.395,
+    "diff": 7.0,
+    "total": 310
+   },
+   {
+    "psalm": 8,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0337,
+    "p": 0.361,
+    "diff": 6.0,
+    "total": 178
+   },
+   {
+    "psalm": 9,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0105,
+    "p": 0.219,
+    "diff": 4.0,
+    "total": 382
+   },
+   {
+    "psalm": 10,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0269,
+    "p": 0.536,
+    "diff": 10.0,
+    "total": 372
+   },
+   {
+    "psalm": 11,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1318,
+    "p": 0.771,
+    "diff": 17.0,
+    "total": 129
+   },
+   {
+    "psalm": 12,
+    "verses": 8,
+    "central_verse": 6,
+    "exactness": 0.1214,
+    "p": 0.918,
+    "diff": 21.0,
+    "total": 173
+   },
+   {
+    "psalm": 13,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.0345,
+    "p": 0.378,
+    "diff": 4.0,
+    "total": 116
+   },
+   {
+    "psalm": 14,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.122,
+    "p": 0.773,
+    "diff": 15.0,
+    "total": 123
+   },
+   {
+    "psalm": 16,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.075,
+    "p": 0.727,
+    "diff": 15.0,
+    "total": 200
+   },
+   {
+    "psalm": 17,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0168,
+    "p": 0.313,
+    "diff": 5.0,
+    "total": 298
+   },
+   {
+    "psalm": 18,
+    "verses": 50,
+    "central_verse": 25,
+    "exactness": 0.0173,
+    "p": 0.875,
+    "diff": 16.0,
+    "total": 924
+   },
+   {
+    "psalm": 19,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0751,
+    "p": 0.974,
+    "diff": 22.0,
+    "total": 293
+   },
+   {
+    "psalm": 20,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.125,
+    "p": 0.984,
+    "diff": 23.0,
+    "total": 184
+   },
+   {
+    "psalm": 21,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0122,
+    "p": 0.283,
+    "diff": 3.0,
+    "total": 246
+   },
+   {
+    "psalm": 22,
+    "verses": 31,
+    "central_verse": 18,
+    "exactness": 0.0084,
+    "p": 0.261,
+    "diff": 5.0,
+    "total": 598
+   },
+   {
+    "psalm": 23,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.1157,
+    "p": 0.719,
+    "diff": 14.0,
+    "total": 121
+   },
+   {
+    "psalm": 24,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.0787,
+    "p": 0.887,
+    "diff": 14.0,
+    "total": 178
+   },
+   {
+    "psalm": 25,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0442,
+    "p": 0.92,
+    "diff": 16.0,
+    "total": 362
+   },
+   {
+    "psalm": 26,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0481,
+    "p": 0.892,
+    "diff": 9.0,
+    "total": 187
+   },
+   {
+    "psalm": 27,
+    "verses": 13,
+    "central_verse": 7,
+    "exactness": 0.0274,
+    "p": 0.373,
+    "diff": 9.0,
+    "total": 329
+   },
+   {
+    "psalm": 28,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0263,
+    "p": 0.247,
+    "diff": 5.0,
+    "total": 190
+   },
+   {
+    "psalm": 29,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.0739,
+    "p": 0.79,
+    "diff": 13.0,
+    "total": 176
+   },
+   {
+    "psalm": 30,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0431,
+    "p": 0.512,
+    "diff": 10.0,
+    "total": 232
+   },
+   {
+    "psalm": 31,
+    "verses": 24,
+    "central_verse": 13,
+    "exactness": 0.03,
+    "p": 0.728,
+    "diff": 16.0,
+    "total": 534
+   },
+   {
+    "psalm": 32,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0084,
+    "p": 0.112,
+    "diff": 2.0,
+    "total": 239
+   },
+   {
+    "psalm": 33,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0503,
+    "p": 0.995,
+    "diff": 18.0,
+    "total": 358
+   },
+   {
+    "psalm": 34,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0167,
+    "p": 0.281,
+    "diff": 6.0,
+    "total": 359
+   },
+   {
+    "psalm": 35,
+    "verses": 27,
+    "central_verse": 15,
+    "exactness": 0.0018,
+    "p": 0.071,
+    "diff": 1.0,
+    "total": 547
+   },
+   {
+    "psalm": 36,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0628,
+    "p": 0.756,
+    "diff": 14.0,
+    "total": 223
+   },
+   {
+    "psalm": 37,
+    "verses": 39,
+    "central_verse": 21,
+    "exactness": 0.0114,
+    "p": 0.483,
+    "diff": 8.0,
+    "total": 699
+   },
+   {
+    "psalm": 38,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0,
+    "p": 0.032,
+    "diff": 0.0,
+    "total": 398
+   },
+   {
+    "psalm": 39,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0276,
+    "p": 0.378,
+    "diff": 8.0,
+    "total": 290
+   },
+   {
+    "psalm": 40,
+    "verses": 17,
+    "central_verse": 10,
+    "exactness": 0.0501,
+    "p": 0.844,
+    "diff": 23.0,
+    "total": 459
+   },
+   {
+    "psalm": 41,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0075,
+    "p": 0.173,
+    "diff": 2.0,
+    "total": 265
+   },
+   {
+    "psalm": 42,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0299,
+    "p": 0.439,
+    "diff": 9.0,
+    "total": 301
+   },
+   {
+    "psalm": 43,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.042,
+    "p": 0.908,
+    "diff": 6.0,
+    "total": 143
+   },
+   {
+    "psalm": 44,
+    "verses": 26,
+    "central_verse": 14,
+    "exactness": 0.0207,
+    "p": 0.468,
+    "diff": 10.0,
+    "total": 482
+   },
+   {
+    "psalm": 45,
+    "verses": 17,
+    "central_verse": 9,
+    "exactness": 0.0296,
+    "p": 0.55,
+    "diff": 11.0,
+    "total": 371
+   },
+   {
+    "psalm": 46,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0455,
+    "p": 0.716,
+    "diff": 10.0,
+    "total": 220
+   },
+   {
+    "psalm": 47,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.0549,
+    "p": 0.418,
+    "diff": 9.0,
+    "total": 164
+   },
+   {
+    "psalm": 48,
+    "verses": 14,
+    "central_verse": 9,
+    "exactness": 0.0532,
+    "p": 0.763,
+    "diff": 14.0,
+    "total": 263
+   },
+   {
+    "psalm": 49,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0143,
+    "p": 0.342,
+    "diff": 5.0,
+    "total": 349
+   },
+   {
+    "psalm": 50,
+    "verses": 22,
+    "central_verse": 13,
+    "exactness": 0.0122,
+    "p": 0.285,
+    "diff": 5.0,
+    "total": 410
+   },
+   {
+    "psalm": 51,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0333,
+    "p": 0.676,
+    "diff": 13.0,
+    "total": 390
+   },
+   {
+    "psalm": 52,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.0141,
+    "p": 0.201,
+    "diff": 3.0,
+    "total": 213
+   },
+   {
+    "psalm": 53,
+    "verses": 6,
+    "central_verse": 5,
+    "exactness": 0.026,
+    "p": 0.096,
+    "diff": 4.0,
+    "total": 154
+   },
+   {
+    "psalm": 54,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0483,
+    "p": 0.329,
+    "diff": 7.0,
+    "total": 145
+   },
+   {
+    "psalm": 55,
+    "verses": 23,
+    "central_verse": 14,
+    "exactness": 0.0088,
+    "p": 0.213,
+    "diff": 4.0,
+    "total": 457
+   },
+   {
+    "psalm": 56,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0159,
+    "p": 0.247,
+    "diff": 4.0,
+    "total": 252
+   },
+   {
+    "psalm": 57,
+    "verses": 11,
+    "central_verse": 6,
+    "exactness": 0.0375,
+    "p": 0.433,
+    "diff": 9.0,
+    "total": 240
+   },
+   {
+    "psalm": 58,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0359,
+    "p": 0.795,
+    "diff": 8.0,
+    "total": 223
+   },
+   {
+    "psalm": 59,
+    "verses": 17,
+    "central_verse": 11,
+    "exactness": 0.0238,
+    "p": 0.442,
+    "diff": 9.0,
+    "total": 378
+   },
+   {
+    "psalm": 60,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0606,
+    "p": 0.749,
+    "diff": 16.0,
+    "total": 264
+   },
+   {
+    "psalm": 61,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.1391,
+    "p": 0.985,
+    "diff": 21.0,
+    "total": 151
+   },
+   {
+    "psalm": 62,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0041,
+    "p": 0.074,
+    "diff": 1.0,
+    "total": 244
+   },
+   {
+    "psalm": 63,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0419,
+    "p": 0.396,
+    "diff": 9.0,
+    "total": 215
+   },
+   {
+    "psalm": 64,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.1027,
+    "p": 0.976,
+    "diff": 19.0,
+    "total": 185
+   },
+   {
+    "psalm": 65,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0614,
+    "p": 0.818,
+    "diff": 17.0,
+    "total": 277
+   },
+   {
+    "psalm": 66,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0447,
+    "p": 0.836,
+    "diff": 16.0,
+    "total": 358
+   },
+   {
+    "psalm": 67,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0233,
+    "p": 0.207,
+    "diff": 3.0,
+    "total": 129
+   },
+   {
+    "psalm": 68,
+    "verses": 35,
+    "central_verse": 19,
+    "exactness": 0.0185,
+    "p": 0.685,
+    "diff": 14.0,
+    "total": 756
+   },
+   {
+    "psalm": 69,
+    "verses": 36,
+    "central_verse": 18,
+    "exactness": 0.0083,
+    "p": 0.331,
+    "diff": 6.0,
+    "total": 719
+   },
+   {
+    "psalm": 70,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.1368,
+    "p": 0.676,
+    "diff": 16.0,
+    "total": 117
+   },
+   {
+    "psalm": 71,
+    "verses": 24,
+    "central_verse": 14,
+    "exactness": 0.0175,
+    "p": 0.427,
+    "diff": 9.0,
+    "total": 514
+   },
+   {
+    "psalm": 72,
+    "verses": 19,
+    "central_verse": 12,
+    "exactness": 0.0279,
+    "p": 0.557,
+    "diff": 10.0,
+    "total": 359
+   },
+   {
+    "psalm": 73,
+    "verses": 27,
+    "central_verse": 16,
+    "exactness": 0.0352,
+    "p": 0.95,
+    "diff": 16.0,
+    "total": 455
+   },
+   {
+    "psalm": 74,
+    "verses": 22,
+    "central_verse": 12,
+    "exactness": 0.0297,
+    "p": 0.642,
+    "diff": 13.0,
+    "total": 438
+   },
+   {
+    "psalm": 75,
+    "verses": 10,
+    "central_verse": 7,
+    "exactness": 0.0667,
+    "p": 0.752,
+    "diff": 13.0,
+    "total": 195
+   },
+   {
+    "psalm": 76,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0676,
+    "p": 0.81,
+    "diff": 14.0,
+    "total": 207
+   },
+   {
+    "psalm": 77,
+    "verses": 20,
+    "central_verse": 12,
+    "exactness": 0.0211,
+    "p": 0.479,
+    "diff": 8.0,
+    "total": 379
+   },
+   {
+    "psalm": 78,
+    "verses": 71,
+    "central_verse": 36,
+    "exactness": 0.0113,
+    "p": 0.835,
+    "diff": 15.0,
+    "total": 1325
+   },
+   {
+    "psalm": 79,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0651,
+    "p": 0.798,
+    "diff": 20.0,
+    "total": 307
+   },
+   {
+    "psalm": 80,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0334,
+    "p": 0.673,
+    "diff": 12.0,
+    "total": 359
+   },
+   {
+    "psalm": 81,
+    "verses": 16,
+    "central_verse": 10,
+    "exactness": 0.0503,
+    "p": 0.801,
+    "diff": 15.0,
+    "total": 298
+   },
+   {
+    "psalm": 82,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0744,
+    "p": 0.649,
+    "diff": 9.0,
+    "total": 121
+   },
+   {
+    "psalm": 83,
+    "verses": 18,
+    "central_verse": 11,
+    "exactness": 0.0358,
+    "p": 0.657,
+    "diff": 11.0,
+    "total": 307
+   },
+   {
+    "psalm": 84,
+    "verses": 12,
+    "central_verse": 8,
+    "exactness": 0.0312,
+    "p": 0.383,
+    "diff": 8.0,
+    "total": 256
+   },
+   {
+    "psalm": 85,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0517,
+    "p": 0.195,
+    "diff": 12.0,
+    "total": 232
+   },
+   {
+    "psalm": 86,
+    "verses": 16,
+    "central_verse": 10,
+    "exactness": 0.042,
+    "p": 0.691,
+    "diff": 15.0,
+    "total": 357
+   },
+   {
+    "psalm": 87,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1429,
+    "p": 0.855,
+    "diff": 14.0,
+    "total": 98
+   },
+   {
+    "psalm": 88,
+    "verses": 18,
+    "central_verse": 10,
+    "exactness": 0.0171,
+    "p": 0.333,
+    "diff": 6.0,
+    "total": 350
+   },
+   {
+    "psalm": 89,
+    "verses": 52,
+    "central_verse": 26,
+    "exactness": 0.0011,
+    "p": 0.065,
+    "diff": 1.0,
+    "total": 930
+   },
+   {
+    "psalm": 90,
+    "verses": 16,
+    "central_verse": 10,
+    "exactness": 0.0544,
+    "p": 0.858,
+    "diff": 18.0,
+    "total": 331
+   },
+   {
+    "psalm": 91,
+    "verses": 16,
+    "central_verse": 9,
+    "exactness": 0.0285,
+    "p": 0.465,
+    "diff": 8.0,
+    "total": 281
+   },
+   {
+    "psalm": 92,
+    "verses": 15,
+    "central_verse": 9,
+    "exactness": 0.0037,
+    "p": 0.08,
+    "diff": 1.0,
+    "total": 267
+   },
+   {
+    "psalm": 93,
+    "verses": 5,
+    "central_verse": 3,
+    "exactness": 0.0882,
+    "p": 0.57,
+    "diff": 9.0,
+    "total": 102
+   },
+   {
+    "psalm": 94,
+    "verses": 23,
+    "central_verse": 12,
+    "exactness": 0.0363,
+    "p": 0.855,
+    "diff": 14.0,
+    "total": 386
+   },
+   {
+    "psalm": 95,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.1117,
+    "p": 0.999,
+    "diff": 23.0,
+    "total": 206
+   },
+   {
+    "psalm": 96,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.032,
+    "p": 0.488,
+    "diff": 8.0,
+    "total": 250
+   },
+   {
+    "psalm": 97,
+    "verses": 12,
+    "central_verse": 7,
+    "exactness": 0.0219,
+    "p": 0.278,
+    "diff": 5.0,
+    "total": 228
+   },
+   {
+    "psalm": 98,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0263,
+    "p": 0.216,
+    "diff": 4.0,
+    "total": 152
+   },
+   {
+    "psalm": 99,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.11,
+    "p": 0.956,
+    "diff": 22.0,
+    "total": 200
+   },
+   {
+    "psalm": 101,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0595,
+    "p": 0.44,
+    "diff": 10.0,
+    "total": 168
+   },
+   {
+    "psalm": 102,
+    "verses": 28,
+    "central_verse": 16,
+    "exactness": 0.0404,
+    "p": 0.976,
+    "diff": 20.0,
+    "total": 495
+   },
+   {
+    "psalm": 103,
+    "verses": 21,
+    "central_verse": 12,
+    "exactness": 0.0336,
+    "p": 0.751,
+    "diff": 13.0,
+    "total": 387
+   },
+   {
+    "psalm": 104,
+    "verses": 35,
+    "central_verse": 18,
+    "exactness": 0.0,
+    "p": 0.033,
+    "diff": 0.0,
+    "total": 660
+   },
+   {
+    "psalm": 105,
+    "verses": 45,
+    "central_verse": 23,
+    "exactness": 0.0014,
+    "p": 0.122,
+    "diff": 1.0,
+    "total": 693
+   },
+   {
+    "psalm": 106,
+    "verses": 48,
+    "central_verse": 25,
+    "exactness": 0.0079,
+    "p": 0.406,
+    "diff": 7.0,
+    "total": 881
+   },
+   {
+    "psalm": 107,
+    "verses": 43,
+    "central_verse": 22,
+    "exactness": 0.0155,
+    "p": 0.711,
+    "diff": 11.0,
+    "total": 708
+   },
+   {
+    "psalm": 108,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0127,
+    "p": 0.2,
+    "diff": 3.0,
+    "total": 237
+   },
+   {
+    "psalm": 109,
+    "verses": 30,
+    "central_verse": 17,
+    "exactness": 0.0327,
+    "p": 0.948,
+    "diff": 18.0,
+    "total": 550
+   },
+   {
+    "psalm": 110,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.0085,
+    "p": 0.07,
+    "diff": 1.0,
+    "total": 117
+   },
+   {
+    "psalm": 111,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0055,
+    "p": 0.052,
+    "diff": 1.0,
+    "total": 182
+   },
+   {
+    "psalm": 112,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0282,
+    "p": 0.212,
+    "diff": 5.0,
+    "total": 177
+   },
+   {
+    "psalm": 113,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0,
+    "p": 0.009,
+    "diff": 0.0,
+    "total": 134
+   },
+   {
+    "psalm": 114,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0781,
+    "p": 0.178,
+    "diff": 10.0,
+    "total": 128
+   },
+   {
+    "psalm": 115,
+    "verses": 18,
+    "central_verse": 9,
+    "exactness": 0.0163,
+    "p": 0.286,
+    "diff": 5.0,
+    "total": 306
+   },
+   {
+    "psalm": 116,
+    "verses": 19,
+    "central_verse": 10,
+    "exactness": 0.0199,
+    "p": 0.431,
+    "diff": 6.0,
+    "total": 301
+   },
+   {
+    "psalm": 118,
+    "verses": 29,
+    "central_verse": 15,
+    "exactness": 0.0331,
+    "p": 0.948,
+    "diff": 14.0,
+    "total": 423
+   },
+   {
+    "psalm": 119,
+    "verses": 176,
+    "central_verse": 89,
+    "exactness": 0.0049,
+    "p": 0.904,
+    "diff": 14.0,
+    "total": 2832
+   },
+   {
+    "psalm": 120,
+    "verses": 6,
+    "central_verse": 4,
+    "exactness": 0.1461,
+    "p": 0.761,
+    "diff": 13.0,
+    "total": 89
+   },
+   {
+    "psalm": 121,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0388,
+    "p": 0.938,
+    "diff": 4.0,
+    "total": 103
+   },
+   {
+    "psalm": 122,
+    "verses": 8,
+    "central_verse": 5,
+    "exactness": 0.0615,
+    "p": 0.525,
+    "diff": 8.0,
+    "total": 130
+   },
+   {
+    "psalm": 124,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0593,
+    "p": 0.483,
+    "diff": 7.0,
+    "total": 118
+   },
+   {
+    "psalm": 126,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.09,
+    "p": 0.463,
+    "diff": 9.0,
+    "total": 100
+   },
+   {
+    "psalm": 128,
+    "verses": 5,
+    "central_verse": 4,
+    "exactness": 0.0938,
+    "p": 0.46,
+    "diff": 9.0,
+    "total": 96
+   },
+   {
+    "psalm": 129,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0841,
+    "p": 0.701,
+    "diff": 9.0,
+    "total": 107
+   },
+   {
+    "psalm": 130,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0256,
+    "p": 0.355,
+    "diff": 3.0,
+    "total": 117
+   },
+   {
+    "psalm": 132,
+    "verses": 17,
+    "central_verse": 10,
+    "exactness": 0.0594,
+    "p": 0.949,
+    "diff": 18.0,
+    "total": 303
+   },
+   {
+    "psalm": 135,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0235,
+    "p": 0.565,
+    "diff": 9.0,
+    "total": 383
+   },
+   {
+    "psalm": 136,
+    "verses": 26,
+    "central_verse": 13,
+    "exactness": 0.0,
+    "p": 0.027,
+    "diff": 0.0,
+    "total": 400
+   },
+   {
+    "psalm": 137,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0994,
+    "p": 0.876,
+    "diff": 18.0,
+    "total": 181
+   },
+   {
+    "psalm": 138,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.0061,
+    "p": 0.066,
+    "diff": 1.0,
+    "total": 163
+   },
+   {
+    "psalm": 139,
+    "verses": 23,
+    "central_verse": 13,
+    "exactness": 0.0485,
+    "p": 0.975,
+    "diff": 20.0,
+    "total": 412
+   },
+   {
+    "psalm": 140,
+    "verses": 13,
+    "central_verse": 8,
+    "exactness": 0.0375,
+    "p": 0.603,
+    "diff": 10.0,
+    "total": 267
+   },
+   {
+    "psalm": 141,
+    "verses": 9,
+    "central_verse": 6,
+    "exactness": 0.12,
+    "p": 0.965,
+    "diff": 24.0,
+    "total": 200
+   },
+   {
+    "psalm": 142,
+    "verses": 7,
+    "central_verse": 5,
+    "exactness": 0.1069,
+    "p": 0.74,
+    "diff": 17.0,
+    "total": 159
+   },
+   {
+    "psalm": 143,
+    "verses": 11,
+    "central_verse": 7,
+    "exactness": 0.0412,
+    "p": 0.483,
+    "diff": 11.0,
+    "total": 267
+   },
+   {
+    "psalm": 144,
+    "verses": 14,
+    "central_verse": 10,
+    "exactness": 0.0557,
+    "p": 0.784,
+    "diff": 17.0,
+    "total": 305
+   },
+   {
+    "psalm": 145,
+    "verses": 21,
+    "central_verse": 11,
+    "exactness": 0.0077,
+    "p": 0.198,
+    "diff": 3.0,
+    "total": 389
+   },
+   {
+    "psalm": 146,
+    "verses": 10,
+    "central_verse": 6,
+    "exactness": 0.0308,
+    "p": 0.317,
+    "diff": 6.0,
+    "total": 195
+   },
+   {
+    "psalm": 147,
+    "verses": 20,
+    "central_verse": 10,
+    "exactness": 0.0355,
+    "p": 0.738,
+    "diff": 12.0,
+    "total": 338
+   },
+   {
+    "psalm": 148,
+    "verses": 14,
+    "central_verse": 8,
+    "exactness": 0.0236,
+    "p": 0.365,
+    "diff": 6.0,
+    "total": 254
+   },
+   {
+    "psalm": 149,
+    "verses": 9,
+    "central_verse": 5,
+    "exactness": 0.0192,
+    "p": 0.523,
+    "diff": 3.0,
+    "total": 156
+   },
+   {
+    "psalm": 150,
+    "verses": 6,
+    "central_verse": 3,
+    "exactness": 0.1596,
+    "p": 0.91,
+    "diff": 15.0,
+    "total": 94
+   }
+  ]
+ }
+}

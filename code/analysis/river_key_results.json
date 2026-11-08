@@ -1,0 +1,645 @@
+{
+ "nearest": {
+  "Jn 21:1-14 (153 fish)": {
+   "top": [
+    "Jonas 1",
+    "Ezechiel 40",
+    "Job 1",
+    "Genesis 23",
+    "Ezechiel 42",
+    "Machabaeorum_i 6",
+    "Regnorum_II 20",
+    "Machabaeorum_iii 4",
+    "Genesis 41",
+    "Josue 8"
+   ],
+   "Ezechiel 47": 478,
+   "Zacharias 14": 484,
+   "Genesis 2": 803,
+   "Joel 3": 275,
+   "Isaias 55": 56
+  },
+  "Jn 7:37-39": {
+   "top": [
+    "Deuteronomium 5",
+    "Osee 12",
+    "Jonas 2",
+    "Isaias 7",
+    "Deuteronomium 34",
+    "Ezechiel 3",
+    "Paralipomenon_II 21",
+    "Osee 9",
+    "Ecclesiasticus 43",
+    "Esdras_B 18"
+   ],
+   "Ezechiel 47": 46,
+   "Zacharias 14": 73,
+   "Genesis 2": 189,
+   "Joel 3": 889,
+   "Isaias 55": 380
+  },
+  "Jn 19:31-37": {
+   "top": [
+    "Machabaeorum_ii 12",
+    "Daniel_Theodotionis_versio 10",
+    "Numeri 9",
+    "Ezechiel 1",
+    "Job 15",
+    "Exodus 4",
+    "Genesis 15",
+    "Judices 20",
+    "Esther prologue",
+    "Paralipomenon_I 14"
+   ],
+   "Ezechiel 47": 474,
+   "Zacharias 14": 150,
+   "Genesis 2": 81,
+   "Joel 3": 425,
+   "Isaias 55": 431
+  },
+  "Jn 4:7-15": {
+   "top": [
+    "Genesis 16",
+    "Genesis 24",
+    "Genesis 29",
+    "Genesis 26",
+    "Ruth 2",
+    "Paralipomenon_II 11",
+    "Genesis 48",
+    "Genesis 21",
+    "Job 1",
+    "Paralipomenon_II 1"
+   ],
+   "Ezechiel 47": 599,
+   "Zacharias 14": 628,
+   "Genesis 2": 176,
+   "Joel 3": 620,
+   "Isaias 55": 227
+  }
+ },
+ "living_water": {
+  "lxx": [
+   "Genesis 26:19",
+   "Leviticus 14:5",
+   "Leviticus 14:6",
+   "Leviticus 14:50",
+   "Leviticus 14:51",
+   "Numeri 19:17",
+   "Canticum 4:15",
+   "Zacharias 14:8",
+   "Jeremias 2:13"
+  ],
+  "nt": [
+   "Jn 4:10",
+   "Jn 7:38"
+  ]
+ },
+ "gematria_scan": {
+  "both": [
+   "2Kgs.22.10",
+   "2Kgs.23.23",
+   "1Sam.7.10",
+   "1Sam.22.18",
+   "1Sam.25.8",
+   "Nah.1.7",
+   "2Chr.25.13",
+   "2Chr.30.18",
+   "2Chr.35.16",
+   "2Chr.35.19",
+   "Num.9.6",
+   "Num.9.13",
+   "Num.32.20",
+   "Josh.5.11",
+   "Deut.3.27",
+   "Deut.16.5",
+   "Deut.29.6",
+   "Exod.34.25",
+   "Ezek.47.10",
+   "1Kgs.2.29",
+   "1Kgs.12.32",
+   "Gen.19.35",
+   "Judg.8.21",
+   "1Chr.4.40",
+   "1Chr.12.9",
+   "Lev.9.18"
+  ],
+  "n_verses": 23213,
+  "words153": [
+   [
+    "למלחמה",
+    71
+   ],
+   [
+    "הפסח",
+    30
+   ],
+   [
+    "חלקיה",
+    27
+   ],
+   [
+    "פגע",
+    25
+   ],
+   [
+    "וימצאו",
+    18
+   ],
+   [
+    "בצלאל",
+    17
+   ],
+   [
+    "עגלים",
+    10
+   ],
+   [
+    "החצים",
+    8
+   ],
+   [
+    "הפסגה",
+    8
+   ],
+   [
+    "מחניהם",
+    7
+   ],
+   [
+    "מחקה",
+    7
+   ],
+   [
+    "ואקום",
+    5
+   ],
+   [
+    "כגפן",
+    5
+   ],
+   [
+    "אביסף",
+    5
+   ],
+   [
+    "ואספו",
+    4
+   ],
+   [
+    "לנגע",
+    4
+   ],
+   [
+    "בחפזון",
+    3
+   ],
+   [
+    "מחנימה",
+    3
+   ],
+   [
+    "מעגלי",
+    3
+   ],
+   [
+    "בסופה",
+    2
+   ]
+  ],
+  "fishing": 18,
+  "fishing_with_pair": [
+   "Ezek.47.10"
+  ]
+ },
+ "isopsephy": {
+  "values": {
+   "ἰχθύες": 1224,
+   "ἰχθύων": 1869,
+   "τὸ δίκτυον": 1224,
+   "δίκτυον": 854,
+   "ἰχθύς": 1219,
+   "Σίμων Πέτρος": 1855,
+   "μεγάλων": 929,
+   "ἑκατὸν πεντήκοντα τριῶν": 2590
+  },
+  "john_multiples": [
+   "ανηλθεν",
+   "αρτουσ",
+   "γραφη",
+   "δοκουσα",
+   "ελευσομεθα",
+   "ελευσονται",
+   "επιλεγομενη",
+   "εχητε",
+   "θαυμαστον",
+   "ιουδαιοσ",
+   "κωμην",
+   "μερη",
+   "νεωτεροσ",
+   "σολομωνοσ",
+   "φερητε"
+  ],
+  "share": 0.0059
+ },
+ "tabernacles": {
+  "sukkah_4_9": "נִסּוּךְ הַמַּיִם כֵּיצַד. צְלוֹחִית שֶׁל זָהָב מַחֲזֶקֶת שְׁלשֶׁת לֻגִּים הָיָה מְמַלֵּא מִן הַשִּׁלּוֹחַ. הִגִּיעוּ לְשַׁעַר הַמַּיִם, תָּקְעוּ וְהֵרִיעוּ וְתָקָעוּ. עָלָה בַכֶּבֶשׁ וּפָנָה לִשְׂמֹאלוֹ, שְׁנֵי סְפָלִים שֶׁל כֶּסֶף הָיוּ שָׁם. רַבִּי יְהוּדָה אוֹמֵר, שֶׁל סִיד הָיוּ, אֶלָּא שֶׁהָיוּ מֻשְׁחָרִין פְּנֵיהֶם מִפְּנֵי הַיָּיִן. וּמְנֻקָּבִין כְּמִין שְׁנֵי חֳטָמִין דַּקִּין, אֶחָד מְעֻבֶּה וְאֶחָד דַּק, כְּדֵי שֶׁיְּהוּ שְׁנֵיהֶם כָּלִין בְּבַת אַחַת. מַעֲרָבִי שֶׁל מַיִם, מִזְרָחִי שֶׁל יָיִן. עֵרָה שֶׁל מַיִם לְתוֹךְ שֶׁל יַיִן, וְשֶׁל יַיִן לְתוֹךְ שֶׁל מַיִם, יָצָא. רַבִּי יְהוּדָה אוֹמֵר, בְּלֹג הָיָה מְנַסֵּךְ כָּל שְׁמֹנָה. וְלַמְנַסֵּךְ אוֹמְרִים לוֹ, הַגְבַּהּ יָדֶךָ, שֶׁפַּעַם אַחַת נִסֵּךְ אֶחָד עַל גַּבֵּי רַגְלָיו, וּרְגָמוּהוּ כָל הָעָם בְּאֶתְרוֹגֵיהֶן: \n",
+  "sukkah_5_3": "מִבְּלָאֵי מִכְנְסֵי כֹהֲנִים וּמֵהֶמְיָנֵיהֶן מֵהֶן הָיוּ מַפְקִיעִין, וּבָהֶן הָיוּ מַדְלִיקִין, וְלֹא הָיְתָה חָצֵר בִּירוּשָׁלַיִם שֶׁאֵינָהּ מְאִירָה מֵאוֹר בֵּית הַשּׁוֹאֵבָה: \n",
+  "john_siloam": [
+   [
+    9,
+    7
+   ],
+   [
+    9,
+    11
+   ]
+  ]
+ },
+ "self": {
+  "from_myself": {
+   "Mt": [],
+   "Mk": [],
+   "Lk": [],
+   "Jn": [
+    "5:19",
+    "5:30",
+    "7:17",
+    "7:18",
+    "7:28",
+    "8:28",
+    "8:42",
+    "10:18",
+    "11:51",
+    "14:10",
+    "15:4",
+    "16:13",
+    "18:34"
+   ]
+  },
+  "moments": {
+   "Mt 27:50": "ὁ δὲ Ἰησοῦς πάλιν κράξας φωνῇ μεγάλῃ ἀφῆκεν τὸ πνεῦμα.",
+   "Mk 15:37": "ὁ δὲ Ἰησοῦς ἀφεὶς φωνὴν μεγάλην ἐξέπνευσεν.",
+   "Lk 23:46": "καὶ φωνήσας φωνῇ μεγάλῃ ὁ Ἰησοῦς εἶπεν· Πάτερ, εἰς χεῖράς σου ⸀παρατίθεμαι τὸ πνεῦμά μου. ⸂τοῦτο δὲ⸃ εἰπὼν ἐξέπνευσεν.",
+   "Jn 19:30": "ὅτε οὖν ἔλαβεν τὸ ὄξος ὁ Ἰησοῦς εἶπεν· Τετέλεσται, καὶ κλίνας τὴν κεφαλὴν παρέδωκεν τὸ πνεῦμα.",
+   "Jn 20:22": "καὶ τοῦτο εἰπὼν ἐνεφύσησεν καὶ λέγει αὐτοῖς· Λάβετε πνεῦμα ἅγιον·"
+  },
+  "path": [
+   [
+    "3:8",
+    0.09,
+    "the wind blows where it wills: so is everyone born of the Spirit"
+   ],
+   [
+    "3:30",
+    0.117,
+    "he must increase, I must decrease"
+   ],
+   [
+    "5:19",
+    0.202,
+    "the Son can do nothing from himself"
+   ],
+   [
+    "8:28",
+    0.391,
+    "I AM ... I do nothing from myself"
+   ],
+   [
+    "12:24",
+    0.606,
+    "unless a grain of wheat falls and dies"
+   ],
+   [
+    "12:25",
+    0.607,
+    "whoever loves his life loses it"
+   ],
+   [
+    "13:5",
+    0.644,
+    "he began to wash the disciples' feet"
+   ],
+   [
+    "15:4",
+    0.721,
+    "abide in me, and I in you"
+   ],
+   [
+    "17:21",
+    0.812,
+    "that they may all be one, as you are in me and I in you"
+   ],
+   [
+    "19:30",
+    0.909,
+    "he bowed his head and handed over the spirit (breath)"
+   ],
+   [
+    "20:22",
+    0.951,
+    "he breathed on them: receive the Holy Spirit"
+   ]
+  ]
+ },
+ "nt_key": {
+  "per_book": {
+   "Mt": {
+    "words": 18329,
+    "pointers": 24,
+    "pointers_per10k": 13.1,
+    "asides": 0,
+    "glosses": 1
+   },
+   "Mk": {
+    "words": 11286,
+    "pointers": 17,
+    "pointers_per10k": 15.1,
+    "asides": 0,
+    "glosses": 3
+   },
+   "Lk": {
+    "words": 19446,
+    "pointers": 61,
+    "pointers_per10k": 31.4,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Jn": {
+    "words": 15438,
+    "pointers": 15,
+    "pointers_per10k": 9.7,
+    "asides": 7,
+    "glosses": 4
+   },
+   "Ac": {
+    "words": 18412,
+    "pointers": 92,
+    "pointers_per10k": 50.0,
+    "asides": 0,
+    "glosses": 2
+   },
+   "Ro": {
+    "words": 7055,
+    "pointers": 24,
+    "pointers_per10k": 34.0,
+    "asides": 0,
+    "glosses": 0
+   },
+   "1Co": {
+    "words": 6812,
+    "pointers": 11,
+    "pointers_per10k": 16.1,
+    "asides": 0,
+    "glosses": 0
+   },
+   "2Co": {
+    "words": 4473,
+    "pointers": 18,
+    "pointers_per10k": 40.2,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Ga": {
+    "words": 2226,
+    "pointers": 5,
+    "pointers_per10k": 22.5,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Eph": {
+    "words": 2416,
+    "pointers": 5,
+    "pointers_per10k": 20.7,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Php": {
+    "words": 1626,
+    "pointers": 9,
+    "pointers_per10k": 55.4,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Col": {
+    "words": 1580,
+    "pointers": 4,
+    "pointers_per10k": 25.3,
+    "asides": 0,
+    "glosses": 0
+   },
+   "1Th": {
+    "words": 1473,
+    "pointers": 6,
+    "pointers_per10k": 40.7,
+    "asides": 0,
+    "glosses": 0
+   },
+   "2Th": {
+    "words": 820,
+    "pointers": 1,
+    "pointers_per10k": 12.2,
+    "asides": 0,
+    "glosses": 0
+   },
+   "1Ti": {
+    "words": 1591,
+    "pointers": 18,
+    "pointers_per10k": 113.1,
+    "asides": 0,
+    "glosses": 0
+   },
+   "2Ti": {
+    "words": 1235,
+    "pointers": 8,
+    "pointers_per10k": 64.8,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Tit": {
+    "words": 659,
+    "pointers": 8,
+    "pointers_per10k": 121.4,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Phm": {
+    "words": 334,
+    "pointers": 1,
+    "pointers_per10k": 29.9,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Heb": {
+    "words": 4935,
+    "pointers": 30,
+    "pointers_per10k": 60.8,
+    "asides": 0,
+    "glosses": 1
+   },
+   "Jas": {
+    "words": 1739,
+    "pointers": 10,
+    "pointers_per10k": 57.5,
+    "asides": 0,
+    "glosses": 0
+   },
+   "1Pe": {
+    "words": 1678,
+    "pointers": 13,
+    "pointers_per10k": 77.5,
+    "asides": 0,
+    "glosses": 0
+   },
+   "2Pe": {
+    "words": 1098,
+    "pointers": 10,
+    "pointers_per10k": 91.1,
+    "asides": 0,
+    "glosses": 0
+   },
+   "1Jn": {
+    "words": 2137,
+    "pointers": 0,
+    "pointers_per10k": 0.0,
+    "asides": 0,
+    "glosses": 0
+   },
+   "2Jn": {
+    "words": 245,
+    "pointers": 1,
+    "pointers_per10k": 40.8,
+    "asides": 0,
+    "glosses": 0
+   },
+   "3Jn": {
+    "words": 219,
+    "pointers": 0,
+    "pointers_per10k": 0.0,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Jud": {
+    "words": 459,
+    "pointers": 2,
+    "pointers_per10k": 43.6,
+    "asides": 0,
+    "glosses": 0
+   },
+   "Re": {
+    "words": 9833,
+    "pointers": 15,
+    "pointers_per10k": 15.3,
+    "asides": 0,
+    "glosses": 0
+   }
+  },
+  "john": [
+   {
+    "book": "Jn",
+    "ref": "3:23",
+    "word": "Αἰνὼν",
+    "lemma": "αινων",
+    "lxx": "Josue 15:61; Psalmi 17:4"
+   },
+   {
+    "book": "Jn",
+    "ref": "3:23",
+    "word": "Σαλείμ,",
+    "lemma": "σαλειμ",
+    "lxx": "Josue 19:22; Esdras_A 8:36; Esdras_B 8:10"
+   },
+   {
+    "book": "Jn",
+    "ref": "4:35",
+    "word": "τετράμηνός",
+    "lemma": "τετραμηνοσ",
+    "lxx": "Machabaeorum_ii 8:21"
+   },
+   {
+    "book": "Jn",
+    "ref": "6:13",
+    "word": "βεβρωκόσιν.",
+    "lemma": "βιβρωσκω",
+    "lxx": "Judices 14:14"
+   },
+   {
+    "book": "Jn",
+    "ref": "7:49",
+    "word": "⸀ἐπάρατοί",
+    "lemma": "επαρατοσ",
+    "lxx": "Psalmi 133:2"
+   },
+   {
+    "book": "Jn",
+    "ref": "9:1",
+    "word": "γενετῆς.",
+    "lemma": "γενετη",
+    "lxx": "Leviticus 25:47; Esther 4:16a"
+   },
+   {
+    "book": "Jn",
+    "ref": "9:8",
+    "word": "προσαιτῶν;",
+    "lemma": "προσαιτεω",
+    "lxx": "Job 27:14"
+   },
+   {
+    "book": "Jn",
+    "ref": "10:1",
+    "word": "ἀλλαχόθεν",
+    "lemma": "αλλαχοθεν",
+    "lxx": "Machabaeorum_iv 1:7"
+   },
+   {
+    "book": "Jn",
+    "ref": "11:13",
+    "word": "κοιμήσεως",
+    "lemma": "κοιμησισ",
+    "lxx": "Ecclesiasticus 46:19; Ecclesiasticus 48:13"
+   },
+   {
+    "book": "Jn",
+    "ref": "11:44",
+    "word": "κειρίαις,",
+    "lemma": "κειρια",
+    "lxx": "Proverbia 7:16"
+   },
+   {
+    "book": "Jn",
+    "ref": "19:13",
+    "word": "Λιθόστρωτον,",
+    "lemma": "λιθοστρωτοσ",
+    "lxx": "Esther 1:6; Canticum 3:10"
+   },
+   {
+    "book": "Jn",
+    "ref": "19:34",
+    "word": "λόγχῃ",
+    "lemma": "λογχη",
+    "lxx": "Judices 5:8; Regnorum_I 17:7"
+   },
+   {
+    "book": "Jn",
+    "ref": "19:39",
+    "word": "⸀μίγμα",
+    "lemma": "μιγμα",
+    "lxx": "Ecclesiasticus 38:8"
+   },
+   {
+    "book": "Jn",
+    "ref": "20:18",
+    "word": "⸀ἀγγέλλουσα",
+    "lemma": "αγγελλω",
+    "lxx": "Jeremias 4:15"
+   },
+   {
+    "book": "Jn",
+    "ref": "21:7",
+    "word": "ἐπενδύτην",
+    "lemma": "επενδυτησ",
+    "lxx": "Regnorum_II 13:18"
+   }
+  ],
+  "n": 408
+ }
+}

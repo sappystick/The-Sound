@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Fetch every open source text used by the-sound into ./texts (not committed: each keeps its own licence).
+set -e
+mkdir -p texts && cd texts
+clone() { [ -d "$2" ] || git clone -q --depth 1 "$1" "$2"; }
+sparse() { [ -d "$2" ] || git clone -q --depth 1 --filter=blob:none --sparse "$1" "$2"; (cd "$2" && git sparse-checkout add "${@:3}"); }
+clone https://github.com/morphgnt/sblgnt.git sblgnt                    # Greek NT, CC BY 4.0
+clone https://github.com/nathans/lxx-swete.git lxx-swete               # Septuagint (Swete), CC BY-SA 4.0
+clone https://github.com/openscriptures/morphhb.git morphhb            # Hebrew Bible (WLC/OSHB), CC BY 4.0
+clone https://github.com/Center-for-New-Testament-Restoration/transcriptions.git cntr   # papyri & codices, CC BY-SA 4.0
+# Greek authors (First1KGreek, CC BY-SA): Philo, Corpus Hermeticum, Orphica, Eusebius, Irenaeus
+sparse https://github.com/OpenGreekAndLatin/First1KGreek.git f1k data/tlg0018 data/tlg1286 data/tlg0579 data/tlg2018 data/tlg1447
+# Perseus Greek (CC BY-SA): Josephus, Homeric Hymns, Plato (Timaeus), Euclid, Hippocrates, Aristotle
+sparse https://github.com/PerseusDL/canonical-greekLit.git perseus data/tlg0526 data/tlg0013 data/tlg0059/tlg031 data/tlg1799 data/tlg0627 data/tlg0086
+# Perseus Latin: Vitruvius (architecture), Pliny (Natural History: stones, water, medicine)
+sparse https://github.com/PerseusDL/canonical-latinLit.git latin data/phi1056 data/phi0978
+# Mishnah Sukkah (Hebrew, public domain) from the Sefaria export
+mkdir -p sefaria && curl -sS -o sefaria/sukkah.json "https://storage.googleapis.com/sefaria-export/json/Mishnah/Seder%20Moed/Mishnah%20Sukkah/Hebrew/merged.json"
+echo "done: $(du -sh . | cut -f1)"

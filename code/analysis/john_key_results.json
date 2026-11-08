@@ -1,0 +1,500 @@
+{
+ "john3": {
+  "to_nicodemus": 0.451,
+  "to_baptist": 0.187,
+  "percentile_vs_other_passages": 0.842,
+  "shared": [
+   "θεοσ",
+   "υιοσ",
+   "ερχομαι",
+   "διδωμι",
+   "μαρτυρι",
+   "λαλεω",
+   "λαμβανω",
+   "οραω",
+   "μαρτυρε",
+   "ακουω",
+   "αγαπαω",
+   "αιωνιοσ"
+  ]
+ },
+ "farewell": {
+  "13:31-14:31": {
+   "15:1-16:4a": 0.602,
+   "16:4b-33": 0.665,
+   "17": 0.496
+  },
+  "15:1-16:4a": {
+   "13:31-14:31": 0.602,
+   "16:4b-33": 0.524,
+   "17": 0.438
+  },
+  "16:4b-33": {
+   "13:31-14:31": 0.665,
+   "15:1-16:4a": 0.524,
+   "17": 0.417
+  },
+  "17": {
+   "13:31-14:31": 0.496,
+   "15:1-16:4a": 0.438,
+   "16:4b-33": 0.417
+  }
+ },
+ "trial": {
+  "scenes": [
+   [
+    "1 outside: the accusers",
+    196,
+    0.0,
+    0.156
+   ],
+   [
+    "2 inside: 'Are you the king?'",
+    289,
+    0.156,
+    0.385
+   ],
+   [
+    "3 outside: 'I find no case', Barabbas",
+    105,
+    0.385,
+    0.468
+   ],
+   [
+    "4 inside: scourging, crown of thorns",
+    94,
+    0.468,
+    0.543
+   ],
+   [
+    "5 outside: 'Behold the man'",
+    216,
+    0.543,
+    0.714
+   ],
+   [
+    "6 inside: 'Where are you from?'",
+    132,
+    0.714,
+    0.819
+   ],
+   [
+    "7 outside: 'Behold your king', handed over",
+    228,
+    0.819,
+    1.0
+   ]
+  ],
+  "mirror_pairs": [
+   [
+    196,
+    228
+   ],
+   [
+    289,
+    132
+   ],
+   [
+    105,
+    216
+   ]
+  ]
+ },
+ "seam_16": {
+  "15:18": 0.758,
+  "15:26": 0.593,
+  "16:1": 0.557,
+  "16:4": 0.603,
+  "16:5": 0.505,
+  "16:16": 0.711,
+  "16:25": 0.71
+ },
+ "devices": {
+  "translation gloss (hermeneuo)": {
+   "Mt": {
+    "n": 1,
+    "per10k": 0.5,
+    "refs": [
+     "1:23"
+    ]
+   },
+   "Mk": {
+    "n": 3,
+    "per10k": 2.7,
+    "refs": [
+     "5:41",
+     "15:22",
+     "15:34"
+    ]
+   },
+   "Lk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Jn": {
+    "n": 4,
+    "per10k": 2.6,
+    "refs": [
+     "1:38",
+     "1:41",
+     "1:42",
+     "9:7"
+    ]
+   }
+  },
+  "'he said this about / signifying'": {
+   "Mt": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Mk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Lk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Jn": {
+    "n": 5,
+    "per10k": 3.2,
+    "refs": [
+     "6:6",
+     "7:39",
+     "12:33",
+     "18:32",
+     "21:19"
+    ]
+   }
+  },
+  "'he spoke about ...' (elegen peri / eirekei peri)": {
+   "Mt": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Mk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Lk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Jn": {
+    "n": 2,
+    "per10k": 1.3,
+    "refs": [
+     "2:21",
+     "7:39"
+    ]
+   }
+  },
+  "'his disciples did not understand / remembered'": {
+   "Mt": {
+    "n": 1,
+    "per10k": 0.5,
+    "refs": [
+     "24:39"
+    ]
+   },
+   "Mk": {
+    "n": 0,
+    "per10k": 0.0,
+    "refs": []
+   },
+   "Lk": {
+    "n": 2,
+    "per10k": 1.0,
+    "refs": [
+     "2:43",
+     "24:8"
+    ]
+   },
+   "Jn": {
+    "n": 6,
+    "per10k": 3.9,
+    "refs": [
+     "2:17",
+     "2:22",
+     "8:27",
+     "10:6",
+     "12:16",
+     "16:3"
+    ]
+   }
+  }
+ },
+ "double_meanings": {
+  "ανωθεν": {
+   "gloss": "again / from above (3:3, 3:7, 3:31, 19:11, 19:23)",
+   "john": 5,
+   "synoptics": 3
+  },
+  "πνευμα": {
+   "gloss": "wind / spirit (3:8)",
+   "john": 18,
+   "synoptics": 78
+  },
+  "υψοω": {
+   "gloss": "lifted up on the cross / exalted (3:14, 8:28, 12:32-34)",
+   "john": 4,
+   "synoptics": 9
+  },
+  "ναοσ": {
+   "gloss": "temple / his body (2:19-21)",
+   "john": 3,
+   "synoptics": 16
+  },
+  "κοιμα": {
+   "gloss": "sleep / death (11:11-13)",
+   "john": 2,
+   "synoptics": 3
+  },
+  "ζαω": {
+   "gloss": "living water / running water (4:10-11, 7:38)",
+   "john": 13,
+   "synoptics": 18
+  }
+ },
+ "numbers": {
+  "triangular_17": 153,
+  "gedi": 17,
+  "eglaim": 153,
+  "en_gedi": 147,
+  "en_eglaim": 283
+ },
+ "genesis": {
+  "emphysao_nt": [
+   [
+    "Jn",
+    [
+     20,
+     22
+    ]
+   ]
+  ],
+  "emphysao_lxx": [
+   "Genesis 2.7",
+   "Regnorum_III 17.21",
+   "Job 4.21",
+   "Sapientia_Salomonis 16.11",
+   "Ecclesiasticus 43.4",
+   "Nahum 2.2",
+   "Ezechiel 21.31",
+   "Ezechiel 37.9"
+  ],
+  "days": [
+   [
+    1,
+    29
+   ],
+   [
+    1,
+    35
+   ],
+   [
+    1,
+    43
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "kepos": {
+   "Mt": [],
+   "Mk": [],
+   "Lk": [
+    [
+     13,
+     19
+    ]
+   ],
+   "Jn": [
+    [
+     18,
+     1
+    ],
+    [
+     18,
+     26
+    ],
+    [
+     19,
+     41
+    ]
+   ]
+  },
+  "gen13_density": {
+   "Mt": 0.2365,
+   "Mk": 0.2198,
+   "Lk": 0.2522,
+   "Jn": 0.2353
+  }
+ },
+ "pointers": {
+  "Mt": {
+   "private_words": 140,
+   "traced": 70,
+   "top": [
+    [
+     "Proverbia 10",
+     2.0
+    ],
+    [
+     "Habacuc 1",
+     1.7
+    ],
+    [
+     "Proverbia 22",
+     1.27
+    ],
+    [
+     "Deuteronomium 23",
+     1.2
+    ],
+    [
+     "Leviticus 15",
+     1.17
+    ],
+    [
+     "Machabaeorum_iii 5",
+     1.12
+    ],
+    [
+     "Isaias 7",
+     1.1
+    ],
+    [
+     "Josue 15",
+     1.08
+    ]
+   ],
+   "top10_share": 0.181
+  },
+  "Mk": {
+   "private_words": 89,
+   "traced": 38,
+   "top": [
+    [
+     "Ecclesiasticus 31",
+     1.17
+    ],
+    [
+     "Machabaeorum_iii 4",
+     1.09
+    ],
+    [
+     "Psalmi 37",
+     1.0
+    ],
+    [
+     "Ecclesiasticus 24",
+     1.0
+    ],
+    [
+     "Regnorum_IV 21",
+     1.0
+    ],
+    [
+     "Machabaeorum_iv 1",
+     1.0
+    ],
+    [
+     "Esther 2",
+     1.0
+    ],
+    [
+     "Isaias 35",
+     1.0
+    ]
+   ],
+   "top10_share": 0.27
+  },
+  "Lk": {
+   "private_words": 316,
+   "traced": 175,
+   "top": [
+    [
+     "Machabaeorum_iii 7",
+     2.33
+    ],
+    [
+     "Machabaeorum_ii 3",
+     2.18
+    ],
+    [
+     "Ecclesiasticus 40",
+     2.0
+    ],
+    [
+     "Paralipomenon_I 1",
+     1.89
+    ],
+    [
+     "Machabaeorum_ii 9",
+     1.75
+    ],
+    [
+     "Machabaeorum_ii 8",
+     1.71
+    ],
+    [
+     "Machabaeorum_iii 6",
+     1.68
+    ],
+    [
+     "Machabaeorum_ii 11",
+     1.63
+    ]
+   ],
+   "top10_share": 0.105
+  },
+  "Jn": {
+   "private_words": 92,
+   "traced": 46,
+   "top": [
+    [
+     "Jeremias 4",
+     1.08
+    ],
+    [
+     "Ezechiel 24",
+     1.04
+    ],
+    [
+     "Malachias 4",
+     1.0
+    ],
+    [
+     "Proverbia 7",
+     1.0
+    ],
+    [
+     "Machabaeorum_iv 1",
+     1.0
+    ],
+    [
+     "Ecclesiasticus 38",
+     1.0
+    ],
+    [
+     "Job 27",
+     1.0
+    ],
+    [
+     "Machabaeorum_ii 8",
+     1.0
+    ]
+   ],
+   "top10_share": 0.22
+  }
+ }
+}

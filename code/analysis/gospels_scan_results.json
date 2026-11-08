@@ -1,0 +1,152 @@
+{
+ "book_order": {
+  "Canonical (Mt Mk Lk Jn)": "Lk 3:7",
+  "Western (Mt Jn Lk Mk: Bezae, W)": "Jn 20:2",
+  "Cheltenham list (Mt Mk Jn Lk)": "Jn 4:24",
+  "Codex 888 type (Jn Mt Lk Mk)": "Mt 27:23",
+  "NT": "Ac 8:32"
+ },
+ "spread_words": {
+  "Mt": {
+   "pairs": 120,
+   "mirrored_at_mid": 3,
+   "share_other_points_as_high": 0.229,
+   "best_point": 0.518
+  },
+  "Mk": {
+   "pairs": 122,
+   "mirrored_at_mid": 0,
+   "share_other_points_as_high": 1.0,
+   "best_point": 0.588
+  },
+  "Lk": {
+   "pairs": 189,
+   "mirrored_at_mid": 4,
+   "share_other_points_as_high": 0.375,
+   "best_point": 0.664
+  },
+  "Jn": {
+   "pairs": 68,
+   "mirrored_at_mid": 0,
+   "share_other_points_as_high": 1.0,
+   "best_point": 0.452
+  }
+ },
+ "endings": {
+  "John ending at 20:31": {
+   "shared": 2,
+   "words": [
+    "μέσος",
+    "ὀπίσω"
+   ],
+   "p": 0.4475
+  },
+  "John ending at 21:25": {
+   "shared": 1,
+   "words": [
+    "οὔ"
+   ],
+   "p": 0.727
+  },
+  "Mark ending at 16:8": {
+   "shared": 2,
+   "words": [
+    "διακονέω",
+    "καθώς"
+   ],
+   "p": 0.6115
+  },
+  "Mark ending at 16:20": {
+   "shared": 2,
+   "words": [
+    "εὐαγγέλιον",
+    "καθώς"
+   ],
+   "p": 0.639
+  },
+  "Matthew": {
+   "shared": 2,
+   "words": [
+    "Μαρία",
+    "Ἰουδαῖος"
+   ],
+   "p": 0.8005
+  },
+  "Luke": {
+   "shared": 5,
+   "words": [
+    "ταράσσω",
+    "χαρά",
+    "ἐναντίον",
+    "ἐπιγινώσκω",
+    "ὀπτασία"
+   ],
+   "p": 0.4085
+  }
+ },
+ "events": {
+  "Baptist / baptism": {
+   "positions": {
+    "Mt": 0.051,
+    "Mk": 0.004,
+    "Lk": 0.106,
+    "Jn": 0.016
+   },
+   "spread": 0.102
+  },
+  "Feeding of the 5,000": {
+   "positions": {
+    "Mt": 0.448,
+    "Mk": 0.329,
+    "Lk": 0.372,
+    "Jn": 0.236
+   },
+   "spread": 0.211
+  },
+  "Peter's confession": {
+   "positions": {
+    "Mt": 0.516,
+    "Mk": 0.458,
+    "Lk": 0.383,
+    "Jn": 0.312
+   },
+   "spread": 0.203
+  },
+  "Entry into Jerusalem": {
+   "positions": {
+    "Mt": 0.653,
+    "Mk": 0.627,
+    "Lk": 0.777,
+    "Jn": 0.594
+   },
+   "spread": 0.183
+  },
+  "Arrest": {
+   "positions": {
+    "Mt": 0.896,
+    "Mk": 0.86,
+    "Lk": 0.896,
+    "Jn": 0.818
+   },
+   "spread": 0.078
+  },
+  "Crucifixion": {
+   "positions": {
+    "Mt": 0.954,
+    "Mk": 0.934,
+    "Lk": 0.94,
+    "Jn": 0.892
+   },
+   "spread": 0.061
+  },
+  "Empty tomb": {
+   "positions": {
+    "Mt": 0.981,
+    "Mk": 0.967,
+    "Lk": 0.959,
+    "Jn": 0.926
+   },
+   "spread": 0.056
+  }
+ }
+}

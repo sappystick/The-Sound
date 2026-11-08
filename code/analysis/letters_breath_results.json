@@ -1,0 +1,394 @@
+{
+ "A_gen1_1": {
+  "letters": 28,
+  "comparison_verses": 3874,
+  "categories": {
+   "body": {
+    "count": 11,
+    "share": 0.393,
+    "percentile": 0.49
+   },
+   "house": {
+    "count": 2,
+    "share": 0.071,
+    "percentile": 0.263
+   },
+   "water": {
+    "count": 3,
+    "share": 0.107,
+    "percentile": 0.709
+   },
+   "animal": {
+    "count": 6,
+    "share": 0.214,
+    "percentile": 0.926
+   },
+   "tool": {
+    "count": 2,
+    "share": 0.071,
+    "percentile": 0.027
+   },
+   "sign": {
+    "count": 3,
+    "share": 0.107,
+    "percentile": 0.876
+   },
+   "uncertain": {
+    "count": 1,
+    "share": 0.036,
+    "percentile": 0.447
+   },
+   "greek-added": {
+    "count": 0,
+    "share": 0.0,
+    "percentile": 0.5
+   }
+  }
+ },
+ "A_gen1_1_5": null,
+ "A_john1_1": {
+  "letters": 51,
+  "comparison_verses": 788,
+  "categories": {
+   "body": {
+    "count": 28,
+    "share": 0.549,
+    "percentile": 0.751
+   },
+   "house": {
+    "count": 4,
+    "share": 0.078,
+    "percentile": 0.671
+   },
+   "water": {
+    "count": 0,
+    "share": 0.0,
+    "percentile": 0.114
+   },
+   "animal": {
+    "count": 9,
+    "share": 0.176,
+    "percentile": 0.383
+   },
+   "tool": {
+    "count": 6,
+    "share": 0.118,
+    "percentile": 0.657
+   },
+   "sign": {
+    "count": 1,
+    "share": 0.02,
+    "percentile": 0.043
+   },
+   "uncertain": {
+    "count": 2,
+    "share": 0.039,
+    "percentile": 0.848
+   },
+   "greek-added": {
+    "count": 1,
+    "share": 0.02,
+    "percentile": 0.679
+   }
+  }
+ },
+ "A_names": {
+  "YHWH": [
+   "arm and hand (D36)",
+   "man with raised arms (jubilation) (A28)",
+   "peg / mace (T3)",
+   "man with raised arms (jubilation) (A28)"
+  ],
+  "EHYEH 'I am' (Exod 3:14)": [
+   "ox head (F1)",
+   "man with raised arms (jubilation) (A28)",
+   "arm and hand (D36)",
+   "man with raised arms (jubilation) (A28)"
+  ],
+  "Elohim": [
+   "ox head (F1)",
+   "shepherd's crook / goad (S39)",
+   "man with raised arms (jubilation) (A28)",
+   "arm and hand (D36)",
+   "water (N35)"
+  ],
+  "Adonai": [
+   "ox head (F1)",
+   "door? (O31)",
+   "snake (I10)",
+   "arm and hand (D36)"
+  ],
+  "Shaddai": [
+   "tooth? / bow? (?)",
+   "door? (O31)",
+   "arm and hand (D36)"
+  ],
+  "davar, word": [
+   "door? (O31)",
+   "house (O1)",
+   "head (D1)"
+  ],
+  "or, light": [
+   "ox head (F1)",
+   "peg / mace (T3)",
+   "head (D1)"
+  ],
+  "mayim, water": [
+   "water (N35)",
+   "arm and hand (D36)",
+   "water (N35)"
+  ],
+  "ruach, breath": [
+   "head (D1)",
+   "peg / mace (T3)",
+   "courtyard / fence? (O4)"
+  ],
+  "logos": [
+   "shepherd's crook / goad (S39)",
+   "eye (D4)",
+   "throw-stick? (T14)",
+   "eye (D4)",
+   "tooth? / bow? (?)"
+  ],
+  "theos": [
+   "wheel / good? (?)",
+   "man with raised arms (jubilation) (A28)",
+   "eye (D4)",
+   "tooth? / bow? (?)"
+  ],
+  "phos, light": [
+   "Greek addition",
+   "eye (D4)",
+   "tooth? / bow? (?)"
+  ],
+  "zoe, life": [
+   "weapon? (?)",
+   "eye (D4)",
+   "courtyard / fence? (O4)"
+  ],
+  "Iao (magical papyri)": [
+   "arm and hand (D36)",
+   "ox head (F1)",
+   "eye (D4)"
+  ]
+ },
+ "B": {
+  "roots": 1395,
+  "breath_only": 10,
+  "field_breath": [
+   5,
+   10
+  ],
+  "field_other": [
+   26,
+   1385
+  ],
+  "odds_ratio": 52.26923076923077,
+  "p": 9.055726735729819e-07,
+  "breath_letter_share": 0.2731614135625597,
+  "list": [
+   [
+    "H183",
+    "אָוָה",
+    "to wish for"
+   ],
+   [
+    "H184",
+    "אָוָה",
+    "to extend or mark out"
+   ],
+   [
+    "H1933",
+    "הָוָא",
+    "to be (in the sense of existence)"
+   ],
+   [
+    "H1961",
+    "הָיָה",
+    "to exist, i.e. be or become, come to pass (always emphatic, and not a mere copula or auxiliary)"
+   ],
+   [
+    "H2331",
+    "חָוָה",
+    "properly, to live; by implication (intensively) to declare or show"
+   ],
+   [
+    "H2421",
+    "חָיָה",
+    "to live, whether literally or figuratively; causatively, to revive"
+   ],
+   [
+    "H2425",
+    "חָיַי",
+    "to live; causatively to revive"
+   ],
+   [
+    "H2969",
+    "יָאָה",
+    "to be suitable"
+   ],
+   [
+    "H3261",
+    "יָעָה",
+    "to brush aside"
+   ],
+   [
+    "H5753",
+    "עָוָה",
+    "to crook, literally or figuratively"
+   ]
+  ]
+ },
+ "C": {
+  "pairs": [
+   [
+    "Coptic (Egyptian)",
+    "light/darkness",
+    "ouoein",
+    0.45,
+    "kake",
+    0.62
+   ],
+   [
+    "Hebrew",
+    "light/darkness",
+    "or",
+    0.25,
+    "hoshek",
+    0.5
+   ],
+   [
+    "Aramaic",
+    "light/darkness",
+    "nehora",
+    0.5,
+    "heshoka",
+    0.5
+   ],
+   [
+    "Greek",
+    "light/darkness",
+    "phos",
+    0.25,
+    "skotos",
+    0.25
+   ],
+   [
+    "Ge'ez",
+    "light/darkness",
+    "berhan",
+    0.62,
+    "selmat",
+    0.62
+   ],
+   [
+    "Akkadian",
+    "light/darkness",
+    "nuru",
+    0.0,
+    "ekletu",
+    0.5
+   ],
+   [
+    "Coptic (Egyptian)",
+    "day/night",
+    "hoou",
+    0.17,
+    "oush",
+    0.12
+   ],
+   [
+    "Hebrew",
+    "day/night",
+    "yom",
+    0.25,
+    "layla",
+    0.5
+   ],
+   [
+    "Aramaic",
+    "day/night",
+    "yoma",
+    0.38,
+    "lelya",
+    0.62
+   ],
+   [
+    "Greek",
+    "day/night",
+    "hemera",
+    0.67,
+    "nüx",
+    1.0
+   ],
+   [
+    "Ge'ez",
+    "day/night",
+    "elat",
+    0.62,
+    "lelit",
+    0.88
+   ],
+   [
+    "Akkadian",
+    "day/night",
+    "umu",
+    0.0,
+    "musu",
+    0.0
+   ],
+   [
+    "Coptic (Egyptian)",
+    "white/black",
+    "ouobsh",
+    0.17,
+    "kame",
+    0.62
+   ],
+   [
+    "Hebrew",
+    "white/black",
+    "lavan",
+    0.5,
+    "shahor",
+    0.38
+   ],
+   [
+    "Aramaic",
+    "white/black",
+    "hiwar",
+    0.75,
+    "ukam",
+    0.25
+   ],
+   [
+    "Greek",
+    "white/black",
+    "leukos",
+    0.33,
+    "melas",
+    0.62
+   ],
+   [
+    "Ge'ez",
+    "white/black",
+    "sada",
+    0.5,
+    "sallim",
+    0.75
+   ],
+   [
+    "Akkadian",
+    "white/black",
+    "pesu",
+    0.38,
+    "salmu",
+    0.25
+   ]
+  ],
+  "wins": 4,
+  "untied": 14,
+  "ties": 4,
+  "p": 0.1795654296875
+ }
+}

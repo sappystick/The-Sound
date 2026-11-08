@@ -1,0 +1,1011 @@
+{
+ "removed": {
+  "Esdras_A": {
+   "placed": "History",
+   "style": [
+    [
+     "Paralipomenon_I",
+     0.655
+    ],
+    [
+     "Esdras_B",
+     0.659
+    ],
+    [
+     "Paralipomenon_II",
+     0.682
+    ]
+   ],
+   "content": [
+    [
+     "Esdras_B",
+     0.286
+    ],
+    [
+     "Paralipomenon_II",
+     0.199
+    ],
+    [
+     "Paralipomenon_I",
+     0.16
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.122
+    ],
+    [
+     "NT Lk",
+     0.113
+    ],
+    [
+     "NT Mt",
+     0.098
+    ]
+   ],
+   "words": 8808,
+   "style_match": true,
+   "content_match": true
+  },
+  "Judith": {
+   "placed": "History",
+   "style": [
+    [
+     "Exodus",
+     0.637
+    ],
+    [
+     "Daniel",
+     0.669
+    ],
+    [
+     "Josue",
+     0.674
+    ]
+   ],
+   "content": [
+    [
+     "Genesis",
+     0.186
+    ],
+    [
+     "Josue",
+     0.159
+    ],
+    [
+     "Jeremias",
+     0.155
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.11
+    ],
+    [
+     "NT Lk",
+     0.11
+    ],
+    [
+     "NT Mt",
+     0.092
+    ]
+   ],
+   "words": 9073,
+   "style_match": false,
+   "content_match": false
+  },
+  "Tobias": {
+   "placed": "History",
+   "style": [
+    [
+     "Daniel",
+     0.551
+    ],
+    [
+     "Genesis",
+     0.568
+    ],
+    [
+     "Regnorum_I",
+     0.624
+    ]
+   ],
+   "content": [
+    [
+     "Genesis",
+     0.16
+    ],
+    [
+     "Psalmi",
+     0.12
+    ],
+    [
+     "Isaias",
+     0.109
+    ]
+   ],
+   "nt": [
+    [
+     "NT Lk",
+     0.133
+    ],
+    [
+     "NT Mt",
+     0.11
+    ],
+    [
+     "NT Ac",
+     0.102
+    ]
+   ],
+   "words": 5448,
+   "style_match": false,
+   "content_match": false
+  },
+  "Machabaeorum_i": {
+   "placed": "History",
+   "style": [
+    [
+     "Daniel",
+     0.575
+    ],
+    [
+     "Paralipomenon_II",
+     0.587
+    ],
+    [
+     "Josue",
+     0.611
+    ]
+   ],
+   "content": [
+    [
+     "Paralipomenon_II",
+     0.207
+    ],
+    [
+     "Jeremias",
+     0.163
+    ],
+    [
+     "Regnorum_I",
+     0.162
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.182
+    ],
+    [
+     "NT Lk",
+     0.14
+    ],
+    [
+     "NT Mt",
+     0.119
+    ]
+   ],
+   "words": 18297,
+   "style_match": false,
+   "content_match": true
+  },
+  "Machabaeorum_ii": {
+   "placed": "History",
+   "style": [
+    [
+     "Esther",
+     0.626
+    ],
+    [
+     "Daniel",
+     0.755
+    ],
+    [
+     "Proverbia",
+     0.795
+    ]
+   ],
+   "content": [
+    [
+     "Esther",
+     0.131
+    ],
+    [
+     "Job",
+     0.092
+    ],
+    [
+     "Jeremias",
+     0.089
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.198
+    ],
+    [
+     "NT Lk",
+     0.129
+    ],
+    [
+     "NT Heb",
+     0.106
+    ]
+   ],
+   "words": 11854,
+   "style_match": true,
+   "content_match": true
+  },
+  "Machabaeorum_iii": {
+   "placed": "History",
+   "style": [
+    [
+     "Esther",
+     0.643
+    ],
+    [
+     "Daniel",
+     0.767
+    ],
+    [
+     "Exodus",
+     0.805
+    ]
+   ],
+   "content": [
+    [
+     "Esther",
+     0.13
+    ],
+    [
+     "Job",
+     0.088
+    ],
+    [
+     "Psalmi",
+     0.078
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.148
+    ],
+    [
+     "NT Lk",
+     0.093
+    ],
+    [
+     "NT Heb",
+     0.081
+    ]
+   ],
+   "words": 5065,
+   "style_match": true,
+   "content_match": true
+  },
+  "Machabaeorum_iv": {
+   "placed": "History",
+   "style": [
+    [
+     "Esther",
+     0.713
+    ],
+    [
+     "Proverbia",
+     0.758
+    ],
+    [
+     "Isaias",
+     0.795
+    ]
+   ],
+   "content": [
+    [
+     "Job",
+     0.1
+    ],
+    [
+     "Proverbia",
+     0.098
+    ],
+    [
+     "Genesis",
+     0.075
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.118
+    ],
+    [
+     "NT Heb",
+     0.098
+    ],
+    [
+     "NT Lk",
+     0.094
+    ]
+   ],
+   "words": 7911,
+   "style_match": true,
+   "content_match": false
+  },
+  "Odae": {
+   "placed": "Poetry/Wisdom",
+   "style": [
+    [
+     "Psalmi",
+     0.533
+    ],
+    [
+     "Isaias",
+     0.626
+    ],
+    [
+     "Daniel",
+     0.669
+    ]
+   ],
+   "content": [
+    [
+     "Habacuc",
+     0.228
+    ],
+    [
+     "Daniel",
+     0.196
+    ],
+    [
+     "Isaias",
+     0.194
+    ]
+   ],
+   "nt": [
+    [
+     "NT Lk",
+     0.093
+    ],
+    [
+     "NT Mt",
+     0.066
+    ],
+    [
+     "NT Ro",
+     0.061
+    ]
+   ],
+   "words": 4194,
+   "style_match": true,
+   "content_match": false
+  },
+  "Sapientia_Salomonis": {
+   "placed": "Poetry/Wisdom",
+   "style": [
+    [
+     "Proverbia",
+     0.65
+    ],
+    [
+     "Job",
+     0.663
+    ],
+    [
+     "Isaias",
+     0.673
+    ]
+   ],
+   "content": [
+    [
+     "Job",
+     0.158
+    ],
+    [
+     "Proverbia",
+     0.15
+    ],
+    [
+     "Isaias",
+     0.136
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.112
+    ],
+    [
+     "NT Lk",
+     0.108
+    ],
+    [
+     "NT Heb",
+     0.106
+    ]
+   ],
+   "words": 6725,
+   "style_match": true,
+   "content_match": true
+  },
+  "Ecclesiasticus": {
+   "placed": "Poetry/Wisdom",
+   "style": [
+    [
+     "Proverbia",
+     0.563
+    ],
+    [
+     "Job",
+     0.615
+    ],
+    [
+     "Isaias",
+     0.667
+    ]
+   ],
+   "content": [
+    [
+     "Proverbia",
+     0.276
+    ],
+    [
+     "Psalmi",
+     0.257
+    ],
+    [
+     "Isaias",
+     0.205
+    ]
+   ],
+   "nt": [
+    [
+     "NT Lk",
+     0.14
+    ],
+    [
+     "NT Mt",
+     0.117
+    ],
+    [
+     "NT Re",
+     0.115
+    ]
+   ],
+   "words": 18667,
+   "style_match": true,
+   "content_match": true
+  },
+  "Psalmi_Salomonis": {
+   "placed": "Poetry/Wisdom",
+   "style": [
+    [
+     "Psalmi",
+     0.652
+    ],
+    [
+     "Daniel",
+     0.723
+    ],
+    [
+     "Isaias",
+     0.748
+    ]
+   ],
+   "content": [
+    [
+     "Psalmi",
+     0.226
+    ],
+    [
+     "Proverbia",
+     0.143
+    ],
+    [
+     "Isaias",
+     0.135
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ro",
+     0.086
+    ],
+    [
+     "NT Lk",
+     0.071
+    ],
+    [
+     "NT Mt",
+     0.065
+    ]
+   ],
+   "words": 4907,
+   "style_match": true,
+   "content_match": true
+  },
+  "Baruch": {
+   "placed": "Prophets",
+   "style": [
+    [
+     "Isaias",
+     0.746
+    ],
+    [
+     "Exodus",
+     0.774
+    ],
+    [
+     "Josue",
+     0.793
+    ]
+   ],
+   "content": [
+    [
+     "Jeremias",
+     0.174
+    ],
+    [
+     "Isaias",
+     0.125
+    ],
+    [
+     "Psalmi",
+     0.109
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.058
+    ],
+    [
+     "NT Lk",
+     0.055
+    ],
+    [
+     "NT Heb",
+     0.054
+    ]
+   ],
+   "words": 2590,
+   "style_match": true,
+   "content_match": true
+  },
+  "Epistula_Jeremiae": {
+   "placed": "Prophets",
+   "style": [
+    [
+     "Job",
+     0.943
+    ],
+    [
+     "Proverbia",
+     0.96
+    ],
+    [
+     "Isaias",
+     1.019
+    ]
+   ],
+   "content": [
+    [
+     "Isaias",
+     0.08
+    ],
+    [
+     "Jeremias",
+     0.076
+    ],
+    [
+     "Proverbia",
+     0.062
+    ]
+   ],
+   "nt": [
+    [
+     "NT Ac",
+     0.057
+    ],
+    [
+     "NT Mt",
+     0.056
+    ],
+    [
+     "NT Re",
+     0.053
+    ]
+   ],
+   "words": 1285,
+   "style_match": false,
+   "content_match": true
+  },
+  "Susanna_Theodotionis_versio": {
+   "placed": "Prophets",
+   "style": [
+    [
+     "Esther",
+     0.935
+    ],
+    [
+     "Regnorum_I",
+     0.941
+    ],
+    [
+     "Isaias",
+     0.943
+    ]
+   ],
+   "content": [
+    [
+     "Genesis",
+     0.081
+    ],
+    [
+     "Daniel",
+     0.062
+    ],
+    [
+     "Regnorum_IV",
+     0.057
+    ]
+   ],
+   "nt": [
+    [
+     "NT Lk",
+     0.063
+    ],
+    [
+     "NT Ac",
+     0.059
+    ],
+    [
+     "NT Jn",
+     0.057
+    ]
+   ],
+   "words": 1134,
+   "style_match": false,
+   "content_match": false
+  },
+  "Bel_et_Draco_Theodotionis_versio": {
+   "placed": "Prophets",
+   "style": [
+    [
+     "Esther",
+     0.817
+    ],
+    [
+     "Daniel",
+     0.899
+    ],
+    [
+     "Genesis",
+     0.903
+    ]
+   ],
+   "content": [
+    [
+     "Daniel",
+     0.083
+    ],
+    [
+     "Genesis",
+     0.063
+    ],
+    [
+     "Regnorum_IV",
+     0.052
+    ]
+   ],
+   "nt": [
+    [
+     "NT Mt",
+     0.05
+    ],
+    [
+     "NT Re",
+     0.044
+    ],
+    [
+     "NT Mk",
+     0.039
+    ]
+   ],
+   "words": 761,
+   "style_match": false,
+   "content_match": true
+  }
+ },
+ "baseline": {
+  "style": "28/37",
+  "content": "28/37"
+ },
+ "prologue_rank": [
+  [
+   "Sapientia_Salomonis",
+   0.034,
+   true
+  ],
+  [
+   "Genesis",
+   0.03,
+   false
+  ],
+  [
+   "Isaias",
+   0.03,
+   false
+  ],
+  [
+   "Baruch",
+   0.029,
+   true
+  ],
+  [
+   "Ecclesiasticus",
+   0.027,
+   true
+  ],
+  [
+   "Job",
+   0.026,
+   false
+  ],
+  [
+   "Regnorum_II",
+   0.023,
+   false
+  ],
+  [
+   "Psalmi",
+   0.023,
+   false
+  ],
+  [
+   "Machabaeorum_i",
+   0.022,
+   true
+  ],
+  [
+   "Judices",
+   0.022,
+   false
+  ],
+  [
+   "Proverbia",
+   0.021,
+   false
+  ],
+  [
+   "Exodus",
+   0.021,
+   false
+  ],
+  [
+   "Machabaeorum_ii",
+   0.019,
+   true
+  ],
+  [
+   "Daniel",
+   0.019,
+   false
+  ],
+  [
+   "Michaeas",
+   0.018,
+   false
+  ],
+  [
+   "Ezechiel",
+   0.018,
+   false
+  ],
+  [
+   "Tobias",
+   0.017,
+   true
+  ],
+  [
+   "Deuteronomium",
+   0.017,
+   false
+  ],
+  [
+   "Machabaeorum_iv",
+   0.017,
+   true
+  ],
+  [
+   "Susanna",
+   0.016,
+   true
+  ],
+  [
+   "Jeremias",
+   0.016,
+   false
+  ],
+  [
+   "Zacharias",
+   0.015,
+   false
+  ],
+  [
+   "Odae",
+   0.015,
+   true
+  ],
+  [
+   "Esdras_A",
+   0.014,
+   true
+  ],
+  [
+   "Osee",
+   0.014,
+   false
+  ],
+  [
+   "Judith",
+   0.014,
+   true
+  ],
+  [
+   "Regnorum_III",
+   0.013,
+   false
+  ],
+  [
+   "Regnorum_I",
+   0.013,
+   false
+  ],
+  [
+   "Habacuc",
+   0.013,
+   false
+  ],
+  [
+   "Ruth",
+   0.013,
+   false
+  ],
+  [
+   "Esther",
+   0.013,
+   false
+  ],
+  [
+   "Psalmi_Salomonis",
+   0.011,
+   true
+  ],
+  [
+   "Leviticus",
+   0.011,
+   false
+  ],
+  [
+   "Nahum",
+   0.011,
+   false
+  ],
+  [
+   "Regnorum_IV",
+   0.011,
+   false
+  ],
+  [
+   "Esdras_B",
+   0.011,
+   false
+  ],
+  [
+   "Bel_et_Draco",
+   0.01,
+   true
+  ],
+  [
+   "Paralipomenon_I",
+   0.01,
+   false
+  ],
+  [
+   "Machabaeorum_iii",
+   0.01,
+   true
+  ],
+  [
+   "Numeri",
+   0.01,
+   false
+  ],
+  [
+   "Paralipomenon_II",
+   0.009,
+   false
+  ],
+  [
+   "Threni_seu_Lamentationes",
+   0.007,
+   false
+  ],
+  [
+   "Josue",
+   0.007,
+   false
+  ],
+  [
+   "Joel",
+   0.007,
+   false
+  ],
+  [
+   "Aggaeus",
+   0.005,
+   false
+  ],
+  [
+   "Malachias",
+   0.005,
+   false
+  ],
+  [
+   "Sophonias",
+   0.004,
+   false
+  ],
+  [
+   "Amos",
+   0.004,
+   false
+  ],
+  [
+   "Jonas",
+   0.004,
+   false
+  ],
+  [
+   "Abdias",
+   0.002,
+   false
+  ],
+  [
+   "Epistula_Jeremiae",
+   0.002,
+   true
+  ],
+  [
+   "Canticum",
+   0.001,
+   false
+  ]
+ ],
+ "prologue_rare_shared": {
+  "Judith": [
+   "πωποτε"
+  ],
+  "Tobias": [
+   "μονογενησ"
+  ],
+  "Machabaeorum_i": [
+   "μαρτυρει"
+  ],
+  "Sapientia_Salomonis": [
+   "μαρτυρει",
+   "πιστευσωσιν"
+  ],
+  "Baruch": [
+   "κεκραγεν"
+  ],
+  "Susanna": [
+   "πωποτε"
+  ]
+ }
+}

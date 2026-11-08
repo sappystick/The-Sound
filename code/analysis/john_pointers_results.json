@@ -1,0 +1,626 @@
+{
+ "pointers": {
+  "rows": [
+   {
+    "case": "1:1-5 'In the beginning', light",
+    "target": "Genesis 1:1",
+    "chapter_rank": 4,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.0,
+    "target_pos": 0.0
+   },
+   {
+    "case": "1:14 'tabernacled among us'",
+    "target": "Ecclesiasticus 24:8",
+    "chapter_rank": 85,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.011,
+    "target_pos": 0.442
+   },
+   {
+    "case": "1:29 'Lamb of God'",
+    "target": "Exodus 12:3",
+    "chapter_rank": 173,
+    "of": 1101,
+    "shared": [
+     "υδατι"
+    ],
+    "john_pos": 0.026,
+    "target_pos": 0.263
+   },
+   {
+    "case": "1:51 angels ascending and descending",
+    "target": "Genesis 28:10",
+    "chapter_rank": 54,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.052,
+    "target_pos": 0.505
+   },
+   {
+    "case": "3:14 serpent lifted up",
+    "target": "Numeri 21:6",
+    "chapter_rank": 12,
+    "of": 1101,
+    "shared": [
+     "οφιν"
+    ],
+    "john_pos": 0.097,
+    "target_pos": 0.588
+   },
+   {
+    "case": "4:5-15 the well, living water",
+    "target": "Genesis 29:1",
+    "chapter_rank": 7,
+    "of": 1101,
+    "shared": [
+     "ποθεν",
+     "φρεαρ"
+    ],
+    "john_pos": 0.127,
+    "target_pos": 0.515
+   },
+   {
+    "case": "5:5 38 years",
+    "target": "Deuteronomium 2:13",
+    "chapter_rank": 35,
+    "of": 1101,
+    "shared": [
+     "οκτω"
+    ],
+    "john_pos": 0.185,
+    "target_pos": 0.056
+   },
+   {
+    "case": "6:31-35 manna; never thirst",
+    "target": "Exodus 16:13",
+    "chapter_rank": 22,
+    "of": 1101,
+    "shared": [
+     "αρτοσ"
+    ],
+    "john_pos": 0.269,
+    "target_pos": 0.393
+   },
+   {
+    "case": "6:35 never hunger, never thirst",
+    "target": "Ecclesiasticus 24:19",
+    "chapter_rank": 1,
+    "of": 1101,
+    "shared": [
+     "διψησ",
+     "πεινα"
+    ],
+    "john_pos": 0.274,
+    "target_pos": 0.451
+   },
+   {
+    "case": "7:37-38 rivers of living water",
+    "target": "Zacharias 14:6",
+    "chapter_rank": 111,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.355,
+    "target_pos": 0.91
+   },
+   {
+    "case": "7:37-38 rivers (Ezekiel)",
+    "target": "Ezechiel 47:1",
+    "chapter_rank": 1092,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.355,
+    "target_pos": 0.952
+   },
+   {
+    "case": "8:12 light of the world",
+    "target": "Isaias 60:1",
+    "chapter_rank": 974,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.371,
+    "target_pos": 0.897
+   },
+   {
+    "case": "9:7 Siloam, 'Sent'",
+    "target": "Isaias 8:6",
+    "chapter_rank": 29,
+    "of": 1101,
+    "shared": [
+     "σιλωα"
+    ],
+    "john_pos": 0.434,
+    "target_pos": 0.12
+   },
+   {
+    "case": "10:1-16 the shepherd",
+    "target": "Ezechiel 34:1",
+    "chapter_rank": 10,
+    "of": 1101,
+    "shared": [
+     "νομην",
+     "ποιμη",
+     "ποιμν"
+    ],
+    "john_pos": 0.474,
+    "target_pos": 0.646
+   },
+   {
+    "case": "13:19 'that I AM'",
+    "target": "Isaias 43:10",
+    "chapter_rank": 953,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.659,
+    "target_pos": 0.647
+   },
+   {
+    "case": "15:1-6 the vine",
+    "target": "Isaias 5:1",
+    "chapter_rank": 971,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.718,
+    "target_pos": 0.061
+   },
+   {
+    "case": "19:5 'Behold the man'",
+    "target": "Zacharias 6:11",
+    "chapter_rank": 910,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.876,
+    "target_pos": 0.355
+   },
+   {
+    "case": "19:23 the seamless tunic",
+    "target": "Exodus 28:27",
+    "chapter_rank": 8,
+    "of": 1101,
+    "shared": [
+     "υφαντ"
+    ],
+    "john_pos": 0.898,
+    "target_pos": 0.687
+   },
+   {
+    "case": "19:36 no bone broken",
+    "target": "Exodus 12:43",
+    "chapter_rank": 7,
+    "of": 1101,
+    "shared": [
+     "οστου"
+    ],
+    "john_pos": 0.916,
+    "target_pos": 0.302
+   },
+   {
+    "case": "19:37 'they will look on him whom they pierced'",
+    "target": "Zacharias 12:9",
+    "chapter_rank": 934,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.917,
+    "target_pos": 0.8
+   },
+   {
+    "case": "20:1-18 seeking him in the garden",
+    "target": "Canticum 3:1",
+    "chapter_rank": 818,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.936,
+    "target_pos": 0.256
+   },
+   {
+    "case": "19:41 the garden, the new tomb",
+    "target": "Canticum 4:12",
+    "chapter_rank": 4,
+    "of": 1101,
+    "shared": [
+     "κηποσ"
+    ],
+    "john_pos": 0.922,
+    "target_pos": 0.468
+   },
+   {
+    "case": "20:22 he breathed on them",
+    "target": "Genesis 2:7",
+    "chapter_rank": 2,
+    "of": 1101,
+    "shared": [
+     "ενεφυ"
+    ],
+    "john_pos": 0.951,
+    "target_pos": 0.027
+   },
+   {
+    "case": "20:22 breath into the dead (Ezekiel)",
+    "target": "Ezechiel 37:9",
+    "chapter_rank": 1076,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.951,
+    "target_pos": 0.714
+   },
+   {
+    "case": "21:1-14 153 fish",
+    "target": "Ezechiel 47:9",
+    "chapter_rank": 435,
+    "of": 1101,
+    "shared": [],
+    "john_pos": 0.964,
+    "target_pos": 0.958
+   }
+  ],
+  "placement": {
+   "mean": 0.10475999999999999,
+   "p": 0.00135
+  },
+  "constellation": {
+   "real": 0.04378611739796513,
+   "null": 0.0302854287155897,
+   "p": 0.004,
+   "top_pairs": [
+    [
+     "Deuteronomium 2",
+     "Numeri 21"
+    ],
+    [
+     "Genesis 1",
+     "Genesis 2"
+    ],
+    [
+     "Genesis 28",
+     "Genesis 29"
+    ],
+    [
+     "Canticum 4",
+     "Ecclesiasticus 24"
+    ],
+    [
+     "Ezechiel 34",
+     "Ezechiel 37"
+    ],
+    [
+     "Zacharias 12",
+     "Zacharias 14"
+    ],
+    [
+     "Canticum 3",
+     "Canticum 4"
+    ],
+    [
+     "Isaias 43",
+     "Isaias 60"
+    ]
+   ]
+  },
+  "afterlife": {
+   "Genesis 1:1": [
+    "Re 8",
+    "1Co 15",
+    "Re 14"
+   ],
+   "Ecclesiasticus 24:8": [
+    "Eph 3",
+    "Re 10",
+    "Re 7"
+   ],
+   "Exodus 12:3": [
+    "1Co 5",
+    "Mk 1",
+    "Ac 7"
+   ],
+   "Genesis 28:10": [
+    "Ro 9",
+    "Ac 3",
+    "Mt 1"
+   ],
+   "Numeri 21:6": [
+    "1Co 13",
+    "Re 9",
+    "Lk 4"
+   ],
+   "Genesis 29:1": [
+    "Lk 3",
+    "Jas 1",
+    "Lk 2"
+   ],
+   "Deuteronomium 2:13": [
+    "Heb 11",
+    "Ac 19",
+    "1Co 15"
+   ],
+   "Exodus 16:13": [
+    "Lk 12",
+    "Mk 4",
+    "Lk 15"
+   ],
+   "Ecclesiasticus 24:19": [
+    "Eph 3",
+    "Re 10",
+    "Re 7"
+   ],
+   "Zacharias 14:6": [
+    "Re 11",
+    "Mk 12",
+    "Lk 12"
+   ],
+   "Ezechiel 47:1": [
+    "Ac 27",
+    "Re 7",
+    "Ac 9"
+   ],
+   "Isaias 60:1": [
+    "Re 18",
+    "Re 15",
+    "Lk 19"
+   ],
+   "Isaias 8:6": [
+    "Mt 24",
+    "Lk 20",
+    "Ro 8"
+   ],
+   "Ezechiel 34:1": [
+    "Lk 15",
+    "1Co 4",
+    "1Pe 2"
+   ],
+   "Isaias 43:10": [
+    "Mt 13",
+    "Lk 12",
+    "Re 21"
+   ],
+   "Isaias 5:1": [
+    "Re 15",
+    "Mt 27",
+    "Mk 14"
+   ],
+   "Zacharias 6:11": [
+    "2Ti 2",
+    "Re 6",
+    "2Co 3"
+   ],
+   "Exodus 28:27": [
+    "Re 21",
+    "Re 4",
+    "Re 18"
+   ],
+   "Exodus 12:43": [
+    "1Co 5",
+    "Mk 1",
+    "Ac 7"
+   ],
+   "Zacharias 12:9": [
+    "Ro 9",
+    "Mk 16",
+    "Mt 24"
+   ],
+   "Canticum 3:1": [
+    "Lk 5",
+    "Lk 17",
+    "Re 18"
+   ],
+   "Canticum 4:12": [
+    "Re 9",
+    "Re 18",
+    "1Co 6"
+   ],
+   "Genesis 2:7": [
+    "1Co 3",
+    "Ro 12",
+    "Ac 1"
+   ],
+   "Ezechiel 37:9": [
+    "Heb 11",
+    "Mt 23",
+    "Mk 5"
+   ],
+   "Ezechiel 47:9": [
+    "Ac 27",
+    "Re 7",
+    "Ac 9"
+   ]
+  }
+ },
+ "numbers": [
+  {
+   "number": 6,
+   "scene": "2:6 six stone jars",
+   "best": "Regnorum_III 18:33",
+   "score": 15.7,
+   "p": 0.167,
+   "shared": [
+    "μετρη",
+    "υδρια",
+    "χωρου"
+   ]
+  },
+  {
+   "number": 46,
+   "scene": "2:20 forty-six years to build this temple",
+   "best": "Ezechiel 41:15",
+   "score": 8.5,
+   "p": 0.279,
+   "shared": [
+    "ναοσ",
+    "τρισι"
+   ]
+  },
+  {
+   "number": 5,
+   "scene": "4:18 five husbands",
+   "best": "Exodus 33:13",
+   "score": 6.9,
+   "p": 0.545,
+   "shared": [
+    "ειπασ",
+    "εχεισ"
+   ]
+  },
+  {
+   "number": 7,
+   "scene": "4:52 the seventh hour",
+   "best": "Josue 3:4",
+   "score": 8.4,
+   "p": 0.286,
+   "shared": [
+    "εχθεσ",
+    "ιδητε"
+   ]
+  },
+  {
+   "number": 5,
+   "scene": "5:2 five porticoes",
+   "best": "Isaias 29:17",
+   "score": 5.0,
+   "p": 0.727,
+   "shared": [
+    "τυφλω"
+   ]
+  },
+  {
+   "number": 38,
+   "scene": "5:5 thirty-eight years",
+   "best": "Exodus 8:11",
+   "score": 4.0,
+   "p": 0.967,
+   "shared": [
+    "αλλοσ"
+   ]
+  },
+  {
+   "number": 200,
+   "scene": "6:7 two hundred denarii",
+   "best": "Regnorum_II 16:1",
+   "score": 8.6,
+   "p": 0.066,
+   "shared": [
+    "αρτοι",
+    "βραχυ"
+   ]
+  },
+  {
+   "number": 5,
+   "scene": "6:9 five loaves, two fish",
+   "best": "Regnorum_I 30:13",
+   "score": 9.9,
+   "p": 0.545,
+   "shared": [
+    "βεβρω",
+    "κλασμ"
+   ]
+  },
+  {
+   "number": 12,
+   "scene": "6:13 twelve baskets",
+   "best": "Regnorum_I 30:13",
+   "score": 9.9,
+   "p": 0.381,
+   "shared": [
+    "βεβρω",
+    "κλασμ"
+   ]
+  },
+  {
+   "number": 25,
+   "scene": "6:19 twenty-five or thirty stadia",
+   "best": "Regnorum_III 12:2",
+   "score": 4.5,
+   "p": 0.854,
+   "shared": [
+    "ηρχον"
+   ]
+  },
+  {
+   "number": 4,
+   "scene": "11:17 four days in the tomb",
+   "best": "Genesis 24:42",
+   "score": 3.2,
+   "p": 1.0,
+   "shared": [
+    "ελθων"
+   ]
+  },
+  {
+   "number": 15,
+   "scene": "11:18 fifteen stadia",
+   "best": "Proverbia 12:8",
+   "score": 4.3,
+   "p": 0.808,
+   "shared": [
+    "παραμ"
+   ]
+  },
+  {
+   "number": 300,
+   "scene": "12:5 three hundred denarii",
+   "best": "Canticum 1:12",
+   "score": 5.8,
+   "p": 0.246,
+   "shared": [
+    "ναρδο"
+   ]
+  },
+  {
+   "number": 100,
+   "scene": "19:39 a hundred pounds of myrrh and aloes",
+   "best": "Canticum 5:12",
+   "score": 9.3,
+   "p": 0.328,
+   "shared": [
+    "αρωμα",
+    "σμυρν"
+   ]
+  },
+  {
+   "number": 200,
+   "scene": "21:8 two hundred cubits",
+   "best": "Ezechiel 42:19",
+   "score": 8.1,
+   "p": 0.246,
+   "shared": [
+    "μερη",
+    "πηχων"
+   ]
+  },
+  {
+   "number": 153,
+   "scene": "21:11 153 fish (control)",
+   "best": "Job 24:11",
+   "score": 7.9,
+   "p": 0.508,
+   "shared": [
+    "γυμνο",
+    "ηδεισ"
+   ]
+  }
+ ],
+ "geometry": {
+  "adam": 46,
+  "words46": [
+   "αδαμ",
+   "αδικια",
+   "αλει",
+   "γαδηλ",
+   "δικαια",
+   "εγεηηθη",
+   "εγηλ",
+   "ελια",
+   "εμα",
+   "κααθει",
+   "λεγη",
+   "λεια",
+   "μεα"
+  ]
+ },
+ "robust": {
+  "placement_unique": 0.10590909090909094,
+  "constellation_matched_p": 0.028,
+  "control_rank": 210,
+  "control_n": 249
+ }
+}

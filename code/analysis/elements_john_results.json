@@ -1,0 +1,238 @@
+{
+ "syllables": 31243,
+ "center": "10:24",
+ "elements": {
+  "water": {
+   "count": 66,
+   "first": "1:25 βαπτίζω",
+   "last": "21:7 θάλασσα",
+   "first_pos": 0.023,
+   "last_pos": 0.975,
+   "circle_symmetry": 0.99,
+   "peak_chapters": [
+    [
+     4,
+     16
+    ],
+    [
+     13,
+     10
+    ],
+    [
+     1,
+     9
+    ]
+   ]
+  },
+  "light": {
+   "count": 29,
+   "first": "1:4 φῶς",
+   "last": "18:3 λαμπάς",
+   "first_pos": 0.002,
+   "last_pos": 0.822,
+   "circle_symmetry": 0.65,
+   "peak_chapters": [
+    [
+     1,
+     8
+    ],
+    [
+     12,
+     6
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  "darkness": {
+   "count": 15,
+   "first": "1:5 σκοτία",
+   "last": "21:3 νύξ",
+   "first_pos": 0.003,
+   "last_pos": 0.969,
+   "circle_symmetry": 0.94,
+   "peak_chapters": [
+    [
+     12,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     2
+    ]
+   ]
+  },
+  "fire": {
+   "count": 5,
+   "first": "5:35 καίω",
+   "last": "21:9 ἀνθρακιά",
+   "first_pos": 0.223,
+   "last_pos": 0.977,
+   "circle_symmetry": 0.58,
+   "peak_chapters": [
+    [
+     15,
+     2
+    ],
+    [
+     5,
+     1
+    ],
+    [
+     18,
+     1
+    ]
+   ]
+  },
+  "blood": {
+   "count": 6,
+   "first": "1:13 αἷμα",
+   "last": "19:34 αἷμα",
+   "first_pos": 0.009,
+   "last_pos": 0.915,
+   "circle_symmetry": 0.85,
+   "peak_chapters": [
+    [
+     6,
+     4
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     19,
+     1
+    ]
+   ]
+  },
+  "flesh": {
+   "count": 19,
+   "first": "1:13 σάρξ",
+   "last": "20:12 σῶμα",
+   "first_pos": 0.009,
+   "last_pos": 0.938,
+   "circle_symmetry": 0.89,
+   "peak_chapters": [
+    [
+     6,
+     7
+    ],
+    [
+     19,
+     4
+    ],
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  "earth": {
+   "count": 20,
+   "first": "3:22 γῆ",
+   "last": "21:11 γῆ",
+   "first_pos": 0.108,
+   "last_pos": 0.979,
+   "circle_symmetry": 0.82,
+   "peak_chapters": [
+    [
+     9,
+     6
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     12,
+     4
+    ]
+   ]
+  },
+  "breath": {
+   "count": 28,
+   "first": "1:32 πνεῦμα",
+   "last": "20:22 πνεῦμα",
+   "first_pos": 0.03,
+   "last_pos": 0.952,
+   "circle_symmetry": 0.96,
+   "peak_chapters": [
+    [
+     3,
+     7
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     1,
+     3
+    ]
+   ]
+  }
+ },
+ "baseline_share_ge_0.9": 0.388,
+ "pairs": [
+  [
+   "water",
+   "φρέαρ",
+   "4:11",
+   "4:12"
+  ],
+  [
+   "light",
+   "φαίνω",
+   "1:5",
+   "5:35"
+  ],
+  [
+   "fire",
+   "καίω",
+   "5:35",
+   "15:6"
+  ],
+  [
+   "fire",
+   "ἀνθρακιά",
+   "18:18",
+   "21:9"
+  ],
+  [
+   "earth",
+   "χαμαί",
+   "9:6",
+   "18:6"
+  ],
+  [
+   "breath",
+   "πνέω",
+   "3:8",
+   "6:18"
+  ]
+ ],
+ "order_john": [
+  "light",
+  "darkness",
+  "blood",
+  "flesh",
+  "water",
+  "breath",
+  "earth",
+  "fire"
+ ],
+ "order_genesis1": [
+  "earth",
+  "darkness",
+  "breath",
+  "water",
+  "light"
+ ]
+}

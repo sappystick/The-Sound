@@ -1,0 +1,1088 @@
+{
+ "stated_power": {
+  "Egypt": {
+   "purity": 1,
+   "word": 3,
+   "substance": 1
+  },
+  "Hebrew Bible": {
+   "water": 1,
+   "purity": 1,
+   "blood": 3,
+   "place": 1,
+   "time": 1,
+   "name": 1,
+   "substance": 1,
+   "breath": 1,
+   "inner": 2
+  },
+  "Mishnah": {
+   "name": 1,
+   "place": 1,
+   "time": 1
+  },
+  "Early church": {
+   "name": 4,
+   "water": 2,
+   "light": 1,
+   "tradition": 1,
+   "breath": 3,
+   "inner": 1,
+   "word": 1,
+   "divine_will": 1
+  },
+  "Second Temple Judaism": {
+   "time": 3,
+   "breath": 1,
+   "inner": 2,
+   "water": 1,
+   "light": 3
+  },
+  "Greco-Roman mysteries": {
+   "light": 1,
+   "divine_will": 1
+  },
+  "Islam": {
+   "place": 1,
+   "divine_will": 1,
+   "purity": 1
+  }
+ },
+ "hubs": [
+  {
+   "node": "time:dawn",
+   "strength": 188,
+   "bridge": 0.368,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "element:fire",
+   "strength": 158,
+   "bridge": 0.203,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:water",
+   "strength": 153,
+   "bridge": 0.145,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Islam",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "element:light",
+   "strength": 138,
+   "bridge": 0.146,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "element:water",
+   "strength": 134,
+   "bridge": 0.104,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Islam",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "time:festival",
+   "strength": 93,
+   "bridge": 0.083,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "time:evening",
+   "strength": 91,
+   "bridge": 0.021,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Living tradition",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "materials:incense",
+   "strength": 87,
+   "bridge": 0.021,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "time:night",
+   "strength": 80,
+   "bridge": 0.039,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "direction:east",
+   "strength": 72,
+   "bridge": 0.046,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "materials:fire",
+   "strength": 70,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "place:inner",
+   "strength": 69,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:linen",
+   "strength": 69,
+   "bridge": 0.005,
+   "traditions": [
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "materials:oil",
+   "strength": 67,
+   "bridge": 0.017,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "voice:spoken",
+   "strength": 67,
+   "bridge": 0.031,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "materials:bread",
+   "strength": 65,
+   "bridge": 0.013,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "voice:hymn",
+   "strength": 64,
+   "bridge": 0.095,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "repetition:3",
+   "strength": 64,
+   "bridge": 0.024,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:instrument",
+   "strength": 61,
+   "bridge": 0.037,
+   "traditions": [
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:wine",
+   "strength": 60,
+   "bridge": 0.002,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "materials:metal",
+   "strength": 57,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:earth",
+   "strength": 55,
+   "bridge": 0.032,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible",
+    "Islam"
+   ]
+  },
+  {
+   "node": "time:hours",
+   "strength": 55,
+   "bridge": 0.02,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "repetition:7",
+   "strength": 53,
+   "bridge": 0.005,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "place:threshold",
+   "strength": 48,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "place:altar",
+   "strength": 48,
+   "bridge": 0.003,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "posture:stand",
+   "strength": 46,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "power:time",
+   "strength": 45,
+   "bridge": 0.033,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "posture:hands",
+   "strength": 41,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "time:noon",
+   "strength": 38,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "element:blood",
+   "strength": 38,
+   "bridge": 0.001,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "direction:west",
+   "strength": 37,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "element:smoke",
+   "strength": 36,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "power:light",
+   "strength": 36,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Greco-Roman mysteries",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "place:court",
+   "strength": 35,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "repetition:2",
+   "strength": 33,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible",
+    "Living tradition"
+   ]
+  },
+  {
+   "node": "materials:plants",
+   "strength": 33,
+   "bridge": 0.016,
+   "traditions": [
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "posture:prostrate",
+   "strength": 32,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "voice:antiphon",
+   "strength": 28,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "place:steps",
+   "strength": 28,
+   "bridge": 0.001,
+   "traditions": [
+    "Egypt",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:milk_honey",
+   "strength": 26,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Egypt"
+   ]
+  },
+  {
+   "node": "time:weekly",
+   "strength": 26,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "power:name",
+   "strength": 26,
+   "bridge": 0.015,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "materials:blood",
+   "strength": 25,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "power:blood",
+   "strength": 25,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "posture:turn",
+   "strength": 25,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "repetition:4",
+   "strength": 24,
+   "bridge": 0.001,
+   "traditions": [
+    "Egypt",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "power:place",
+   "strength": 23,
+   "bridge": 0.02,
+   "traditions": [
+    "Hebrew Bible",
+    "Islam",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "posture:dance",
+   "strength": 21,
+   "bridge": 0.0,
+   "traditions": [
+    "Living tradition",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "posture:procession",
+   "strength": 20,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Greco-Roman mysteries",
+    "Hebrew Bible",
+    "Living tradition"
+   ]
+  },
+  {
+   "node": "power:word",
+   "strength": 20,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Egypt"
+   ]
+  },
+  {
+   "node": "place:home",
+   "strength": 20,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "voice:silence",
+   "strength": 20,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "direction:sanctuary",
+   "strength": 20,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "element:breath",
+   "strength": 19,
+   "bridge": 0.054,
+   "traditions": [
+    "Early church",
+    "Egypt",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "place:roof",
+   "strength": 19,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "power:water",
+   "strength": 19,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "posture:kneel",
+   "strength": 19,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "element:earth",
+   "strength": 16,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Islam"
+   ]
+  },
+  {
+   "node": "time:new_moon",
+   "strength": 16,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "place:water_place",
+   "strength": 16,
+   "bridge": 0.0,
+   "traditions": [
+    "Living tradition",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "power:inner",
+   "strength": 16,
+   "bridge": 0.005,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "power:purity",
+   "strength": 15,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible",
+    "Islam"
+   ]
+  },
+  {
+   "node": "power:breath",
+   "strength": 15,
+   "bridge": 0.019,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "voice:name",
+   "strength": 15,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "element:darkness",
+   "strength": 15,
+   "bridge": 0.0,
+   "traditions": [
+    "Greco-Roman mysteries",
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "power:substance",
+   "strength": 13,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "time:new_year",
+   "strength": 12,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "time:full_moon",
+   "strength": 12,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "repetition:12",
+   "strength": 11,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church",
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "element:earth (natron)",
+   "strength": 9,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "element:flesh",
+   "strength": 9,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "power:divine_will",
+   "strength": 9,
+   "bridge": 0.001,
+   "traditions": [
+    "Early church",
+    "Greco-Roman mysteries",
+    "Islam"
+   ]
+  },
+  {
+   "node": "element:seed",
+   "strength": 8,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "voice:instrument",
+   "strength": 8,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "repetition:10",
+   "strength": 8,
+   "bridge": 0.0,
+   "traditions": [
+    "Greco-Roman mysteries",
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "posture:recline",
+   "strength": 6,
+   "bridge": 0.0,
+   "traditions": [
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "direction:stars",
+   "strength": 4,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "element:stars",
+   "strength": 4,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "element:cloud",
+   "strength": 4,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "element:breath (spirit)",
+   "strength": 4,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "power:tradition",
+   "strength": 4,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church"
+   ]
+  },
+  {
+   "node": "direction:four",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Egypt"
+   ]
+  },
+  {
+   "node": "materials:salt",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "element:sun",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Hebrew Bible"
+   ]
+  },
+  {
+   "node": "element:ash",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "repetition:15",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Mishnah"
+   ]
+  },
+  {
+   "node": "repetition:13",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Second Temple Judaism"
+   ]
+  },
+  {
+   "node": "repetition:9",
+   "strength": 3,
+   "bridge": 0.0,
+   "traditions": [
+    "Greco-Roman mysteries"
+   ]
+  },
+  {
+   "node": "direction:none",
+   "strength": 2,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church"
+   ]
+  },
+  {
+   "node": "direction:mecca",
+   "strength": 2,
+   "bridge": 0.0,
+   "traditions": [
+    "Islam"
+   ]
+  },
+  {
+   "node": "element:scent",
+   "strength": 1,
+   "bridge": 0.0,
+   "traditions": [
+    "Early church"
+   ]
+  }
+ ],
+ "clusters": [
+  [
+   "direction:four",
+   "direction:none",
+   "direction:stars",
+   "element:ash",
+   "element:breath",
+   "element:breath (spirit)",
+   "element:earth",
+   "element:earth (natron)",
+   "element:flesh",
+   "element:scent",
+   "element:seed",
+   "element:stars",
+   "element:water",
+   "materials:earth",
+   "materials:milk_honey",
+   "materials:oil",
+   "materials:water",
+   "power:breath",
+   "power:inner",
+   "power:name",
+   "power:purity",
+   "power:substance",
+   "power:tradition",
+   "power:water",
+   "power:word",
+   "repetition:3",
+   "repetition:4",
+   "voice:name"
+  ],
+  [
+   "direction:sanctuary",
+   "element:darkness",
+   "element:fire",
+   "element:light",
+   "element:smoke",
+   "materials:fire",
+   "materials:incense",
+   "materials:salt",
+   "place:inner",
+   "posture:prostrate",
+   "power:light",
+   "power:time",
+   "repetition:10",
+   "repetition:12",
+   "repetition:2",
+   "repetition:9",
+   "time:dawn",
+   "time:evening",
+   "time:hours",
+   "time:night",
+   "time:noon",
+   "voice:antiphon",
+   "voice:hymn",
+   "voice:silence"
+  ],
+  [
+   "direction:west",
+   "element:cloud",
+   "materials:instrument",
+   "materials:linen",
+   "materials:metal",
+   "materials:plants",
+   "place:altar",
+   "place:court",
+   "place:roof",
+   "place:steps",
+   "place:threshold",
+   "place:water_place",
+   "posture:dance",
+   "posture:procession",
+   "posture:turn",
+   "repetition:15",
+   "repetition:7",
+   "time:festival",
+   "time:new_moon",
+   "time:new_year",
+   "voice:instrument"
+  ],
+  [
+   "direction:mecca",
+   "element:blood",
+   "materials:blood",
+   "place:home",
+   "power:blood",
+   "power:divine_will",
+   "power:place",
+   "time:full_moon"
+  ],
+  [
+   "materials:bread",
+   "materials:wine",
+   "posture:recline",
+   "repetition:13",
+   "time:weekly",
+   "voice:spoken"
+  ],
+  [
+   "direction:east",
+   "element:sun",
+   "posture:hands",
+   "posture:kneel",
+   "posture:stand"
+  ]
+ ]
+}

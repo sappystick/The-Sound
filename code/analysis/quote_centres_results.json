@@ -1,0 +1,950 @@
+{
+ "found": [
+  {
+   "nt": "Mt 1:22",
+   "group": "Matthew",
+   "src": "Isaias 7:14",
+   "book": "Isaias",
+   "pos": 0.1067,
+   "shared": 10
+  },
+  {
+   "nt": "Mt 2:5",
+   "group": "Matthew",
+   "src": "Jeremias 22:22",
+   "book": "Jeremias",
+   "pos": 0.4057,
+   "shared": 3
+  },
+  {
+   "nt": "Mt 2:17",
+   "group": "Matthew",
+   "src": "Jeremias 38:15",
+   "book": "Jeremias",
+   "pos": 0.7116,
+   "shared": 8
+  },
+  {
+   "nt": "Mt 4:4",
+   "group": "Matthew",
+   "src": "Deuteronomium 8:3",
+   "book": "Deuteronomium",
+   "pos": 0.2591,
+   "shared": 9
+  },
+  {
+   "nt": "Mt 4:6",
+   "group": "Matthew",
+   "src": "Psalmi 90:12",
+   "book": "Psalmi",
+   "pos": 0.63,
+   "shared": 5
+  },
+  {
+   "nt": "Mt 4:7",
+   "group": "Matthew",
+   "src": "Deuteronomium 6:16",
+   "book": "Deuteronomium",
+   "pos": 0.2162,
+   "shared": 3
+  },
+  {
+   "nt": "Mt 4:10",
+   "group": "Matthew",
+   "src": "Judith 3:8",
+   "book": "Judith",
+   "pos": 0.1371,
+   "shared": 3
+  },
+  {
+   "nt": "Mt 4:14",
+   "group": "Matthew",
+   "src": "Isaias 9:1",
+   "book": "Isaias",
+   "pos": 0.1341,
+   "shared": 8
+  },
+  {
+   "nt": "Mt 12:17",
+   "group": "Matthew",
+   "src": "Isaias 42:1",
+   "book": "Isaias",
+   "pos": 0.6219,
+   "shared": 3
+  },
+  {
+   "nt": "Mt 21:4",
+   "group": "Matthew",
+   "src": "Zacharias 9:9",
+   "book": "Zacharias",
+   "pos": 0.5786,
+   "shared": 7
+  },
+  {
+   "nt": "Mt 21:13",
+   "group": "Matthew",
+   "src": "Jeremias 7:11",
+   "book": "Jeremias",
+   "pos": 0.1356,
+   "shared": 3
+  },
+  {
+   "nt": "Mt 22:42",
+   "group": "Matthew",
+   "src": "Psalmi 109:1",
+   "book": "Psalmi",
+   "pos": 0.7729,
+   "shared": 7
+  },
+  {
+   "nt": "Mt 26:31",
+   "group": "Matthew",
+   "src": "Jeremias 28:23",
+   "book": "Jeremias",
+   "pos": 0.5306,
+   "shared": 3
+  },
+  {
+   "nt": "Mk 1:2",
+   "group": "Mark",
+   "src": "Isaias 40:3",
+   "book": "Isaias",
+   "pos": 0.583,
+   "shared": 5
+  },
+  {
+   "nt": "Mk 7:6",
+   "group": "Mark",
+   "src": "Isaias 29:13",
+   "book": "Isaias",
+   "pos": 0.4126,
+   "shared": 12
+  },
+  {
+   "nt": "Mk 7:10",
+   "group": "Mark",
+   "src": "Exodus 21:16",
+   "book": "Exodus",
+   "pos": 0.5067,
+   "shared": 5
+  },
+  {
+   "nt": "Mk 9:12",
+   "group": "Mark",
+   "src": "Machabaeorum_ii 9:25",
+   "book": "Machabaeorum_ii",
+   "pos": 0.5813,
+   "shared": 3
+  },
+  {
+   "nt": "Mk 9:13",
+   "group": "Mark",
+   "src": "Daniel_Theodotionis_versio 11:11",
+   "book": "Daniel_Theodotionis_versio",
+   "pos": 0.9074,
+   "shared": 3
+  },
+  {
+   "nt": "Mk 11:17",
+   "group": "Mark",
+   "src": "Isaias 56:7",
+   "book": "Isaias",
+   "pos": 0.8465,
+   "shared": 5
+  },
+  {
+   "nt": "Mk 14:16",
+   "group": "Mark",
+   "src": "Josue 4:9",
+   "book": "Josue",
+   "pos": 0.1121,
+   "shared": 3
+  },
+  {
+   "nt": "Mk 14:27",
+   "group": "Mark",
+   "src": "Jeremias 23:1",
+   "book": "Jeremias",
+   "pos": 0.4112,
+   "shared": 3
+  },
+  {
+   "nt": "Lk 2:23",
+   "group": "Luke-Acts",
+   "src": "Exodus 13:12",
+   "book": "Exodus",
+   "pos": 0.3169,
+   "shared": 4
+  },
+  {
+   "nt": "Lk 3:4",
+   "group": "Luke-Acts",
+   "src": "Isaias 40:3",
+   "book": "Isaias",
+   "pos": 0.583,
+   "shared": 9
+  },
+  {
+   "nt": "Lk 4:4",
+   "group": "Luke-Acts",
+   "src": "Deuteronomium 8:3",
+   "book": "Deuteronomium",
+   "pos": 0.2591,
+   "shared": 4
+  },
+  {
+   "nt": "Lk 4:8",
+   "group": "Luke-Acts",
+   "src": "Daniel_Theodotionis_versio 3:18",
+   "book": "Daniel_Theodotionis_versio",
+   "pos": 0.2105,
+   "shared": 3
+  },
+  {
+   "nt": "Lk 4:10",
+   "group": "Luke-Acts",
+   "src": "Psalmi 90:12",
+   "book": "Psalmi",
+   "pos": 0.63,
+   "shared": 5
+  },
+  {
+   "nt": "Lk 4:12",
+   "group": "Luke-Acts",
+   "src": "Deuteronomium 6:16",
+   "book": "Deuteronomium",
+   "pos": 0.2162,
+   "shared": 4
+  },
+  {
+   "nt": "Lk 4:17",
+   "group": "Luke-Acts",
+   "src": "Isaias 61:1",
+   "book": "Isaias",
+   "pos": 0.9149,
+   "shared": 12
+  },
+  {
+   "nt": "Lk 10:26",
+   "group": "Luke-Acts",
+   "src": "Deuteronomium 6:5",
+   "book": "Deuteronomium",
+   "pos": 0.2067,
+   "shared": 4
+  },
+  {
+   "nt": "Lk 19:46",
+   "group": "Luke-Acts",
+   "src": "Jeremias 7:11",
+   "book": "Jeremias",
+   "pos": 0.1356,
+   "shared": 3
+  },
+  {
+   "nt": "Lk 20:17",
+   "group": "Luke-Acts",
+   "src": "Psalmi 117:22",
+   "book": "Psalmi",
+   "pos": 0.807,
+   "shared": 7
+  },
+  {
+   "nt": "Lk 20:42",
+   "group": "Luke-Acts",
+   "src": "Psalmi 109:1",
+   "book": "Psalmi",
+   "pos": 0.7729,
+   "shared": 9
+  },
+  {
+   "nt": "Lk 22:37",
+   "group": "Luke-Acts",
+   "src": "Regnorum_II 19:42",
+   "book": "Regnorum_II",
+   "pos": 0.7982,
+   "shared": 3
+  },
+  {
+   "nt": "Lk 24:44",
+   "group": "Luke-Acts",
+   "src": "Daniel_Theodotionis_versio 9:11",
+   "book": "Daniel_Theodotionis_versio",
+   "pos": 0.7727,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 6:45",
+   "group": "John",
+   "src": "Jeremias 23:14",
+   "book": "Jeremias",
+   "pos": 0.4197,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 7:38",
+   "group": "John",
+   "src": "Exodus 4:9",
+   "book": "Exodus",
+   "pos": 0.0695,
+   "shared": 4
+  },
+  {
+   "nt": "Jn 10:34",
+   "group": "John",
+   "src": "Psalmi 81:6",
+   "book": "Psalmi",
+   "pos": 0.562,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 12:38",
+   "group": "John",
+   "src": "Isaias 53:1",
+   "book": "Isaias",
+   "pos": 0.8066,
+   "shared": 5
+  },
+  {
+   "nt": "Jn 15:11",
+   "group": "John",
+   "src": "Canticum 1:4",
+   "book": "Canticum",
+   "pos": 0.0176,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 18:9",
+   "group": "John",
+   "src": "Machabaeorum_ii 4:25",
+   "book": "Machabaeorum_ii",
+   "pos": 0.2333,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 18:32",
+   "group": "John",
+   "src": "Regnorum_IV 20:1",
+   "book": "Regnorum_IV",
+   "pos": 0.7778,
+   "shared": 4
+  },
+  {
+   "nt": "Jn 19:19",
+   "group": "John",
+   "src": "Josue 9:7",
+   "book": "Josue",
+   "pos": 0.3015,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 19:20",
+   "group": "John",
+   "src": "Machabaeorum_i 13:42",
+   "book": "Machabaeorum_i",
+   "pos": 0.8457,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 19:24",
+   "group": "John",
+   "src": "Psalmi 21:19",
+   "book": "Psalmi",
+   "pos": 0.1254,
+   "shared": 5
+  },
+  {
+   "nt": "Jn 20:30",
+   "group": "John",
+   "src": "Deuteronomium 29:20",
+   "book": "Deuteronomium",
+   "pos": 0.8476,
+   "shared": 3
+  },
+  {
+   "nt": "Jn 20:31",
+   "group": "John",
+   "src": "Machabaeorum_ii 7:23",
+   "book": "Machabaeorum_ii",
+   "pos": 0.4301,
+   "shared": 3
+  },
+  {
+   "nt": "Ac 1:20",
+   "group": "Luke-Acts",
+   "src": "Psalmi 68:26",
+   "book": "Psalmi",
+   "pos": 0.4487,
+   "shared": 4
+  },
+  {
+   "nt": "Ac 2:16",
+   "group": "Luke-Acts",
+   "src": "Joel 2:28",
+   "book": "Joel",
+   "pos": 0.6423,
+   "shared": 7
+  },
+  {
+   "nt": "Ac 7:42",
+   "group": "Luke-Acts",
+   "src": "Amos 5:26",
+   "book": "Amos",
+   "pos": 0.5661,
+   "shared": 3
+  },
+  {
+   "nt": "Ac 15:15",
+   "group": "Luke-Acts",
+   "src": "Amos 9:11",
+   "book": "Amos",
+   "pos": 0.9581,
+   "shared": 7
+  },
+  {
+   "nt": "Ac 19:21",
+   "group": "Luke-Acts",
+   "src": "Machabaeorum_iv 6:30",
+   "book": "Machabaeorum_iv",
+   "pos": 0.3625,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 1:17",
+   "group": "Paul",
+   "src": "Ezechiel 21:24",
+   "book": "Ezechiel",
+   "pos": 0.3883,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 3:4",
+   "group": "Paul",
+   "src": "Psalmi 50:6",
+   "book": "Psalmi",
+   "pos": 0.3322,
+   "shared": 5
+  },
+  {
+   "nt": "Ro 3:10",
+   "group": "Paul",
+   "src": "Psalmi 13:3",
+   "book": "Psalmi",
+   "pos": 0.064,
+   "shared": 5
+  },
+  {
+   "nt": "Ro 4:3",
+   "group": "Paul",
+   "src": "Machabaeorum_iii 7:10",
+   "book": "Machabaeorum_iii",
+   "pos": 0.9368,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 4:6",
+   "group": "Paul",
+   "src": "Psalmi 31:1",
+   "book": "Psalmi",
+   "pos": 0.1858,
+   "shared": 5
+  },
+  {
+   "nt": "Ro 4:17",
+   "group": "Paul",
+   "src": "Genesis 17:5",
+   "book": "Genesis",
+   "pos": 0.2506,
+   "shared": 4
+  },
+  {
+   "nt": "Ro 8:36",
+   "group": "Paul",
+   "src": "Psalmi 43:23",
+   "book": "Psalmi",
+   "pos": 0.2893,
+   "shared": 6
+  },
+  {
+   "nt": "Ro 9:13",
+   "group": "Paul",
+   "src": "Genesis 25:28",
+   "book": "Genesis",
+   "pos": 0.4403,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 9:33",
+   "group": "Paul",
+   "src": "Isaias 28:16",
+   "book": "Isaias",
+   "pos": 0.3924,
+   "shared": 4
+  },
+  {
+   "nt": "Ro 10:5",
+   "group": "Paul",
+   "src": "Habacuc 2:4",
+   "book": "Habacuc",
+   "pos": 0.3664,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 10:15",
+   "group": "Paul",
+   "src": "Isaias 52:7",
+   "book": "Isaias",
+   "pos": 0.8,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 11:2",
+   "group": "Paul",
+   "src": "Regnorum_III 19:14",
+   "book": "Regnorum_III",
+   "pos": 0.8429,
+   "shared": 7
+  },
+  {
+   "nt": "Ro 11:9",
+   "group": "Paul",
+   "src": "Psalmi 68:24",
+   "book": "Psalmi",
+   "pos": 0.4477,
+   "shared": 5
+  },
+  {
+   "nt": "Ro 11:26",
+   "group": "Paul",
+   "src": "Isaias 59:20",
+   "book": "Isaias",
+   "pos": 0.895,
+   "shared": 6
+  },
+  {
+   "nt": "Ro 12:19",
+   "group": "Paul",
+   "src": "Proverbia 25:21",
+   "book": "Proverbia",
+   "pos": 0.8435,
+   "shared": 5
+  },
+  {
+   "nt": "Ro 14:11",
+   "group": "Paul",
+   "src": "Isaias 45:23",
+   "book": "Isaias",
+   "pos": 0.7008,
+   "shared": 6
+  },
+  {
+   "nt": "Ro 15:9",
+   "group": "Paul",
+   "src": "Tobias 13:10",
+   "book": "Tobias",
+   "pos": 0.8882,
+   "shared": 3
+  },
+  {
+   "nt": "Ro 15:12",
+   "group": "Paul",
+   "src": "Isaias 11:10",
+   "book": "Isaias",
+   "pos": 0.1826,
+   "shared": 8
+  },
+  {
+   "nt": "Ro 15:21",
+   "group": "Paul",
+   "src": "Isaias 52:15",
+   "book": "Isaias",
+   "pos": 0.8057,
+   "shared": 5
+  },
+  {
+   "nt": "1Co 1:19",
+   "group": "Paul",
+   "src": "Isaias 29:14",
+   "book": "Isaias",
+   "pos": 0.4137,
+   "shared": 6
+  },
+  {
+   "nt": "1Co 3:19",
+   "group": "Paul",
+   "src": "Psalmi 93:11",
+   "book": "Psalmi",
+   "pos": 0.6428,
+   "shared": 7
+  },
+  {
+   "nt": "1Co 10:7",
+   "group": "Paul",
+   "src": "Exodus 32:6",
+   "book": "Exodus",
+   "pos": 0.7889,
+   "shared": 5
+  },
+  {
+   "nt": "1Co 14:21",
+   "group": "Paul",
+   "src": "Isaias 28:11",
+   "book": "Isaias",
+   "pos": 0.3887,
+   "shared": 4
+  },
+  {
+   "nt": "1Co 15:45",
+   "group": "Paul",
+   "src": "Genesis 2:19",
+   "book": "Genesis",
+   "pos": 0.0345,
+   "shared": 3
+  },
+  {
+   "nt": "2Co 6:16",
+   "group": "Paul",
+   "src": "Jeremias 38:33",
+   "book": "Jeremias",
+   "pos": 0.724,
+   "shared": 3
+  },
+  {
+   "nt": "2Co 6:17",
+   "group": "Paul",
+   "src": "Ezechiel 36:28",
+   "book": "Ezechiel",
+   "pos": 0.7008,
+   "shared": 4
+  },
+  {
+   "nt": "2Co 6:18",
+   "group": "Paul",
+   "src": "Machabaeorum_ii 10:7",
+   "book": "Machabaeorum_ii",
+   "pos": 0.6036,
+   "shared": 3
+  },
+  {
+   "nt": "2Co 8:15",
+   "group": "Paul",
+   "src": "Exodus 16:18",
+   "book": "Exodus",
+   "pos": 0.3974,
+   "shared": 3
+  },
+  {
+   "nt": "2Co 9:9",
+   "group": "Paul",
+   "src": "Psalmi 111:9",
+   "book": "Psalmi",
+   "pos": 0.7824,
+   "shared": 6
+  },
+  {
+   "nt": "Ga 3:10",
+   "group": "Paul",
+   "src": "Deuteronomium 27:26",
+   "book": "Deuteronomium",
+   "pos": 0.7557,
+   "shared": 5
+  },
+  {
+   "nt": "Ga 3:13",
+   "group": "Paul",
+   "src": "Deuteronomium 21:21",
+   "book": "Deuteronomium",
+   "pos": 0.6181,
+   "shared": 3
+  },
+  {
+   "nt": "Ga 4:27",
+   "group": "Paul",
+   "src": "Isaias 54:1",
+   "book": "Isaias",
+   "pos": 0.8171,
+   "shared": 12
+  },
+  {
+   "nt": "Ga 4:30",
+   "group": "Paul",
+   "src": "Genesis 21:10",
+   "book": "Genesis",
+   "pos": 0.3319,
+   "shared": 7
+  },
+  {
+   "nt": "Heb 8:8",
+   "group": "Hebrews",
+   "src": "Jeremias 38:32",
+   "book": "Jeremias",
+   "pos": 0.7228,
+   "shared": 4
+  },
+  {
+   "nt": "Heb 8:9",
+   "group": "Hebrews",
+   "src": "Jeremias 38:33",
+   "book": "Jeremias",
+   "pos": 0.724,
+   "shared": 11
+  },
+  {
+   "nt": "Heb 8:10",
+   "group": "Hebrews",
+   "src": "Jeremias 38:33",
+   "book": "Jeremias",
+   "pos": 0.724,
+   "shared": 10
+  },
+  {
+   "nt": "Heb 10:7",
+   "group": "Hebrews",
+   "src": "Psalmi 39:7",
+   "book": "Psalmi",
+   "pos": 0.2578,
+   "shared": 5
+  },
+  {
+   "nt": "Heb 10:16",
+   "group": "Hebrews",
+   "src": "Jeremias 38:33",
+   "book": "Jeremias",
+   "pos": 0.724,
+   "shared": 5
+  },
+  {
+   "nt": "Jas 4:5",
+   "group": "Catholic letters",
+   "src": "Proverbia 3:34",
+   "book": "Proverbia",
+   "pos": 0.0981,
+   "shared": 5
+  },
+  {
+   "nt": "1Pe 1:16",
+   "group": "Catholic letters",
+   "src": "Leviticus 11:44",
+   "book": "Leviticus",
+   "pos": 0.3487,
+   "shared": 3
+  },
+  {
+   "nt": "Re 5:1",
+   "group": "Revelation",
+   "src": "Joel 2:5",
+   "book": "Joel",
+   "pos": 0.2891,
+   "shared": 3
+  },
+  {
+   "nt": "Re 14:1",
+   "group": "Revelation",
+   "src": "Job 37:4",
+   "book": "Job",
+   "pos": 0.838,
+   "shared": 3
+  },
+  {
+   "nt": "Re 19:12",
+   "group": "Revelation",
+   "src": "Leviticus 13:45",
+   "book": "Leviticus",
+   "pos": 0.4207,
+   "shared": 3
+  }
+ ],
+ "tests": {
+  "John | all books": {
+   "any": {
+    "n": 12,
+    "mean": 0.1316,
+    "chance": 0.1251,
+    "p": 0.6288
+   },
+   "centre": {
+    "n": 12,
+    "mean": 0.2702,
+    "chance": 0.2492,
+    "p": 0.6976
+   }
+  },
+  "John | without Psalms": {
+   "any": {
+    "n": 10,
+    "mean": 0.1391,
+    "chance": 0.1249,
+    "p": 0.7326
+   },
+   "centre": {
+    "n": 10,
+    "mean": 0.2806,
+    "chance": 0.2503,
+    "p": 0.7388
+   }
+  },
+  "Matthew | all books": {
+   "any": {
+    "n": 13,
+    "mean": 0.1434,
+    "chance": 0.1248,
+    "p": 0.821
+   },
+   "centre": {
+    "n": 13,
+    "mean": 0.227,
+    "chance": 0.2492,
+    "p": 0.2962
+   }
+  },
+  "Matthew | without Psalms": {
+   "any": {
+    "n": 11,
+    "mean": 0.1371,
+    "chance": 0.1247,
+    "p": 0.7144
+   },
+   "centre": {
+    "n": 11,
+    "mean": 0.2317,
+    "chance": 0.2488,
+    "p": 0.3472
+   }
+  },
+  "Mark | all books": {
+   "any": {
+    "n": 8,
+    "mean": 0.0882,
+    "chance": 0.1247,
+    "p": 0.0764
+   },
+   "centre": {
+    "n": 8,
+    "mean": 0.1861,
+    "chance": 0.2499,
+    "p": 0.1038
+   }
+  },
+  "Mark | without Psalms": {
+   "any": {
+    "n": 8,
+    "mean": 0.0882,
+    "chance": 0.1251,
+    "p": 0.0754
+   },
+   "centre": {
+    "n": 8,
+    "mean": 0.1861,
+    "chance": 0.2505,
+    "p": 0.1058
+   }
+  },
+  "Luke-Acts | all books": {
+   "any": {
+    "n": 18,
+    "mean": 0.1544,
+    "chance": 0.1252,
+    "p": 0.959
+   },
+   "centre": {
+    "n": 18,
+    "mean": 0.2383,
+    "chance": 0.2508,
+    "p": 0.3584
+   }
+  },
+  "Luke-Acts | without Psalms": {
+   "any": {
+    "n": 14,
+    "mean": 0.1556,
+    "chance": 0.1248,
+    "p": 0.9464
+   },
+   "centre": {
+    "n": 14,
+    "mean": 0.252,
+    "chance": 0.2505,
+    "p": 0.52
+   }
+  },
+  "Paul | all books": {
+   "any": {
+    "n": 33,
+    "mean": 0.1473,
+    "chance": 0.1248,
+    "p": 0.9634
+   },
+   "centre": {
+    "n": 33,
+    "mean": 0.2346,
+    "chance": 0.2498,
+    "p": 0.2706
+   }
+  },
+  "Paul | without Psalms": {
+   "any": {
+    "n": 26,
+    "mean": 0.147,
+    "chance": 0.1249,
+    "p": 0.9386
+   },
+   "centre": {
+    "n": 26,
+    "mean": 0.2359,
+    "chance": 0.2498,
+    "p": 0.3124
+   }
+  },
+  "Hebrews | all books": {
+   "any": {
+    "n": 5,
+    "mean": 0.2274,
+    "chance": 0.125,
+    "p": 1.0
+   },
+   "centre": {
+    "n": 5,
+    "mean": 0.2274,
+    "chance": 0.2492,
+    "p": 0.3754
+   }
+  },
+  "ALL | all books": {
+   "any": {
+    "n": 94,
+    "mean": 0.145,
+    "chance": 0.1249,
+    "p": 0.9954
+   },
+   "centre": {
+    "n": 94,
+    "mean": 0.2344,
+    "chance": 0.25,
+    "p": 0.147
+   }
+  },
+  "ALL | without Psalms": {
+   "any": {
+    "n": 78,
+    "mean": 0.1436,
+    "chance": 0.125,
+    "p": 0.9878
+   },
+   "centre": {
+    "n": 78,
+    "mean": 0.2382,
+    "chance": 0.25,
+    "p": 0.2398
+   }
+  }
+ },
+ "centre_hits": [
+  {
+   "nt": "Mk 7:10",
+   "group": "Mark",
+   "src": "Exodus 21:16",
+   "book": "Exodus",
+   "pos": 0.5067,
+   "shared": 5
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "sources": {
+  "P75": 617,
+  "P66": 227,
+  "03": 35
+ },
+ "syllables": 30670,
+ "ring_middle": 0.49184871209651126,
+ "ring_p": 0.02662,
+ "midpoint": "10:18",
+ "centres": {
+  "Prologue": "1:12",
+  "Cana": "2:7",
+  "Samaritan woman": "4:21",
+  "Bethesda": "5:24",
+  "Tabernacles": "8:13",
+  "Shepherd (9:41)": "10:10",
+  "Lazarus": "11:24",
+  "Pilate": "19:2"
+ }
+}

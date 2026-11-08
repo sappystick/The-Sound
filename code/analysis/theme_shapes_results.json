@@ -1,0 +1,157 @@
+{
+ "themes": {
+  "light (phos)": {
+   "n": 16,
+   "ring_p": 0.998,
+   "even_p": 0.9896666666666667,
+   "cluster_p": 0.07166666666666667,
+   "centre": 0.164
+  },
+  "darkness (skotia/skotos)": {
+   "n": 7,
+   "ring_p": 0.5086666666666667,
+   "even_p": 0.208,
+   "cluster_p": 0.9316666666666666,
+   "centre": 0.371
+  },
+  "water (hydor)": {
+   "n": 18,
+   "ring_p": 1.0,
+   "even_p": 0.9963333333333333,
+   "cluster_p": 0.0,
+   "centre": 0.133
+  },
+  "spirit / breath (pneuma)": {
+   "n": 18,
+   "ring_p": 0.7946666666666666,
+   "even_p": 0.7416666666666667,
+   "cluster_p": 0.39166666666666666,
+   "centre": 0.333
+  },
+  "bread (artos)": {
+   "n": 20,
+   "ring_p": 0.995,
+   "even_p": 1.0,
+   "cluster_p": 0.0,
+   "centre": 0.275
+  },
+  "life (zoe)": {
+   "n": 32,
+   "ring_p": 0.997,
+   "even_p": 0.9723333333333334,
+   "cluster_p": 0.0,
+   "centre": 0.291
+  },
+  "glory (doxa)": {
+   "n": 15,
+   "ring_p": 0.304,
+   "even_p": 0.573,
+   "cluster_p": 0.47433333333333333,
+   "centre": 0.456
+  },
+  "hour (hora)": {
+   "n": 24,
+   "ring_p": 0.404,
+   "even_p": 0.8503333333333334,
+   "cluster_p": 0.977,
+   "centre": 0.454
+  },
+  "abide (meno)": {
+   "n": 33,
+   "ring_p": 0.6043333333333333,
+   "even_p": 0.9213333333333333,
+   "cluster_p": 0.039,
+   "centre": 0.576
+  },
+  "sign (semeion)": {
+   "n": 17,
+   "ring_p": 0.9863333333333333,
+   "even_p": 0.9693333333333334,
+   "cluster_p": 0.05366666666666667,
+   "centre": 0.265
+  },
+  "truth (aletheia)": {
+   "n": 20,
+   "ring_p": 0.5096666666666667,
+   "even_p": 0.983,
+   "cluster_p": 0.7426666666666667,
+   "centre": 0.413
+  },
+  "world (kosmos)": {
+   "n": 57,
+   "ring_p": 0.9943333333333333,
+   "even_p": 0.999,
+   "cluster_p": 0.0,
+   "centre": 0.706
+  },
+  "love (agapao/agape)": {
+   "n": 31,
+   "ring_p": 0.9983333333333333,
+   "even_p": 0.9876666666666667,
+   "cluster_p": 0.0,
+   "centre": 0.709
+  },
+  "witness (martyria/martyreo)": {
+   "n": 35,
+   "ring_p": 0.999,
+   "even_p": 0.971,
+   "cluster_p": 0.004333333333333333,
+   "centre": 0.221
+  },
+  "sent (pempo/apostello)": {
+   "n": 57,
+   "ring_p": 0.926,
+   "even_p": 0.9883333333333333,
+   "cluster_p": 0.058333333333333334,
+   "centre": 0.377
+  }
+ },
+ "archimedes": {
+  "counts": {
+   "light (phos)": 23,
+   "darkness (skotia/skotos)": 9,
+   "water (hydor)": 21,
+   "spirit / breath (pneuma)": 24,
+   "bread (artos)": 24,
+   "life (zoe)": 36,
+   "glory (doxa)": 19,
+   "hour (hora)": 26,
+   "abide (meno)": 40,
+   "sign (semeion)": 17,
+   "truth (aletheia)": 25,
+   "world (kosmos)": 78,
+   "love (agapao/agape)": 44,
+   "witness (martyria/martyreo)": 47,
+   "sent (pempo/apostello)": 60
+  },
+  "hits": [
+   [
+    23,
+    40,
+    "sqrt3"
+   ],
+   [
+    24,
+    17,
+    "sqrt2"
+   ],
+   [
+    24,
+    17,
+    "sqrt2"
+   ]
+  ],
+  "null_mean": 3.264666666666667,
+  "p": 0.5883333333333334
+ },
+ "counts": {
+  "tri": [
+   21,
+   36,
+   78
+  ],
+  "seven": [
+   21
+  ]
+ }
+}

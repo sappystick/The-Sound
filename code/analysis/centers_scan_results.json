@@ -1,0 +1,146 @@
+[
+ {
+  "unit": "Prologue",
+  "span": "1:1-1:18",
+  "syllables": 499,
+  "center": "1:12",
+  "words": "οὐ παρέλαβον. ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς",
+  "scholars": "1:12b (Culpepper)"
+ },
+ {
+  "unit": "First witnesses",
+  "span": "1:19-1:51",
+  "syllables": 1204,
+  "center": "1:37",
+  "words": "λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ. καὶ ἤκουσαν ⸂οἱ δύο μαθηταὶ αὐτοῦ⸃ λαλοῦντος",
+  "scholars": null
+ },
+ {
+  "unit": "Cana wedding",
+  "span": "2:1-2:11",
+  "syllables": 372,
+  "center": "2:7",
+  "words": "Ἰησοῦς· Γεμίσατε τὰς ὑδρίας ὕδατος· καὶ ἐγέμισαν αὐτὰς ἕως ἄνω. καὶ λέγει αὐτοῖς·",
+  "scholars": null
+ },
+ {
+  "unit": "Nicodemus",
+  "span": "3:1-3:21",
+  "syllables": 768,
+  "center": "3:11",
+  "words": "ἀμὴν ἀμὴν λέγω σοι ὅτι ὃ οἴδαμεν λαλοῦμεν καὶ ὃ ἑωράκαμεν μαρτυροῦμεν, καὶ",
+  "scholars": null
+ },
+ {
+  "unit": "Samaritan woman",
+  "span": "4:1-4:42",
+  "syllables": 1435,
+  "center": "4:21",
+  "words": "ἐν τῷ ὄρει τούτῳ οὔτε ἐν Ἱεροσολύμοις προσκυνήσετε τῷ πατρί. ὑμεῖς προσκυνεῖτε ὃ",
+  "scholars": null
+ },
+ {
+  "unit": "Healing at Bethesda and discourse",
+  "span": "5:1-5:47",
+  "syllables": 1637,
+  "center": "5:24",
+  "words": "λόγον μου ἀκούων καὶ πιστεύων τῷ πέμψαντί με ἔχει ζωὴν αἰώνιον, καὶ εἰς",
+  "scholars": null
+ },
+ {
+  "unit": "Bread of life discourse",
+  "span": "6:22-6:71",
+  "syllables": 1780,
+  "center": "6:44",
+  "words": "με ἑλκύσῃ αὐτόν, κἀγὼ ἀναστήσω αὐτὸν ἐν τῇ ἐσχάτῃ ἡμέρᾳ. ἔστιν γεγραμμένον ἐν",
+  "scholars": null
+ },
+ {
+  "unit": "Tabernacles discourses",
+  "span": "7:1-8:59",
+  "syllables": 3523,
+  "center": "8:12",
+  "words": "μὴ περιπατήσῃ ἐν τῇ σκοτίᾳ, ἀλλ’ ἕξει τὸ φῶς τῆς ζωῆς. εἶπον οὖν",
+  "scholars": null
+ },
+ {
+  "unit": "Man born blind",
+  "span": "9:1-9:41",
+  "syllables": 1427,
+  "center": "9:20",
+  "words": "ὁ υἱὸς ἡμῶν καὶ ὅτι τυφλὸς ἐγεννήθη· πῶς δὲ νῦν βλέπει οὐκ οἴδαμεν,",
+  "scholars": null
+ },
+ {
+  "unit": "Good shepherd",
+  "span": "10:1-10:21",
+  "syllables": 735,
+  "center": "10:11",
+  "words": "ὁ ποιμὴν ὁ καλός· ὁ ποιμὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ",
+  "scholars": null
+ },
+ {
+  "unit": "Lazarus",
+  "span": "11:1-11:44",
+  "syllables": 1440,
+  "center": "11:24",
+  "words": "ὅτι ἀναστήσεται ἐν τῇ ἀναστάσει ἐν τῇ ἐσχάτῃ ἡμέρᾳ. εἶπεν αὐτῇ ὁ Ἰησοῦς·",
+  "scholars": null
+ },
+ {
+  "unit": "Last supper and footwashing",
+  "span": "13:1-13:30",
+  "syllables": 1029,
+  "center": "13:15",
+  "words": "ὑμεῖς ὀφείλετε ἀλλήλων νίπτειν τοὺς πόδας· ὑπόδειγμα γὰρ ἔδωκα ὑμῖν ἵνα καθὼς ἐγὼ",
+  "scholars": null
+ },
+ {
+  "unit": "Farewell discourses",
+  "span": "13:31-17:26",
+  "syllables": 4556,
+  "center": "15:24",
+  "words": "εἰ τὰ ἔργα μὴ ἐποίησα ἐν αὐτοῖς ἃ οὐδεὶς ἄλλος ⸀ἐποίησεν, ἁμαρτίαν οὐκ",
+  "scholars": null
+ },
+ {
+  "unit": "Prayer of Jesus",
+  "span": "17:1-17:26",
+  "syllables": 943,
+  "center": "17:13",
+  "words": "νῦν δὲ πρὸς σὲ ἔρχομαι, καὶ ταῦτα λαλῶ ἐν τῷ κόσμῳ ἵνα ἔχωσιν",
+  "scholars": null
+ },
+ {
+  "unit": "Trial before Pilate",
+  "span": "18:28-19:16",
+  "syllables": 1262,
+  "center": "19:2",
+  "words": "στρατιῶται πλέξαντες στέφανον ἐξ ἀκανθῶν ἐπέθηκαν αὐτοῦ τῇ κεφαλῇ, καὶ ἱμάτιον πορφυροῦν περιέβαλον",
+  "scholars": "19:1-3, the crowning with thorns (R.E. Brown)"
+ },
+ {
+  "unit": "Passion and burial",
+  "span": "18:1-19:42",
+  "syllables": 3362,
+  "center": "19:3",
+  "words": "κεφαλῇ, καὶ ἱμάτιον πορφυροῦν περιέβαλον αὐτόν, καὶ ⸂ἤρχοντο πρὸς αὐτὸν καὶ⸃ ἔλεγον· Χαῖρε,",
+  "scholars": null
+ },
+ {
+  "unit": "Resurrection",
+  "span": "20:1-20:31",
+  "syllables": 1203,
+  "center": "20:17",
+  "words": "⸀πατέρα· πορεύου δὲ πρὸς τοὺς ἀδελφούς μου καὶ εἰπὲ αὐτοῖς· Ἀναβαίνω πρὸς τὸν",
+  "scholars": null
+ },
+ {
+  "unit": "1 John (whole letter)",
+  "span": "1:1-5:21",
+  "syllables": 4285,
+  "center": "3:14",
+  "words": "οἴδαμεν ὅτι μεταβεβήκαμεν ἐκ τοῦ θανάτου εἰς τὴν ζωήν, ὅτι ἀγαπῶμεν τοὺς ἀδελφούς·",
+  "scholars": null
+ }
+]

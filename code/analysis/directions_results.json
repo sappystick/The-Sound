@@ -1,0 +1,396 @@
+{
+ "step1": {
+  "light (or)": {
+   "n": 122,
+   "centres": [],
+   "p": 1.0
+  },
+  "spirit / breath (ruach)": {
+   "n": 349,
+   "centres": [],
+   "p": 1.0
+  },
+  "breath of life (nishmat chayyim / ruach)": {
+   "n": 4,
+   "centres": [],
+   "p": 1.0
+  },
+  "glory of YHWH": {
+   "n": 38,
+   "centres": [],
+   "p": 1.0
+  },
+  "tree of life": {
+   "n": 7,
+   "centres": [],
+   "p": 1.0
+  },
+  "holy of holies": {
+   "n": 39,
+   "centres": [],
+   "p": 1.0
+  },
+  "I am YHWH": {
+   "n": 198,
+   "centres": [],
+   "p": 1.0
+  },
+  "word of YHWH": {
+   "n": 317,
+   "centres": [],
+   "p": 1.0
+  },
+  "covenant (berit)": {
+   "n": 269,
+   "centres": [
+    "2Kgs.13.23",
+    "Mal.2.14"
+   ],
+   "p": 0.08478950746060838
+  },
+  "my name (shemi)": {
+   "n": 55,
+   "centres": [],
+   "p": 1.0
+  },
+  "sabbath": {
+   "n": 162,
+   "centres": [],
+   "p": 1.0
+  },
+  "garden (gan)": {
+   "n": 31,
+   "centres": [],
+   "p": 1.0
+  },
+  "living water (discovery, not counted)": {
+   "n": 12,
+   "centres": [
+    "Lev.14.50",
+    "Song.4.15"
+   ],
+   "p": 0.0002132708795377687
+  },
+  "NT light (phos)": {
+   "n": 61,
+   "centres": [],
+   "p": 1.0
+  },
+  "NT spirit / breath (pneuma)": {
+   "n": 344,
+   "centres": [
+    "Mk 9:17",
+    "Ro 8:26"
+   ],
+   "p": 0.34718457228572663
+  },
+  "NT life (zoe)": {
+   "n": 127,
+   "centres": [
+    "1Jn 3:14"
+   ],
+   "p": 0.40850868246428007
+  },
+  "NT water (hydor)": {
+   "n": 68,
+   "centres": [],
+   "p": 1.0
+  },
+  "NT glory (doxa)": {
+   "n": 148,
+   "centres": [],
+   "p": 1.0
+  },
+  "NT name (onoma)": {
+   "n": 214,
+   "centres": [],
+   "p": 1.0
+  },
+  "NT word (logos)": {
+   "n": 318,
+   "centres": [
+    "Tit 2:8",
+    "Re 12:11"
+   ],
+   "p": 0.35571684532201364
+  }
+ },
+ "step5": {
+  "lxx": [
+   "Leviticus 14:5-53",
+   "Numeri 19:6"
+  ],
+  "nt": [
+   "Jn 19:31-32",
+   "Heb 9:16-22"
+  ],
+  "heb_9_19": 0.5404741000877963
+ },
+ "step4": {
+  "parts": [
+   97,
+   75,
+   138,
+   189
+  ],
+  "simplicity": 0.03708225011205739,
+  "p": 0.05945,
+  "golden": {
+   "prologue": [
+    "(1, 13)",
+    "(1, 9)"
+   ],
+   "John": [
+    "(12, 33)",
+    "(8, 20)"
+   ]
+  }
+ },
+ "step2": {
+  "features": [
+   "vowel share",
+   "3-vowel runs",
+   "repetition",
+   "'I am' /1000",
+   "invocations /1000",
+   "syllables/word",
+   "breath group",
+   "breath irregularity",
+   "staircase"
+  ],
+  "means": {
+   "John": [
+    0.5497,
+    0.0457,
+    0.0787,
+    1.5385,
+    0.5128,
+    2.0219,
+    13.5439,
+    0.5727,
+    0.0472
+   ],
+   "John prologue": [
+    0.5291,
+    0.0357,
+    0.0833,
+    0.0,
+    0.0,
+    1.9802,
+    12.475,
+    0.4598,
+    0.1538
+   ],
+   "Matthew, Mark, Luke": [
+    0.5384,
+    0.047,
+    0.0615,
+    0.2566,
+    0.7158,
+    2.138,
+    15.211,
+    0.6201,
+    0.0307
+   ],
+   "Greek Psalms": [
+    0.5399,
+    0.0509,
+    0.0627,
+    0.1453,
+    1.2225,
+    2.1601,
+    11.8941,
+    0.4848,
+    0.0517
+   ],
+   "Homeric Hymns": [
+    0.5158,
+    0.0725,
+    0.0164,
+    0.0,
+    1.0998,
+    2.3148,
+    14.1698,
+    0.634,
+    0.0075
+   ],
+   "Orphic fragments": [
+    0.5156,
+    0.0624,
+    0.0238,
+    0.0,
+    2.4213,
+    2.2123,
+    19.1046,
+    0.687,
+    0.0355
+   ],
+   "Corpus Hermeticum": [
+    0.5233,
+    0.0532,
+    0.0604,
+    0.0,
+    0.0776,
+    2.0988,
+    14.4102,
+    0.6716,
+    0.0468
+   ],
+   "Philo": [
+    0.5172,
+    0.0516,
+    0.0291,
+    0.0436,
+    0.0649,
+    2.1695,
+    17.1474,
+    0.6566,
+    0.023
+   ],
+   "Greek Magical Papyri (PGM I, VI+II)": [
+    0.5174,
+    0.0744,
+    0.0334,
+    0.2381,
+    4.3307,
+    2.2891,
+    13.3792,
+    0.8936,
+    0.0279
+   ],
+   "Josephus": [
+    0.5114,
+    0.0583,
+    0.0195,
+    0.0,
+    0.0417,
+    2.2484,
+    24.2389,
+    0.5981,
+    0.0095
+   ]
+  },
+  "nearest": {
+   "John": [
+    [
+     2.135798681448402,
+     "Matthew, Mark, Luke"
+    ],
+    [
+     2.3715101099983595,
+     "Greek Psalms"
+    ],
+    [
+     2.761222111352631,
+     "Corpus Hermeticum"
+    ],
+    [
+     3.6338100975320806,
+     "Philo"
+    ],
+    [
+     4.275652715342652,
+     "Orphic fragments"
+    ],
+    [
+     4.7586202554279255,
+     "Homeric Hymns"
+    ],
+    [
+     4.842546937993524,
+     "Josephus"
+    ],
+    [
+     5.271681959099844,
+     "Greek Magical Papyri (PGM I, VI+II)"
+    ]
+   ],
+   "John prologue": [
+    [
+     3.3627637955600624,
+     "Greek Psalms"
+    ],
+    [
+     3.544896605191226,
+     "Corpus Hermeticum"
+    ],
+    [
+     3.8333880680279986,
+     "Matthew, Mark, Luke"
+    ],
+    [
+     4.609577421182216,
+     "Philo"
+    ],
+    [
+     5.1549944745765455,
+     "Orphic fragments"
+    ],
+    [
+     5.750255162034185,
+     "Josephus"
+    ],
+    [
+     5.873856398390823,
+     "Homeric Hymns"
+    ],
+    [
+     6.499369741980778,
+     "Greek Magical Papyri (PGM I, VI+II)"
+    ]
+   ]
+  }
+ },
+ "step3": {
+  "John": {
+   "group": 13.5,
+   "irregularity": 0.57,
+   "breaths_per_min_chant": 7.3
+  },
+  "John prologue": {
+   "group": 12.5,
+   "irregularity": 0.46,
+   "breaths_per_min_chant": 7.8
+  },
+  "Matthew, Mark, Luke": {
+   "group": 15.2,
+   "irregularity": 0.62,
+   "breaths_per_min_chant": 6.6
+  },
+  "Greek Psalms": {
+   "group": 11.9,
+   "irregularity": 0.48,
+   "breaths_per_min_chant": 8.1
+  },
+  "Homeric Hymns": {
+   "group": 14.2,
+   "irregularity": 0.63,
+   "breaths_per_min_chant": 7.0
+  },
+  "Orphic fragments": {
+   "group": 19.1,
+   "irregularity": 0.69,
+   "breaths_per_min_chant": 5.4
+  },
+  "Corpus Hermeticum": {
+   "group": 14.4,
+   "irregularity": 0.67,
+   "breaths_per_min_chant": 6.9
+  },
+  "Philo": {
+   "group": 17.1,
+   "irregularity": 0.66,
+   "breaths_per_min_chant": 6.0
+  },
+  "Greek Magical Papyri (PGM I, VI+II)": {
+   "group": 13.4,
+   "irregularity": 0.89,
+   "breaths_per_min_chant": 7.3
+  },
+  "Josephus": {
+   "group": 24.2,
+   "irregularity": 0.6,
+   "breaths_per_min_chant": 4.4
+  }
+ }
+}

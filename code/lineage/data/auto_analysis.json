@@ -1,0 +1,146 @@
+{
+ "kept": 844,
+ "hubs": [
+  [
+   "voice:spoken",
+   2436,
+   0.796
+  ],
+  [
+   "materials:bread",
+   1866,
+   0.129
+  ],
+  [
+   "rite:bread_offering",
+   1648,
+   0.0
+  ],
+  [
+   "repetition:3",
+   1496,
+   0.01
+  ],
+  [
+   "voice:hymn",
+   1435,
+   0.076
+  ],
+  [
+   "time:festival",
+   1403,
+   0.036
+  ],
+  [
+   "place:altar",
+   1361,
+   0.065
+  ],
+  [
+   "repetition:4",
+   1315,
+   0.003
+  ],
+  [
+   "place:inner",
+   1152,
+   0.044
+  ],
+  [
+   "rite:inner_room",
+   1110,
+   0.004
+  ],
+  [
+   "materials:water",
+   1105,
+   0.026
+  ],
+  [
+   "direction:four",
+   1036,
+   0.0
+  ],
+  [
+   "materials:blood",
+   1017,
+   0.001
+  ],
+  [
+   "rite:blood_rite",
+   1002,
+   0.001
+  ],
+  [
+   "materials:metal",
+   925,
+   0.002
+  ]
+ ],
+ "dawn_rank": [
+  36,
+  41
+ ],
+ "dawn_null": [
+  200,
+  200
+ ],
+ "profiles": {
+  "Josephus, Antiquities": {
+   "bread_offering": 0.21,
+   "sung_praise": 0.15,
+   "instruments": 0.15,
+   "blood_rite": 0.13,
+   "sacred_name": 0.11,
+   "plants": 0.09
+  },
+  "Josephus, Jewish War": {
+   "bread_offering": 0.26,
+   "inner_room": 0.21,
+   "blood_rite": 0.13,
+   "sung_praise": 0.12,
+   "instruments": 0.1,
+   "sacred_name": 0.06
+  },
+  "Jubilees": {
+   "sacred_name": 0.29,
+   "inner_room": 0.21,
+   "bread_offering": 0.21,
+   "blood_rite": 0.12,
+   "sung_praise": 0.08,
+   "incense": 0.08
+  },
+  "Letter of Aristeas": {
+   "fasting_abstinence": 0.44,
+   "bread_offering": 0.33,
+   "sung_praise": 0.22,
+   "blood_rite": 0.11,
+   "washing": 0.11,
+   "linen": 0.11
+  },
+  "Mishnah": {
+   "bread_offering": 0.33,
+   "blood_rite": 0.24,
+   "inner_room": 0.21,
+   "washing": 0.2,
+   "wine_libation": 0.17,
+   "sung_praise": 0.15
+  },
+  "Philo, On the Contemplative Life": {
+   "sung_praise": 0.5,
+   "wine_libation": 0.38,
+   "bread_offering": 0.25,
+   "plants": 0.25,
+   "linen": 0.12,
+   "sacred_name": 0.12
+  },
+  "Philo, On the Special Laws": {
+   "sung_praise": 0.22,
+   "blood_rite": 0.2,
+   "bread_offering": 0.17,
+   "inner_room": 0.16,
+   "wine_libation": 0.09,
+   "fasting_abstinence": 0.09
+  }
+ }
+}

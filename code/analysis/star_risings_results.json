@@ -1,0 +1,60 @@
+{
+ "solar": {
+  "spring equinox": "Mar 23",
+  "summer solstice": "Jun 25",
+  "autumn equinox": "Sep 26",
+  "winter solstice": "Dec 23"
+ },
+ "Pleiades (Alcyone) - Kimah": {
+  "dawn_rising": "May 17",
+  "dec_of_date": 16.11,
+  "arcus_visionis": 13.5,
+  "scripture": "Job 9:9; 38:31; Amos 5:8"
+ },
+ "Orion's Belt (Alnilam) - Kesil": {
+  "dawn_rising": "Jul 1",
+  "dec_of_date": -4.64,
+  "arcus_visionis": 12.0,
+  "scripture": "Job 9:9; 38:31; Amos 5:8"
+ },
+ "Betelgeuse (Orion)": {
+  "dawn_rising": "Jun 27",
+  "dec_of_date": 4.68,
+  "arcus_visionis": 10.6,
+  "scripture": ""
+ },
+ "Sirius": {
+  "dawn_rising": "Jul 20",
+  "dec_of_date": -15.94,
+  "arcus_visionis": 7.7,
+  "scripture": "Egyptian Sopdet, herald of the Nile flood"
+ },
+ "Arcturus": {
+  "dawn_rising": "Oct 7",
+  "dec_of_date": 30.34,
+  "arcus_visionis": 9.9,
+  "scripture": "often read as 'Ash/Ayish' in older translations"
+ },
+ "Spica (Virgo)": {
+  "dawn_rising": "Oct 5",
+  "dec_of_date": -0.34,
+  "arcus_visionis": 11.2,
+  "scripture": "the Virgin's ear of grain"
+ },
+ "Dubhe (Great Bear)": {
+  "dec_of_date": 70.92,
+  "circumpolar": true
+ },
+ "Alkaid (Great Bear tail)": {
+  "dec_of_date": 59.8,
+  "circumpolar": true
+ },
+ "Polaris": {
+  "dec_of_date": 78.41,
+  "circumpolar": true
+ },
+ "Kochab (pole star region in antiquity)": {
+  "dec_of_date": 81.63,
+  "circumpolar": true
+ }
+}

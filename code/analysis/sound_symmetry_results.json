@@ -1,0 +1,333 @@
+{
+ "N": 499,
+ "center": 249,
+ "F2": {
+  "r": 0.186,
+  "other_centers_at_least_as_mirrored": 0.243,
+  "n_other_centers": 218,
+  "shuffle_p": 0.3078
+ },
+ "F1": {
+  "r": 0.141,
+  "other_centers_at_least_as_mirrored": 0.532,
+  "n_other_centers": 218,
+  "shuffle_p": 0.366
+ },
+ "peak": {
+  "r": -0.229,
+  "other_centers_at_least_as_mirrored": 0.812,
+  "n_other_centers": 218,
+  "shuffle_p": 0.8424
+ },
+ "wave": [
+  [
+   1,
+   1274.0,
+   0.57,
+   0.39,
+   23
+  ],
+  [
+   2,
+   1322.0,
+   0.4,
+   0.4,
+   10
+  ],
+  [
+   3,
+   1462.0,
+   0.2,
+   0.36,
+   25
+  ],
+  [
+   4,
+   1359.0,
+   0.47,
+   0.47,
+   17
+  ],
+  [
+   5,
+   1513.0,
+   0.23,
+   0.32,
+   22
+  ],
+  [
+   6,
+   1310.0,
+   0.32,
+   0.32,
+   25
+  ],
+  [
+   7,
+   1622.0,
+   0.13,
+   0.39,
+   31
+  ],
+  [
+   8,
+   1485.0,
+   0.26,
+   0.42,
+   19
+  ],
+  [
+   9,
+   1298.0,
+   0.52,
+   0.32,
+   25
+  ],
+  [
+   10,
+   1247.0,
+   0.48,
+   0.36,
+   25
+  ],
+  [
+   11,
+   1659.0,
+   0.11,
+   0.26,
+   19
+  ],
+  [
+   12,
+   1469.0,
+   0.19,
+   0.36,
+   36
+  ],
+  [
+   13,
+   1475.0,
+   0.15,
+   0.27,
+   33
+  ],
+  [
+   14,
+   1459.0,
+   0.24,
+   0.28,
+   50
+  ],
+  [
+   15,
+   1413.0,
+   0.33,
+   0.4,
+   45
+  ],
+  [
+   16,
+   1515.0,
+   0.19,
+   0.38,
+   26
+  ],
+  [
+   17,
+   1584.0,
+   0.24,
+   0.32,
+   34
+  ],
+  [
+   18,
+   1337.0,
+   0.44,
+   0.32,
+   34
+  ]
+ ],
+ "loop_baseline_share_ge_0.95": 0.067,
+ "loops": [
+  {
+   "lemma": "μαρτυρέω",
+   "count": 3,
+   "first": "1:7",
+   "last": "1:15",
+   "first_pos": 0.267,
+   "last_pos": 0.729,
+   "around_center_symmetry": 0.99
+  },
+  {
+   "lemma": "θεός",
+   "count": 8,
+   "first": "1:1",
+   "last": "1:18",
+   "first_pos": 0.028,
+   "last_pos": 0.962,
+   "around_center_symmetry": 0.98
+  },
+  {
+   "lemma": "Ἰωάννης",
+   "count": 2,
+   "first": "1:6",
+   "last": "1:15",
+   "first_pos": 0.236,
+   "last_pos": 0.721,
+   "around_center_symmetry": 0.85
+  },
+  {
+   "lemma": "λόγος",
+   "count": 4,
+   "first": "1:1",
+   "last": "1:14",
+   "first_pos": 0.01,
+   "last_pos": 0.625,
+   "around_center_symmetry": 0.26
+  },
+  {
+   "lemma": "ὄνομα",
+   "count": 2,
+   "first": "1:6",
+   "last": "1:12",
+   "first_pos": 0.226,
+   "last_pos": 0.545,
+   "around_center_symmetry": 0.17
+  },
+  {
+   "lemma": "πιστεύω",
+   "count": 2,
+   "first": "1:7",
+   "last": "1:12",
+   "first_pos": 0.293,
+   "last_pos": 0.533,
+   "around_center_symmetry": 0.17
+  },
+  {
+   "lemma": "ἀρχή",
+   "count": 2,
+   "first": "1:1",
+   "last": "1:2",
+   "first_pos": 0.002,
+   "last_pos": 0.054,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "ζωή",
+   "count": 2,
+   "first": "1:4",
+   "last": "1:4",
+   "first_pos": 0.122,
+   "last_pos": 0.132,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "φῶς",
+   "count": 6,
+   "first": "1:4",
+   "last": "1:9",
+   "first_pos": 0.14,
+   "last_pos": 0.349,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "σκοτία",
+   "count": 2,
+   "first": "1:5",
+   "last": "1:5",
+   "first_pos": 0.16,
+   "last_pos": 0.174,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "κόσμος",
+   "count": 4,
+   "first": "1:9",
+   "last": "1:10",
+   "first_pos": 0.391,
+   "last_pos": 0.431,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "ἴδιος",
+   "count": 2,
+   "first": "1:11",
+   "last": "1:11",
+   "first_pos": 0.449,
+   "last_pos": 0.463,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "δίδωμι",
+   "count": 2,
+   "first": "1:12",
+   "last": "1:17",
+   "first_pos": 0.499,
+   "last_pos": 0.886,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "θέλημα",
+   "count": 2,
+   "first": "1:13",
+   "last": "1:13",
+   "first_pos": 0.573,
+   "last_pos": 0.591,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "σάρξ",
+   "count": 2,
+   "first": "1:13",
+   "last": "1:14",
+   "first_pos": 0.581,
+   "last_pos": 0.629,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "δόξα",
+   "count": 2,
+   "first": "1:14",
+   "last": "1:14",
+   "first_pos": 0.671,
+   "last_pos": 0.679,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "μονογενής",
+   "count": 2,
+   "first": "1:14",
+   "last": "1:18",
+   "first_pos": 0.685,
+   "last_pos": 0.954,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "πατήρ",
+   "count": 2,
+   "first": "1:14",
+   "last": "1:18",
+   "first_pos": 0.697,
+   "last_pos": 0.98,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "χάρις",
+   "count": 4,
+   "first": "1:14",
+   "last": "1:17",
+   "first_pos": 0.705,
+   "last_pos": 0.894,
+   "around_center_symmetry": 0.0
+  },
+  {
+   "lemma": "ἀλήθεια",
+   "count": 2,
+   "first": "1:14",
+   "last": "1:17",
+   "first_pos": 0.713,
+   "last_pos": 0.902,
+   "around_center_symmetry": 0.0
+  }
+ ]
+}

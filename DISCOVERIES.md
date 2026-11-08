@@ -140,3 +140,19 @@ Model: Greek known to be translated from Hebrew (Genesis, Kingdoms, Psalms, Dani
   - The Isis-hymn form, "I am [Name], [title]", is absent from John (its only case is Pilate's "Am I a Jew?").
   - Profile: John joins Isaiah's absolute divine "I am" to everyday images (bread, light, door, vine), with no name and no title. He follows neither the Septuagint's formula nor the Egyptian aretalogy pattern.
 - **Pending:** the Isis aretalogies (Kyme, Andros) themselves. Their Greek text sits on sites outside this session's network allowance (attalus.org; the PHI inscriptions database). Allowing one of those hosts would let them run through the same measures.
+
+## O. Round 18: Sumerian literature (code/analysis/sumer.py; source: Black et al., *The Literature of Ancient Sumer*, OUP 2004, supplied by the user; text not stored)
+- **V/K A motif cluster in Inana's Descent to the Underworld (c. 2000–1750 BC):**
+  - the goddess's corpse is hung on a hook;
+  - "after **three days and three nights**" her minister seeks help;
+  - Enki makes two beings and gives them the **life-giving plant** and the **life-giving water**;
+  - these are sprinkled on the corpse, "and so let Inana **arise**".
+  John's parallels: "living water" (4:10, 7:38), "bread of life" (6:35, 48), "in three days I will raise it up" (2:19), the crucifixion, the seeking woman at the tomb (20). **Status: a parallel pattern, not evidence of influence.** Two thousand years separate them, and scholars dispute the "dying-and-rising god" category (J. Z. Smith against T. Mettinger).
+- **V/K The shepherd-king.** Sumerian kings and gods are "shepherds" (Dumuzid the shepherd; Ur-Namma; Sulgi: "**I am the herdsman and shepherd** of the black-headed"). Shepherd and fold language is 3–10 times denser than in John. The thread runs Sumer → Ezekiel 34 → John 10, "**I am the good shepherd**".
+- **V The oldest "I am" chain.** Sulgi's praise poem (c. 2050 BC) uses "I am" 18 times per 1,000 words, against John's 3.3 (English translations).
+  - Its form is mostly **"I am *a* …"** (26: "a fierce-looking lion", "a king treated with respect"), "I am he who …" (16), the name ("I am Sulgi") and "I am *the* …" (11).
+  - John's form is **"I am *the* …"** (15) and the absolute "I am (he)".
+  - So the royal self-praise genre is ancient (Sumer → Egyptian and Isis aretalogies). John's definite, nameless "I am the bread / light / shepherd" is a different form inside the same long tradition.
+- **Light and life:** John uses "light" (12.6) and "life" (23.0) per 10,000 words far more than Sumerian literature (3.3; 10.4). Temple language is denser in Sumer (15.4 against 7.3).
+- **Refrains:** Sumerian narrative poems are refrain-heavy (Inana's Descent 18%, Dumuzid's Dream 20%), the sign of oral performance. The average Sumerian composition (3.8%) is close to John (5.7%).
+- **The Met cuneiform volume** (*Cuneiform Texts in the Metropolitan Museum of Art I*) is scanned. Contents, from OCR: Ur III and Old Babylonian business and legal records, Gudea's temple-building cones, Old Assyrian letters, and two Amarna letters (correspondence with Egypt). OCR of all 413 pages is running.

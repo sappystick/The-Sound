@@ -1,0 +1,192 @@
+{
+ "rates": {
+  "Sumerian literature": {
+   "water of life / living water": 0.32667568291551513,
+   "food / plant / bread of life": 0.32667568291551513,
+   "three days and three nights": 0.13067027316620605,
+   "shepherd": 9.212254258217527,
+   "sheepfold / fold": 10.845632672795103,
+   "word (decree)": 11.368313765459927,
+   "light": 3.266756829155151,
+   "darkness": 2.221394643825503,
+   "breath": 1.3720378682451635,
+   "life": 10.388286716713381,
+   "garden": 2.613405463324121,
+   "tree": 6.794854204642715,
+   "fish / net": 6.4681785217272,
+   "temple": 15.419092233612314,
+   "door / gate": 5.814827155896169,
+   "'I am'": 15.288421960446108
+  },
+  "John (KJV)": {
+   "water of life / living water": 1.5711741908452916,
+   "food / plant / bread of life": 1.0474494605635278,
+   "three days and three nights": 0.0,
+   "shepherd": 3.1423483816905833,
+   "sheepfold / fold": 1.5711741908452916,
+   "word (decree)": 21.47271394155232,
+   "light": 12.569393526762333,
+   "darkness": 4.713522572535875,
+   "breath": 0.5237247302817639,
+   "life": 23.043888132397612,
+   "garden": 2.0948989211270557,
+   "tree": 1.5711741908452916,
+   "fish / net": 7.332146223944695,
+   "temple": 7.332146223944695,
+   "door / gate": 4.713522572535875,
+   "'I am'": 32.99465800775113
+  },
+  "Genesis (KJV)": {
+   "water of life / living water": 0.0,
+   "food / plant / bread of life": 0.0,
+   "three days and three nights": 0.0,
+   "shepherd": 1.045423657937379,
+   "sheepfold / fold": 0.0,
+   "word (decree)": 6.53389786210862,
+   "light": 2.8749150593277926,
+   "darkness": 1.5681354869060686,
+   "breath": 1.306779572421724,
+   "life": 8.363389263499032,
+   "garden": 3.658982802780827,
+   "tree": 6.53389786210862,
+   "fish / net": 0.7840677434530343,
+   "temple": 0.0,
+   "door / gate": 5.48847420417124,
+   "'I am'": 7.840677434530344
+  },
+  "Psalms (KJV)": {
+   "water of life / living water": 0.0,
+   "food / plant / bread of life": 0.0,
+   "three days and three nights": 0.0,
+   "shepherd": 0.4570383912248629,
+   "sheepfold / fold": 0.6855575868372943,
+   "word (decree)": 19.881170018281537,
+   "light": 5.712979890310786,
+   "darkness": 5.484460694698354,
+   "breath": 1.59963436928702,
+   "life": 5.941499085923217,
+   "garden": 0.0,
+   "tree": 2.742230347349177,
+   "fish / net": 2.742230347349177,
+   "temple": 2.2851919561243146,
+   "door / gate": 4.113345521023766,
+   "'I am'": 15.310786106032907
+  },
+  "Matthew, Mark, Luke (KJV)": {
+   "water of life / living water": 0.0,
+   "food / plant / bread of life": 0.0,
+   "three days and three nights": 0.30869437713192055,
+   "shepherd": 1.3891246970936424,
+   "sheepfold / fold": 0.0,
+   "word (decree)": 11.576039142447021,
+   "light": 4.321721279846888,
+   "darkness": 2.6239022056213246,
+   "breath": 0.0,
+   "life": 5.86519316550649,
+   "garden": 0.15434718856596027,
+   "tree": 5.55649878837457,
+   "fish / net": 5.247804411242649,
+   "temple": 7.871706616863974,
+   "door / gate": 3.241290959885166,
+   "'I am'": 8.334748182561855
+  }
+ },
+ "where": {
+  "water of life / living water": [
+   [
+    "Babylonian terracotta plaque",
+    4
+   ],
+   [
+    "Inana\u2019s descent to the Underworld",
+    1
+   ]
+  ],
+  "food / plant / bread of life": [
+   [
+    "Babylonian terracotta plaque",
+    4
+   ],
+   [
+    "Inana\u2019s descent to the Underworld",
+    1
+   ]
+  ],
+  "three days and three nights": [
+   [
+    "Babylonian terracotta plaque",
+    1
+   ],
+   [
+    "The lament for Sumer and Urim",
+    1
+   ]
+  ],
+  "shepherd": [
+   [
+    "Dumuzid and Enkimdu",
+    26
+   ],
+   [
+    "The death of Ur-Namma",
+    24
+   ],
+   [
+    "A hymn to Nungal",
+    10
+   ],
+   [
+    "Dumuzid\u2019s dream",
+    8
+   ],
+   [
+    "The lament for Sumer and Urim",
+    8
+   ]
+  ],
+  "'I am'": [
+   [
+    "A praise poem of Sulgi",
+    88
+   ],
+   [
+    "Enki and the world order",
+    21
+   ],
+   [
+    "Dumuzid\u2019s dream",
+    18
+   ],
+   [
+    "A kungar to Inana and Dumuzid",
+    17
+   ],
+   [
+    "The debate between Sheep and Grain",
+    10
+   ]
+  ],
+  "word (decree)": [
+   [
+    "The instructions of Suruppag",
+    21
+   ],
+   [
+    "The exaltation of Inana",
+    19
+   ],
+   [
+    "Gilgames, Enkidu, and the Underworld",
+    11
+   ],
+   [
+    "A hymn to Nungal",
+    10
+   ],
+   [
+    "A praise poem of Sulgi",
+    9
+   ]
+  ]
+ }
+}

@@ -41,3 +41,9 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
 - **N** Stress evenness, weight rhythm and alliteration put John with the Psalms and ordinary prose. Homeric verse is the most periodic (the control passes). The "cadence" difference at sentence ends appears in every corpus (word endings), so it is not design.
 - **V** The prologue's centre falls in verse 12 in the Syriac Peshitta, Coptic Sahidic and Latin Vulgate as in Greek (letters). Translation keeps the proportions, so the centre is a property of the content's balance, not of Greek sound alone.
 - **N** The "I am" sayings are not quieter than random verse sets (p = 0.28).
+
+## G. Round 10: John's sound map (code/analysis/john_noise_map.py; chart john_noise_map.svg)
+- **V The deepest quiet in John is the vine-and-abiding discourse.** The noise share drops from about 0.33 to 0.275 across John 14:30–16:33. The quietest points are 15:1 ("I am the true vine") and 16:19, then 5:37 (the Father's witness). By fifths of the book, John dips only in the fourth fifth (0.314); Matthew, Mark and Luke stay flat.
+- **V Sound follows meaning.** The noise curve falls where these themes rise (corrected over 18 themes): Father (r = −0.49), "I am" (−0.31), abide (−0.38), truth (−0.29), witness (−0.27); love is borderline (−0.23). Water, light and bread do not track quiet, and "signs" tend toward noise (+0.27, borderline). The intimate language of indwelling ("in me", "abide", "the Father in me") is John's most voiced, least noisy sound.
+- **V Speech is quieter than narrative** (verses with first- or second-person verbs: 0.322 against 0.331, p = 0.0015).
+- **N/O** Pivot verses are not quiet: the prologue centre (1:12), "It is finished" (19:30) and "I am the resurrection" (11:25) sit among John's noisiest 5–10%. That may be a contrast pattern (dense consonants at turning points). It needs a fixed list and a test before it counts.

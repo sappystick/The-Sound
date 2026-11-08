@@ -267,3 +267,27 @@ Three tests that impose no units of ours, each with a null or a control.
 - **S Two modes.** Sound ↔ voice r −0.41 (p < 0.001). Voice ↔ themes +0.38 (p < 0.001). Tense ↔ movement +0.34 (p 0.003; partly shared verbs). Movement ↔ themes −0.24 (p 0.02). The text alternates between narrative action (historic presents, movement, harder sound) and discourse (1st/2nd person, theme words, quiet sound).
 - **N No multi-layer synchrony.** Verses where three or more layers peak together: 64 against 62 expected (p 0.45). Leaving out sound and voice, the count is 154 against 142 (p 0.20). The pointers (centres, "I am", the schism word, the vertical axis, the high priest, living water) are independent of every other layer (|r| ≤ 0.11).
 - **Meaning:** John's layers do not fire together. They take turns. The meaning-markers sit on a separate track from sound and motion, so the "extra dimension" is the alternation itself, together with the cross-references, not a stacked peak.
+
+## AA. Controls for the breath edges; the rhythm of the mode switch (round 28, `round28.py`)
+**A. The breath-edge effect belongs to John.** The same self-segmentation and the same matched test (the same word form at a clause end vs elsewhere) were run on 10 texts. The John texts are the first 40,000 letters of each manuscript; P46's Romans, 1 Corinthians and Hebrews are shorter (18,441–31,197 letters).
+
+| Text | MDL same-word lift (p) | BPE same-word lift (p) |
+|---|---|---|
+| John P66 | +4.2% (0.018) | +6.4% (<0.001) |
+| John P75 | +2.7% (0.13) | +8.3% (<0.001) |
+| John Sinaiticus | +5.7% (0.007) | +6.3% (<0.001) |
+| John Vaticanus | +6.4% (0.003) | +6.6% (<0.001) |
+| **Luke, P75, same scribe** | +1.0% (0.35) | +0.6% (0.37) |
+| Mark, Sinaiticus | −2.0% (0.77) | −19.1% (1.00) |
+| Mark, Vaticanus | −5.6% (0.99) | −18.0% (1.00) |
+| Romans, P46 | −2.6% (0.77) | +2.1% (0.20) |
+| 1 Corinthians, P46 | +1.2% (0.38) | +4.8% (0.010) |
+| Hebrews, P46 | −0.1% (0.48) | +2.8% (0.15) |
+
+- **S** The effect appears in all four manuscripts of John and in neither method's run on Luke written by the same scribe in the same codex. So it comes from the composition, not the copying.
+- It is absent or reversed in Mark (both codices) and in Paul, apart from one weak BPE result for 1 Corinthians. In Mark the letters actually *hide* clause ends, consistent with Mark's flowing καί-chains.
+- In John alone, clause edges can be heard in the letter stream. The likely mechanism, still to be tested, is that John's clauses begin with recurring, predictable openings: asyndeton, οὖν, "λέγει αὐτῷ", "ἀμὴν ἀμήν". That is a mark of composition for speaking aloud.
+
+**B. The action/discourse switch is not a regular beat.**
+- **N** All four Gospels switch *less* often and *less* regularly than autocorrelated noise. John's regularity CV is 1.56 against 0.90 (p of more regular = 1.00); measured in spoken time it is 1.62. The switching clusters: rapid alternation in dialogues (John 4, 7, 10, 18–20), then long unbroken stretches. The longest is the farewell discourse, 13:32 → 18:4, with no switch for five chapters.
+- **I** The strongest period in John is 289 verses, which divides the book into thirds (p 0.002). In spoken time that is ~76 minutes, a third of the 227-minute performance. Matthew also shows thirds (356 verses, p 0.006). Mark's strongest period is the whole book; Luke's is not significant. So the result is not unique to John. It may reflect three performance sittings, or just slow drift. Next test: whether the thirds line up with natural breaks (around 7:1 and 13:1).

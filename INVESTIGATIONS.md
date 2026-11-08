@@ -7,7 +7,8 @@ Prologue centre (all manuscripts; Syriac, Coptic, Latin) · "I am" ring · livin
 Recurrence rings · multi-layer co-peaking · line breaks at self-found units (round 27) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse-level mirrors · reversed links · noisy turning points · intimate quiet (pronoun effect) · within-verse effect (language and quotation) · an Aramaic original being more patterned.
 
 ## Open (next)
-000. **From round 27:** test the action/discourse alternation as a rhythm (period of the mode switch; is it regular, like scenes?). Run segmentation on Sinaiticus/Vaticanus and on a non-Johannine papyrus, as controls for the breath-edge effect.
+0000. **From round 28:** why John's clause edges are audible: test predictable clause openings (asyndeton, οὖν, λέγει αὐτῷ, ἀμὴν ἀμήν) by removing them and rerunning; whether the three ~76-minute movements fall at natural breaks.
+000. **From round 27 (done in round 28):** test the action/discourse alternation as a rhythm (period of the mode switch; is it regular, like scenes?). Run segmentation on Sinaiticus/Vaticanus and on a non-Johannine papyrus, as controls for the breath-edge effect.
 00. **Sound model:** add manuscript line-breaks as breath groups (P66, P75, 01, 03); render sample passages through the engine in each room; listener tests.
 0. **New from rounds 18–19:** the vertical axis (ascend/descend) set against the Songs of Ascents (Psalms 120–134); Inana's Descent full motif map against John 11 and 20; Gudea's temple-dream (Literature volume) against John 2:19–21.
 1. **Isis:** Isidorus' hymns and the Kyme structure done (round 20). Still wanted: the *ancient* Greek of the Kyme aretalogy (IK Kyme 41) for a sound test.

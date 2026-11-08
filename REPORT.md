@@ -26,6 +26,7 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 | 19 | John shares the Book of the Dead's definite "I am the …" form but none of its content; John's seven images never occur there | egypt |
 | 21 | Breath edges are in the unspaced letters: a compression model given only P66/P75 letters cuts at clause ends more often than at other ends of the same word (+3–7%, p ≤ 0.03 in 4 runs); its units put the prologue centre at 1:12 and glue ἐγὼ εἰμί into one unit | self_structure |
 | 22 | Two modes, not stacked layers: action (historic present, movement, harder sound) alternates with discourse (1st/2nd person, theme words, quiet); pointers run on their own track | self_structure |
+| 23 | The breath-edge effect is John's own: present in all four John manuscripts (P66, P75, 01, 03), absent in Luke by the same P75 scribe, absent or reversed in Mark (01, 03) and in Paul (P46) | round28 |
 | 17 | Blind recovery of John's shared tradition (John 1~Mark 1, 6~Matthew 14, 19~Matthew 27 / Mark 15) | round7 |
 
 ## 2. KNOWN+: confirmed and quantified
@@ -39,6 +40,7 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 | Dedication background | John 10 against the full Dedication liturgy (Psalms 30, 113–118) | Festival design of chapters 5–10 |
 
 ## 4. INTRIGUING: needs specific analysis
+- **Three movements of ~76 minutes:** the mode series' strongest period divides John into thirds (p 0.002), but Matthew shows thirds too. *Path:* test whether the thirds fall at natural breaks (around 7:1 and 13:1) and against red-noise surrogates.
 - **Inana's Descent ↔ John 11 / 19–20 motif map:** descent to the dead (90 mentions), corpse on a hook (16), three days and three nights, mourning women (16), life-giving water and plant (10), arising, and **a substitute who must take her place (Dumuzid)** ↔ "one man should die for the people" (11:50). *Path:* a fixed motif list across 10 ancient descent / return stories (Inana, Ishtar, Baal, Osiris, Persephone) and 5 non-descent controls, so as not to cherry-pick.
 - **The pivot verses are noisy** (1:12, 19:30, 11:25 in the noisiest 5–10%) while the "Amen, amen" verses are quiet. *Path:* a fixed list of scholarly turning points, with a pronoun-free noise share.
 - **"Sign" occurs 17 times; 153 = 1+2+…+17.** *Path:* none sound; numerology controls (round 7) say treat it as a curiosity.
@@ -46,7 +48,7 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 - **Sound-alike meaning flips** (we/you; drinks/hungers in P75). *Path:* list every flip in all papyri and test whether flips cluster at theologically loaded verses.
 
 ## 5. CLOSED-NEG
-Recurrence rings (ring : echo ratio at chance; lines ≤ 3 verses) · multi-layer co-peaking (p 0.45) · scribal line breaks at self-found units · Separation arc (all Gospels at chance) · quiet farewell beyond pronouns · papyrus lines as sense-lines (weak; mostly column width) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse mirrors · reversed links · Songs of Ascents ↔ the vertical axis (median rank 702) · noisy turning points (fixed lists) · pronoun-driven intimate quiet · within-verse effect (language and quotation) · an Aramaic original more patterned · atbash beyond known cases · Greek NT name acrostics · Genesis order in John.
+Regular beat in the action/discourse switch (all Gospels clustered, not periodic) · Recurrence rings (ring : echo ratio at chance; lines ≤ 3 verses) · multi-layer co-peaking (p 0.45) · scribal line breaks at self-found units · Separation arc (all Gospels at chance) · quiet farewell beyond pronouns · papyrus lines as sense-lines (weak; mostly column width) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse mirrors · reversed links · Songs of Ascents ↔ the vertical axis (median rank 702) · noisy turning points (fixed lists) · pronoun-driven intimate quiet · within-verse effect (language and quotation) · an Aramaic original more patterned · atbash beyond known cases · Greek NT name acrostics · Genesis order in John.
 
 ## 6. Path: the most efficient order
 1. **Sound model upgrade** (feeds several leads): use P75 line breaks as breath groups and test line-end versus clause-end. This tests manuscript lines and the quiet farewell in one build.

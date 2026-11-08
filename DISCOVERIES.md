@@ -90,3 +90,15 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
   - **John is balanced (0.55).** Matthew, Mark and Luke and the Septuagint lean to gathering (0.44–0.45).
   - Genesis 1 creates by separating (*diachorizo*: 1:4, 6, 7, 14, 18). Philo names the Logos "the Cutter" (*tomeus*) that divides all things.
   - The Community Rule uses *badal* (separate) 25 times and *yachad* (together; the Community's own name) 35 times the Hebrew Bible's rate. **Qumran separates in order to unite inside; John's Logos divides those who hear him, while gathering "into one" what is his.**
+
+## K. Round 14: tearing, sound and order (code/analysis/round14.py)
+- **V Torn in the other Gospels, not torn in John.**
+  - In Matthew and Mark **the high priest tears his garments** (Mt 26:65; Mk 14:63), and in all three Synoptics **the temple veil is torn** (Mt 27:51; Mk 15:38; Lk 23:45). Mark also has the heavens torn (1:10).
+  - In Luke's miraculous catch **the nets were tearing** (Lk 5:6).
+  - John has none of these. Instead **the tunic is not torn** (19:24) and, in his own miraculous catch, **the net is not torn** (21:11).
+- **V The law behind it: Leviticus 21:10**, "the high priest … **shall not tear his garments**". It is one of only 5 negated tearings among the Septuagint's 105 tearings.
+  - Caiaphas breaks this law in Matthew and Mark.
+  - In John, Jesus' seamless (high-priestly) tunic is kept whole.
+  - This joins the high-priest thread (Josephus' seamless robe, Polycrates' *petalon*) to the schism thread: in John the true high priest's garment is never torn.
+- **N Sound:** the schism verses are not reliably noisy. 7:43 is in John's noisiest 1–2%, but 10:19 is quiet; the three together give p = 0.13–0.20. "Not torn" 19:24 is quiet (16–25th percentile).
+- **N Order:** with the full word families (pre-registered: "not torn" counted as wholeness), separation → gathering/one → completion is not significant (p = 0.15; p = 0.40 the other way). The arc remains a reading, not a proven design.

@@ -291,3 +291,24 @@ Three tests that impose no units of ours, each with a null or a control.
 **B. The action/discourse switch is not a regular beat.**
 - **N** All four Gospels switch *less* often and *less* regularly than autocorrelated noise. John's regularity CV is 1.56 against 0.90 (p of more regular = 1.00); measured in spoken time it is 1.62. The switching clusters: rapid alternation in dialogues (John 4, 7, 10, 18–20), then long unbroken stretches. The longest is the farewell discourse, 13:32 → 18:4, with no switch for five chapters.
 - **I** The strongest period in John is 289 verses, which divides the book into thirds (p 0.002). In spoken time that is ~76 minutes, a third of the 227-minute performance. Matthew also shows thirds (356 verses, p 0.006). Mark's strongest period is the whole book; Luke's is not significant. So the result is not unique to John. It may reflect three performance sittings, or just slow drift. Next test: whether the thirds line up with natural breaks (around 7:1 and 13:1).
+
+## AB. The mechanism behind the breath edges; the "three movements" retested (round 29, `round29.py`)
+**A. Predictable openers are not the mechanism. Missing connectives are.**
+- **N** John's clause openings are not unusually predictable. Opener entropy (bits, equal samples): John 7.00, Matthew 7.13, Luke 6.75, Mark 5.36 (the most predictable). The ten commonest openers cover 35% of John's clause openings, against 37–55% in the other Gospels.
+- Splitting clause ends by what follows shows where the round-28 difference comes from. BPE results (same-word lift):
+
+  | Text | Clause ends before a stock opener | Before any other opening |
+  |---|---|---|
+  | John (3 manuscripts) | −7% to −9% | +13% to +14% |
+  | Luke | −30% | +19% |
+  | Mark | −48% | +20% |
+
+- So a stock connective (καί, ὁ δέ) glues onto the word before it and hides the clause end. Before other openings, every Gospel's edges show.
+- Mark and Luke start far more of their clauses with such connectives: 57% of Mark's clause ends in Vaticanus and 39% of Luke's in P75, against 32–34% of John's in all three manuscripts. That is what made John look unique.
+- Deleting the stock openers raises the lift everywhere, Luke and Mark included (BPE +16% to +17%). The deletion test therefore cannot separate the books.
+- **Revised reading of #23:** John's clause edges stay visible in unspaced writing because his clauses rarely start with a connective. This is the same feature as his record asyndeton (round 16). It is a real, measurable trait of John's composition, but it is the asyndeton showing through, not an extra hidden breath signal.
+
+**B. No three equal movements; the method finds each Gospel's great discourse instead.**
+- **N** The best three-part division of John's mode series is 1:1–13:32 | 13:33–17:26 | 18:1–21:25, which is 605, 123 and 138 verses (153, 33 and 42 minutes in the sound model). These are not equal thirds, so "three ~76-minute sittings" is rejected. The one-third period was the trace of one large block.
+- **S (method)** That block is the farewell discourse, found blind. The cut falls exactly at 18:1, and the other cut at 13:33, two verses from the 13:31 where commentators begin the discourse. The 3-part fit beats power-law noise surrogates (variance explained 0.141 against 0.082; p < 0.001).
+- The same test on Matthew finds the Sermon on the Mount (5:11–7:8; p < 0.001 against the surrogates). The tool recovers each Gospel's largest discourse without being told. It is a structural finder, not a sign of any special design in John.

@@ -1,0 +1,333 @@
+{
+ "turning": {
+  "'Amen, amen' verses": {
+   "n": 25,
+   "mean_pct": 0.24983833718244808,
+   "p_noisy": 1.0
+  },
+  "'the hour' announcements": {
+   "n": 16,
+   "mean_pct": 0.34988452655889146,
+   "p_noisy": 0.986
+  },
+  "blind seams (order_tests)": {
+   "n": 20,
+   "mean_pct": 0.45871824480369516,
+   "p_noisy": 0.7324
+  }
+ },
+ "speech": {
+  "Jn": {
+   "diff": -0.009633445553101527,
+   "p": 0.0
+  },
+  "Jn_nopron": {
+   "diff": 0.00031637390895444817,
+   "p": 0.934
+  },
+  "Mt": {
+   "diff": -0.0030520104052879637,
+   "p": 0.238
+  },
+  "Mt_nopron": {
+   "diff": 0.002832640582943524,
+   "p": 0.278
+  },
+  "Mk": {
+   "diff": -0.00034598833011778574,
+   "p": 0.912
+  },
+  "Mk_nopron": {
+   "diff": 0.004478261683831586,
+   "p": 0.186
+  },
+  "Lk": {
+   "diff": -0.0023717674798169885,
+   "p": 0.318
+  },
+  "Lk_nopron": {
+   "diff": 0.0038450769883282,
+   "p": 0.116
+  }
+ },
+ "father": {
+  "Jn": -0.4871661619267264,
+  "Jn_nopron": -0.16372776653871152,
+  "Mt": -0.13041960100129946,
+  "Mt_nopron": 0.03011626679876088,
+  "Mk": 0.002163609685049716,
+  "Mk_nopron": 0.05379100504329502,
+  "Lk": -0.033888539576504166,
+  "Lk_nopron": 0.04175196519120837
+ },
+ "reversed": {
+  "tested": 608,
+  "forward": 196,
+  "reversed": 84,
+  "examples": [
+   [
+    "Mt 8",
+    "Regnorum_II 13",
+    4,
+    -1.0
+   ],
+   [
+    "Mk 6",
+    "Mt 13",
+    7,
+    -1.0
+   ],
+   [
+    "Lk 21",
+    "Regnorum_IV 23",
+    4,
+    -1.0
+   ],
+   [
+    "Ac 26",
+    "Jn 18",
+    4,
+    -0.99
+   ],
+   [
+    "Jas 2",
+    "Ro 13",
+    4,
+    -0.96
+   ],
+   [
+    "Lk 12",
+    "Mt 12",
+    4,
+    -0.83
+   ],
+   [
+    "1Co 15",
+    "Ga 1",
+    5,
+    -0.79
+   ],
+   [
+    "2Co 5",
+    "Ro 8",
+    4,
+    -0.79
+   ],
+   [
+    "Heb 7",
+    "Psalmi 109",
+    7,
+    -0.77
+   ],
+   [
+    "Jn 6",
+    "Josue 1",
+    4,
+    -0.69
+   ],
+   [
+    "Osee 1",
+    "Ro 9",
+    7,
+    -0.67
+   ],
+   [
+    "Ezechiel 20",
+    "Ro 10",
+    4,
+    -0.57
+   ],
+   [
+    "1Co 10",
+    "Ro 1",
+    4,
+    -0.55
+   ],
+   [
+    "Jn 1",
+    "Odae 14",
+    6,
+    -0.53
+   ],
+   [
+    "1Th 1",
+    "Jn 12",
+    4,
+    -0.52
+   ],
+   [
+    "1Co 10",
+    "Ro 11",
+    4,
+    -0.52
+   ],
+   [
+    "Psalmi 85",
+    "Re 15",
+    5,
+    -0.45
+   ],
+   [
+    "2Co 9",
+    "Psalmi 111",
+    7,
+    -0.45
+   ],
+   [
+    "Jn 6",
+    "Psalmi 77",
+    4,
+    -0.45
+   ],
+   [
+    "Lk 7",
+    "Regnorum_IV 1",
+    5,
+    -0.41
+   ]
+  ]
+ },
+ "dss": {
+  "profiles": [
+   [
+    "light",
+    2.217774568115801,
+    1.334480650705505
+   ],
+   [
+    "darkness",
+    2.4087831949723433,
+    0.4371097523359801
+   ],
+   [
+    "truth",
+    2.8033816751180085,
+    2.1521905539072126
+   ],
+   [
+    "spirit",
+    1.6298967953418988,
+    -0.008193087938495299
+   ],
+   [
+    "love",
+    1.6656887829944982,
+    0.8539515474262525
+   ],
+   [
+    "hate",
+    1.062573477944998,
+    0.18085277105502456
+   ],
+   [
+    "know/knowledge",
+    1.622751221500716,
+    1.4050327042067596
+   ],
+   [
+    "walk",
+    1.2214891657051927,
+    0.6281649890986893
+   ],
+   [
+    "life",
+    0.4298001480789755,
+    1.950184298981097
+   ],
+   [
+    "judgement",
+    2.0487587323098095,
+    1.2674580544094105
+   ],
+   [
+    "spirit of holiness",
+    1.5909359069952949,
+    -0.5545579873952017
+   ],
+   [
+    "commandment/law",
+    2.53495784389197,
+    0.5771985455066619
+   ]
+  ],
+  "rho": 0.18881118881118883
+ },
+ "echoes": {
+  "Ignatius (7 letters, c. 110)": {
+   "words": 7764,
+   "john": 11,
+   "synoptic": 43,
+   "lean": 0.56
+  },
+  "Polycarp, Philippians (c. 120)": {
+   "words": 1580,
+   "john": 2,
+   "synoptic": 17,
+   "lean": -0.06
+  },
+  "Shepherd of Hermas (c. 140)": {
+   "words": 28604,
+   "john": 37,
+   "synoptic": 215,
+   "lean": 0.14
+  },
+  "Clement of Alexandria (c. 200)": {
+   "words": 102394,
+   "john": 71,
+   "synoptic": 572,
+   "lean": -0.19
+  },
+  "Philo (control, before John)": {
+   "words": 417964,
+   "john": 200,
+   "synoptic": 527,
+   "lean": 0.92
+  },
+  "Josephus (control)": {
+   "words": 311976,
+   "john": 191,
+   "synoptic": 715,
+   "lean": 0.57
+  }
+ },
+ "signature": {
+  "Ignatius (7 letters, c. 110)": {
+   "bread of God / of life": 1,
+   "whence it comes and where it goes": 1,
+   "the door (of the Father)": 1,
+   "the Word from silence / Logos made flesh": 1
+  },
+  "Polycarp, Philippians (c. 120)": {},
+  "Shepherd of Hermas (c. 140)": {},
+  "Clement of Alexandria (c. 200)": {
+   "living water": 1,
+   "bread of God / of life": 1,
+   "light of the world": 2,
+   "lamb of God": 1,
+   "only-begotten son": 2,
+   "the door (of the Father)": 3,
+   "the Word from silence / Logos made flesh": 2,
+   "true vine": 1
+  },
+  "Philo (control, before John)": {},
+  "Josephus (control)": {
+   "the door (of the Father)": 3
+  },
+  "Synoptics (reference)": {
+   "light of the world": 1,
+   "only-begotten son": 1,
+   "the door (of the Father)": 3
+  },
+  "John (reference)": {
+   "living water": 3,
+   "bread of God / of life": 3,
+   "spirit of truth": 3,
+   "light of the world": 2,
+   "lamb of God": 2,
+   "whence it comes and where it goes": 1,
+   "the door (of the Father)": 3,
+   "the Word from silence / Logos made flesh": 1,
+   "true vine": 1
+  }
+ }
+}

@@ -1,76 +1,181 @@
 {
-  "_about": "Every configurable choice in reconstructing John as heard. Each option names its evidence. build_john_model.py turns the chosen options into a full score: verse -> breath group -> word -> syllable -> phoneme, with timing, pitch, loudness, room and structure markers.",
-
-  "text": {
-    "base": "SBLGNT",
-    "options": {"SBLGNT": "critical text (MorphGNT)", "P66": "papyrus c. 200 (CNTR transcription)", "P75": "papyrus c. 175-225", "01": "Codex Sinaiticus, 4th c.", "03": "Codex Vaticanus, 4th c."},
-    "nomina_sacra": "expand",
-    "pericope_adulterae_7_53_8_11": "exclude",
-    "_evidence": "P66 and P75 lack 7:53-8:11; nomina sacra (abbreviated sacred names) were read aloud in full"
+ "_about": "Every configurable choice in reconstructing John as heard. Each option names its evidence. build_john_model.py turns the chosen options into a full score: verse -> breath group -> word -> syllable -> phoneme, with timing, pitch, loudness, room and structure markers.",
+ "text": {
+  "base": "SBLGNT",
+  "options": {
+   "SBLGNT": "critical text (MorphGNT)",
+   "P66": "papyrus c. 200 (CNTR transcription)",
+   "P75": "papyrus c. 175-225",
+   "01": "Codex Sinaiticus, 4th c.",
+   "03": "Codex Vaticanus, 4th c."
   },
-
-  "pronunciation": {
-    "era": "koine",
-    "options": {
-      "attic": "classical 5th-4th c. BC: pitch accent, distinct vowel lengths, aspirated stops",
-      "koine": "1st-2nd c. AD Greek East (Allen, Vox Graeca; Horrocks; Gignac's Egyptian papyri): ei = i, ai = e, o = omega, stress accent, length lost",
-      "koine-late": "3rd-4th c.: also eta = i, oi/y moving toward i, aspirates becoming fricatives"
-    },
-    "accent": "stress",
-    "accent_options": {"pitch": "classical musical accent, rise of about a fifth", "stress": "Koine dynamic accent (loudness and length on the accented syllable)"},
-    "sound_alike_map": true,
-    "_evidence": "round 15: 53-60% of variants in P66, 01 and 03 are same-sound spellings, so the scribes heard Koine values"
+  "nomina_sacra": "expand",
+  "pericope_adulterae_7_53_8_11": "exclude",
+  "_evidence": "P66 and P75 lack 7:53-8:11; nomina sacra (abbreviated sacred names) were read aloud in full"
+ },
+ "pronunciation": {
+  "era": "koine",
+  "options": {
+   "attic": "classical 5th-4th c. BC: pitch accent, distinct vowel lengths, aspirated stops",
+   "koine": "1st-2nd c. AD Greek East (Allen, Vox Graeca; Horrocks; Gignac's Egyptian papyri): ei = i, ai = e, o = omega, stress accent, length lost",
+   "koine-late": "3rd-4th c.: also eta = i, oi/y moving toward i, aspirates becoming fricatives"
   },
-
-  "voice": {
-    "reader": "male lector",
-    "f0_hz": 110,
-    "f0_range_semitones": 4,
-    "reciting_tone": true,
-    "options": {"male lector": {"f0_hz": 110}, "female reader": {"f0_hz": 210}, "chorus": {"voices": 6}},
-    "formants": "engine.VOWELS",
-    "_evidence": "synagogue and church reading was a heightened recitation on a reciting tone (later written down as ekphonetic and Masoretic accents); exact pitch is not recoverable"
+  "accent": "stress",
+  "accent_options": {
+   "pitch": "classical musical accent, rise of about a fifth",
+   "stress": "Koine dynamic accent (loudness and length on the accented syllable)"
   },
-
-  "tempo": {
-    "syllables_per_second": 3.0,
-    "options": {"speech": 5.0, "public reading": 3.0, "chant": 2.0},
-    "pause_seconds": {"comma": 0.35, "colon_or_raised_dot": 0.6, "full_stop": 0.9, "paragraph_seam": 1.5},
-    "breath_groups": "punctuation",
-    "breath_group_options": {"punctuation": "SBLGNT punctuation (modern)", "sense_lines": "split at clause boundaries, max 18 syllables", "manuscript_lines": "line breaks of the chosen manuscript (P66/P75/01/03)"},
-    "_evidence": "rounds 9-10: the prologue's breath groups average 12.5 syllables; about 8 breaths a minute at chant pace"
+  "sound_alike_map": true,
+  "_evidence": "round 15: 53-60% of variants in P66, 01 and 03 are same-sound spellings, so the scribes heard Koine values"
+ },
+ "voice": {
+  "reader": "male lector",
+  "f0_hz": 110,
+  "f0_range_semitones": 4,
+  "reciting_tone": true,
+  "options": {
+   "male lector": {
+    "f0_hz": 110
+   },
+   "female reader": {
+    "f0_hz": 210
+   },
+   "chorus": {
+    "voices": 6
+   }
   },
-
-  "dynamics": {
-    "loudness_from": "noise_share",
-    "stress_boost_db": 3,
-    "quiet_passages_db": -3,
-    "_evidence": "round 10: noise-share map; the quiet valley 14:30-16:33"
+  "formants": "engine.VOWELS",
+  "_evidence": "synagogue and church reading was a heightened recitation on a reciting tone (later written down as ekphonetic and Masoretic accents); exact pitch is not recoverable"
+ },
+ "tempo": {
+  "syllables_per_second": 3.0,
+  "options": {
+   "speech": 5.0,
+   "public reading": 3.0,
+   "chant": 2.0
   },
-
-  "space": {
-    "room": "synagogue",
-    "options": {
-      "synagogue": {"rt60_s": 1.4, "volume_m3": 600, "note": "stone hall, benches on three sides (Gamla, Magdala type)"},
-      "house_church": {"rt60_s": 0.6, "volume_m3": 120, "note": "plastered room (Dura-Europos type)"},
-      "courtyard": {"rt60_s": 0.3, "volume_m3": 2000, "note": "open court, little reverberation"},
-      "ephesus_theatre": {"rt60_s": 1.8, "volume_m3": 50000, "note": "large open-air theatre, strong early reflections"},
-      "temple_court": {"rt60_s": 2.2, "volume_m3": 30000, "note": "Herodian temple porticoes (Solomon's portico, John 10:23)"},
-      "holy_of_holies": {"engine_room": "holy_of_holies"},
-      "open_air_jordan": {"rt60_s": 0.1, "volume_m3": null, "note": "river bank (John 1:28; 3:23)"}
-    },
-    "_evidence": "estimates by room type; the engine's modal rooms (engine.MODAL_ROOMS) for the temple spaces"
+  "pause_seconds": {
+   "comma": 0.35,
+   "colon_or_raised_dot": 0.6,
+   "full_stop": 0.9,
+   "paragraph_seam": 1.5
   },
-
-  "performance": {
-    "responses": {"amen": true, "where": "after 'Amen, amen' sayings, the reader may pause for the hearers' amen"},
-    "sessions": "chapter_groups",
-    "session_options": {"chapter_groups": [[1, 4], [5, 6], [7, 10], [11, 12], [13, 17], [18, 21]], "festival": "John 2 Passover, 5 a feast, 6 Passover, 7-9 Tabernacles, 10 Dedication, 11-19 Passover"},
-    "_evidence": "the festival sequence is John's own; the session split is configurable"
+  "breath_groups": "punctuation",
+  "breath_group_options": {
+   "punctuation": "SBLGNT punctuation (modern)",
+   "sense_lines": "split at clause boundaries, max 18 syllables",
+   "manuscript_lines": "line breaks of the chosen manuscript (P66/P75/01/03)"
   },
-
-  "markers": {
-    "include": ["prologue_centre", "i_am_ring", "i_am_images", "amen_amen", "seams", "theme_blocks", "schism_chain", "vertical_axis", "high_priest", "living_water", "sound_alikes"],
-    "_evidence": "from DISCOVERIES.md; each marker is attached to the syllables where it occurs"
+  "_evidence": "rounds 9-10: the prologue's breath groups average 12.5 syllables; about 8 breaths a minute at chant pace",
+  "section_pauses": {
+   "mode": "self_found",
+   "options": {
+    "self_found": "cuts found blind from the text (round 30): major = the 4-part structure, minor = cuts recurring in 2+ of 10 segmentations",
+    "legacy": "fixed seams at 6:1, 13:1, 18:1 (paragraph_seam)",
+    "none": "no section pauses"
+   },
+   "major_seconds": 3.0,
+   "minor_seconds": 2.0,
+   "merge_within_verses": 2,
+   "_evidence": "Cut positions are measured (round 30). Pause lengths are assumptions: longer than a paragraph seam (1.5 s); in performance a major section break may have been a longer rest or a change of reader."
   }
+ },
+ "dynamics": {
+  "loudness_from": "noise_share",
+  "stress_boost_db": 3,
+  "quiet_passages_db": -3,
+  "_evidence": "round 10: noise-share map; the quiet valley 14:30-16:33"
+ },
+ "space": {
+  "room": "synagogue",
+  "options": {
+   "synagogue": {
+    "rt60_s": 1.4,
+    "volume_m3": 600,
+    "note": "stone hall, benches on three sides (Gamla, Magdala type)"
+   },
+   "house_church": {
+    "rt60_s": 0.6,
+    "volume_m3": 120,
+    "note": "plastered room (Dura-Europos type)"
+   },
+   "courtyard": {
+    "rt60_s": 0.3,
+    "volume_m3": 2000,
+    "note": "open court, little reverberation"
+   },
+   "ephesus_theatre": {
+    "rt60_s": 1.8,
+    "volume_m3": 50000,
+    "note": "large open-air theatre, strong early reflections"
+   },
+   "temple_court": {
+    "rt60_s": 2.2,
+    "volume_m3": 30000,
+    "note": "Herodian temple porticoes (Solomon's portico, John 10:23)"
+   },
+   "holy_of_holies": {
+    "engine_room": "holy_of_holies"
+   },
+   "open_air_jordan": {
+    "rt60_s": 0.1,
+    "volume_m3": null,
+    "note": "river bank (John 1:28; 3:23)"
+   }
+  },
+  "_evidence": "estimates by room type; the engine's modal rooms (engine.MODAL_ROOMS) for the temple spaces"
+ },
+ "performance": {
+  "responses": {
+   "amen": true,
+   "where": "after 'Amen, amen' sayings, the reader may pause for the hearers' amen"
+  },
+  "sessions": "chapter_groups",
+  "session_options": {
+   "chapter_groups": [
+    [
+     1,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     10
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     13,
+     17
+    ],
+    [
+     18,
+     21
+    ]
+   ],
+   "festival": "John 2 Passover, 5 a feast, 6 Passover, 7-9 Tabernacles, 10 Dedication, 11-19 Passover"
+  },
+  "_evidence": "the festival sequence is John's own; the session split is configurable"
+ },
+ "markers": {
+  "include": [
+   "prologue_centre",
+   "i_am_ring",
+   "i_am_images",
+   "amen_amen",
+   "seams",
+   "theme_blocks",
+   "schism_chain",
+   "vertical_axis",
+   "high_priest",
+   "living_water",
+   "sound_alikes"
+  ],
+  "_evidence": "from DISCOVERIES.md; each marker is attached to the syllables where it occurs"
+ }
 }

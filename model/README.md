@@ -17,3 +17,7 @@
 
 Default build (Koine, public-reading pace of 3 syllables a second, male lector at 110 Hz, synagogue with RT60 1.4 s): **227 minutes**, 2,310 breath groups, 10.2 breaths a minute. The bread chapter (6) is the longest single reading (17.9 minutes).
 Change any value in the config and rebuild. The engine (`code/engine/engine.py`) can render the score to audio when wanted.
+
+
+## Section pauses (round 31)
+`tempo.section_pauses.mode`: `self_found` (default) puts pauses at breaks found from the text alone: major 3 s at 1:16, 13:33, 18:1; minor 2 s at 5:30, 6:1, 6:29, 6:60, 7:52, 8:56, 9:8, 9:35, 17:1. The cuts are read from `code/analysis/round30_results.json`. `legacy` uses the old seams at 6:1, 13:1, 18:1; `none` turns section pauses off. The break positions are measured; the pause lengths are assumptions.

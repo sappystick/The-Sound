@@ -39,6 +39,18 @@ for v in [(1, 51), (3, 13), (6, 33), (6, 38), (6, 41), (6, 50), (6, 51), (6, 58)
 for v in [(11, 49), (11, 51), (18, 13), (18, 15), (18, 19), (19, 23), (19, 24)]: MARK[v].add("high_priest")
 for v in [(4, 10), (4, 14), (7, 38), (19, 34)]: MARK[v].add("living_water")
 BLOCKS = [("water", (2, 1), (4, 42)), ("bread and life", (6, 1), (6, 71)), ("light", (8, 12), (9, 41)), ("hour and glory", (12, 20), (13, 32)), ("abide and love", (14, 1), (17, 26))]
+# ---- section pauses from the blind segmentation (round 30)
+SP = CFG["tempo"].get("section_pauses", {"mode": "legacy"}); SECTION = {}
+if SP["mode"] == "self_found":
+    R30 = json.load(open(os.path.join(os.path.dirname(HERE), "code", "analysis", "round30_results.json"), encoding="utf-8"))
+    pv = lambda s_: tuple(int(x) for x in s_.split(":"))
+    for cut in R30["MODE"]["4"]["cuts"]: SECTION[pv(cut)] = "major"
+    cand = sorted(((m, pv(cv)) for cv, m in R30["recurring"] if m >= 2), key=lambda x: -x[0])
+    for m, k in cand:
+        if any(k[0] == q[0] and abs(k[1] - q[1]) <= SP["merge_within_verses"] for q in SECTION): continue
+        SECTION[k] = "minor"
+elif SP["mode"] == "legacy":
+    SECTION = {k: "legacy" for k in [(6, 1), (13, 1), (18, 1)]}
 SOUND_ALIKE = {"ημεισ", "υμεισ", "ημων", "υμων", "ημιν", "υμιν", "ημασ", "υμασ"}
 # ---- load text
 V = collections.OrderedDict()
@@ -46,13 +58,21 @@ for l in open(glob.glob(os.path.join(SBL, "*-Jn-morphgnt.txt"))[0], encoding="ut
     p = l.split(); V.setdefault((int(p[0][2:4]), int(p[0][4:6])), []).append(p[3])
 if CFG["text"]["pericope_adulterae_7_53_8_11"] == "exclude":
     for k in [k for k in V if (7, 53) <= k <= (8, 11)]: del V[k]
+if SP["mode"] == "self_found":      # merge cuts that are within N verses of a stronger one, across chapter ends too
+    order = {k: i for i, k in enumerate(V)}; keep = {}
+    for k, kind in sorted(SECTION.items(), key=lambda x: x[1] != "major"):
+        if k in order and all(abs(order[k] - order[q]) > SP["merge_within_verses"] for q in keep): keep[k] = kind
+    SECTION = keep
 semi = 2 ** (rng_st / 12)
 t = 0.0; rows = []; vrows = []; group = 0
 with gzip.open(os.path.join(OUT, "john_score.jsonl.gz"), "wt", encoding="utf-8") as fh:
     for (c, v), toks in V.items():
         vstart = t; nsyl = 0; obs = nph = 0; groups0 = group
         block = next((b for b, a, z in BLOCKS if a <= (c, v) <= z), None)
-        if (c, v) in [(6, 1), (13, 1), (18, 1)]: t += P["paragraph_seam"]
+        sec = SECTION.get((c, v), "")
+        if sec == "major": t += SP["major_seconds"]
+        elif sec == "minor": t += SP["minor_seconds"]
+        elif sec == "legacy": t += P["paragraph_seam"]
         for wi, raw in enumerate(toks):
             sy = parse(raw); n = len(sy)
             for si, s in enumerate(sy):
@@ -67,7 +87,7 @@ with gzip.open(os.path.join(OUT, "john_score.jsonl.gz"), "wt", encoding="utf-8")
             if re.search(r"[.;·]$", raw): t += P["full_stop"] if raw.endswith(".") else P["colon_or_raised_dot"]; group += 1
             elif raw.endswith(","): t += P["comma"]; group += 1
         vrows.append(dict(verse=f"{c}:{v}", start_s=round(vstart, 1), dur_s=round(t - vstart, 2), syllables=nsyl, breath_groups=group - groups0,
-                          noise_share=round(obs / max(nph, 1), 3), block=block or "", markers=";".join(sorted(MARK.get((c, v), set())))))
+                          noise_share=round(obs / max(nph, 1), 3), block=block or "", section_break=sec, markers=";".join(sorted(MARK.get((c, v), set())))))
 with open(os.path.join(OUT, "john_verses.csv"), "w", newline="", encoding="utf-8") as fh:
     w = csv.DictWriter(fh, fieldnames=list(vrows[0])); w.writeheader(); w.writerows(vrows)
 tot = t; first = {}
@@ -77,7 +97,9 @@ for r in vrows:
 summary = dict(config=dict(era=era, rate=rate, f0=f0, room=room, rt60=ROOM.get("rt60_s")), running_time_min=round(tot / 60, 1), verses=len(vrows),
                syllables=sum(r["syllables"] for r in vrows), breath_groups=group, breaths_per_min=round(group / (tot / 60), 1),
                chapter_times_min={c: round(sum(r["dur_s"] for r in vrows if r["verse"].startswith(f"{c}:")) / 60, 1) for c in range(1, 22)},
-               first_marker_position=first)
+               first_marker_position=first,
+               section_pauses=dict(mode=SP["mode"], breaks={f"{c}:{v}": k for (c, v), k in sorted(SECTION.items())}),
+               sections_min=[(r["verse"], round(r["start_s"] / 60, 1)) for r in vrows if r["section_break"]])
 json.dump(summary, open(os.path.join(OUT, "john_summary.json"), "w"), ensure_ascii=False, indent=1)
 print(json.dumps({k: summary[k] for k in ("config", "running_time_min", "verses", "syllables", "breath_groups", "breaths_per_min")}, ensure_ascii=False))
 print("chapter minutes:", summary["chapter_times_min"])

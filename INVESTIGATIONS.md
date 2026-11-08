@@ -7,6 +7,7 @@ Prologue centre (all manuscripts; Syriac, Coptic, Latin) · "I am" ring · livin
 Recurrence rings · multi-layer co-peaking · line breaks at self-found units (round 27) · Book rings · John as a miniature of the Bible · centre-quoting · number and ratio codes · verse-level mirrors · reversed links · noisy turning points · intimate quiet (pronoun effect) · within-verse effect (language and quotation) · an Aramaic original being more patterned.
 
 ## Open (next)
+0000b. **Round 31 done:** the voice-drawn outline is unique to John; section pauses are in the model. Next: render the three major section breaks in the rooms; test outline recovery in Acts (Luke's second volume) and in a Hebrew narrative book as controls.
 0000a. **Round 30 done:** the blind 4-part structure matches the outline (p 0.001); finer units are discourses. Next: run the same segmenter on Mark, Matthew and Luke against their outlines; give the sound model section-level pauses at the self-found cuts.
 0000. **Round 28 follow-ups done in round 29** (mechanism = missing connectives; thirds = farewell block). Next: run the block-finder at 4–8 parts to map John's full section structure blind and compare it with commentators' outlines.
 00000. **Previously from round 28:** why John's clause edges are audible: test predictable clause openings (asyndeton, οὖν, λέγει αὐτῷ, ἀμὴν ἀμήν) by removing them and rerunning; whether the three ~76-minute movements fall at natural breaks.

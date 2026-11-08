@@ -335,3 +335,30 @@ Cuts were scored against a standard commentators' outline and against chapter st
   - the vine and the Paraclete, 14:4/14:5–16:33 [fruit, branch, Paraclete, sorrow];
   - the prayer, 17:1–17:25 [sanctify, world, yours, give], which matches chapter 17 exactly.
 - **Meaning:** at the largest scale, John's own signals draw the four-part structure scholars use. Below that, the text divides itself by *speeches* (bread, Abraham, the blind man's trial, vine/Paraclete, prayer), not by the festival calendar. The festivals are narrative frame; the discourses are the units a listener would hear as sections.
+
+## AD. The section-finder on all four Gospels; section pauses in the sound model (round 31, `round31.py`)
+**A. Same blind segmentation, same scoring, each Gospel against its own conventional outline** (fixed before running). The table gives p for cuts lying closer to the outline than 5,000 random cut sets.
+
+| Gospel | MODE 4 / 6 / 8 parts | WORDS 4 / 6 / 8 parts |
+|---|---|---|
+| John | **0.001** / 0.09 / 0.13 | 0.22 / 0.29 / 0.26 |
+| Mark | 0.10 / 0.21 / 0.22 | 0.54 / 0.76 / 0.46 |
+| Matthew | 0.47 / 0.90 / 0.81 | 0.15 / 0.19 / 0.05 |
+| Luke | 0.60 / 0.27 / 0.43 | **0.002** / 0.11 / 0.69 |
+
+- With 24 tests, two results survive correction: John's MODE result and Luke's WORDS result.
+- **S John is the only Gospel whose outline is drawn by the voice.** The switching between narration and direct address (who is speaking, and to whom) reproduces John's structure: prologue / signs / farewell / passion, with every cut within 3 verses. In the other Gospels the same signal finds only their speech blocks: Matthew's Sermon (5:11–7:7), Luke's Sermon on the Plain (6:21–6:38) and Mark's Jerusalem controversies (10:14–15:14). John's architecture is audible: a listener hears the sections change as the voice changes.
+- **Luke's outline is drawn by subject.** Vocabulary gives infancy 1:1–3:4 | ministry 3:5–19:12 | the parable of the minas 19:13–27 | Jerusalem and the passion from 19:28. The 19:28 cut is exact (p 0.002).
+- **Mark and Matthew:** whole outlines are not recovered, but single landmarks are found exactly by vocabulary:
+  - Mark: the parables at 4:1 (4:1–35) and Caesarea Philippi at 8:27;
+  - Matthew: the parables chapter (13:53 exact at 8 parts), the genealogy (1:1–18) and the woes (23:13–28).
+- **Meaning:** each Gospel's structure lives in a different channel: John's in voice, Luke's in subject, Mark's and Matthew's in their discourse blocks. Of the four, John's is the one built for the ear.
+
+**B. Section pauses in the sound model.** `john_model_config.json` → `tempo.section_pauses`, with three modes:
+- `self_found` (default): pauses at the blind cuts.
+  - Major, 3 s: 1:16, 13:33, 18:1.
+  - Minor, 2 s: 5:30, 6:1, 6:29, 6:60, 7:52, 8:56, 9:8, 9:35, 17:1. These are cuts that recur in 2 or more of round 30's 10 segmentations; cuts within 2 verses of a stronger one are merged, across chapter ends too.
+- `legacy`: the old fixed seams.
+- `none`.
+
+The cut positions are measured; the pause lengths are assumptions. Running time is now 227.8 minutes. Each verse row carries `section_break`, and the summary lists the minute each section starts. The major breaks fall at minutes 2.9, 153.2 and 185.9.

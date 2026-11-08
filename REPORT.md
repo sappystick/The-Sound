@@ -28,6 +28,7 @@ Script names are in `code/analysis/`; DISCOVERIES.md has the details and section
 | 22 | Two modes, not stacked layers: action (historic present, movement, harder sound) alternates with discourse (1st/2nd person, theme words, quiet); pointers run on their own track | self_structure |
 | 23 | John's clause edges stay visible in unspaced papyri (all four manuscripts; not in Luke by the same scribe, Mark or Paul) because his clauses rarely open with a connective: the connectives in Mark and Luke glue onto the preceding word and hide the edge. A letter-level trace of John's asyndeton | round28, round29 |
 | 24 | John's four-part structure (prologue 1:1–15 / signs / farewell 13:33–17:26 / passion 18:1) recovered from the action–discourse signal alone, every cut within 3 verses of the outline (p 0.001); finer self-found units are the discourses (6:29–60, 7:52/8:12–55, 9:8–34, 14–16, 17), not the feasts | round30 |
+| 25 | Only in John does the narration/direct-address switch reproduce the outline (p 0.001; Mark 0.10, Matthew 0.47, Luke 0.60). Luke's structure is carried by subject vocabulary instead (p 0.002). John's architecture is audible | round31 |
 | 17 | Blind recovery of John's shared tradition (John 1~Mark 1, 6~Matthew 14, 19~Matthew 27 / Mark 15) | round7 |
 
 ## 2. KNOWN+: confirmed and quantified

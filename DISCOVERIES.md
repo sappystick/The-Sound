@@ -207,3 +207,11 @@ A configurable, evidence-labelled reconstruction of John as heard (see model/REA
    - **None of John's seven images (bread, light, door, shepherd, resurrection, way, vine) occurs as "I am the …" in the Book of the Dead or the *Egyptian Literature* anthology.**
    - **V:** John shares the Egyptian funerary *form* ("I am the …") but not its *content*. The deceased claims divine identities; John's Jesus offers everyday, life-giving things.
 5. **Rendered audio** (engine; Koine; public declamation): the prologue 1:1–5, the vine 15:1–5 and "It is finished" 19:28–30, each in a synagogue, a house church and a theatre (`audio_model/*.mp3`, with the phonetic score in the matching .json).
+
+## V. Round 23: was the text written as performance? (code/analysis/movement.py) · interactive map (map/index.html)
+- **Test:** every verb of motion is a step on three axes (vertical: ascend/descend; threshold: enter/go out; approach: come/go away), and body actions are counted (stand, sit, rise, fall, bow, weep, breathe on, touch, wash, lift up the eyes).
+- **N Overall movement is ordinary.** Motion per 1,000 words: John 19.7, Matthew 20.2, Mark 19.8, Luke 16.8. Body actions: 7.2 against 7.1–9.4.
+- **V Only the vertical axis stands out** (2.1 against 1.1–1.3), the heaven–earth movement of rounds 18–19. The cumulative vertical path falls to −13 at 6:58 (the bread that "came down", repeated) and climbs back with the ascents.
+- **V John writes in blocks:** he switches between speech and action less often than chance (0.32 against 0.44 shuffled; the Synoptics are near chance at 0.41–0.45), with long discourse blocks and long action blocks. Speech and action share a verse in 19.3% of his verses (Synoptics 15–17%).
+- **N** The inside/outside staging of the trial before Pilate (18:28 in, 18:29 out, 18:33 in, 18:38 out, 19:4–5 out, 19:9 in) is visible but, with 7 moves, not more regular than chance (p = 0.46).
+- **Verdict:** the text carries staging, but there is no evidence yet of a hidden spatial notation beyond narrative. Defined next tests: compare with a real Jewish-Greek performance script (Ezekiel the Tragedian's *Exagoge*) and Greek tragedy; score deixis ("this", "here", "behold", "now") against the movement track; an actor test using only the Greek; check whether actions fall on breath boundaries in the sound model.

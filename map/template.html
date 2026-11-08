@@ -1,0 +1,234 @@
+<title>John Evidence Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a manuscript-scroll timeline of John across the top; evidence cards, the movement experiment and audio below. */
+:root{
+  --bg:#eef1f4; --panel:#ffffff; --ink:#1b2230; --muted:#5b6577; --line:#d3d9e2;
+  --lapis:#2f5fa7; --ochre:#a8741f; --water:#1f8a8a; --rose:#b0465c; --leaf:#4f7d3a; --violet:#6b56a8;
+  --solid:#2f7a4f; --known:#2f5fa7; --open:#a8741f; --neg:#8a8f99;
+  --display:"Gentium Book Plus", "GFS Didot", Georgia, serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161d; --panel:#1a2029; --ink:#e6e9ee; --muted:#9aa4b4; --line:#2c3441;
+  --lapis:#7aa2e3; --ochre:#d8a64f; --water:#4cc2c2; --rose:#e0798e; --leaf:#8fbf73; --violet:#a894e6;
+  --solid:#6cc28f; --known:#7aa2e3; --open:#d8a64f; --neg:#7d8592; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --panel:#1a2029; --ink:#e6e9ee; --muted:#9aa4b4; --line:#2c3441;
+  --lapis:#7aa2e3; --ochre:#d8a64f; --water:#4cc2c2; --rose:#e0798e; --leaf:#8fbf73; --violet:#a894e6;
+  --solid:#6cc28f; --known:#7aa2e3; --open:#d8a64f; --neg:#7d8592; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 60px}
+header h1{font:700 clamp(30px,4.5vw,46px)/1.1 var(--display);margin:8px 0 6px;text-wrap:balance}
+header p{max-width:68ch;color:var(--muted);margin:0}
+.greek{font-family:var(--display);font-style:italic;color:var(--lapis)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin:18px 0 0;padding:8px 0;display:flex;gap:6px;flex-wrap:wrap}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+nav a{font:600 14px var(--body);color:var(--ink);text-decoration:none;padding:6px 12px;border-radius:999px;border:1px solid var(--line)}
+nav a:hover,nav a:focus-visible{border-color:var(--lapis);color:var(--lapis);outline:none}
+section{margin-top:34px}
+h2{font:700 26px/1.2 var(--display);margin:0 0 6px}
+.lead{color:var(--muted);max-width:72ch;margin:0 0 14px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+/* timeline */
+.lanes{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 10px;font-size:13px}
+.lanes label{display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.svgbox{overflow-x:auto}
+svg text{fill:var(--muted);font:11px var(--mono)}
+#readout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:14px;margin-top:12px}
+@media (max-width:760px){#readout{grid-template-columns:minmax(0,1fr)}}
+#verse h3{font:700 20px var(--display);margin:0 0 4px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font-size:14px}
+.kv dt{color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{font:600 12px var(--body);padding:2px 9px;border-radius:999px;border:1px solid currentColor}
+#explain p{margin:.2em 0 .6em}
+/* discoveries */
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.filters button{font:600 13px var(--body);padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.filters button[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.card .tag{font:600 11px var(--body);letter-spacing:.06em;text-transform:uppercase}
+.card h3{font:700 18px/1.25 var(--display);margin:0;text-wrap:balance}
+.card p{margin:0;font-size:14.5px}
+.card .ev{font:12px var(--mono);color:var(--muted);margin-top:auto;padding-top:6px;border-top:1px dashed var(--line)}
+.card button.go{align-self:flex-start;font:600 12px var(--body);background:none;border:0;color:var(--lapis);cursor:pointer;padding:0}
+/* movement */
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:14px}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:70px 1fr 48px;align-items:center;gap:8px;font-size:14px;font-variant-numeric:tabular-nums}
+.bar .t{height:14px;border-radius:3px;background:var(--line);position:relative;overflow:hidden}
+.bar .t i{position:absolute;inset:0 auto 0 0;background:var(--lapis)}
+.steps{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0}
+.step{font:600 12px var(--mono);padding:4px 8px;border-radius:6px;border:1px solid var(--line)}
+.step.in{background:color-mix(in srgb,var(--lapis) 18%,transparent)}
+.step.out{background:color-mix(in srgb,var(--ochre) 22%,transparent)}
+ol.path li{margin:.25em 0}
+/* audio */
+.audio{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:12px}
+.audio .panel h3{font:700 17px var(--display);margin:0 0 4px}
+.audio select,.audio audio{width:100%;margin-top:6px}
+.small{font-size:13px;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="small">The Sound · evidence from 22 rounds of measured tests</div>
+  <h1>The Gospel of John, measured as sound</h1>
+  <p>Every finding below survived shuffled-text controls, known benchmarks and correction for many tests, or is labelled for what it is. Scroll the timeline of John read aloud, tap any point, or browse the evidence by status. <span class="greek">ἐν ἀρχῇ ἦν ὁ λόγος</span></p>
+</header>
+<nav aria-label="Sections"><a href="#map">Timeline</a><a href="#evidence">Evidence</a><a href="#movement">Movement test</a><a href="#listen">Listen</a><a href="#meaning">What it means</a></nav>
+
+<section id="map">
+  <h2>John as a 227-minute reading</h2>
+  <p class="lead">Left to right is spoken time: John read aloud at public-reading pace (3 syllables a second), chapter numbers below. The blue line is the noise share: lower means quieter, more voiced sound. Coloured lanes mark where each verified pattern occurs. Tap or hover anywhere.</p>
+  <div class="panel">
+    <div class="lanes" id="lanes"></div>
+    <div class="svgbox"><svg id="tl" viewBox="0 0 1000 330" width="100%" role="img" aria-label="Timeline of John with noise share, theme blocks and evidence markers"></svg></div>
+    <div id="readout">
+      <div id="verse"><h3>John 1:12</h3><dl class="kv"><dt>Position</dt><dd>0.017 of the reading</dd></dl><div class="chips"></div></div>
+      <div id="explain"><p class="small">Tap a marker to read what it is and how it was tested.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="evidence">
+  <h2>The evidence</h2>
+  <p class="lead">Solid = passed its controls. Known+ = known to scholars, now measured. Open = promising, needs a defined test. Closed = tested and not found, which is a result too.</p>
+  <div class="filters" role="group" aria-label="Filter by status"></div>
+  <div class="grid" id="cards"></div>
+</section>
+
+<section id="movement">
+  <h2>Was the text written as performance?</h2>
+  <p class="lead">The idea: the written Greek records movement and action as well as speech, a kind of three-dimensional score. First test: turn every verb of motion into a step on three axes (up/down, in/out, toward/away) and count body actions (stand, sit, bow, weep, breathe on, wash), then compare John with Matthew, Mark and Luke.</p>
+  <div class="two">
+    <div class="panel"><h3 style="font:700 17px var(--display);margin:0 0 8px">Vertical movement (ascend / descend) per 1,000 words</h3><div class="bars" id="bars"></div>
+      <p class="small">All motion together is level (John 19.7; Matthew 20.2; Mark 19.8; Luke 16.8). Only the vertical axis stands out: John's heaven–earth movement.</p></div>
+    <div class="panel"><h3 style="font:700 17px var(--display);margin:0 0 8px">Speech and action</h3>
+      <p>John switches between speech and action less often than chance (0.32 against 0.44 for shuffled order): he writes in long blocks of discourse and long blocks of action. In 19% of his verses, speech and action happen together (Matthew 17%, Mark 16%, Luke 15%).</p>
+      <h3 style="font:700 17px var(--display);margin:12px 0 4px">The trial before Pilate: in and out</h3>
+      <div class="steps" id="steps"></div>
+      <p class="small">The inside/outside staging scholars describe is visible, but with only 7 moves it is not more regular than chance (p = 0.46).</p></div>
+  </div>
+  <div class="panel" style="margin-top:14px">
+    <h3 style="font:700 17px var(--display);margin:0 0 6px">Verdict so far</h3>
+    <p>The text does carry staging (entrances, exits, postures, gestures), and John's vertical axis is distinctive, but there is no evidence yet of a hidden spatial notation beyond what any narrative carries. How to test it properly:</p>
+    <ol class="path">
+      <li>Compare John's staging with a real performance script in Jewish Greek: Ezekiel the Tragedian's <i>Exagoge</i> (2nd century BC), and with Greek tragedy, where stage action is written into the speech.</li>
+      <li>Score deixis (this, here, behold, now) and second-person address against the movement track: in a performance script these cluster where actors move.</li>
+      <li>Give actors only the Greek and ask them to stage a scene; compare their blocking with the movement track.</li>
+      <li>Use the sound model's timing to test whether actions fall on breath boundaries, as stage business does.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="listen">
+  <h2>Listen</h2>
+  <p class="lead">Reconstructed first-century Koine pronunciation, read as public declamation by the project's sound engine, in three spaces.</p>
+  <div class="audio" id="audio"></div>
+</section>
+
+<section id="meaning">
+  <h2>What it means</h2>
+  <div class="two">
+    <div class="panel"><h3 style="font:700 17px var(--display);margin:0 0 6px">For reading John</h3>
+      <p>John is a layered text that says so itself, written for the ear in Greek by a Semitic voice. His symbols point to particular passages: Isaiah's Servant, Ezekiel's river, Leviticus' purification, Jacob's ladder, Zechariah's Tabernacles. His teaching about the self is in his grammar: seven images without titles, "not from myself", the last "I" spent bearing witness to the truth.</p></div>
+    <div class="panel"><h3 style="font:700 17px var(--display);margin:0 0 6px">What can change</h3>
+      <p>The order of the books cannot: rings, hidden orders and number codes all tested negative. The reading can: present John in breath groups and theme blocks with centres marked, keep Greek word-chains intact in translation (one word for "divided / not torn"; both senses of <span class="greek">ἄνωθεν</span>), read him beside the passages he points to, and treat sound-alike variants as one heard text.</p></div>
+  </div>
+  <p class="small" style="margin-top:14px">Code and data: github.com/sappystick/The-Sound (DISCOVERIES.md, REPORT.md, code/analysis/). Texts: SBLGNT, Swete LXX, WLC Hebrew, CNTR papyri, Peshitta, Perseus and First1KGreek.</p>
+</section>
+</div>
+
+<script>
+const V = __DATA__;
+const MARKERS = {
+  centre:{name:"Prologue centre", color:"--lapis", verses:["1:12","1:13"], text:"The spoken midpoint of John 1:1–18 falls in verse 12, in P66, P75, Sinaiticus, Vaticanus and in Syriac, Coptic and Latin."},
+  iam:{name:"“I am” ring", color:"--violet", verses:["6:35","6:48","6:51","8:12","10:7","10:9","10:11","10:14","11:25","14:6","15:1","15:5"], text:"The twelve “I am the …” sayings mirror around the Gospel's centre (p 0.009–0.03). Seven images: bread, light, door, shepherd, resurrection, way, vine."},
+  schism:{name:"Torn / not torn", color:"--rose", verses:["7:43","9:16","10:19","19:24","21:11"], text:"Schizo five times: the crowd divided three times, then the seamless tunic and the 153-fish net “not torn”. Behind it: Leviticus 21:10, the high priest shall not tear his garments."},
+  vertical:{name:"Ascend / descend", color:"--leaf", verses:["1:32","1:33","1:51","3:13","6:33","6:38","6:41","6:42","6:50","6:51","6:58","6:62","20:17"], text:"John's vertical axis, twice the Synoptic rate: the Spirit descending, angels on Jacob's ladder, the bread that came down from heaven, “I have not yet ascended”."},
+  priest:{name:"High priest", color:"--ochre", verses:["11:49","11:51","18:13","18:15","18:19","19:23","19:24"], text:"Caiaphas “high priest that year”, the disciple “known to the high priest”, the seamless woven tunic (Josephus: the high priest's robe was “not of two pieces”). Present in every early manuscript."},
+  water:{name:"Living water", color:"--water", verses:["4:10","4:14","7:38","19:34"], text:"Living water occurs in the NT only in John. In the Hebrew Bible it sits at the exact centre of Leviticus and of the Song of Songs (p 0.0002). Blood and water flow from his side at 19:34."},
+  seams:{name:"Seams", color:"--muted", verses:["3:22","6:1","9:1","13:22","17:26","18:1"], text:"Where the wording turns most sharply, found blind; 3:22–36 is where scholars suspect displacement."}
+};
+const BLOCKS=[["water","2:1","4:42"],["bread & life","6:1","6:71"],["light","8:12","9:41"],["hour & glory","12:20","13:32"],["abide & love","14:1","17:26"]];
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const idx={}; V.forEach((r,i)=>idx[r[0]]=i);
+const W=1000, X=p=>125+p*865, NOISE_Y=[40,170], LANE0=190, LH=17;
+const on={}; Object.keys(MARKERS).forEach(k=>on[k]=true);
+function smooth(){const out=[];for(let i=0;i<V.length;i++){let s=0,n=0;for(let j=Math.max(0,i-7);j<=Math.min(V.length-1,i+7);j++){s+=V[j][2];n++}out.push(s/n)}return out}
+const SM=smooth(); const lo=Math.min(...SM), hi=Math.max(...SM);
+const ny=v=>NOISE_Y[1]-(v-lo)/(hi-lo)*(NOISE_Y[1]-NOISE_Y[0]);
+function draw(){
+  const s=document.getElementById('tl'); let h='';
+  BLOCKS.forEach(([n,a,b],bi)=>{const x1=X(V[idx[a]][1]),x2=X(V[idx[b]][1]);h+=`<rect x="${x1}" y="30" width="${x2-x1}" height="145" fill="${css('--ochre')}" opacity=".10"/><text x="${x1+3}" y="${bi%2?16:27}">${n}</text>`});
+  let ch=0; V.forEach(r=>{const c=+r[0].split(':')[0]; if(c!==ch){ch=c;h+=`<line x1="${X(r[1])}" x2="${X(r[1])}" y1="30" y2="${LANE0+LH*7}" stroke="${css('--line')}"/><text x="${X(r[1])+2}" y="${LANE0+LH*7+12}">${c}</text>`}});
+  h+=`<path d="${SM.map((v,i)=>(i?'L':'M')+X(V[i][1]).toFixed(1)+' '+ny(v).toFixed(1)).join('')}" fill="none" stroke="${css('--lapis')}" stroke-width="1.8"/>`;
+  h+=`<text x="4" y="${NOISE_Y[0]+10}">noise: higher</text><text x="4" y="${NOISE_Y[1]}">lower (quieter)</text>`;
+  Object.entries(MARKERS).forEach(([k,m],li)=>{const y=LANE0+li*LH; if(!on[k])return;
+    h+=`<text x="4" y="${y+4}">${m.name}</text>`;
+    m.verses.forEach(v=>{if(idx[v]===undefined)return;h+=`<circle cx="${X(V[idx[v]][1])}" cy="${y}" r="5" fill="${css(m.color)}" stroke="${css('--panel')}" data-k="${k}" data-v="${v}" tabindex="0" style="cursor:pointer"><title>${m.name}: John ${v}</title></circle>`})});
+  h+=`<line id="cur" x1="0" x2="0" y1="30" y2="${LANE0+LH*7}" stroke="${css('--ink')}" stroke-dasharray="3 3" opacity=".6"/>`;
+  s.innerHTML=h;
+  s.querySelectorAll('circle').forEach(c=>{c.onclick=()=>pick(c.dataset.v,c.dataset.k);c.onkeydown=e=>{if(e.key==='Enter')pick(c.dataset.v,c.dataset.k)}});
+}
+function pick(v,k){const r=V[idx[v]];document.getElementById('cur').setAttribute('x1',X(r[1]));document.getElementById('cur').setAttribute('x2',X(r[1]));
+  const ms=Object.entries(MARKERS).filter(([kk,m])=>m.verses.includes(v));
+  const blk=BLOCKS.find(([n,a,b])=>idx[v]>=idx[a]&&idx[v]<=idx[b]);
+  document.getElementById('verse').innerHTML=`<h3>John ${v}</h3><dl class="kv"><dt>Position</dt><dd>${r[1].toFixed(3)} of the reading (minute ${(r[1]*227.4).toFixed(0)})</dd><dt>Noise share</dt><dd>${r[2].toFixed(3)} (John average 0.326)</dd><dt>Theme block</dt><dd>${blk?blk[0]:'none'}</dd><dt>Vertical path</dt><dd>${r[3]} (cumulative ascents minus descents)</dd></dl><div class="chips">${ms.map(([kk,m])=>`<span class="chip" style="color:${css(m.color)}">${m.name}</span>`).join('')}</div>`;
+  const m=MARKERS[k]||(ms[0]&&ms[0][1]); document.getElementById('explain').innerHTML=m?`<p><b>${m.name}</b></p><p>${m.text}</p><p class="small">Verses: ${m.verses.join(', ')}</p>`:'<p class="small">No marker at this verse.</p>';
+}
+document.getElementById('tl').addEventListener('pointermove',e=>{if(e.target.tagName==='circle')return;const b=e.currentTarget.getBoundingClientRect();const p=((e.clientX-b.left)/b.width*W-125)/865;if(p<0||p>1)return;let best=0;for(let i=0;i<V.length;i++)if(Math.abs(V[i][1]-p)<Math.abs(V[best][1]-p))best=i;pick(V[best][0])});
+const lanes=document.getElementById('lanes');
+Object.entries(MARKERS).forEach(([k,m])=>{const l=document.createElement('label');l.innerHTML=`<input type="checkbox" id="lane-${k}" checked> <span class="sw" style="background:${css(m.color)}"></span>${m.name}`;l.querySelector('input').onchange=e=>{on[k]=e.target.checked;draw()};lanes.appendChild(l)});
+draw(); pick("1:12","centre");
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{draw()});
+new MutationObserver(()=>draw()).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+const CARDS=[
+ ["solid","Prologue centre at 1:12","The spoken midpoint of 1:1–18 falls in verse 12 in all four oldest manuscripts and in Syriac, Coptic and Latin.","earliest_text · aramaic_prologue","centre","1:12"],
+ ["solid","“I am” ring","The twelve “I am the …” sayings mirror around the Gospel's centre.","p 0.009–0.03 · john_book","iam","10:11"],
+ ["solid","Living water at book centres","Leviticus 14:50 and Song 4:15 are the exact letter-centres of their books; “life / living” is the only theme commoner at all 39 centres.","p 0.0002; 5 of 39 vs 0.9 · centre_catalogue, round22","water","7:38"],
+ ["solid","Hyssop, blood and water","Together only in Leviticus 14, Numbers 19, John 19 and Hebrews 9; only John has hyssop at the cross.","directions","water","19:34"],
+ ["solid","Torn / not torn","Crowds divided three times; the tunic and the 153-fish net not torn; against Leviticus 21:10 and the torn robes and veil in the Synoptics.","round13, round14","schism","19:24"],
+ ["solid","153 points to one verse","The 17/153 letter-value pair meets in only one fishing verse of the Hebrew Bible: Ezekiel 47:10.","river_key","schism","21:11"],
+ ["solid","John decodes himself","Narrator explanations (5×) and “not from myself” (13×) occur in John and no other Gospel.","john_key, river_key","iam","8:28"],
+ ["solid","John's own “I am”","“I am the + image”, 47% of his uses; never “I am the Lord”; no names or titles, unlike Sulgi, Isis and the Book of the Dead.","iam_forms, sumer, isis, egypt","iam","6:35"],
+ ["solid","The quietest prose","Noise share 0.326 against 0.344–0.347 for the Synoptics, Psalms, Josephus and Philo; holds on content words alone.","p 8e-13 · acoustic",null,"15:1"],
+ ["solid","Breathes like a psalm","Prologue breath groups of 12.5 syllables, regular; about 8 breaths a minute at chant pace; farthest of 8 classes from the Magical Papyri.","directions, pgm_extract","centre","1:5"],
+ ["solid","The spoken text was steadier","53–60% of variants in P66, Sinaiticus and Vaticanus sound identical; some flip “we/you” or “drinks/hungers” on the page only.","ms_sound",null,"9:40"],
+ ["solid","Composed in Greek by a Semitic voice","Translation score 0.49 (model 97% accurate); highest asyndeton; the word-chains break in Syriac.","semitic, ms_sound",null,"3:3"],
+ ["solid","The vertical axis","Ascend / descend twice the Synoptic rate; heaven–earth and temple-ascent strands.","round19, movement","vertical","1:51"],
+ ["known","Lamb of God as the Servant","Isaiah 52:13–53:12 ranks 97 of 4,012; the Passover lamb 725; shared word amnos.","round19",null,"1:29"],
+ ["known","Seamless tunic = high priest","Josephus, Antiquities 3.161; Polycrates: John wore the petalon; Wisdom 18:24 robe of the cosmos.","high_priest, john_history","priest","19:23"],
+ ["known","Scroll-Johannine idioms","Sons of light, spirit of truth, spirit of error, doing the truth: Scrolls and John only.","round12",null,"12:36"],
+ ["known","Tabernacles behind John 7–9","Zechariah 14:7–8 and Mishnah Sukkah: water from Siloam, lamps in every court.","river_key","water","7:37"],
+ ["open","Inana's Descent","All six of John's motifs, including a substitute; but a control story scores 4. Needs scene-level coding.","round22",null,"11:50"],
+ ["open","Egypt and the Hermetica","A lean toward John's vocabulary, not significant; needs the Kyme and Andros hymns in ancient Greek.","alexandria_test, isis",null,"1:4"],
+ ["open","Performance writing","Staging is present; no hidden spatial notation yet. Next: Ezekiel the Tragedian and an actor test.","movement",null,"18:28"],
+ ["neg","Hidden book order","No rings across chapters; John is not a miniature of the Bible's order.","order_tests, john_miniature",null,"1:1"],
+ ["neg","Number and ratio codes","Sevens, isopsephy and Archimedes-type ratios at chance.","bible_map, theme_shapes",null,"21:11"],
+ ["neg","Separation → one → completion","At chance in John and in all three other Gospels.","round22","schism","17:23"]
+];
+const LABEL={solid:"Solid",known:"Known+",open:"Open",neg:"Closed"}, COL={solid:"--solid",known:"--known",open:"--open",neg:"--neg"};
+const fbox=document.querySelector('.filters'); let filt='all';
+["all","solid","known","open","neg"].forEach(f=>{const b=document.createElement('button');b.id='f-'+f;b.textContent=f==='all'?'All':LABEL[f];b.setAttribute('aria-pressed',f==='all');b.onclick=()=>{filt=f;fbox.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));cards()};fbox.appendChild(b)});
+function cards(){document.getElementById('cards').innerHTML=CARDS.filter(c=>filt==='all'||c[0]===filt).map(c=>`<article class="card"><span class="tag" style="color:${css(COL[c[0]])}">${LABEL[c[0]]}</span><h3>${c[1]}</h3><p>${c[2]}</p><button class="go" data-v="${c[5]}" data-k="${c[4]||''}">Show on the timeline · John ${c[5]}</button><div class="ev">${c[3]}</div></article>`).join('');
+  document.querySelectorAll('.go').forEach(b=>b.onclick=()=>{document.getElementById('map').scrollIntoView({behavior:'smooth'});pick(b.dataset.v,b.dataset.k||undefined)})}
+cards();
+const D=[["John",2.1],["Matthew",1.1],["Mark",1.3],["Luke",1.1]];
+document.getElementById('bars').innerHTML=D.map(([n,v])=>`<div class="bar"><span>${n}</span><span class="t"><i style="width:${v/2.4*100}%"></i></span><span>${v.toFixed(1)}</span></div>`).join('');
+document.getElementById('steps').innerHTML=[["18:28","in"],["18:29","out"],["18:33","in"],["18:38","out"],["19:4","out"],["19:5","out"],["19:9","in"]].map(([v,s])=>`<span class="step ${s}">${v} ${s}</span>`).join('');
+const AUD=[["The prologue","John 1:1–5","prologue_1-1-5"],["The vine","John 15:1–5","vine_15-1-5"],["It is finished","John 19:28–30","finished_19-28-30"]];
+const ROOMS=[["synagogue","Synagogue (stone hall)"],["house_church","House church (plastered room)"],["theater","Theatre (open air)"]];
+document.getElementById('audio').innerHTML=AUD.map(([t,r,f],i)=>`<div class="panel"><h3>${t}</h3><div class="small">${r}</div><label class="small" for="room-${i}">Space</label><select id="room-${i}">${ROOMS.map(([k,n])=>`<option value="${k}">${n}</option>`).join('')}</select><audio id="aud-${i}" controls preload="none" src="audio/${f}_synagogue.mp3"></audio></div>`).join('');
+AUD.forEach(([t,r,f],i)=>{document.getElementById('room-'+i).onchange=e=>{const a=document.getElementById('aud-'+i);a.src=`audio/${f}_${e.target.value}.mp3`;a.load()}});
+</script>

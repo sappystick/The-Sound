@@ -49,3 +49,11 @@ Code for each result is in `code/analysis/` (the script is named in brackets).
 - **O** There are more repeating cycles in Hebrew verse lengths than chance would give (84 chapters against 45 expected), probably poetic parallelism. A follow-up test should run on poetry only.
 - **V** (method) Whole-chapter shape twins: the strongest twin is 2 Samuel 22 with Psalm 18, which are the same poem, so the method works. But with about 580,000 chapter pairs, most other high twins are expected by chance.
 - **V** (method limit) Shuffling the verses of a short chapter cannot confirm even a perfect frame: Psalm 8, whose first and last lines are identical, reaches only p = 0.07. Verse-level rings in short chapters need a different kind of evidence, such as identical wording.
+
+## Branch: position resonance, any fraction and any scale (code/analysis/position_resonance.py)
+- **V** (method) No centre or mirror is assumed. Wherever two places share a rare phrase, their fractional positions (pA, pB) are compared. The calibrated version detects known parallels: 1 Kings~2 Chronicles (order p = 0.003; any-shape p = 0.003), Matthew~Luke (p = 0.003; 0.033) and Matthew~Mark (order p = 0.007).
+- **N** Version 1 (token pairs, rotation null) gave false hits from repeated formulas (Leviticus 11 against John 16:4) and missed the controls. It was rejected.
+- **N** No book's positions line up with John's beyond chance after correction. Genesis is strongest (any-shape p = 0.010 uncorrected) and is a targeted follow-up, given John's Genesis overlay.
+- **N** Across all book pairs: no same-place, mirror or simple-ratio tendency.
+- **O** Micro scale: a shared rare phrase sits at the same fraction of both verses more than random pairing (words p < 0.001; letters p < 0.001). This is probably formulaic syntax (phrases that open verses); test again with formulas removed.
+- **V** (method limit) A single parallel chapter, such as 2 Samuel 22 with Psalm 18, is invisible at whole-book level. Point connections need a chapter-level test.

@@ -175,3 +175,15 @@ Model: Greek known to be translated from Hebrew (Genesis, Kingdoms, Psalms, Dani
   The ladder and ziggurat image (round 18b) runs through John as a structuring axis: heaven ↔ temple ↔ the Son of Man.
 - **V Sevens (scholarly counts, confirmed).** "I am the + noun" carries 7 images: bread (6:35, 41, 48, 51), light (8:12; 9:5), door (10:7, 9), shepherd (10:11, 14), resurrection (11:25), way (14:6), vine (15:1, 5). Seven narrated signs is the standard count. *Curiosity, not evidence:* the word "sign" (*sēmeion*) occurs 17 times, and 153 = 1+2+…+17.
 - **V Three days and four days.** "Destroy this temple and **in three days** I will raise it" (2:19–20; the temple is his body, 2:21). Lazarus has been dead "**four** days" (11:17, 39), past the third day. Compare Inana: "after three days and three nights" (parallel pattern, round 18).
+
+## R. Round 20: the Isis texts (code/analysis/isis.py; user's files: Isidorus' hymns in ancient Greek, SEG 8.548–551; the Kyme aretalogy in a modern-Greek machine translation, so structure only)
+- **V Isis speaks in titles and deeds; John in images and "not from myself".**
+  - Kyme aretalogy: 11 of 58 lines are "I am" (19%), and 27 (47%) are first-person deeds: "I separated earth from heaven", "I showed the paths of the stars", "I brought up islands from the depths into the light", "I free the prisoners", "I ordained that the true be thought good", "I invented letters with Hermes".
+  - Her "I am" predicates are names, titles and kin: "I am Isis, mistress of every land", "eldest daughter of Kronos", "wife and sister of King Osiris", "mother of King Horus", "**Queen** of rivers, winds and sea", "Queen of war / of thunder / of storms", "she who rises in the Dog Star".
+  - John's Jesus has **no title, kin or sovereign deed** in his "I am": bread, light, door, shepherd, resurrection, way, vine. He says "I do nothing from myself" (13 times). His first-person deeds are relational: "I have made your name known", "I have given them your word" (John 17).
+  - Isis *separates* earth from heaven (like Genesis 1); John's Son *joins* them (1:51; the vertical axis, round 19).
+- **V Isidorus' hymns (Egypt, 1st c. BC) share John's religious vocabulary:** life ("finder of all life", 6 times), light ("Anchoes **your son**, who dwells in heaven's ether, is the rising sun **who showed the light**"), saviour ("immortal saviour"), creator, Nile water, "you **alone** are all the goddesses the nations name". Their sound is as quiet as John's (noise share 0.324 against 0.326), with metre (periodicity 0.054 against 0.019) and less hiatus.
+  - Status: a shared Hellenistic-Egyptian vocabulary of life, light, a heavenly son and a saviour, as with the Hermetica (round 6), not borrowing. John's distinctive turn is the *form*: no name, no title, and "not from myself".
+
+## S. The John sound model (model/)
+A configurable, evidence-labelled reconstruction of John as heard (see model/README.md). Default build: 227 minutes of public reading, 31,243 syllables, 2,310 breath groups (10.2 per minute). Every verified discovery is attached as a marker on its syllables.

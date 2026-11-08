@@ -102,3 +102,18 @@ New measuring method: John's reconstructed Koine sound, scored on the criteria t
   - This joins the high-priest thread (Josephus' seamless robe, Polycrates' *petalon*) to the schism thread: in John the true high priest's garment is never torn.
 - **N Sound:** the schism verses are not reliably noisy. 7:43 is in John's noisiest 1–2%, but 10:19 is quiet; the three together give p = 0.13–0.20. "Not torn" 19:24 is quiet (16–25th percentile).
 - **N Order:** with the full word families (pre-registered: "not torn" counted as wholeness), separation → gathering/one → completion is not significant (p = 0.15; p = 0.40 the other way). The arc remains a reading, not a proven design.
+
+## L. Round 15: the earliest manuscripts, sound-alikes, and the language of delivery (code/analysis/ms_sound.py)
+- **V The high-priest words survive in every early witness.** "High priest that year" (11:49), "known to the high priest" (18:15), the seamless "woven from the top" tunic (19:23; Vaticanus spells it ἄρραφος, which sounds the same), "let us not tear it" (19:24) and "not torn" with 153 (21:11) are present in P66, P75 (where extant), Sinaiticus and Vaticanus.
+- **V Half of John sounds like something else.** 50% of John's words sound exactly like another Greek word form in Koine pronunciation: we/you (*hēmeis/hymeis*, 270 tokens), o/ω (2,585), ei/i/ē (2,230), ai/e (1,662).
+- **V The text was handled through sound.** Where P66, Sinaiticus and Vaticanus differ from the critical text, 53–60% of the differences sound the same: a different spelling, or a different word that sounds identical. P75 is the most careful copy (35%). **Most manuscript variation in John is invisible to the ear, so the spoken text was more stable than the written one.**
+- **V Sound-alikes that flip the meaning on the page but not in the ear** (111 found):
+  - we/you swaps: P66 9:40 "are *we* blind?" → "*you*"; Sinaiticus 8:54 "*our* God" ↔ "*your* God", 8:42 and 16:7;
+  - P75 4:13 and 6:56 "whoever *drinks*" (πίνων) → "*hungers*" (πεινῶν);
+  - Sinaiticus 1:29 "who *takes away*" (αἴρων) → ἐρῶν, a sound-alike;
+  - person and mood flips such as "you will see" → "to see" and "you seek" → "is sought".
+- **V The language of delivery: some chains exist only in Greek.** In the Syriac Peshitta (close to Jesus' Aramaic):
+  - the "schism" chain breaks into three different roots: *pelgutha* (division) for 7:43 and 10:19, *sdq* for the tunic, *ṣrṭ* for the net;
+  - the double meaning of *anōthen* ("again" / "from above", 3:3) collapses to *men d-rish* ("anew");
+  - "lifted up" (3:14; 12:32) becomes *rwm* (exalted), losing the cross.
+  But **"wind/spirit" survives** (*ruḥa*, 3:8), and **"I am" survives** (*ena ithay*, 8:58). Conclusion: John's word-chains and misunderstanding scenes were composed for the *Greek* ear. Some images (wind/spirit, "I am") would also have worked in spoken Aramaic, but the schism chain and the *anōthen* pun did not.

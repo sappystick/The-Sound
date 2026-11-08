@@ -4,6 +4,8 @@ Status labels: **SOLID** = passed its controls and correction · **KNOWN+** = kn
 Script names are in `code/analysis/`; DISCOVERIES.md has the details and sections A–S.
 
 ## 1. SOLID: new discoveries
+
+> **Audit (2026-11-08, pre-registered, see AUDIT.md):** #24/#25 HOLD (John against Brown's outline p 0.00023 with 10⁶ random cut sets, passing the project-wide correction; John lowest in 88% of 288 settings; Acts and Genesis 0%). #3 DOWNGRADED (the Leviticus centre by verses is 6 verses away; holds by Hebrew words and letters). #11 PARTIAL (52–60% in P66, 01, 03; 35% in P75; Attic about 0%). #2 and #18 do not survive the project-wide correction. Lexical claims are checkable by hand (AUDIT.md §3).
 | # | Discovery | Evidence |
 |---|---|---|
 | 1 | The prologue's spoken centre falls in 1:12, in every manuscript (P66, P75, 01, 03) and in Syriac, Coptic and Latin | earliest_text, acoustic, aramaic_prologue |

@@ -1,0 +1,65 @@
+C24/C25: segmentation p-values (mean distance of cuts to outline vs random)
+   Jn  baseline (min 15, full, k 4): Brown p 0.000 (dist 1.7 vs 42.3)  Moloney p 0.032 (dist 11.7 vs 44.1)  Dodd p 0.105 (dist 11.7 vs 23.8)  round30 p 0.001 (dist 1.7 vs 19.8)   cuts ['1:16', '13:33', '18:1']
+   Mk  baseline (min 15, full, k 4): A p 0.070 (dist 13.7 vs 27.6)  B p 0.025 (dist 15.3 vs 49.6)   cuts ['1:18', '8:17', '15:15']
+   Mt  baseline (min 15, full, k 4): Bacon p 0.265 (dist 21.3 vs 33.0)  Kingsbury p 0.205 (dist 60.7 vs 91.4)   cuts ['1:17', '5:11', '7:8']
+   Lk  baseline (min 15, full, k 4): A p 0.511 (dist 62.7 vs 64.4)  B p 0.478 (dist 62.7 vs 67.3)   cuts ['9:57', '13:6', '23:47']
+   Ac  baseline (min 15, full, k 4): standard p 0.458 (dist 28.3 vs 30.5)   cuts ['2:14', '2:41', '20:13']
+   Gen baseline (min 15, full, k 4): toledot p 0.088 (dist 37.0 vs 111.9)   cuts ['6:13', '36:32', '40:7']
+
+   C24 rule: John outlines with p<0.05 at baseline = 3/4 (need 3); Brown grid share p<0.05 = 100% (need 75%)  ->  HOLDS
+      Brown  min 10  full      p 0.001  cuts 1:13 13:33 18:1
+      Brown  min 10  verbs     p 0.007  cuts 1:13 13:33 18:10
+      Brown  min 10  aor_impf  p 0.001  cuts 1:14 13:33 18:1
+      Brown  min 15  full      p 0.000  cuts 1:16 13:33 18:1
+      Brown  min 15  verbs     p 0.004  cuts 1:16 13:33 18:10
+      Brown  min 15  aor_impf  p 0.000  cuts 1:16 13:33 18:1
+      Brown  min 25  full      p 0.000  cuts 10:39 13:33 18:1
+      Brown  min 25  verbs     p 0.003  cuts 10:39 13:6 18:10
+      Brown  min 25  aor_impf  p 0.000  cuts 10:39 13:6 18:1
+
+   C25 rule: John lowest p in 88% of 288 outline x parameter combinations (need 80%); Synoptic share p<0.05: Mk 17%, Mt 0%, Lk 0%  ->  HOLDS
+   controls (share of k=4 settings with p<0.05): Acts 0%, Genesis 0%;  John (all outlines) 75%
+   secondary k=5: John share p<0.05 0%
+
+C3: living water at book centres
+   Lev (WLC): phrase at ['14:5', '14:6', '14:50', '14:51', '14:52', '15:13'];  verses: centre 15:7, 6 verses from phrase (chance 0.049);  words: centre 14:47, 3 verses from phrase (chance 0.028);  letters: centre 14:50, 0 verses from phrase (chance 0.007)
+   Song (WLC): phrase at ['4:15'];  verses: centre 4:14, 1 verses from phrase (chance 0.026);  words: centre 4:16, 1 verses from phrase (chance 0.026);  letters: centre 4:16, 1 verses from phrase (chance 0.026)
+   Lev (LXX): phrase at ['14:5', '14:6', '14:50', '14:51'];  verses: centre 15:7, 13 verses;  words: centre 14:45, 5 verses
+   Song (LXX): phrase at ['4:15'];  verses: centre 4:14, 1 verses;  words: centre 5:1, 2 verses
+   books with the phrase: ['Gen', 'Jer', 'Lev', 'Num', 'Song', 'Zech']; chance per book [0.005, 0.01, 0.028, 0.005, 0.06, 0.033]; centres actually within 3 verses: ['Song']
+   P(2 or more of the 39 books have it within 3 verses of their verse-centre, by chance) = 0.00684   ->  C3 FAILS on the every-count rule
+
+C11: identical-sound share of manuscript variants, by pronunciation era
+   koine-late P66 60%  P75 35%  01 53%  03 53%
+   koine      P66 59%  P75 35%  01 52%  03 53%
+   attic      P66 0%  P75 0%  01 0%  03 1%
+   C11 rule (>50% under both Koine settings in every manuscript) -> FAILS;  attic mean 0% vs koine-late mean 50%
+
+G: project-wide false-discovery correction over every p-value in DISCOVERIES.md
+   40 p-values extracted; BH threshold at q 0.05 = 0.0280; 23 survive
+   lines labelled S: 8; with a surviving p 4; with no p (lexical / descriptive claims) 4; with p but none surviving 0
+   G2: 5767 p-values pooled from 56 results files + DISCOVERIES; BH threshold q 0.05 = 0.00075 (Bonferroni would be 0.000009)
+      # 1 no p (lexical/descriptive)              The prologue's spoken centre falls in 1:12, in every manuscript (P66, P75, 01, 03) and in 
+      # 2 does not survive             p 0.009    John's "I am" sayings form a ring around the Gospel's centre (p 0.009–0.03)
+      # 3 survives                     p 0.0002   "Living water" is the exact centre of Leviticus (14:47–53, every count) and of the Song of
+      # 4 no p (lexical/descriptive)              Hyssop, blood and water meet only in Leviticus 14, Numbers 19, John 19 and Hebrews 9; only
+      # 5 no p (lexical/descriptive)              The schism word: people divided 3 times; the tunic and the 153-fish net "not torn"; agains
+      # 6 no p (lexical/descriptive)              17/153 occurs in only one fishing verse of the Hebrew Bible (Ezekiel 47:10)
+      # 7 no p (lexical/descriptive)              Wisdom 18 (midnight Word + cosmic robe) and the light family, found blind on the shape map
+      # 8 no p (lexical/descriptive)              Narrator decoding (5×) and "not from myself" (13×) appear only in John among the Gospels
+      # 9 no p (lexical/descriptive)              John is acoustically the quietest prose (noise share 0.326 against 0.344–0.347), and it ho
+      #10 no p (lexical/descriptive)              John is farthest from the Magical Papyri of 8 text classes; the prologue breathes like a p
+      #11 no p (lexical/descriptive)              53–60% of manuscript variants in John sound identical (Koine), so the spoken text was more
+      #12 no p (lexical/descriptive)              The word-chains (schism; *anōthen*) exist only in Greek; the Syriac breaks them; John was 
+      #13 no p (lexical/descriptive)              John's "I am" form: "I am the + image" 47% (Septuagint 4%), never "I am the Lord", no name
+      #14 no p (lexical/descriptive)              The vertical axis: ascend/descend twice the Synoptic rate; heaven–earth and temple-ascent 
+      #15 no p (lexical/descriptive)              "Lamb of God" leans to the Isaiah 53 Servant (rank 97 of 4,012) over the Passover lamb (72
+      #16 no p (lexical/descriptive)              The papyri's written lines match breath groups: P75 averages 12.4 syllables a line (CV 0.1
+      #17 no p (lexical/descriptive)              Blind recovery of John's shared tradition (John 1~Mark 1, 6~Matthew 14, 19~Matthew 27 / Ma
+      #18 does not survive             p 0.001    Book centres lean toward "life / the living" (5 of 39 against 0.9; p 0.001), extending liv
+      #19 no p (lexical/descriptive)              John shares the Book of the Dead's definite "I am the …" form but none of its content; Joh
+      #21 does not survive             p 0.03     Breath edges are in the unspaced letters: a compression model given only P66/P75 letters c
+      #22 no p (lexical/descriptive)              Two modes, not stacked layers: action (historic present, movement, harder sound) alternate
+      #23 no p (lexical/descriptive)              John's clause edges stay visible in unspaced papyri (all four manuscripts; not in Luke by 
+      #24 does not survive             p 0.001    John's four-part structure (prologue 1:1–15 / signs / farewell 13:33–17:26 / passion 18:1)
+      #25 does not survive             p 0.001    Only in John does the narration/direct-address switch reproduce the outline (p 0.001; Mark

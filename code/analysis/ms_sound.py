@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(HERE), "engine")); import engine
 def nrm(w):
     w = unicodedata.normalize("NFD", w.lower()); w = "".join(c for c in w if not unicodedata.combining(c)); return re.sub(r"[^α-ω]", "", w.replace("ς", "σ"))
 cache = {}
-def key(w, mode="koine-late"):
+def key(w, mode=os.environ.get("MS_ERA", "koine-late")):   # era switch added for the robustness audit (default unchanged)
     if (w, mode) not in cache:
         try: cache[(w, mode)] = "".join(p for s in E.parse_greek(w, mode)[0] for p in s["ph"]).replace("ː", "")
         except Exception: cache[(w, mode)] = w

@@ -1,0 +1,195 @@
+{
+ "_about": "Rulebook for the Koine voice. Each rule has an id, a layer, what it does, and its basis. Layer 'evidence' = grounded in ancient testimony or documented phonetics; 'interpretive' = a reading choice, switchable off with --no-delivery. Every word in a rendered passage lists the rule ids that touched it.",
+ "voice": {
+  "reciting_tone_hz": 108,
+  "formant_shift_ratio": 0.86,
+  "base_length_scale": 1.12,
+  "noise_scale": 0.5,
+  "noise_w": 0.0,
+  "_basis": "Public reader (anagnostes) assumed adult male. The neural model is a Modern Greek female voice; Praat shifts formants by 0.86 (adult male vocal tract) and the pitch tier below replaces its melody entirely. noise_w 0 makes durations deterministic so word timings can be measured."
+ },
+ "rules": [
+  {
+   "id": "E-ACC",
+   "layer": "evidence",
+   "effect": "accented syllable +3 semitones over the reciting tone; circumflex rises then falls within the syllable; grave = no rise",
+   "basis": "Greek accent was melodic: Dionysius of Halicarnassus (On Composition 11) says the speaking voice moves within about a fifth; the accent marks of the Alexandrian grammarians and the Seikilos epitaph (1st c. AD), whose melody follows the accents."
+  },
+  {
+   "id": "E-STRESS",
+   "layer": "evidence",
+   "effect": "accented syllable +1.5 dB and 10% longer",
+   "basis": "By the 1st c. the pitch accent was turning into a stress accent (loss of vowel length, Koine papyri spellings; Horrocks, Greek: A History of the Language)."
+  },
+  {
+   "id": "E-DECL",
+   "layer": "evidence",
+   "effect": "pitch drifts down 2 semitones across each breath group",
+   "basis": "Declination: a near-universal of spoken phrases."
+  },
+  {
+   "id": "E-COMMA",
+   "layer": "evidence",
+   "effect": "breath group ending in a comma ends on a slight rise (+1.5 st), 0.35 s pause",
+   "basis": "Suspended cadence at a minor pause, as in the ekphonetic (lectionary) reading formulas, which mark phrase ends with paired cadence signs; pause lengths from the sound model config."
+  },
+  {
+   "id": "E-STOP",
+   "layer": "evidence",
+   "effect": "breath group ending in a full stop or raised dot falls 4 st on its last accent, last syllable 30% longer; 0.9 s (stop) or 0.6 s (raised dot) pause",
+   "basis": "Final cadence (teleia) of the ekphonetic formulas; phrase-final lengthening."
+  },
+  {
+   "id": "E-QUEST",
+   "layer": "evidence",
+   "effect": "breath group ending in a Greek question mark (;) rises 4 st at the end",
+   "basis": "Question intonation; the ekphonetic system has a distinct sign for questions in some lectionaries (interpretation of its exact melody is uncertain)."
+  },
+  {
+   "id": "E-ROOM",
+   "layer": "evidence",
+   "effect": "room acoustics from the engine (synagogue hall RT60 about 1.7 s, early stone reflections)",
+   "basis": "Engine room models (rounds 9, 20)."
+  },
+  {
+   "id": "I-JESUS",
+   "layer": "interpretive",
+   "effect": "words estimated to be spoken by Jesus: 8% slower, 1 st lower, pitch range x1.1",
+   "basis": "A reader marking the principal voice with gravity (Quintilian, Institutio Oratoria 11.3, on suiting the voice to the person)."
+  },
+  {
+   "id": "I-OTHER",
+   "layer": "interpretive",
+   "effect": "words of other speakers: 0.5 st higher, 3% faster",
+   "basis": "Distinguishing voices in a dramatic reading (Quintilian 11.3)."
+  },
+  {
+   "id": "I-TURN",
+   "layer": "interpretive",
+   "effect": "0.25 s extra pause when the speaker changes",
+   "basis": "Dialogue turn in performance."
+  },
+  {
+   "id": "I-AMEN",
+   "layer": "interpretive",
+   "effect": "amen, amen: 15% slower, +2 dB",
+   "basis": "Solemn formula of emphasis."
+  },
+  {
+   "id": "I-IAM",
+   "layer": "interpretive",
+   "effect": "ego eimi: +2 dB, ego +1.5 st",
+   "basis": "The 'I am' sayings (project finding 13)."
+  },
+  {
+   "id": "I-GRIEF",
+   "layer": "interpretive",
+   "effect": "verse with weeping/troubled/sorrow words: 15% slower, 2 st lower, range x0.7, -3 dB",
+   "basis": "Quintilian 11.3: grief makes the voice low, slow and subdued."
+  },
+  {
+   "id": "I-CRY",
+   "layer": "interpretive",
+   "effect": "verse where someone cries out: +4 dB, +2 st, 5% faster",
+   "basis": "Quintilian 11.3: a cry raises and strengthens the voice."
+  },
+  {
+   "id": "I-JOY",
+   "layer": "interpretive",
+   "effect": "verse with joy words: +1 st, range x1.2, 3% faster",
+   "basis": "Quintilian 11.3: joy makes the voice full and bright."
+  },
+  {
+   "id": "I-GLORY",
+   "layer": "interpretive",
+   "effect": "verse with glory words: range x1.1, 5% slower",
+   "basis": "Solemnity; elevated subject matter."
+  },
+  {
+   "id": "I-DEATH",
+   "layer": "interpretive",
+   "effect": "verse narrating death or the giving up of the spirit: 20% slower, 3 st lower, -4 dB",
+   "basis": "Quintilian 11.3: the voice sinks for the gravest matters."
+  }
+ ],
+ "lexicon": {
+  "grief": [
+   "δακρυω",
+   "κλαιω",
+   "ταρασσω",
+   "λυπεω",
+   "λυπη",
+   "εμβριμαομαι",
+   "θρηνεω",
+   "κλαυθμοσ"
+  ],
+  "cry": [
+   "κραζω",
+   "κραυγαζω"
+  ],
+  "joy": [
+   "χαιρω",
+   "χαρα",
+   "αγαλλιαω"
+  ],
+  "glory": [
+   "δοξα",
+   "δοξαζω"
+  ],
+  "death": [
+   "αποθνησκω",
+   "τελεω",
+   "παραδιδωμι",
+   "αποκτεινω"
+  ]
+ },
+ "speakers": {
+  "ιησουσ": "Jesus",
+  "πιλατοσ": "Pilate",
+  "πετροσ": "Peter",
+  "σιμων": "Peter",
+  "μαρθα": "Martha",
+  "μαρια": "Mary",
+  "μαριαμ": "Mary",
+  "θωμασ": "Thomas",
+  "φιλιπποσ": "Philip",
+  "ναθαναηλ": "Nathanael",
+  "νικοδημοσ": "Nicodemus",
+  "ιουδαιοσ": "the Jews",
+  "οχλοσ": "the crowd",
+  "μαθητησ": "the disciples",
+  "γυνη": "the woman",
+  "αρχιερευσ": "the chief priests",
+  "φαρισαιοσ": "the Pharisees",
+  "ιωαννησ": "John (the Baptist)",
+  "καιαφασ": "Caiaphas",
+  "ανδρεασ": "Andrew",
+  "ιουδασ": "Judas",
+  "στρατιωτησ": "the soldiers",
+  "υπηρετησ": "the officers",
+  "θυρωροσ": "the doorkeeper",
+  "βασιλικοσ": "the royal official",
+  "αρχιτρικλινοσ": "the steward",
+  "τυφλοσ": "the blind man",
+  "ανθρωποσ": "the man",
+  "γονευσ": "the parents",
+  "αδελφοσ": "his brothers",
+  "αγγελοσ": "the angels",
+  "μητηρ": "his mother",
+  "πατηρ": "the father",
+  "λαζαροσ": "Lazarus"
+ },
+ "speech_verbs": [
+  "λεγω",
+  "αποκρινομαι",
+  "κραζω",
+  "κραυγαζω",
+  "φωνεω",
+  "ερωταω",
+  "επερωταω",
+  "μαρτυρεω",
+  "ομολογεω",
+  "γογγυζω",
+  "διδασκω"
+ ]
+}

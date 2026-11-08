@@ -109,6 +109,7 @@ pre.cmd{background:var(--bg);border:1px solid var(--rule);border-radius:3px;padd
   <a href="#listen" data-view="listen">Listen &amp; explore</a>
   <a href="#claims" data-view="claims">Findings &amp; audit</a>
   <a href="#robust" data-view="robust">Robustness</a>
+  <a href="#voice" data-view="voice">Voice lab</a>
   <a href="#method" data-view="method">Method &amp; trail</a>
 </nav>
 
@@ -173,6 +174,19 @@ pre.cmd{background:var(--bg);border:1px solid var(--rule);border-radius:3px;padd
   <div class="card">
     <h3>Multiple testing across the whole project</h3>
     <p class="note" id="gnote"></p>
+  </div>
+</section>
+
+<section class="view" id="v-voice" hidden>
+  <div>
+    <h2>Voice lab</h2>
+    <p class="note">Three renderings of the same passages. <b>A</b> is the formant synthesiser used for the full Gospel. <b>B</b> is a neural Greek voice speaking the project's reconstructed Koine pronunciation, shaped only by the evidence rules: accent melody, declination, cadences, stress and the synagogue room. <b>C</b> adds the interpretive delivery layer: estimated speaker, mood and emphasis. Each rule is listed below, with its basis. The video for C lights each word as it is spoken.</p>
+  </div>
+  <div class="claims" id="lab"></div>
+  <div class="card">
+    <h3>The rulebook</h3>
+    <p class="note">Evidence rules rest on ancient testimony or documented phonetics. Interpretive rules are reading choices and can be switched off (version B).</p>
+    <div class="tablebox"><table id="rules"></table></div>
   </div>
 </section>
 
@@ -326,9 +340,20 @@ function drawTables(){
     `<tr><td>Sources</td><td class="mono">SBLGNT aaed91e · OSHB morphhb 3d15126 · Swete LXX 26bad3e · CNTR 4e743a4</td></tr><tr><td>Full record</td><td class="mono">AUDIT.md · robustness/PREREGISTRATION.md · robustness/results.json</td></tr>`;
 }
 $("#copy").onclick = () => { const t = $("#cmd").textContent; navigator.clipboard.writeText(t).then(() => $("#copied").textContent = "Copied", () => { const r = document.createRange(); r.selectNodeContents($("#cmd")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); $("#copied").textContent = "Selected: press Ctrl+C or ⌘C"; }); };
+// ---------- voice lab
+const LABN = {"prologue_1-1-5":"In the beginning was the Word","lazarus_11-32-36":"Jesus wept","vine_15-1-5":"I am the vine","finished_19-28-30":"It is finished"};
+function drawLab(){
+  if (!D.lab || !D.lab.length){ $("#lab").innerHTML = '<p class="note">No samples rendered yet.</p>'; return; }
+  $("#lab").innerHTML = D.lab.map(p => `<article class="claim" style="--c:var(--lapis)"><div class="st">John ${p.refs[0]}–${p.refs[p.refs.length-1]} · ${p.dur} s</div><h3>${LABN[p.name]||p.name}</h3>
+    <video controls preload="none" playsinline src="video/samples/${p.name}.mp4" style="margin-top:4px"></video>
+    <div class="kvmini">${["A_engine","B_evidence","C_full"].map(v => `<p class="mono" style="margin:6px 0 2px">${{A_engine:"A · current engine",B_evidence:"B · neural voice, evidence rules",C_full:"C · plus delivery layer"}[v]}</p><audio controls preload="none" src="audio/${p.name}_${v}.mp3" style="width:100%"></audio>`).join("")}</div>
+    <p class="note">Speakers: ${p.speakers.join(", ")}. Measured pitch follows the planned melody within a median ${p.err} semitones (r ${p.r}); voice median ${p.median} Hz.</p>
+    <details><summary>Rules used</summary><p class="mono">${p.rules.join(" · ")}</p></details></article>`).join("");
+  $("#rules").innerHTML = "<tr><th>Rule</th><th>Layer</th><th>Effect</th><th>Basis</th></tr>" + D.rulebook.map(r => `<tr><td class="mono">${r.id}</td><td class="${r.layer==="evidence"?"ok":"warn"}">${r.layer}</td><td>${r.effect}</td><td class="note">${r.basis}</td></tr>`).join("");
+}
 // ---------- routing
-function route(){ const v = (location.hash || "#listen").slice(1); const ok = ["listen","claims","robust","method"].includes(v) ? v : "listen";
-  ["listen","claims","robust","method"].forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); }
+function route(){ const v = (location.hash || "#listen").slice(1); const ok = ["listen","claims","robust","voice","method"].includes(v) ? v : "listen";
+  ["listen","claims","robust","voice","method"].forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); }
 addEventListener("hashchange", route); route();
-select(IDX["1:1"], false); drawClaims(); drawSeg(); drawTables();
+select(IDX["1:1"], false); drawClaims(); drawSeg(); drawTables(); drawLab();
 </script>

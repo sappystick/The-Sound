@@ -1,0 +1,69 @@
+{
+ "prologue_1-1-5": {
+  "duration": 33.0,
+  "speakers": [
+   "narrator"
+  ],
+  "rules": [
+   "E-ACC",
+   "E-COMMA",
+   "E-DECL",
+   "E-STOP",
+   "E-STRESS"
+  ]
+ },
+ "lazarus_11-32-36": {
+  "duration": 50.7,
+  "speakers": [
+   "Jesus",
+   "Mary",
+   "narrator",
+   "they"
+  ],
+  "rules": [
+   "E-ACC",
+   "E-COMMA",
+   "E-DECL",
+   "E-QUEST",
+   "E-STOP",
+   "E-STRESS",
+   "I-DEATH",
+   "I-GRIEF",
+   "I-JESUS",
+   "I-OTHER",
+   "I-TURN"
+  ]
+ },
+ "vine_15-1-5": {
+  "duration": 57.3,
+  "speakers": [
+   "Jesus"
+  ],
+  "rules": [
+   "E-ACC",
+   "E-COMMA",
+   "E-DECL",
+   "E-STOP",
+   "E-STRESS",
+   "I-IAM",
+   "I-JESUS"
+  ]
+ },
+ "finished_19-28-30": {
+  "duration": 34.9,
+  "speakers": [
+   "Jesus",
+   "narrator"
+  ],
+  "rules": [
+   "E-ACC",
+   "E-COMMA",
+   "E-DECL",
+   "E-STOP",
+   "E-STRESS",
+   "I-DEATH",
+   "I-JESUS",
+   "I-TURN"
+  ]
+ }
+}

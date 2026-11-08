@@ -47,6 +47,21 @@ seg = [dict(b=r["book"], o=r["outline"], ms=r["minseg"], md=r["mode"], k=r["k"],
 DATA = dict(verses=verses, chapStart=chap_start, total=(TL["total_s"] if TL else verses[-1]["t"] + verses[-1]["d"]), hasVideo=bool(TL), seg=seg, hr=HR,
             c3=RS["C3"]["detail"], c3p=RS["C3"]["p_two_books"], c11=RS["C11"]["shares"], g=RS["G"], g2=dict(n=RS["G2"]["n"], thr=RS["G2"]["bh_threshold"]),
             c25=RS["C25"], prereg=RS["prereg_commit"], hashes=RS["inputs_sha256_16"])
+# voice lab: samples, validation (planned vs measured pitch), rulebook
+A2 = os.path.join(ROOT, "audio_model", "v2"); lab = []
+if os.path.exists(os.path.join(A2, "index.json")):
+    for name, info in json.load(open(os.path.join(A2, "index.json"), encoding="utf-8")).items():
+        js = json.load(open(os.path.join(A2, f"{name}_C_full.json"), encoding="utf-8")); f0 = np.array(js["f0"]); P, M = [], []
+        for w in js["words"]:
+            k_ = len(w["pitch_hz"])
+            for j, hz in enumerate(w["pitch_hz"]):
+                tm = w["start"] + (w["end"] - w["start"]) * (j + .5) / max(1, k_); m = (np.abs(f0[:, 0] - tm) < 0.04) & (f0[:, 1] > 0)
+                if m.any(): P.append(hz); M.append(float(np.median(f0[m, 1])))
+        P, M = np.array(P), np.array(M)
+        lab.append(dict(name=name, refs=js["refs"], dur=info["duration"], speakers=info["speakers"], rules=info["rules"], r=round(float(np.corrcoef(np.log(P), np.log(M))[0, 1]), 2),
+                        err=round(float(np.median(np.abs(12 * np.log2(M / P)))), 2), median=round(float(np.median(f0[f0[:, 1] > 0, 1])), 1),
+                        words=[dict(w=x["word"], s=x["speaker"], r=x["rules"]) for x in js["words"]]))
+DATA["lab"] = lab; DATA["rulebook"] = json.load(open(os.path.join(ROOT, "code/voice/delivery_rules.json"), encoding="utf-8"))["rules"]
 tpl = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
 open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(tpl.replace("__DATA__", json.dumps(DATA, ensure_ascii=False, separators=(",", ":"))))
 print("explorer built:", round(os.path.getsize(os.path.join(HERE, "index.html")) / 1e6, 2), "MB; video timings:", bool(TL))

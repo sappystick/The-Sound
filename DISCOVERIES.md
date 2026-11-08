@@ -362,3 +362,13 @@ Cuts were scored against a standard commentators' outline and against chapter st
 - `none`.
 
 The cut positions are measured; the pause lengths are assumptions. Running time is now 227.8 minutes. Each verse row carries `section_break`, and the summary lists the minute each section starts. The major breaks fall at minutes 2.9, 153.2 and 185.9.
+
+## AE. Koine voice v2 and word-synced video (round 32, `code/voice/`, `video/render_samples_video.py`)
+- **Method, not discovery.** A neural Greek voice (Piper VITS, CPU) is driven by the engine's Koine phonemes, then re-melodised in Praat from a rulebook.
+  - Evidence layer: accent within a fifth (Dionysius), stress shift, declination, lectionary-style cadences, room.
+  - Interpretive layer: estimated speaker, mood after Quintilian 11.3, emphasis on "amen, amen" and *egō eimi*.
+  - Every word carries the ids of the rules applied.
+- **Validation.** The pitch measured from the final audio follows the planned melody within a median 0.20–0.25 semitones (r 0.69–0.91) on four passages. The voice sits at 95–107 Hz median (adult male range).
+- **Speaker estimation** (SBLGNT's capitalised direct speech plus subject search plus turn-taking) assigns the whole Gospel. Counted in words: narrator 6,856; Jesus about 6,250. It was checked by hand on dialogue scenes.
+- **Video.** Each word lights up in its speaker's colour as it is spoken. The frame also shows the planned and measured melody, the rules applied, an OpenBible.info map of the scene, and arcs to the verse's echoes.
+- **Samples:** `audio_model/v2/` (A engine / B evidence / C full) and `video/samples/`.

@@ -118,3 +118,10 @@ The Attic column is the control. With classical pronunciation, almost every vari
 
 ## 6. Spoken reconstruction (video)
 `video/render_john_video.py` renders every verse with the engine, using the same settings as the sound model: Koine, declaimed, synagogue room, the self-found section pauses. The render manifest is `video/out/render_manifest.json` and the verse timings are `video/out/john_timeline.json`. Each video frame shows the data for its verse. The synthesis is a formant model of the phonology, not a recording of a voice.
+
+## 7. Voice v2 (round 32)
+See `code/voice/README.md`.
+- The rulebook (`code/voice/delivery_rules.json`) separates evidence rules from interpretive rules; the interpretive layer can be switched off (sample version B).
+- Pitch validation: planned against measured, median error 0.20–0.25 semitones.
+- Place data: OpenBible.info (CC BY 4.0), `data/john_geo.json`.
+- Voice model: Piper `el_GR-joy-medium`, a Modern Greek voice.

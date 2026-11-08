@@ -43,3 +43,9 @@ Code for each result is in `code/analysis/` (the script is named in brackets).
 - **V** Date cross-check: John 2:20 → AD 27/28 agrees with Luke 3:1 → AD 28/29 [john_history]
 - **V** Style: 1 John is nearest John; Revelation is not (cf. Dionysius of Alexandria) [john_history]
 - **O** Egypt / Alexandria: the Hermetica lean toward John's vocabulary, but not significantly [alexandria_test]
+
+## Branch: verse-level symmetry (code/analysis/verse_symmetry.py)
+- **N** No chapter in the New Testament (260) or the Hebrew Bible (895, unpointed consonants) shows mirrored verse lengths, mirrored wording or a first-last frame after correction for many tests.
+- **O** There are more repeating cycles in Hebrew verse lengths than chance would give (84 chapters against 45 expected), probably poetic parallelism. A follow-up test should run on poetry only.
+- **V** (method) Whole-chapter shape twins: the strongest twin is 2 Samuel 22 with Psalm 18, which are the same poem, so the method works. But with about 580,000 chapter pairs, most other high twins are expected by chance.
+- **V** (method limit) Shuffling the verses of a short chapter cannot confirm even a perfect frame: Psalm 8, whose first and last lines are identical, reaches only p = 0.07. Verse-level rings in short chapters need a different kind of evidence, such as identical wording.

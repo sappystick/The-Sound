@@ -17,3 +17,7 @@ sparse https://github.com/PerseusDL/canonical-latinLit.git latin data/phi1056 da
 # Mishnah Sukkah (Hebrew, public domain) from the Sefaria export
 mkdir -p sefaria && curl -sS -o sefaria/sukkah.json "https://storage.googleapis.com/sefaria-export/json/Mishnah/Seder%20Moed/Mishnah%20Sukkah/Hebrew/merged.json"
 echo "done: $(du -sh . | cut -f1)"
+# ---- added: further witnesses and the era's other voices ----
+clone https://github.com/ETCBC/dss.git dss                            # Dead Sea Scrolls (Abegg data, Text-Fabric), CC BY-NC
+clone https://github.com/scrollmapper/bible_databases.git versions    # Vulgate, Peshitta, Coptic Sahidic and others
+sparse https://github.com/OpenGreekAndLatin/First1KGreek.git f1k data/tlg1443 data/tlg1139 data/tlg0555   # Ignatius, Hermas, Clement of Alexandria

@@ -187,3 +187,10 @@ Model: Greek known to be translated from Hebrew (Genesis, Kingdoms, Psalms, Dani
 
 ## S. The John sound model (model/)
 A configurable, evidence-labelled reconstruction of John as heard (see model/README.md). Default build: 227 minutes of public reading, 31,243 syllables, 2,310 breath groups (10.2 per minute). Every verified discovery is attached as a marker on its syllables.
+
+## T. Round 21 (code/analysis/round21.py): see REPORT.md for the consolidated picture
+- **V Papyrus lines ≈ breath groups.** P75 averages 12.4 syllables per written line, very regular (CV 0.16); its prologue lines average 13.5, the size of the spoken breath groups. P66: 10.8 (CV 0.22). Sinaiticus and Vaticanus use narrow columns (6.0 and 7.6).
+- **N** Songs of Ascents ↔ John's vertical axis: no link (median rank 702 of ~1,100).
+- **K+** John 10:22–39 (Dedication): Psalm 82 is rank 2 (quoted at 10:34); 1 Maccabees 4 and 2 Maccabees 10 rank 97–98 (top 9%).
+- **INTRIGUING** Inana's Descent motif map: descent, seven gates, corpse on a hook, three days, mourning women, life-giving water and plant, arising, and a **substitute** (Dumuzid), compare 11:50. Needs a controlled multi-myth test.
+- Gudea's temple: the cosmic temple-building of Gudea ("Ningirsu, I am going to build your house for you") is thematic background to John 2:19–21, not a textual link.

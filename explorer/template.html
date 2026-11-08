@@ -270,7 +270,7 @@ function seekTo(i){
 $("#play").onclick = () => seekTo(cur);
 $("#follow").onclick = e => { follow = !follow; e.target.setAttribute("aria-pressed", follow); e.target.textContent = `Follow along: ${follow ? "on" : "off"}`; };
 vid.addEventListener("timeupdate", () => { if (!follow || !vidCh) return; const t = D.chapStart[vidCh] + vid.currentTime; const i = idxAtTime(t); if (i !== cur && VS[i].c === vidCh) select(i, false); });
-vid.addEventListener("ended", () => { if (vidCh < 21){ const i = IDX[`${vidCh+1}:1`]; select(i, false); seekTo(i); } });
+vid.addEventListener("ended", () => { if (vidCh < 21){ const i = VS.findIndex(x => x.c === vidCh + 1); select(i, false); seekTo(i); } });
 // ---------- claims
 const ST = {holds:["Holds","--ok"], revised:["Holds, revised","--lapis"], partial:["Partial","--warn"], down:["Downgraded","--bad"], hand:["Check by hand","--bronze"], ns:["Not surviving correction","--muted"]};
 const CLAIMS = [

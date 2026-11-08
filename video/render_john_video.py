@@ -103,7 +103,7 @@ for mk, col in MCOL.items():
         if mk in vrow.get(f"{k[0]}:{k[1]}", {}).get("markers", ""): x = X_(idx[k]); bd.line([(x, y0 + 74 + lane * 4), (x, y0 + 77 + lane * 4)], fill=col, width=2)
     lane += 1
 for c in range(1, 22):
-    i = idx[(c, 1)]; bd.text((X_(i), y0 + 104), str(c), font=SANS(10), fill=MUTED)
+    i = next(j for j, k in enumerate(keys) if k[0] == c); bd.text((X_(i), y0 + 104), str(c), font=SANS(10), fill=MUTED)
 bd.text((40, y0 + 118), "track: theme blocks (shaded) · voice mode (gold = discourse, grey = action) · section breaks (white = major) · marker lanes", font=SANS(10), fill=(110, 108, 104))
 bd.line([(40, 182), (W - 40, 182)], fill=LINE)
 def wrap(draw, text, font, width):

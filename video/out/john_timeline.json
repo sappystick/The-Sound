@@ -1,0 +1,6092 @@
+{
+"manifest": {
+"engine": "code/engine/engine.py make()",
+"era": "koine",
+"mode": "declaim",
+"space": "synagogue",
+"verse_gap_s": 0.6,
+"section_pause_major_s": 3.0,
+"section_pause_minor_s": 2.0,
+"breaks": {
+"1:16": "major",
+"5:30": "minor",
+"6:1": "minor",
+"6:29": "minor",
+"6:60": "minor",
+"7:52": "minor",
+"8:56": "minor",
+"9:8": "minor",
+"9:35": "minor",
+"13:33": "major",
+"17:1": "minor",
+"18:1": "major"
+},
+"text": "SBLGNT (MorphGNT)",
+"sample_rate": 44100
+},
+"total_s": 12255.7,
+"verses": [
+{
+"v": "1:1",
+"pre": 0.0,
+"start": 0.0,
+"dur": 9.763,
+"ipa": "ɛn ar.ˈkʰe ˈen o ˈlo.ɣos kɛ o ˈlo.ɣos ˈen pros ton tʰɛ.ˈon kɛ tʰɛ.ˈos ˈen o ˈlo.ɣos"
+},
+{
+"v": "1:2",
+"pre": 0.0,
+"start": 10.363,
+"dur": 5.174,
+"ipa": "ˈuː.tos ˈen ɛn ar.ˈkʰe pros ton tʰɛ.ˈon"
+},
+{
+"v": "1:3",
+"pre": 0.0,
+"start": 16.137,
+"dur": 9.282,
+"ipa": "ˈpan.ta ði av.ˈtuː ɛ.ˈɣɛ.nɛ.to kɛ kʰo.ˈris av.ˈtuː ɛ.ˈɣɛ.nɛ.to uː.ˈðɛ ˈɛn o ˈɣɛ.ɣo.nɛn"
+},
+{
+"v": "1:4",
+"pre": 0.0,
+"start": 26.019,
+"dur": 7.707,
+"ipa": "ɛn av.ˈto zo.ˈe ˈen kɛ e zo.ˈe ˈen to ˈpʰos ˈton antʰ.ˈro.pon"
+},
+{
+"v": "1:5",
+"pre": 0.0,
+"start": 34.326,
+"dur": 8.916,
+"ipa": "kɛ to ˈpʰos ɛn ˈte sko.ˈti.a ˈpʰɛ.niː kɛ e sko.ˈti.a av.ˈto uː ka.ˈtɛ.la.vɛn"
+},
+{
+"v": "1:6",
+"pre": 0.0,
+"start": 43.842,
+"dur": 8.555,
+"ipa": "ɛ.ˈɣɛ.nɛ.to ˈantʰ.ro.pos a.pɛs.tal.ˈmɛ.nos pa.ˈra tʰɛ.ˈuː ˈo.no.ma av.ˈto i.o.ˈan.nes"
+},
+{
+"v": "1:7",
+"pre": 0.0,
+"start": 52.997,
+"dur": 12.186,
+"ipa": "ˈuː.tos ˈel.tʰɛn iːs mar.ty.ˈri.an ˈi.na mar.ty.ˈre.se pɛ.ˈri ˈtuː pʰo.ˈtos ˈi.na ˈpan.tɛs pis.ˈtɛv.so.sin ði av.ˈtuː"
+},
+{
+"v": "1:8",
+"pre": 0.0,
+"start": 65.783,
+"dur": 8.178,
+"ipa": "uːk ˈen ɛ.ˈkiː.nos to ˈpʰos all ˈi.na mar.ty.ˈre.se pɛ.ˈri ˈtuː pʰo.ˈtos"
+},
+{
+"v": "1:9",
+"pre": 0.0,
+"start": 74.562,
+"dur": 9.792,
+"ipa": "ˈen to ˈpʰos to a.le.tʰi.ˈnon o pʰo.ˈti.ziː ˈpan.ta ˈantʰ.ro.pon ɛr.ˈkʰo.mɛ.non iːs ton ˈkoz.mon"
+},
+{
+"v": "1:10",
+"pre": 0.0,
+"start": 84.954,
+"dur": 10.387,
+"ipa": "ɛn ˈto ˈkoz.mo ˈen kɛ o ˈkoz.mos ði av.ˈtuː ɛ.ˈɣɛ.nɛ.to kɛ o ˈkoz.mos av.ˈton uːk ˈɛɣ.no"
+},
+{
+"v": "1:11",
+"pre": 0.0,
+"start": 95.941,
+"dur": 7.371,
+"ipa": "iːs ta ˈi.ði.a ˈel.tʰɛn kɛ y ˈi.ði.y av.ˈton uː pa.ˈrɛ.la.von"
+},
+{
+"v": "1:12",
+"pre": 0.0,
+"start": 103.913,
+"dur": 14.013,
+"ipa": "ˈo.sy ðɛ ˈɛ.la.von av.ˈton ˈɛ.ðo.kɛn av.ˈtys ɛk.suː.ˈsi.an ˈtɛk.na tʰɛ.ˈuː ɣɛ.ˈnɛs.tʰɛ ˈtys pis.ˈtɛv.uː.sin iːs to ˈo.no.ma av.ˈtuː"
+},
+{
+"v": "1:13",
+"pre": 0.0,
+"start": 118.525,
+"dur": 12.087,
+"ipa": "y uːk ɛks ɛ.ˈma.ton uː.ˈðɛ ɛk tʰɛ.ˈle.ma.tos sar.ˈkos uː.ˈðɛ ɛk tʰɛ.ˈle.ma.tos anð.ˈros all ɛk tʰɛ.ˈuː ɛ.ɣɛn.ˈne.tʰe.san"
+},
+{
+"v": "1:14",
+"pre": 0.0,
+"start": 131.213,
+"dur": 18.094,
+"ipa": "kɛ o ˈlo.ɣos sarks ɛ.ˈɣɛ.nɛ.to kɛ ɛs.ˈke.no.sɛn ɛn e.ˈmin kɛ ɛ.tʰɛ.a.ˈsa.mɛ.tʰa ten ˈðok.san av.ˈtuː ˈðok.san os mo.no.ɣɛ.ˈnuːs pa.ˈra pa.ˈtros ˈple.res ˈkʰa.ri.tos kɛ a.le.ˈtʰiː.as"
+},
+{
+"v": "1:15",
+"pre": 0.0,
+"start": 149.907,
+"dur": 16.686,
+"ipa": "i.o.ˈan.nes mar.ty.ˈriː pɛ.ˈri av.ˈtuː kɛ ˈkɛ.kra.ɣɛn ˈlɛ.ɣon ˈuː.tos ˈen on ˈiː.pon o o.ˈpi.so muː ɛr.ˈkʰo.mɛ.nos ˈɛmp.ros.ˈtʰɛn muː ˈɣɛ.ɣo.nɛn ˈo.ti ˈpro.ˈtos muː ˈen"
+},
+{
+"v": "1:16",
+"pre": 3.0,
+"start": 170.193,
+"dur": 9.912,
+"ipa": "ˈo.ti ɛk ˈtuː ple.ˈro.ma.tos av.ˈtuː e.ˈmiːs ˈpan.tɛs ɛ.ˈla.vo.mɛn kɛ ˈkʰa.rin an.ˈti ˈkʰa.ri.tos"
+},
+{
+"v": "1:17",
+"pre": 0.0,
+"start": 180.704,
+"dur": 10.996,
+"ipa": "ˈo.ti o ˈno.mos ði.ˈa mo.y.ˈsɛ.os ɛ.ˈðo.tʰe e ˈkʰa.ris kɛ e a.ˈle.tʰiː.a ði.ˈa i.e.ˈsuː kʰris.ˈtuː ɛ.ˈɣɛ.nɛ.to"
+},
+{
+"v": "1:18",
+"pre": 0.0,
+"start": 192.3,
+"dur": 12.245,
+"ipa": "tʰɛ.ˈon uː.ˈðiːs ɛ.ˈo.ra.kɛn ˈpo.po.tɛ mo.no.ɣɛ.ˈnes tʰɛ.ˈos o on iːs ton ˈkol.pon ˈtuː pa.ˈtros ɛ.ˈkiː.nos ɛk.se.ˈɣe.sa.to"
+},
+{
+"v": "1:19",
+"pre": 0.0,
+"start": 205.146,
+"dur": 17.329,
+"ipa": "kɛ ˈav.te ɛs.ˈtin e mar.ty.ˈri.a ˈtuː i.o.ˈan.nuː ˈo.tɛ a.ˈpɛs.tiː.lan y i.uː.ˈðɛ.y ɛks i.ɛ.ro.so.ˈly.mon i.ɛ.ˈriːs kɛ lɛv.ˈi.tas ˈi.na ɛ.ro.ˈte.so.sin av.ˈton sy ˈtis ˈiː"
+},
+{
+"v": "1:20",
+"pre": 0.0,
+"start": 223.075,
+"dur": 9.988,
+"ipa": "kɛ o.mo.ˈlo.ɣe.sɛn kɛ uːk er.ˈne.sa.to kɛ o.mo.ˈlo.ɣe.sɛn ˈo.ti ɛ.ˈɣo uːk iː.ˈmi o kʰris.ˈtos"
+},
+{
+"v": "1:21",
+"pre": 0.0,
+"start": 233.662,
+"dur": 12.179,
+"ipa": "kɛ e.ˈro.te.san av.ˈton ˈti ˈuːn sy e.ˈli.as ˈiː kɛ ˈlɛ.ɣiː uːk iː.ˈmi o pro.ˈpʰe.tes ˈiː ˈsy kɛ a.pɛ.ˈkri.tʰe ˈuː"
+},
+{
+"v": "1:22",
+"pre": 0.0,
+"start": 246.441,
+"dur": 12.2,
+"ipa": "ˈiː.pan ˈuːn av.ˈto ˈtis ˈiː ˈi.na a.ˈpo.kri.sin ˈðo.mɛn ˈtys ˈpɛmp.sa.sin e.ˈmas ˈti ˈlɛ.ɣiːs pɛ.ˈri sɛ.av.ˈtuː"
+},
+{
+"v": "1:23",
+"pre": 0.0,
+"start": 259.241,
+"dur": 12.464,
+"ipa": "ˈɛ.pʰe ɛ.ˈɣo pʰo.ˈne vo.ˈon.tos ɛn ˈte ɛ.ˈre.mo ɛv.ˈtʰy.na.tɛ ten o.ˈðon ky.ˈri.uː ka.ˈtʰos ˈiː.pɛn e.sa.ˈi.as o pro.ˈpʰe.tes"
+},
+{
+"v": "1:24",
+"pre": 0.0,
+"start": 272.305,
+"dur": 6.259,
+"ipa": "kɛ a.pɛs.tal.ˈmɛ.ny ˈe.san ɛk ˈton pʰa.ri.ˈsɛ.on"
+},
+{
+"v": "1:25",
+"pre": 0.0,
+"start": 279.164,
+"dur": 13.528,
+"ipa": "kɛ e.ˈro.te.san av.ˈton kɛ ˈiː.pan av.ˈto ˈti ˈuːn vap.ˈti.ziːs iː sy uːk ˈiː o kʰris.ˈtos uː.ˈðɛ e.ˈli.as uː.ˈðɛ o pro.ˈpʰe.tes"
+},
+{
+"v": "1:26",
+"pre": 0.0,
+"start": 293.292,
+"dur": 12.455,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.o.ˈan.nes ˈlɛ.ɣon ɛ.ˈɣo vap.ˈti.zo ɛn ˈy.ða.ti ˈmɛ.sos y.ˈmon ˈɛs.te.kɛn on y.ˈmiːs uːk ˈy.ða.tɛ"
+},
+{
+"v": "1:27",
+"pre": 0.0,
+"start": 306.347,
+"dur": 11.132,
+"ipa": "o o.ˈpi.so muː ɛr.ˈkʰo.mɛ.nos ˈuː uːk iː.ˈmi ˈak.si.os ˈi.na ˈly.so av.ˈtuː ton i.ˈman.ta ˈtuː y.po.ˈðe.ma.tos"
+},
+{
+"v": "1:28",
+"pre": 0.0,
+"start": 318.079,
+"dur": 10.124,
+"ipa": "ˈtav.ta ɛn ve.tʰa.ˈni.a ɛ.ˈɣɛ.nɛ.to ˈpɛ.ran ˈtuː i.or.ˈða.nuː ˈo.puː ˈen o i.o.ˈan.nes vap.ˈti.zon"
+},
+{
+"v": "1:29",
+"pre": 0.0,
+"start": 328.804,
+"dur": 14.949,
+"ipa": "ˈte ɛ.ˈpav.ri.on ˈvlɛ.piː ton i.e.ˈsuːn ɛr.ˈkʰo.mɛ.non pros av.ˈton kɛ ˈlɛ.ɣiː ˈi.ðɛ o am.ˈnos ˈtuː tʰɛ.ˈuː o ˈɛ.ron ten a.mar.ˈti.an ˈtuː ˈkoz.muː"
+},
+{
+"v": "1:30",
+"pre": 0.0,
+"start": 344.353,
+"dur": 13.036,
+"ipa": "ˈuː.ˈtos ɛs.tin y.ˈpɛr ˈuː ɛ.ˈɣo ˈiː.pon o.ˈpi.so muː ˈɛr.kʰɛ.tɛ a.ˈner os ˈɛmp.ros.ˈtʰɛn muː ˈɣɛ.ɣo.nɛn ˈo.ti ˈpro.ˈtos muː ˈen"
+},
+{
+"v": "1:31",
+"pre": 0.0,
+"start": 357.989,
+"dur": 12.145,
+"ipa": "ka.ˈɣo uːk ˈe.ðiːn av.ˈton all ˈi.na pʰa.nɛ.ro.ˈtʰe ˈto i.sra.ˈel ði.ˈa ˈtuː.to ˈel.tʰon ɛ.ˈɣo ɛn ˈy.ða.ti vap.ˈti.zon"
+},
+{
+"v": "1:32",
+"pre": 0.0,
+"start": 370.734,
+"dur": 14.515,
+"ipa": "kɛ ɛ.mar.ˈty.re.sɛn i.o.ˈan.nes ˈlɛ.ɣon ˈo.ti tɛ.ˈtʰɛ.a.mɛ to ˈpnɛv.ma ka.ta.ˈvɛ.non os pɛ.ris.tɛ.ˈran ɛks uː.ra.ˈnuː kɛ ˈɛ.miː.nɛn ɛp av.ˈton"
+},
+{
+"v": "1:33",
+"pre": 0.0,
+"start": 385.849,
+"dur": 21.729,
+"ipa": "ka.ˈɣo uːk ˈe.ðiːn av.ˈton all o ˈpɛmp.sas mɛ vap.ˈti.ziːn ɛn ˈy.ða.ti ɛ.ˈkiː.ˈnos my ˈiː.pɛn ɛpʰ on an ˈi.ðes to ˈpnɛv.ma ka.ta.ˈvɛ.non kɛ ˈmɛ.non ɛp av.ˈton ˈuː.ˈtos ɛs.tin o vap.ˈti.zon ɛn ˈpnɛv.ma.ti a.ˈɣi.o"
+},
+{
+"v": "1:34",
+"pre": 0.0,
+"start": 408.177,
+"dur": 8.942,
+"ipa": "ka.ˈɣo ɛ.ˈo.ra.ka kɛ mɛ.mar.ˈty.re.ka ˈo.ti ˈuː.ˈtos ɛs.tin o ɛ.klɛk.ˈtos ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "1:35",
+"pre": 0.0,
+"start": 417.72,
+"dur": 9.794,
+"ipa": "ˈte ɛ.ˈpav.ri.on ˈpa.lin iːs.ˈte.kiː o i.o.ˈan.nes kɛ ɛk ˈton ma.tʰe.ˈton av.ˈtuː ˈðy.o"
+},
+{
+"v": "1:36",
+"pre": 0.0,
+"start": 428.113,
+"dur": 9.097,
+"ipa": "kɛ ɛmv.ˈlɛp.sas ˈto i.e.ˈsuː pɛ.ri.pa.ˈtuːn.ti ˈlɛ.ɣiː ˈi.ðɛ o am.ˈnos ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "1:37",
+"pre": 0.0,
+"start": 437.811,
+"dur": 9.677,
+"ipa": "kɛ ˈe.kuː.san y ˈðy.o ma.tʰe.ˈtɛ av.ˈtuː la.ˈluːn.tos kɛ e.ko.ˈluː.tʰe.san ˈto i.e.ˈsuː"
+},
+{
+"v": "1:38",
+"pre": 0.0,
+"start": 448.087,
+"dur": 19.996,
+"ipa": "stra.ˈpʰiːs ðɛ o i.e.ˈsuːs kɛ tʰɛ.a.ˈsa.mɛ.nos av.ˈtuːs a.ko.luː.ˈtʰuːn.tas ˈlɛ.ɣiː av.ˈtys ˈti ze.ˈtiː.tɛ y ðɛ ˈiː.pan av.ˈto rav.ˈvi o ˈlɛ.ɣɛ.tɛ mɛ.tʰɛr.me.nɛv.ˈo.mɛ.non ði.ˈðas.ka.lɛ ˈpuː ˈmɛ.niːs"
+},
+{
+"v": "1:39",
+"pre": 0.0,
+"start": 468.683,
+"dur": 16.231,
+"ipa": "ˈlɛ.ɣiː av.ˈtys ˈɛr.kʰɛs.tʰɛ kɛ ˈop.sɛs.tʰɛ ˈel.tʰan ˈuːn kɛ ˈiː.ðan ˈpuː ˈmɛ.niː kɛ par av.ˈto ˈɛ.miː.nan ten e.ˈmɛ.ran ɛ.ˈkiː.nen ˈo.ra ˈen os ðɛ.ˈka.te"
+},
+{
+"v": "1:40",
+"pre": 0.0,
+"start": 485.514,
+"dur": 14.248,
+"ipa": "ˈen anð.ˈrɛ.as o a.ðɛl.ˈpʰos ˈsi.mo.nos ˈpɛ.truː ˈiːs ɛk ˈton ˈðy.o ˈton a.kuː.ˈsan.ton pa.ˈra i.o.ˈan.nuː kɛ a.ko.luː.tʰe.ˈsan.ton av.ˈto"
+},
+{
+"v": "1:41",
+"pre": 0.0,
+"start": 500.362,
+"dur": 16.16,
+"ipa": "ɛv.ˈris.kiː ˈuː.tos ˈpro.ton ton a.ðɛl.ˈpʰon ton ˈi.ði.on ˈsi.mo.na kɛ ˈlɛ.ɣiː av.ˈto ɛv.ˈre.ka.mɛn ton mɛs.ˈsi.an ˈo ɛs.tin mɛ.tʰɛr.me.nɛv.ˈo.mɛ.non kʰris.ˈtos"
+},
+{
+"v": "1:42",
+"pre": 0.0,
+"start": 517.122,
+"dur": 16.767,
+"ipa": "ˈe.ɣa.ɣɛn av.ˈton pros ton i.e.ˈsuːn ɛmv.ˈlɛp.sas av.ˈto o i.e.ˈsuːs ˈiː.pɛn sy ˈiː ˈsi.mon o y.ˈos i.o.ˈan.nuː sy kle.ˈtʰe.se ke.ˈpʰas o ɛr.me.ˈnɛv.ɛ.tɛ ˈpɛ.tros"
+},
+{
+"v": "1:43",
+"pre": 0.0,
+"start": 534.489,
+"dur": 14.77,
+"ipa": "ˈte ɛ.ˈpav.ri.on e.ˈtʰɛ.le.sɛn ɛk.sɛl.ˈtʰiːn iːs ten ɣa.li.ˈlɛ.an kɛ ɛv.ˈris.kiː ˈpʰi.lip.pon kɛ ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs a.ko.ˈluː.tʰiː my"
+},
+{
+"v": "1:44",
+"pre": 0.0,
+"start": 549.859,
+"dur": 8.9,
+"ipa": "ˈen ðɛ o ˈpʰi.lip.pos a.ˈpo vetʰ.sa.i.ˈða ɛk ˈtes ˈpo.lɛ.os anð.ˈrɛ.uː kɛ ˈpɛ.truː"
+},
+{
+"v": "1:45",
+"pre": 0.0,
+"start": 559.36,
+"dur": 18.885,
+"ipa": "ɛv.ˈris.kiː ˈpʰi.lip.pos ton na.tʰa.na.ˈel kɛ ˈlɛ.ɣiː av.ˈto on ˈɛ.ɣrap.sɛn mo.y.ˈses ɛn ˈto ˈno.mo kɛ y pro.ˈpʰe.tɛ ɛv.ˈre.ka.mɛn i.e.ˈsuːn y.ˈon ˈtuː i.o.ˈsepʰ ton a.ˈpo na.za.ˈrɛt"
+},
+{
+"v": "1:46",
+"pre": 0.0,
+"start": 578.844,
+"dur": 13.129,
+"ipa": "kɛ ˈiː.pɛn av.ˈto na.tʰa.na.ˈel ɛk na.za.ˈrɛt ˈðy.na.ˈtɛ ti a.ɣa.ˈtʰon ˈiː.nɛ ˈlɛ.ɣiː av.ˈto o ˈpʰi.lip.pos ˈɛr.kʰuː kɛ ˈi.ðɛ"
+},
+{
+"v": "1:47",
+"pre": 0.0,
+"start": 592.574,
+"dur": 15.096,
+"ipa": "ˈiː.ðɛn o i.e.ˈsuːs ton na.tʰa.na.ˈel ɛr.ˈkʰo.mɛ.non pros av.ˈton kɛ ˈlɛ.ɣiː pɛ.ˈri av.ˈtuː ˈi.ðɛ a.le.ˈtʰos i.sra.e.ˈli.tes ɛn ˈo ˈðo.los uːk ˈɛs.tin"
+},
+{
+"v": "1:48",
+"pre": 0.0,
+"start": 608.27,
+"dur": 17.057,
+"ipa": "ˈlɛ.ɣiː av.ˈto na.tʰa.na.ˈel ˈpo.tʰɛn mɛ ɣi.ˈnos.kiːs a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto pro ˈtuː sɛ ˈpʰi.lip.pon pʰo.ˈne.sɛ ˈon.ta y.ˈpo ten sy.ˈken ˈiː.ˈðon sɛ"
+},
+{
+"v": "1:49",
+"pre": 0.0,
+"start": 625.927,
+"dur": 11.217,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto na.tʰa.na.ˈel rav.ˈvi sy ˈiː o y.ˈos ˈtuː tʰɛ.ˈuː sy va.si.ˈlɛvs ˈiː ˈtuː i.sra.ˈel"
+},
+{
+"v": "1:50",
+"pre": 0.0,
+"start": 637.744,
+"dur": 14.683,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto ˈo.ti ˈiː.ˈpon sy ˈo.ti ˈiː.ˈðon sɛ y.po.ˈka.to ˈtes sy.ˈkes pis.ˈtɛv.iːs ˈmiː.zo ˈtuː.ton ˈop.se"
+},
+{
+"v": "1:51",
+"pre": 0.0,
+"start": 653.027,
+"dur": 19.24,
+"ipa": "kɛ ˈlɛ.ɣiː av.ˈto a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈop.sɛs.tʰɛ ton uː.ra.ˈnon a.nɛ.o.ˈɣo.ta kɛ tuːs aŋ.ˈɣɛ.luːs ˈtuː tʰɛ.ˈuː a.na.ˈvɛ.non.tas kɛ ka.ta.ˈvɛ.non.tas ɛ.ˈpi ton y.ˈon ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "2:1",
+"pre": 0.0,
+"start": 672.867,
+"dur": 12.529,
+"ipa": "kɛ ˈte e.ˈmɛ.ra ˈte ˈtri.te ˈɣa.mos ɛ.ˈɣɛ.nɛ.to ɛn ka.ˈna ˈtes ɣa.li.ˈlɛ.as kɛ ˈen e ˈme.ter ˈtuː i.e.ˈsuː ɛ.ˈkiː"
+},
+{
+"v": "2:2",
+"pre": 0.0,
+"start": 685.996,
+"dur": 8.203,
+"ipa": "ɛ.ˈkle.tʰe ðɛ kɛ o i.e.ˈsuːs kɛ y ma.tʰe.ˈtɛ av.ˈtuː iːs ton ˈɣa.mon"
+},
+{
+"v": "2:3",
+"pre": 0.0,
+"start": 694.799,
+"dur": 10.431,
+"ipa": "kɛ ys.tɛ.ˈre.san.tos ˈy.nuː ˈlɛ.ɣiː e ˈme.ter ˈtuː i.e.ˈsuː pros av.ˈton ˈy.non uːk ˈɛ.kʰuː.sin"
+},
+{
+"v": "2:4",
+"pre": 0.0,
+"start": 705.83,
+"dur": 9.438,
+"ipa": "kɛ ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs ˈti ɛ.ˈmy kɛ ˈsy ˈɣy.nɛ ˈuː.po ˈe.kiː e ˈo.ra muː"
+},
+{
+"v": "2:5",
+"pre": 0.0,
+"start": 715.868,
+"dur": 9.012,
+"ipa": "ˈlɛ.ɣiː e ˈme.ter av.ˈtuː ˈtys ði.a.ˈko.nys ˈo ti an ˈlɛ.ɣe y.ˈmin py.ˈe.sa.tɛ"
+},
+{
+"v": "2:6",
+"pre": 0.0,
+"start": 725.48,
+"dur": 14.319,
+"ipa": "ˈe.san ðɛ ɛ.ˈkiː ˈli.tʰi.nɛ y.ˈðri.ɛ ɛks ka.ˈta ton ka.tʰa.riz.ˈmon ˈton i.uː.ˈðɛ.on ˈkiː.mɛ.nɛ kʰo.ˈruː.sɛ a.ˈna mɛ.tre.ˈtas ˈðy.o e ˈtriːs"
+},
+{
+"v": "2:7",
+"pre": 0.0,
+"start": 740.399,
+"dur": 10.84,
+"ipa": "ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs ɣɛ.ˈmi.sa.tɛ tas y.ˈðri.as ˈy.ða.tos kɛ ɛ.ˈɣɛ.mi.san av.ˈtas ˈɛ.os ˈa.no"
+},
+{
+"v": "2:8",
+"pre": 0.0,
+"start": 751.839,
+"dur": 10.079,
+"ipa": "kɛ ˈlɛ.ɣiː av.ˈtys ant.ˈle.sa.tɛ ˈnyn kɛ ˈpʰɛ.rɛ.tɛ ˈto ar.kʰi.tri.ˈkli.no y ðɛ ˈe.nɛŋ.kan"
+},
+{
+"v": "2:9",
+"pre": 0.0,
+"start": 762.518,
+"dur": 20.382,
+"ipa": "os ðɛ ɛ.ˈɣɛv.sa.to o ar.kʰi.ˈtri.kli.nos to ˈy.ðor ˈy.non ɣɛ.ɣɛ.ne.ˈmɛ.non kɛ uːk ˈe.ðiː ˈpo.tʰɛn ɛs.ˈtin y ðɛ ði.ˈa.ko.ny ˈe.ðiː.san y ent.le.ˈko.tɛs to ˈy.ðor pʰo.ˈniː ton nym.ˈpʰi.on o ar.kʰi.ˈtri.kli.nos"
+},
+{
+"v": "2:10",
+"pre": 0.0,
+"start": 783.5,
+"dur": 16.777,
+"ipa": "kɛ ˈlɛ.ɣiː av.ˈto ˈpas ˈantʰ.ro.pos ˈpro.ton ton ka.ˈlon ˈy.non ˈti.tʰe.sin kɛ ˈo.tan mɛ.tʰys.ˈtʰo.sin ton ɛ.ˈlas.so sy tɛ.ˈte.re.kas ton ka.ˈlon ˈy.non ˈɛ.os ˈar.ti"
+},
+{
+"v": "2:11",
+"pre": 0.0,
+"start": 800.877,
+"dur": 18.75,
+"ipa": "ˈtav.ten ɛ.ˈpy.e.sɛn ar.ˈkʰen ˈton se.ˈmiː.on o i.e.ˈsuːs ɛn ka.ˈna ˈtes ɣa.li.ˈlɛ.as kɛ ɛ.pʰa.ˈnɛ.ro.sɛn ten ˈðok.san av.ˈtuː kɛ ɛ.ˈpis.tɛv.san iːs av.ˈton y ma.tʰe.ˈtɛ av.ˈtuː"
+},
+{
+"v": "2:12",
+"pre": 0.0,
+"start": 820.227,
+"dur": 16.472,
+"ipa": "mɛ.ˈta ˈtuː.to ka.ˈtɛ.ve iːs ka.pʰar.na.ˈuːm av.ˈtos kɛ e ˈme.ter av.ˈtuː kɛ y a.ðɛl.ˈpʰy kɛ y ma.tʰe.ˈtɛ av.ˈtuː kɛ ɛ.ˈkiː ˈɛ.miː.nan uː po.ˈllas e.ˈmɛ.ras"
+},
+{
+"v": "2:13",
+"pre": 0.0,
+"start": 837.299,
+"dur": 9.772,
+"ipa": "kɛ ɛŋ.ˈɣys ˈen to ˈpas.kʰa ˈton i.uː.ˈðɛ.on kɛ a.ˈnɛ.ve iːs i.ɛ.ro.ˈso.ly.ma o i.e.ˈsuːs"
+},
+{
+"v": "2:14",
+"pre": 0.0,
+"start": 847.672,
+"dur": 13.128,
+"ipa": "kɛ ˈɛv.rɛn ɛn ˈto i.ɛ.ˈro tuːs po.ˈluːn.tas ˈvo.as kɛ ˈpro.va.ta kɛ pɛ.ris.tɛ.ˈras kɛ tuːs kɛr.ma.tis.ˈtas ka.tʰe.ˈmɛ.nuːs"
+},
+{
+"v": "2:15",
+"pre": 0.0,
+"start": 861.4,
+"dur": 20.249,
+"ipa": "kɛ py.ˈe.sas pʰra.ˈɣɛ.lli.on ɛk skʰy.ˈni.on ˈpan.tas ɛk.ˈsɛ.va.lɛn ɛk ˈtuː i.ɛ.ˈruː ˈta tɛ ˈpro.va.ta kɛ tuːs ˈvo.as kɛ ˈton ko.lly.vis.ˈton ɛk.ˈsɛ.kʰɛ.ɛn ta ˈkɛr.ma.ta kɛ tas tra.ˈpɛ.zas a.ˈnɛst.rɛp.sɛn"
+},
+{
+"v": "2:16",
+"pre": 0.0,
+"start": 882.248,
+"dur": 14.542,
+"ipa": "kɛ ˈtys tas pɛ.ris.tɛ.ˈras po.ˈluː.sin ˈiː.pɛn ˈa.ra.tɛ ˈtav.ta ɛn.ˈtɛv.tʰɛn me py.ˈiː.tɛ ton ˈy.kon ˈtuː pa.ˈtros muː ˈy.kon ɛm.po.ˈri.uː"
+},
+{
+"v": "2:17",
+"pre": 0.0,
+"start": 897.39,
+"dur": 11.978,
+"ipa": "ɛm.ˈnes.tʰe.san y ma.tʰe.ˈtɛ av.ˈtuː ˈo.ti ɣɛ.ɣram.ˈmɛ.non ɛs.ˈtin o ˈze.los ˈtuː ˈy.kuː suː ka.ta.ˈpʰa.ɣɛ.ˈtɛ mɛ"
+},
+{
+"v": "2:18",
+"pre": 0.0,
+"start": 909.968,
+"dur": 12.088,
+"ipa": "a.pɛ.ˈkri.tʰe.san ˈuːn y i.uː.ˈðɛ.y kɛ ˈiː.pan av.ˈto ˈti se.ˈmiː.on ðiːk.ˈny.iːs e.ˈmin ˈo.ti ˈtav.ta py.ˈiːs"
+},
+{
+"v": "2:19",
+"pre": 0.0,
+"start": 922.656,
+"dur": 12.372,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈtys ˈly.sa.tɛ ton na.ˈon ˈtuː.ton kɛ ɛn tri.ˈsin e.ˈmɛ.rɛs ɛ.ɣɛ.ˈro av.ˈton"
+},
+{
+"v": "2:20",
+"pre": 0.0,
+"start": 935.628,
+"dur": 14.868,
+"ipa": "ˈiː.pan ˈuːn y i.uː.ˈðɛ.y tɛs.sɛ.ˈra.kon.ta kɛ ɛks ˈɛ.tɛ.sin y.ko.ðo.ˈme.tʰe o na.ˈos ˈuː.tos kɛ sy ɛn tri.ˈsin e.ˈmɛ.rɛs ɛ.ɣɛ.ˈriːs av.ˈton"
+},
+{
+"v": "2:21",
+"pre": 0.0,
+"start": 951.096,
+"dur": 7.511,
+"ipa": "ɛ.ˈkiː.nos ðɛ ˈɛ.lɛ.ɣɛn pɛ.ˈri ˈtuː na.ˈuː ˈtuː ˈso.ma.tos av.ˈtuː"
+},
+{
+"v": "2:22",
+"pre": 0.0,
+"start": 959.207,
+"dur": 16.844,
+"ipa": "ˈo.tɛ ˈuːn e.ˈɣɛr.tʰe ɛk nɛ.ˈkron ɛm.ˈnes.tʰe.san y ma.tʰe.ˈtɛ av.ˈtuː ˈo.ti ˈtuː.to ˈɛ.lɛ.ɣɛn kɛ ɛ.ˈpis.tɛv.san ˈte ɣra.ˈpʰe kɛ ˈto ˈlo.ɣo on ˈiː.pɛn o i.e.ˈsuːs"
+},
+{
+"v": "2:23",
+"pre": 0.0,
+"start": 976.651,
+"dur": 17.303,
+"ipa": "os ðɛ ˈen ɛn ˈtys i.ɛ.ro.so.ˈly.mys ɛn ˈto ˈpas.kʰa ɛn ˈte ɛ.or.ˈte po.ˈlly ɛ.ˈpis.tɛv.san iːs to ˈo.no.ma av.ˈtuː tʰɛ.o.ˈruːn.tɛs av.ˈtuː ta se.ˈmiː.a a ɛ.ˈpy.iː"
+},
+{
+"v": "2:24",
+"pre": 0.0,
+"start": 994.554,
+"dur": 10.412,
+"ipa": "av.ˈtos ðɛ i.e.ˈsuːs uːk ɛ.ˈpis.tɛv.ɛn av.ˈton av.ˈtys ði.ˈa to av.ˈton ɣi.ˈnos.kiːn ˈpan.tas"
+},
+{
+"v": "2:25",
+"pre": 0.0,
+"start": 1005.565,
+"dur": 13.769,
+"ipa": "kɛ ˈo.ti uː ˈkʰriː.an ˈiː.kʰɛn ˈi.na tis mar.ty.ˈre.se pɛ.ˈri ˈtuː antʰ.ˈro.puː av.ˈtos ɣar ɛ.ˈɣi.nos.kɛn ˈti ˈen ɛn ˈto antʰ.ˈro.po"
+},
+{
+"v": "3:1",
+"pre": 0.0,
+"start": 1019.934,
+"dur": 10.669,
+"ipa": "ˈen ðɛ ˈantʰ.ro.pos ɛk ˈton pʰa.ri.ˈsɛ.on ni.ˈko.ðe.mos ˈo.no.ma av.ˈto ˈar.kʰon ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "3:2",
+"pre": 0.0,
+"start": 1031.203,
+"dur": 22.802,
+"ipa": "ˈuː.tos ˈel.tʰɛn pros av.ˈton nyk.ˈtos kɛ ˈiː.pɛn av.ˈto rav.ˈvi ˈy.ða.mɛn ˈo.ti a.ˈpo tʰɛ.ˈuː ɛ.ˈle.ly.tʰas ði.ˈðas.ka.los uː.ˈðiːs ɣar ˈðy.na.tɛ ˈtav.ta ta se.ˈmiː.a py.ˈiːn a sy py.ˈiːs ɛ.ˈan me ˈe o tʰɛ.ˈos mɛt av.ˈtuː"
+},
+{
+"v": "3:3",
+"pre": 0.0,
+"start": 1054.605,
+"dur": 15.646,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto a.ˈmen a.ˈmen ˈlɛ.ɣo sy ɛ.ˈan ˈme tis ɣɛn.ne.ˈtʰe ˈa.no.tʰɛn uː ˈðy.na.tɛ i.ˈðiːn ten va.si.ˈliː.an ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "3:4",
+"pre": 0.0,
+"start": 1070.851,
+"dur": 19.49,
+"ipa": "ˈlɛ.ɣiː pros av.ˈton o ni.ˈko.ðe.mos ˈpos ˈðy.na.tɛ ˈantʰ.ro.pos ɣɛn.ne.ˈtʰe.nɛ ˈɣɛ.ron ˈon me ˈðy.na.tɛ iːs ten ky.ˈli.an ˈtes me.ˈtros av.ˈtuː ˈðɛv.tɛ.ron iː.sɛl.ˈtʰiːn kɛ ɣɛn.ne.ˈtʰe.nɛ"
+},
+{
+"v": "3:5",
+"pre": 0.0,
+"start": 1090.941,
+"dur": 16.718,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo sy ɛ.ˈan ˈme tis ɣɛn.ne.ˈtʰe ɛks ˈy.ða.tos kɛ ˈpnɛv.ma.tos uː ˈðy.na.tɛ iː.sɛl.ˈtʰiːn iːs ten va.si.ˈliː.an ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "3:6",
+"pre": 0.0,
+"start": 1108.259,
+"dur": 12.055,
+"ipa": "to ɣɛ.ɣɛn.ne.ˈmɛ.non ɛk ˈtes sar.ˈkos ˈsarks ɛs.tin kɛ to ɣɛ.ɣɛn.ne.ˈmɛ.non ɛk ˈtuː ˈpnɛv.ma.tos ˈpnɛv.ˈma ɛs.tin"
+},
+{
+"v": "3:7",
+"pre": 0.0,
+"start": 1120.914,
+"dur": 8.182,
+"ipa": "me tʰav.ˈma.ses ˈo.ti ˈiː.ˈpon sy ˈðiː y.ˈmas ɣɛn.ne.ˈtʰe.nɛ ˈa.no.tʰɛn"
+},
+{
+"v": "3:8",
+"pre": 0.0,
+"start": 1129.696,
+"dur": 18.67,
+"ipa": "to ˈpnɛv.ma ˈo.puː ˈtʰɛ.liː ˈpniː kɛ ten pʰo.ˈnen av.ˈtuː a.ˈkuː.iːs all uːk ˈy.ðas ˈpo.tʰɛn ˈɛr.kʰɛ.tɛ kɛ ˈpuː y.ˈpa.ɣiː ˈuː.tos ɛs.ˈtin ˈpas o ɣɛ.ɣɛn.ne.ˈmɛ.nos ɛk ˈtuː ˈpnɛv.ma.tos"
+},
+{
+"v": "3:9",
+"pre": 0.0,
+"start": 1148.966,
+"dur": 9.089,
+"ipa": "a.pɛ.ˈkri.tʰe ni.ˈko.ðe.mos kɛ ˈiː.pɛn av.ˈto ˈpos ˈðy.na.tɛ ˈtav.ta ɣɛ.ˈnɛs.tʰɛ"
+},
+{
+"v": "3:10",
+"pre": 0.0,
+"start": 1158.655,
+"dur": 11.663,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto sy ˈiː o ði.ˈðas.ka.los ˈtuː i.sra.ˈel kɛ ˈtav.ta uː ɣi.ˈnos.kiːs"
+},
+{
+"v": "3:11",
+"pre": 0.0,
+"start": 1170.918,
+"dur": 13.664,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo sy ˈo.ti o ˈy.ða.mɛn la.ˈluː.mɛn kɛ o ɛ.o.ˈra.ka.mɛn mar.ty.ˈruː.mɛn kɛ ten mar.ty.ˈri.an e.ˈmon uː lam.ˈva.nɛ.tɛ"
+},
+{
+"v": "3:12",
+"pre": 0.0,
+"start": 1185.182,
+"dur": 11.915,
+"ipa": "iː ta ɛ.ˈpi.ɣiː.a ˈiː.pon y.ˈmin kɛ uː pis.ˈtɛv.ɛ.tɛ ˈpos ɛ.ˈan ˈiː.po y.ˈmin ta ɛ.puː.ˈra.ni.a pis.ˈtɛv.sɛ.tɛ"
+},
+{
+"v": "3:13",
+"pre": 0.0,
+"start": 1197.697,
+"dur": 11.76,
+"ipa": "kɛ uː.ˈðiːs a.na.ˈvɛ.ve.kɛn iːs ton uː.ra.ˈnon iː me o ɛk ˈtuː uː.ra.ˈnuː ka.ta.ˈvas o y.ˈos ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "3:14",
+"pre": 0.0,
+"start": 1210.057,
+"dur": 12.353,
+"ipa": "kɛ ka.ˈtʰos mo.y.ˈses ˈyp.so.sɛn ton ˈo.pʰin ɛn ˈte ɛ.ˈre.mo ˈuː.tos yp.so.ˈtʰe.nɛ ˈðiː ton y.ˈon ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "3:15",
+"pre": 0.0,
+"start": 1223.009,
+"dur": 7.173,
+"ipa": "ˈi.na ˈpas o pis.ˈtɛv.on ɛn av.ˈto ˈɛ.kʰe zo.ˈen ɛ.ˈo.ni.on"
+},
+{
+"v": "3:16",
+"pre": 0.0,
+"start": 1230.782,
+"dur": 17.548,
+"ipa": "ˈuː.tos ɣar e.ˈɣa.pe.sɛn o tʰɛ.ˈos ton ˈkoz.mon ˈos.tɛ ton y.ˈon ton mo.no.ɣɛ.ˈne ˈɛ.ðo.kɛn ˈi.na ˈpas o pis.ˈtɛv.on iːs av.ˈton me a.ˈpo.le.tɛ a.ˈlla ˈɛ.kʰe zo.ˈen ɛ.ˈo.ni.on"
+},
+{
+"v": "3:17",
+"pre": 0.0,
+"start": 1248.93,
+"dur": 13.304,
+"ipa": "uː ɣar a.ˈpɛs.tiː.lɛn o tʰɛ.ˈos ton y.ˈon iːs ton ˈkoz.mon ˈi.na ˈkri.ne ton ˈkoz.mon all ˈi.na so.ˈtʰe o ˈkoz.mos ði av.ˈtuː"
+},
+{
+"v": "3:18",
+"pre": 0.0,
+"start": 1262.834,
+"dur": 16.368,
+"ipa": "o pis.ˈtɛv.on iːs av.ˈton uː ˈkri.nɛ.tɛ o ðɛ me pis.ˈtɛv.on ˈe.ðe ˈkɛ.kri.tɛ ˈo.ti me pɛ.ˈpis.tɛv.kɛn iːs to ˈo.no.ma ˈtuː mo.no.ɣɛ.ˈnuːs y.ˈuː ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "3:19",
+"pre": 0.0,
+"start": 1279.803,
+"dur": 18.026,
+"ipa": "ˈav.te ˈðɛ ɛs.tin e ˈkri.sis ˈo.ti to ˈpʰos ɛ.ˈle.ly.tʰɛn iːs ton ˈkoz.mon kɛ e.ˈɣa.pe.san y ˈantʰ.ro.py ˈma.llon to ˈsko.tos e to ˈpʰos ˈen ɣar av.ˈton po.ne.ˈra ta ˈɛr.ɣa"
+},
+{
+"v": "3:20",
+"pre": 0.0,
+"start": 1298.429,
+"dur": 13.188,
+"ipa": "ˈpas ɣar o ˈpʰav.la ˈpras.son mi.ˈsiː to ˈpʰos kɛ uːk ˈɛr.kʰɛ.tɛ pros to ˈpʰos ˈi.na me ɛ.lɛŋkʰ.ˈtʰe ta ˈɛr.ɣa av.ˈtuː"
+},
+{
+"v": "3:21",
+"pre": 0.0,
+"start": 1312.217,
+"dur": 13.734,
+"ipa": "o ðɛ py.ˈon ten a.ˈle.tʰiː.an ˈɛr.kʰɛ.tɛ pros to ˈpʰos ˈi.na pʰa.nɛ.ro.ˈtʰe av.ˈtuː ta ˈɛr.ɣa ˈo.ti ɛn tʰɛ.ˈo ɛs.tin iːr.ɣaz.ˈmɛ.na"
+},
+{
+"v": "3:22",
+"pre": 0.0,
+"start": 1326.55,
+"dur": 14.977,
+"ipa": "mɛ.ˈta ˈtav.ta ˈel.tʰɛn o i.e.ˈsuːs kɛ y ma.tʰe.ˈtɛ av.ˈtuː iːs ten i.uː.ˈðɛ.an ˈɣen kɛ ɛ.ˈkiː ði.ˈɛ.tri.vɛn mɛt av.ˈton kɛ ɛ.ˈvap.ti.zɛn"
+},
+{
+"v": "3:23",
+"pre": 0.0,
+"start": 1342.127,
+"dur": 14.597,
+"ipa": "ˈen ðɛ kɛ o i.o.ˈan.nes vap.ˈti.zon ɛn ɛ.ˈnon ɛŋ.ˈɣys ˈtuː sa.ˈliːm ˈo.ti ˈy.ða.ta po.ˈlla ˈen ɛ.ˈkiː kɛ pa.rɛ.ˈɣi.non.to kɛ ɛ.vap.ˈti.zon.to"
+},
+{
+"v": "3:24",
+"pre": 0.0,
+"start": 1357.324,
+"dur": 7.091,
+"ipa": "ˈuː.po ɣar ˈen vɛ.vle.ˈmɛ.nos iːs ten pʰy.la.ˈken o i.o.ˈan.nes"
+},
+{
+"v": "3:25",
+"pre": 0.0,
+"start": 1365.015,
+"dur": 10.464,
+"ipa": "ɛ.ˈɣɛ.nɛ.to ˈuːn ˈze.te.sis ɛk ˈton ma.tʰe.ˈton i.o.ˈan.nuː mɛ.ˈta i.uː.ˈðɛ.uː pɛ.ˈri ka.tʰa.riz.ˈmuː"
+},
+{
+"v": "3:26",
+"pre": 0.0,
+"start": 1376.08,
+"dur": 19.565,
+"ipa": "kɛ ˈel.tʰon pros ton i.o.ˈan.nen kɛ ˈiː.pan av.ˈto rav.ˈvi os ˈen mɛ.ˈta ˈsuː ˈpɛ.ran ˈtuː i.or.ˈða.nuː ˈo sy mɛ.mar.ˈty.re.kas ˈi.ðɛ ˈuː.tos vap.ˈti.ziː kɛ ˈpan.tɛs ˈɛr.kʰon.tɛ pros av.ˈton"
+},
+{
+"v": "3:27",
+"pre": 0.0,
+"start": 1396.245,
+"dur": 13.968,
+"ipa": "a.pɛ.ˈkri.tʰe i.o.ˈan.nes kɛ ˈiː.pɛn uː ˈðy.na.tɛ ˈantʰ.ro.pos lam.ˈva.niːn uː.ˈðɛ ɛn ɛ.ˈan me ˈe ðɛ.ðo.ˈmɛ.non av.ˈto ɛk ˈtuː uː.ra.ˈnuː"
+},
+{
+"v": "3:28",
+"pre": 0.0,
+"start": 1410.813,
+"dur": 13.726,
+"ipa": "av.ˈty y.ˈmiːs my mar.ty.ˈriː.tɛ ˈo.ti ˈiː.pon uːk iː.ˈmi ɛ.ˈɣo o kʰris.ˈtos all ˈo.ti a.pɛs.tal.ˈmɛ.nos iː.ˈmi ˈɛmp.ros.tʰɛn ɛ.ˈkiː.nuː"
+},
+{
+"v": "3:29",
+"pre": 0.0,
+"start": 1425.139,
+"dur": 19.833,
+"ipa": "o ˈɛ.kʰon ten ˈnym.pʰen nym.ˈpʰi.os ɛs.ˈtin o ðɛ ˈpʰi.los ˈtuː nym.ˈpʰi.uː o ɛs.te.ˈkos kɛ a.ˈkuː.on av.ˈtuː kʰa.ˈra ˈkʰɛ.riː ði.ˈa ten pʰo.ˈnen ˈtuː nym.ˈpʰi.uː ˈav.te ˈuːn e kʰa.ˈra e ɛ.ˈme pɛ.ˈple.ro.tɛ"
+},
+{
+"v": "3:30",
+"pre": 0.0,
+"start": 1445.572,
+"dur": 6.255,
+"ipa": "ɛ.ˈkiː.non ˈðiː avk.ˈsa.niːn ɛ.ˈmɛ ðɛ ɛ.lat.ˈtuːs.tʰɛ"
+},
+{
+"v": "3:31",
+"pre": 0.0,
+"start": 1452.426,
+"dur": 18.182,
+"ipa": "o ˈa.no.tʰɛn ɛr.ˈkʰo.mɛ.nos ɛ.ˈpa.no ˈpan.ton ɛs.ˈtin o on ɛk ˈtes ˈɣes ɛk ˈtes ˈɣes ɛs.tin kɛ ɛk ˈtes ˈɣes la.ˈliː o ɛk ˈtuː uː.ra.ˈnuː ɛr.ˈkʰo.mɛ.nos ɛ.ˈpa.no ˈpan.ton ɛs.ˈtin"
+},
+{
+"v": "3:32",
+"pre": 0.0,
+"start": 1471.208,
+"dur": 10.406,
+"ipa": "o ɛ.ˈo.ra.kɛn kɛ ˈe.kuː.sɛn ˈtuː.to mar.ty.ˈriː kɛ ten mar.ty.ˈri.an av.ˈtuː uː.ˈðiːs lam.ˈva.niː"
+},
+{
+"v": "3:33",
+"pre": 0.0,
+"start": 1482.214,
+"dur": 8.779,
+"ipa": "o la.ˈvon av.ˈtuː ten mar.ty.ˈri.an ɛspʰ.ˈra.ɣi.sɛn ˈo.ti o tʰɛ.ˈos a.le.ˈtʰes ɛs.tin"
+},
+{
+"v": "3:34",
+"pre": 0.0,
+"start": 1491.593,
+"dur": 11.292,
+"ipa": "on ɣar a.ˈpɛs.tiː.lɛn o tʰɛ.ˈos ta ˈre.ma.ta ˈtuː tʰɛ.ˈuː la.ˈliː uː ɣar ɛk ˈmɛ.truː ˈði.ðo.sin to ˈpnɛv.ma"
+},
+{
+"v": "3:35",
+"pre": 0.0,
+"start": 1503.486,
+"dur": 8.595,
+"ipa": "o pa.ˈter a.ɣa.ˈpa ton y.ˈon kɛ ˈpan.ta ˈðɛ.ðo.kɛn ɛn ˈte kʰiː.ˈri av.ˈtuː"
+},
+{
+"v": "3:36",
+"pre": 0.0,
+"start": 1512.681,
+"dur": 15.452,
+"ipa": "o pis.ˈtɛv.on iːs ton y.ˈon ˈɛ.kʰiː zo.ˈen ɛ.ˈo.ni.on o ðɛ a.piː.ˈtʰon ˈto y.ˈo uːk ˈop.sɛ.tɛ zo.ˈen all e or.ˈɣe ˈtuː tʰɛ.ˈuː ˈmɛ.niː ɛp av.ˈton"
+},
+{
+"v": "4:1",
+"pre": 0.0,
+"start": 1528.733,
+"dur": 13.774,
+"ipa": "os ˈuːn ˈɛɣ.no o i.e.ˈsuːs ˈo.ti ˈe.kuː.san y pʰa.ri.ˈsɛ.y ˈo.ti i.e.ˈsuːs ˈpliː.o.nas ma.tʰe.ˈtas py.ˈiː kɛ vap.ˈti.ziː e i.o.ˈan.nes"
+},
+{
+"v": "4:2",
+"pre": 0.0,
+"start": 1543.107,
+"dur": 8.458,
+"ipa": "ˈkɛ.ty.ɣɛ i.e.ˈsuːs av.ˈtos uːk ɛ.ˈvap.ti.zɛn all y ma.tʰe.ˈtɛ av.ˈtuː"
+},
+{
+"v": "4:3",
+"pre": 0.0,
+"start": 1552.165,
+"dur": 8.059,
+"ipa": "a.ˈpʰe.kɛn ten i.uː.ˈðɛ.an kɛ a.ˈpel.tʰɛn ˈpa.lin iːs ten ɣa.li.ˈlɛ.an"
+},
+{
+"v": "4:4",
+"pre": 0.0,
+"start": 1560.823,
+"dur": 6.899,
+"ipa": "ˈɛ.ðiː ðɛ av.ˈton ði.ˈɛr.kʰɛs.tʰɛ ði.ˈa ˈtes sa.ma.ˈriː.as"
+},
+{
+"v": "4:5",
+"pre": 0.0,
+"start": 1568.322,
+"dur": 15.144,
+"ipa": "ˈɛr.kʰɛ.tɛ ˈuːn iːs ˈpo.lin ˈtes sa.ma.ˈriː.as lɛ.ɣo.ˈmɛ.nen sy.ˈkʰar ple.ˈsi.on ˈtuː kʰo.ˈri.uː o ˈɛ.ðo.kɛn i.a.ˈkov ˈto i.o.ˈsepʰ ˈto y.ˈo av.ˈtuː"
+},
+{
+"v": "4:6",
+"pre": 0.0,
+"start": 1584.066,
+"dur": 15.499,
+"ipa": "ˈen ðɛ ɛ.ˈkiː pe.ˈɣe ˈtuː i.a.ˈkov o ˈuːn i.e.ˈsuːs kɛ.ko.pi.a.ˈkos ɛk ˈtes o.ðy.po.ˈri.as ɛ.ka.ˈtʰɛ.zɛ.to ˈuː.tos ɛ.ˈpi ˈte pe.ˈɣe ˈo.ra ˈen os ˈɛk.te"
+},
+{
+"v": "4:7",
+"pre": 0.0,
+"start": 1600.165,
+"dur": 11.0,
+"ipa": "ˈɛr.kʰɛ.tɛ ɣy.ˈne ɛk ˈtes sa.ma.ˈriː.as ant.ˈle.sɛ ˈy.ðor ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs ˈðos my ˈpiːn"
+},
+{
+"v": "4:8",
+"pre": 0.0,
+"start": 1611.765,
+"dur": 9.699,
+"ipa": "y ɣar ma.tʰe.ˈtɛ av.ˈtuː a.pɛ.le.ˈly.tʰiː.san iːs ten ˈpo.lin ˈi.na tro.ˈpʰas a.ɣo.ˈra.so.sin"
+},
+{
+"v": "4:9",
+"pre": 0.0,
+"start": 1622.064,
+"dur": 18.542,
+"ipa": "ˈlɛ.ɣiː ˈuːn av.ˈto e ɣy.ˈne e sa.ma.ˈri.tis ˈpos sy i.uː.ˈðɛ.os on par ɛ.ˈmuː ˈpiːn ɛ.ˈtiːs ɣy.nɛ.ˈkos sa.ma.ˈri.ti.ðos ˈuː.ses uː ɣar syŋkʰ.ˈron.tɛ i.uː.ˈðɛ.y sa.ma.ˈri.tɛs"
+},
+{
+"v": "4:10",
+"pre": 0.0,
+"start": 1641.206,
+"dur": 19.132,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈte iː ˈe.ðiːs ten ðo.rɛ.ˈan ˈtuː tʰɛ.ˈuː kɛ ˈtis ɛs.tin o ˈlɛ.ɣon sy ˈðos my ˈpiːn sy an ˈe.te.sas av.ˈton kɛ ˈɛ.ðo.kɛn ˈan sy ˈy.ðor ˈzon"
+},
+{
+"v": "4:11",
+"pre": 0.0,
+"start": 1660.938,
+"dur": 13.303,
+"ipa": "ˈlɛ.ɣiː av.ˈto e ɣy.ˈne ˈky.ri.ɛ ˈuː.tɛ ˈant.le.ma ˈɛ.kʰiːs kɛ to ˈpʰrɛ.ar ɛs.ˈtin va.ˈtʰy ˈpo.tʰɛn ˈuːn ˈɛ.kʰiːs to ˈy.ðor to ˈzon"
+},
+{
+"v": "4:12",
+"pre": 0.0,
+"start": 1674.841,
+"dur": 17.213,
+"ipa": "me sy ˈmiː.zon ˈiː ˈtuː pa.ˈtros e.ˈmon i.a.ˈkov os ˈɛ.ðo.kɛn e.ˈmin to ˈpʰrɛ.ar kɛ av.ˈtos ɛks av.ˈtuː ˈɛ.pi.ɛn kɛ y y.ˈy av.ˈtuː kɛ ta ˈtʰrɛm.ma.ta av.ˈtuː"
+},
+{
+"v": "4:13",
+"pre": 0.0,
+"start": 1692.654,
+"dur": 11.07,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈte ˈpas o ˈpi.non ɛk ˈtuː ˈy.ða.tos ˈtuː.tuː ðip.ˈse.siː ˈpa.lin"
+},
+{
+"v": "4:14",
+"pre": 0.0,
+"start": 1704.324,
+"dur": 20.516,
+"ipa": "os ð an ˈpi.e ɛk ˈtuː ˈy.ða.tos ˈuː ɛ.ˈɣo ˈðo.so av.ˈto uː me ðip.ˈse.siː iːs ton ɛ.ˈo.na a.ˈlla to ˈy.ðor o ˈðo.so av.ˈto ɣɛ.ˈne.sɛ.tɛ ɛn av.ˈto pe.ˈɣe ˈy.ða.tos a.llo.ˈmɛ.nuː iːs zo.ˈen ɛ.ˈo.ni.on"
+},
+{
+"v": "4:15",
+"pre": 0.0,
+"start": 1725.44,
+"dur": 12.696,
+"ipa": "ˈlɛ.ɣiː pros av.ˈton e ɣy.ˈne ˈky.ri.ɛ ˈðos my ˈtuː.to to ˈy.ðor ˈi.na me ðip.ˈso me.ˈðɛ ði.ˈɛr.kʰo.mɛ ɛn.ˈtʰa.ðɛ ant.ˈliːn"
+},
+{
+"v": "4:16",
+"pre": 0.0,
+"start": 1738.736,
+"dur": 8.127,
+"ipa": "ˈlɛ.ɣiː av.ˈte ˈy.pa.ɣɛ ˈpʰo.ne.son ton ˈanð.ra suː kɛ ɛl.ˈtʰɛ ɛn.ˈtʰa.ðɛ"
+},
+{
+"v": "4:17",
+"pre": 0.0,
+"start": 1747.463,
+"dur": 13.448,
+"ipa": "a.pɛ.ˈkri.tʰe e ɣy.ˈne kɛ ˈiː.pɛn av.ˈto uːk ˈɛ.kʰo ˈanð.ra ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs ka.ˈlos ˈiː.pas ˈo.ti ˈanð.ra uːk ˈɛ.kʰo"
+},
+{
+"v": "4:18",
+"pre": 0.0,
+"start": 1761.511,
+"dur": 10.775,
+"ipa": "ˈpɛn.tɛ ɣar ˈanð.ras ˈɛs.kʰɛs kɛ ˈnyn on ˈɛ.kʰiːs uːk ˈɛs.tin suː a.ˈner ˈtuː.to a.le.ˈtʰɛs ˈiː.re.kas"
+},
+{
+"v": "4:19",
+"pre": 0.0,
+"start": 1772.886,
+"dur": 7.766,
+"ipa": "ˈlɛ.ɣiː av.ˈto e ɣy.ˈne ˈky.ri.ɛ tʰɛ.o.ˈro ˈo.ti pro.ˈpʰe.tes ˈiː ˈsy"
+},
+{
+"v": "4:20",
+"pre": 0.0,
+"start": 1781.252,
+"dur": 15.394,
+"ipa": "y pa.ˈtɛ.rɛs e.ˈmon ɛn ˈto ˈo.riː ˈtuː.to pro.sɛ.ˈky.ne.san kɛ y.ˈmiːs ˈlɛ.ɣɛ.tɛ ˈo.ti ɛn i.ɛ.ro.so.ˈly.mys ɛs.ˈtin o ˈto.pos ˈo.puː pros.ky.ˈniːn ˈðiː"
+},
+{
+"v": "4:21",
+"pre": 0.0,
+"start": 1797.246,
+"dur": 16.877,
+"ipa": "ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs ˈpis.tɛv.ˈɛ my ˈɣy.nɛ ˈo.ti ˈɛr.kʰɛ.tɛ ˈo.ra ˈo.tɛ ˈuː.tɛ ɛn ˈto ˈo.riː ˈtuː.to ˈuː.tɛ ɛn i.ɛ.ro.so.ˈly.mys pros.ky.ˈne.sɛ.tɛ ˈto pa.ˈtri"
+},
+{
+"v": "4:22",
+"pre": 0.0,
+"start": 1814.724,
+"dur": 12.944,
+"ipa": "y.ˈmiːs pros.ky.ˈniː.tɛ o uːk ˈy.ða.tɛ e.ˈmiːs pros.ky.ˈnuː.mɛn o ˈy.ða.mɛn ˈo.ti e so.te.ˈri.a ɛk ˈton i.uː.ˈðɛ.on ɛs.ˈtin"
+},
+{
+"v": "4:23",
+"pre": 0.0,
+"start": 1828.268,
+"dur": 21.038,
+"ipa": "a.ˈlla ˈɛr.kʰɛ.tɛ ˈo.ra kɛ ˈnyn ɛs.tin ˈo.tɛ y a.le.tʰi.ˈny pros.ky.ne.ˈtɛ pros.ky.ˈne.suː.sin ˈto pa.ˈtri ɛn ˈpnɛv.ma.ti kɛ a.le.ˈtʰiː.a kɛ ɣar o pa.ˈter ty.ˈuː.tuːs ze.ˈtiː tuːs pros.ky.ˈnuːn.tas av.ˈton"
+},
+{
+"v": "4:24",
+"pre": 0.0,
+"start": 1849.905,
+"dur": 11.292,
+"ipa": "ˈpnɛv.ma o tʰɛ.ˈos kɛ tuːs pros.ky.ˈnuːn.tas av.ˈton ɛn ˈpnɛv.ma.ti kɛ a.le.ˈtʰiː.a ˈðiː pros.ky.ˈniːn"
+},
+{
+"v": "4:25",
+"pre": 0.0,
+"start": 1861.798,
+"dur": 14.226,
+"ipa": "ˈlɛ.ɣiː av.ˈto e ɣy.ˈne ˈy.ða ˈo.ti mɛs.ˈsi.as ˈɛr.kʰɛ.tɛ o lɛ.ˈɣo.mɛ.nos kʰris.ˈtos ˈo.tan ˈɛl.tʰe ɛ.ˈkiː.nos a.naŋ.ɣɛ.ˈliː e.ˈmin ˈa.pan.ta"
+},
+{
+"v": "4:26",
+"pre": 0.0,
+"start": 1876.624,
+"dur": 6.436,
+"ipa": "ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs ɛ.ˈɣo iː.mi o la.ˈlon sy"
+},
+{
+"v": "4:27",
+"pre": 0.0,
+"start": 1883.66,
+"dur": 17.15,
+"ipa": "kɛ ɛ.ˈpi ˈtuː.to ˈel.tʰan y ma.tʰe.ˈtɛ av.ˈtuː kɛ ɛ.ˈtʰav.ma.zon ˈo.ti mɛ.ˈta ɣy.nɛ.ˈkos ɛ.ˈla.liː uː.ˈðiːs ˈmɛn.ty ˈiː.pɛn ˈti ze.ˈtiːs e ˈti la.ˈliːs mɛt av.ˈtes"
+},
+{
+"v": "4:28",
+"pre": 0.0,
+"start": 1901.409,
+"dur": 11.771,
+"ipa": "a.ˈpʰe.kɛn ˈuːn ten y.ˈðri.an av.ˈtes e ɣy.ˈne kɛ a.ˈpel.tʰɛn iːs ten ˈpo.lin kɛ ˈlɛ.ɣiː ˈtys antʰ.ˈro.pys"
+},
+{
+"v": "4:29",
+"pre": 0.0,
+"start": 1913.781,
+"dur": 10.797,
+"ipa": "ˈðɛv.tɛ ˈi.ðɛ.tɛ ˈantʰ.ro.pon os ˈiː.ˈpɛ my ˈpan.ta ˈo.sa ɛ.ˈpy.e.sa ˈme.ti ˈuː.ˈtos ɛs.tin o kʰris.ˈtos"
+},
+{
+"v": "4:30",
+"pre": 0.0,
+"start": 1925.177,
+"dur": 7.131,
+"ipa": "ɛk.ˈsel.tʰon ɛk ˈtes ˈpo.lɛ.os kɛ ˈer.kʰon.to pros av.ˈton"
+},
+{
+"v": "4:31",
+"pre": 0.0,
+"start": 1932.908,
+"dur": 8.452,
+"ipa": "ɛn ˈto mɛ.tak.ˈsy e.ˈro.ton av.ˈton y ma.tʰe.ˈtɛ ˈlɛ.ɣon.tɛs rav.ˈvi ˈpʰa.ɣɛ"
+},
+{
+"v": "4:32",
+"pre": 0.0,
+"start": 1941.96,
+"dur": 8.844,
+"ipa": "o ðɛ ˈiː.pɛn av.ˈtys ɛ.ˈɣo ˈvro.sin ˈɛ.kʰo pʰa.ˈɣiːn en y.ˈmiːs uːk ˈy.ða.tɛ"
+},
+{
+"v": "4:33",
+"pre": 0.0,
+"start": 1951.404,
+"dur": 8.976,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn y ma.tʰe.ˈtɛ pros a.ˈlle.luːs ˈme tis ˈe.nɛŋ.kɛn av.ˈto pʰa.ˈɣiːn"
+},
+{
+"v": "4:34",
+"pre": 0.0,
+"start": 1960.98,
+"dur": 14.236,
+"ipa": "ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs ɛ.ˈmon ˈvro.ˈma ɛs.tin ˈi.na py.ˈe.so to ˈtʰɛ.le.ma ˈtuː ˈpɛmp.san.ˈtos mɛ kɛ tɛ.liː.ˈo.so av.ˈtuː to ˈɛr.ɣon"
+},
+{
+"v": "4:35",
+"pre": 0.0,
+"start": 1975.816,
+"dur": 21.437,
+"ipa": "uːkʰ y.ˈmiːs ˈlɛ.ɣɛ.tɛ ˈo.ti ˈɛ.ti tɛ.ˈtra.me.ˈnos ɛs.tin kɛ o tʰɛ.riz.ˈmos ˈɛr.kʰɛ.tɛ i.ˈðuː ˈlɛ.ɣo y.ˈmin ɛ.ˈpa.ra.tɛ tuːs opʰ.tʰal.ˈmuːs y.ˈmon kɛ tʰɛ.ˈa.sas.tʰɛ tas ˈkʰo.ras ˈo.ti lɛv.ˈkɛ iː.sin pros tʰɛ.riz.ˈmon ˈe.ðe"
+},
+{
+"v": "4:36",
+"pre": 0.0,
+"start": 1997.853,
+"dur": 13.325,
+"ipa": "o tʰɛ.ˈri.zon mis.ˈtʰon lam.ˈva.niː kɛ sy.ˈna.ɣiː kar.ˈpon iːs zo.ˈen ɛ.ˈo.ni.on ˈi.na o ˈspiː.ron o.ˈmuː ˈkʰɛ.re kɛ o tʰɛ.ˈri.zon"
+},
+{
+"v": "4:37",
+"pre": 0.0,
+"start": 2011.778,
+"dur": 10.882,
+"ipa": "ɛn ɣar ˈtuː.to o ˈlo.ɣos ɛs.ˈtin a.le.tʰi.ˈnos ˈo.ti ˈa.llos ɛs.ˈtin o ˈspiː.ron kɛ ˈa.llos o tʰɛ.ˈri.zon"
+},
+{
+"v": "4:38",
+"pre": 0.0,
+"start": 2023.26,
+"dur": 15.11,
+"ipa": "ɛ.ˈɣo a.ˈpɛs.tiː.la y.ˈmas tʰɛ.ˈri.ziːn o uːkʰ y.ˈmiːs kɛ.ko.pi.ˈa.ka.tɛ ˈa.lly kɛ.ko.pi.ˈa.ka.sin kɛ y.ˈmiːs iːs ton ˈko.pon av.ˈton iː.sɛ.le.ˈly.tʰa.tɛ"
+},
+{
+"v": "4:39",
+"pre": 0.0,
+"start": 2038.969,
+"dur": 18.134,
+"ipa": "ɛk ðɛ ˈtes ˈpo.lɛ.os ɛ.ˈkiː.nes po.ˈlly ɛ.ˈpis.tɛv.san iːs av.ˈton ˈton sa.ma.ri.ˈton ði.ˈa ton ˈlo.ɣon ˈtes ɣy.nɛ.ˈkos mar.ty.ˈruː.ses ˈo.ti ˈiː.ˈpɛn my ˈpan.ta a ɛ.ˈpy.e.sa"
+},
+{
+"v": "4:40",
+"pre": 0.0,
+"start": 2057.703,
+"dur": 13.176,
+"ipa": "os ˈuːn ˈel.tʰon pros av.ˈton y sa.ma.ˈri.tɛ e.ˈro.ton av.ˈton ˈmiː.nɛ par av.ˈtys kɛ ˈɛ.miː.nɛn ɛ.ˈkiː ˈðy.o e.ˈmɛ.ras"
+},
+{
+"v": "4:41",
+"pre": 0.0,
+"start": 2071.479,
+"dur": 7.357,
+"ipa": "kɛ po.ˈllo ˈpliː.uːs ɛ.ˈpis.tɛv.san ði.ˈa ton ˈlo.ɣon av.ˈtuː"
+},
+{
+"v": "4:42",
+"pre": 0.0,
+"start": 2079.435,
+"dur": 17.859,
+"ipa": "ˈte tɛ ɣy.nɛ.ˈki ˈɛ.lɛ.ɣon ˈo.ti uː.ˈkɛ.ti ði.ˈa ten sen la.li.ˈan pis.ˈtɛv.o.mɛn av.ˈty ɣar a.ke.ˈko.a.mɛn kɛ ˈy.ða.mɛn ˈo.ti ˈuː.ˈtos ɛs.tin a.le.ˈtʰos o so.ˈter ˈtuː ˈkoz.muː"
+},
+{
+"v": "4:43",
+"pre": 0.0,
+"start": 2097.895,
+"dur": 8.32,
+"ipa": "mɛ.ˈta ðɛ tas ˈðy.o e.ˈmɛ.ras ɛk.ˈsel.tʰɛn ɛ.ˈkiː.tʰɛn iːs ten ɣa.li.ˈlɛ.an"
+},
+{
+"v": "4:44",
+"pre": 0.0,
+"start": 2106.815,
+"dur": 10.718,
+"ipa": "av.ˈtos ɣar i.e.ˈsuːs ɛ.mar.ˈty.re.sɛn ˈo.ti pro.ˈpʰe.tes ɛn ˈte i.ˈði.a pa.ˈtri.ði ti.ˈmen uːk ˈɛ.kʰiː"
+},
+{
+"v": "4:45",
+"pre": 0.0,
+"start": 2118.132,
+"dur": 20.042,
+"ipa": "ˈo.tɛ ˈuːn ˈel.tʰɛn iːs ten ɣa.li.ˈlɛ.an ɛ.ˈðɛk.san.to av.ˈton y ɣa.li.ˈlɛ.y ˈpan.ta ɛ.o.ra.ˈko.tɛs ˈo.sa ɛ.ˈpy.e.sɛn ɛn i.ɛ.ro.so.ˈly.mys ɛn ˈte ɛ.or.ˈte kɛ av.ˈty ɣar ˈel.tʰon iːs ten ɛ.or.ˈten"
+},
+{
+"v": "4:46",
+"pre": 0.0,
+"start": 2138.775,
+"dur": 16.437,
+"ipa": "ˈel.tʰɛn ˈuːn ˈpa.lin iːs ten ka.ˈna ˈtes ɣa.li.ˈlɛ.as ˈo.puː ɛ.ˈpy.e.sɛn to ˈy.ðor ˈy.non kɛ ˈen tis va.si.li.ˈkos ˈuː o y.ˈos es.ˈtʰɛ.niː ɛn ka.pʰar.na.ˈuːm"
+},
+{
+"v": "4:47",
+"pre": 0.0,
+"start": 2155.812,
+"dur": 20.29,
+"ipa": "ˈuː.tos a.ˈkuː.sas ˈo.ti i.e.ˈsuːs ˈe.kiː ɛk ˈtes i.uː.ˈðɛ.as iːs ten ɣa.li.ˈlɛ.an a.ˈpel.tʰɛn pros av.ˈton kɛ e.ˈro.ta ˈi.na ka.ta.ˈve kɛ i.ˈa.se.tɛ av.ˈtuː ton y.ˈon ˈe.mɛ.llɛn ɣar a.potʰ.ˈnes.kiːn"
+},
+{
+"v": "4:48",
+"pre": 0.0,
+"start": 2176.702,
+"dur": 10.759,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs pros av.ˈton ɛ.ˈan me se.ˈmiː.a kɛ ˈtɛ.ra.ta ˈi.ðe.tɛ uː me pis.ˈtɛv.se.tɛ"
+},
+{
+"v": "4:49",
+"pre": 0.0,
+"start": 2188.061,
+"dur": 9.916,
+"ipa": "ˈlɛ.ɣiː pros av.ˈton o va.si.li.ˈkos ˈky.ri.ɛ ka.ˈta.ve.tʰi prin a.po.tʰa.ˈniːn to pɛ.ˈði.on muː"
+},
+{
+"v": "4:50",
+"pre": 0.0,
+"start": 2198.577,
+"dur": 15.753,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs po.ˈrɛv.uː o y.ˈos suː ˈze ɛ.ˈpis.tɛv.sɛn o ˈantʰ.ro.pos ˈto ˈlo.ɣo on ˈiː.pɛn av.ˈto o i.e.ˈsuːs kɛ ɛ.po.ˈrɛv.ɛ.to"
+},
+{
+"v": "4:51",
+"pre": 0.0,
+"start": 2214.93,
+"dur": 12.609,
+"ipa": "ˈe.ðe ðɛ av.ˈtuː ka.ta.ˈvɛ.non.tos y ˈðuː.ly av.ˈtuː y.ˈpen.te.san av.ˈto ˈlɛ.ɣon.tɛs ˈo.ti o ˈpɛs av.ˈtuː ˈze"
+},
+{
+"v": "4:52",
+"pre": 0.0,
+"start": 2228.138,
+"dur": 15.76,
+"ipa": "ɛ.ˈpy.tʰɛ.to ˈuːn ten ˈo.ran par av.ˈton ɛn ˈe komp.ˈso.tɛ.ron ˈɛs.kʰɛn ˈiː.pan ˈuːn av.ˈto ˈo.ti ɛkʰ.ˈtʰɛs ˈo.ran ɛv.ˈðo.men a.ˈpʰe.kɛn av.ˈton o py.rɛ.ˈtos"
+},
+{
+"v": "4:53",
+"pre": 0.0,
+"start": 2244.499,
+"dur": 16.602,
+"ipa": "ˈɛɣ.no ˈuːn o pa.ˈter ˈo.ti ɛ.ˈkiː.ne ˈte ˈo.ra ɛn ˈe ˈiː.pɛn av.ˈto o i.e.ˈsuːs o y.ˈos suː ˈze kɛ ɛ.ˈpis.tɛv.sɛn av.ˈtos kɛ e y.ˈki.a av.ˈtuː ˈo.le"
+},
+{
+"v": "4:54",
+"pre": 0.0,
+"start": 2261.7,
+"dur": 12.465,
+"ipa": "ˈtuː.to ðɛ ˈpa.lin ˈðɛv.tɛ.ron se.ˈmiː.on ɛ.ˈpy.e.sɛn o i.e.ˈsuːs ɛl.ˈtʰon ɛk ˈtes i.uː.ˈðɛ.as iːs ten ɣa.li.ˈlɛ.an"
+},
+{
+"v": "5:1",
+"pre": 0.0,
+"start": 2274.765,
+"dur": 9.61,
+"ipa": "mɛ.ˈta ˈtav.ta ˈen ɛ.or.ˈte ˈton i.uː.ˈðɛ.on kɛ a.ˈnɛ.ve i.e.ˈsuːs iːs i.ɛ.ro.ˈso.ly.ma"
+},
+{
+"v": "5:2",
+"pre": 0.0,
+"start": 2284.975,
+"dur": 14.452,
+"ipa": "ˈɛs.tin ðɛ ɛn ˈtys i.ɛ.ro.so.ˈly.mys ɛ.ˈpi ˈte pro.va.ti.ˈke ko.lym.ˈve.tʰra e ɛ.pi.lɛ.ɣo.ˈmɛ.ne ɛ.vra.is.ˈti ve.tʰɛz.ˈða ˈpɛn.tɛ sto.ˈas ˈɛ.kʰuː.sa"
+},
+{
+"v": "5:3",
+"pre": 0.0,
+"start": 2300.028,
+"dur": 9.529,
+"ipa": "ɛn ˈtav.tɛs ka.ˈtɛ.kiː.to ˈple.tʰos ˈton as.tʰɛ.ˈnuːn.ton ty.ˈpʰlon kʰo.ˈlon kse.ˈron"
+},
+{
+"v": "5:5",
+"pre": 0.0,
+"start": 2310.156,
+"dur": 10.187,
+"ipa": "ˈen ˈðɛ tis ˈantʰ.ro.pos ɛ.ˈkiː tri.ˈa.kon.ta ok.ˈto ˈɛ.te ˈɛ.kʰon ɛn ˈte as.tʰɛ.ˈniː.a av.ˈtuː"
+},
+{
+"v": "5:6",
+"pre": 0.0,
+"start": 2320.944,
+"dur": 13.963,
+"ipa": "ˈtuː.ton i.ˈðon o i.e.ˈsuːs ka.ta.ˈkiː.mɛ.non kɛ ɣnuːs ˈo.ti po.ˈlyn ˈe.ðe ˈkʰro.non ˈɛ.kʰiː ˈlɛ.ɣiː av.ˈto ˈtʰɛ.liːs y.ɣi.ˈes ɣɛ.ˈnɛs.tʰɛ"
+},
+{
+"v": "5:7",
+"pre": 0.0,
+"start": 2335.507,
+"dur": 19.215,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto o as.tʰɛ.ˈnon ˈky.ri.ɛ ˈantʰ.ro.pon uːk ˈɛ.kʰo ˈi.na ˈo.tan ta.rakʰ.ˈtʰe to ˈy.ðor ˈva.le mɛ iːs ten ko.lym.ˈve.tʰran ɛn ˈo ðɛ ˈɛr.kʰo.mɛ ɛ.ˈɣo ˈa.llos pro ɛ.ˈmuː ka.ta.ˈvɛ.niː"
+},
+{
+"v": "5:8",
+"pre": 0.0,
+"start": 2355.322,
+"dur": 9.185,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs ˈɛ.ɣiː.rɛ ˈa.ron ton ˈkra.vat.ˈton suː kɛ pɛ.ri.ˈpa.tiː"
+},
+{
+"v": "5:9",
+"pre": 0.0,
+"start": 2365.107,
+"dur": 15.522,
+"ipa": "kɛ ɛv.ˈtʰɛ.os ɛ.ˈɣɛ.nɛ.to y.ɣi.ˈes o ˈantʰ.ro.pos kɛ ˈe.rɛ ton ˈkra.vat.ton av.ˈtuː kɛ pɛ.ri.ɛ.ˈpa.tiː ˈen ðɛ ˈsav.va.ton ɛn ɛ.ˈkiː.ne ˈte e.ˈmɛ.ra"
+},
+{
+"v": "5:10",
+"pre": 0.0,
+"start": 2381.229,
+"dur": 12.845,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn y i.uː.ˈðɛ.y ˈto tɛ.tʰɛ.ra.pɛv.ˈmɛ.no ˈsav.va.ˈton ɛs.tin kɛ uːk ˈɛk.sɛs.ˈtin sy ˈa.rɛ ton ˈkra.vat.ton"
+},
+{
+"v": "5:11",
+"pre": 0.0,
+"start": 2394.674,
+"dur": 12.832,
+"ipa": "os ðɛ a.pɛ.ˈkri.tʰe av.ˈtys o py.ˈe.sas mɛ y.ɣi.ˈe ɛ.ˈkiː.ˈnos my ˈiː.pɛn ˈa.ron ton ˈkra.vat.ˈton suː kɛ pɛ.ri.ˈpa.tiː"
+},
+{
+"v": "5:12",
+"pre": 0.0,
+"start": 2408.106,
+"dur": 9.859,
+"ipa": "e.ˈro.te.san ˈuːn av.ˈton ˈtis ɛs.tin o ˈantʰ.ro.pos o iː.ˈpon sy ˈa.ron kɛ pɛ.ri.ˈpa.tiː"
+},
+{
+"v": "5:13",
+"pre": 0.0,
+"start": 2418.565,
+"dur": 11.102,
+"ipa": "o ðɛ i.a.ˈtʰiːs uːk ˈe.ðiː ˈtis ɛs.tin o ɣar i.e.ˈsuːs ɛk.ˈsɛ.nɛv.sɛn ˈo.kʰluː ˈon.tos ɛn ˈto ˈto.po"
+},
+{
+"v": "5:14",
+"pre": 0.0,
+"start": 2430.267,
+"dur": 17.146,
+"ipa": "mɛ.ˈta ˈtav.ta ɛv.ˈris.kiː av.ˈton o i.e.ˈsuːs ɛn ˈto i.ɛ.ˈro kɛ ˈiː.pɛn av.ˈto ˈi.ðɛ y.ɣi.ˈes ˈɣɛ.ɣo.nas me.ˈkɛ.ti a.ˈmar.ta.nɛ ˈi.na me ˈkʰiː.ˈron ˈsy ti ˈɣɛ.ne.tɛ"
+},
+{
+"v": "5:15",
+"pre": 0.0,
+"start": 2448.012,
+"dur": 12.263,
+"ipa": "a.ˈpel.tʰɛn o ˈantʰ.ro.pos kɛ a.ˈneŋ.ɣiː.lɛn ˈtys i.uː.ˈðɛ.ys ˈo.ti i.e.ˈsuːs ɛs.tin o py.ˈe.sas av.ˈton y.ɣi.ˈe"
+},
+{
+"v": "5:16",
+"pre": 0.0,
+"start": 2460.875,
+"dur": 10.419,
+"ipa": "kɛ ði.ˈa ˈtuː.to ɛ.ˈði.o.kon y i.uː.ˈðɛ.y ton i.e.ˈsuːn ˈo.ti ˈtav.ta ɛ.ˈpy.iː ɛn sav.ˈva.to"
+},
+{
+"v": "5:17",
+"pre": 0.0,
+"start": 2471.894,
+"dur": 9.535,
+"ipa": "o ðɛ a.pɛ.ˈkri.na.to av.ˈtys o pa.ˈter muː ˈɛ.os ˈar.ti ɛr.ˈɣa.zɛ.tɛ ka.ˈɣo ɛr.ˈɣa.zo.mɛ"
+},
+{
+"v": "5:18",
+"pre": 0.0,
+"start": 2482.03,
+"dur": 19.932,
+"ipa": "ði.ˈa ˈtuː.to ˈuːn ˈma.llon ɛ.ˈze.tuːn av.ˈton y i.uː.ˈðɛ.y a.pok.ˈtiː.nɛ ˈo.ti uː ˈmo.non ˈɛ.ly.ɛ to ˈsav.va.ton a.ˈlla kɛ pa.ˈtɛ.ra ˈi.ði.on ˈɛ.lɛ.ɣɛ ton tʰɛ.ˈon ˈi.son ɛ.av.ˈton py.ˈon ˈto tʰɛ.ˈo"
+},
+{
+"v": "5:19",
+"pre": 0.0,
+"start": 2502.561,
+"dur": 24.911,
+"ipa": "a.pɛ.ˈkri.na.to ˈuːn o i.e.ˈsuːs kɛ ˈɛ.lɛ.ɣɛn av.ˈtys a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin uː ˈðy.na.tɛ o y.ˈos py.ˈiːn apʰ ɛ.av.ˈtuː uː.ˈðɛn ɛ.ˈan ˈme ti ˈvlɛ.pe ton pa.ˈtɛ.ra py.ˈuːn.ta a ɣar an ɛ.ˈkiː.nos py.ˈe ˈtav.ta kɛ o y.ˈos o.ˈmy.os py.ˈiː"
+},
+{
+"v": "5:20",
+"pre": 0.0,
+"start": 2528.073,
+"dur": 16.72,
+"ipa": "o ɣar pa.ˈter pʰi.ˈliː ton y.ˈon kɛ ˈpan.ta ˈðiːk.ny.sin av.ˈto a av.ˈtos py.ˈiː kɛ ˈmiː.zo.na ˈtuː.ton ˈðiːk.siː av.ˈto ˈɛr.ɣa ˈi.na y.ˈmiːs tʰav.ˈma.ze.tɛ"
+},
+{
+"v": "5:21",
+"pre": 0.0,
+"start": 2545.392,
+"dur": 11.965,
+"ipa": "ˈos.pɛr ɣar o pa.ˈter ɛ.ˈɣiː.riː tuːs nɛ.ˈkruːs kɛ zo.o.py.ˈiː ˈuː.tos kɛ o y.ˈos uːs ˈtʰɛ.liː zo.o.py.ˈiː"
+},
+{
+"v": "5:22",
+"pre": 0.0,
+"start": 2557.958,
+"dur": 9.763,
+"ipa": "uː.ˈðɛ ɣar o pa.ˈter ˈkri.niː uː.ˈðɛ.na a.ˈlla ten ˈkri.sin ˈpa.san ˈðɛ.ðo.kɛn ˈto y.ˈo"
+},
+{
+"v": "5:23",
+"pre": 0.0,
+"start": 2568.321,
+"dur": 14.538,
+"ipa": "ˈi.na ˈpan.tɛs ti.ˈmo.si ton y.ˈon ka.ˈtʰos ti.ˈmo.si ton pa.ˈtɛ.ra o me ti.ˈmon ton y.ˈon uː ti.ˈma ton pa.ˈtɛ.ra ton ˈpɛmp.san.ta av.ˈton"
+},
+{
+"v": "5:24",
+"pre": 0.0,
+"start": 2583.459,
+"dur": 21.039,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti o ton ˈlo.ɣon muː a.ˈkuː.on kɛ pis.ˈtɛv.on ˈto ˈpɛmp.san.ˈti mɛ ˈɛ.kʰiː zo.ˈen ɛ.ˈo.ni.on kɛ iːs ˈkri.sin uːk ˈɛr.kʰɛ.tɛ a.ˈlla mɛ.ta.ˈvɛ.ve.kɛn ɛk ˈtuː tʰa.ˈna.tuː iːs ten zo.ˈen"
+},
+{
+"v": "5:25",
+"pre": 0.0,
+"start": 2605.098,
+"dur": 17.345,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti ˈɛr.kʰɛ.tɛ ˈo.ra kɛ ˈnyn ɛs.tin ˈo.tɛ y nɛ.ˈkry a.ˈkuː.suː.sin ˈtes pʰo.ˈnes ˈtuː y.ˈuː ˈtuː tʰɛ.ˈuː kɛ y a.ˈkuː.san.tɛs ˈze.suː.sin"
+},
+{
+"v": "5:26",
+"pre": 0.0,
+"start": 2623.043,
+"dur": 11.859,
+"ipa": "ˈos.pɛr ɣar o pa.ˈter ˈɛ.kʰiː zo.ˈen ɛn ɛ.av.ˈto ˈuː.tos kɛ ˈto y.ˈo ˈɛ.ðo.kɛn zo.ˈen ˈɛ.kʰiːn ɛn ɛ.av.ˈto"
+},
+{
+"v": "5:27",
+"pre": 0.0,
+"start": 2635.502,
+"dur": 9.146,
+"ipa": "kɛ ɛk.suː.ˈsi.an ˈɛ.ðo.kɛn av.ˈto ˈkri.sin py.ˈiːn ˈo.ti y.ˈos antʰ.ˈro.puː ɛs.ˈtin"
+},
+{
+"v": "5:28",
+"pre": 0.0,
+"start": 2645.248,
+"dur": 13.286,
+"ipa": "me tʰav.ˈma.zɛ.tɛ ˈtuː.to ˈo.ti ˈɛr.kʰɛ.tɛ ˈo.ra ɛn ˈe ˈpan.tɛs y ɛn ˈtys mne.ˈmiː.ys a.ˈkuː.suː.sin ˈtes pʰo.ˈnes av.ˈtuː"
+},
+{
+"v": "5:29",
+"pre": 0.0,
+"start": 2659.134,
+"dur": 14.228,
+"ipa": "kɛ ɛk.po.ˈrɛv.son.tɛ y ta a.ɣa.ˈtʰa py.ˈe.san.tɛs iːs a.ˈnas.ta.sin zo.ˈes y ðɛ ta ˈpʰav.la ˈprak.san.tɛs iːs a.ˈnas.ta.sin ˈkri.sɛ.os"
+},
+{
+"v": "5:30",
+"pre": 2.0,
+"start": 2675.962,
+"dur": 19.387,
+"ipa": "uː ˈðy.na.mɛ ɛ.ˈɣo py.ˈiːn ap ɛ.mav.ˈtuː uː.ˈðɛn ka.ˈtʰos a.ˈkuː.o ˈkri.no kɛ e ˈkri.sis e ɛ.ˈme ði.ˈkɛ.a ɛs.ˈtin ˈo.ti uː ze.ˈto to ˈtʰɛ.le.ma to ɛ.ˈmon a.ˈlla to ˈtʰɛ.le.ma ˈtuː ˈpɛmp.san.ˈtos mɛ"
+},
+{
+"v": "5:31",
+"pre": 0.0,
+"start": 2695.949,
+"dur": 8.7,
+"ipa": "ɛ.ˈan ɛ.ˈɣo mar.ty.ˈro pɛ.ˈri ɛ.mav.ˈtuː e mar.ty.ˈri.a muː uːk ˈɛs.tin a.le.ˈtʰes"
+},
+{
+"v": "5:32",
+"pre": 0.0,
+"start": 2705.249,
+"dur": 12.254,
+"ipa": "ˈa.llos ɛs.ˈtin o mar.ty.ˈron pɛ.ˈri ɛ.ˈmuː kɛ ˈy.ða ˈo.ti a.le.ˈtʰes ɛs.tin e mar.ty.ˈri.a en mar.ty.ˈriː pɛ.ˈri ɛ.ˈmuː"
+},
+{
+"v": "5:33",
+"pre": 0.0,
+"start": 2718.102,
+"dur": 8.43,
+"ipa": "y.ˈmiːs a.pɛs.ˈtal.ka.tɛ pros i.o.ˈan.nen kɛ mɛ.mar.ˈty.re.kɛ ˈte a.le.ˈtʰiː.a"
+},
+{
+"v": "5:34",
+"pre": 0.0,
+"start": 2727.132,
+"dur": 10.861,
+"ipa": "ɛ.ˈɣo ðɛ uː pa.ˈra antʰ.ˈro.puː ten mar.ty.ˈri.an lam.ˈva.no a.ˈlla ˈtav.ta ˈlɛ.ɣo ˈi.na y.ˈmiːs so.ˈtʰe.tɛ"
+},
+{
+"v": "5:35",
+"pre": 0.0,
+"start": 2738.594,
+"dur": 14.063,
+"ipa": "ɛ.ˈkiː.nos ˈen o ˈlykʰ.nos o kɛ.ˈo.mɛ.nos kɛ ˈpʰɛ.non y.ˈmiːs ðɛ e.tʰɛ.ˈle.sa.tɛ a.ɣa.lli.a.ˈtʰe.nɛ pros ˈo.ran ɛn ˈto pʰo.ˈti av.ˈtuː"
+},
+{
+"v": "5:36",
+"pre": 0.0,
+"start": 2753.257,
+"dur": 20.405,
+"ipa": "ɛ.ˈɣo ðɛ ˈɛ.kʰo ten mar.ty.ˈri.an ˈmiː.zo ˈtuː i.o.ˈan.nuː ta ɣar ˈɛr.ɣa a ˈðɛ.ðo.ˈkɛn my o pa.ˈter ˈi.na tɛ.liː.ˈo.so av.ˈta av.ˈta ta ˈɛr.ɣa a py.ˈo mar.ty.ˈriː pɛ.ˈri ɛ.ˈmuː ˈo.ti o pa.ˈter mɛ a.ˈpɛs.tal.kɛn"
+},
+{
+"v": "5:37",
+"pre": 0.0,
+"start": 2774.262,
+"dur": 15.087,
+"ipa": "kɛ o ˈpɛmp.sas mɛ pa.ˈter ɛ.ˈkiː.nos mɛ.mar.ˈty.re.kɛn pɛ.ˈri ɛ.ˈmuː ˈuː.tɛ pʰo.ˈnen av.ˈtuː ˈpo.po.tɛ a.ke.ˈko.a.tɛ ˈuː.tɛ ˈiː.ðos av.ˈtuː ɛ.o.ˈra.ka.tɛ"
+},
+{
+"v": "5:38",
+"pre": 0.0,
+"start": 2789.948,
+"dur": 13.092,
+"ipa": "kɛ ton ˈlo.ɣon av.ˈtuː uːk ˈɛ.kʰɛ.tɛ ɛn y.ˈmin ˈmɛ.non.ta ˈo.ti on a.ˈpɛs.tiː.lɛn ɛ.ˈkiː.nos ˈtuː.to y.ˈmiːs uː pis.ˈtɛv.ɛ.tɛ"
+},
+{
+"v": "5:39",
+"pre": 0.0,
+"start": 2803.64,
+"dur": 14.958,
+"ipa": "ɛ.rav.ˈna.tɛ tas ɣra.ˈpʰas ˈo.ti y.ˈmiːs ðo.ˈkiː.tɛ ɛn av.ˈtɛs zo.ˈen ɛ.ˈo.ni.on ˈɛ.kʰiːn kɛ ɛ.ˈkiː.ˈnɛ iː.sin ɛ mar.ty.ˈruː.sɛ pɛ.ˈri ɛ.ˈmuː"
+},
+{
+"v": "5:40",
+"pre": 0.0,
+"start": 2819.198,
+"dur": 6.386,
+"ipa": "kɛ uː ˈtʰɛ.lɛ.tɛ ɛl.ˈtʰiːn ˈpros mɛ ˈi.na zo.ˈen ˈɛ.kʰe.tɛ"
+},
+{
+"v": "5:41",
+"pre": 0.0,
+"start": 2826.184,
+"dur": 4.982,
+"ipa": "ˈðok.san pa.ˈra antʰ.ˈro.pon uː lam.ˈva.no"
+},
+{
+"v": "5:42",
+"pre": 0.0,
+"start": 2831.766,
+"dur": 8.773,
+"ipa": "a.ˈlla ˈɛɣ.no.ka y.ˈmas ˈo.ti ten a.ˈɣa.pen ˈtuː tʰɛ.ˈuː uːk ˈɛ.kʰɛ.tɛ ɛn ɛ.av.ˈtys"
+},
+{
+"v": "5:43",
+"pre": 0.0,
+"start": 2841.139,
+"dur": 15.498,
+"ipa": "ɛ.ˈɣo ɛ.ˈle.ly.tʰa ɛn ˈto o.ˈno.ma.ti ˈtuː pa.ˈtros muː kɛ uː lam.ˈva.nɛ.ˈtɛ mɛ ɛ.ˈan ˈa.llos ˈɛl.tʰe ɛn ˈto o.ˈno.ma.ti ˈto i.ˈði.o ɛ.ˈkiː.non ˈlemp.sɛs.tʰɛ"
+},
+{
+"v": "5:44",
+"pre": 0.0,
+"start": 2857.237,
+"dur": 14.342,
+"ipa": "ˈpos ˈðy.nas.tʰɛ y.ˈmiːs pis.ˈtɛv.sɛ ˈðok.san par a.ˈlle.lon lam.ˈva.non.tɛs kɛ ten ˈðok.san ten pa.ˈra ˈtuː ˈmo.nuː tʰɛ.ˈuː uː ze.ˈtiː.tɛ"
+},
+{
+"v": "5:45",
+"pre": 0.0,
+"start": 2872.179,
+"dur": 13.966,
+"ipa": "me ðo.ˈkiː.tɛ ˈo.ti ɛ.ˈɣo ka.te.ɣo.ˈre.so y.ˈmon pros ton pa.ˈtɛ.ra ˈɛs.tin o ka.te.ɣo.ˈron y.ˈmon mo.y.ˈses iːs on y.ˈmiːs el.ˈpi.ka.tɛ"
+},
+{
+"v": "5:46",
+"pre": 0.0,
+"start": 2886.746,
+"dur": 10.523,
+"ipa": "iː ɣar ɛ.pis.ˈtɛv.ɛ.tɛ mo.y.ˈsiː ɛ.pis.ˈtɛv.ɛ.tɛ an ɛ.ˈmy pɛ.ˈri ɣar ɛ.ˈmuː ɛ.ˈkiː.nos ˈɛ.ɣrap.sɛn"
+},
+{
+"v": "5:47",
+"pre": 0.0,
+"start": 2897.869,
+"dur": 10.705,
+"ipa": "iː ðɛ ˈtys ɛ.ˈkiː.nuː ˈɣram.ma.sin uː pis.ˈtɛv.ɛ.tɛ ˈpos ˈtys ɛ.ˈmys ˈre.ma.sin pis.ˈtɛv.sɛ.tɛ"
+},
+{
+"v": "6:1",
+"pre": 2.0,
+"start": 2911.174,
+"dur": 11.132,
+"ipa": "mɛ.ˈta ˈtav.ta a.ˈpel.tʰɛn o i.e.ˈsuːs ˈpɛ.ran ˈtes tʰa.ˈlas.ses ˈtes ɣa.li.ˈlɛ.as ˈtes ti.vɛ.ri.ˈa.ðos"
+},
+{
+"v": "6:2",
+"pre": 0.0,
+"start": 2922.907,
+"dur": 11.613,
+"ipa": "e.ko.ˈluː.tʰiː ðɛ av.ˈto ˈo.kʰlos po.ˈlys ˈo.ti ɛ.tʰɛ.ˈo.ruːn ta se.ˈmiː.a a ɛ.ˈpy.iː ɛ.ˈpi ˈton as.tʰɛ.ˈnuːn.ton"
+},
+{
+"v": "6:3",
+"pre": 0.0,
+"start": 2935.12,
+"dur": 10.3,
+"ipa": "a.ˈnel.tʰɛn ðɛ iːs to ˈo.ros i.e.ˈsuːs kɛ ɛ.ˈkiː ɛ.ˈka.tʰe.to mɛ.ˈta ˈton ma.tʰe.ˈton av.ˈtuː"
+},
+{
+"v": "6:4",
+"pre": 0.0,
+"start": 2946.02,
+"dur": 6.58,
+"ipa": "ˈen ðɛ ɛŋ.ˈɣys to ˈpas.kʰa e ɛ.or.ˈte ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "6:5",
+"pre": 0.0,
+"start": 2953.201,
+"dur": 18.918,
+"ipa": "ɛ.ˈpa.ras ˈuːn tuːs opʰ.tʰal.ˈmuːs o i.e.ˈsuːs kɛ tʰɛ.a.ˈsa.mɛ.nos ˈo.ti po.ˈlys ˈo.kʰlos ˈɛr.kʰɛ.tɛ pros av.ˈton ˈlɛ.ɣiː pros ˈpʰi.lip.pon ˈpo.tʰɛn a.ɣo.ˈra.so.mɛn ˈar.tuːs ˈi.na ˈpʰa.ɣo.sin ˈuː.ty"
+},
+{
+"v": "6:6",
+"pre": 0.0,
+"start": 2972.719,
+"dur": 9.086,
+"ipa": "ˈtuː.to ðɛ ˈɛ.lɛ.ɣɛn piː.ˈra.zon av.ˈton av.ˈtos ɣar ˈe.ðiː ˈti ˈɛ.mɛ.llɛn py.ˈiːn"
+},
+{
+"v": "6:7",
+"pre": 0.0,
+"start": 2982.405,
+"dur": 13.115,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto ˈpʰi.lip.pos ði.a.ko.ˈsi.on ðe.na.ˈri.on ˈar.ty uːk ar.ˈkuː.sin av.ˈtys ˈi.na ˈɛ.kas.tos vra.ˈkʰy ti ˈla.ve"
+},
+{
+"v": "6:8",
+"pre": 0.0,
+"start": 2996.121,
+"dur": 10.128,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈiːs ɛk ˈton ma.tʰe.ˈton av.ˈtuː anð.ˈrɛ.as o a.ðɛl.ˈpʰos ˈsi.mo.nos ˈpɛ.truː"
+},
+{
+"v": "6:9",
+"pre": 0.0,
+"start": 3006.849,
+"dur": 13.46,
+"ipa": "ˈɛs.tin pɛ.ˈða.ri.on ˈo.ðɛ os ˈɛ.kʰiː ˈpɛn.tɛ ˈar.tuːs kri.ˈtʰi.nuːs kɛ ˈðy.o op.ˈsa.ri.a a.ˈlla ˈtav.ta ˈti ɛs.tin iːs to.ˈsuː.tuːs"
+},
+{
+"v": "6:10",
+"pre": 0.0,
+"start": 3020.909,
+"dur": 17.165,
+"ipa": "ˈiː.pɛn o i.e.ˈsuːs py.ˈe.sa.tɛ tuːs antʰ.ˈro.puːs a.na.pɛ.ˈsiːn ˈen ðɛ ˈkʰor.tos po.ˈlys ɛn ˈto ˈto.po a.ˈnɛ.pɛ.san ˈuːn y ˈanð.rɛs ton a.ritʰ.ˈmon os pɛn.ta.kis.ˈkʰi.li.y"
+},
+{
+"v": "6:11",
+"pre": 0.0,
+"start": 3038.674,
+"dur": 15.212,
+"ipa": "ˈɛ.la.vɛn ˈuːn tuːs ˈar.tuːs o i.e.ˈsuːs kɛ ɛv.kʰa.ris.ˈte.sas ði.ˈɛ.ðo.kɛn ˈtys a.na.kiː.ˈmɛ.nys o.ˈmy.os kɛ ɛk ˈton op.sa.ˈri.on ˈo.son ˈe.tʰɛ.lon"
+},
+{
+"v": "6:12",
+"pre": 0.0,
+"start": 3054.486,
+"dur": 13.539,
+"ipa": "os ðɛ ɛ.nɛ.ˈples.tʰe.san ˈlɛ.ɣiː ˈtys ma.tʰe.ˈtɛs av.ˈtuː sy.na.ˈɣa.ɣɛ.tɛ ta pɛ.ris.ˈsɛv.san.ta ˈklaz.ma.ta ˈi.na ˈme ti a.ˈpo.le.tɛ"
+},
+{
+"v": "6:13",
+"pre": 0.0,
+"start": 3068.625,
+"dur": 15.216,
+"ipa": "sy.ˈne.ɣa.ɣon ˈuːn kɛ ɛ.ˈɣɛ.mi.san ˈðo.ðɛ.ka ko.ˈpʰi.nuːs klaz.ˈma.ton ɛk ˈton ˈpɛn.tɛ ˈar.ton ˈton kri.ˈtʰi.non a ɛ.pɛ.ˈris.sɛv.san ˈtys vɛ.vro.ˈko.sin"
+},
+{
+"v": "6:14",
+"pre": 0.0,
+"start": 3084.441,
+"dur": 14.625,
+"ipa": "y ˈuːn ˈantʰ.ro.py i.ˈðon.tɛs o ɛ.ˈpy.e.sɛn se.ˈmiː.on ˈɛ.lɛ.ɣon ˈo.ti ˈuː.ˈtos ɛs.tin a.le.ˈtʰos o pro.ˈpʰe.tes o ɛr.ˈkʰo.mɛ.nos iːs ton ˈkoz.mon"
+},
+{
+"v": "6:15",
+"pre": 0.0,
+"start": 3099.666,
+"dur": 16.027,
+"ipa": "i.e.ˈsuːs ˈuːn ɣnuːs ˈo.ti ˈmɛ.lluː.sin ˈɛr.kʰɛs.tʰɛ kɛ ar.ˈpa.ziːn av.ˈton ˈi.na py.ˈe.so.sin va.si.ˈlɛ.a a.nɛ.ˈkʰo.re.sɛn ˈpa.lin iːs to ˈo.ros av.ˈtos ˈmo.nos"
+},
+{
+"v": "6:16",
+"pre": 0.0,
+"start": 3116.293,
+"dur": 9.031,
+"ipa": "os ðɛ op.ˈsi.a ɛ.ˈɣɛ.nɛ.to ka.ˈtɛ.ve.san y ma.tʰe.ˈtɛ av.ˈtuː ɛ.ˈpi ten ˈtʰa.las.san"
+},
+{
+"v": "6:17",
+"pre": 0.0,
+"start": 3125.924,
+"dur": 16.801,
+"ipa": "kɛ ɛm.ˈvan.tɛs iːs ˈply.on ˈer.kʰon.to ˈpɛ.ran ˈtes tʰa.ˈlas.ses iːs ka.pʰar.na.ˈuːm kɛ sko.ˈti.a ˈe.ðe ɛ.ɣɛ.ˈɣo.niː kɛ ˈuː.po ɛ.le.ˈly.tʰiː pros av.ˈtuːs o i.e.ˈsuːs"
+},
+{
+"v": "6:18",
+"pre": 0.0,
+"start": 3143.325,
+"dur": 7.04,
+"ipa": "ˈe tɛ ˈtʰa.las.sa a.ˈnɛ.muː mɛ.ˈɣa.luː ˈpnɛ.on.tos ði.ɛ.ˈɣiː.rɛ.to"
+},
+{
+"v": "6:19",
+"pre": 0.0,
+"start": 3150.965,
+"dur": 19.155,
+"ipa": "ɛ.le.la.ˈko.tɛs ˈuːn os sta.ˈði.uːs ˈiː.ko.si ˈpɛn.tɛ e tri.ˈa.kon.ta tʰɛ.o.ˈruː.sin ton i.e.ˈsuːn pɛ.ri.pa.ˈtuːn.ta ɛ.ˈpi ˈtes tʰa.ˈlas.ses kɛ ɛŋ.ˈɣys ˈtuː ˈply.uː ɣi.ˈno.mɛ.non kɛ ɛ.pʰo.ˈve.tʰe.san"
+},
+{
+"v": "6:20",
+"pre": 0.0,
+"start": 3170.72,
+"dur": 6.068,
+"ipa": "o ðɛ ˈlɛ.ɣiː av.ˈtys ɛ.ˈɣo iː.mi me pʰo.ˈviːs.tʰɛ"
+},
+{
+"v": "6:21",
+"pre": 0.0,
+"start": 3177.388,
+"dur": 12.839,
+"ipa": "ˈe.tʰɛ.lon ˈuːn la.ˈviːn av.ˈton iːs to ˈply.on kɛ ɛv.ˈtʰɛ.os ɛ.ˈɣɛ.nɛ.to to ˈply.on ɛ.ˈpi ˈtes ˈɣes iːs en y.ˈpe.ɣon"
+},
+{
+"v": "6:22",
+"pre": 0.0,
+"start": 3190.827,
+"dur": 25.674,
+"ipa": "ˈte ɛ.ˈpav.ri.on o ˈo.kʰlos o ɛs.te.ˈkos ˈpɛ.ran ˈtes tʰa.ˈlas.ses ˈiː.ðon ˈo.ti ply.ˈa.ri.on ˈa.llo uːk ˈen ɛ.ˈkiː iː me ˈɛn kɛ ˈo.ti uː sy.niː.ˈsel.tʰɛn ˈtys ma.tʰe.ˈtɛs av.ˈtuː o i.e.ˈsuːs iːs to ˈply.on a.ˈlla ˈmo.ny y ma.tʰe.ˈtɛ av.ˈtuː a.ˈpel.tʰon"
+},
+{
+"v": "6:23",
+"pre": 0.0,
+"start": 3217.101,
+"dur": 13.332,
+"ipa": "a.ˈlla ˈel.tʰɛn ply.ˈa.ri.a ɛk ti.vɛ.ri.ˈa.ðos ɛŋ.ˈɣys ˈtuː ˈto.puː ˈo.puː ˈɛ.pʰa.ɣon ton ˈar.ton ɛv.kʰa.ris.ˈte.san.tos ˈtuː ky.ˈri.uː"
+},
+{
+"v": "6:24",
+"pre": 0.0,
+"start": 3231.033,
+"dur": 19.255,
+"ipa": "ˈo.tɛ ˈuːn ˈiː.ðɛn o ˈo.kʰlos ˈo.ti i.e.ˈsuːs uːk ˈɛs.tin ɛ.ˈkiː uː.ˈðɛ y ma.tʰe.ˈtɛ av.ˈtuː ɛ.ˈnɛ.ve.san av.ˈty iːs ta ply.ˈa.ri.a kɛ ˈel.tʰon iːs ka.pʰar.na.ˈuːm ze.ˈtuːn.tɛs ton i.e.ˈsuːn"
+},
+{
+"v": "6:25",
+"pre": 0.0,
+"start": 3250.887,
+"dur": 10.559,
+"ipa": "kɛ ɛv.ˈron.tɛs av.ˈton ˈpɛ.ran ˈtes tʰa.ˈlas.ses ˈiː.pon av.ˈto rav.ˈvi ˈpo.tɛ ˈo.ðɛ ˈɣɛ.ɣo.nas"
+},
+{
+"v": "6:26",
+"pre": 0.0,
+"start": 3262.047,
+"dur": 17.613,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs kɛ ˈiː.pɛn a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ze.ˈtiː.ˈtɛ mɛ uːkʰ ˈo.ti ˈiː.ðɛ.tɛ se.ˈmiː.a all ˈo.ti ɛ.ˈpʰa.ɣɛ.tɛ ɛk ˈton ˈar.ton kɛ ɛ.kʰor.ˈtas.tʰe.tɛ"
+},
+{
+"v": "6:27",
+"pre": 0.0,
+"start": 3280.26,
+"dur": 19.963,
+"ipa": "ɛr.ˈɣa.zɛs.tʰɛ me ten ˈvro.sin ten a.po.lly.ˈmɛ.nen a.ˈlla ten ˈvro.sin ten ˈmɛ.nuː.san iːs zo.ˈen ɛ.ˈo.ni.on en o y.ˈos ˈtuː antʰ.ˈro.puː y.ˈmin ˈðo.siː ˈtuː.ton ɣar o pa.ˈter ɛspʰ.ˈra.ɣi.sɛn o tʰɛ.ˈos"
+},
+{
+"v": "6:28",
+"pre": 0.0,
+"start": 3300.823,
+"dur": 9.248,
+"ipa": "ˈiː.pon ˈuːn pros av.ˈton ˈti py.ˈo.mɛn ˈi.na ɛr.ɣa.ˈzo.mɛ.tʰa ta ˈɛr.ɣa ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "6:29",
+"pre": 2.0,
+"start": 3312.671,
+"dur": 14.06,
+"ipa": "a.pɛ.ˈkri.tʰe o i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈtys ˈtuː.ˈto ɛs.tin to ˈɛr.ɣon ˈtuː tʰɛ.ˈuː ˈi.na pis.ˈtɛv.e.tɛ iːs on a.ˈpɛs.tiː.lɛn ɛ.ˈkiː.nos"
+},
+{
+"v": "6:30",
+"pre": 0.0,
+"start": 3327.331,
+"dur": 11.624,
+"ipa": "ˈiː.pon ˈuːn av.ˈto ˈti ˈuːn py.ˈiːs sy se.ˈmiː.on ˈi.na ˈi.ðo.mɛn kɛ pis.ˈtɛv.so.ˈmɛn sy ˈti ɛr.ˈɣa.ze"
+},
+{
+"v": "6:31",
+"pre": 0.0,
+"start": 3339.555,
+"dur": 14.775,
+"ipa": "y pa.ˈtɛ.rɛs e.ˈmon to ˈman.na ˈɛ.pʰa.ɣon ɛn ˈte ɛ.ˈre.mo ka.ˈtʰos ɛs.tin ɣɛ.ɣram.ˈmɛ.non ˈar.ton ɛk ˈtuː uː.ra.ˈnuː ˈɛ.ðo.kɛn av.ˈtys pʰa.ˈɣiːn"
+},
+{
+"v": "6:32",
+"pre": 0.0,
+"start": 3354.93,
+"dur": 20.864,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈtys o i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin uː mo.y.ˈses ˈðɛ.ðo.kɛn y.ˈmin ton ˈar.ton ɛk ˈtuː uː.ra.ˈnuː all o pa.ˈter muː ˈði.ðo.sin y.ˈmin ton ˈar.ton ɛk ˈtuː uː.ra.ˈnuː ton a.le.tʰi.ˈnon"
+},
+{
+"v": "6:33",
+"pre": 0.0,
+"start": 3376.395,
+"dur": 11.079,
+"ipa": "o ɣar ˈar.tos ˈtuː tʰɛ.ˈuː ɛs.tin o ka.ta.ˈvɛ.non ɛk ˈtuː uː.ra.ˈnuː kɛ zo.ˈen ði.ˈðuːs ˈto ˈkoz.mo"
+},
+{
+"v": "6:34",
+"pre": 0.0,
+"start": 3388.074,
+"dur": 8.538,
+"ipa": "ˈiː.pon ˈuːn pros av.ˈton ˈky.ri.ɛ ˈpan.to.tɛ ðos e.ˈmin ton ˈar.ton ˈtuː.ton"
+},
+{
+"v": "6:35",
+"pre": 0.0,
+"start": 3397.212,
+"dur": 17.058,
+"ipa": "ˈiː.pɛn av.ˈtys o i.e.ˈsuːs ɛ.ˈɣo iː.mi o ˈar.tos ˈtes zo.ˈes o ɛr.ˈkʰo.mɛ.nos pros ɛ.ˈmɛ uː me piː.ˈna.se kɛ o pis.ˈtɛv.on iːs ɛ.ˈmɛ uː me ðip.ˈse.siː ˈpo.po.tɛ"
+},
+{
+"v": "6:36",
+"pre": 0.0,
+"start": 3414.87,
+"dur": 7.563,
+"ipa": "all ˈiː.pon y.ˈmin ˈo.ti kɛ ɛ.o.ˈra.ka.ˈtɛ mɛ kɛ uː pis.ˈtɛv.ɛ.tɛ"
+},
+{
+"v": "6:37",
+"pre": 0.0,
+"start": 3423.033,
+"dur": 11.065,
+"ipa": "ˈpan o ˈði.ðo.ˈsin my o pa.ˈter pros ɛ.ˈmɛ ˈek.siː kɛ ton ɛr.ˈkʰo.mɛ.non ˈpros mɛ uː me ɛk.ˈva.lo ˈɛk.so"
+},
+{
+"v": "6:38",
+"pre": 0.0,
+"start": 3434.698,
+"dur": 12.612,
+"ipa": "ˈo.ti ka.ta.ˈvɛ.ve.ka a.ˈpo ˈtuː uː.ra.ˈnuː uːkʰ ˈi.na py.ˈo to ˈtʰɛ.le.ma to ɛ.ˈmon a.ˈlla to ˈtʰɛ.le.ma ˈtuː ˈpɛmp.san.ˈtos mɛ"
+},
+{
+"v": "6:39",
+"pre": 0.0,
+"start": 3447.91,
+"dur": 16.295,
+"ipa": "ˈtuː.to ˈðɛ ɛs.tin to ˈtʰɛ.le.ma ˈtuː ˈpɛmp.san.ˈtos mɛ ˈi.na ˈpan o ˈðɛ.ðo.ˈkɛn my me a.po.ˈlɛ.so ɛks av.ˈtuː a.ˈlla a.nas.ˈte.so av.ˈto ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "6:40",
+"pre": 0.0,
+"start": 3464.804,
+"dur": 19.654,
+"ipa": "ˈtuː.to ˈɣar ɛs.tin to ˈtʰɛ.le.ma ˈtuː pa.ˈtros muː ˈi.na ˈpas o tʰɛ.o.ˈron ton y.ˈon kɛ pis.ˈtɛv.on iːs av.ˈton ˈɛ.kʰe zo.ˈen ɛ.ˈo.ni.on kɛ a.nas.ˈte.so av.ˈton ɛ.ˈɣo ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "6:41",
+"pre": 0.0,
+"start": 3485.058,
+"dur": 12.254,
+"ipa": "ɛ.ˈɣoŋ.ɣy.zon ˈuːn y i.uː.ˈðɛ.y pɛ.ˈri av.ˈtuː ˈo.ti ˈiː.pɛn ɛ.ˈɣo iː.mi o ˈar.tos o ka.ta.ˈvas ɛk ˈtuː uː.ra.ˈnuː"
+},
+{
+"v": "6:42",
+"pre": 0.0,
+"start": 3497.912,
+"dur": 17.606,
+"ipa": "kɛ ˈɛ.lɛ.ɣon uːkʰ ˈuː.ˈtos ɛs.tin i.e.ˈsuːs o y.ˈos i.o.ˈsepʰ ˈuː e.ˈmiːs ˈy.ða.mɛn ton pa.ˈtɛ.ra kɛ ten me.ˈtɛ.ra ˈpos ˈnyn ˈlɛ.ɣiː ˈo.ti ɛk ˈtuː uː.ra.ˈnuː ka.ta.ˈvɛ.ve.ka"
+},
+{
+"v": "6:43",
+"pre": 0.0,
+"start": 3516.118,
+"dur": 8.35,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈtys me ɣoŋ.ˈɣy.zɛ.tɛ mɛt a.ˈlle.lon"
+},
+{
+"v": "6:44",
+"pre": 0.0,
+"start": 3525.068,
+"dur": 14.963,
+"ipa": "uː.ˈðiːs ˈðy.na.tɛ ɛl.ˈtʰiːn ˈpros mɛ ɛ.ˈan me o pa.ˈter o ˈpɛmp.sas mɛ ɛl.ˈky.se av.ˈton ka.ˈɣo a.nas.ˈte.so av.ˈton ɛn ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "6:45",
+"pre": 0.0,
+"start": 3540.631,
+"dur": 16.42,
+"ipa": "ˈɛs.tin ɣɛ.ɣram.ˈmɛ.non ɛn ˈtys pro.ˈpʰe.tɛs kɛ ˈɛ.son.tɛ ˈpan.tɛs ði.ðak.ˈty tʰɛ.ˈuː ˈpas o a.ˈkuː.sas pa.ˈra ˈtuː pa.ˈtros kɛ ma.ˈtʰon ˈɛr.kʰɛ.tɛ pros ɛ.ˈmɛ"
+},
+{
+"v": "6:46",
+"pre": 0.0,
+"start": 3557.651,
+"dur": 10.795,
+"ipa": "uːkʰ ˈo.ti ton pa.ˈtɛ.ra ɛ.ˈo.ra.ˈkɛn tis iː me o on pa.ˈra ˈtuː tʰɛ.ˈuː ˈuː.tos ɛ.ˈo.ra.kɛn ton pa.ˈtɛ.ra"
+},
+{
+"v": "6:47",
+"pre": 0.0,
+"start": 3569.047,
+"dur": 7.485,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin o pis.ˈtɛv.on ˈɛ.kʰiː zo.ˈen ɛ.ˈo.ni.on"
+},
+{
+"v": "6:48",
+"pre": 0.0,
+"start": 3577.132,
+"dur": 4.774,
+"ipa": "ɛ.ˈɣo iː.mi o ˈar.tos ˈtes zo.ˈes"
+},
+{
+"v": "6:49",
+"pre": 0.0,
+"start": 3582.506,
+"dur": 8.305,
+"ipa": "y pa.ˈtɛ.rɛs y.ˈmon ˈɛ.pʰa.ɣon ɛn ˈte ɛ.ˈre.mo to ˈman.na kɛ a.ˈpɛ.tʰa.non"
+},
+{
+"v": "6:50",
+"pre": 0.0,
+"start": 3591.411,
+"dur": 11.9,
+"ipa": "ˈuː.ˈtos ɛs.tin o ˈar.tos o ɛk ˈtuː uː.ra.ˈnuː ka.ta.ˈvɛ.non ˈi.na tis ɛks av.ˈtuː ˈpʰa.ɣe kɛ me a.po.ˈtʰa.ne"
+},
+{
+"v": "6:51",
+"pre": 0.0,
+"start": 3603.911,
+"dur": 22.044,
+"ipa": "ɛ.ˈɣo iː.mi o ˈar.tos o ˈzon o ɛk ˈtuː uː.ra.ˈnuː ka.ta.ˈvas ɛ.ˈan tis ˈpʰa.ɣe ɛk ˈtuː.tuː ˈtuː ˈar.tuː ˈze.siː iːs ton ɛ.ˈo.na kɛ o ˈar.tos ðɛ on ɛ.ˈɣo ˈðo.so e ˈsarks ˈmuː ɛs.tin y.ˈpɛr ˈtes ˈtuː ˈkoz.muː zo.ˈes"
+},
+{
+"v": "6:52",
+"pre": 0.0,
+"start": 3626.555,
+"dur": 13.686,
+"ipa": "ɛ.ˈma.kʰon.to ˈuːn pros a.ˈlle.luːs y i.uː.ˈðɛ.y ˈlɛ.ɣon.tɛs ˈpos ˈðy.na.tɛ ˈuː.tos e.ˈmin ˈðuː.nɛ ten ˈsar.ka av.ˈtuː pʰa.ˈɣiːn"
+},
+{
+"v": "6:53",
+"pre": 0.0,
+"start": 3640.841,
+"dur": 18.65,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈtys o i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ɛ.ˈan me ˈpʰa.ɣe.tɛ ten ˈsar.ka ˈtuː y.ˈuː ˈtuː antʰ.ˈro.puː kɛ ˈpi.e.tɛ av.ˈtuː to ˈɛ.ma uːk ˈɛ.kʰɛ.tɛ zo.ˈen ɛn ɛ.av.ˈtys"
+},
+{
+"v": "6:54",
+"pre": 0.0,
+"start": 3660.091,
+"dur": 13.413,
+"ipa": "o ˈtro.ɣon muː ten ˈsar.ka kɛ ˈpi.non muː to ˈɛ.ma ˈɛ.kʰiː zo.ˈen ɛ.ˈo.ni.on ka.ˈɣo a.nas.ˈte.so av.ˈton ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "6:55",
+"pre": 0.0,
+"start": 3674.103,
+"dur": 9.437,
+"ipa": "e ɣar ˈsarks muː a.le.ˈtʰes ɛs.ti ˈvro.sis kɛ to ˈɛ.ˈma muː a.le.ˈtʰes ɛs.ti ˈpo.sis"
+},
+{
+"v": "6:56",
+"pre": 0.0,
+"start": 3684.14,
+"dur": 9.834,
+"ipa": "o ˈtro.ɣon muː ten ˈsar.ka kɛ ˈpi.non muː to ˈɛ.ma ɛn ɛ.ˈmy ˈmɛ.niː ka.ˈɣo ɛn av.ˈto"
+},
+{
+"v": "6:57",
+"pre": 0.0,
+"start": 3694.574,
+"dur": 12.541,
+"ipa": "ka.ˈtʰos a.ˈpɛs.tiː.ˈlɛn mɛ o ˈzon pa.ˈter ka.ˈɣo ˈzo ði.ˈa ton pa.ˈtɛ.ra kɛ o ˈtro.ɣon mɛ ka.ˈkiː.nos ˈze.siː ði ɛ.ˈmɛ"
+},
+{
+"v": "6:58",
+"pre": 0.0,
+"start": 3707.715,
+"dur": 16.446,
+"ipa": "ˈuː.ˈtos ɛs.tin o ˈar.tos o ɛks uː.ra.ˈnuː ka.ta.ˈvas uː ka.ˈtʰos ˈɛ.pʰa.ɣon y pa.ˈtɛ.rɛs kɛ a.ˈpɛ.tʰa.non o ˈtro.ɣon ˈtuː.ton ton ˈar.ton ˈze.siː iːs ton ɛ.ˈo.na"
+},
+{
+"v": "6:59",
+"pre": 0.0,
+"start": 3724.761,
+"dur": 7.229,
+"ipa": "ˈtav.ta ˈiː.pɛn ɛn sy.na.ɣo.ˈɣe ði.ˈðas.kon ɛn ka.pʰar.na.ˈuːm"
+},
+{
+"v": "6:60",
+"pre": 2.0,
+"start": 3734.59,
+"dur": 13.942,
+"ipa": "po.ˈlly ˈuːn a.ˈkuː.san.tɛs ɛk ˈton ma.tʰe.ˈton av.ˈtuː ˈiː.pan skle.ˈros ɛs.tin o ˈlo.ɣos ˈuː.tos ˈtis ˈðy.na.tɛ av.ˈtuː a.ˈkuː.iːn"
+},
+{
+"v": "6:61",
+"pre": 0.0,
+"start": 3749.133,
+"dur": 14.945,
+"ipa": "iː.ˈðos ðɛ o i.e.ˈsuːs ɛn ɛ.av.ˈto ˈo.ti ɣoŋ.ˈɣy.zuː.sin pɛ.ˈri ˈtuː.tuː y ma.tʰe.ˈtɛ av.ˈtuː ˈiː.pɛn av.ˈtys ˈtuː.to y.ˈmas skan.ða.ˈli.ziː"
+},
+{
+"v": "6:62",
+"pre": 0.0,
+"start": 3764.678,
+"dur": 9.816,
+"ipa": "ɛ.ˈan ˈuːn tʰɛ.o.ˈre.tɛ ton y.ˈon ˈtuː antʰ.ˈro.puː a.na.ˈvɛ.non.ta ˈo.puː ˈen to ˈpro.tɛ.ron"
+},
+{
+"v": "6:63",
+"pre": 0.0,
+"start": 3775.094,
+"dur": 14.562,
+"ipa": "to ˈpnɛv.ˈma ɛs.tin to zo.o.py.ˈuːn e sarks uːk o.pʰɛ.ˈliː uː.ˈðɛn ta ˈre.ma.ta a ɛ.ˈɣo lɛ.ˈla.le.ka y.ˈmin ˈpnɛv.ˈma ɛs.tin kɛ zo.ˈe ɛs.tin"
+},
+{
+"v": "6:64",
+"pre": 0.0,
+"start": 3790.257,
+"dur": 17.779,
+"ipa": "a.ˈlla iː.ˈsin ɛks y.ˈmon ti.nɛs y uː pis.ˈtɛv.uː.sin ˈe.ðiː ɣar ɛks ar.ˈkʰes o i.e.ˈsuːs ˈti.nɛs iː.ˈsin y me pis.ˈtɛv.on.tɛs kɛ ˈtis ɛs.tin o pa.ra.ˈðo.son av.ˈton"
+},
+{
+"v": "6:65",
+"pre": 0.0,
+"start": 3808.636,
+"dur": 14.332,
+"ipa": "kɛ ˈɛ.lɛ.ɣɛn ði.ˈa ˈtuː.to ˈiː.re.ka y.ˈmin ˈo.ti uː.ˈðiːs ˈðy.na.tɛ ɛl.ˈtʰiːn ˈpros mɛ ɛ.ˈan me ˈe ðɛ.ðo.ˈmɛ.non av.ˈto ɛk ˈtuː pa.ˈtros"
+},
+{
+"v": "6:66",
+"pre": 0.0,
+"start": 3823.568,
+"dur": 12.592,
+"ipa": "ɛk ˈtuː.tuː po.ˈlly ɛk ˈton ma.tʰe.ˈton av.ˈtuː a.ˈpel.tʰon iːs ta o.ˈpi.so kɛ uː.ˈkɛ.ti mɛt av.ˈtuː pɛ.ri.ɛ.ˈpa.tuːn"
+},
+{
+"v": "6:67",
+"pre": 0.0,
+"start": 3836.76,
+"dur": 8.365,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs ˈtys ˈðo.ðɛ.ka me kɛ y.ˈmiːs ˈtʰɛ.lɛ.tɛ y.ˈpa.ɣiːn"
+},
+{
+"v": "6:68",
+"pre": 0.0,
+"start": 3845.725,
+"dur": 11.5,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto ˈsi.mon ˈpɛ.tros ˈky.ri.ɛ pros ˈti.na a.pɛ.lɛv.ˈso.mɛ.tʰa ˈre.ma.ta zo.ˈes ɛ.o.ˈni.uː ˈɛ.kʰiːs"
+},
+{
+"v": "6:69",
+"pre": 0.0,
+"start": 3857.824,
+"dur": 9.283,
+"ipa": "kɛ e.ˈmiːs pɛ.pis.ˈtɛv.ka.mɛn kɛ ɛɣ.ˈno.ka.mɛn ˈo.ti sy ˈiː o ˈa.ɣi.os ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "6:70",
+"pre": 0.0,
+"start": 3867.708,
+"dur": 12.905,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs uːk ɛ.ˈɣo y.ˈmas tuːs ˈðo.ðɛ.ka ɛk.sɛ.lɛk.ˈsa.men kɛ ɛks y.ˈmon ˈiːs ði.ˈa.vo.ˈlos ɛs.tin"
+},
+{
+"v": "6:71",
+"pre": 0.0,
+"start": 3881.213,
+"dur": 12.702,
+"ipa": "ˈɛ.lɛ.ɣɛn ðɛ ton i.ˈuː.ðan ˈsi.mo.nos is.ka.ri.ˈo.tuː ˈuː.tos ɣar ˈɛ.mɛ.llɛn pa.ra.ði.ˈðo.nɛ av.ˈton ˈiːs ɛk ˈton ˈðo.ðɛ.ka"
+},
+{
+"v": "7:1",
+"pre": 0.0,
+"start": 3894.515,
+"dur": 17.445,
+"ipa": "kɛ mɛ.ˈta ˈtav.ta pɛ.ri.ɛ.ˈpa.tiː o i.e.ˈsuːs ɛn ˈte ɣa.li.ˈlɛ.a uː ɣar ˈe.tʰɛ.lɛn ɛn ˈte i.uː.ˈðɛ.a pɛ.ri.pa.ˈtiːn ˈo.ti ɛ.ˈze.tuːn av.ˈton y i.uː.ˈðɛ.y a.pok.ˈtiː.nɛ"
+},
+{
+"v": "7:2",
+"pre": 0.0,
+"start": 3912.56,
+"dur": 7.162,
+"ipa": "ˈen ðɛ ɛŋ.ˈɣys e ɛ.or.ˈte ˈton i.uː.ˈðɛ.on e ske.no.pe.ˈɣi.a"
+},
+{
+"v": "7:3",
+"pre": 0.0,
+"start": 3920.322,
+"dur": 18.21,
+"ipa": "ˈiː.pon ˈuːn pros av.ˈton y a.ðɛl.ˈpʰy av.ˈtuː mɛ.ˈta.ve.tʰi ɛn.ˈtɛv.tʰɛn kɛ ˈy.pa.ɣɛ iːs ten i.uː.ˈðɛ.an ˈi.na kɛ y ma.tʰe.ˈtɛ suː tʰɛ.o.ˈre.suː.sin ˈsuː ta ˈɛr.ɣa a py.ˈiːs"
+},
+{
+"v": "7:4",
+"pre": 0.0,
+"start": 3939.132,
+"dur": 14.958,
+"ipa": "uː.ˈðiːs ˈɣar ti ɛn kryp.ˈto py.ˈiː kɛ ze.ˈtiː av.ˈtos ɛn pa.rre.ˈsi.a ˈiː.nɛ iː ˈtav.ta py.ˈiːs pʰa.ˈnɛ.ro.son sɛ.av.ˈton ˈto ˈkoz.mo"
+},
+{
+"v": "7:5",
+"pre": 0.0,
+"start": 3954.69,
+"dur": 7.233,
+"ipa": "uː.ˈðɛ ɣar y a.ðɛl.ˈpʰy av.ˈtuː ɛ.ˈpis.tɛv.on iːs av.ˈton"
+},
+{
+"v": "7:6",
+"pre": 0.0,
+"start": 3962.522,
+"dur": 13.321,
+"ipa": "ˈlɛ.ɣiː ˈuːn av.ˈtys o i.e.ˈsuːs o kɛ.ˈros o ɛ.ˈmos ˈuː.po ˈpa.rɛs.tin o ðɛ kɛ.ˈros o y.ˈmɛ.tɛ.ros ˈpan.to.ˈtɛ ɛs.tin ˈɛ.ty.mos"
+},
+{
+"v": "7:7",
+"pre": 0.0,
+"start": 3976.444,
+"dur": 14.02,
+"ipa": "uː ˈðy.na.tɛ o ˈkoz.mos mi.ˈsiːn y.ˈmas ɛ.ˈmɛ ðɛ mi.ˈsiː ˈo.ti ɛ.ˈɣo mar.ty.ˈro pɛ.ˈri av.ˈtuː ˈo.ti ta ˈɛr.ɣa av.ˈtuː po.ne.ˈra ɛs.tin"
+},
+{
+"v": "7:8",
+"pre": 0.0,
+"start": 3991.063,
+"dur": 13.414,
+"ipa": "y.ˈmiːs a.ˈna.ve.tɛ iːs ten ɛ.or.ˈten ɛ.ˈɣo uːk a.na.ˈvɛ.no iːs ten ɛ.or.ˈten ˈtav.ten ˈo.ti o ɛ.ˈmos kɛ.ˈros ˈuː.po pɛ.ˈple.ro.tɛ"
+},
+{
+"v": "7:9",
+"pre": 0.0,
+"start": 4005.078,
+"dur": 7.038,
+"ipa": "ˈtav.ta ðɛ iː.ˈpon av.ˈtos ˈɛ.miː.nɛn ɛn ˈte ɣa.li.ˈlɛ.a"
+},
+{
+"v": "7:10",
+"pre": 0.0,
+"start": 4012.716,
+"dur": 13.255,
+"ipa": "os ðɛ a.ˈnɛ.ve.san y a.ðɛl.ˈpʰy av.ˈtuː iːs ten ɛ.or.ˈten ˈto.tɛ kɛ av.ˈtos a.ˈnɛ.ve uː pʰa.nɛ.ˈros a.ˈlla os ɛn kryp.ˈto"
+},
+{
+"v": "7:11",
+"pre": 0.0,
+"start": 4026.571,
+"dur": 10.058,
+"ipa": "y ˈuːn i.uː.ˈðɛ.y ɛ.ˈze.tuːn av.ˈton ɛn ˈte ɛ.or.ˈte kɛ ˈɛ.lɛ.ɣon ˈpuː ɛs.tin ɛ.ˈkiː.nos"
+},
+{
+"v": "7:12",
+"pre": 0.0,
+"start": 4037.229,
+"dur": 15.589,
+"ipa": "kɛ ɣoŋ.ɣyz.ˈmos pɛ.ˈri av.ˈtuː ˈen po.ˈlys ɛn ˈtys ˈo.kʰlys y mɛn ˈɛ.lɛ.ɣon ˈo.ti a.ɣa.ˈtʰos ɛs.tin ˈa.lly ðɛ ˈɛ.lɛ.ɣon ˈuː a.ˈlla pla.ˈna ton ˈo.kʰlon"
+},
+{
+"v": "7:13",
+"pre": 0.0,
+"start": 4053.418,
+"dur": 9.802,
+"ipa": "uː.ˈðiːs ˈmɛn.ty pa.rre.ˈsi.a ɛ.ˈla.liː pɛ.ˈri av.ˈtuː ði.ˈa ton ˈpʰo.von ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "7:14",
+"pre": 0.0,
+"start": 4063.82,
+"dur": 9.642,
+"ipa": "ˈe.ðe ðɛ ˈtes ɛ.or.ˈtes mɛ.ˈsuː.ses a.ˈnɛ.ve i.e.ˈsuːs iːs to i.ɛ.ˈron kɛ ɛ.ˈði.ðas.kɛn"
+},
+{
+"v": "7:15",
+"pre": 0.0,
+"start": 4074.062,
+"dur": 10.398,
+"ipa": "ɛ.ˈtʰav.ma.zon ˈuːn y i.uː.ˈðɛ.y ˈlɛ.ɣon.tɛs ˈpos ˈuː.tos ˈɣram.ma.ta ˈy.ðɛn me mɛ.ma.tʰe.ˈkos"
+},
+{
+"v": "7:16",
+"pre": 0.0,
+"start": 4085.061,
+"dur": 12.002,
+"ipa": "a.pɛ.ˈkri.tʰe ˈuːn av.ˈtys o i.e.ˈsuːs kɛ ˈiː.pɛn e ɛ.ˈme ði.ða.ˈkʰe uːk ˈɛs.tin ɛ.ˈme a.ˈlla ˈtuː ˈpɛmp.san.ˈtos mɛ"
+},
+{
+"v": "7:17",
+"pre": 0.0,
+"start": 4097.662,
+"dur": 15.322,
+"ipa": "ɛ.ˈan tis ˈtʰɛ.le to ˈtʰɛ.le.ma av.ˈtuː py.ˈiːn ˈɣno.sɛ.tɛ pɛ.ˈri ˈtes ði.ða.ˈkʰes ˈpo.tɛ.ron ɛk ˈtuː tʰɛ.ˈuː ɛs.tin e ɛ.ˈɣo ap ɛ.mav.ˈtuː la.ˈlo"
+},
+{
+"v": "7:18",
+"pre": 0.0,
+"start": 4113.585,
+"dur": 17.765,
+"ipa": "o apʰ ɛ.av.ˈtuː la.ˈlon ten ˈðok.san ten i.ˈði.an ze.ˈtiː o ðɛ ze.ˈton ten ˈðok.san ˈtuː ˈpɛmp.san.tos av.ˈton ˈuː.tos a.le.ˈtʰes ɛs.tin kɛ a.ði.ˈki.a ɛn av.ˈto uːk ˈɛs.tin"
+},
+{
+"v": "7:19",
+"pre": 0.0,
+"start": 4131.95,
+"dur": 12.638,
+"ipa": "uː mo.y.ˈses ˈðɛ.ðo.kɛn y.ˈmin ton ˈno.mon kɛ uː.ˈðiːs ɛks y.ˈmon py.ˈiː ton ˈno.mon ˈti mɛ ze.ˈtiː.tɛ a.pok.ˈtiː.nɛ"
+},
+{
+"v": "7:20",
+"pre": 0.0,
+"start": 4145.188,
+"dur": 8.121,
+"ipa": "a.pɛ.ˈkri.tʰe o ˈo.kʰlos ðɛ.ˈmo.ni.on ˈɛ.kʰiːs ˈtis sɛ ze.ˈtiː a.pok.ˈtiː.nɛ"
+},
+{
+"v": "7:21",
+"pre": 0.0,
+"start": 4153.91,
+"dur": 10.085,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈtys ɛn ˈɛr.ɣon ɛ.ˈpy.e.sa kɛ ˈpan.tɛs tʰav.ˈma.zɛ.tɛ"
+},
+{
+"v": "7:22",
+"pre": 0.0,
+"start": 4164.595,
+"dur": 16.635,
+"ipa": "ði.ˈa ˈtuː.to mo.y.ˈses ˈðɛ.ðo.kɛn y.ˈmin ten pɛ.ri.to.ˈmen uːkʰ ˈo.ti ɛk ˈtuː mo.y.ˈsɛ.os ɛs.ˈtin all ɛk ˈton pa.ˈtɛ.ron kɛ ɛn sav.ˈva.to pɛ.ri.ˈtɛm.nɛ.tɛ ˈantʰ.ro.pon"
+},
+{
+"v": "7:23",
+"pre": 0.0,
+"start": 4181.83,
+"dur": 16.858,
+"ipa": "iː pɛ.ri.to.ˈmen lam.ˈva.niː ˈantʰ.ro.pos ɛn sav.ˈva.to ˈi.na me ly.ˈtʰe o ˈno.mos mo.y.ˈsɛ.os ɛ.ˈmy kʰo.ˈla.tɛ ˈo.ti ˈo.lon ˈantʰ.ro.pon y.ɣi.ˈe ɛ.ˈpy.e.sa ɛn sav.ˈva.to"
+},
+{
+"v": "7:24",
+"pre": 0.0,
+"start": 4199.288,
+"dur": 7.302,
+"ipa": "me ˈkri.nɛ.tɛ kat ˈop.sin a.ˈlla ten ði.ˈkɛ.an ˈkri.sin ˈkri.nɛ.tɛ"
+},
+{
+"v": "7:25",
+"pre": 0.0,
+"start": 4207.191,
+"dur": 10.612,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn ti.nɛs ɛk ˈton i.ɛ.ro.so.ly.mi.ˈton uːkʰ ˈuː.ˈtos ɛs.tin on ze.ˈtuː.sin a.pok.ˈtiː.nɛ"
+},
+{
+"v": "7:26",
+"pre": 0.0,
+"start": 4218.403,
+"dur": 14.568,
+"ipa": "kɛ ˈi.ðɛ pa.rre.ˈsi.a la.ˈliː kɛ uː.ˈðɛn av.ˈto ˈlɛ.ɣuː.sin ˈme.po.tɛ a.le.ˈtʰos ˈɛɣ.no.san y ˈar.kʰon.tɛs ˈo.ti ˈuː.ˈtos ɛs.tin o kʰris.ˈtos"
+},
+{
+"v": "7:27",
+"pre": 0.0,
+"start": 4233.571,
+"dur": 11.497,
+"ipa": "a.ˈlla ˈtuː.ton ˈy.ða.mɛn ˈpo.tʰɛn ɛs.ˈtin o ðɛ kʰris.ˈtos ˈo.tan ˈɛr.kʰe.tɛ uː.ˈðiːs ɣi.ˈnos.kiː ˈpo.tʰɛn ɛs.ˈtin"
+},
+{
+"v": "7:28",
+"pre": 0.0,
+"start": 4245.668,
+"dur": 21.119,
+"ipa": "ˈɛ.krak.sɛn ˈuːn ɛn ˈto i.ɛ.ˈro ði.ˈðas.kon o i.e.ˈsuːs kɛ ˈlɛ.ɣon ka.ˈmɛ ˈy.ða.tɛ kɛ ˈy.ða.tɛ ˈpo.tʰɛn iː.ˈmi kɛ ap ɛ.mav.ˈtuː uːk ɛ.ˈle.ly.tʰa all ˈɛs.tin a.le.tʰi.ˈnos o ˈpɛmp.sas mɛ on y.ˈmiːs uːk ˈy.ða.tɛ"
+},
+{
+"v": "7:29",
+"pre": 0.0,
+"start": 4267.387,
+"dur": 8.17,
+"ipa": "ɛ.ˈɣo ˈy.ða av.ˈton ˈo.ti par av.ˈtuː iː.mi ka.ˈkiː.ˈnos mɛ a.ˈpɛs.tiː.lɛn"
+},
+{
+"v": "7:30",
+"pre": 0.0,
+"start": 4276.157,
+"dur": 12.918,
+"ipa": "ɛ.ˈze.tuːn ˈuːn av.ˈton pi.ˈa.sɛ kɛ uː.ˈðiːs ɛ.ˈpɛ.va.lɛn ɛp av.ˈton ten ˈkʰiː.ra ˈo.ti ˈuː.po ɛ.le.ˈly.tʰiː e ˈo.ra av.ˈtuː"
+},
+{
+"v": "7:31",
+"pre": 0.0,
+"start": 4289.675,
+"dur": 15.805,
+"ipa": "ɛk ˈtuː ˈo.kʰluː ðɛ po.ˈlly ɛ.ˈpis.tɛv.san iːs av.ˈton kɛ ˈɛ.lɛ.ɣon o kʰris.ˈtos ˈo.tan ˈɛl.tʰe me ˈpliː.o.na se.ˈmiː.a py.ˈe.siː ˈon ˈuː.tos ɛ.ˈpy.e.sɛn"
+},
+{
+"v": "7:32",
+"pre": 0.0,
+"start": 4306.08,
+"dur": 17.747,
+"ipa": "ˈe.kuː.san y pʰa.ri.ˈsɛ.y ˈtuː ˈo.kʰluː ɣoŋ.ˈɣy.zon.tos pɛ.ˈri av.ˈtuː ˈtav.ta kɛ a.ˈpɛs.tiː.lan y ar.kʰi.ɛ.ˈriːs kɛ y pʰa.ri.ˈsɛ.y y.pe.ˈrɛ.tas ˈi.na pi.ˈa.so.sin av.ˈton"
+},
+{
+"v": "7:33",
+"pre": 0.0,
+"start": 4324.426,
+"dur": 11.107,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs ˈɛ.ti ˈkʰro.non mi.ˈkron mɛtʰ y.ˈmon iː.mi kɛ y.ˈpa.ɣo pros ton ˈpɛmp.san.ˈta mɛ"
+},
+{
+"v": "7:34",
+"pre": 0.0,
+"start": 4336.133,
+"dur": 9.948,
+"ipa": "ze.ˈte.sɛ.ˈtɛ mɛ kɛ uːkʰ ɛv.ˈre.sɛ.tɛ kɛ ˈo.puː iː.ˈmi ɛ.ˈɣo y.ˈmiːs uː ˈðy.nas.tʰɛ ɛl.ˈtʰiːn"
+},
+{
+"v": "7:35",
+"pre": 0.0,
+"start": 4346.681,
+"dur": 22.098,
+"ipa": "ˈiː.pon ˈuːn y i.uː.ˈðɛ.y pros ɛ.av.ˈtuːs ˈpuː ˈuː.tos ˈmɛ.lliː po.ˈrɛv.ɛs.tʰɛ ˈo.ti e.ˈmiːs uːkʰ ɛv.ˈre.so.mɛn av.ˈton me iːs ten ði.as.po.ˈran ˈton ɛ.ˈlle.non ˈmɛ.lliː po.ˈrɛv.ɛs.tʰɛ kɛ ði.ˈðas.kiːn tuːs ˈɛ.lle.nas"
+},
+{
+"v": "7:36",
+"pre": 0.0,
+"start": 4369.38,
+"dur": 13.66,
+"ipa": "ˈtis ɛs.tin o ˈlo.ɣos ˈuː.tos on ˈiː.pɛ ze.ˈte.sɛ.ˈtɛ mɛ kɛ uːkʰ ɛv.ˈre.sɛ.tɛ kɛ ˈo.puː iː.ˈmi ɛ.ˈɣo y.ˈmiːs uː ˈðy.nas.tʰɛ ɛl.ˈtʰiːn"
+},
+{
+"v": "7:37",
+"pre": 0.0,
+"start": 4383.639,
+"dur": 16.551,
+"ipa": "ɛn ðɛ ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra ˈte mɛ.ˈɣa.le ˈtes ɛ.or.ˈtes iːs.ˈte.kiː o i.e.ˈsuːs kɛ ˈɛ.krak.sɛn ˈlɛ.ɣon ɛ.ˈan tis ðip.ˈsa ɛr.ˈkʰɛs.tʰo ˈpros mɛ kɛ pi.ˈnɛ.to"
+},
+{
+"v": "7:38",
+"pre": 0.0,
+"start": 4400.791,
+"dur": 12.906,
+"ipa": "o pis.ˈtɛv.on iːs ɛ.ˈmɛ ka.ˈtʰos ˈiː.pɛn e ɣra.ˈpʰe po.ta.ˈmy ɛk ˈtes ky.ˈli.as av.ˈtuː ˈrɛv.suː.sin ˈy.ða.tos ˈzon.tos"
+},
+{
+"v": "7:39",
+"pre": 0.0,
+"start": 4414.296,
+"dur": 17.148,
+"ipa": "ˈtuː.to ðɛ ˈiː.pɛn pɛ.ˈri ˈtuː ˈpnɛv.ma.tos ˈuː ˈɛ.mɛ.llon lam.ˈva.niːn y pis.ˈtɛv.san.tɛs iːs av.ˈton ˈuː.po ɣar ˈen ˈpnɛv.ma ˈo.ti i.e.ˈsuːs uː.ˈðɛ.po ɛ.ðok.ˈsas.tʰe"
+},
+{
+"v": "7:40",
+"pre": 0.0,
+"start": 4432.044,
+"dur": 11.167,
+"ipa": "ɛk ˈtuː ˈo.kʰluː ˈuːn a.ˈkuː.san.tɛs ˈton ˈlo.ɣon ˈtuː.ton ˈɛ.lɛ.ɣon ˈuː.ˈtos ɛs.tin a.le.ˈtʰos o pro.ˈpʰe.tes"
+},
+{
+"v": "7:41",
+"pre": 0.0,
+"start": 4443.811,
+"dur": 11.986,
+"ipa": "ˈa.lly ˈɛ.lɛ.ɣon ˈuː.ˈtos ɛs.tin o kʰris.ˈtos y ðɛ ˈɛ.lɛ.ɣon me ɣar ɛk ˈtes ɣa.li.ˈlɛ.as o kʰris.ˈtos ˈɛr.kʰɛ.tɛ"
+},
+{
+"v": "7:42",
+"pre": 0.0,
+"start": 4456.397,
+"dur": 14.076,
+"ipa": "uːkʰ e ɣra.ˈpʰe ˈiː.pɛn ˈo.ti ɛk ˈtuː ˈspɛr.ma.tos ðav.ˈið kɛ a.ˈpo ve.ˈtʰlɛ.ɛm ˈtes ˈko.mes ˈo.puː ˈen ðav.ˈið ˈɛr.kʰɛ.tɛ o kʰris.ˈtos"
+},
+{
+"v": "7:43",
+"pre": 0.0,
+"start": 4471.073,
+"dur": 6.355,
+"ipa": "ˈskʰiz.ma ˈuːn ɛ.ˈɣɛ.nɛ.to ɛn ˈto ˈo.kʰlo ði av.ˈton"
+},
+{
+"v": "7:44",
+"pre": 0.0,
+"start": 4478.028,
+"dur": 10.942,
+"ipa": "ti.ˈnɛs ðɛ ˈe.tʰɛ.lon ɛks av.ˈton pi.ˈa.sɛ av.ˈton all uː.ˈðiːs ɛ.ˈpɛ.va.lɛn ɛp av.ˈton tas ˈkʰiː.ras"
+},
+{
+"v": "7:45",
+"pre": 0.0,
+"start": 4489.57,
+"dur": 14.471,
+"ipa": "ˈel.tʰon ˈuːn y y.pe.ˈrɛ.tɛ pros tuːs ar.kʰi.ɛ.ˈriːs kɛ pʰa.ri.ˈsɛ.uːs kɛ ˈiː.pon av.ˈtys ɛ.ˈkiː.ny ði.ˈa ˈti uːk e.ˈɣa.ɣɛ.tɛ av.ˈton"
+},
+{
+"v": "7:46",
+"pre": 0.0,
+"start": 4504.64,
+"dur": 8.044,
+"ipa": "a.pɛ.ˈkri.tʰe.san y y.pe.ˈrɛ.tɛ uː.ˈðɛ.po.tɛ ɛ.ˈla.le.sɛn ˈuː.tos ˈantʰ.ro.pos"
+},
+{
+"v": "7:47",
+"pre": 0.0,
+"start": 4513.285,
+"dur": 8.559,
+"ipa": "a.pɛ.ˈkri.tʰe.san ˈuːn av.ˈtys y pʰa.ri.ˈsɛ.y me kɛ y.ˈmiːs pɛ.ˈpla.nes.tʰɛ"
+},
+{
+"v": "7:48",
+"pre": 0.0,
+"start": 4522.444,
+"dur": 9.162,
+"ipa": "ˈme tis ɛk ˈton ar.ˈkʰon.ton ɛ.ˈpis.tɛv.sɛn iːs av.ˈton e ɛk ˈton pʰa.ri.ˈsɛ.on"
+},
+{
+"v": "7:49",
+"pre": 0.0,
+"start": 4532.206,
+"dur": 7.877,
+"ipa": "a.ˈlla o ˈo.kʰlos ˈuː.tos o me ɣi.ˈnos.kon ton ˈno.mon ɛ.ˈpa.ra.ˈty iː.sin"
+},
+{
+"v": "7:50",
+"pre": 0.0,
+"start": 4540.683,
+"dur": 10.214,
+"ipa": "ˈlɛ.ɣiː ni.ˈko.ðe.mos pros av.ˈtuːs o ɛl.ˈtʰon pros av.ˈton ˈpro.tɛ.ron ˈiːs on ɛks av.ˈton"
+},
+{
+"v": "7:51",
+"pre": 0.0,
+"start": 4551.497,
+"dur": 11.691,
+"ipa": "me o ˈno.mos e.ˈmon ˈkri.niː ton ˈantʰ.ro.pon ɛ.ˈan me a.ˈkuː.se ˈpro.ton par av.ˈtuː kɛ ˈɣno ˈti py.ˈiː"
+},
+{
+"v": "7:52",
+"pre": 2.0,
+"start": 4565.788,
+"dur": 15.981,
+"ipa": "a.pɛ.ˈkri.tʰe.san kɛ ˈiː.pan av.ˈto me kɛ sy ɛk ˈtes ɣa.li.ˈlɛ.as ˈiː ɛ.ˈrav.ne.son kɛ ˈi.ðɛ ˈo.ti ɛk ˈtes ɣa.li.ˈlɛ.as pro.ˈpʰe.tes uːk ɛ.ˈɣiː.rɛ.tɛ"
+},
+{
+"v": "8:12",
+"pre": 0.0,
+"start": 4582.368,
+"dur": 19.047,
+"ipa": "ˈpa.lin ˈuːn av.ˈtys ɛ.ˈla.le.sɛn o i.e.ˈsuːs ˈlɛ.ɣon ɛ.ˈɣo iː.mi to ˈpʰos ˈtuː ˈkoz.muː o a.ko.luː.ˈtʰon ɛ.ˈmy uː me pɛ.ri.pa.ˈte.se ɛn ˈte sko.ˈti.a all ˈɛk.siː to ˈpʰos ˈtes zo.ˈes"
+},
+{
+"v": "8:13",
+"pre": 0.0,
+"start": 4602.015,
+"dur": 11.952,
+"ipa": "ˈiː.pon ˈuːn av.ˈto y pʰa.ri.ˈsɛ.y sy pɛ.ˈri sɛ.av.ˈtuː mar.ty.ˈriːs e mar.ty.ˈri.a suː uːk ˈɛs.tin a.le.ˈtʰes"
+},
+{
+"v": "8:14",
+"pre": 0.0,
+"start": 4614.567,
+"dur": 22.365,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈtys kan ɛ.ˈɣo mar.ty.ˈro pɛ.ˈri ɛ.mav.ˈtuː a.le.ˈtʰes ɛs.tin e mar.ty.ˈri.a muː ˈo.ti ˈy.ða ˈpo.tʰɛn ˈel.tʰon kɛ ˈpuː y.ˈpa.ɣo y.ˈmiːs ðɛ uːk ˈy.ða.tɛ ˈpo.tʰɛn ˈɛr.kʰo.mɛ e ˈpuː y.ˈpa.ɣo"
+},
+{
+"v": "8:15",
+"pre": 0.0,
+"start": 4637.532,
+"dur": 7.086,
+"ipa": "y.ˈmiːs ka.ˈta ten ˈsar.ka ˈkri.nɛ.tɛ ɛ.ˈɣo uː ˈkri.no uː.ˈðɛ.na"
+},
+{
+"v": "8:16",
+"pre": 0.0,
+"start": 4645.218,
+"dur": 12.843,
+"ipa": "kɛ ɛ.ˈan ˈkri.no ðɛ ɛ.ˈɣo e ˈkri.sis e ɛ.ˈme a.le.tʰi.ˈne ɛs.tin ˈo.ti ˈmo.nos uːk iː.ˈmi all ɛ.ˈɣo kɛ o ˈpɛmp.sas mɛ pa.ˈter"
+},
+{
+"v": "8:17",
+"pre": 0.0,
+"start": 4658.66,
+"dur": 11.047,
+"ipa": "kɛ ɛn ˈto ˈno.mo ðɛ ˈto y.mɛ.ˈtɛ.ro ˈɣɛ.ɣrap.tɛ ˈo.ti ˈðy.o antʰ.ˈro.pon e mar.ty.ˈri.a a.le.ˈtʰes ɛs.tin"
+},
+{
+"v": "8:18",
+"pre": 0.0,
+"start": 4670.308,
+"dur": 10.294,
+"ipa": "ɛ.ˈɣo iː.mi o mar.ty.ˈron pɛ.ˈri ɛ.mav.ˈtuː kɛ mar.ty.ˈriː pɛ.ˈri ɛ.ˈmuː o ˈpɛmp.sas mɛ pa.ˈter"
+},
+{
+"v": "8:19",
+"pre": 0.0,
+"start": 4681.202,
+"dur": 17.499,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn av.ˈto ˈpuː ɛs.tin o pa.ˈter suː a.pɛ.ˈkri.tʰe i.e.ˈsuːs ˈuː.tɛ ɛ.ˈmɛ ˈy.ða.tɛ ˈuː.tɛ ton pa.ˈtɛ.ra muː iː ɛ.ˈmɛ ˈe.ðiː.tɛ kɛ ton pa.ˈtɛ.ra muː an ˈe.ðiː.tɛ"
+},
+{
+"v": "8:20",
+"pre": 0.0,
+"start": 4699.301,
+"dur": 16.323,
+"ipa": "ˈtav.ta ta ˈre.ma.ta ɛ.ˈla.le.sɛn ɛn ˈto ɣa.zo.pʰy.la.ˈki.o ði.ˈðas.kon ɛn ˈto i.ɛ.ˈro kɛ uː.ˈðiːs ɛ.ˈpi.a.sɛn av.ˈton ˈo.ti ˈuː.po ɛ.le.ˈly.tʰiː e ˈo.ra av.ˈtuː"
+},
+{
+"v": "8:21",
+"pre": 0.0,
+"start": 4716.224,
+"dur": 16.605,
+"ipa": "ˈiː.pɛn ˈuːn ˈpa.lin av.ˈtys ɛ.ˈɣo y.ˈpa.ɣo kɛ ze.ˈte.sɛ.ˈtɛ mɛ kɛ ɛn ˈte a.mar.ˈti.a y.ˈmon a.po.tʰa.ˈniːs.tʰɛ ˈo.puː ɛ.ˈɣo y.ˈpa.ɣo y.ˈmiːs uː ˈðy.nas.tʰɛ ɛl.ˈtʰiːn"
+},
+{
+"v": "8:22",
+"pre": 0.0,
+"start": 4733.429,
+"dur": 12.853,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn y i.uː.ˈðɛ.y ˈme.ti a.pok.tɛ.ˈniː ɛ.av.ˈton ˈo.ti ˈlɛ.ɣiː ˈo.puː ɛ.ˈɣo y.ˈpa.ɣo y.ˈmiːs uː ˈðy.nas.tʰɛ ɛl.ˈtʰiːn"
+},
+{
+"v": "8:23",
+"pre": 0.0,
+"start": 4746.883,
+"dur": 16.593,
+"ipa": "kɛ ˈɛ.lɛ.ɣɛn av.ˈtys y.ˈmiːs ɛk ˈton ˈka.to ɛs.ˈtɛ ɛ.ˈɣo ɛk ˈton ˈa.no iː.ˈmi y.ˈmiːs ɛk ˈtuː.tuː ˈtuː ˈkoz.muː ɛs.ˈtɛ ɛ.ˈɣo uːk iː.ˈmi ɛk ˈtuː ˈkoz.muː ˈtuː.tuː"
+},
+{
+"v": "8:24",
+"pre": 0.0,
+"start": 4764.076,
+"dur": 16.698,
+"ipa": "ˈiː.pon ˈuːn y.ˈmin ˈo.ti a.po.tʰa.ˈniːs.tʰɛ ɛn ˈtɛs a.mar.ˈti.ɛs y.ˈmon ɛ.ˈan ɣar me pis.ˈtɛv.se.tɛ ˈo.ti ɛ.ˈɣo iː.mi a.po.tʰa.ˈniːs.tʰɛ ɛn ˈtɛs a.mar.ˈti.ɛs y.ˈmon"
+},
+{
+"v": "8:25",
+"pre": 0.0,
+"start": 4781.374,
+"dur": 11.022,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn av.ˈto sy ˈtis ˈiː ˈiː.pɛn av.ˈtys o i.e.ˈsuːs ten ar.ˈkʰen ˈo ti kɛ la.ˈlo y.ˈmin"
+},
+{
+"v": "8:26",
+"pre": 0.0,
+"start": 4792.996,
+"dur": 15.277,
+"ipa": "po.ˈlla ˈɛ.kʰo pɛ.ˈri y.ˈmon la.ˈliːn kɛ ˈkri.niːn all o ˈpɛmp.sas mɛ a.le.ˈtʰes ɛs.tin ka.ˈɣo a ˈe.kuː.sa par av.ˈtuː ˈtav.ta la.ˈlo iːs ton ˈkoz.mon"
+},
+{
+"v": "8:27",
+"pre": 0.0,
+"start": 4808.873,
+"dur": 6.171,
+"ipa": "uːk ˈɛɣ.no.san ˈo.ti ton pa.ˈtɛ.ra av.ˈtys ˈɛ.lɛ.ɣɛn"
+},
+{
+"v": "8:28",
+"pre": 0.0,
+"start": 4815.644,
+"dur": 19.765,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs ˈo.tan yp.ˈso.se.tɛ ton y.ˈon ˈtuː antʰ.ˈro.puː ˈto.tɛ ˈɣno.sɛs.tʰɛ ˈo.ti ɛ.ˈɣo iː.mi kɛ ap ɛ.mav.ˈtuː py.ˈo uː.ˈðɛn a.ˈlla ka.ˈtʰos ɛ.ˈði.ðak.ˈsɛn mɛ o pa.ˈter ˈtav.ta la.ˈlo"
+},
+{
+"v": "8:29",
+"pre": 0.0,
+"start": 4836.01,
+"dur": 11.904,
+"ipa": "kɛ o ˈpɛmp.sas mɛ mɛt ɛ.ˈmuː ɛs.tin uːk a.ˈpʰe.ˈkɛn mɛ ˈmo.non ˈo.ti ɛ.ˈɣo ta a.rɛs.ˈta av.ˈto py.ˈo ˈpan.to.tɛ"
+},
+{
+"v": "8:30",
+"pre": 0.0,
+"start": 4848.514,
+"dur": 7.693,
+"ipa": "ˈtav.ta av.ˈtuː la.ˈluːn.tos po.ˈlly ɛ.ˈpis.tɛv.san iːs av.ˈton"
+},
+{
+"v": "8:31",
+"pre": 0.0,
+"start": 4856.807,
+"dur": 16.684,
+"ipa": "ˈɛ.lɛ.ɣɛn ˈuːn o i.e.ˈsuːs pros tuːs pɛ.pis.tɛv.ˈko.tas av.ˈto i.uː.ˈðɛ.uːs ɛ.ˈan y.ˈmiːs ˈmiː.ne.tɛ ɛn ˈto ˈlo.ɣo ˈto ɛ.ˈmo a.le.ˈtʰos ma.tʰe.ˈtɛ ˈmuː ɛs.tɛ"
+},
+{
+"v": "8:32",
+"pre": 0.0,
+"start": 4874.09,
+"dur": 8.378,
+"ipa": "kɛ ˈɣno.sɛs.tʰɛ ten a.ˈle.tʰiː.an kɛ e a.ˈle.tʰiː.a ɛ.lɛv.tʰɛ.ˈro.siː y.ˈmas"
+},
+{
+"v": "8:33",
+"pre": 0.0,
+"start": 4883.069,
+"dur": 15.128,
+"ipa": "a.pɛ.ˈkri.tʰe.san pros av.ˈton ˈspɛr.ma a.vra.ˈam ɛz.mɛn kɛ uː.ðɛ.ˈni ðɛ.ðuː.ˈlɛv.ka.mɛn ˈpo.po.tɛ ˈpos sy ˈlɛ.ɣiːs ˈo.ti ɛ.ˈlɛv.tʰɛ.ry ɣɛ.ˈne.sɛs.tʰɛ"
+},
+{
+"v": "8:34",
+"pre": 0.0,
+"start": 4898.797,
+"dur": 13.806,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti ˈpas o py.ˈon ten a.mar.ˈti.an ˈðuː.ˈlos ɛs.tin ˈtes a.mar.ˈti.as"
+},
+{
+"v": "8:35",
+"pre": 0.0,
+"start": 4913.204,
+"dur": 10.552,
+"ipa": "o ðɛ ˈðuː.los uː ˈmɛ.niː ɛn ˈte y.ˈki.a iːs ton ɛ.ˈo.na o y.ˈos ˈmɛ.niː iːs ton ɛ.ˈo.na"
+},
+{
+"v": "8:36",
+"pre": 0.0,
+"start": 4924.356,
+"dur": 8.411,
+"ipa": "ɛ.ˈan ˈuːn o y.ˈos y.ˈmas ɛ.lɛv.tʰɛ.ˈro.se ˈon.tos ɛ.ˈlɛv.tʰɛ.ry ˈɛ.sɛs.tʰɛ"
+},
+{
+"v": "8:37",
+"pre": 0.0,
+"start": 4933.367,
+"dur": 12.174,
+"ipa": "ˈy.ða ˈo.ti ˈspɛr.ma a.vra.ˈam ɛs.tɛ a.ˈlla ze.ˈtiː.ˈtɛ mɛ a.pok.ˈtiː.nɛ ˈo.ti o ˈlo.ɣos o ɛ.ˈmos uː kʰo.ˈriː ɛn y.ˈmin"
+},
+{
+"v": "8:38",
+"pre": 0.0,
+"start": 4946.141,
+"dur": 11.183,
+"ipa": "a ɛ.ˈɣo ɛ.ˈo.ra.ka pa.ˈra ˈto pa.ˈtri la.ˈlo kɛ y.ˈmiːs ˈuːn a e.ˈkuː.sa.tɛ pa.ˈra ˈtuː pa.ˈtros py.ˈiː.tɛ"
+},
+{
+"v": "8:39",
+"pre": 0.0,
+"start": 4957.924,
+"dur": 16.962,
+"ipa": "a.pɛ.ˈkri.tʰe.san kɛ ˈiː.pan av.ˈto o pa.ˈter e.ˈmon a.vra.ˈam ɛs.tin ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs iː ˈtɛk.na ˈtuː a.vra.ˈam ɛs.tɛ ta ˈɛr.ɣa ˈtuː a.vra.ˈam ɛ.py.ˈiː.tɛ"
+},
+{
+"v": "8:40",
+"pre": 0.0,
+"start": 4975.486,
+"dur": 15.456,
+"ipa": "ˈnyn ðɛ ze.ˈtiː.ˈtɛ mɛ a.pok.ˈtiː.nɛ ˈantʰ.ro.pon os ten a.ˈle.tʰiː.an y.ˈmin lɛ.ˈla.le.ka en ˈe.kuː.sa pa.ˈra ˈtuː tʰɛ.ˈuː ˈtuː.to a.vra.ˈam uːk ɛ.ˈpy.e.sɛn"
+},
+{
+"v": "8:41",
+"pre": 0.0,
+"start": 4991.542,
+"dur": 14.716,
+"ipa": "y.ˈmiːs py.ˈiː.tɛ ta ˈɛr.ɣa ˈtuː pa.ˈtros y.ˈmon ˈiː.pan av.ˈto e.ˈmiːs ɛk por.ˈniː.as uː ɣɛ.ɣɛn.ˈne.mɛ.tʰa ˈɛ.na pa.ˈtɛ.ra ˈɛ.kʰo.mɛn ton tʰɛ.ˈon"
+},
+{
+"v": "8:42",
+"pre": 0.0,
+"start": 5006.858,
+"dur": 20.067,
+"ipa": "ˈiː.pɛn av.ˈtys o i.e.ˈsuːs iː o tʰɛ.ˈos pa.ˈter y.ˈmon ˈen e.ɣa.ˈpa.tɛ an ɛ.ˈmɛ ɛ.ˈɣo ɣar ɛk ˈtuː tʰɛ.ˈuː ɛk.ˈsel.tʰon kɛ ˈe.ko uː.ˈðɛ ɣar ap ɛ.mav.ˈtuː ɛ.ˈle.ly.tʰa all ɛ.ˈkiː.ˈnos mɛ a.ˈpɛs.tiː.lɛn"
+},
+{
+"v": "8:43",
+"pre": 0.0,
+"start": 5027.525,
+"dur": 10.744,
+"ipa": "ði.ˈa ˈti ten la.li.ˈan ten ɛ.ˈmen uː ɣi.ˈnos.kɛ.tɛ ˈo.ti uː ˈðy.nas.tʰɛ a.ˈkuː.iːn ton ˈlo.ɣon ton ɛ.ˈmon"
+},
+{
+"v": "8:44",
+"pre": 0.0,
+"start": 5038.868,
+"dur": 33.202,
+"ipa": "y.ˈmiːs ɛk ˈtuː pa.ˈtros ˈtuː ði.a.ˈvo.luː ɛs.ˈtɛ kɛ tas ɛ.pi.tʰy.ˈmi.as ˈtuː pa.ˈtros y.ˈmon ˈtʰɛ.lɛ.tɛ py.ˈiːn ɛ.ˈkiː.nos antʰ.ro.pok.ˈto.nos ˈen ap ar.ˈkʰes kɛ ɛn ˈte a.le.ˈtʰiː.a uːk ˈɛs.te.kɛn ˈo.ti uːk ˈɛs.tin a.ˈle.tʰiː.a ɛn av.ˈto ˈo.tan la.ˈle to ˈpsɛv.ðos ɛk ˈton i.ˈði.on la.ˈliː ˈo.ti ˈpsɛvs.tes ɛs.ˈtin kɛ o pa.ˈter av.ˈtuː"
+},
+{
+"v": "8:45",
+"pre": 0.0,
+"start": 5072.67,
+"dur": 6.816,
+"ipa": "ɛ.ˈɣo ðɛ ˈo.ti ten a.ˈle.tʰiː.an ˈlɛ.ɣo uː pis.ˈtɛv.ɛ.ˈtɛ my"
+},
+{
+"v": "8:46",
+"pre": 0.0,
+"start": 5080.086,
+"dur": 11.585,
+"ipa": "ˈtis ɛks y.ˈmon ɛ.ˈlɛŋ.kʰiː mɛ pɛ.ˈri a.mar.ˈti.as iː a.ˈle.tʰiː.an ˈlɛ.ɣo ði.ˈa ˈti y.ˈmiːs uː pis.ˈtɛv.ɛ.ˈtɛ my"
+},
+{
+"v": "8:47",
+"pre": 0.0,
+"start": 5092.271,
+"dur": 13.051,
+"ipa": "o on ɛk ˈtuː tʰɛ.ˈuː ta ˈre.ma.ta ˈtuː tʰɛ.ˈuː a.ˈkuː.iː ði.ˈa ˈtuː.to y.ˈmiːs uːk a.ˈkuː.ɛ.tɛ ˈo.ti ɛk ˈtuː tʰɛ.ˈuː uːk ɛs.ˈtɛ"
+},
+{
+"v": "8:48",
+"pre": 0.0,
+"start": 5105.922,
+"dur": 13.774,
+"ipa": "a.pɛ.ˈkri.tʰe.san y i.uː.ˈðɛ.y kɛ ˈiː.pan av.ˈto uː ka.ˈlos ˈlɛ.ɣo.mɛn e.ˈmiːs ˈo.ti sa.ma.ˈri.tes ˈiː sy kɛ ðɛ.ˈmo.ni.on ˈɛ.kʰiːs"
+},
+{
+"v": "8:49",
+"pre": 0.0,
+"start": 5120.296,
+"dur": 11.682,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs ɛ.ˈɣo ðɛ.ˈmo.ni.on uːk ˈɛ.kʰo a.ˈlla ti.ˈmo ton pa.ˈtɛ.ra muː kɛ y.ˈmiːs a.ti.ˈma.zɛ.ˈtɛ mɛ"
+},
+{
+"v": "8:50",
+"pre": 0.0,
+"start": 5132.578,
+"dur": 7.772,
+"ipa": "ɛ.ˈɣo ðɛ uː ze.ˈto ten ˈðok.san muː ˈɛs.tin o ze.ˈton kɛ ˈkri.non"
+},
+{
+"v": "8:51",
+"pre": 0.0,
+"start": 5140.95,
+"dur": 11.817,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ɛ.ˈan tis ton ɛ.ˈmon ˈlo.ɣon te.ˈre.se ˈtʰa.na.ton uː me tʰɛ.o.ˈre.se iːs ton ɛ.ˈo.na"
+},
+{
+"v": "8:52",
+"pre": 0.0,
+"start": 5153.366,
+"dur": 22.109,
+"ipa": "ˈiː.pon av.ˈto y i.uː.ˈðɛ.y ˈnyn ɛɣ.ˈno.ka.mɛn ˈo.ti ðɛ.ˈmo.ni.on ˈɛ.kʰiːs a.vra.ˈam a.ˈpɛ.tʰa.nɛn kɛ y pro.ˈpʰe.tɛ kɛ sy ˈlɛ.ɣiːs ɛ.ˈan tis ton ˈlo.ɣon muː te.ˈre.se uː me ˈɣɛv.se.tɛ tʰa.ˈna.tuː iːs ton ɛ.ˈo.na"
+},
+{
+"v": "8:53",
+"pre": 0.0,
+"start": 5176.075,
+"dur": 13.46,
+"ipa": "me sy ˈmiː.zon ˈiː ˈtuː pa.ˈtros e.ˈmon a.vra.ˈam ˈos.tis a.ˈpɛ.tʰa.nɛn kɛ y pro.ˈpʰe.tɛ a.ˈpɛ.tʰa.non ˈti.na sɛ.av.ˈton py.ˈiːs"
+},
+{
+"v": "8:54",
+"pre": 0.0,
+"start": 5190.135,
+"dur": 16.967,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs ɛ.ˈan ɛ.ˈɣo ðok.ˈsa.so ɛ.mav.ˈton e ˈðok.sa muː uː.ˈðɛn ɛs.tin ˈɛs.tin o pa.ˈter muː o ðok.ˈsa.zon mɛ on y.ˈmiːs ˈlɛ.ɣɛ.tɛ ˈo.ti tʰɛ.ˈos e.ˈmon ɛs.tin"
+},
+{
+"v": "8:55",
+"pre": 0.0,
+"start": 5207.702,
+"dur": 18.772,
+"ipa": "kɛ uːk ɛɣ.ˈno.ka.tɛ av.ˈton ɛ.ˈɣo ðɛ ˈy.ða av.ˈton kan ˈiː.po ˈo.ti uːk ˈy.ða av.ˈton ˈɛ.so.mɛ ˈo.my.os y.ˈmin ˈpsɛvs.tes a.ˈlla ˈy.ða av.ˈton kɛ ton ˈlo.ɣon av.ˈtuː te.ˈro"
+},
+{
+"v": "8:56",
+"pre": 2.0,
+"start": 5229.074,
+"dur": 10.941,
+"ipa": "a.vra.ˈam o pa.ˈter y.ˈmon e.ɣa.lli.ˈa.sa.to ˈi.na ˈi.ðe ten e.ˈmɛ.ran ten ɛ.ˈmen kɛ ˈiː.ðɛn kɛ ɛ.ˈkʰa.re"
+},
+{
+"v": "8:57",
+"pre": 0.0,
+"start": 5240.615,
+"dur": 10.585,
+"ipa": "ˈiː.pon ˈuːn y i.uː.ˈðɛ.y pros av.ˈton pɛn.ˈte.kon.ta ˈɛ.te ˈuː.po ˈɛ.kʰiːs kɛ a.vra.ˈam ɛ.ˈo.ra.kas"
+},
+{
+"v": "8:58",
+"pre": 0.0,
+"start": 5251.8,
+"dur": 10.043,
+"ipa": "ˈiː.pɛn av.ˈtys i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin prin a.vra.ˈam ɣɛ.ˈnɛs.tʰɛ ɛ.ˈɣo iː.ˈmi"
+},
+{
+"v": "8:59",
+"pre": 0.0,
+"start": 5262.443,
+"dur": 11.282,
+"ipa": "ˈe.ran ˈuːn ˈli.tʰuːs ˈi.na ˈva.lo.sin ɛp av.ˈton i.e.ˈsuːs ðɛ ɛ.ˈkry.ve kɛ ɛk.ˈsel.tʰɛn ɛk ˈtuː i.ɛ.ˈruː"
+},
+{
+"v": "9:1",
+"pre": 0.0,
+"start": 5274.325,
+"dur": 6.6,
+"ipa": "kɛ pa.ˈra.ɣon ˈiː.ðɛn ˈantʰ.ro.pon ty.ˈpʰlon ɛk ɣɛ.nɛ.ˈtes"
+},
+{
+"v": "9:2",
+"pre": 0.0,
+"start": 5281.525,
+"dur": 14.522,
+"ipa": "kɛ e.ˈro.te.san av.ˈton y ma.tʰe.ˈtɛ av.ˈtuː ˈlɛ.ɣon.tɛs rav.ˈvi ˈtis ˈe.mar.tɛn ˈuː.tos e y ɣo.ˈniːs av.ˈtuː ˈi.na ty.ˈpʰlos ɣɛn.ne.ˈtʰe"
+},
+{
+"v": "9:3",
+"pre": 0.0,
+"start": 5296.646,
+"dur": 13.844,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs ˈuː.tɛ ˈuː.tos ˈe.mar.tɛn ˈuː.tɛ y ɣo.ˈniːs av.ˈtuː all ˈi.na pʰa.nɛ.ro.ˈtʰe ta ˈɛr.ɣa ˈtuː tʰɛ.ˈuː ɛn av.ˈto"
+},
+{
+"v": "9:4",
+"pre": 0.0,
+"start": 5311.09,
+"dur": 13.96,
+"ipa": "e.ˈmas ˈðiː ɛr.ˈɣa.zɛs.tʰɛ ta ˈɛr.ɣa ˈtuː ˈpɛmp.san.ˈtos mɛ ˈɛ.os e.ˈmɛ.ra ɛs.ˈtin ˈɛr.kʰɛ.tɛ nyks ˈo.tɛ uː.ˈðiːs ˈðy.na.tɛ ɛr.ˈɣa.zɛs.tʰɛ"
+},
+{
+"v": "9:5",
+"pre": 0.0,
+"start": 5325.65,
+"dur": 6.382,
+"ipa": "ˈo.tan ɛn ˈto ˈkoz.mo ˈo ˈpʰos iː.mi ˈtuː ˈkoz.muː"
+},
+{
+"v": "9:6",
+"pre": 0.0,
+"start": 5332.632,
+"dur": 14.436,
+"ipa": "ˈtav.ta iː.ˈpon ˈɛp.ty.sɛn kʰa.ˈmɛ kɛ ɛ.ˈpy.e.sɛn pe.ˈlon ɛk ˈtuː ˈptyz.ma.tos kɛ ɛ.ˈpɛ.kʰri.sɛn av.ˈtuː ton pe.ˈlon ɛ.ˈpi tuːs opʰ.tʰal.ˈmuːs"
+},
+{
+"v": "9:7",
+"pre": 0.0,
+"start": 5347.668,
+"dur": 16.804,
+"ipa": "kɛ ˈiː.pɛn av.ˈto ˈy.pa.ɣɛ ˈnip.sɛ iːs ten ko.lym.ˈve.tʰran ˈtuː si.lo.ˈam o ɛr.me.ˈnɛv.ɛ.tɛ a.pɛs.tal.ˈmɛ.nos a.ˈpel.tʰɛn ˈuːn kɛ ɛ.ˈnip.sa.to kɛ ˈel.tʰɛn ˈvlɛ.pon"
+},
+{
+"v": "9:8",
+"pre": 2.0,
+"start": 5367.072,
+"dur": 15.502,
+"ipa": "y ˈuːn ˈɣiː.to.nɛs kɛ y tʰɛ.o.ˈruːn.tɛs av.ˈton to ˈpro.tɛ.ron ˈo.ti pro.ˈsɛ.tes ˈen ˈɛ.lɛ.ɣon uːkʰ ˈuː.ˈtos ɛs.tin o ka.ˈtʰe.mɛ.nos kɛ pro.sɛ.ˈton"
+},
+{
+"v": "9:9",
+"pre": 0.0,
+"start": 5383.174,
+"dur": 13.162,
+"ipa": "ˈa.lly ˈɛ.lɛ.ɣon ˈo.ti ˈuː.ˈtos ɛs.tin ˈa.lly ˈɛ.lɛ.ɣon uː.ˈkʰi a.ˈlla ˈo.my.os av.ˈto ɛs.tin ɛ.ˈkiː.nos ˈɛ.lɛ.ɣɛn ˈo.ti ɛ.ˈɣo iː.mi"
+},
+{
+"v": "9:10",
+"pre": 0.0,
+"start": 5396.936,
+"dur": 7.641,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn av.ˈto ˈpos e.nɛ.ˈokʰ.tʰe.ˈsan suː y opʰ.tʰal.ˈmy"
+},
+{
+"v": "9:11",
+"pre": 0.0,
+"start": 5405.177,
+"dur": 22.696,
+"ipa": "a.pɛ.ˈkri.tʰe ɛ.ˈkiː.nos o ˈantʰ.ro.pos o lɛ.ˈɣo.mɛ.nos i.e.ˈsuːs pe.ˈlon ɛ.ˈpy.e.sɛn kɛ ɛ.ˈpɛ.kʰri.ˈsɛn muː tuːs opʰ.tʰal.ˈmuːs kɛ ˈiː.ˈpɛn my ˈo.ti ˈy.pa.ɣɛ iːs ton si.lo.ˈam kɛ ˈnip.sɛ a.pɛl.ˈtʰon ˈuːn kɛ nip.ˈsa.mɛ.nos a.ˈnɛ.vlɛp.sa"
+},
+{
+"v": "9:12",
+"pre": 0.0,
+"start": 5428.473,
+"dur": 7.278,
+"ipa": "kɛ ˈiː.pan av.ˈto ˈpuː ɛs.tin ɛ.ˈkiː.nos ˈlɛ.ɣiː uːk ˈy.ða"
+},
+{
+"v": "9:13",
+"pre": 0.0,
+"start": 5436.351,
+"dur": 7.446,
+"ipa": "ˈa.ɣuː.sin av.ˈton pros tuːs pʰa.ri.ˈsɛ.uːs ˈton po.tɛ ty.ˈpʰlon"
+},
+{
+"v": "9:14",
+"pre": 0.0,
+"start": 5444.397,
+"dur": 12.375,
+"ipa": "ˈen ðɛ ˈsav.va.ton ɛn ˈe e.ˈmɛ.ra ton pe.ˈlon ɛ.ˈpy.e.sɛn o i.e.ˈsuːs kɛ a.ˈnɛ.ok.sɛn av.ˈtuː tuːs opʰ.tʰal.ˈmuːs"
+},
+{
+"v": "9:15",
+"pre": 0.0,
+"start": 5457.371,
+"dur": 17.568,
+"ipa": "ˈpa.lin ˈuːn e.ˈro.ton av.ˈton kɛ y pʰa.ri.ˈsɛ.y ˈpos a.ˈnɛ.vlɛp.sɛn o ðɛ ˈiː.pɛn av.ˈtys pe.ˈlon ɛ.ˈpɛ.tʰe.ˈkɛn muː ɛ.ˈpi tuːs opʰ.tʰal.ˈmuːs kɛ ɛ.nip.ˈsa.men kɛ ˈvlɛ.po"
+},
+{
+"v": "9:16",
+"pre": 0.0,
+"start": 5475.539,
+"dur": 23.878,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn ɛk ˈton pʰa.ri.ˈsɛ.on ti.ˈnɛs uːk ˈɛs.tin ˈuː.tos pa.ˈra tʰɛ.ˈuː o ˈantʰ.ro.pos ˈo.ti to ˈsav.va.ton uː te.ˈriː ˈa.lly ˈɛ.lɛ.ɣon ˈpos ˈðy.na.tɛ ˈantʰ.ro.pos a.mar.to.ˈlos ty.ˈav.ta se.ˈmiː.a py.ˈiːn kɛ ˈskʰiz.ma ˈen ɛn av.ˈtys"
+},
+{
+"v": "9:17",
+"pre": 0.0,
+"start": 5500.017,
+"dur": 15.31,
+"ipa": "ˈlɛ.ɣuː.sin ˈuːn ˈto ty.ˈpʰlo ˈpa.lin ˈti sy ˈlɛ.ɣiːs pɛ.ˈri av.ˈtuː ˈo.ti e.ˈnɛ.ok.ˈsɛn suː tuːs opʰ.tʰal.ˈmuːs o ðɛ ˈiː.pɛn ˈo.ti pro.ˈpʰe.tes ɛs.ˈtin"
+},
+{
+"v": "9:18",
+"pre": 0.0,
+"start": 5515.927,
+"dur": 16.731,
+"ipa": "uːk ɛ.ˈpis.tɛv.san ˈuːn y i.uː.ˈðɛ.y pɛ.ˈri av.ˈtuː ˈo.ti ˈen ty.ˈpʰlos kɛ a.ˈnɛ.vlɛp.sɛn ˈɛ.os ˈo.tuː ɛ.ˈpʰo.ne.san tuːs ɣo.ˈniːs av.ˈtuː ˈtuː a.na.ˈvlɛp.san.tos"
+},
+{
+"v": "9:19",
+"pre": 0.0,
+"start": 5533.258,
+"dur": 14.67,
+"ipa": "kɛ e.ˈro.te.san av.ˈtuːs ˈlɛ.ɣon.tɛs ˈuː.ˈtos ɛs.tin o y.ˈos y.ˈmon on y.ˈmiːs ˈlɛ.ɣɛ.tɛ ˈo.ti ty.ˈpʰlos ɛ.ɣɛn.ˈne.tʰe ˈpos ˈuːn ˈvlɛ.piː ˈar.ti"
+},
+{
+"v": "9:20",
+"pre": 0.0,
+"start": 5548.528,
+"dur": 13.862,
+"ipa": "a.pɛ.ˈkri.tʰe.san ˈuːn y ɣo.ˈniːs av.ˈtuː kɛ ˈiː.pan ˈy.ða.mɛn ˈo.ti ˈuː.ˈtos ɛs.tin o y.ˈos e.ˈmon kɛ ˈo.ti ty.ˈpʰlos ɛ.ɣɛn.ˈne.tʰe"
+},
+{
+"v": "9:21",
+"pre": 0.0,
+"start": 5562.99,
+"dur": 18.455,
+"ipa": "ˈpos ðɛ ˈnyn ˈvlɛ.piː uːk ˈy.ða.mɛn e ˈtis ˈe.nyk.sɛn av.ˈtuː tuːs opʰ.tʰal.ˈmuːs e.ˈmiːs uːk ˈy.ða.mɛn av.ˈton ɛ.ro.ˈte.sa.tɛ e.li.ˈki.an ˈɛ.kʰiː av.ˈtos pɛ.ˈri ɛ.av.ˈtuː la.ˈle.siː"
+},
+{
+"v": "9:22",
+"pre": 0.0,
+"start": 5582.046,
+"dur": 19.611,
+"ipa": "ˈtav.ta ˈiː.pan y ɣo.ˈniːs av.ˈtuː ˈo.ti ɛ.pʰo.ˈvuːn.to tuːs i.uː.ˈðɛ.uːs ˈe.ðe ɣar sy.nɛ.ˈtɛ.tʰiːn.to y i.uː.ˈðɛ.y ˈi.na ɛ.ˈan tis av.ˈton o.mo.lo.ˈɣe.se kʰris.ˈton a.po.sy.ˈna.ɣo.ɣos ˈɣɛ.ne.tɛ"
+},
+{
+"v": "9:23",
+"pre": 0.0,
+"start": 5602.257,
+"dur": 9.68,
+"ipa": "ði.ˈa ˈtuː.to y ɣo.ˈniːs av.ˈtuː ˈiː.pan ˈo.ti e.li.ˈki.an ˈɛ.kʰiː av.ˈton ɛ.pɛ.ro.ˈte.sa.tɛ"
+},
+{
+"v": "9:24",
+"pre": 0.0,
+"start": 5612.537,
+"dur": 17.968,
+"ipa": "ɛ.ˈpʰo.ne.san ˈuːn ton ˈantʰ.ro.pon ɛk ðɛv.ˈtɛ.ruː os ˈen ty.ˈpʰlos kɛ ˈiː.pan av.ˈto ðos ˈðok.san ˈto tʰɛ.ˈo e.ˈmiːs ˈy.ða.mɛn ˈo.ti ˈuː.tos o ˈantʰ.ro.pos a.mar.to.ˈlos ɛs.tin"
+},
+{
+"v": "9:25",
+"pre": 0.0,
+"start": 5631.104,
+"dur": 11.056,
+"ipa": "a.pɛ.ˈkri.tʰe ˈuːn ɛ.ˈkiː.nos iː a.mar.to.ˈlos ɛs.tin uːk ˈy.ða ɛn ˈy.ða ˈo.ti ty.ˈpʰlos on ˈar.ti ˈvlɛ.po"
+},
+{
+"v": "9:26",
+"pre": 0.0,
+"start": 5642.761,
+"dur": 9.259,
+"ipa": "ˈiː.pon ˈuːn av.ˈto ˈti ɛ.ˈpy.e.ˈsɛn sy ˈpos ˈe.nyk.ˈsɛn suː tuːs opʰ.tʰal.ˈmuːs"
+},
+{
+"v": "9:27",
+"pre": 0.0,
+"start": 5652.62,
+"dur": 15.434,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys ˈiː.pon y.ˈmin ˈe.ðe kɛ uːk e.ˈkuː.sa.tɛ ˈti ˈpa.lin ˈtʰɛ.lɛ.tɛ a.ˈkuː.iːn me kɛ y.ˈmiːs ˈtʰɛ.lɛ.tɛ av.ˈtuː ma.tʰe.ˈtɛ ɣɛ.ˈnɛs.tʰɛ"
+},
+{
+"v": "9:28",
+"pre": 0.0,
+"start": 5668.654,
+"dur": 11.842,
+"ipa": "ɛ.ly.ˈðo.re.san av.ˈton kɛ ˈiː.pon sy ma.tʰe.ˈtes ˈiː ɛ.ˈkiː.nuː e.ˈmiːs ðɛ ˈtuː mo.y.ˈsɛ.os ɛz.ˈmɛn ma.tʰe.ˈtɛ"
+},
+{
+"v": "9:29",
+"pre": 0.0,
+"start": 5681.096,
+"dur": 10.324,
+"ipa": "e.ˈmiːs ˈy.ða.mɛn ˈo.ti mo.y.ˈsiː lɛ.ˈla.le.kɛn o tʰɛ.ˈos ˈtuː.ton ðɛ uːk ˈy.ða.mɛn ˈpo.tʰɛn ɛs.ˈtin"
+},
+{
+"v": "9:30",
+"pre": 0.0,
+"start": 5692.02,
+"dur": 17.336,
+"ipa": "a.pɛ.ˈkri.tʰe o ˈantʰ.ro.pos kɛ ˈiː.pɛn av.ˈtys ɛn ˈtuː.to ɣar to tʰav.mas.ˈton ɛs.tin ˈo.ti y.ˈmiːs uːk ˈy.ða.tɛ ˈpo.tʰɛn ɛs.ˈtin kɛ ˈe.nyk.ˈsɛn muː tuːs opʰ.tʰal.ˈmuːs"
+},
+{
+"v": "9:31",
+"pre": 0.0,
+"start": 5709.956,
+"dur": 13.99,
+"ipa": "ˈy.ða.mɛn ˈo.ti a.mar.to.ˈlon o tʰɛ.ˈos uːk a.ˈkuː.iː all ɛ.ˈan tis tʰɛ.o.sɛ.ˈves ˈe kɛ to ˈtʰɛ.le.ma av.ˈtuː py.ˈe ˈtuː.tuː a.ˈkuː.iː"
+},
+{
+"v": "9:32",
+"pre": 0.0,
+"start": 5724.546,
+"dur": 10.242,
+"ipa": "ɛk ˈtuː ɛ.ˈo.nos uːk e.ˈkuːs.tʰe ˈo.ti e.ˈnɛ.ok.ˈsɛn tis opʰ.tʰal.ˈmuːs ty.ˈpʰluː ɣɛ.ɣɛn.ne.ˈmɛ.nuː"
+},
+{
+"v": "9:33",
+"pre": 0.0,
+"start": 5735.388,
+"dur": 7.504,
+"ipa": "iː me ˈen ˈuː.tos pa.ˈra tʰɛ.ˈuː uːk e.ˈðy.na.to py.ˈiːn uː.ˈðɛn"
+},
+{
+"v": "9:34",
+"pre": 0.0,
+"start": 5743.492,
+"dur": 14.274,
+"ipa": "a.pɛ.ˈkri.tʰe.san kɛ ˈiː.pan av.ˈto ɛn a.mar.ˈti.ɛs sy ɛ.ɣɛn.ˈne.tʰes ˈo.los kɛ sy ði.ˈðas.kiːs e.ˈmas kɛ ɛk.ˈsɛ.va.lon av.ˈton ˈɛk.so"
+},
+{
+"v": "9:35",
+"pre": 2.0,
+"start": 5760.367,
+"dur": 13.853,
+"ipa": "ˈe.kuː.sɛn i.e.ˈsuːs ˈo.ti ɛk.ˈsɛ.va.lon av.ˈton ˈɛk.so kɛ ɛv.ˈron av.ˈton ˈiː.pɛn sy pis.ˈtɛv.iːs iːs ton y.ˈon ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "9:36",
+"pre": 0.0,
+"start": 5774.82,
+"dur": 9.967,
+"ipa": "a.pɛ.ˈkri.tʰe ɛ.ˈkiː.nos kɛ ˈiː.pɛn kɛ ˈtis ɛs.tin ˈky.ri.ɛ ˈi.na pis.ˈtɛv.so iːs av.ˈton"
+},
+{
+"v": "9:37",
+"pre": 0.0,
+"start": 5785.387,
+"dur": 10.4,
+"ipa": "ˈiː.pɛn av.ˈto o i.e.ˈsuːs kɛ ɛ.ˈo.ra.kas av.ˈton kɛ o la.ˈlon mɛ.ˈta ˈsuː ɛ.ˈkiː.ˈnos ɛs.tin"
+},
+{
+"v": "9:38",
+"pre": 0.0,
+"start": 5796.387,
+"dur": 7.211,
+"ipa": "o ðɛ ˈɛ.pʰe pis.ˈtɛv.o ˈky.ri.ɛ kɛ pro.sɛ.ˈky.ne.sɛn av.ˈto"
+},
+{
+"v": "9:39",
+"pre": 0.0,
+"start": 5804.198,
+"dur": 15.617,
+"ipa": "kɛ ˈiː.pɛn o i.e.ˈsuːs iːs ˈkri.ma ɛ.ˈɣo iːs ton ˈkoz.mon ˈtuː.ton ˈel.tʰon ˈi.na y me ˈvlɛ.pon.tɛs ˈvlɛ.po.sin kɛ y ˈvlɛ.pon.tɛs ty.ˈpʰly ˈɣɛ.non.tɛ"
+},
+{
+"v": "9:40",
+"pre": 0.0,
+"start": 5820.415,
+"dur": 12.435,
+"ipa": "ˈe.kuː.san ɛk ˈton pʰa.ri.ˈsɛ.on ˈtav.ta y mɛt av.ˈtuː ˈon.tɛs kɛ ˈiː.pon av.ˈto me kɛ e.ˈmiːs ty.ˈpʰly ɛz.mɛn"
+},
+{
+"v": "9:41",
+"pre": 0.0,
+"start": 5833.45,
+"dur": 14.524,
+"ipa": "ˈiː.pɛn av.ˈtys o i.e.ˈsuːs iː ty.ˈpʰly ˈe.tɛ uːk an ˈiː.kʰɛ.tɛ a.mar.ˈti.an ˈnyn ðɛ ˈlɛ.ɣɛ.tɛ ˈo.ti ˈvlɛ.po.mɛn e a.mar.ˈti.a y.ˈmon ˈmɛ.niː"
+},
+{
+"v": "10:1",
+"pre": 0.0,
+"start": 5848.574,
+"dur": 17.843,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin o me iː.sɛr.ˈkʰo.mɛ.nos ði.ˈa ˈtes ˈtʰy.ras iːs ten av.ˈlen ˈton pro.ˈva.ton a.ˈlla a.na.ˈvɛ.non a.lla.ˈkʰo.tʰɛn ɛ.ˈkiː.nos ˈklɛp.tes ɛs.ˈtin kɛ les.ˈtes"
+},
+{
+"v": "10:2",
+"pre": 0.0,
+"start": 5867.018,
+"dur": 8.446,
+"ipa": "o ðɛ iː.sɛr.ˈkʰo.mɛ.nos ði.ˈa ˈtes ˈtʰy.ras py.ˈmen ɛs.tin ˈton pro.ˈva.ton"
+},
+{
+"v": "10:3",
+"pre": 0.0,
+"start": 5876.064,
+"dur": 15.717,
+"ipa": "ˈtuː.to o tʰy.ro.ˈros a.ˈny.ɣiː kɛ ta ˈpro.va.ta ˈtes pʰo.ˈnes av.ˈtuː a.ˈkuː.iː kɛ ta ˈi.ði.a ˈpro.va.ta pʰo.ˈniː kat ˈo.no.ma kɛ ɛk.ˈsa.ɣiː av.ˈta"
+},
+{
+"v": "10:4",
+"pre": 0.0,
+"start": 5892.381,
+"dur": 15.208,
+"ipa": "ˈo.tan ta ˈi.ði.a ˈpan.ta ɛk.ˈva.le ˈɛmp.ros.tʰɛn av.ˈton po.ˈrɛv.ɛ.tɛ kɛ ta ˈpro.va.ta av.ˈto a.ko.luː.ˈtʰiː ˈo.ti ˈy.ða.sin ten pʰo.ˈnen av.ˈtuː"
+},
+{
+"v": "10:5",
+"pre": 0.0,
+"start": 5908.188,
+"dur": 13.021,
+"ipa": "a.llo.ˈtri.o ðɛ uː me a.ko.luː.ˈtʰe.suː.sin a.ˈlla ˈpʰɛvk.son.tɛ ap av.ˈtuː ˈo.ti uːk ˈy.ða.si ˈton a.llo.ˈtri.on ten pʰo.ˈnen"
+},
+{
+"v": "10:6",
+"pre": 0.0,
+"start": 5921.809,
+"dur": 12.39,
+"ipa": "ˈtav.ten ten pa.ry.ˈmi.an ˈiː.pɛn av.ˈtys o i.e.ˈsuːs ɛ.ˈkiː.ny ðɛ uːk ˈɛɣ.no.san ˈti.na ˈen a ɛ.ˈla.liː av.ˈtys"
+},
+{
+"v": "10:7",
+"pre": 0.0,
+"start": 5934.799,
+"dur": 11.879,
+"ipa": "ˈiː.pɛn ˈuːn ˈpa.lin av.ˈtys o i.e.ˈsuːs a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti ɛ.ˈɣo iː.mi e ˈtʰy.ra ˈton pro.ˈva.ton"
+},
+{
+"v": "10:8",
+"pre": 0.0,
+"start": 5947.278,
+"dur": 11.593,
+"ipa": "ˈpan.tɛs ˈo.sy ˈel.tʰon pro ɛ.ˈmuː ˈklɛp.tɛ iː.ˈsin kɛ les.ˈtɛ all uːk ˈe.kuː.san av.ˈton ta ˈpro.va.ta"
+},
+{
+"v": "10:9",
+"pre": 0.0,
+"start": 5959.472,
+"dur": 14.003,
+"ipa": "ɛ.ˈɣo iː.mi e ˈtʰy.ra ði ɛ.ˈmuː ɛ.ˈan tis iː.ˈsɛl.tʰe so.ˈtʰe.sɛ.tɛ kɛ iː.sɛ.ˈlɛv.sɛ.tɛ kɛ ɛk.sɛ.ˈlɛv.sɛ.tɛ kɛ no.ˈmen ɛv.ˈre.siː"
+},
+{
+"v": "10:10",
+"pre": 0.0,
+"start": 5974.075,
+"dur": 14.135,
+"ipa": "o ˈklɛp.tes uːk ˈɛr.kʰɛ.tɛ iː me ˈi.na ˈklɛp.se kɛ ˈtʰy.se kɛ a.po.ˈlɛ.se ɛ.ˈɣo ˈel.tʰon ˈi.na zo.ˈen ˈɛ.kʰo.sin kɛ pɛ.ris.ˈson ˈɛ.kʰo.sin"
+},
+{
+"v": "10:11",
+"pre": 0.0,
+"start": 5988.81,
+"dur": 11.462,
+"ipa": "ɛ.ˈɣo iː.mi o py.ˈmen o ka.ˈlos o py.ˈmen o ka.ˈlos ten psy.ˈkʰen av.ˈtuː ˈti.tʰe.sin y.ˈpɛr ˈton pro.ˈva.ton"
+},
+{
+"v": "10:12",
+"pre": 0.0,
+"start": 6000.872,
+"dur": 19.93,
+"ipa": "o mis.tʰo.ˈtos kɛ uːk on py.ˈmen ˈuː uːk ˈɛs.tin ta ˈpro.va.ta ˈi.ði.a tʰɛ.o.ˈriː ton ˈly.kon ɛr.ˈkʰo.mɛ.non kɛ a.ˈpʰi.e.sin ta ˈpro.va.ta kɛ ˈpʰɛv.ɣiː kɛ o ˈly.kos ar.ˈpa.ziː av.ˈta kɛ skor.ˈpi.ziː"
+},
+{
+"v": "10:13",
+"pre": 0.0,
+"start": 6021.402,
+"dur": 8.044,
+"ipa": "ˈo.ti mis.tʰo.ˈtos ɛs.tin kɛ uː ˈmɛ.liː av.ˈto pɛ.ˈri ˈton pro.ˈva.ton"
+},
+{
+"v": "10:14",
+"pre": 0.0,
+"start": 6030.046,
+"dur": 9.547,
+"ipa": "ɛ.ˈɣo iː.mi o py.ˈmen o ka.ˈlos kɛ ɣi.ˈnos.ko ta ɛ.ˈma kɛ ɣi.ˈnos.kuː.ˈsi mɛ ta ɛ.ˈma"
+},
+{
+"v": "10:15",
+"pre": 0.0,
+"start": 6040.193,
+"dur": 12.253,
+"ipa": "ka.ˈtʰos ɣi.ˈnos.kiː mɛ o pa.ˈter ka.ˈɣo ɣi.ˈnos.ko ton pa.ˈtɛ.ra kɛ ten psy.ˈkʰen muː ˈti.tʰe.mi y.ˈpɛr ˈton pro.ˈva.ton"
+},
+{
+"v": "10:16",
+"pre": 0.0,
+"start": 6053.046,
+"dur": 18.785,
+"ipa": "kɛ ˈa.lla ˈpro.va.ta ˈɛ.kʰo a uːk ˈɛs.tin ɛk ˈtes av.ˈles ˈtav.tes ka.ˈkiː.na ˈðiː mɛ a.ɣa.ˈɣiːn kɛ ˈtes pʰo.ˈnes muː a.ˈkuː.suː.sin kɛ ɣɛ.ˈne.son.tɛ ˈmi.a ˈpym.ne ˈiːs py.ˈmen"
+},
+{
+"v": "10:17",
+"pre": 0.0,
+"start": 6072.431,
+"dur": 10.679,
+"ipa": "ði.ˈa ˈtuː.ˈto mɛ o pa.ˈter a.ɣa.ˈpa ˈo.ti ɛ.ˈɣo ˈti.tʰe.mi ten psy.ˈkʰen muː ˈi.na ˈpa.lin ˈla.vo av.ˈten"
+},
+{
+"v": "10:18",
+"pre": 0.0,
+"start": 6083.71,
+"dur": 21.971,
+"ipa": "uː.ˈðiːs ˈɛ.riː av.ˈten ap ɛ.ˈmuː all ɛ.ˈɣo ˈti.tʰe.mi av.ˈten ap ɛ.mav.ˈtuː ɛk.suː.ˈsi.an ˈɛ.kʰo ˈtʰiː.nɛ av.ˈten kɛ ɛk.suː.ˈsi.an ˈɛ.kʰo ˈpa.lin la.ˈviːn av.ˈten ˈtav.ten ten ɛn.to.ˈlen ˈɛ.la.von pa.ˈra ˈtuː pa.ˈtros muː"
+},
+{
+"v": "10:19",
+"pre": 0.0,
+"start": 6106.281,
+"dur": 8.745,
+"ipa": "ˈskʰiz.ma ˈpa.lin ɛ.ˈɣɛ.nɛ.to ɛn ˈtys i.uː.ˈðɛ.ys ði.ˈa tuːs ˈlo.ɣuːs ˈtuː.tuːs"
+},
+{
+"v": "10:20",
+"pre": 0.0,
+"start": 6115.626,
+"dur": 10.317,
+"ipa": "ˈɛ.lɛ.ɣon ðɛ po.ˈlly ɛks av.ˈton ðɛ.ˈmo.ni.on ˈɛ.kʰiː kɛ ˈmɛ.nɛ.tɛ ˈti av.ˈtuː a.ˈkuː.ɛ.tɛ"
+},
+{
+"v": "10:21",
+"pre": 0.0,
+"start": 6126.543,
+"dur": 13.446,
+"ipa": "ˈa.lly ˈɛ.lɛ.ɣon ˈtav.ta ta ˈre.ma.ta uːk ˈɛs.tin ðɛ.mo.ni.zo.ˈmɛ.nuː me ðɛ.ˈmo.ni.on ˈðy.na.tɛ ty.ˈpʰlon opʰ.tʰal.ˈmuːs a.ˈnyk.sɛ"
+},
+{
+"v": "10:22",
+"pre": 0.0,
+"start": 6140.589,
+"dur": 8.182,
+"ipa": "ɛ.ˈɣɛ.nɛ.to ˈto.tɛ ta ɛŋ.ˈkɛ.ni.a ɛn ˈtys i.ɛ.ro.so.ˈly.mys kʰiː.ˈmon ˈen"
+},
+{
+"v": "10:23",
+"pre": 0.0,
+"start": 6149.37,
+"dur": 8.994,
+"ipa": "kɛ pɛ.ri.ɛ.ˈpa.tiː o i.e.ˈsuːs ɛn ˈto i.ɛ.ˈro ɛn ˈte sto.ˈa ˈtuː so.lo.ˈmo.nos"
+},
+{
+"v": "10:24",
+"pre": 0.0,
+"start": 6158.964,
+"dur": 16.173,
+"ipa": "ɛ.ˈky.klo.san ˈuːn av.ˈton y i.uː.ˈðɛ.y kɛ ˈɛ.lɛ.ɣon av.ˈto ˈɛ.os ˈpo.tɛ ten psy.ˈkʰen e.ˈmon ˈɛ.riːs iː sy ˈiː o kʰris.ˈtos iː.ˈpɛ e.ˈmin pa.rre.ˈsi.a"
+},
+{
+"v": "10:25",
+"pre": 0.0,
+"start": 6175.737,
+"dur": 17.166,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs ˈiː.pon y.ˈmin kɛ uː pis.ˈtɛv.ɛ.tɛ ta ˈɛr.ɣa a ɛ.ˈɣo py.ˈo ɛn ˈto o.ˈno.ma.ti ˈtuː pa.ˈtros muː ˈtav.ta mar.ty.ˈriː pɛ.ˈri ɛ.ˈmuː"
+},
+{
+"v": "10:26",
+"pre": 0.0,
+"start": 6193.504,
+"dur": 8.929,
+"ipa": "a.ˈlla y.ˈmiːs uː pis.ˈtɛv.ɛ.tɛ ˈo.ti uːk ɛs.ˈtɛ ɛk ˈton pro.ˈva.ton ˈton ɛ.ˈmon"
+},
+{
+"v": "10:27",
+"pre": 0.0,
+"start": 6203.032,
+"dur": 11.213,
+"ipa": "ta ˈpro.va.ta ta ɛ.ˈma ˈtes pʰo.ˈnes muː a.ˈkuː.uː.sin ka.ˈɣo ɣi.ˈnos.ko av.ˈta kɛ a.ko.luː.ˈtʰuː.ˈsin my"
+},
+{
+"v": "10:28",
+"pre": 0.0,
+"start": 6214.845,
+"dur": 14.542,
+"ipa": "ka.ˈɣo ˈði.ðo.mi av.ˈtys zo.ˈen ɛ.ˈo.ni.on kɛ uː me a.ˈpo.lon.tɛ iːs ton ɛ.ˈo.na kɛ uːkʰ ar.ˈpa.siː tis av.ˈta ɛk ˈtes kʰiː.ˈros muː"
+},
+{
+"v": "10:29",
+"pre": 0.0,
+"start": 6229.988,
+"dur": 13.035,
+"ipa": "o pa.ˈter muː o ˈðɛ.ðo.ˈkɛn my ˈpan.ton ˈmiː.zon ɛs.ˈtin kɛ uː.ˈðiːs ˈðy.na.tɛ ar.ˈpa.ziːn ɛk ˈtes kʰiː.ˈros ˈtuː pa.ˈtros"
+},
+{
+"v": "10:30",
+"pre": 0.0,
+"start": 6243.623,
+"dur": 4.17,
+"ipa": "ɛ.ˈɣo kɛ o pa.ˈter ˈɛn ɛz.mɛn"
+},
+{
+"v": "10:31",
+"pre": 0.0,
+"start": 6248.393,
+"dur": 8.517,
+"ipa": "ɛ.ˈvas.ta.san ˈuːn ˈpa.lin ˈli.tʰuːs y i.uː.ˈðɛ.y ˈi.na li.ˈtʰa.so.sin av.ˈton"
+},
+{
+"v": "10:32",
+"pre": 0.0,
+"start": 6257.51,
+"dur": 14.158,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs po.ˈlla ˈɛr.ɣa ka.ˈla ˈɛ.ðiːk.sa y.ˈmin ɛk ˈtuː pa.ˈtros ði.ˈa ˈpy.on av.ˈton ˈɛr.ɣon ɛ.ˈmɛ li.ˈtʰa.zɛ.tɛ"
+},
+{
+"v": "10:33",
+"pre": 0.0,
+"start": 6272.267,
+"dur": 16.846,
+"ipa": "a.pɛ.ˈkri.tʰe.san av.ˈto y i.uː.ˈðɛ.y pɛ.ˈri ka.ˈluː ˈɛr.ɣuː uː li.ˈtʰa.zo.ˈmɛn sɛ a.ˈlla pɛ.ˈri vlas.pʰe.ˈmi.as kɛ ˈo.ti sy ˈantʰ.ro.pos on py.ˈiːs sɛ.av.ˈton tʰɛ.ˈon"
+},
+{
+"v": "10:34",
+"pre": 0.0,
+"start": 6289.714,
+"dur": 12.231,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys o i.e.ˈsuːs uːk ˈɛs.tin ɣɛ.ɣram.ˈmɛ.non ɛn ˈto ˈno.mo y.ˈmon ˈo.ti ɛ.ˈɣo ˈiː.pa tʰɛ.ˈy ɛs.tɛ"
+},
+{
+"v": "10:35",
+"pre": 0.0,
+"start": 6302.544,
+"dur": 12.184,
+"ipa": "iː ɛ.ˈkiː.nuːs ˈiː.pɛn tʰɛ.ˈuːs pros uːs o ˈlo.ɣos ˈtuː tʰɛ.ˈuː ɛ.ˈɣɛ.nɛ.to kɛ uː ˈðy.na.tɛ ly.ˈtʰe.nɛ e ɣra.ˈpʰe"
+},
+{
+"v": "10:36",
+"pre": 0.0,
+"start": 6315.328,
+"dur": 13.763,
+"ipa": "on o pa.ˈter e.ˈɣi.a.sɛn kɛ a.ˈpɛs.tiː.lɛn iːs ton ˈkoz.mon y.ˈmiːs ˈlɛ.ɣɛ.tɛ ˈo.ti vlas.pʰe.ˈmiːs ˈo.ti ˈiː.pon y.ˈos ˈtuː tʰɛ.ˈuː iː.mi"
+},
+{
+"v": "10:37",
+"pre": 0.0,
+"start": 6329.692,
+"dur": 7.401,
+"ipa": "iː uː py.ˈo ta ˈɛr.ɣa ˈtuː pa.ˈtros muː me pis.ˈtɛv.ɛ.ˈtɛ my"
+},
+{
+"v": "10:38",
+"pre": 0.0,
+"start": 6337.692,
+"dur": 15.628,
+"ipa": "iː ðɛ py.ˈo kan ɛ.ˈmy me pis.ˈtɛv.e.tɛ ˈtys ˈɛr.ɣys pis.ˈtɛv.ɛ.tɛ ˈi.na ˈɣno.tɛ kɛ ɣi.ˈnos.ke.tɛ ˈo.ti ɛn ɛ.ˈmy o pa.ˈter ka.ˈɣo ɛn ˈto pa.ˈtri"
+},
+{
+"v": "10:39",
+"pre": 0.0,
+"start": 6353.92,
+"dur": 9.436,
+"ipa": "ɛ.ˈze.tuːn ˈuːn ˈpa.lin av.ˈton pi.ˈa.sɛ kɛ ɛk.ˈsel.tʰɛn ɛk ˈtes kʰiː.ˈros av.ˈton"
+},
+{
+"v": "10:40",
+"pre": 0.0,
+"start": 6363.956,
+"dur": 13.574,
+"ipa": "kɛ a.ˈpel.tʰɛn ˈpa.lin ˈpɛ.ran ˈtuː i.or.ˈða.nuː iːs ton ˈto.pon ˈo.puː ˈen i.o.ˈan.nes to ˈpro.ton vap.ˈti.zon kɛ ˈɛ.miː.nɛn ɛ.ˈkiː"
+},
+{
+"v": "10:41",
+"pre": 0.0,
+"start": 6378.13,
+"dur": 16.756,
+"ipa": "kɛ po.ˈlly ˈel.tʰon pros av.ˈton kɛ ˈɛ.lɛ.ɣon ˈo.ti i.o.ˈan.nes mɛn se.ˈmiː.on ɛ.ˈpy.e.sɛn uː.ˈðɛn ˈpan.ta ðɛ ˈo.sa ˈiː.pɛn i.o.ˈan.nes pɛ.ˈri ˈtuː.tuː a.le.ˈtʰe ˈen"
+},
+{
+"v": "10:42",
+"pre": 0.0,
+"start": 6395.486,
+"dur": 5.813,
+"ipa": "kɛ po.ˈlly ɛ.ˈpis.tɛv.san iːs av.ˈton ɛ.ˈkiː"
+},
+{
+"v": "11:1",
+"pre": 0.0,
+"start": 6401.898,
+"dur": 12.73,
+"ipa": "ˈen ˈðɛ tis as.tʰɛ.ˈnon ˈla.za.ros a.ˈpo ve.tʰa.ˈni.as ɛk ˈtes ˈko.mes ma.ˈri.as kɛ ˈmar.tʰas ˈtes a.ðɛl.ˈpʰes av.ˈtes"
+},
+{
+"v": "11:2",
+"pre": 0.0,
+"start": 6415.228,
+"dur": 16.286,
+"ipa": "ˈen ðɛ ma.ri.ˈam e a.ˈliːp.sa.sa ton ˈky.ri.on ˈmy.ro kɛ ɛk.ˈmak.sa.sa tuːs ˈpo.ðas av.ˈtuː ˈtɛs tʰrik.ˈsin av.ˈtes ˈes o a.ðɛl.ˈpʰos ˈla.za.ros es.ˈtʰɛ.niː"
+},
+{
+"v": "11:3",
+"pre": 0.0,
+"start": 6432.114,
+"dur": 10.272,
+"ipa": "a.ˈpɛs.tiː.lan ˈuːn ɛ a.ðɛl.ˈpʰɛ pros av.ˈton ˈlɛ.ɣuː.sɛ ˈky.ri.ɛ ˈi.ðɛ on pʰi.ˈliːs as.tʰɛ.ˈniː"
+},
+{
+"v": "11:4",
+"pre": 0.0,
+"start": 6442.986,
+"dur": 17.82,
+"ipa": "a.ˈkuː.sas ðɛ o i.e.ˈsuːs ˈiː.pɛn ˈav.te e as.ˈtʰɛ.niː.a uːk ˈɛs.tin pros ˈtʰa.na.ton all y.ˈpɛr ˈtes ˈðok.ses ˈtuː tʰɛ.ˈuː ˈi.na ðok.sas.ˈtʰe o y.ˈos ˈtuː tʰɛ.ˈuː ði av.ˈtes"
+},
+{
+"v": "11:5",
+"pre": 0.0,
+"start": 6461.406,
+"dur": 9.242,
+"ipa": "e.ˈɣa.pa ðɛ o i.e.ˈsuːs ten ˈmar.tʰan kɛ ten a.ðɛl.ˈpʰen av.ˈtes kɛ ton ˈla.za.ron"
+},
+{
+"v": "11:6",
+"pre": 0.0,
+"start": 6471.248,
+"dur": 9.772,
+"ipa": "os ˈuːn ˈe.kuː.sɛn ˈo.ti as.tʰɛ.ˈniː ˈto.tɛ mɛn ˈɛ.miː.nɛn ɛn ˈo ˈen ˈto.po ˈðy.o e.ˈmɛ.ras"
+},
+{
+"v": "11:7",
+"pre": 0.0,
+"start": 6481.62,
+"dur": 9.386,
+"ipa": "ˈɛ.piː.ta mɛ.ˈta ˈtuː.to ˈlɛ.ɣiː ˈtys ma.tʰe.ˈtɛs ˈa.ɣo.mɛn iːs ten i.uː.ˈðɛ.an ˈpa.lin"
+},
+{
+"v": "11:8",
+"pre": 0.0,
+"start": 6491.606,
+"dur": 12.464,
+"ipa": "ˈlɛ.ɣuː.sin av.ˈto y ma.tʰe.ˈtɛ rav.ˈvi ˈnyn ɛ.ˈze.tuːn sɛ li.ˈtʰa.sɛ y i.uː.ˈðɛ.y kɛ ˈpa.lin y.ˈpa.ɣiːs ɛ.ˈkiː"
+},
+{
+"v": "11:9",
+"pre": 0.0,
+"start": 6504.67,
+"dur": 17.471,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs uː.ˈkʰi ˈðo.ðɛ.ka ˈo.ˈrɛ iː.sin ˈtes e.ˈmɛ.ras ɛ.ˈan tis pɛ.ri.pa.ˈte ɛn ˈte e.ˈmɛ.ra uː pros.ˈkop.tiː ˈo.ti to ˈpʰos ˈtuː ˈkoz.muː ˈtuː.tuː ˈvlɛ.piː"
+},
+{
+"v": "11:10",
+"pre": 0.0,
+"start": 6522.741,
+"dur": 10.381,
+"ipa": "ɛ.ˈan ˈðɛ tis pɛ.ri.pa.ˈte ɛn ˈte nyk.ˈti pros.ˈkop.tiː ˈo.ti to ˈpʰos uːk ˈɛs.tin ɛn av.ˈto"
+},
+{
+"v": "11:11",
+"pre": 0.0,
+"start": 6533.722,
+"dur": 14.66,
+"ipa": "ˈtav.ta ˈiː.pɛn kɛ mɛ.ˈta ˈtuː.to ˈlɛ.ɣiː av.ˈtys ˈla.za.ros o ˈpʰi.los e.ˈmon kɛ.ˈky.me.tɛ a.ˈlla po.ˈrɛv.o.mɛ ˈi.na ɛk.syp.ˈni.so av.ˈton"
+},
+{
+"v": "11:12",
+"pre": 0.0,
+"start": 6548.982,
+"dur": 8.265,
+"ipa": "ˈiː.pan ˈuːn y ma.tʰe.ˈtɛ av.ˈto ˈky.ri.ɛ iː kɛ.ˈky.me.tɛ so.ˈtʰe.sɛ.tɛ"
+},
+{
+"v": "11:13",
+"pre": 0.0,
+"start": 6557.847,
+"dur": 13.703,
+"ipa": "iː.ˈre.kiː ðɛ o i.e.ˈsuːs pɛ.ˈri ˈtuː tʰa.ˈna.tuː av.ˈtuː ɛ.ˈkiː.ny ðɛ ˈɛ.ðok.san ˈo.ti pɛ.ˈri ˈtes ky.ˈme.sɛ.os ˈtuː ˈyp.nuː ˈlɛ.ɣiː"
+},
+{
+"v": "11:14",
+"pre": 0.0,
+"start": 6572.15,
+"dur": 8.439,
+"ipa": "ˈto.tɛ ˈuːn ˈiː.pɛn av.ˈtys o i.e.ˈsuːs pa.rre.ˈsi.a ˈla.za.ros a.ˈpɛ.tʰa.nɛn"
+},
+{
+"v": "11:15",
+"pre": 0.0,
+"start": 6581.19,
+"dur": 10.514,
+"ipa": "kɛ ˈkʰɛ.ro ði y.ˈmas ˈi.na pis.ˈtɛv.se.tɛ ˈo.ti uːk ˈe.men ɛ.ˈkiː a.ˈlla ˈa.ɣo.mɛn pros av.ˈton"
+},
+{
+"v": "11:16",
+"pre": 0.0,
+"start": 6592.304,
+"dur": 12.968,
+"ipa": "ˈiː.pɛn ˈuːn tʰo.ˈmas o lɛ.ˈɣo.mɛ.nos ˈði.ðy.mos ˈtys sym.ma.tʰe.ˈtɛs ˈa.ɣo.mɛn kɛ e.ˈmiːs ˈi.na a.po.ˈtʰa.no.mɛn mɛt av.ˈtuː"
+},
+{
+"v": "11:17",
+"pre": 0.0,
+"start": 6605.872,
+"dur": 10.617,
+"ipa": "ɛl.ˈtʰon ˈuːn o i.e.ˈsuːs ˈɛv.rɛn av.ˈton ˈtɛs.sa.ras ˈe.ðe e.ˈmɛ.ras ˈɛ.kʰon.ta ɛn ˈto mne.ˈmiː.o"
+},
+{
+"v": "11:18",
+"pre": 0.0,
+"start": 6617.089,
+"dur": 9.173,
+"ipa": "ˈen ðɛ e ve.tʰa.ˈni.a ɛŋ.ˈɣys ˈton i.ɛ.ro.so.ˈly.mon os a.ˈpo sta.ˈði.on ðɛ.ka.ˈpɛn.tɛ"
+},
+{
+"v": "11:19",
+"pre": 0.0,
+"start": 6626.862,
+"dur": 14.204,
+"ipa": "po.ˈlly ðɛ ɛk ˈton i.uː.ˈðɛ.on ɛ.le.ˈly.tʰiː.san pros ten ˈmar.tʰan kɛ ma.ri.ˈam ˈi.na pa.ra.my.ˈtʰe.son.tɛ av.ˈtas pɛ.ˈri ˈtuː a.ðɛl.ˈpʰuː"
+},
+{
+"v": "11:20",
+"pre": 0.0,
+"start": 6641.666,
+"dur": 12.332,
+"ipa": "e ˈuːn ˈmar.tʰa os ˈe.kuː.sɛn ˈo.ti i.e.ˈsuːs ˈɛr.kʰɛ.tɛ y.ˈpen.te.sɛn av.ˈto ma.ˈri.a ðɛ ɛn ˈto ˈy.ko ɛ.ka.ˈtʰɛ.zɛ.to"
+},
+{
+"v": "11:21",
+"pre": 0.0,
+"start": 6654.598,
+"dur": 10.95,
+"ipa": "ˈiː.pɛn ˈuːn e ˈmar.tʰa pros ton i.e.ˈsuːn ˈky.ri.ɛ iː ˈes ˈo.ðɛ uːk an a.ˈpɛ.tʰa.nɛn o a.ðɛl.ˈpʰos muː"
+},
+{
+"v": "11:22",
+"pre": 0.0,
+"start": 6666.149,
+"dur": 8.411,
+"ipa": "kɛ ˈnyn ˈy.ða ˈo.ti ˈo.sa an ɛ.ˈte.se ton tʰɛ.ˈon ˈðo.siː sy o tʰɛ.ˈos"
+},
+{
+"v": "11:23",
+"pre": 0.0,
+"start": 6675.16,
+"dur": 7.149,
+"ipa": "ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs a.nas.ˈte.sɛ.tɛ o a.ðɛl.ˈpʰos suː"
+},
+{
+"v": "11:24",
+"pre": 0.0,
+"start": 6682.909,
+"dur": 11.101,
+"ipa": "ˈlɛ.ɣiː av.ˈto e ˈmar.tʰa ˈy.ða ˈo.ti a.nas.ˈte.sɛ.tɛ ɛn ˈte a.nas.ˈta.siː ɛn ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "11:25",
+"pre": 0.0,
+"start": 6694.61,
+"dur": 12.499,
+"ipa": "ˈiː.pɛn av.ˈte o i.e.ˈsuːs ɛ.ˈɣo iː.mi e a.ˈnas.ta.sis kɛ e zo.ˈe o pis.ˈtɛv.on iːs ɛ.ˈmɛ kan a.po.ˈtʰa.ne ˈze.sɛ.tɛ"
+},
+{
+"v": "11:26",
+"pre": 0.0,
+"start": 6707.709,
+"dur": 11.32,
+"ipa": "kɛ ˈpas o ˈzon kɛ pis.ˈtɛv.on iːs ɛ.ˈmɛ uː me a.po.ˈtʰa.ne iːs ton ɛ.ˈo.na pis.ˈtɛv.iːs ˈtuː.to"
+},
+{
+"v": "11:27",
+"pre": 0.0,
+"start": 6719.63,
+"dur": 13.482,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈnɛ ˈky.ri.ɛ ɛ.ˈɣo pɛ.ˈpis.tɛv.ka ˈo.ti sy ˈiː o kʰris.ˈtos o y.ˈos ˈtuː tʰɛ.ˈuː o iːs ton ˈkoz.mon ɛr.ˈkʰo.mɛ.nos"
+},
+{
+"v": "11:28",
+"pre": 0.0,
+"start": 6733.712,
+"dur": 15.122,
+"ipa": "kɛ ˈtuː.to iː.ˈpuː.sa a.ˈpel.tʰɛn kɛ ɛ.ˈpʰo.ne.sɛn ma.ri.ˈam ten a.ðɛl.ˈpʰen av.ˈtes ˈla.tʰra iː.ˈpuː.sa o ði.ˈðas.ka.los ˈpa.rɛs.tin kɛ pʰo.ˈniː sɛ"
+},
+{
+"v": "11:29",
+"pre": 0.0,
+"start": 6749.433,
+"dur": 7.946,
+"ipa": "ɛ.ˈkiː.ne ðɛ os ˈe.kuː.sɛn e.ˈɣɛr.tʰe ta.ˈkʰy kɛ ˈer.kʰɛ.to pros av.ˈton"
+},
+{
+"v": "11:30",
+"pre": 0.0,
+"start": 6757.979,
+"dur": 12.528,
+"ipa": "ˈuː.po ðɛ ɛ.le.ˈly.tʰiː o i.e.ˈsuːs iːs ten ˈko.men all ˈen ˈɛ.ti ɛn ˈto ˈto.po ˈo.puː y.ˈpen.te.sɛn av.ˈto e ˈmar.tʰa"
+},
+{
+"v": "11:31",
+"pre": 0.0,
+"start": 6771.107,
+"dur": 25.298,
+"ipa": "y ˈuːn i.uː.ˈðɛ.y y ˈon.tɛs mɛt av.ˈtes ɛn ˈte y.ˈki.a kɛ pa.ra.my.ˈtʰuː.mɛ.ny av.ˈten i.ˈðon.tɛs ten ma.ri.ˈam ˈo.ti ta.ˈkʰɛ.os a.ˈnɛs.te kɛ ɛk.ˈsel.tʰɛn e.ko.ˈluː.tʰe.san av.ˈte ˈðok.san.tɛs ˈo.ti y.ˈpa.ɣiː iːs to mne.ˈmiː.on ˈi.na ˈklav.se ɛ.ˈkiː"
+},
+{
+"v": "11:32",
+"pre": 0.0,
+"start": 6797.004,
+"dur": 18.866,
+"ipa": "e ˈuːn ma.ri.ˈam os ˈel.tʰɛn ˈo.puː ˈen i.e.ˈsuːs i.ˈðuː.sa av.ˈton ˈɛ.pɛ.sɛn av.ˈtuː pros tuːs ˈpo.ðas ˈlɛ.ɣuː.sa av.ˈto ˈky.ri.ɛ iː ˈes ˈo.ðɛ uːk ˈan muː a.ˈpɛ.tʰa.nɛn o a.ðɛl.ˈpʰos"
+},
+{
+"v": "11:33",
+"pre": 0.0,
+"start": 6816.47,
+"dur": 17.28,
+"ipa": "i.e.ˈsuːs ˈuːn os ˈiː.ðɛn av.ˈten ˈklɛ.uː.san kɛ tuːs sy.nɛl.ˈtʰon.tas av.ˈte i.uː.ˈðɛ.uːs ˈklɛ.on.tas ɛ.nɛ.vri.ˈme.sa.to ˈto ˈpnɛv.ma.ti kɛ ɛ.ˈta.rak.sɛn ɛ.av.ˈton"
+},
+{
+"v": "11:34",
+"pre": 0.0,
+"start": 6834.35,
+"dur": 9.309,
+"ipa": "kɛ ˈiː.pɛn ˈpuː tɛ.ˈtʰiː.ka.tɛ av.ˈton ˈlɛ.ɣuː.sin av.ˈto ˈky.ri.ɛ ˈɛr.kʰuː kɛ ˈi.ðɛ"
+},
+{
+"v": "11:35",
+"pre": 0.0,
+"start": 6844.26,
+"dur": 3.589,
+"ipa": "ɛ.ˈða.kry.sɛn o i.e.ˈsuːs"
+},
+{
+"v": "11:36",
+"pre": 0.0,
+"start": 6848.448,
+"dur": 7.03,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn y i.uː.ˈðɛ.y ˈi.ðɛ ˈpos ɛ.ˈpʰi.liː av.ˈton"
+},
+{
+"v": "11:37",
+"pre": 0.0,
+"start": 6856.078,
+"dur": 15.298,
+"ipa": "ti.ˈnɛs ðɛ ɛks av.ˈton ˈiː.pan uːk ɛ.ˈðy.na.to ˈuː.tos o a.ˈnyk.sas tuːs opʰ.tʰal.ˈmuːs ˈtuː ty.ˈpʰluː py.ˈe.sɛ ˈi.na kɛ ˈuː.tos me a.po.ˈtʰa.ne"
+},
+{
+"v": "11:38",
+"pre": 0.0,
+"start": 6871.976,
+"dur": 14.381,
+"ipa": "i.e.ˈsuːs ˈuːn ˈpa.lin ɛmv.ri.ˈmo.mɛ.nos ɛn ɛ.av.ˈto ˈɛr.kʰɛ.tɛ iːs to mne.ˈmiː.on ˈen ðɛ ˈspe.lɛ.on kɛ ˈli.tʰos ɛ.ˈpɛ.kiː.to ɛp av.ˈto"
+},
+{
+"v": "11:39",
+"pre": 0.0,
+"start": 6886.958,
+"dur": 15.005,
+"ipa": "ˈlɛ.ɣiː o i.e.ˈsuːs ˈa.ra.tɛ ton ˈli.tʰon ˈlɛ.ɣiː av.ˈto e a.ðɛl.ˈpʰe ˈtuː tɛ.tɛ.lɛv.te.ˈko.tos ˈmar.tʰa ˈky.ri.ɛ ˈe.ðe ˈo.ziː tɛ.tar.ˈtɛ.os ˈɣar ɛs.tin"
+},
+{
+"v": "11:40",
+"pre": 0.0,
+"start": 6902.563,
+"dur": 11.205,
+"ipa": "ˈlɛ.ɣiː av.ˈte o i.e.ˈsuːs uːk ˈiː.ˈpon sy ˈo.ti ɛ.ˈan pis.ˈtɛv.ses ˈop.se ten ˈðok.san ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "11:41",
+"pre": 0.0,
+"start": 6914.367,
+"dur": 13.762,
+"ipa": "ˈe.ran ˈuːn ton ˈli.tʰon o ðɛ i.e.ˈsuːs ˈe.rɛn tuːs opʰ.tʰal.ˈmuːs ˈa.no kɛ ˈiː.pɛn ˈpa.tɛr ɛv.kʰa.ris.ˈto sy ˈo.ti ˈe.kuː.ˈsas muː"
+},
+{
+"v": "11:42",
+"pre": 0.0,
+"start": 6928.73,
+"dur": 15.086,
+"ipa": "ɛ.ˈɣo ðɛ ˈe.ðiːn ˈo.ti ˈpan.to.ˈtɛ muː a.ˈkuː.iːs a.ˈlla ði.ˈa ton ˈo.kʰlon ton pɛ.ri.ɛs.ˈto.ta ˈiː.pon ˈi.na pis.ˈtɛv.so.sin ˈo.ti ˈsy mɛ a.ˈpɛs.tiː.las"
+},
+{
+"v": "11:43",
+"pre": 0.0,
+"start": 6944.416,
+"dur": 8.845,
+"ipa": "kɛ ˈtav.ta iː.ˈpon pʰo.ˈne mɛ.ˈɣa.le ɛ.ˈkrav.ɣa.sɛn ˈla.za.rɛ ˈðɛv.ro ˈɛk.so"
+},
+{
+"v": "11:44",
+"pre": 0.0,
+"start": 6953.861,
+"dur": 21.464,
+"ipa": "ɛk.ˈsel.tʰɛn o tɛtʰ.ne.ˈkos ðɛ.ðɛ.ˈmɛ.nos tuːs ˈpo.ðas kɛ tas ˈkʰiː.ras kiː.ˈri.ɛs kɛ e ˈop.sis av.ˈtuː suː.ða.ˈri.o pɛ.ri.ɛ.ˈðɛ.ðɛ.to ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs ˈly.sa.tɛ av.ˈton kɛ ˈa.pʰɛ.tɛ av.ˈton y.ˈpa.ɣiːn"
+},
+{
+"v": "11:45",
+"pre": 0.0,
+"start": 6975.924,
+"dur": 13.691,
+"ipa": "po.ˈlly ˈuːn ɛk ˈton i.uː.ˈðɛ.on y ɛl.ˈtʰon.tɛs pros ten ma.ri.ˈam kɛ tʰɛ.a.ˈsa.mɛ.ny a ɛ.ˈpy.e.sɛn ɛ.ˈpis.tɛv.san iːs av.ˈton"
+},
+{
+"v": "11:46",
+"pre": 0.0,
+"start": 6990.216,
+"dur": 11.659,
+"ipa": "ti.ˈnɛs ðɛ ɛks av.ˈton a.ˈpel.tʰon pros tuːs pʰa.ri.ˈsɛ.uːs kɛ ˈiː.pan av.ˈtys a ɛ.ˈpy.e.sɛn i.e.ˈsuːs"
+},
+{
+"v": "11:47",
+"pre": 0.0,
+"start": 7002.475,
+"dur": 15.374,
+"ipa": "sy.ˈne.ɣa.ɣon ˈuːn y ar.kʰi.ɛ.ˈriːs kɛ y pʰa.ri.ˈsɛ.y sy.ˈnɛ.ðri.on kɛ ˈɛ.lɛ.ɣon ˈti py.ˈuː.mɛn ˈo.ti ˈuː.tos o ˈantʰ.ro.pos po.ˈlla py.ˈiː se.ˈmiː.a"
+},
+{
+"v": "11:48",
+"pre": 0.0,
+"start": 7018.449,
+"dur": 16.248,
+"ipa": "ɛ.ˈan a.ˈpʰo.mɛn av.ˈton ˈuː.tos ˈpan.tɛs pis.ˈtɛv.suː.sin iːs av.ˈton kɛ ɛ.ˈlɛv.son.tɛ y ro.ˈmɛ.y kɛ a.ˈruː.sin e.ˈmon kɛ ton ˈto.pon kɛ to ˈɛtʰ.nos"
+},
+{
+"v": "11:49",
+"pre": 0.0,
+"start": 7035.297,
+"dur": 13.907,
+"ipa": "ˈiːs ˈðɛ tis ɛks av.ˈton ka.i.ˈa.pʰas ar.kʰi.ɛ.ˈrɛvs on ˈtuː ɛ.ni.av.ˈtuː ɛ.ˈkiː.nuː ˈiː.pɛn av.ˈtys y.ˈmiːs uːk ˈy.ða.tɛ uː.ˈðɛn"
+},
+{
+"v": "11:50",
+"pre": 0.0,
+"start": 7049.805,
+"dur": 13.748,
+"ipa": "uː.ˈðɛ lo.ˈɣi.zɛs.tʰɛ ˈo.ti sym.ˈpʰɛ.riː y.ˈmin ˈi.na ˈiːs ˈantʰ.ro.pos a.po.ˈtʰa.ne y.ˈpɛr ˈtuː la.ˈuː kɛ me ˈo.lon to ˈɛtʰ.nos a.ˈpo.le.tɛ"
+},
+{
+"v": "11:51",
+"pre": 0.0,
+"start": 7064.153,
+"dur": 17.116,
+"ipa": "ˈtuː.to ðɛ apʰ ɛ.av.ˈtuː uːk ˈiː.pɛn a.ˈlla ar.kʰi.ɛ.ˈrɛvs on ˈtuː ɛ.ni.av.ˈtuː ɛ.ˈkiː.nuː ɛ.pro.ˈpʰe.tɛv.sɛn ˈo.ti ˈɛ.mɛ.llɛn i.e.ˈsuːs a.potʰ.ˈnes.kiːn y.ˈpɛr ˈtuː ˈɛtʰ.nuːs"
+},
+{
+"v": "11:52",
+"pre": 0.0,
+"start": 7081.869,
+"dur": 12.426,
+"ipa": "kɛ uːkʰ y.ˈpɛr ˈtuː ˈɛtʰ.nuːs ˈmo.non all ˈi.na kɛ ta ˈtɛk.na ˈtuː tʰɛ.ˈuː ta ði.ɛs.kor.piz.ˈmɛ.na sy.na.ˈɣa.ɣe iːs ˈɛn"
+},
+{
+"v": "11:53",
+"pre": 0.0,
+"start": 7094.895,
+"dur": 9.155,
+"ipa": "ap ɛ.ˈkiː.nes ˈuːn ˈtes e.ˈmɛ.ras ɛ.vuː.ˈlɛv.san.to ˈi.na a.pok.ˈtiː.no.sin av.ˈton"
+},
+{
+"v": "11:54",
+"pre": 0.0,
+"start": 7104.65,
+"dur": 21.819,
+"ipa": "o ˈuːn i.e.ˈsuːs uː.ˈkɛ.ti pa.rre.ˈsi.a pɛ.ri.ɛ.ˈpa.tiː ɛn ˈtys i.uː.ˈðɛ.ys a.ˈlla a.ˈpel.tʰɛn ɛ.ˈkiː.tʰɛn iːs ten ˈkʰo.ran ɛŋ.ˈɣys ˈtes ɛ.ˈre.muː iːs ɛ.ˈpʰrɛm lɛ.ɣo.ˈmɛ.nen ˈpo.lin ka.ˈkiː ˈɛ.miː.nɛn mɛ.ˈta ˈton ma.tʰe.ˈton"
+},
+{
+"v": "11:55",
+"pre": 0.0,
+"start": 7127.069,
+"dur": 15.885,
+"ipa": "ˈen ðɛ ɛŋ.ˈɣys to ˈpas.kʰa ˈton i.uː.ˈðɛ.on kɛ a.ˈnɛ.ve.san po.ˈlly iːs i.ɛ.ro.ˈso.ly.ma ɛk ˈtes ˈkʰo.ras pro ˈtuː ˈpas.kʰa ˈi.na aɣ.ˈni.so.sin ɛ.av.ˈtuːs"
+},
+{
+"v": "11:56",
+"pre": 0.0,
+"start": 7143.554,
+"dur": 14.745,
+"ipa": "ɛ.ˈze.tuːn ˈuːn ton i.e.ˈsuːn kɛ ˈɛ.lɛ.ɣon mɛt a.ˈlle.lon ɛn ˈto i.ɛ.ˈro ɛs.te.ˈko.tɛs ˈti ðo.ˈkiː y.ˈmin ˈo.ti uː me ˈɛl.tʰe iːs ten ɛ.or.ˈten"
+},
+{
+"v": "11:57",
+"pre": 0.0,
+"start": 7158.899,
+"dur": 14.264,
+"ipa": "ðɛ.ˈðo.kiː.san ðɛ y ar.kʰi.ɛ.ˈriːs kɛ y pʰa.ri.ˈsɛ.y ɛn.to.ˈlas ˈi.na ɛ.ˈan tis ˈɣno ˈpuː ɛs.tin me.ˈny.se ˈo.pos pi.ˈa.so.sin av.ˈton"
+},
+{
+"v": "12:1",
+"pre": 0.0,
+"start": 7173.763,
+"dur": 13.813,
+"ipa": "o ˈuːn i.e.ˈsuːs pro ɛks e.mɛ.ˈron ˈtuː ˈpas.kʰa ˈel.tʰɛn iːs ve.tʰa.ˈni.an ˈo.puː ˈen ˈla.za.ros on ˈe.ɣiː.rɛn ɛk nɛ.ˈkron i.e.ˈsuːs"
+},
+{
+"v": "12:2",
+"pre": 0.0,
+"start": 7188.175,
+"dur": 13.998,
+"ipa": "ɛ.ˈpy.e.san ˈuːn av.ˈto ˈðiːp.non ɛ.ˈkiː kɛ e ˈmar.tʰa ði.e.ˈko.niː o ðɛ ˈla.za.ros ˈiːs ˈen ɛk ˈton a.na.kiː.ˈmɛ.non syn av.ˈto"
+},
+{
+"v": "12:3",
+"pre": 0.0,
+"start": 7202.773,
+"dur": 23.824,
+"ipa": "e ˈuːn ma.ri.ˈam la.ˈvuː.sa ˈli.tran ˈmy.ruː ˈnar.ðuː pis.ti.ˈkes po.ly.ˈti.muː ˈe.liːp.sɛn tuːs ˈpo.ðas ˈtuː i.e.ˈsuː kɛ ɛk.ˈsɛ.mak.sɛn ˈtɛs tʰrik.ˈsin av.ˈtes tuːs ˈpo.ðas av.ˈtuː e ðɛ y.ˈki.a ɛ.ple.ˈro.tʰe ɛk ˈtes oz.ˈmes ˈtuː ˈmy.ruː"
+},
+{
+"v": "12:4",
+"pre": 0.0,
+"start": 7227.197,
+"dur": 11.137,
+"ipa": "ˈlɛ.ɣiː ðɛ i.ˈuː.ðas o is.ka.ri.ˈo.tes ˈiːs ˈton ma.tʰe.ˈton av.ˈtuː o ˈmɛ.llon av.ˈton pa.ra.ði.ˈðo.nɛ"
+},
+{
+"v": "12:5",
+"pre": 0.0,
+"start": 7238.934,
+"dur": 9.761,
+"ipa": "ði.ˈa ˈti ˈtuː.to to ˈmy.ron uːk ɛ.ˈpra.tʰe tri.a.ko.ˈsi.on ðe.na.ˈri.on kɛ ɛ.ˈðo.tʰe pto.ˈkʰys"
+},
+{
+"v": "12:6",
+"pre": 0.0,
+"start": 7249.295,
+"dur": 15.386,
+"ipa": "ˈiː.pɛn ðɛ ˈtuː.to uːkʰ ˈo.ti pɛ.ˈri ˈton pto.ˈkʰon ˈɛ.mɛ.lɛn av.ˈto all ˈo.ti ˈklɛp.tes ˈen kɛ to ɣlos.ˈso.ko.mon ˈɛ.kʰon ta va.ˈllo.mɛ.na ɛ.ˈvas.ta.zɛn"
+},
+{
+"v": "12:7",
+"pre": 0.0,
+"start": 7265.281,
+"dur": 11.492,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs ˈa.pʰɛs av.ˈten ˈi.na iːs ten e.ˈmɛ.ran ˈtuː ɛn.ta.pʰi.az.ˈmuː muː te.ˈre.se av.ˈto"
+},
+{
+"v": "12:8",
+"pre": 0.0,
+"start": 7277.374,
+"dur": 9.318,
+"ipa": "tuːs pto.ˈkʰuːs ɣar ˈpan.to.tɛ ˈɛ.kʰɛ.tɛ mɛtʰ ɛ.av.ˈton ɛ.ˈmɛ ðɛ uː ˈpan.to.tɛ ˈɛ.kʰɛ.tɛ"
+},
+{
+"v": "12:9",
+"pre": 0.0,
+"start": 7287.291,
+"dur": 17.689,
+"ipa": "ˈɛɣ.no ˈuːn ˈo.kʰlos po.ˈlys ɛk ˈton i.uː.ˈðɛ.on ˈo.ti ɛ.ˈkiː ɛs.tin kɛ ˈel.tʰon uː ði.ˈa ton i.e.ˈsuːn ˈmo.non all ˈi.na kɛ ton ˈla.za.ron ˈi.ðo.sin on ˈe.ɣiː.rɛn ɛk nɛ.ˈkron"
+},
+{
+"v": "12:10",
+"pre": 0.0,
+"start": 7305.58,
+"dur": 8.587,
+"ipa": "ɛ.vuː.ˈlɛv.san.to ðɛ y ar.kʰi.ɛ.ˈriːs ˈi.na kɛ ton ˈla.za.ron a.pok.ˈtiː.no.sin"
+},
+{
+"v": "12:11",
+"pre": 0.0,
+"start": 7314.767,
+"dur": 9.875,
+"ipa": "ˈo.ti po.ˈlly ði av.ˈton y.ˈpe.ɣon ˈton i.uː.ˈðɛ.on kɛ ɛ.ˈpis.tɛv.on iːs ton i.e.ˈsuːn"
+},
+{
+"v": "12:12",
+"pre": 0.0,
+"start": 7325.242,
+"dur": 12.927,
+"ipa": "ˈte ɛ.ˈpav.ri.on o ˈo.kʰlos po.ˈlys o ɛl.ˈtʰon iːs ten ɛ.or.ˈten a.ˈkuː.san.tɛs ˈo.ti ˈɛr.kʰɛ.tɛ o i.e.ˈsuːs iːs i.ɛ.ro.ˈso.ly.ma"
+},
+{
+"v": "12:13",
+"pre": 0.0,
+"start": 7338.769,
+"dur": 19.914,
+"ipa": "ˈɛ.la.von ta va.ˈi.a ˈton pʰy.ˈni.kon kɛ ɛk.ˈsel.tʰon iːs y.ˈpan.te.sin av.ˈto kɛ ɛ.ˈkrav.ɣa.zon o.san.ˈna ɛv.lo.ɣe.ˈmɛ.nos o ɛr.ˈkʰo.mɛ.nos ɛn o.ˈno.ma.ti ky.ˈri.uː kɛ o va.si.ˈlɛvs ˈtuː i.sra.ˈel"
+},
+{
+"v": "12:14",
+"pre": 0.0,
+"start": 7359.283,
+"dur": 9.501,
+"ipa": "ɛv.ˈron ðɛ o i.e.ˈsuːs o.ˈna.ri.on ɛ.ˈka.tʰi.sɛn ɛp av.ˈto ka.ˈtʰos ɛs.tin ɣɛ.ɣram.ˈmɛ.non"
+},
+{
+"v": "12:15",
+"pre": 0.0,
+"start": 7369.384,
+"dur": 10.61,
+"ipa": "me pʰo.ˈvuː tʰy.ˈɣa.ter si.ˈon i.ˈðuː o va.si.ˈlɛvs suː ˈɛr.kʰɛ.tɛ ka.ˈtʰe.mɛ.nos ɛ.ˈpi ˈpo.lon ˈo.nuː"
+},
+{
+"v": "12:16",
+"pre": 0.0,
+"start": 7380.594,
+"dur": 19.559,
+"ipa": "ˈtav.ta uːk ˈɛɣ.no.san av.ˈtuː y ma.tʰe.ˈtɛ to ˈpro.ton all ˈo.tɛ ɛ.ðok.ˈsas.tʰe i.e.ˈsuːs ˈto.tɛ ɛm.ˈnes.tʰe.san ˈo.ti ˈtav.ta ˈen ɛp av.ˈto ɣɛ.ɣram.ˈmɛ.na kɛ ˈtav.ta ɛ.ˈpy.e.san av.ˈto"
+},
+{
+"v": "12:17",
+"pre": 0.0,
+"start": 7400.753,
+"dur": 13.828,
+"ipa": "ɛ.mar.ˈty.riː ˈuːn o ˈo.kʰlos o on mɛt av.ˈtuː ˈo.tɛ ton ˈla.za.ron ɛ.ˈpʰo.ne.sɛn ɛk ˈtuː mne.ˈmiː.uː kɛ ˈe.ɣiː.rɛn av.ˈton ɛk nɛ.ˈkron"
+},
+{
+"v": "12:18",
+"pre": 0.0,
+"start": 7415.181,
+"dur": 11.644,
+"ipa": "ði.ˈa ˈtuː.to kɛ y.ˈpen.te.sɛn av.ˈto o ˈo.kʰlos ˈo.ti ˈe.kuː.san ˈtuː.to av.ˈton pɛ.py.e.ˈkɛ.nɛ to se.ˈmiː.on"
+},
+{
+"v": "12:19",
+"pre": 0.0,
+"start": 7427.426,
+"dur": 13.961,
+"ipa": "y ˈuːn pʰa.ri.ˈsɛ.y ˈiː.pan pros ɛ.av.ˈtuːs tʰɛ.o.ˈriː.tɛ ˈo.ti uːk o.pʰɛ.ˈliː.tɛ uː.ˈðɛn ˈi.ðɛ o ˈkoz.mos o.ˈpi.so av.ˈtuː a.ˈpel.tʰɛn"
+},
+{
+"v": "12:20",
+"pre": 0.0,
+"start": 7441.986,
+"dur": 10.182,
+"ipa": "ˈe.san ðɛ ˈɛ.lle.ˈnɛs ti.nɛs ɛk ˈton a.na.vɛ.ˈnon.ton ˈi.na pros.ky.ˈne.so.sin ɛn ˈte ɛ.or.ˈte"
+},
+{
+"v": "12:21",
+"pre": 0.0,
+"start": 7452.768,
+"dur": 15.648,
+"ipa": "ˈuː.ty ˈuːn pro.ˈsel.tʰon pʰi.ˈlip.po ˈto a.ˈpo vetʰ.sa.i.ˈða ˈtes ɣa.li.ˈlɛ.as kɛ e.ˈro.ton av.ˈton ˈlɛ.ɣon.tɛs ˈky.ri.ɛ ˈtʰɛ.lo.mɛn ton i.e.ˈsuːn i.ˈðiːn"
+},
+{
+"v": "12:22",
+"pre": 0.0,
+"start": 7469.017,
+"dur": 12.363,
+"ipa": "ˈɛr.kʰɛ.tɛ o ˈpʰi.lip.pos kɛ ˈlɛ.ɣiː ˈto anð.ˈrɛ.a ˈɛr.kʰɛ.tɛ anð.ˈrɛ.as kɛ ˈpʰi.lip.pos kɛ ˈlɛ.ɣuː.sin ˈto i.e.ˈsuː"
+},
+{
+"v": "12:23",
+"pre": 0.0,
+"start": 7481.979,
+"dur": 11.715,
+"ipa": "o ðɛ i.e.ˈsuːs a.po.ˈkri.nɛ.tɛ av.ˈtys ˈlɛ.ɣon ɛ.ˈle.ly.tʰɛn e ˈo.ra ˈi.na ðok.sas.ˈtʰe o y.ˈos ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "12:24",
+"pre": 0.0,
+"start": 7494.295,
+"dur": 16.479,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ɛ.ˈan me o ˈkok.kos ˈtuː ˈsi.tuː pɛ.ˈson iːs ten ˈɣen a.po.ˈtʰa.ne av.ˈtos ˈmo.nos ˈmɛ.niː ɛ.ˈan ðɛ a.po.ˈtʰa.ne po.ˈlyn kar.ˈpon ˈpʰɛ.riː"
+},
+{
+"v": "12:25",
+"pre": 0.0,
+"start": 7511.374,
+"dur": 16.26,
+"ipa": "o pʰi.ˈlon ten psy.ˈkʰen av.ˈtuː a.po.ˈlly.iː av.ˈten kɛ o mi.ˈson ten psy.ˈkʰen av.ˈtuː ɛn ˈto ˈkoz.mo ˈtuː.to iːs zo.ˈen ɛ.ˈo.ni.on pʰy.ˈlak.siː av.ˈten"
+},
+{
+"v": "12:26",
+"pre": 0.0,
+"start": 7528.234,
+"dur": 17.445,
+"ipa": "ɛ.ˈan ɛ.ˈmy tis ði.a.ko.ˈne ɛ.ˈmy a.ko.luː.ˈtʰiː.to kɛ ˈo.puː iː.ˈmi ɛ.ˈɣo ɛ.ˈkiː kɛ o ði.ˈa.ko.nos o ɛ.ˈmos ˈɛs.tɛ ɛ.ˈan tis ɛ.ˈmy ði.a.ko.ˈne ti.ˈme.siː av.ˈton o pa.ˈter"
+},
+{
+"v": "12:27",
+"pre": 0.0,
+"start": 7546.279,
+"dur": 15.279,
+"ipa": "ˈnyn e psy.ˈkʰe muː tɛ.ˈta.rak.tɛ kɛ ˈti ˈiː.po ˈpa.tɛr ˈso.ˈson mɛ ɛk ˈtes ˈo.ras ˈtav.tes a.ˈlla ði.ˈa ˈtuː.to ˈel.tʰon iːs ten ˈo.ran ˈtav.ten"
+},
+{
+"v": "12:28",
+"pre": 0.0,
+"start": 7562.158,
+"dur": 12.059,
+"ipa": "ˈpa.tɛr ˈðok.sa.ˈson suː to ˈo.no.ma ˈel.tʰɛn ˈuːn pʰo.ˈne ɛk ˈtuː uː.ra.ˈnuː kɛ ɛ.ˈðok.sa.sa kɛ ˈpa.lin ðok.ˈsa.so"
+},
+{
+"v": "12:29",
+"pre": 0.0,
+"start": 7574.817,
+"dur": 12.417,
+"ipa": "o ˈuːn ˈo.kʰlos o ɛs.ˈtos kɛ a.ˈkuː.sas ˈɛ.lɛ.ɣɛn vron.ˈten ɣɛ.ɣo.ˈnɛ.nɛ ˈa.lly ˈɛ.lɛ.ɣon ˈaŋ.ɣɛ.los av.ˈto lɛ.ˈla.le.kɛn"
+},
+{
+"v": "12:30",
+"pre": 0.0,
+"start": 7587.834,
+"dur": 9.787,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn uː ði ɛ.ˈmɛ e pʰo.ˈne ˈav.te ˈɣɛ.ɣo.nɛn a.ˈlla ði y.ˈmas"
+},
+{
+"v": "12:31",
+"pre": 0.0,
+"start": 7598.221,
+"dur": 11.381,
+"ipa": "ˈnyn ˈkri.sis ɛs.ˈtin ˈtuː ˈkoz.muː ˈtuː.tuː ˈnyn o ˈar.kʰon ˈtuː ˈkoz.muː ˈtuː.tuː ɛkv.le.ˈtʰe.sɛ.tɛ ˈɛk.so"
+},
+{
+"v": "12:32",
+"pre": 0.0,
+"start": 7610.201,
+"dur": 8.223,
+"ipa": "ka.ˈɣo ɛ.ˈan yp.so.ˈtʰo ɛk ˈtes ˈɣes ˈpan.tas ɛl.ˈky.so pros ɛ.mav.ˈton"
+},
+{
+"v": "12:33",
+"pre": 0.0,
+"start": 7619.024,
+"dur": 8.296,
+"ipa": "ˈtuː.to ðɛ ˈɛ.lɛ.ɣɛn se.ˈmɛ.non ˈpy.o tʰa.ˈna.to ˈe.mɛ.llɛn a.potʰ.ˈnes.kiːn"
+},
+{
+"v": "12:34",
+"pre": 0.0,
+"start": 7627.92,
+"dur": 23.676,
+"ipa": "a.pɛ.ˈkri.tʰe ˈuːn av.ˈto o ˈo.kʰlos e.ˈmiːs e.ˈkuː.sa.mɛn ɛk ˈtuː ˈno.muː ˈo.ti o kʰris.ˈtos ˈmɛ.niː iːs ton ɛ.ˈo.na kɛ ˈpos ˈlɛ.ɣiːs sy ˈo.ti ˈðiː yp.so.ˈtʰe.nɛ ton y.ˈon ˈtuː antʰ.ˈro.puː ˈtis ɛs.tin ˈuː.tos o y.ˈos ˈtuː antʰ.ˈro.puː"
+},
+{
+"v": "12:35",
+"pre": 0.0,
+"start": 7652.196,
+"dur": 22.618,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈtys o i.e.ˈsuːs ˈɛ.ti mi.ˈkron ˈkʰro.non to ˈpʰos ɛn y.ˈmin ɛs.tin pɛ.ri.pa.ˈtiː.tɛ os to ˈpʰos ˈɛ.kʰɛ.tɛ ˈi.na me sko.ˈti.a y.ˈmas ka.ta.ˈla.ve kɛ o pɛ.ri.pa.ˈton ɛn ˈte sko.ˈti.a uːk ˈy.ðɛn ˈpuː y.ˈpa.ɣiː"
+},
+{
+"v": "12:36",
+"pre": 0.0,
+"start": 7675.414,
+"dur": 15.298,
+"ipa": "os to ˈpʰos ˈɛ.kʰɛ.tɛ pis.ˈtɛv.ɛ.tɛ iːs to ˈpʰos ˈi.na y.ˈy pʰo.ˈtos ˈɣɛ.nes.tʰɛ ˈtav.ta ɛ.ˈla.le.sɛn i.e.ˈsuːs kɛ a.pɛl.ˈtʰon ɛ.ˈkry.ve ap av.ˈton"
+},
+{
+"v": "12:37",
+"pre": 0.0,
+"start": 7691.312,
+"dur": 11.077,
+"ipa": "to.ˈsav.ta ðɛ av.ˈtuː se.ˈmiː.a pɛ.py.e.ˈko.tos ˈɛmp.ros.tʰɛn av.ˈton uːk ɛ.ˈpis.tɛv.on iːs av.ˈton"
+},
+{
+"v": "12:38",
+"pre": 0.0,
+"start": 7702.989,
+"dur": 16.259,
+"ipa": "ˈi.na o ˈlo.ɣos e.sa.ˈi.uː ˈtuː pro.ˈpʰe.tuː ple.ro.ˈtʰe on ˈiː.pɛn ˈky.ri.ɛ ˈtis ɛ.ˈpis.tɛv.sɛn ˈte a.ko.ˈe e.ˈmon kɛ o vra.ˈkʰi.on ky.ˈri.uː ˈti.ni a.pɛ.ka.ˈlypʰ.tʰe"
+},
+{
+"v": "12:39",
+"pre": 0.0,
+"start": 7719.848,
+"dur": 8.054,
+"ipa": "ði.ˈa ˈtuː.to uːk e.ˈðy.nan.to pis.ˈtɛv.iːn ˈo.ti ˈpa.lin ˈiː.pɛn e.sa.ˈi.as"
+},
+{
+"v": "12:40",
+"pre": 0.0,
+"start": 7728.502,
+"dur": 19.699,
+"ipa": "tɛ.ˈty.pʰlo.kɛn av.ˈton tuːs opʰ.tʰal.ˈmuːs kɛ ɛ.ˈpo.ro.sɛn av.ˈton ten kar.ˈði.an ˈi.na me ˈi.ðo.sin ˈtys opʰ.tʰal.ˈmys kɛ no.ˈe.so.sin ˈte kar.ˈði.a kɛ stra.ˈpʰo.sin kɛ i.ˈa.so.mɛ av.ˈtuːs"
+},
+{
+"v": "12:41",
+"pre": 0.0,
+"start": 7748.801,
+"dur": 10.03,
+"ipa": "ˈtav.ta ˈiː.pɛn e.sa.ˈi.as ˈo.ti ˈiː.ðɛn ten ˈðok.san av.ˈtuː kɛ ɛ.ˈla.le.sɛn pɛ.ˈri av.ˈtuː"
+},
+{
+"v": "12:42",
+"pre": 0.0,
+"start": 7759.431,
+"dur": 16.594,
+"ipa": "ˈo.mos ˈmɛn.ty kɛ ɛk ˈton ar.ˈkʰon.ton po.ˈlly ɛ.ˈpis.tɛv.san iːs av.ˈton a.ˈlla ði.ˈa tuːs pʰa.ri.ˈsɛ.uːs uːkʰ o.mo.ˈlo.ɣuːn ˈi.na me a.po.sy.ˈna.ɣo.ɣy ˈɣɛ.non.tɛ"
+},
+{
+"v": "12:43",
+"pre": 0.0,
+"start": 7776.625,
+"dur": 9.569,
+"ipa": "e.ˈɣa.pe.san ɣar ten ˈðok.san ˈton antʰ.ˈro.pon ˈma.llon ˈe.pɛr ten ˈðok.san ˈtuː tʰɛ.ˈuː"
+},
+{
+"v": "12:44",
+"pre": 0.0,
+"start": 7786.793,
+"dur": 12.499,
+"ipa": "i.e.ˈsuːs ðɛ ˈɛ.krak.sɛn kɛ ˈiː.pɛn o pis.ˈtɛv.on iːs ɛ.ˈmɛ uː pis.ˈtɛv.iː iːs ɛ.ˈmɛ a.ˈlla iːs ton ˈpɛmp.san.ˈta mɛ"
+},
+{
+"v": "12:45",
+"pre": 0.0,
+"start": 7799.893,
+"dur": 6.228,
+"ipa": "kɛ o tʰɛ.o.ˈron ɛ.ˈmɛ tʰɛ.o.ˈriː ton ˈpɛmp.san.ˈta mɛ"
+},
+{
+"v": "12:46",
+"pre": 0.0,
+"start": 7806.72,
+"dur": 11.387,
+"ipa": "ɛ.ˈɣo ˈpʰos iːs ton ˈkoz.mon ɛ.ˈle.ly.tʰa ˈi.na ˈpas o pis.ˈtɛv.on iːs ɛ.ˈmɛ ɛn ˈte sko.ˈti.a me ˈmiː.ne"
+},
+{
+"v": "12:47",
+"pre": 0.0,
+"start": 7818.707,
+"dur": 16.423,
+"ipa": "kɛ ɛ.ˈan ˈtis muː a.ˈkuː.se ˈton re.ˈma.ton kɛ me pʰy.ˈlak.se ɛ.ˈɣo uː ˈkri.no av.ˈton uː ɣar ˈel.tʰon ˈi.na ˈkri.no ton ˈkoz.mon all ˈi.na ˈso.so ton ˈkoz.mon"
+},
+{
+"v": "12:48",
+"pre": 0.0,
+"start": 7835.73,
+"dur": 16.76,
+"ipa": "o a.tʰɛ.ˈton ɛ.ˈmɛ kɛ me lam.ˈva.non ta ˈre.ma.ˈta muː ˈɛ.kʰiː ton ˈkri.non.ta av.ˈton o ˈlo.ɣos on ɛ.ˈla.le.sa ɛ.ˈkiː.nos kri.ˈniː av.ˈton ɛn ˈte ɛs.ˈkʰa.te e.ˈmɛ.ra"
+},
+{
+"v": "12:49",
+"pre": 0.0,
+"start": 7853.09,
+"dur": 13.477,
+"ipa": "ˈo.ti ɛ.ˈɣo ɛks ɛ.mav.ˈtuː uːk ɛ.ˈla.le.sa all o ˈpɛmp.sas mɛ pa.ˈter av.ˈtos my ɛn.to.ˈlen ˈðɛ.ðo.kɛn ˈti ˈiː.po kɛ ˈti la.ˈle.so"
+},
+{
+"v": "12:50",
+"pre": 0.0,
+"start": 7867.167,
+"dur": 13.509,
+"ipa": "kɛ ˈy.ða ˈo.ti e ɛn.to.ˈle av.ˈtuː zo.ˈe ɛ.ˈo.ni.ˈos ɛs.tin a ˈuːn ɛ.ˈɣo la.ˈlo ka.ˈtʰos ˈiː.re.ˈkɛn my o pa.ˈter ˈuː.tos la.ˈlo"
+},
+{
+"v": "13:1",
+"pre": 0.0,
+"start": 7881.276,
+"dur": 23.364,
+"ipa": "pro ðɛ ˈtes ɛ.or.ˈtes ˈtuː ˈpas.kʰa iː.ˈðos o i.e.ˈsuːs ˈo.ti ˈel.tʰɛn av.ˈtuː e ˈo.ra ˈi.na mɛ.ta.ˈve ɛk ˈtuː ˈkoz.muː ˈtuː.tuː pros ton pa.ˈtɛ.ra a.ɣa.ˈpe.sas tuːs i.ˈði.uːs tuːs ɛn ˈto ˈkoz.mo iːs ˈtɛ.los e.ˈɣa.pe.sɛn av.ˈtuːs"
+},
+{
+"v": "13:2",
+"pre": 0.0,
+"start": 7905.24,
+"dur": 14.568,
+"ipa": "kɛ ˈðiːp.nuː ɣi.no.ˈmɛ.nuː ˈtuː ði.a.ˈvo.luː ˈe.ðe vɛ.vle.ˈko.tos iːs ten kar.ˈði.an ˈi.na pa.ra.ˈðy av.ˈton i.ˈuː.ðas ˈsi.mo.nos is.ka.ri.ˈo.tuː"
+},
+{
+"v": "13:3",
+"pre": 0.0,
+"start": 7920.408,
+"dur": 13.699,
+"ipa": "iː.ˈðos ˈo.ti ˈpan.ta ˈɛ.ðo.kɛn av.ˈto o pa.ˈter iːs tas ˈkʰiː.ras kɛ ˈo.ti a.ˈpo tʰɛ.ˈuː ɛk.ˈsel.tʰɛn kɛ pros ton tʰɛ.ˈon y.ˈpa.ɣiː"
+},
+{
+"v": "13:4",
+"pre": 0.0,
+"start": 7934.708,
+"dur": 11.086,
+"ipa": "ɛ.ˈɣiː.rɛ.tɛ ɛk ˈtuː ˈðiːp.nuː kɛ ˈti.tʰe.sin ta i.ˈma.ti.a kɛ la.ˈvon ˈlɛn.ti.on ði.ˈɛ.zo.sɛn ɛ.av.ˈton"
+},
+{
+"v": "13:5",
+"pre": 0.0,
+"start": 7946.393,
+"dur": 15.786,
+"ipa": "ˈiː.ta ˈva.lliː ˈy.ðor iːs ton nip.ˈte.ra kɛ ˈerk.sa.to ˈnip.tiːn tuːs ˈpo.ðas ˈton ma.tʰe.ˈton kɛ ɛk.ˈmas.siːn ˈto lɛn.ˈti.o ˈo ˈen ði.ɛ.zoz.ˈmɛ.nos"
+},
+{
+"v": "13:6",
+"pre": 0.0,
+"start": 7962.779,
+"dur": 10.148,
+"ipa": "ˈɛr.kʰɛ.tɛ ˈuːn pros ˈsi.mo.na ˈpɛ.tron ˈlɛ.ɣiː av.ˈto ˈky.ri.ɛ ˈsy muː ˈnip.tiːs tuːs ˈpo.ðas"
+},
+{
+"v": "13:7",
+"pre": 0.0,
+"start": 7973.528,
+"dur": 11.561,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto o ɛ.ˈɣo py.ˈo sy uːk ˈy.ðas ˈar.ti ˈɣno.se ðɛ mɛ.ˈta ˈtav.ta"
+},
+{
+"v": "13:8",
+"pre": 0.0,
+"start": 7985.688,
+"dur": 16.392,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈpɛ.tros uː me ˈnip.ses muː tuːs ˈpo.ðas iːs ton ɛ.ˈo.na a.pɛ.ˈkri.tʰe i.e.ˈsuːs av.ˈto ɛ.ˈan me ˈnip.so sɛ uːk ˈɛ.kʰiːs ˈmɛ.ros mɛt ɛ.ˈmuː"
+},
+{
+"v": "13:9",
+"pre": 0.0,
+"start": 8002.681,
+"dur": 11.897,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈsi.mon ˈpɛ.tros ˈky.ri.ɛ me tuːs ˈpo.ðas muː ˈmo.non a.ˈlla kɛ tas ˈkʰiː.ras kɛ ten kɛ.pʰa.ˈlen"
+},
+{
+"v": "13:10",
+"pre": 0.0,
+"start": 8015.178,
+"dur": 17.645,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs o lɛ.luː.ˈmɛ.nos uːk ˈɛ.kʰiː ˈkʰriː.an iː me tuːs ˈpo.ðas ˈnip.sas.tʰɛ all ˈɛs.tin ka.tʰa.ˈros ˈo.los kɛ y.ˈmiːs ka.tʰa.ˈry ɛs.tɛ all uː.ˈkʰi ˈpan.tɛs"
+},
+{
+"v": "13:11",
+"pre": 0.0,
+"start": 8033.423,
+"dur": 10.616,
+"ipa": "ˈe.ðiː ɣar ton pa.ra.ði.ˈðon.ta av.ˈton ði.ˈa ˈtuː.to ˈiː.pɛn ˈo.ti uː.ˈkʰi ˈpan.tɛs ka.tʰa.ˈry ɛs.tɛ"
+},
+{
+"v": "13:12",
+"pre": 0.0,
+"start": 8044.64,
+"dur": 15.868,
+"ipa": "ˈo.tɛ ˈuːn ˈɛ.nip.sɛn tuːs ˈpo.ðas av.ˈton kɛ ˈɛ.la.vɛn ta i.ˈma.ti.a av.ˈtuː kɛ a.ˈnɛ.pɛ.sɛn ˈpa.lin ˈiː.pɛn av.ˈtys ɣi.ˈnos.kɛ.tɛ ˈti pɛ.ˈpy.e.ka y.ˈmin"
+},
+{
+"v": "13:13",
+"pre": 0.0,
+"start": 8061.108,
+"dur": 9.695,
+"ipa": "y.ˈmiːs pʰo.ˈniː.ˈtɛ mɛ o ði.ˈðas.ka.los kɛ o ˈky.ri.os kɛ ka.ˈlos ˈlɛ.ɣɛ.tɛ iː.ˈmi ˈɣar"
+},
+{
+"v": "13:14",
+"pre": 0.0,
+"start": 8071.403,
+"dur": 13.833,
+"ipa": "iː ˈuːn ɛ.ˈɣo ˈɛ.nip.sa y.ˈmon tuːs ˈpo.ðas o ˈky.ri.os kɛ o ði.ˈðas.ka.los kɛ y.ˈmiːs o.ˈpʰiː.lɛ.tɛ a.ˈlle.lon ˈnip.tiːn tuːs ˈpo.ðas"
+},
+{
+"v": "13:15",
+"pre": 0.0,
+"start": 8085.836,
+"dur": 10.128,
+"ipa": "y.ˈpo.ðiːɣ.ma ɣar ˈɛ.ðo.ka y.ˈmin ˈi.na ka.ˈtʰos ɛ.ˈɣo ɛ.ˈpy.e.sa y.ˈmin kɛ y.ˈmiːs py.ˈe.tɛ"
+},
+{
+"v": "13:16",
+"pre": 0.0,
+"start": 8096.564,
+"dur": 14.05,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin uːk ˈɛs.tin ˈðuː.los ˈmiː.zon ˈtuː ky.ˈri.uː av.ˈtuː uː.ˈðɛ a.ˈpos.to.los ˈmiː.zon ˈtuː ˈpɛmp.san.tos av.ˈton"
+},
+{
+"v": "13:17",
+"pre": 0.0,
+"start": 8111.214,
+"dur": 7.425,
+"ipa": "iː ˈtav.ta ˈy.ða.tɛ ma.ˈka.ri.ˈy ɛs.tɛ ɛ.ˈan py.ˈe.tɛ av.ˈta"
+},
+{
+"v": "13:18",
+"pre": 0.0,
+"start": 8119.239,
+"dur": 17.048,
+"ipa": "uː pɛ.ˈri ˈpan.ton y.ˈmon ˈlɛ.ɣo ɛ.ˈɣo ˈy.ða ˈti.nas ɛk.sɛ.lɛk.ˈsa.men all ˈi.na e ɣra.ˈpʰe ple.ro.ˈtʰe o ˈtro.ɣon muː ton ˈar.ton ɛ.ˈpe.rɛn ɛp ɛ.ˈmɛ ten ˈptɛr.nan av.ˈtuː"
+},
+{
+"v": "13:19",
+"pre": 0.0,
+"start": 8136.887,
+"dur": 10.59,
+"ipa": "ap ˈar.ti ˈlɛ.ɣo y.ˈmin pro ˈtuː ɣɛ.ˈnɛs.tʰɛ ˈi.na pis.ˈtɛv.se.tɛ ˈo.tan ˈɣɛ.ne.tɛ ˈo.ti ɛ.ˈɣo iː.mi"
+},
+{
+"v": "13:20",
+"pre": 0.0,
+"start": 8148.077,
+"dur": 13.228,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin o lam.ˈva.non ˈan ti.na ˈpɛmp.so ɛ.ˈmɛ lam.ˈva.niː o ðɛ ɛ.ˈmɛ lam.ˈva.non lam.ˈva.niː ton ˈpɛmp.san.ˈta mɛ"
+},
+{
+"v": "13:21",
+"pre": 0.0,
+"start": 8161.905,
+"dur": 15.829,
+"ipa": "ˈtav.ta iː.ˈpon o i.e.ˈsuːs ɛ.ta.ˈrakʰ.tʰe ˈto ˈpnɛv.ma.ti kɛ ɛ.mar.ˈty.re.sɛn kɛ ˈiː.pɛn a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti ˈiːs ɛks y.ˈmon pa.ra.ˈðo.siː mɛ"
+},
+{
+"v": "13:22",
+"pre": 0.0,
+"start": 8178.334,
+"dur": 8.475,
+"ipa": "ˈɛ.vlɛ.pon iːs a.ˈlle.luːs y ma.tʰe.ˈtɛ a.po.ˈruː.mɛ.ny pɛ.ˈri ˈti.nos ˈlɛ.ɣiː"
+},
+{
+"v": "13:23",
+"pre": 0.0,
+"start": 8187.409,
+"dur": 11.564,
+"ipa": "ˈen a.na.ˈkiː.mɛ.nos ˈiːs ɛk ˈton ma.tʰe.ˈton av.ˈtuː ɛn ˈto ˈkol.po ˈtuː i.e.ˈsuː on e.ˈɣa.pa o i.e.ˈsuːs"
+},
+{
+"v": "13:24",
+"pre": 0.0,
+"start": 8199.573,
+"dur": 9.069,
+"ipa": "ˈnɛv.iː ˈuːn ˈtuː.to ˈsi.mon ˈpɛ.tros py.ˈtʰɛs.tʰɛ ˈtis an ˈiː.e pɛ.ˈri ˈuː ˈlɛ.ɣiː"
+},
+{
+"v": "13:25",
+"pre": 0.0,
+"start": 8209.242,
+"dur": 10.534,
+"ipa": "a.na.pɛ.ˈson ɛ.ˈkiː.nos ˈuː.tos ɛ.ˈpi to ˈste.tʰos ˈtuː i.e.ˈsuː ˈlɛ.ɣiː av.ˈto ˈky.ri.ɛ ˈtis ɛs.tin"
+},
+{
+"v": "13:26",
+"pre": 0.0,
+"start": 8220.375,
+"dur": 17.183,
+"ipa": "a.po.ˈkri.nɛ.tɛ o i.e.ˈsuːs ɛ.ˈkiː.ˈnos ɛs.tin ˈo ɛ.ˈɣo ˈvap.so to pso.ˈmi.on kɛ ˈðo.so av.ˈto ˈvap.sas ˈuːn to pso.ˈmi.on ˈði.ðo.sin i.ˈuː.ða ˈsi.mo.nos is.ka.ri.ˈo.tuː"
+},
+{
+"v": "13:27",
+"pre": 0.0,
+"start": 8238.158,
+"dur": 14.117,
+"ipa": "kɛ mɛ.ˈta to pso.ˈmi.on ˈto.tɛ iː.ˈsel.tʰɛn iːs ɛ.ˈkiː.non o sa.ta.ˈnas ˈlɛ.ɣiː ˈuːn av.ˈto o i.e.ˈsuːs o py.ˈiːs ˈpy.e.son ˈta.kʰi.on"
+},
+{
+"v": "13:28",
+"pre": 0.0,
+"start": 8252.875,
+"dur": 8.409,
+"ipa": "ˈtuː.to ðɛ uː.ˈðiːs ˈɛɣ.no ˈton a.na.kiː.ˈmɛ.non pros ˈti ˈiː.pɛn av.ˈto"
+},
+{
+"v": "13:29",
+"pre": 0.0,
+"start": 8261.884,
+"dur": 18.778,
+"ipa": "ti.ˈnɛs ɣar ɛ.ˈðo.kuːn ɛ.ˈpiː to ɣlos.ˈso.ko.mon ˈiː.kʰɛn i.ˈuː.ðas ˈo.ti ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs a.ˈɣo.ra.son ˈon ˈkʰriː.an ˈɛ.kʰo.mɛn iːs ten ɛ.or.ˈten e ˈtys pto.ˈkʰys ˈi.na ti ˈðo"
+},
+{
+"v": "13:30",
+"pre": 0.0,
+"start": 8281.262,
+"dur": 8.032,
+"ipa": "la.ˈvon ˈuːn to pso.ˈmi.on ɛ.ˈkiː.nos ɛk.ˈsel.tʰɛn ɛv.ˈtʰys ˈen ðɛ ˈnyks"
+},
+{
+"v": "13:31",
+"pre": 0.0,
+"start": 8289.894,
+"dur": 13.179,
+"ipa": "ˈo.tɛ ˈuːn ɛk.ˈsel.tʰɛn ˈlɛ.ɣiː i.e.ˈsuːs ˈnyn ɛ.ðok.ˈsas.tʰe o y.ˈos ˈtuː antʰ.ˈro.puː kɛ o tʰɛ.ˈos ɛ.ðok.ˈsas.tʰe ɛn av.ˈto"
+},
+{
+"v": "13:32",
+"pre": 0.0,
+"start": 8303.673,
+"dur": 12.621,
+"ipa": "iː o tʰɛ.ˈos ɛ.ðok.ˈsas.tʰe ɛn av.ˈto kɛ o tʰɛ.ˈos ðok.ˈsa.siː av.ˈton ɛn av.ˈto kɛ ɛv.ˈtʰys ðok.ˈsa.siː av.ˈton"
+},
+{
+"v": "13:33",
+"pre": 3.0,
+"start": 8319.894,
+"dur": 17.916,
+"ipa": "tɛk.ˈni.a ˈɛ.ti mi.ˈkron mɛtʰ y.ˈmon iː.mi ze.ˈte.sɛ.ˈtɛ mɛ kɛ ka.ˈtʰos ˈiː.pon ˈtys i.uː.ˈðɛ.ys ˈo.ti ˈo.puː ɛ.ˈɣo y.ˈpa.ɣo y.ˈmiːs uː ˈðy.nas.tʰɛ ɛl.ˈtʰiːn kɛ y.ˈmin ˈlɛ.ɣo ˈar.ti"
+},
+{
+"v": "13:34",
+"pre": 0.0,
+"start": 8338.41,
+"dur": 13.292,
+"ipa": "ɛn.to.ˈlen kɛ.ˈnen ˈði.ðo.mi y.ˈmin ˈi.na a.ɣa.ˈpa.tɛ a.ˈlle.luːs ka.ˈtʰos e.ˈɣa.pe.sa y.ˈmas ˈi.na kɛ y.ˈmiːs a.ɣa.ˈpa.tɛ a.ˈlle.luːs"
+},
+{
+"v": "13:35",
+"pre": 0.0,
+"start": 8352.302,
+"dur": 10.37,
+"ipa": "ɛn ˈtuː.to ˈɣno.son.tɛ ˈpan.tɛs ˈo.ti ɛ.ˈmy ma.tʰe.ˈtɛ ɛs.tɛ ɛ.ˈan a.ˈɣa.pen ˈɛ.kʰe.tɛ ɛn a.ˈlle.lys"
+},
+{
+"v": "13:36",
+"pre": 0.0,
+"start": 8363.272,
+"dur": 16.776,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈsi.mon ˈpɛ.tros ˈky.ri.ɛ ˈpuː y.ˈpa.ɣiːs a.pɛ.ˈkri.tʰe i.e.ˈsuːs ˈo.puː y.ˈpa.ɣo uː ˈðy.na.ˈsɛ my ˈnyn a.ko.luː.ˈtʰe.sɛ a.ko.luː.ˈtʰe.siːs ðɛ ˈys.tɛ.ron"
+},
+{
+"v": "13:37",
+"pre": 0.0,
+"start": 8380.648,
+"dur": 12.956,
+"ipa": "ˈlɛ.ɣiː av.ˈto o ˈpɛ.tros ˈky.ri.ɛ ði.ˈa ˈti uː ˈðy.na.ˈmɛ sy a.ko.luː.ˈtʰe.sɛ ˈar.ti ten psy.ˈkʰen muː y.ˈpɛr ˈsuː ˈtʰe.so"
+},
+{
+"v": "13:38",
+"pre": 0.0,
+"start": 8394.204,
+"dur": 14.817,
+"ipa": "a.po.ˈkri.nɛ.tɛ i.e.ˈsuːs ten psy.ˈkʰen suː y.ˈpɛr ɛ.ˈmuː ˈtʰe.siːs a.ˈmen a.ˈmen ˈlɛ.ɣo sy uː me a.ˈlɛk.tor pʰo.ˈne.se ˈɛ.os ˈuː ar.ˈne.se mɛ ˈtris"
+},
+{
+"v": "14:1",
+"pre": 0.0,
+"start": 8409.621,
+"dur": 10.333,
+"ipa": "me ta.ras.ˈsɛs.tʰo y.ˈmon e kar.ˈði.a pis.ˈtɛv.ɛ.tɛ iːs ton tʰɛ.ˈon kɛ iːs ɛ.ˈmɛ pis.ˈtɛv.ɛ.tɛ"
+},
+{
+"v": "14:2",
+"pre": 0.0,
+"start": 8420.554,
+"dur": 14.017,
+"ipa": "ɛn ˈte y.ˈki.a ˈtuː pa.ˈtros muː mo.ˈnɛ po.ˈllɛ iː.sin iː ðɛ ˈme ˈiː.pon an y.ˈmin ˈo.ti po.ˈrɛv.o.mɛ ɛ.ty.ˈma.sɛ ˈto.pon y.ˈmin"
+},
+{
+"v": "14:3",
+"pre": 0.0,
+"start": 8435.171,
+"dur": 16.298,
+"ipa": "kɛ ɛ.ˈan po.rɛv.ˈtʰo kɛ ɛ.ty.ˈma.so ˈto.pon y.ˈmin ˈpa.lin ˈɛr.kʰo.mɛ kɛ pa.ra.ˈlemp.so.mɛ y.ˈmas pros ɛ.mav.ˈton ˈi.na ˈo.puː iː.ˈmi ɛ.ˈɣo kɛ y.ˈmiːs ˈe.tɛ"
+},
+{
+"v": "14:4",
+"pre": 0.0,
+"start": 8452.068,
+"dur": 5.596,
+"ipa": "kɛ ˈo.puː ɛ.ˈɣo y.ˈpa.ɣo ˈy.ða.tɛ ten o.ˈðon"
+},
+{
+"v": "14:5",
+"pre": 0.0,
+"start": 8458.265,
+"dur": 10.993,
+"ipa": "ˈlɛ.ɣiː av.ˈto tʰo.ˈmas ˈky.ri.ɛ uːk ˈy.ða.mɛn ˈpuː y.ˈpa.ɣiːs ˈpos ðy.ˈna.mɛ.tʰa ten o.ˈðon iː.ˈðɛ.nɛ"
+},
+{
+"v": "14:6",
+"pre": 0.0,
+"start": 8469.858,
+"dur": 14.027,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs ɛ.ˈɣo iː.mi e o.ˈðos kɛ e a.ˈle.tʰiː.a kɛ e zo.ˈe uː.ˈðiːs ˈɛr.kʰɛ.tɛ pros ton pa.ˈtɛ.ra iː me ði ɛ.ˈmuː"
+},
+{
+"v": "14:7",
+"pre": 0.0,
+"start": 8484.484,
+"dur": 11.856,
+"ipa": "iː ɛɣ.ˈno.kiː.ˈtɛ mɛ kɛ ton pa.ˈtɛ.ra muː an ˈe.ðiː.tɛ ap ˈar.ti ɣi.ˈnos.kɛ.tɛ av.ˈton kɛ ɛ.o.ˈra.ka.tɛ av.ˈton"
+},
+{
+"v": "14:8",
+"pre": 0.0,
+"start": 8496.941,
+"dur": 9.388,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈpʰi.lip.pos ˈky.ri.ɛ ˈðiːk.son e.ˈmin ton pa.ˈtɛ.ra kɛ ar.ˈkiː e.ˈmin"
+},
+{
+"v": "14:9",
+"pre": 0.0,
+"start": 8506.929,
+"dur": 19.368,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs to.ˈsuː.to ˈkʰro.no mɛtʰ y.ˈmon iː.mi kɛ uːk ˈɛɣ.no.ˈkas mɛ ˈpʰi.lip.pɛ o ɛ.o.ra.ˈkos ɛ.ˈmɛ ɛ.ˈo.ra.kɛn ton pa.ˈtɛ.ra ˈpos sy ˈlɛ.ɣiːs ˈðiːk.son e.ˈmin ton pa.ˈtɛ.ra"
+},
+{
+"v": "14:10",
+"pre": 0.0,
+"start": 8526.897,
+"dur": 19.439,
+"ipa": "uː pis.ˈtɛv.iːs ˈo.ti ɛ.ˈɣo ɛn ˈto pa.ˈtri kɛ o pa.ˈter ɛn ɛ.ˈmy ɛs.tin ta ˈre.ma.ta a ɛ.ˈɣo ˈlɛ.ɣo y.ˈmin ap ɛ.mav.ˈtuː uː la.ˈlo o ðɛ pa.ˈter ɛn ɛ.ˈmy ˈmɛ.non py.ˈiː ta ˈɛr.ɣa av.ˈtuː"
+},
+{
+"v": "14:11",
+"pre": 0.0,
+"start": 8546.935,
+"dur": 12.388,
+"ipa": "pis.ˈtɛv.ɛ.ˈtɛ my ˈo.ti ɛ.ˈɣo ɛn ˈto pa.ˈtri kɛ o pa.ˈter ɛn ɛ.ˈmy iː ðɛ ˈme ði.ˈa ta ˈɛr.ɣa av.ˈta pis.ˈtɛv.ɛ.tɛ"
+},
+{
+"v": "14:12",
+"pre": 0.0,
+"start": 8559.923,
+"dur": 17.935,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin o pis.ˈtɛv.on iːs ɛ.ˈmɛ ta ˈɛr.ɣa a ɛ.ˈɣo py.ˈo ka.ˈkiː.nos py.ˈe.siː kɛ ˈmiː.zo.na ˈtuː.ton py.ˈe.siː ˈo.ti ɛ.ˈɣo pros ton pa.ˈtɛ.ra po.ˈrɛv.o.mɛ"
+},
+{
+"v": "14:13",
+"pre": 0.0,
+"start": 8578.458,
+"dur": 11.82,
+"ipa": "kɛ ˈo ti an ɛ.ˈte.se.tɛ ɛn ˈto o.ˈno.ma.ˈti muː ˈtuː.to py.ˈe.so ˈi.na ðok.sas.ˈtʰe o pa.ˈter ɛn ˈto y.ˈo"
+},
+{
+"v": "14:14",
+"pre": 0.0,
+"start": 8590.878,
+"dur": 7.171,
+"ipa": "ɛ.ˈan ti ɛ.ˈte.se.ˈtɛ mɛ ɛn ˈto o.ˈno.ma.ˈti muː ɛ.ˈɣo py.ˈe.so"
+},
+{
+"v": "14:15",
+"pre": 0.0,
+"start": 8598.648,
+"dur": 6.672,
+"ipa": "ɛ.ˈan a.ɣa.ˈpa.ˈtɛ mɛ tas ɛn.to.ˈlas tas ɛ.ˈmas te.ˈre.sɛ.tɛ"
+},
+{
+"v": "14:16",
+"pre": 0.0,
+"start": 8605.92,
+"dur": 11.642,
+"ipa": "ka.ˈɣo ɛ.ro.ˈte.so ton pa.ˈtɛ.ra kɛ ˈa.llon pa.ˈra.kle.ton ˈðo.siː y.ˈmin ˈi.na ˈe mɛtʰ y.ˈmon iːs ton ɛ.ˈo.na"
+},
+{
+"v": "14:17",
+"pre": 0.0,
+"start": 8618.162,
+"dur": 18.952,
+"ipa": "to ˈpnɛv.ma ˈtes a.le.ˈtʰiː.as o o ˈkoz.mos uː ˈðy.na.tɛ la.ˈviːn ˈo.ti uː tʰɛ.o.ˈriː av.ˈto uː.ˈðɛ ɣi.ˈnos.kiː y.ˈmiːs ɣi.ˈnos.kɛ.tɛ av.ˈto ˈo.ti par y.ˈmin ˈmɛ.niː kɛ ɛn y.ˈmin ˈɛs.tɛ"
+},
+{
+"v": "14:18",
+"pre": 0.0,
+"start": 8637.715,
+"dur": 6.674,
+"ipa": "uːk a.ˈpʰe.so y.ˈmas or.pʰa.ˈnuːs ˈɛr.kʰo.mɛ pros y.ˈmas"
+},
+{
+"v": "14:19",
+"pre": 0.0,
+"start": 8644.989,
+"dur": 12.271,
+"ipa": "ˈɛ.ti mi.ˈkron kɛ o ˈkoz.mos mɛ uː.ˈkɛ.ti tʰɛ.o.ˈriː y.ˈmiːs ðɛ tʰɛ.o.ˈriː.ˈtɛ mɛ ˈo.ti ɛ.ˈɣo ˈzo kɛ y.ˈmiːs ˈze.sɛ.tɛ"
+},
+{
+"v": "14:20",
+"pre": 0.0,
+"start": 8657.86,
+"dur": 12.488,
+"ipa": "ɛn ɛ.ˈkiː.ne ˈte e.ˈmɛ.ra ˈɣno.sɛs.tʰɛ y.ˈmiːs ˈo.ti ɛ.ˈɣo ɛn ˈto pa.ˈtri muː kɛ y.ˈmiːs ɛn ɛ.ˈmy ka.ˈɣo ɛn y.ˈmin"
+},
+{
+"v": "14:21",
+"pre": 0.0,
+"start": 8670.948,
+"dur": 20.817,
+"ipa": "o ˈɛ.kʰon tas ɛn.to.ˈlas muː kɛ te.ˈron av.ˈtas ɛ.ˈkiː.ˈnos ɛs.tin o a.ɣa.ˈpon mɛ o ðɛ a.ɣa.ˈpon mɛ a.ɣa.pe.ˈtʰe.sɛ.tɛ y.ˈpo ˈtuː pa.ˈtros muː ka.ˈɣo a.ɣa.ˈpe.so av.ˈton kɛ ɛm.pʰa.ˈni.so av.ˈto ɛ.mav.ˈton"
+},
+{
+"v": "14:22",
+"pre": 0.0,
+"start": 8692.365,
+"dur": 14.704,
+"ipa": "ˈlɛ.ɣiː av.ˈto i.ˈuː.ðas uːkʰ o is.ka.ri.ˈo.tes ˈky.ri.ɛ ˈti ˈɣɛ.ɣo.nɛn ˈo.ti e.ˈmin ˈmɛ.lliːs ɛm.pʰa.ˈni.ziːn sɛ.av.ˈton kɛ uː.ˈkʰi ˈto ˈkoz.mo"
+},
+{
+"v": "14:23",
+"pre": 0.0,
+"start": 8707.669,
+"dur": 20.639,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs kɛ ˈiː.pɛn av.ˈto ɛ.ˈan tis a.ɣa.ˈpa mɛ ton ˈlo.ɣon muː te.ˈre.siː kɛ o pa.ˈter muː a.ɣa.ˈpe.siː av.ˈton kɛ pros av.ˈton ɛ.lɛv.ˈso.mɛ.tʰa kɛ mo.ˈnen par av.ˈto py.e.ˈso.mɛ.tʰa"
+},
+{
+"v": "14:24",
+"pre": 0.0,
+"start": 8728.907,
+"dur": 13.821,
+"ipa": "o me a.ɣa.ˈpon mɛ tuːs ˈlo.ɣuːs muː uː te.ˈriː kɛ o ˈlo.ɣos on a.ˈkuː.ɛ.tɛ uːk ˈɛs.tin ɛ.ˈmos a.ˈlla ˈtuː ˈpɛmp.san.ˈtos mɛ pa.ˈtros"
+},
+{
+"v": "14:25",
+"pre": 0.0,
+"start": 8743.328,
+"dur": 5.609,
+"ipa": "ˈtav.ta lɛ.ˈla.le.ka y.ˈmin par y.ˈmin ˈmɛ.non"
+},
+{
+"v": "14:26",
+"pre": 0.0,
+"start": 8749.537,
+"dur": 17.825,
+"ipa": "o ðɛ pa.ˈra.kle.tos to ˈpnɛv.ma to ˈa.ɣi.on o ˈpɛmp.siː o pa.ˈter ɛn ˈto o.ˈno.ma.ˈti muː ɛ.ˈkiː.nos y.ˈmas ði.ˈðak.siː ˈpan.ta kɛ y.pom.ˈne.siː y.ˈmas ˈpan.ta a ˈiː.pon y.ˈmin"
+},
+{
+"v": "14:27",
+"pre": 0.0,
+"start": 8767.962,
+"dur": 17.834,
+"ipa": "iː.ˈre.nen a.ˈpʰi.e.mi y.ˈmin iː.ˈre.nen ten ɛ.ˈmen ˈði.ðo.mi y.ˈmin uː ka.ˈtʰos o ˈkoz.mos ˈði.ðo.sin ɛ.ˈɣo ˈði.ðo.mi y.ˈmin me ta.ras.ˈsɛs.tʰo y.ˈmon e kar.ˈði.a me.ˈðɛ ðiː.li.ˈa.to"
+},
+{
+"v": "14:28",
+"pre": 0.0,
+"start": 8786.396,
+"dur": 18.236,
+"ipa": "e.ˈkuː.sa.tɛ ˈo.ti ɛ.ˈɣo ˈiː.pon y.ˈmin y.ˈpa.ɣo kɛ ˈɛr.kʰo.mɛ pros y.ˈmas iː e.ɣa.ˈpa.ˈtɛ mɛ ɛ.ˈkʰa.re.tɛ ˈan ˈo.ti po.ˈrɛv.o.mɛ pros ton pa.ˈtɛ.ra ˈo.ti o pa.ˈter ˈmiː.zon ˈmuː ɛs.tin"
+},
+{
+"v": "14:29",
+"pre": 0.0,
+"start": 8805.233,
+"dur": 9.074,
+"ipa": "kɛ ˈnyn ˈiː.re.ka y.ˈmin prin ɣɛ.ˈnɛs.tʰɛ ˈi.na ˈo.tan ˈɣɛ.ne.tɛ pis.ˈtɛv.se.tɛ"
+},
+{
+"v": "14:30",
+"pre": 0.0,
+"start": 8814.906,
+"dur": 11.657,
+"ipa": "uː.ˈkɛ.ti po.ˈlla la.ˈle.so mɛtʰ y.ˈmon ˈɛr.kʰɛ.tɛ ɣar o ˈtuː ˈkoz.muː ˈar.kʰon kɛ ɛn ɛ.ˈmy uːk ˈɛ.kʰiː uː.ˈðɛn"
+},
+{
+"v": "14:31",
+"pre": 0.0,
+"start": 8827.164,
+"dur": 14.948,
+"ipa": "all ˈi.na ˈɣno o ˈkoz.mos ˈo.ti a.ɣa.ˈpo ton pa.ˈtɛ.ra kɛ ka.ˈtʰos ɛ.nɛ.ˈtiː.la.to my o pa.ˈter ˈuː.tos py.ˈo ɛ.ˈɣiː.rɛs.tʰɛ ˈa.ɣo.mɛn ɛn.ˈtɛv.tʰɛn"
+},
+{
+"v": "15:1",
+"pre": 0.0,
+"start": 8842.712,
+"dur": 8.259,
+"ipa": "ɛ.ˈɣo iː.mi e ˈam.pɛ.los e a.le.tʰi.ˈne kɛ o pa.ˈter muː o ɣɛ.or.ˈɣos ɛs.tin"
+},
+{
+"v": "15:2",
+"pre": 0.0,
+"start": 8851.571,
+"dur": 14.416,
+"ipa": "ˈpan ˈkle.ma ɛn ɛ.ˈmy me ˈpʰɛ.ron kar.ˈpon ˈɛ.riː av.ˈto kɛ ˈpan to kar.ˈpon ˈpʰɛ.ron ka.ˈtʰɛ.riː av.ˈto ˈi.na kar.ˈpon ˈpliː.o.na ˈpʰɛ.re"
+},
+{
+"v": "15:3",
+"pre": 0.0,
+"start": 8866.587,
+"dur": 7.736,
+"ipa": "ˈe.ðe y.ˈmiːs ka.tʰa.ˈry ɛs.tɛ ði.ˈa ton ˈlo.ɣon on lɛ.ˈla.le.ka y.ˈmin"
+},
+{
+"v": "15:4",
+"pre": 0.0,
+"start": 8874.924,
+"dur": 18.907,
+"ipa": "ˈmiː.na.tɛ ɛn ɛ.ˈmy ka.ˈɣo ɛn y.ˈmin ka.ˈtʰos to ˈkle.ma uː ˈðy.na.tɛ kar.ˈpon ˈpʰɛ.riːn apʰ ɛ.av.ˈtuː ɛ.ˈan me ˈmɛ.ne ɛn ˈte am.ˈpɛ.lo ˈuː.tos uː.ˈðɛ y.ˈmiːs ɛ.ˈan me ɛn ɛ.ˈmy ˈmɛ.ne.tɛ"
+},
+{
+"v": "15:5",
+"pre": 0.0,
+"start": 8894.431,
+"dur": 16.821,
+"ipa": "ɛ.ˈɣo iː.mi e ˈam.pɛ.los y.ˈmiːs ta ˈkle.ma.ta o ˈmɛ.non ɛn ɛ.ˈmy ka.ˈɣo ɛn av.ˈto ˈuː.tos ˈpʰɛ.riː kar.ˈpon po.ˈlyn ˈo.ti kʰo.ˈris ɛ.ˈmuː uː ˈðy.nas.tʰɛ py.ˈiːn uː.ˈðɛn"
+},
+{
+"v": "15:6",
+"pre": 0.0,
+"start": 8911.852,
+"dur": 15.604,
+"ipa": "ɛ.ˈan ˈme tis ˈmɛ.ne ɛn ɛ.ˈmy ɛ.ˈvle.tʰe ˈɛk.so os to ˈkle.ma kɛ ɛk.se.ˈran.tʰe kɛ sy.ˈna.ɣuː.sin av.ˈta kɛ iːs to ˈpyr ˈva.lluː.sin kɛ ˈkɛ.ɛ.tɛ"
+},
+{
+"v": "15:7",
+"pre": 0.0,
+"start": 8928.056,
+"dur": 12.797,
+"ipa": "ɛ.ˈan ˈmiː.ne.tɛ ɛn ɛ.ˈmy kɛ ta ˈre.ma.ˈta muː ɛn y.ˈmin ˈmiː.ne o ɛ.ˈan ˈtʰɛ.le.tɛ ɛ.ˈte.sas.tʰɛ kɛ ɣɛ.ˈne.sɛ.tɛ y.ˈmin"
+},
+{
+"v": "15:8",
+"pre": 0.0,
+"start": 8941.453,
+"dur": 10.978,
+"ipa": "ɛn ˈtuː.to ɛ.ðok.ˈsas.tʰe o pa.ˈter muː ˈi.na kar.ˈpon po.ˈlyn ˈpʰɛ.re.tɛ kɛ ˈɣɛ.nes.tʰɛ ɛ.ˈmy ma.tʰe.ˈtɛ"
+},
+{
+"v": "15:9",
+"pre": 0.0,
+"start": 8953.031,
+"dur": 10.522,
+"ipa": "ka.ˈtʰos e.ˈɣa.pe.ˈsɛn mɛ o pa.ˈter ka.ˈɣo y.ˈmas e.ˈɣa.pe.sa ˈmiː.na.tɛ ɛn ˈte a.ˈɣa.pe ˈte ɛ.ˈme"
+},
+{
+"v": "15:10",
+"pre": 0.0,
+"start": 8964.153,
+"dur": 16.59,
+"ipa": "ɛ.ˈan tas ɛn.to.ˈlas muː te.ˈre.se.tɛ mɛ.ˈniː.tɛ ɛn ˈte a.ˈɣa.pe muː ka.ˈtʰos ɛ.ˈɣo tas ɛn.to.ˈlas ˈtuː pa.ˈtros muː tɛ.ˈte.re.ka kɛ ˈmɛ.no av.ˈtuː ɛn ˈte a.ˈɣa.pe"
+},
+{
+"v": "15:11",
+"pre": 0.0,
+"start": 8981.343,
+"dur": 10.457,
+"ipa": "ˈtav.ta lɛ.ˈla.le.ka y.ˈmin ˈi.na e kʰa.ˈra e ɛ.ˈme ɛn y.ˈmin ˈe kɛ e kʰa.ˈra y.ˈmon ple.ro.ˈtʰe"
+},
+{
+"v": "15:12",
+"pre": 0.0,
+"start": 8992.4,
+"dur": 9.654,
+"ipa": "ˈav.te ɛs.ˈtin e ɛn.to.ˈle e ɛ.ˈme ˈi.na a.ɣa.ˈpa.tɛ a.ˈlle.luːs ka.ˈtʰos e.ˈɣa.pe.sa y.ˈmas"
+},
+{
+"v": "15:13",
+"pre": 0.0,
+"start": 9002.654,
+"dur": 11.916,
+"ipa": "ˈmiː.zo.na ˈtav.tes a.ˈɣa.pen uː.ˈðiːs ˈɛ.kʰiː ˈi.na tis ten psy.ˈkʰen av.ˈtuː ˈtʰe y.ˈpɛr ˈton ˈpʰi.lon av.ˈtuː"
+},
+{
+"v": "15:14",
+"pre": 0.0,
+"start": 9015.17,
+"dur": 7.98,
+"ipa": "y.ˈmiːs ˈpʰi.ly ˈmuː ɛs.tɛ ɛ.ˈan py.ˈe.tɛ a ɛ.ˈɣo ɛn.ˈtɛ.llo.mɛ y.ˈmin"
+},
+{
+"v": "15:15",
+"pre": 0.0,
+"start": 9023.749,
+"dur": 19.309,
+"ipa": "uː.ˈkɛ.ti ˈlɛ.ɣo y.ˈmas ˈðuː.luːs ˈo.ti o ˈðuː.los uːk ˈy.ðɛn ˈti py.ˈiː av.ˈtuː o ˈky.ri.os y.ˈmas ðɛ ˈiː.re.ka ˈpʰi.luːs ˈo.ti ˈpan.ta a ˈe.kuː.sa pa.ˈra ˈtuː pa.ˈtros muː ɛɣ.ˈno.ri.sa y.ˈmin"
+},
+{
+"v": "15:16",
+"pre": 0.0,
+"start": 9043.659,
+"dur": 23.696,
+"ipa": "uːkʰ y.ˈmiːs mɛ ɛk.sɛ.ˈlɛk.sas.tʰɛ all ɛ.ˈɣo ɛk.sɛ.lɛk.ˈsa.men y.ˈmas kɛ ˈɛ.tʰe.ka y.ˈmas ˈi.na y.ˈmiːs y.ˈpa.ɣe.tɛ kɛ kar.ˈpon ˈpʰɛ.re.tɛ kɛ o kar.ˈpos y.ˈmon ˈmɛ.ne ˈi.na ˈo ti an ɛ.ˈte.se.tɛ ton pa.ˈtɛ.ra ɛn ˈto o.ˈno.ma.ˈti muː ˈðo y.ˈmin"
+},
+{
+"v": "15:17",
+"pre": 0.0,
+"start": 9067.955,
+"dur": 6.62,
+"ipa": "ˈtav.ta ɛn.ˈtɛ.llo.mɛ y.ˈmin ˈi.na a.ɣa.ˈpa.tɛ a.ˈlle.luːs"
+},
+{
+"v": "15:18",
+"pre": 0.0,
+"start": 9075.175,
+"dur": 9.056,
+"ipa": "iː o ˈkoz.mos y.ˈmas mi.ˈsiː ɣi.ˈnos.kɛ.tɛ ˈo.ti ɛ.ˈmɛ ˈpro.ton y.ˈmon mɛ.ˈmi.se.kɛn"
+},
+{
+"v": "15:19",
+"pre": 0.0,
+"start": 9084.831,
+"dur": 19.12,
+"ipa": "iː ɛk ˈtuː ˈkoz.muː ˈe.tɛ o ˈkoz.mos an to ˈi.ði.on ɛ.ˈpʰi.liː ˈo.ti ðɛ ɛk ˈtuː ˈkoz.muː uːk ɛs.ˈtɛ all ɛ.ˈɣo ɛk.sɛ.lɛk.ˈsa.men y.ˈmas ɛk ˈtuː ˈkoz.muː ði.ˈa ˈtuː.to mi.ˈsiː y.ˈmas o ˈkoz.mos"
+},
+{
+"v": "15:20",
+"pre": 0.0,
+"start": 9104.551,
+"dur": 21.835,
+"ipa": "mne.mo.ˈnɛv.ɛ.tɛ ˈtuː ˈlo.ɣuː ˈuː ɛ.ˈɣo ˈiː.pon y.ˈmin uːk ˈɛs.tin ˈðuː.los ˈmiː.zon ˈtuː ky.ˈri.uː av.ˈtuː iː ɛ.ˈmɛ ɛ.ˈði.ok.san kɛ y.ˈmas ði.ˈok.suː.sin iː ton ˈlo.ɣon muː ɛ.ˈte.re.san kɛ ton y.ˈmɛ.tɛ.ron te.ˈre.suː.sin"
+},
+{
+"v": "15:21",
+"pre": 0.0,
+"start": 9126.986,
+"dur": 11.7,
+"ipa": "a.ˈlla ˈtav.ta ˈpan.ta py.ˈe.suː.sin iːs y.ˈmas ði.ˈa to ˈo.no.ˈma muː ˈo.ti uːk ˈy.ða.sin ton ˈpɛmp.san.ˈta mɛ"
+},
+{
+"v": "15:22",
+"pre": 0.0,
+"start": 9139.285,
+"dur": 14.348,
+"ipa": "iː me ˈel.tʰon kɛ ɛ.ˈla.le.sa av.ˈtys a.mar.ˈti.an uːk ˈiː.kʰo.san ˈnyn ðɛ ˈpro.pʰa.sin uːk ˈɛ.kʰuː.sin pɛ.ˈri ˈtes a.mar.ˈti.as av.ˈton"
+},
+{
+"v": "15:23",
+"pre": 0.0,
+"start": 9154.234,
+"dur": 5.816,
+"ipa": "o ɛ.ˈmɛ mi.ˈson kɛ ton pa.ˈtɛ.ra muː mi.ˈsiː"
+},
+{
+"v": "15:24",
+"pre": 0.0,
+"start": 9160.65,
+"dur": 18.022,
+"ipa": "iː ta ˈɛr.ɣa me ɛ.ˈpy.e.sa ɛn av.ˈtys a uː.ˈðiːs ˈa.llos ɛ.ˈpy.e.sɛn a.mar.ˈti.an uːk ˈiː.kʰo.san ˈnyn ðɛ kɛ ɛ.o.ˈra.ka.sin kɛ mɛ.mi.ˈse.ka.sin kɛ ɛ.ˈmɛ kɛ ton pa.ˈtɛ.ra muː"
+},
+{
+"v": "15:25",
+"pre": 0.0,
+"start": 9179.272,
+"dur": 11.113,
+"ipa": "all ˈi.na ple.ro.ˈtʰe o ˈlo.ɣos o ɛn ˈto ˈno.mo av.ˈton ɣɛ.ɣram.ˈmɛ.nos ˈo.ti ɛ.ˈmi.se.ˈsan mɛ ðo.rɛ.ˈan"
+},
+{
+"v": "15:26",
+"pre": 0.0,
+"start": 9190.985,
+"dur": 18.499,
+"ipa": "ˈo.tan ˈɛl.tʰe o pa.ˈra.kle.tos on ɛ.ˈɣo ˈpɛmp.so y.ˈmin pa.ˈra ˈtuː pa.ˈtros to ˈpnɛv.ma ˈtes a.le.ˈtʰiː.as o pa.ˈra ˈtuː pa.ˈtros ɛk.po.ˈrɛv.ɛ.tɛ ɛ.ˈkiː.nos mar.ty.ˈre.siː pɛ.ˈri ɛ.ˈmuː"
+},
+{
+"v": "15:27",
+"pre": 0.0,
+"start": 9210.085,
+"dur": 7.381,
+"ipa": "kɛ y.ˈmiːs ðɛ mar.ty.ˈriː.tɛ ˈo.ti ap ar.ˈkʰes mɛt ɛ.ˈmuː ɛs.tɛ"
+},
+{
+"v": "16:1",
+"pre": 0.0,
+"start": 9218.066,
+"dur": 6.481,
+"ipa": "ˈtav.ta lɛ.ˈla.le.ka y.ˈmin ˈi.na me skan.ða.lis.ˈtʰe.tɛ"
+},
+{
+"v": "16:2",
+"pre": 0.0,
+"start": 9225.148,
+"dur": 14.777,
+"ipa": "a.po.sy.na.ˈɣo.ɣuːs py.ˈe.suː.sin y.ˈmas all ˈɛr.kʰɛ.tɛ ˈo.ra ˈi.na ˈpas o a.pok.ˈtiː.nas y.ˈmas ˈðok.se la.ˈtriː.an pros.ˈpʰɛ.riːn ˈto tʰɛ.ˈo"
+},
+{
+"v": "16:3",
+"pre": 0.0,
+"start": 9240.525,
+"dur": 8.214,
+"ipa": "kɛ ˈtav.ta py.ˈe.suː.sin ˈo.ti uːk ˈɛɣ.no.san ton pa.ˈtɛ.ra uː.ˈðɛ ɛ.ˈmɛ"
+},
+{
+"v": "16:4",
+"pre": 0.0,
+"start": 9249.338,
+"dur": 19.413,
+"ipa": "a.ˈlla ˈtav.ta lɛ.ˈla.le.ka y.ˈmin ˈi.na ˈo.tan ˈɛl.tʰe e ˈo.ra av.ˈton mne.mo.ˈnɛv.e.tɛ av.ˈton ˈo.ti ɛ.ˈɣo ˈiː.pon y.ˈmin ˈtav.ta ðɛ y.ˈmin ɛks ar.ˈkʰes uːk ˈiː.pon ˈo.ti mɛtʰ y.ˈmon ˈe.men"
+},
+{
+"v": "16:5",
+"pre": 0.0,
+"start": 9269.352,
+"dur": 10.392,
+"ipa": "ˈnyn ðɛ y.ˈpa.ɣo pros ton ˈpɛmp.san.ˈta mɛ kɛ uː.ˈðiːs ɛks y.ˈmon ɛ.ro.ˈta mɛ ˈpuː y.ˈpa.ɣiːs"
+},
+{
+"v": "16:6",
+"pre": 0.0,
+"start": 9280.343,
+"dur": 8.777,
+"ipa": "all ˈo.ti ˈtav.ta lɛ.ˈla.le.ka y.ˈmin e ˈly.pe pɛ.ˈple.ro.kɛn y.ˈmon ten kar.ˈði.an"
+},
+{
+"v": "16:7",
+"pre": 0.0,
+"start": 9289.72,
+"dur": 19.791,
+"ipa": "all ɛ.ˈɣo ten a.ˈle.tʰiː.an ˈlɛ.ɣo y.ˈmin sym.ˈpʰɛ.riː y.ˈmin ˈi.na ɛ.ˈɣo a.ˈpɛl.tʰo ɛ.ˈan ɣar me a.ˈpɛl.tʰo o pa.ˈra.kle.tos uː me ˈɛl.tʰe pros y.ˈmas ɛ.ˈan ðɛ po.rɛv.ˈtʰo ˈpɛmp.so av.ˈton pros y.ˈmas"
+},
+{
+"v": "16:8",
+"pre": 0.0,
+"start": 9310.111,
+"dur": 11.772,
+"ipa": "kɛ ɛl.ˈtʰon ɛ.ˈkiː.nos ɛ.ˈlɛŋk.siː ton ˈkoz.mon pɛ.ˈri a.mar.ˈti.as kɛ pɛ.ˈri ði.kɛ.o.ˈsy.nes kɛ pɛ.ˈri ˈkri.sɛ.os"
+},
+{
+"v": "16:9",
+"pre": 0.0,
+"start": 9322.483,
+"dur": 6.864,
+"ipa": "pɛ.ˈri a.mar.ˈti.as ˈmɛn ˈo.ti uː pis.ˈtɛv.uː.sin iːs ɛ.ˈmɛ"
+},
+{
+"v": "16:10",
+"pre": 0.0,
+"start": 9329.947,
+"dur": 9.496,
+"ipa": "pɛ.ˈri ði.kɛ.o.ˈsy.nes ˈðɛ ˈo.ti pros ton pa.ˈtɛ.ra y.ˈpa.ɣo kɛ uː.ˈkɛ.ti tʰɛ.o.ˈriː.ˈtɛ mɛ"
+},
+{
+"v": "16:11",
+"pre": 0.0,
+"start": 9340.043,
+"dur": 7.631,
+"ipa": "pɛ.ˈri ðɛ ˈkri.sɛ.os ˈo.ti o ˈar.kʰon ˈtuː ˈkoz.muː ˈtuː.tuː ˈkɛ.kri.tɛ"
+},
+{
+"v": "16:12",
+"pre": 0.0,
+"start": 9348.274,
+"dur": 7.972,
+"ipa": "ˈɛ.ti po.ˈlla ˈɛ.kʰo y.ˈmin ˈlɛ.ɣiːn all uː ˈðy.nas.tʰɛ vas.ˈta.ziːn ˈar.ti"
+},
+{
+"v": "16:13",
+"pre": 0.0,
+"start": 9356.846,
+"dur": 21.197,
+"ipa": "ˈo.tan ðɛ ˈɛl.tʰe ɛ.ˈkiː.nos to ˈpnɛv.ma ˈtes a.le.ˈtʰiː.as o.ðe.ˈɣe.siː y.ˈmas ɛn ˈte a.le.ˈtʰiː.a ˈpa.se uː ɣar la.ˈle.siː apʰ ɛ.av.ˈtuː all ˈo.sa a.ˈkuː.siː la.ˈle.siː kɛ ta ɛr.ˈkʰo.mɛ.na a.naŋ.ɣɛ.ˈliː y.ˈmin"
+},
+{
+"v": "16:14",
+"pre": 0.0,
+"start": 9378.643,
+"dur": 9.176,
+"ipa": "ɛ.ˈkiː.nos ɛ.ˈmɛ ðok.ˈsa.siː ˈo.ti ɛk ˈtuː ɛ.ˈmuː ˈlemp.sɛ.tɛ kɛ a.naŋ.ɣɛ.ˈliː y.ˈmin"
+},
+{
+"v": "16:15",
+"pre": 0.0,
+"start": 9388.419,
+"dur": 12.389,
+"ipa": "ˈpan.ta ˈo.sa ˈɛ.kʰiː o pa.ˈter ɛ.ˈma ɛs.tin ði.ˈa ˈtuː.to ˈiː.pon ˈo.ti ɛk ˈtuː ɛ.ˈmuː lam.ˈva.niː kɛ a.naŋ.ɣɛ.ˈliː y.ˈmin"
+},
+{
+"v": "16:16",
+"pre": 0.0,
+"start": 9401.408,
+"dur": 8.432,
+"ipa": "mi.ˈkron kɛ uː.ˈkɛ.ti tʰɛ.o.ˈriː.ˈtɛ mɛ kɛ ˈpa.lin mi.ˈkron kɛ ˈop.sɛs.ˈtʰɛ mɛ"
+},
+{
+"v": "16:17",
+"pre": 0.0,
+"start": 9410.44,
+"dur": 20.448,
+"ipa": "ˈiː.pan ˈuːn ɛk ˈton ma.tʰe.ˈton av.ˈtuː pros a.ˈlle.luːs ˈti ɛs.tin ˈtuː.to o ˈlɛ.ɣiː e.ˈmin mi.ˈkron kɛ uː tʰɛ.o.ˈriː.ˈtɛ mɛ kɛ ˈpa.lin mi.ˈkron kɛ ˈop.sɛs.ˈtʰɛ mɛ ˈkɛ ˈo.ti y.ˈpa.ɣo pros ton pa.ˈtɛ.ra"
+},
+{
+"v": "16:18",
+"pre": 0.0,
+"start": 9431.488,
+"dur": 8.589,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn ˈti ɛs.tin ˈtuː.to o ˈlɛ.ɣiː mi.ˈkron uːk ˈy.ða.mɛn ˈti la.ˈliː"
+},
+{
+"v": "16:19",
+"pre": 0.0,
+"start": 9440.676,
+"dur": 19.628,
+"ipa": "ˈɛɣ.no i.e.ˈsuːs ˈo.ti ˈe.tʰɛ.lon av.ˈton ɛ.ro.ˈtan kɛ ˈiː.pɛn av.ˈtys pɛ.ˈri ˈtuː.tuː ze.ˈtiː.tɛ mɛt a.ˈlle.lon ˈo.ti ˈiː.pon mi.ˈkron kɛ uː tʰɛ.o.ˈriː.ˈtɛ mɛ kɛ ˈpa.lin mi.ˈkron kɛ ˈop.sɛs.ˈtʰɛ mɛ"
+},
+{
+"v": "16:20",
+"pre": 0.0,
+"start": 9460.905,
+"dur": 16.961,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈo.ti ˈklav.sɛ.tɛ kɛ tʰre.ˈne.sɛ.tɛ y.ˈmiːs o ðɛ ˈkoz.mos kʰa.ˈre.sɛ.tɛ y.ˈmiːs ly.pe.ˈtʰe.sɛs.tʰɛ all e ˈly.pe y.ˈmon iːs kʰa.ˈran ɣɛ.ˈne.sɛ.tɛ"
+},
+{
+"v": "16:21",
+"pre": 0.0,
+"start": 9478.466,
+"dur": 20.975,
+"ipa": "e ɣy.ˈne ˈo.tan ˈtik.te ˈly.pen ˈɛ.kʰiː ˈo.ti ˈel.tʰɛn e ˈo.ra av.ˈtes ˈo.tan ðɛ ɣɛn.ˈne.se to pɛ.ˈði.on uː.ˈkɛ.ti mne.mo.ˈnɛv.iː ˈtes ˈtʰlip.sɛ.os ði.ˈa ten kʰa.ˈran ˈo.ti ɛ.ɣɛn.ˈne.tʰe ˈantʰ.ro.pos iːs ton ˈkoz.mon"
+},
+{
+"v": "16:22",
+"pre": 0.0,
+"start": 9500.041,
+"dur": 16.558,
+"ipa": "kɛ y.ˈmiːs ˈuːn ˈnyn mɛn ˈly.pen ˈɛ.kʰɛ.tɛ ˈpa.lin ðɛ ˈop.so.mɛ y.ˈmas kɛ kʰa.ˈre.sɛ.tɛ y.ˈmon e kar.ˈði.a kɛ ten kʰa.ˈran y.ˈmon uː.ˈðiːs ˈɛ.riː apʰ y.ˈmon"
+},
+{
+"v": "16:23",
+"pre": 0.0,
+"start": 9517.199,
+"dur": 16.423,
+"ipa": "kɛ ɛn ɛ.ˈkiː.ne ˈte e.ˈmɛ.ra ɛ.ˈmɛ uːk ɛ.ro.ˈte.sɛ.tɛ uː.ˈðɛn a.ˈmen a.ˈmen ˈlɛ.ɣo y.ˈmin ˈan ti ɛ.ˈte.se.tɛ ton pa.ˈtɛ.ra ˈðo.siː y.ˈmin ɛn ˈto o.ˈno.ma.ˈti muː"
+},
+{
+"v": "16:24",
+"pre": 0.0,
+"start": 9534.222,
+"dur": 13.316,
+"ipa": "ˈɛ.os ˈar.ti uːk e.ˈte.sa.tɛ uː.ˈðɛn ɛn ˈto o.ˈno.ma.ˈti muː ɛ.ˈtiː.tɛ kɛ ˈlemp.sɛs.tʰɛ ˈi.na e kʰa.ˈra y.ˈmon ˈe pɛ.ple.ro.ˈmɛ.ne"
+},
+{
+"v": "16:25",
+"pre": 0.0,
+"start": 9548.138,
+"dur": 16.946,
+"ipa": "ˈtav.ta ɛn pa.ry.ˈmi.ɛs lɛ.ˈla.le.ka y.ˈmin ˈɛr.kʰɛ.tɛ ˈo.ra ˈo.tɛ uː.ˈkɛ.ti ɛn pa.ry.ˈmi.ɛs la.ˈle.so y.ˈmin a.ˈlla pa.rre.ˈsi.a pɛ.ˈri ˈtuː pa.ˈtros a.paŋ.ɣɛ.ˈlo y.ˈmin"
+},
+{
+"v": "16:26",
+"pre": 0.0,
+"start": 9565.685,
+"dur": 14.054,
+"ipa": "ɛn ɛ.ˈkiː.ne ˈte e.ˈmɛ.ra ɛn ˈto o.ˈno.ma.ˈti muː ɛ.ˈte.sɛs.tʰɛ kɛ uː ˈlɛ.ɣo y.ˈmin ˈo.ti ɛ.ˈɣo ɛ.ro.ˈte.so ton pa.ˈtɛ.ra pɛ.ˈri y.ˈmon"
+},
+{
+"v": "16:27",
+"pre": 0.0,
+"start": 9580.338,
+"dur": 14.034,
+"ipa": "av.ˈtos ɣar o pa.ˈter pʰi.ˈliː y.ˈmas ˈo.ti y.ˈmiːs ɛ.ˈmɛ pɛ.pʰi.ˈle.ka.tɛ kɛ pɛ.pis.ˈtɛv.ka.tɛ ˈo.ti ɛ.ˈɣo pa.ˈra ˈtuː tʰɛ.ˈuː ɛk.ˈsel.tʰon"
+},
+{
+"v": "16:28",
+"pre": 0.0,
+"start": 9594.972,
+"dur": 13.425,
+"ipa": "ɛk.ˈsel.tʰon ɛk ˈtuː pa.ˈtros kɛ ɛ.ˈle.ly.tʰa iːs ton ˈkoz.mon ˈpa.lin a.ˈpʰi.e.mi ton ˈkoz.mon kɛ po.ˈrɛv.o.mɛ pros ton pa.ˈtɛ.ra"
+},
+{
+"v": "16:29",
+"pre": 0.0,
+"start": 9608.997,
+"dur": 11.349,
+"ipa": "ˈlɛ.ɣuː.sin y ma.tʰe.ˈtɛ av.ˈtuː ˈi.ðɛ ˈnyn ɛn pa.rre.ˈsi.a la.ˈliːs kɛ pa.ry.ˈmi.an uː.ðɛ.ˈmi.an ˈlɛ.ɣiːs"
+},
+{
+"v": "16:30",
+"pre": 0.0,
+"start": 9620.946,
+"dur": 14.64,
+"ipa": "ˈnyn ˈy.ða.mɛn ˈo.ti ˈy.ðas ˈpan.ta kɛ uː ˈkʰriː.an ˈɛ.kʰiːs ˈi.na ˈtis sɛ ɛ.ro.ˈta ɛn ˈtuː.to pis.ˈtɛv.o.mɛn ˈo.ti a.ˈpo tʰɛ.ˈuː ɛk.ˈsel.tʰɛs"
+},
+{
+"v": "16:31",
+"pre": 0.0,
+"start": 9636.186,
+"dur": 6.187,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈtys i.e.ˈsuːs ˈar.ti pis.ˈtɛv.ɛ.tɛ"
+},
+{
+"v": "16:32",
+"pre": 0.0,
+"start": 9642.973,
+"dur": 16.627,
+"ipa": "i.ˈðuː ˈɛr.kʰɛ.tɛ ˈo.ra kɛ ɛ.ˈle.ly.tʰɛn ˈi.na skor.pis.ˈtʰe.tɛ ˈɛ.kas.tos iːs ta ˈi.ði.a ka.ˈmɛ ˈmo.non a.ˈpʰe.tɛ kɛ uːk iː.ˈmi ˈmo.nos ˈo.ti o pa.ˈter mɛt ɛ.ˈmuː ɛs.tin"
+},
+{
+"v": "16:33",
+"pre": 0.0,
+"start": 9660.2,
+"dur": 14.873,
+"ipa": "ˈtav.ta lɛ.ˈla.le.ka y.ˈmin ˈi.na ɛn ɛ.ˈmy iː.ˈre.nen ˈɛ.kʰe.tɛ ɛn ˈto ˈkoz.mo ˈtʰlip.sin ˈɛ.kʰɛ.tɛ a.ˈlla tʰar.ˈsiː.tɛ ɛ.ˈɣo nɛ.ˈni.ke.ka ton ˈkoz.mon"
+},
+{
+"v": "17:1",
+"pre": 2.0,
+"start": 9677.673,
+"dur": 18.407,
+"ipa": "ˈtav.ta ɛ.ˈla.le.sɛn i.e.ˈsuːs kɛ ɛ.ˈpa.ras tuːs opʰ.tʰal.ˈmuːs av.ˈtuː iːs ton uː.ra.ˈnon ˈiː.pɛn ˈpa.tɛr ɛ.ˈle.ly.tʰɛn e ˈo.ra ˈðok.sa.ˈson suː ton y.ˈon ˈi.na o y.ˈos ðok.ˈsa.se ˈsɛ"
+},
+{
+"v": "17:2",
+"pre": 0.0,
+"start": 9696.679,
+"dur": 12.923,
+"ipa": "ka.ˈtʰos ˈɛ.ðo.kas av.ˈto ɛk.suː.ˈsi.an ˈpa.ses sar.ˈkos ˈi.na ˈpan o ˈðɛ.ðo.kas av.ˈto ˈðo.se av.ˈtys zo.ˈen ɛ.ˈo.ni.on"
+},
+{
+"v": "17:3",
+"pre": 0.0,
+"start": 9710.202,
+"dur": 13.533,
+"ipa": "ˈav.te ˈðɛ ɛs.tin e ɛ.ˈo.ni.os zo.ˈe ˈi.na ɣi.ˈnos.ko.si sɛ ton ˈmo.non a.le.tʰi.ˈnon tʰɛ.ˈon kɛ on a.ˈpɛs.tiː.las i.e.ˈsuːn kʰris.ˈton"
+},
+{
+"v": "17:4",
+"pre": 0.0,
+"start": 9724.335,
+"dur": 10.343,
+"ipa": "ɛ.ˈɣo sɛ ɛ.ˈðok.sa.sa ɛ.ˈpi ˈtes ˈɣes to ˈɛr.ɣon tɛ.liː.ˈo.sas o ˈðɛ.ðo.ˈkas my ˈi.na py.ˈe.so"
+},
+{
+"v": "17:5",
+"pre": 0.0,
+"start": 9735.278,
+"dur": 13.041,
+"ipa": "kɛ ˈnyn ˈðok.sa.ˈson mɛ ˈsy ˈpa.tɛr pa.ˈra sɛ.av.ˈto ˈte ˈðok.se ˈe ˈiː.kʰon pro ˈtuː ton ˈkoz.mon ˈiː.nɛ pa.ˈra ˈsy"
+},
+{
+"v": "17:6",
+"pre": 0.0,
+"start": 9748.919,
+"dur": 16.065,
+"ipa": "ɛ.pʰa.ˈnɛ.ro.ˈsa suː to ˈo.no.ma ˈtys antʰ.ˈro.pys uːs ˈɛ.ðo.ˈkas my ɛk ˈtuː ˈkoz.muː sy ˈe.san ka.ˈmy av.ˈtuːs ˈɛ.ðo.kas kɛ ton ˈlo.ɣon suː tɛ.ˈte.re.kan"
+},
+{
+"v": "17:7",
+"pre": 0.0,
+"start": 9765.584,
+"dur": 7.618,
+"ipa": "ˈnyn ˈɛɣ.no.kan ˈo.ti ˈpan.ta ˈo.sa ˈðɛ.ðo.ˈkas my pa.ˈra ˈsuː iː.sin"
+},
+{
+"v": "17:8",
+"pre": 0.0,
+"start": 9773.802,
+"dur": 17.86,
+"ipa": "ˈo.ti ta ˈre.ma.ta a ˈɛ.ðo.ˈkas my ˈðɛ.ðo.ka av.ˈtys kɛ av.ˈty ˈɛ.la.von kɛ ˈɛɣ.no.san a.le.ˈtʰos ˈo.ti pa.ˈra ˈsuː ɛk.ˈsel.tʰon kɛ ɛ.ˈpis.tɛv.san ˈo.ti ˈsy mɛ a.ˈpɛs.tiː.las"
+},
+{
+"v": "17:9",
+"pre": 0.0,
+"start": 9792.262,
+"dur": 11.978,
+"ipa": "ɛ.ˈɣo pɛ.ˈri av.ˈton ɛ.ro.ˈto uː pɛ.ˈri ˈtuː ˈkoz.muː ɛ.ro.ˈto a.ˈlla pɛ.ˈri ˈon ˈðɛ.ðo.ˈkas my ˈo.ti ˈsy iː.sin"
+},
+{
+"v": "17:10",
+"pre": 0.0,
+"start": 9804.84,
+"dur": 8.88,
+"ipa": "kɛ ta ɛ.ˈma ˈpan.ta ˈsa ɛs.tin kɛ ta sa ɛ.ˈma kɛ ðɛ.ˈðok.saz.mɛ ɛn av.ˈtys"
+},
+{
+"v": "17:11",
+"pre": 0.0,
+"start": 9814.32,
+"dur": 21.157,
+"ipa": "kɛ uː.ˈkɛ.ti iː.ˈmi ɛn ˈto ˈkoz.mo kɛ av.ˈty ɛn ˈto ˈkoz.mo iː.ˈsin ka.ˈɣo pros sɛ ˈɛr.kʰo.mɛ ˈpa.tɛr ˈa.ɣi.ɛ ˈte.re.son av.ˈtuːs ɛn ˈto o.ˈno.ma.ˈti suː ˈo ˈðɛ.ðo.ˈkas my ˈi.na ˈo.sin ɛn ka.ˈtʰos e.ˈmiːs"
+},
+{
+"v": "17:12",
+"pre": 0.0,
+"start": 9836.077,
+"dur": 21.219,
+"ipa": "ˈo.tɛ ˈe.men mɛt av.ˈton ɛ.ˈɣo ɛ.ˈte.ruːn av.ˈtuːs ɛn ˈto o.ˈno.ma.ˈti suː ˈo ˈðɛ.ðo.ˈkas my kɛ ɛ.ˈpʰy.lak.sa kɛ uː.ˈðiːs ɛks av.ˈton a.ˈpo.lɛ.to iː me o y.ˈos ˈtes a.po.ˈliː.as ˈi.na e ɣra.ˈpʰe ple.ro.ˈtʰe"
+},
+{
+"v": "17:13",
+"pre": 0.0,
+"start": 9857.897,
+"dur": 13.992,
+"ipa": "ˈnyn ðɛ pros sɛ ˈɛr.kʰo.mɛ kɛ ˈtav.ta la.ˈlo ɛn ˈto ˈkoz.mo ˈi.na ˈɛ.kʰo.sin ten kʰa.ˈran ten ɛ.ˈmen pɛ.ple.ro.ˈmɛ.nen ɛn ɛ.av.ˈtys"
+},
+{
+"v": "17:14",
+"pre": 0.0,
+"start": 9872.488,
+"dur": 15.926,
+"ipa": "ɛ.ˈɣo ˈðɛ.ðo.ka av.ˈtys ton ˈlo.ɣon suː kɛ o ˈkoz.mos ɛ.ˈmi.se.sɛn av.ˈtuːs ˈo.ti uːk iː.ˈsin ɛk ˈtuː ˈkoz.muː ka.ˈtʰos ɛ.ˈɣo uːk iː.ˈmi ɛk ˈtuː ˈkoz.muː"
+},
+{
+"v": "17:15",
+"pre": 0.0,
+"start": 9889.014,
+"dur": 11.102,
+"ipa": "uːk ɛ.ro.ˈto ˈi.na ˈa.res av.ˈtuːs ɛk ˈtuː ˈkoz.muː all ˈi.na te.ˈre.ses av.ˈtuːs ɛk ˈtuː po.ne.ˈruː"
+},
+{
+"v": "17:16",
+"pre": 0.0,
+"start": 9900.717,
+"dur": 7.923,
+"ipa": "ɛk ˈtuː ˈkoz.muː uːk iː.ˈsin ka.ˈtʰos ɛ.ˈɣo uːk iː.ˈmi ɛk ˈtuː ˈkoz.muː"
+},
+{
+"v": "17:17",
+"pre": 0.0,
+"start": 9909.239,
+"dur": 8.519,
+"ipa": "a.ˈɣi.a.son av.ˈtuːs ɛn ˈte a.le.ˈtʰiː.a o ˈlo.ɣos o sos a.ˈle.tʰiː.ˈa ɛs.tin"
+},
+{
+"v": "17:18",
+"pre": 0.0,
+"start": 9918.358,
+"dur": 9.916,
+"ipa": "ka.ˈtʰos ɛ.ˈmɛ a.ˈpɛs.tiː.las iːs ton ˈkoz.mon ka.ˈɣo a.ˈpɛs.tiː.la av.ˈtuːs iːs ton ˈkoz.mon"
+},
+{
+"v": "17:19",
+"pre": 0.0,
+"start": 9928.874,
+"dur": 11.162,
+"ipa": "kɛ y.ˈpɛr av.ˈton ɛ.ˈɣo a.ɣi.ˈa.zo ɛ.mav.ˈton ˈi.na ˈo.sin kɛ av.ˈty e.ɣi.az.ˈmɛ.ny ɛn a.le.ˈtʰiː.a"
+},
+{
+"v": "17:20",
+"pre": 0.0,
+"start": 9940.635,
+"dur": 12.263,
+"ipa": "uː pɛ.ˈri ˈtuː.ton ðɛ ɛ.ro.ˈto ˈmo.non a.ˈlla kɛ pɛ.ˈri ˈton pis.tɛv.ˈon.ton ði.ˈa ˈtuː ˈlo.ɣuː av.ˈton iːs ɛ.ˈmɛ"
+},
+{
+"v": "17:21",
+"pre": 0.0,
+"start": 9953.498,
+"dur": 16.514,
+"ipa": "ˈi.na ˈpan.tɛs ɛn ˈo.sin ka.ˈtʰos ˈsy ˈpa.tɛr ɛn ɛ.ˈmy ka.ˈɣo ɛn ˈsy ˈi.na kɛ av.ˈty ɛn e.ˈmin ˈo.sin ˈi.na o ˈkoz.mos pis.ˈtɛv.e ˈo.ti ˈsy mɛ a.ˈpɛs.tiː.las"
+},
+{
+"v": "17:22",
+"pre": 0.0,
+"start": 9970.612,
+"dur": 10.098,
+"ipa": "ka.ˈɣo ten ˈðok.san en ˈðɛ.ðo.ˈkas my ˈðɛ.ðo.ka av.ˈtys ˈi.na ˈo.sin ɛn ka.ˈtʰos e.ˈmiːs ˈɛn"
+},
+{
+"v": "17:23",
+"pre": 0.0,
+"start": 9981.31,
+"dur": 18.386,
+"ipa": "ɛ.ˈɣo ɛn av.ˈtys kɛ sy ɛn ɛ.ˈmy ˈi.na ˈo.sin tɛ.tɛ.liː.o.ˈmɛ.ny iːs ˈɛn ˈi.na ɣi.ˈnos.ke o ˈkoz.mos ˈo.ti ˈsy mɛ a.ˈpɛs.tiː.las kɛ e.ˈɣa.pe.sas av.ˈtuːs ka.ˈtʰos ɛ.ˈmɛ e.ˈɣa.pe.sas"
+},
+{
+"v": "17:24",
+"pre": 0.0,
+"start": 10000.296,
+"dur": 19.522,
+"ipa": "ˈpa.tɛr o ˈðɛ.ðo.ˈkas my ˈtʰɛ.lo ˈi.na ˈo.puː iː.ˈmi ɛ.ˈɣo ka.ˈkiː.ny ˈo.sin mɛt ɛ.ˈmuː ˈi.na tʰɛ.o.ˈro.sin ten ˈðok.san ten ɛ.ˈmen en ˈðɛ.ðo.ˈkas my ˈo.ti e.ˈɣa.pe.ˈsas mɛ pro ka.ta.vo.ˈles ˈkoz.muː"
+},
+{
+"v": "17:25",
+"pre": 0.0,
+"start": 10020.418,
+"dur": 12.173,
+"ipa": "ˈpa.tɛr ˈði.kɛ.ɛ kɛ o ˈkoz.mos sɛ uːk ˈɛɣ.no ɛ.ˈɣo ˈðɛ sɛ ˈɛɣ.non kɛ ˈuː.ty ˈɛɣ.no.san ˈo.ti ˈsy mɛ a.ˈpɛs.tiː.las"
+},
+{
+"v": "17:26",
+"pre": 0.0,
+"start": 10033.191,
+"dur": 13.465,
+"ipa": "kɛ ɛɣ.ˈno.ri.sa av.ˈtys to ˈo.no.ˈma suː kɛ ɣno.ˈri.so ˈi.na e a.ˈɣa.pe en e.ˈɣa.pe.ˈsas mɛ ɛn av.ˈtys ˈe ka.ˈɣo ɛn av.ˈtys"
+},
+{
+"v": "18:1",
+"pre": 3.0,
+"start": 10050.256,
+"dur": 19.039,
+"ipa": "ˈtav.ta iː.ˈpon i.e.ˈsuːs ɛk.ˈsel.tʰɛn syn ˈtys ma.tʰe.ˈtɛs av.ˈtuː ˈpɛ.ran ˈtuː kʰiː.ˈma.rruː ˈtuː kɛ.ˈðron ˈo.puː ˈen ˈke.pos iːs on iː.ˈsel.tʰɛn av.ˈtos kɛ y ma.tʰe.ˈtɛ av.ˈtuː"
+},
+{
+"v": "18:2",
+"pre": 0.0,
+"start": 10069.896,
+"dur": 14.411,
+"ipa": "ˈe.ðiː ðɛ kɛ i.ˈuː.ðas o pa.ra.ði.ˈðuːs av.ˈton ton ˈto.pon ˈo.ti po.ˈlla.kis sy.ˈnekʰ.tʰe i.e.ˈsuːs ɛ.ˈkiː mɛ.ˈta ˈton ma.tʰe.ˈton av.ˈtuː"
+},
+{
+"v": "18:3",
+"pre": 0.0,
+"start": 10084.907,
+"dur": 16.788,
+"ipa": "o ˈuːn i.ˈuː.ðas la.ˈvon ten ˈspiː.ran kɛ ɛk ˈton ar.kʰi.ɛ.ˈrɛ.on kɛ ɛk ˈton pʰa.ri.ˈsɛ.on y.pe.ˈrɛ.tas ˈɛr.kʰɛ.tɛ ɛ.ˈkiː mɛ.ˈta pʰa.ˈnon kɛ lam.ˈpa.ðon kɛ ˈo.plon"
+},
+{
+"v": "18:4",
+"pre": 0.0,
+"start": 10102.295,
+"dur": 11.479,
+"ipa": "i.e.ˈsuːs ˈuːn iː.ˈðos ˈpan.ta ta ɛr.ˈkʰo.mɛ.na ɛp av.ˈton ɛk.ˈsel.tʰɛn kɛ ˈlɛ.ɣiː av.ˈtys ˈti.na ze.ˈtiː.tɛ"
+},
+{
+"v": "18:5",
+"pre": 0.0,
+"start": 10114.375,
+"dur": 15.458,
+"ipa": "a.pɛ.ˈkri.tʰe.san av.ˈto i.e.ˈsuːn ton na.zo.ˈrɛ.on ˈlɛ.ɣiː av.ˈtys ɛ.ˈɣo iː.mi iːs.ˈte.kiː ðɛ kɛ i.ˈuː.ðas o pa.ra.ði.ˈðuːs av.ˈton mɛt av.ˈton"
+},
+{
+"v": "18:6",
+"pre": 0.0,
+"start": 10130.433,
+"dur": 9.741,
+"ipa": "os ˈuːn ˈiː.pɛn av.ˈtys ɛ.ˈɣo iː.mi a.ˈpel.tʰon iːs ta o.ˈpi.so kɛ ˈɛ.pɛ.san kʰa.ˈmɛ"
+},
+{
+"v": "18:7",
+"pre": 0.0,
+"start": 10140.774,
+"dur": 10.141,
+"ipa": "ˈpa.lin ˈuːn ɛ.pe.ˈro.te.sɛn av.ˈtuːs ˈti.na ze.ˈtiː.tɛ y ðɛ ˈiː.pan i.e.ˈsuːn ton na.zo.ˈrɛ.on"
+},
+{
+"v": "18:8",
+"pre": 0.0,
+"start": 10151.515,
+"dur": 11.203,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs ˈiː.pon y.ˈmin ˈo.ti ɛ.ˈɣo iː.mi iː ˈuːn ɛ.ˈmɛ ze.ˈtiː.tɛ ˈa.pʰɛ.tɛ ˈtuː.tuːs y.ˈpa.ɣiːn"
+},
+{
+"v": "18:9",
+"pre": 0.0,
+"start": 10163.318,
+"dur": 10.915,
+"ipa": "ˈi.na ple.ro.ˈtʰe o ˈlo.ɣos on ˈiː.pɛn ˈo.ti uːs ˈðɛ.ðo.ˈkas my uːk a.ˈpo.lɛ.sa ɛks av.ˈton uː.ˈðɛ.na"
+},
+{
+"v": "18:10",
+"pre": 0.0,
+"start": 10174.833,
+"dur": 19.845,
+"ipa": "ˈsi.mon ˈuːn ˈpɛ.tros ˈɛ.kʰon ˈma.kʰɛ.ran ˈiːl.ky.sɛn av.ˈten kɛ ˈɛ.pɛ.sɛn ton ˈtuː ar.kʰi.ɛ.ˈrɛ.os ˈðuː.lon kɛ a.ˈpɛ.kop.sɛn av.ˈtuː to o.ˈta.ri.on to ðɛk.si.ˈon ˈen ðɛ ˈo.no.ma ˈto ˈðuː.lo ˈmal.kʰos"
+},
+{
+"v": "18:11",
+"pre": 0.0,
+"start": 10195.278,
+"dur": 14.504,
+"ipa": "ˈiː.pɛn ˈuːn o i.e.ˈsuːs ˈto ˈpɛ.tro ˈva.lɛ ten ˈma.kʰɛ.ran iːs ten ˈtʰe.ken to po.ˈte.ri.on o ˈðɛ.ðo.ˈkɛn my o pa.ˈter uː me ˈpi.o av.ˈto"
+},
+{
+"v": "18:12",
+"pre": 0.0,
+"start": 10210.382,
+"dur": 12.964,
+"ipa": "e ˈuːn ˈspiː.ra kɛ o kʰi.ˈli.ar.kʰos kɛ y y.pe.ˈrɛ.tɛ ˈton i.uː.ˈðɛ.on sy.ˈnɛ.la.von ton i.e.ˈsuːn kɛ ˈɛ.ðe.san av.ˈton"
+},
+{
+"v": "18:13",
+"pre": 0.0,
+"start": 10223.946,
+"dur": 13.064,
+"ipa": "kɛ ˈe.ɣa.ɣon pros ˈan.nan ˈpro.ton ˈen ɣar pɛn.tʰɛ.ˈros ˈtuː ka.i.ˈa.pʰa os ˈen ar.kʰi.ɛ.ˈrɛvs ˈtuː ɛ.ni.av.ˈtuː ɛ.ˈkiː.nuː"
+},
+{
+"v": "18:14",
+"pre": 0.0,
+"start": 10237.611,
+"dur": 13.036,
+"ipa": "ˈen ðɛ ka.i.ˈa.pʰas o sym.vuː.ˈlɛv.sas ˈtys i.uː.ˈðɛ.ys ˈo.ti sym.ˈpʰɛ.riː ˈɛ.na ˈantʰ.ro.pon a.po.tʰa.ˈniːn y.ˈpɛr ˈtuː la.ˈuː"
+},
+{
+"v": "18:15",
+"pre": 0.0,
+"start": 10251.247,
+"dur": 19.99,
+"ipa": "e.ko.ˈluː.tʰiː ðɛ ˈto i.e.ˈsuː ˈsi.mon ˈpɛ.tros kɛ ˈa.llos ma.tʰe.ˈtes o ðɛ ma.tʰe.ˈtes ɛ.ˈkiː.nos ˈen ɣnos.ˈtos ˈto ar.kʰi.ɛ.ˈriː kɛ sy.niː.ˈsel.tʰɛn ˈto i.e.ˈsuː iːs ten av.ˈlen ˈtuː ar.kʰi.ɛ.ˈrɛ.os"
+},
+{
+"v": "18:16",
+"pre": 0.0,
+"start": 10271.837,
+"dur": 18.272,
+"ipa": "o ðɛ ˈpɛ.tros iːs.ˈte.kiː pros ˈte ˈtʰy.ra ˈɛk.so ɛk.ˈsel.tʰɛn ˈuːn o ma.tʰe.ˈtes o ˈa.llos o ɣnos.ˈtos ˈtuː ar.kʰi.ɛ.ˈrɛ.os kɛ ˈiː.pɛn ˈte tʰy.ro.ˈro kɛ iː.ˈse.ɣa.ɣɛn ton ˈpɛ.tron"
+},
+{
+"v": "18:17",
+"pre": 0.0,
+"start": 10290.71,
+"dur": 14.942,
+"ipa": "ˈlɛ.ɣiː ˈuːn ˈto ˈpɛ.tro e pɛ.ˈðis.ke e tʰy.ro.ˈros me kɛ sy ɛk ˈton ma.tʰe.ˈton ˈiː ˈtuː antʰ.ˈro.puː ˈtuː.tuː ˈlɛ.ɣiː ɛ.ˈkiː.nos uːk iː.ˈmi"
+},
+{
+"v": "18:18",
+"pre": 0.0,
+"start": 10306.252,
+"dur": 18.977,
+"ipa": "iːs.ˈte.kiː.san ðɛ y ˈðuː.ly kɛ y y.pe.ˈrɛ.tɛ antʰ.ra.ki.ˈan pɛ.py.e.ˈko.tɛs ˈo.ti ˈpsy.kʰos ˈen kɛ ɛ.tʰɛr.ˈmɛ.non.to ˈen ðɛ kɛ o ˈpɛ.tros mɛt av.ˈton ɛs.ˈtos kɛ tʰɛr.mɛ.ˈno.mɛ.nos"
+},
+{
+"v": "18:19",
+"pre": 0.0,
+"start": 10325.829,
+"dur": 12.63,
+"ipa": "o ˈuːn ar.kʰi.ɛ.ˈrɛvs e.ˈro.te.sɛn ton i.e.ˈsuːn pɛ.ˈri ˈton ma.tʰe.ˈton av.ˈtuː kɛ pɛ.ˈri ˈtes ði.ða.ˈkʰes av.ˈtuː"
+},
+{
+"v": "18:20",
+"pre": 0.0,
+"start": 10339.059,
+"dur": 22.036,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto i.e.ˈsuːs ɛ.ˈɣo pa.rre.ˈsi.a lɛ.ˈla.le.ka ˈto ˈkoz.mo ɛ.ˈɣo ˈpan.to.tɛ ɛ.ˈði.ðak.sa ɛn sy.na.ɣo.ˈɣe kɛ ɛn ˈto i.ɛ.ˈro ˈo.puː ˈpan.tɛs y i.uː.ˈðɛ.y sy.ˈnɛr.kʰon.tɛ kɛ ɛn kryp.ˈto ɛ.ˈla.le.sa uː.ˈðɛn"
+},
+{
+"v": "18:21",
+"pre": 0.0,
+"start": 10361.696,
+"dur": 11.898,
+"ipa": "ˈti mɛ ɛ.ro.ˈtas ɛ.ˈro.te.son tuːs a.ke.ko.ˈo.tas ˈti ɛ.ˈla.le.sa av.ˈtys ˈi.ðɛ ˈuː.ty ˈy.ða.sin a ˈiː.pon ɛ.ˈɣo"
+},
+{
+"v": "18:22",
+"pre": 0.0,
+"start": 10374.194,
+"dur": 15.292,
+"ipa": "ˈtav.ta ðɛ av.ˈtuː iː.ˈpon.tos ˈiːs pa.rɛs.te.ˈkos ˈton y.pe.rɛ.ˈton ˈɛ.ðo.kɛn ˈra.piz.ma ˈto i.e.ˈsuː iː.ˈpon ˈuː.tos a.po.ˈkri.ne ˈto ar.kʰi.ɛ.ˈriː"
+},
+{
+"v": "18:23",
+"pre": 0.0,
+"start": 10390.086,
+"dur": 12.316,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto i.e.ˈsuːs iː ka.ˈkos ɛ.ˈla.le.sa mar.ˈty.re.son pɛ.ˈri ˈtuː ka.ˈkuː iː ðɛ ka.ˈlos ˈti mɛ ˈðɛ.riːs"
+},
+{
+"v": "18:24",
+"pre": 0.0,
+"start": 10403.002,
+"dur": 9.189,
+"ipa": "a.ˈpɛs.tiː.lɛn ˈuːn av.ˈton o ˈan.nas ðɛ.ðɛ.ˈmɛ.non pros ka.i.ˈa.pʰan ton ar.kʰi.ɛ.ˈrɛ.a"
+},
+{
+"v": "18:25",
+"pre": 0.0,
+"start": 10412.791,
+"dur": 17.117,
+"ipa": "ˈen ðɛ ˈsi.mon ˈpɛ.tros ɛs.ˈtos kɛ tʰɛr.mɛ.ˈno.mɛ.nos ˈiː.pon ˈuːn av.ˈto me kɛ sy ɛk ˈton ma.tʰe.ˈton av.ˈtuː ˈiː er.ˈne.sa.to ɛ.ˈkiː.nos kɛ ˈiː.pɛn uːk iː.ˈmi"
+},
+{
+"v": "18:26",
+"pre": 0.0,
+"start": 10430.508,
+"dur": 15.726,
+"ipa": "ˈlɛ.ɣiː ˈiːs ɛk ˈton ˈðuː.lon ˈtuː ar.kʰi.ɛ.ˈrɛ.os syŋ.ɣɛ.ˈnes on ˈuː a.ˈpɛ.kop.sɛn ˈpɛ.tros to o.ˈti.on uːk ɛ.ˈɣo sɛ ˈiː.ðon ɛn ˈto ˈke.po mɛt av.ˈtuː"
+},
+{
+"v": "18:27",
+"pre": 0.0,
+"start": 10446.834,
+"dur": 7.696,
+"ipa": "ˈpa.lin ˈuːn er.ˈne.sa.to ˈpɛ.tros kɛ ɛv.ˈtʰɛ.os a.ˈlɛk.tor ɛ.ˈpʰo.ne.sɛn"
+},
+{
+"v": "18:28",
+"pre": 0.0,
+"start": 10455.13,
+"dur": 19.105,
+"ipa": "ˈa.ɣuː.sin ˈuːn ton i.e.ˈsuːn a.ˈpo ˈtuː ka.i.ˈa.pʰa iːs to prɛ.ˈto.ri.on ˈen ðɛ pro.ˈi kɛ av.ˈty uːk iː.ˈsel.tʰon iːs to prɛ.ˈto.ri.on ˈi.na me mi.an.ˈtʰo.sin a.ˈlla ˈpʰa.ɣo.sin to ˈpas.kʰa"
+},
+{
+"v": "18:29",
+"pre": 0.0,
+"start": 10474.835,
+"dur": 13.338,
+"ipa": "ɛk.ˈsel.tʰɛn ˈuːn o pi.ˈla.tos ˈɛk.so pros av.ˈtuːs kɛ pʰe.ˈsin ˈti.na ka.te.ɣo.ˈri.an ˈpʰɛ.rɛ.tɛ ka.ˈta ˈtuː antʰ.ˈro.puː ˈtuː.tuː"
+},
+{
+"v": "18:30",
+"pre": 0.0,
+"start": 10488.773,
+"dur": 11.595,
+"ipa": "a.pɛ.ˈkri.tʰe.san kɛ ˈiː.pan av.ˈto iː me ˈen ˈuː.tos ka.ˈkon py.ˈon uːk ˈan sy pa.rɛ.ˈðo.ka.mɛn av.ˈton"
+},
+{
+"v": "18:31",
+"pre": 0.0,
+"start": 10500.969,
+"dur": 19.175,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈtys o pi.ˈla.tos ˈla.vɛ.tɛ av.ˈton y.ˈmiːs kɛ ka.ˈta ton ˈno.mon y.ˈmon ˈkri.na.tɛ av.ˈton ˈiː.pon av.ˈto y i.uː.ˈðɛ.y e.ˈmin uːk ˈɛk.sɛs.tin a.pok.ˈtiː.nɛ uː.ˈðɛ.na"
+},
+{
+"v": "18:32",
+"pre": 0.0,
+"start": 10520.743,
+"dur": 11.19,
+"ipa": "ˈi.na o ˈlo.ɣos ˈtuː i.e.ˈsuː ple.ro.ˈtʰe on ˈiː.pɛn se.ˈmɛ.non ˈpy.o tʰa.ˈna.to ˈe.mɛ.llɛn a.potʰ.ˈnes.kiːn"
+},
+{
+"v": "18:33",
+"pre": 0.0,
+"start": 10532.533,
+"dur": 15.655,
+"ipa": "iː.ˈsel.tʰɛn ˈuːn ˈpa.lin iːs to prɛ.ˈto.ri.on o pi.ˈla.tos kɛ ɛ.ˈpʰo.ne.sɛn ton i.e.ˈsuːn kɛ ˈiː.pɛn av.ˈto sy ˈiː o va.si.ˈlɛvs ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "18:34",
+"pre": 0.0,
+"start": 10548.789,
+"dur": 10.228,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs a.ˈpo sɛ.av.ˈtuː sy ˈtuː.to ˈlɛ.ɣiːs e ˈa.lly ˈiː.ˈpon sy pɛ.ˈri ɛ.ˈmuː"
+},
+{
+"v": "18:35",
+"pre": 0.0,
+"start": 10559.617,
+"dur": 13.919,
+"ipa": "a.pɛ.ˈkri.tʰe o pi.ˈla.tos ˈme.ti ɛ.ˈɣo i.uː.ˈðɛ.ˈos iː.mi to ˈɛtʰ.nos to son kɛ y ar.kʰi.ɛ.ˈriːs pa.ˈrɛ.ðo.ˈkan sɛ ɛ.ˈmy ˈti ɛ.ˈpy.e.sas"
+},
+{
+"v": "18:36",
+"pre": 0.0,
+"start": 10574.136,
+"dur": 27.645,
+"ipa": "a.pɛ.ˈkri.tʰe i.e.ˈsuːs e va.si.ˈliː.a e ɛ.ˈme uːk ˈɛs.tin ɛk ˈtuː ˈkoz.muː ˈtuː.tuː iː ɛk ˈtuː ˈkoz.muː ˈtuː.tuː ˈen e va.si.ˈliː.a e ɛ.ˈme y y.pe.ˈrɛ.tɛ y ɛ.ˈmy e.ɣo.ˈni.zon.to ˈan ˈi.na me pa.ra.ðo.ˈtʰo ˈtys i.uː.ˈðɛ.ys ˈnyn ðɛ e va.si.ˈliː.a e ɛ.ˈme uːk ˈɛs.tin ɛn.ˈtɛv.tʰɛn"
+},
+{
+"v": "18:37",
+"pre": 0.0,
+"start": 10602.38,
+"dur": 29.74,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈto o pi.ˈla.tos uː.ˈkuːn va.si.ˈlɛvs ˈiː ˈsy a.pɛ.ˈkri.tʰe o i.e.ˈsuːs sy ˈlɛ.ɣiːs ˈo.ti va.si.ˈlɛvs iː.mi ɛ.ˈɣo iːs ˈtuː.to ɣɛ.ˈɣɛn.ne.mɛ kɛ iːs ˈtuː.to ɛ.ˈle.ly.tʰa iːs ton ˈkoz.mon ˈi.na mar.ty.ˈre.so ˈte a.le.ˈtʰiː.a ˈpas o on ɛk ˈtes a.le.ˈtʰiː.as a.ˈkuː.iː muː ˈtes pʰo.ˈnes"
+},
+{
+"v": "18:38",
+"pre": 0.0,
+"start": 10632.72,
+"dur": 19.053,
+"ipa": "ˈlɛ.ɣiː av.ˈto o pi.ˈla.tos ˈti ɛs.tin a.ˈle.tʰiː.a kɛ ˈtuː.to iː.ˈpon ˈpa.lin ɛk.ˈsel.tʰɛn pros tuːs i.uː.ˈðɛ.uːs kɛ ˈlɛ.ɣiː av.ˈtys ɛ.ˈɣo uː.ðɛ.ˈmi.an ɛv.ˈris.ko ɛn av.ˈto ɛ.ˈti.an"
+},
+{
+"v": "18:39",
+"pre": 0.0,
+"start": 10652.373,
+"dur": 14.843,
+"ipa": "ˈɛs.tin ðɛ sy.ˈne.tʰiː.a y.ˈmin ˈi.na ˈɛ.na a.po.ˈly.so y.ˈmin ɛn ˈto ˈpas.kʰa ˈvuː.lɛs.tʰɛ ˈuːn a.po.ˈly.so y.ˈmin ton va.si.ˈlɛ.a ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "18:40",
+"pre": 0.0,
+"start": 10667.815,
+"dur": 11.418,
+"ipa": "ɛ.ˈkrav.ɣa.san ˈuːn ˈpa.lin ˈlɛ.ɣon.tɛs me ˈtuː.ton a.ˈlla ton va.rav.ˈvan ˈen ðɛ o va.rav.ˈvas les.ˈtes"
+},
+{
+"v": "19:1",
+"pre": 0.0,
+"start": 10679.834,
+"dur": 7.644,
+"ipa": "ˈto.tɛ ˈuːn ˈɛ.la.vɛn o pi.ˈla.tos ton i.e.ˈsuːn kɛ ɛ.mas.ˈti.ɣo.sɛn"
+},
+{
+"v": "19:2",
+"pre": 0.0,
+"start": 10688.077,
+"dur": 15.467,
+"ipa": "kɛ y stra.ti.ˈo.tɛ ˈplɛk.san.tɛs ˈstɛ.pʰa.non ɛks a.kan.ˈtʰon ɛ.ˈpɛ.tʰe.kan av.ˈtuː ˈte kɛ.pʰa.ˈle kɛ i.ˈma.ti.on por.pʰy.ˈruːn pɛ.ri.ˈɛ.va.lon av.ˈton"
+},
+{
+"v": "19:3",
+"pre": 0.0,
+"start": 10704.144,
+"dur": 12.853,
+"ipa": "kɛ ˈer.kʰon.to pros av.ˈton kɛ ˈɛ.lɛ.ɣon ˈkʰɛ.rɛ o va.si.ˈlɛvs ˈton i.uː.ˈðɛ.on kɛ ɛ.ˈði.ðo.san av.ˈto ra.ˈpiz.ma.ta"
+},
+{
+"v": "19:4",
+"pre": 0.0,
+"start": 10717.597,
+"dur": 16.892,
+"ipa": "kɛ ɛk.ˈsel.tʰɛn ˈpa.lin ˈɛk.so o pi.ˈla.tos kɛ ˈlɛ.ɣiː av.ˈtys ˈi.ðɛ ˈa.ɣo y.ˈmin av.ˈton ˈɛk.so ˈi.na ˈɣno.tɛ ˈo.ti uː.ðɛ.ˈmi.an ɛ.ˈti.an ɛv.ˈris.ko ɛn av.ˈto"
+},
+{
+"v": "19:5",
+"pre": 0.0,
+"start": 10735.089,
+"dur": 15.104,
+"ipa": "ɛk.ˈsel.tʰɛn ˈuːn o i.e.ˈsuːs ˈɛk.so pʰo.ˈron ton a.ˈkan.tʰi.non ˈstɛ.pʰa.non kɛ to por.pʰy.ˈruːn i.ˈma.ti.on kɛ ˈlɛ.ɣiː av.ˈtys i.ˈðuː o ˈantʰ.ro.pos"
+},
+{
+"v": "19:6",
+"pre": 0.0,
+"start": 10750.793,
+"dur": 24.129,
+"ipa": "ˈo.tɛ ˈuːn ˈiː.ðon av.ˈton y ar.kʰi.ɛ.ˈriːs kɛ y y.pe.ˈrɛ.tɛ ɛ.ˈkrav.ɣa.san ˈlɛ.ɣon.tɛs ˈstav.ro.son ˈstav.ro.son ˈlɛ.ɣiː av.ˈtys o pi.ˈla.tos ˈla.vɛ.tɛ av.ˈton y.ˈmiːs kɛ stav.ˈro.sa.tɛ ɛ.ˈɣo ɣar uːkʰ ɛv.ˈris.ko ɛn av.ˈto ɛ.ˈti.an"
+},
+{
+"v": "19:7",
+"pre": 0.0,
+"start": 10775.522,
+"dur": 15.402,
+"ipa": "a.pɛ.ˈkri.tʰe.san av.ˈto y i.uː.ˈðɛ.y e.ˈmiːs ˈno.mon ˈɛ.kʰo.mɛn kɛ ka.ˈta ton ˈno.mon o.ˈpʰiː.liː a.po.tʰa.ˈniːn ˈo.ti y.ˈon tʰɛ.ˈuː ɛ.av.ˈton ɛ.ˈpy.e.sɛn"
+},
+{
+"v": "19:8",
+"pre": 0.0,
+"start": 10791.524,
+"dur": 8.384,
+"ipa": "ˈo.tɛ ˈuːn ˈe.kuː.sɛn o pi.ˈla.tos ˈtuː.ton ton ˈlo.ɣon ˈma.llon ɛ.pʰo.ˈve.tʰe"
+},
+{
+"v": "19:9",
+"pre": 0.0,
+"start": 10800.509,
+"dur": 14.403,
+"ipa": "kɛ iː.ˈsel.tʰɛn iːs to prɛ.ˈto.ri.on ˈpa.lin kɛ ˈlɛ.ɣiː ˈto i.e.ˈsuː ˈpo.tʰɛn ˈiː ˈsy o ðɛ i.e.ˈsuːs a.ˈpo.kri.sin uːk ˈɛ.ðo.kɛn av.ˈto"
+},
+{
+"v": "19:10",
+"pre": 0.0,
+"start": 10815.512,
+"dur": 15.49,
+"ipa": "ˈlɛ.ɣiː ˈuːn av.ˈto o pi.ˈla.tos ɛ.ˈmy uː la.ˈliːs uːk ˈy.ðas ˈo.ti ɛk.suː.ˈsi.an ˈɛ.kʰo a.po.ˈly.ˈsɛ sɛ kɛ ɛk.suː.ˈsi.an ˈɛ.kʰo stav.ˈro.ˈsɛ sɛ"
+},
+{
+"v": "19:11",
+"pre": 0.0,
+"start": 10831.602,
+"dur": 18.425,
+"ipa": "a.pɛ.ˈkri.tʰe av.ˈto i.e.ˈsuːs uːk ˈiː.kʰɛs ɛk.suː.ˈsi.an kat ɛ.ˈmuː uː.ðɛ.ˈmi.an iː me ˈen ðɛ.ðo.ˈmɛ.non sy ˈa.no.tʰɛn ði.ˈa ˈtuː.to o pa.ra.ˈðuːs ˈmɛ sy ˈmiː.zo.na a.mar.ˈti.an ˈɛ.kʰiː"
+},
+{
+"v": "19:12",
+"pre": 0.0,
+"start": 10850.627,
+"dur": 22.872,
+"ipa": "ɛk ˈtuː.tuː o pi.ˈla.tos ɛ.ˈze.tiː a.po.ˈly.sɛ av.ˈton y ðɛ i.uː.ˈðɛ.y ɛ.ˈkrav.ɣa.san ˈlɛ.ɣon.tɛs ɛ.ˈan ˈtuː.ton a.po.ˈly.ses uːk ˈiː ˈpʰi.los ˈtuː ˈkɛ.sa.ros ˈpas o va.si.ˈlɛ.a ɛ.av.ˈton py.ˈon an.ti.ˈlɛ.ɣiː ˈto ˈkɛ.sa.ri"
+},
+{
+"v": "19:13",
+"pre": 0.0,
+"start": 10874.099,
+"dur": 18.076,
+"ipa": "o ˈuːn pi.ˈla.tos a.ˈkuː.sas ˈton ˈlo.ɣon ˈtuː.ton ˈe.ɣa.ɣɛn ˈɛk.so ton i.e.ˈsuːn kɛ ɛ.ˈka.tʰi.sɛn ɛ.ˈpi ˈve.ma.tos iːs ˈto.pon lɛ.ˈɣo.mɛ.non li.ˈtʰost.ro.ton ɛ.vra.is.ˈti ðɛ ɣav.va.tʰa"
+},
+{
+"v": "19:14",
+"pre": 0.0,
+"start": 10892.775,
+"dur": 12.272,
+"ipa": "ˈen ðɛ pa.ras.kɛv.ˈe ˈtuː ˈpas.kʰa ˈo.ra ˈen os ˈɛk.te kɛ ˈlɛ.ɣiː ˈtys i.uː.ˈðɛ.ys ˈi.ðɛ o va.si.ˈlɛvs y.ˈmon"
+},
+{
+"v": "19:15",
+"pre": 0.0,
+"start": 10905.648,
+"dur": 21.112,
+"ipa": "ɛ.ˈkrav.ɣa.san ˈuːn ɛ.ˈkiː.ny ˈa.ron ˈa.ron ˈstav.ro.son av.ˈton ˈlɛ.ɣiː av.ˈtys o pi.ˈla.tos ton va.si.ˈlɛ.a y.ˈmon stav.ˈro.so a.pɛ.ˈkri.tʰe.san y ar.kʰi.ɛ.ˈriːs uːk ˈɛ.kʰo.mɛn va.si.ˈlɛ.a iː me ˈkɛ.sa.ra"
+},
+{
+"v": "19:16",
+"pre": 0.0,
+"start": 10927.36,
+"dur": 10.024,
+"ipa": "ˈto.tɛ ˈuːn pa.ˈrɛ.ðo.kɛn av.ˈton av.ˈtys ˈi.na stav.ro.ˈtʰe pa.ˈrɛ.la.von ˈuːn ton i.e.ˈsuːn"
+},
+{
+"v": "19:17",
+"pre": 0.0,
+"start": 10937.984,
+"dur": 13.17,
+"ipa": "kɛ vas.ˈta.zon av.ˈto ton stav.ˈron ɛk.ˈsel.tʰɛn iːs ton lɛ.ˈɣo.mɛ.non kra.ˈni.uː ˈto.pon o ˈlɛ.ɣɛ.tɛ ɛ.vra.is.ˈti ɣol.ɣo.tʰa"
+},
+{
+"v": "19:18",
+"pre": 0.0,
+"start": 10951.753,
+"dur": 12.222,
+"ipa": "ˈo.puː av.ˈton ɛs.ˈtav.ro.san kɛ mɛt av.ˈtuː ˈa.lluːs ˈðy.o ɛn.ˈtɛv.tʰɛn kɛ ɛn.ˈtɛv.tʰɛn ˈmɛ.son ðɛ ton i.e.ˈsuːn"
+},
+{
+"v": "19:19",
+"pre": 0.0,
+"start": 10964.575,
+"dur": 16.322,
+"ipa": "ˈɛ.ɣrap.sɛn ðɛ kɛ ˈti.tlon o pi.ˈla.tos kɛ ˈɛ.tʰe.kɛn ɛ.ˈpi ˈtuː stav.ˈruː ˈen ðɛ ɣɛ.ɣram.ˈmɛ.non i.e.ˈsuːs o na.zo.ˈrɛ.os o va.si.ˈlɛvs ˈton i.uː.ˈðɛ.on"
+},
+{
+"v": "19:20",
+"pre": 0.0,
+"start": 10981.498,
+"dur": 20.277,
+"ipa": "ˈtuː.ton ˈuːn ton ˈti.tlon po.ˈlly a.ˈnɛɣ.no.san ˈton i.uː.ˈðɛ.on ˈo.ti ɛŋ.ˈɣys ˈen o ˈto.pos ˈtes ˈpo.lɛ.os ˈo.puː ɛs.tav.ˈro.tʰe o i.e.ˈsuːs kɛ ˈen ɣɛ.ɣram.ˈmɛ.non ɛ.vra.is.ˈti ro.ma.is.ˈti ɛ.lle.nis.ˈti"
+},
+{
+"v": "19:21",
+"pre": 0.0,
+"start": 11002.375,
+"dur": 17.883,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn ˈto pi.ˈla.to y ar.kʰi.ɛ.ˈriːs ˈton i.uː.ˈðɛ.on me ˈɣra.pʰɛ o va.si.ˈlɛvs ˈton i.uː.ˈðɛ.on all ˈo.ti ɛ.ˈkiː.nos ˈiː.pɛn va.si.ˈlɛvs ˈton i.uː.ˈðɛ.on iː.ˈmi"
+},
+{
+"v": "19:22",
+"pre": 0.0,
+"start": 11020.858,
+"dur": 5.955,
+"ipa": "a.pɛ.ˈkri.tʰe o pi.ˈla.tos o ˈɣɛ.ɣra.pʰa ˈɣɛ.ɣra.pʰa"
+},
+{
+"v": "19:23",
+"pre": 0.0,
+"start": 11027.413,
+"dur": 23.886,
+"ipa": "y ˈuːn stra.ti.ˈo.tɛ ˈo.tɛ ɛs.ˈtav.ro.san ton i.e.ˈsuːn ˈɛ.la.von ta i.ˈma.ti.a av.ˈtuː kɛ ɛ.ˈpy.e.san ˈtɛs.sa.ra ˈmɛ.re ɛ.ˈkas.to stra.ti.ˈo.te ˈmɛ.ros kɛ ton kʰi.ˈto.na ˈen ðɛ o kʰi.ˈton ˈa.ra.pʰos ɛk ˈton ˈa.no.tʰɛn y.pʰan.ˈtos ði ˈo.luː"
+},
+{
+"v": "19:24",
+"pre": 0.0,
+"start": 11051.899,
+"dur": 27.876,
+"ipa": "ˈiː.pan ˈuːn pros a.ˈlle.luːs me ˈskʰi.so.mɛn av.ˈton a.ˈlla ˈla.kʰo.mɛn pɛ.ˈri av.ˈtuː ˈti.nos ˈɛs.tɛ ˈi.na e ɣra.ˈpʰe ple.ro.ˈtʰe e ˈlɛ.ɣuː.sa ði.ɛ.mɛ.ˈri.san.to ta i.ˈma.ti.ˈa muː ɛ.av.ˈtys kɛ ɛ.ˈpi ton i.ma.tiz.ˈmon muː ˈɛ.va.lon ˈkle.ron y mɛn ˈuːn stra.ti.ˈo.tɛ ˈtav.ta ɛ.ˈpy.e.san"
+},
+{
+"v": "19:25",
+"pre": 0.0,
+"start": 11080.376,
+"dur": 16.963,
+"ipa": "iːs.ˈte.kiː.san ðɛ pa.ˈra ˈto stav.ˈro ˈtuː i.e.ˈsuː e ˈme.ter av.ˈtuː kɛ e a.ðɛl.ˈpʰe ˈtes me.ˈtros av.ˈtuː ma.ˈri.a e ˈtuː klo.ˈpa kɛ ma.ˈri.a e maɣ.ða.le.ˈne"
+},
+{
+"v": "19:26",
+"pre": 0.0,
+"start": 11097.939,
+"dur": 13.052,
+"ipa": "i.e.ˈsuːs ˈuːn i.ˈðon ten me.ˈtɛ.ra kɛ ton ma.tʰe.ˈten pa.rɛs.ˈto.ta on e.ˈɣa.pa ˈlɛ.ɣiː ˈte me.ˈtri ˈɣy.nɛ ˈi.ðɛ o y.ˈos suː"
+},
+{
+"v": "19:27",
+"pre": 0.0,
+"start": 11111.591,
+"dur": 13.326,
+"ipa": "ˈiː.ta ˈlɛ.ɣiː ˈto ma.tʰe.ˈte ˈi.ðɛ e ˈme.ter suː kɛ ap ɛ.ˈkiː.nes ˈtes ˈo.ras ˈɛ.la.vɛn o ma.tʰe.ˈtes av.ˈten iːs ta ˈi.ði.a"
+},
+{
+"v": "19:28",
+"pre": 0.0,
+"start": 11125.517,
+"dur": 11.738,
+"ipa": "mɛ.ˈta ˈtuː.to iː.ˈðos o i.e.ˈsuːs ˈo.ti ˈe.ðe ˈpan.ta tɛ.ˈtɛ.lɛs.tɛ ˈi.na tɛ.liː.o.ˈtʰe e ɣra.ˈpʰe ˈlɛ.ɣiː ðip.ˈso"
+},
+{
+"v": "19:29",
+"pre": 0.0,
+"start": 11137.855,
+"dur": 14.195,
+"ipa": "ˈskɛv.os ˈɛ.kiː.to ˈok.suːs mɛs.ˈton ˈspoŋ.ɣon ˈuːn mɛs.ˈton ˈtuː ˈok.suːs ys.ˈso.po pɛ.ri.ˈtʰɛn.tɛs pro.ˈse.nɛŋ.kan av.ˈtuː ˈto ˈsto.ma.ti"
+},
+{
+"v": "19:30",
+"pre": 0.0,
+"start": 11152.651,
+"dur": 12.172,
+"ipa": "ˈo.tɛ ˈuːn ˈɛ.la.vɛn to ˈok.sos o i.e.ˈsuːs ˈiː.pɛn tɛ.ˈtɛ.lɛs.tɛ kɛ ˈkli.nas ten kɛ.pʰa.ˈlen pa.ˈrɛ.ðo.kɛn to ˈpnɛv.ma"
+},
+{
+"v": "19:31",
+"pre": 0.0,
+"start": 11165.423,
+"dur": 25.669,
+"ipa": "y ˈuːn i.uː.ˈðɛ.y ɛ.ˈpiː pa.ras.kɛv.ˈe ˈen ˈi.na me ˈmiː.ne ɛ.ˈpi ˈtuː stav.ˈruː ta ˈso.ma.ta ɛn ˈto sav.ˈva.to ˈen ɣar mɛ.ˈɣa.le e e.ˈmɛ.ra ɛ.ˈkiː.nuː ˈtuː sav.ˈva.tuː e.ˈro.te.san ton pi.ˈla.ton ˈi.na ka.tɛ.a.ˈɣo.sin av.ˈton ta ˈskɛ.le kɛ ar.ˈtʰo.sin"
+},
+{
+"v": "19:32",
+"pre": 0.0,
+"start": 11191.692,
+"dur": 13.681,
+"ipa": "ˈel.tʰon ˈuːn y stra.ti.ˈo.tɛ kɛ ˈtuː mɛn ˈpro.tuː ka.ˈtɛ.ak.san ta ˈskɛ.le kɛ ˈtuː ˈa.lluː ˈtuː sys.tav.ro.ˈtʰɛn.tos av.ˈto"
+},
+{
+"v": "19:33",
+"pre": 0.0,
+"start": 11205.974,
+"dur": 11.553,
+"ipa": "ɛ.ˈpi ðɛ ton i.e.ˈsuːn ɛl.ˈtʰon.tɛs os ˈiː.ðon ˈe.ðe av.ˈton tɛtʰ.ne.ˈko.ta uː ka.ˈtɛ.ak.san av.ˈtuː ta ˈskɛ.le"
+},
+{
+"v": "19:34",
+"pre": 0.0,
+"start": 11218.127,
+"dur": 12.381,
+"ipa": "all ˈiːs ˈton stra.ti.o.ˈton ˈloŋ.kʰe av.ˈtuː ten plɛv.ˈran ˈɛ.nyk.sɛn kɛ ɛk.ˈsel.tʰɛn ɛv.ˈtʰys ˈɛ.ma kɛ ˈy.ðor"
+},
+{
+"v": "19:35",
+"pre": 0.0,
+"start": 11231.108,
+"dur": 15.869,
+"ipa": "kɛ o ɛ.o.ra.ˈkos mɛ.mar.ˈty.re.kɛn kɛ a.le.tʰi.ˈne av.ˈtuː ɛs.tin e mar.ty.ˈri.a kɛ ɛ.ˈkiː.nos ˈy.ðɛn ˈo.ti a.le.ˈtʰe ˈlɛ.ɣiː ˈi.na kɛ y.ˈmiːs pis.ˈtɛv.e.tɛ"
+},
+{
+"v": "19:36",
+"pre": 0.0,
+"start": 11247.577,
+"dur": 9.84,
+"ipa": "ɛ.ˈɣɛ.nɛ.to ɣar ˈtav.ta ˈi.na e ɣra.ˈpʰe ple.ro.ˈtʰe os.ˈtuːn uː synt.ri.ˈve.sɛ.tɛ av.ˈtuː"
+},
+{
+"v": "19:37",
+"pre": 0.0,
+"start": 11258.017,
+"dur": 7.807,
+"ipa": "kɛ ˈpa.lin ɛ.ˈtɛ.ra ɣra.ˈpʰe ˈlɛ.ɣiː ˈop.son.tɛ iːs on ɛk.sɛ.ˈkɛn.te.san"
+},
+{
+"v": "19:38",
+"pre": 0.0,
+"start": 11266.424,
+"dur": 26.793,
+"ipa": "mɛ.ˈta ðɛ ˈtav.ta e.ˈro.te.sɛn ton pi.ˈla.ton i.o.ˈsepʰ a.ˈpo a.ri.ma.ˈtʰɛ.as on ma.tʰe.ˈtes ˈtuː i.e.ˈsuː kɛ.krym.ˈmɛ.nos ðɛ ði.ˈa ton ˈpʰo.von ˈton i.uː.ˈðɛ.on ˈi.na ˈa.re to ˈso.ma ˈtuː i.e.ˈsuː kɛ ɛ.ˈpɛ.trɛp.sɛn o pi.ˈla.tos ˈel.tʰɛn ˈuːn kɛ ˈe.rɛn to ˈso.ma av.ˈtuː"
+},
+{
+"v": "19:39",
+"pre": 0.0,
+"start": 11293.817,
+"dur": 13.883,
+"ipa": "ˈel.tʰɛn ðɛ kɛ ni.ˈko.ðe.mos o ɛl.ˈtʰon pros av.ˈton nyk.ˈtos to ˈpro.ton ˈpʰɛ.ron ˈmiɣ.ma ˈzmyr.nes kɛ a.ˈlo.es os ˈli.tras ɛ.ka.ˈton"
+},
+{
+"v": "19:40",
+"pre": 0.0,
+"start": 11308.3,
+"dur": 15.775,
+"ipa": "ˈɛ.la.von ˈuːn to ˈso.ma ˈtuː i.e.ˈsuː kɛ ˈɛ.ðe.san av.ˈto o.tʰo.ˈni.ys mɛ.ˈta ˈton a.ro.ˈma.ton ka.ˈtʰos ˈɛ.tʰos ɛs.ˈtin ˈtys i.uː.ˈðɛ.ys ɛn.ta.pʰi.ˈa.ziːn"
+},
+{
+"v": "19:41",
+"pre": 0.0,
+"start": 11324.675,
+"dur": 14.406,
+"ipa": "ˈen ðɛ ɛn ˈto ˈto.po ˈo.puː ɛs.tav.ˈro.tʰe ˈke.pos kɛ ɛn ˈto ˈke.po mne.ˈmiː.on kɛ.ˈnon ɛn ˈo uː.ˈðɛ.po uː.ˈðiːs ˈen tɛ.tʰiː.ˈmɛ.nos"
+},
+{
+"v": "19:42",
+"pre": 0.0,
+"start": 11339.682,
+"dur": 11.657,
+"ipa": "ɛ.ˈkiː ˈuːn ði.ˈa ten pa.ras.kɛv.ˈen ˈton i.uː.ˈðɛ.on ˈo.ti ɛŋ.ˈɣys ˈen to mne.ˈmiː.on ˈɛ.tʰe.kan ton i.e.ˈsuːn"
+},
+{
+"v": "20:1",
+"pre": 0.0,
+"start": 11351.939,
+"dur": 17.303,
+"ipa": "ˈte ðɛ mi.ˈa ˈton sav.ˈva.ton ma.ˈri.a e maɣ.ða.le.ˈne ˈɛr.kʰɛ.tɛ pro.ˈi sko.ˈti.as ˈɛ.ti ˈuː.ses iːs to mne.ˈmiː.on kɛ ˈvlɛ.piː ton ˈli.tʰon er.ˈmɛ.non ɛk ˈtuː mne.ˈmiː.uː"
+},
+{
+"v": "20:2",
+"pre": 0.0,
+"start": 11369.842,
+"dur": 21.425,
+"ipa": "ˈtrɛ.kʰiː ˈuːn kɛ ˈɛr.kʰɛ.tɛ pros ˈsi.mo.na ˈpɛ.tron kɛ pros ton ˈa.llon ma.tʰe.ˈten on ɛ.ˈpʰi.liː o i.e.ˈsuːs kɛ ˈlɛ.ɣiː av.ˈtys ˈe.ran ton ˈky.ri.on ɛk ˈtuː mne.ˈmiː.uː kɛ uːk ˈy.ða.mɛn ˈpuː ˈɛ.tʰe.kan av.ˈton"
+},
+{
+"v": "20:3",
+"pre": 0.0,
+"start": 11391.868,
+"dur": 9.382,
+"ipa": "ɛk.ˈsel.tʰɛn ˈuːn o ˈpɛ.tros kɛ o ˈa.llos ma.tʰe.ˈtes kɛ ˈer.kʰon.to iːs to mne.ˈmiː.on"
+},
+{
+"v": "20:4",
+"pre": 0.0,
+"start": 11401.849,
+"dur": 13.751,
+"ipa": "ˈɛ.trɛ.kʰon ðɛ y ˈðy.o o.ˈmuː kɛ o ˈa.llos ma.tʰe.ˈtes pro.ˈɛ.ðra.mɛn ˈta.kʰi.on ˈtuː ˈpɛ.truː kɛ ˈel.tʰɛn ˈpro.tos iːs to mne.ˈmiː.on"
+},
+{
+"v": "20:5",
+"pre": 0.0,
+"start": 11416.2,
+"dur": 8.268,
+"ipa": "kɛ pa.ra.ˈkyp.sas ˈvlɛ.piː ˈkiː.mɛ.na ta o.ˈtʰo.ni.a uː ˈmɛn.ty iː.ˈsel.tʰɛn"
+},
+{
+"v": "20:6",
+"pre": 0.0,
+"start": 11425.068,
+"dur": 13.822,
+"ipa": "ˈɛr.kʰɛ.tɛ ˈuːn kɛ ˈsi.mon ˈpɛ.tros a.ko.luː.ˈtʰon av.ˈto kɛ iː.ˈsel.tʰɛn iːs to mne.ˈmiː.on kɛ tʰɛ.o.ˈriː ta o.ˈtʰo.ni.a ˈkiː.mɛ.na"
+},
+{
+"v": "20:7",
+"pre": 0.0,
+"start": 11439.49,
+"dur": 15.131,
+"ipa": "kɛ to suː.ˈða.ri.on o ˈen ɛ.ˈpi ˈtes kɛ.pʰa.ˈles av.ˈtuː uː mɛ.ˈta ˈton o.tʰo.ˈni.on ˈkiː.mɛ.non a.ˈlla kʰo.ˈris ɛn.tɛ.ty.liɣ.ˈmɛ.non iːs ˈɛ.na ˈto.pon"
+},
+{
+"v": "20:8",
+"pre": 0.0,
+"start": 11455.221,
+"dur": 12.46,
+"ipa": "ˈto.tɛ ˈuːn iː.ˈsel.tʰɛn kɛ o ˈa.llos ma.tʰe.ˈtes o ɛl.ˈtʰon ˈpro.tos iːs to mne.ˈmiː.on kɛ ˈiː.ðɛn kɛ ɛ.ˈpis.tɛv.sɛn"
+},
+{
+"v": "20:9",
+"pre": 0.0,
+"start": 11468.281,
+"dur": 9.384,
+"ipa": "uː.ˈðɛ.po ɣar ˈe.ðiː.san ten ɣra.ˈpʰen ˈo.ti ˈðiː av.ˈton ɛk nɛ.ˈkron a.nas.ˈte.nɛ"
+},
+{
+"v": "20:10",
+"pre": 0.0,
+"start": 11478.265,
+"dur": 6.461,
+"ipa": "a.ˈpel.tʰon ˈuːn ˈpa.lin pros av.ˈtuːs y ma.tʰe.ˈtɛ"
+},
+{
+"v": "20:11",
+"pre": 0.0,
+"start": 11485.326,
+"dur": 12.031,
+"ipa": "ma.ˈri.a ðɛ iːs.ˈte.kiː pros ˈto mne.ˈmiː.o ˈɛk.so ˈklɛ.uː.sa os ˈuːn ˈɛ.klɛ.ɛn pa.ˈrɛ.kyp.sɛn iːs to mne.ˈmiː.on"
+},
+{
+"v": "20:12",
+"pre": 0.0,
+"start": 11497.957,
+"dur": 16.18,
+"ipa": "kɛ tʰɛ.o.ˈriː ˈðy.o aŋ.ˈɣɛ.luːs ɛn lɛv.ˈkys ka.tʰɛ.zo.ˈmɛ.nuːs ˈɛ.na pros ˈte kɛ.pʰa.ˈle kɛ ˈɛ.na pros ˈtys po.ˈsin ˈo.puː ˈɛ.kiː.to to ˈso.ma ˈtuː i.e.ˈsuː"
+},
+{
+"v": "20:13",
+"pre": 0.0,
+"start": 11514.737,
+"dur": 14.891,
+"ipa": "kɛ ˈlɛ.ɣuː.sin av.ˈte ɛ.ˈkiː.ny ˈɣy.nɛ ˈti ˈklɛ.iːs ˈlɛ.ɣiː av.ˈtys ˈo.ti ˈe.ran ton ˈky.ri.ˈon muː kɛ uːk ˈy.ða ˈpuː ˈɛ.tʰe.kan av.ˈton"
+},
+{
+"v": "20:14",
+"pre": 0.0,
+"start": 11530.228,
+"dur": 12.874,
+"ipa": "ˈtav.ta iː.ˈpuː.sa ɛst.ˈra.pʰe iːs ta o.ˈpi.so kɛ tʰɛ.o.ˈriː ton i.e.ˈsuːn ɛs.ˈto.ta kɛ uːk ˈe.ðiː ˈo.ti i.e.ˈsuːs ɛs.tin"
+},
+{
+"v": "20:15",
+"pre": 0.0,
+"start": 11543.702,
+"dur": 21.94,
+"ipa": "ˈlɛ.ɣiː av.ˈte i.e.ˈsuːs ˈɣy.nɛ ˈti ˈklɛ.iːs ˈti.na ze.ˈtiːs ɛ.ˈkiː.ne ðo.ˈkuː.sa ˈo.ti o ke.puː.ˈros ɛs.tin ˈlɛ.ɣiː av.ˈto ˈky.ri.ɛ iː sy ɛ.ˈvas.ta.sas av.ˈton iː.ˈpɛ my ˈpuː ˈɛ.tʰe.kas av.ˈton ka.ˈɣo av.ˈton a.ˈro"
+},
+{
+"v": "20:16",
+"pre": 0.0,
+"start": 11566.242,
+"dur": 12.857,
+"ipa": "ˈlɛ.ɣiː av.ˈte i.e.ˈsuːs ma.ri.ˈam stra.ˈpʰiː.sa ɛ.ˈkiː.ne ˈlɛ.ɣiː av.ˈto ɛ.vra.is.ˈti rav.vuː.ni o ˈlɛ.ɣɛ.tɛ ði.ˈðas.ka.lɛ"
+},
+{
+"v": "20:17",
+"pre": 0.0,
+"start": 11579.7,
+"dur": 23.955,
+"ipa": "ˈlɛ.ɣiː av.ˈte i.e.ˈsuːs ˈme muː ˈap.tuː ˈuː.po ɣar a.na.ˈvɛ.ve.ka pros ton pa.ˈtɛ.ra po.ˈrɛv.uː ðɛ pros tuːs a.ðɛl.ˈpʰuːs muː kɛ iː.ˈpɛ av.ˈtys a.na.ˈvɛ.no pros ton pa.ˈtɛ.ra muː kɛ pa.ˈtɛ.ra y.ˈmon kɛ tʰɛ.ˈon muː kɛ tʰɛ.ˈon y.ˈmon"
+},
+{
+"v": "20:18",
+"pre": 0.0,
+"start": 11604.255,
+"dur": 12.9,
+"ipa": "ˈɛr.kʰɛ.tɛ ma.ri.ˈam e maɣ.ða.le.ˈne aŋ.ˈɣɛ.lluː.sa ˈtys ma.tʰe.ˈtɛs ˈo.ti ɛ.ˈo.ra.ka ton ˈky.ri.on kɛ ˈtav.ta ˈiː.pɛn av.ˈte"
+},
+{
+"v": "20:19",
+"pre": 0.0,
+"start": 11617.755,
+"dur": 25.471,
+"ipa": "ˈuː.ses ˈuːn op.ˈsi.as ˈte e.ˈmɛ.ra ɛ.ˈkiː.ne ˈte mi.ˈa sav.ˈva.ton kɛ ˈton tʰy.ˈron kɛ.kliːz.ˈmɛ.non ˈo.puː ˈe.san y ma.tʰe.ˈtɛ ði.ˈa ton ˈpʰo.von ˈton i.uː.ˈðɛ.on ˈel.tʰɛn o i.e.ˈsuːs kɛ ˈɛs.te iːs to ˈmɛ.son kɛ ˈlɛ.ɣiː av.ˈtys iː.ˈre.ne y.ˈmin"
+},
+{
+"v": "20:20",
+"pre": 0.0,
+"start": 11643.826,
+"dur": 13.381,
+"ipa": "kɛ ˈtuː.to iː.ˈpon ˈɛ.ðiːk.sɛn tas ˈkʰiː.ras kɛ ten plɛv.ˈran av.ˈtys ɛ.ˈkʰa.re.san ˈuːn y ma.tʰe.ˈtɛ i.ˈðon.tɛs ton ˈky.ri.on"
+},
+{
+"v": "20:21",
+"pre": 0.0,
+"start": 11657.807,
+"dur": 12.095,
+"ipa": "ˈiː.pɛn ˈuːn av.ˈtys o i.e.ˈsuːs ˈpa.lin iː.ˈre.ne y.ˈmin ka.ˈtʰos a.ˈpɛs.tal.ˈkɛn mɛ o pa.ˈter ka.ˈɣo ˈpɛm.po y.ˈmas"
+},
+{
+"v": "20:22",
+"pre": 0.0,
+"start": 11670.502,
+"dur": 9.124,
+"ipa": "kɛ ˈtuː.to iː.ˈpon ɛ.nɛ.ˈpʰy.se.sɛn kɛ ˈlɛ.ɣiː av.ˈtys ˈla.vɛ.tɛ ˈpnɛv.ma ˈa.ɣi.on"
+},
+{
+"v": "20:23",
+"pre": 0.0,
+"start": 11680.226,
+"dur": 10.125,
+"ipa": "ˈan ti.non a.ˈpʰe.tɛ tas a.mar.ˈti.as a.ˈpʰɛ.on.tɛ av.ˈtys ˈan ti.non kra.ˈte.tɛ kɛ.ˈkra.ten.tɛ"
+},
+{
+"v": "20:24",
+"pre": 0.0,
+"start": 11690.952,
+"dur": 11.74,
+"ipa": "tʰo.ˈmas ðɛ ˈiːs ɛk ˈton ˈðo.ðɛ.ka o lɛ.ˈɣo.mɛ.nos ˈði.ðy.mos uːk ˈen mɛt av.ˈton ˈo.tɛ ˈel.tʰɛn i.e.ˈsuːs"
+},
+{
+"v": "20:25",
+"pre": 0.0,
+"start": 11703.292,
+"dur": 29.12,
+"ipa": "ˈɛ.lɛ.ɣon ˈuːn av.ˈto y ˈa.lly ma.tʰe.ˈtɛ ɛ.o.ˈra.ka.mɛn ton ˈky.ri.on o ðɛ ˈiː.pɛn av.ˈtys ɛ.ˈan me ˈi.ðo ɛn ˈtɛs kʰɛr.ˈsin av.ˈtuː ton ˈty.pon ˈton ˈe.lon kɛ ˈva.lo ton ˈðak.ty.ˈlon muː iːs ton ˈty.pon ˈton ˈe.lon kɛ ˈva.lo muː ten ˈkʰiː.ra iːs ten plɛv.ˈran av.ˈtuː uː me pis.ˈtɛv.so"
+},
+{
+"v": "20:26",
+"pre": 0.0,
+"start": 11733.012,
+"dur": 20.521,
+"ipa": "kɛ mɛtʰ e.ˈmɛ.ras ok.ˈto ˈpa.lin ˈe.san ˈɛ.so y ma.tʰe.ˈtɛ av.ˈtuː kɛ tʰo.ˈmas mɛt av.ˈton ˈɛr.kʰɛ.tɛ o i.e.ˈsuːs ˈton tʰy.ˈron kɛ.kliːz.ˈmɛ.non kɛ ˈɛs.te iːs to ˈmɛ.son kɛ ˈiː.pɛn iː.ˈre.ne y.ˈmin"
+},
+{
+"v": "20:27",
+"pre": 0.0,
+"start": 11754.133,
+"dur": 19.614,
+"ipa": "ˈiː.ta ˈlɛ.ɣiː ˈto tʰo.ˈma ˈpʰɛ.rɛ ton ˈðak.ty.ˈlon suː ˈo.ðɛ kɛ ˈi.ðɛ tas ˈkʰiː.ˈras muː kɛ ˈpʰɛ.rɛ ten ˈkʰiː.ˈra suː kɛ ˈva.lɛ iːs ten plɛv.ˈran muː kɛ me ˈɣi.nuː ˈa.pis.tos a.ˈlla pis.ˈtos"
+},
+{
+"v": "20:28",
+"pre": 0.0,
+"start": 11774.347,
+"dur": 8.535,
+"ipa": "a.pɛ.ˈkri.tʰe tʰo.ˈmas kɛ ˈiː.pɛn av.ˈto o ˈky.ri.ˈos muː kɛ o tʰɛ.ˈos muː"
+},
+{
+"v": "20:29",
+"pre": 0.0,
+"start": 11783.482,
+"dur": 12.013,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs ˈo.ti ɛ.ˈo.ra.ˈkas mɛ pɛ.ˈpis.tɛv.kas ma.ˈka.ri.y y me i.ˈðon.tɛs kɛ pis.ˈtɛv.san.tɛs"
+},
+{
+"v": "20:30",
+"pre": 0.0,
+"start": 11796.095,
+"dur": 14.863,
+"ipa": "po.ˈlla mɛn ˈuːn kɛ ˈa.lla se.ˈmiː.a ɛ.ˈpy.e.sɛn o i.e.ˈsuːs ɛ.ˈno.pi.on ˈton ma.tʰe.ˈton a uːk ˈɛs.tin ɣɛ.ɣram.ˈmɛ.na ɛn ˈto vi.ˈvli.o ˈtuː.to"
+},
+{
+"v": "20:31",
+"pre": 0.0,
+"start": 11811.558,
+"dur": 17.246,
+"ipa": "ˈtav.ta ðɛ ˈɣɛ.ɣrap.tɛ ˈi.na pis.ˈtɛv.e.tɛ ˈo.ti i.e.ˈsuːs ɛs.tin o kʰris.ˈtos o y.ˈos ˈtuː tʰɛ.ˈuː kɛ ˈi.na pis.ˈtɛv.on.tɛs zo.ˈen ˈɛ.kʰe.tɛ ɛn ˈto o.ˈno.ma.ti av.ˈtuː"
+},
+{
+"v": "21:1",
+"pre": 0.0,
+"start": 11829.404,
+"dur": 15.083,
+"ipa": "mɛ.ˈta ˈtav.ta ɛ.pʰa.ˈnɛ.ro.sɛn ɛ.av.ˈton ˈpa.lin o i.e.ˈsuːs ˈtys ma.tʰe.ˈtɛs ɛ.ˈpi ˈtes tʰa.ˈlas.ses ˈtes ti.vɛ.ri.ˈa.ðos ɛ.pʰa.ˈnɛ.ro.sɛn ðɛ ˈuː.tos"
+},
+{
+"v": "21:2",
+"pre": 0.0,
+"start": 11845.087,
+"dur": 19.622,
+"ipa": "ˈe.san o.ˈmuː ˈsi.mon ˈpɛ.tros kɛ tʰo.ˈmas o lɛ.ˈɣo.mɛ.nos ˈði.ðy.mos kɛ na.tʰa.na.ˈel o a.ˈpo ka.ˈna ˈtes ɣa.li.ˈlɛ.as kɛ y ˈtuː zɛ.vɛ.ˈðɛ.uː kɛ ˈa.lly ɛk ˈton ma.tʰe.ˈton av.ˈtuː ˈðy.o"
+},
+{
+"v": "21:3",
+"pre": 0.0,
+"start": 11865.309,
+"dur": 20.499,
+"ipa": "ˈlɛ.ɣiː av.ˈtys ˈsi.mon ˈpɛ.tros y.ˈpa.ɣo a.li.ˈɛv.iːn ˈlɛ.ɣuː.sin av.ˈto ɛr.ˈkʰo.mɛ.tʰa kɛ e.ˈmiːs syn ˈsy ɛk.ˈsel.tʰon kɛ ɛ.ˈnɛ.ve.san iːs to ˈply.on kɛ ɛn ɛ.ˈkiː.ne ˈte nyk.ˈti ɛ.ˈpi.a.san uː.ˈðɛn"
+},
+{
+"v": "21:4",
+"pre": 0.0,
+"start": 11886.407,
+"dur": 13.114,
+"ipa": "pro.ˈi.as ðɛ ˈe.ðe ɣɛ.no.ˈmɛ.nes ˈɛs.te i.e.ˈsuːs iːs ton ɛ.ɣi.a.ˈlon uː ˈmɛn.ty ˈe.ðiː.san y ma.tʰe.ˈtɛ ˈo.ti i.e.ˈsuːs ɛs.tin"
+},
+{
+"v": "21:5",
+"pre": 0.0,
+"start": 11900.121,
+"dur": 11.069,
+"ipa": "ˈlɛ.ɣiː ˈuːn av.ˈtys o i.e.ˈsuːs pɛ.ˈði.a ˈme ti pros.ˈpʰa.ɣi.on ˈɛ.kʰɛ.tɛ a.pɛ.ˈkri.tʰe.san av.ˈto ˈuː"
+},
+{
+"v": "21:6",
+"pre": 0.0,
+"start": 11911.79,
+"dur": 19.409,
+"ipa": "o ðɛ ˈiː.pɛn av.ˈtys ˈva.lɛ.tɛ iːs ta ðɛk.si.ˈa ˈmɛ.re ˈtuː ˈply.uː to ˈðik.ty.on kɛ ɛv.ˈre.sɛ.tɛ ˈɛ.va.lon ˈuːn kɛ uː.ˈkɛ.ti av.ˈto ɛl.ˈky.sɛ ˈis.kʰy.on a.ˈpo ˈtuː ˈple.tʰuːs ˈton ikʰ.ˈtʰy.on"
+},
+{
+"v": "21:7",
+"pre": 0.0,
+"start": 11931.799,
+"dur": 23.818,
+"ipa": "ˈlɛ.ɣiː ˈuːn o ma.tʰe.ˈtes ɛ.ˈkiː.nos on e.ˈɣa.pa o i.e.ˈsuːs ˈto ˈpɛ.tro o ˈky.ri.ˈos ɛs.tin ˈsi.mon ˈuːn ˈpɛ.tros a.ˈkuː.sas ˈo.ti o ˈky.ri.ˈos ɛs.tin ton ɛ.pɛn.ˈðy.ten ði.ɛ.ˈzo.sa.to ˈen ɣar ɣym.ˈnos kɛ ˈɛ.va.lɛn ɛ.av.ˈton iːs ten ˈtʰa.las.san"
+},
+{
+"v": "21:8",
+"pre": 0.0,
+"start": 11956.217,
+"dur": 17.469,
+"ipa": "y ðɛ ˈa.lly ma.tʰe.ˈtɛ ˈto ply.a.ˈri.o ˈel.tʰon uː ɣar ˈe.san ma.ˈkran a.ˈpo ˈtes ˈɣes a.ˈlla os a.ˈpo pe.ˈkʰon ði.a.ko.ˈsi.on ˈsy.ron.tɛs to ˈðik.ty.on ˈton ikʰ.ˈtʰy.on"
+},
+{
+"v": "21:9",
+"pre": 0.0,
+"start": 11974.285,
+"dur": 12.045,
+"ipa": "os ˈuːn a.ˈpɛ.ve.san iːs ten ˈɣen ˈvlɛ.puː.sin antʰ.ra.ki.ˈan kiː.ˈmɛ.nen kɛ op.ˈsa.ri.on ɛ.pi.ˈkiː.mɛ.non kɛ ˈar.ton"
+},
+{
+"v": "21:10",
+"pre": 0.0,
+"start": 11986.93,
+"dur": 9.536,
+"ipa": "ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs ɛ.ˈnɛŋ.ka.tɛ a.ˈpo ˈton op.sa.ˈri.on ˈon ɛ.pi.ˈa.sa.tɛ ˈnyn"
+},
+{
+"v": "21:11",
+"pre": 0.0,
+"start": 11997.066,
+"dur": 18.553,
+"ipa": "a.ˈnɛ.ve ˈuːn ˈsi.mon ˈpɛ.tros kɛ ˈiːl.ky.sɛn to ˈðik.ty.on iːs ten ˈɣen mɛs.ˈton ikʰ.ˈtʰy.on mɛ.ˈɣa.lon ɛ.ka.ˈton pɛn.ˈte.kon.ta tri.ˈon kɛ to.ˈsuː.ton ˈon.ton uːk ɛs.ˈkʰis.tʰe to ˈðik.ty.on"
+},
+{
+"v": "21:12",
+"pre": 0.0,
+"start": 12016.219,
+"dur": 16.461,
+"ipa": "ˈlɛ.ɣiː av.ˈtys o i.e.ˈsuːs ˈðɛv.tɛ a.ris.ˈte.sa.tɛ uː.ˈðiːs ðɛ ɛ.ˈtol.ma ˈton ma.tʰe.ˈton ɛk.sɛ.ˈta.sɛ av.ˈton sy ˈtis ˈiː iː.ˈðo.tɛs ˈo.ti o ˈky.ri.ˈos ɛs.tin"
+},
+{
+"v": "21:13",
+"pre": 0.0,
+"start": 12033.28,
+"dur": 11.084,
+"ipa": "ˈɛr.kʰɛ.tɛ o i.e.ˈsuːs kɛ lam.ˈva.niː ton ˈar.ton kɛ ˈði.ðo.sin av.ˈtys kɛ to op.ˈsa.ri.on o.ˈmy.os"
+},
+{
+"v": "21:14",
+"pre": 0.0,
+"start": 12044.964,
+"dur": 9.915,
+"ipa": "ˈtuː.to ˈe.ðe ˈtri.ton ɛ.pʰa.nɛ.ˈro.tʰe o i.e.ˈsuːs ˈtys ma.tʰe.ˈtɛs ɛ.ɣɛr.ˈtʰiːs ɛk nɛ.ˈkron"
+},
+{
+"v": "21:15",
+"pre": 0.0,
+"start": 12055.479,
+"dur": 21.131,
+"ipa": "ˈo.tɛ ˈuːn e.ˈris.te.san ˈlɛ.ɣiː ˈto ˈsi.mo.ni ˈpɛ.tro o i.e.ˈsuːs ˈsi.mon i.o.ˈan.nuː a.ɣa.ˈpas mɛ ˈplɛ.on ˈtuː.ton ˈlɛ.ɣiː av.ˈto ˈnɛ ˈky.ri.ɛ sy ˈy.ðas ˈo.ti pʰi.ˈlo sɛ ˈlɛ.ɣiː av.ˈto ˈvos.kɛ ta ar.ˈni.a muː"
+},
+{
+"v": "21:16",
+"pre": 0.0,
+"start": 12077.21,
+"dur": 17.572,
+"ipa": "ˈlɛ.ɣiː av.ˈto ˈpa.lin ˈðɛv.tɛ.ron ˈsi.mon i.o.ˈan.nuː a.ɣa.ˈpas mɛ ˈlɛ.ɣiː av.ˈto ˈnɛ ˈky.ri.ɛ sy ˈy.ðas ˈo.ti pʰi.ˈlo sɛ ˈlɛ.ɣiː av.ˈto ˈpy.mɛ.nɛ ta ˈpro.va.ˈta muː"
+},
+{
+"v": "21:17",
+"pre": 0.0,
+"start": 12095.383,
+"dur": 25.956,
+"ipa": "ˈlɛ.ɣiː av.ˈto to ˈtri.ton ˈsi.mon i.o.ˈan.nuː pʰi.ˈliːs mɛ ɛ.ly.ˈpe.tʰe o ˈpɛ.tros ˈo.ti ˈiː.pɛn av.ˈto to ˈtri.ton pʰi.ˈliːs mɛ kɛ ˈiː.pɛn av.ˈto ˈky.ri.ɛ ˈpan.ta sy ˈy.ðas sy ɣi.ˈnos.kiːs ˈo.ti pʰi.ˈlo sɛ ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs ˈvos.kɛ ta ˈpro.va.ˈta muː"
+},
+{
+"v": "21:18",
+"pre": 0.0,
+"start": 12121.939,
+"dur": 21.05,
+"ipa": "a.ˈmen a.ˈmen ˈlɛ.ɣo sy ˈo.tɛ ˈes nɛ.ˈo.tɛ.ros ɛ.ˈzon.ny.ɛs sɛ.av.ˈton kɛ pɛ.ri.ɛ.ˈpa.tiːs ˈo.puː ˈe.tʰɛ.lɛs ˈo.tan ðɛ ɣe.ˈra.ses ɛk.tɛ.ˈniːs tas ˈkʰiː.ˈras suː kɛ ˈa.llos sɛ ˈzo.siː kɛ ˈy.siː ˈo.puː uː ˈtʰɛ.liːs"
+},
+{
+"v": "21:19",
+"pre": 0.0,
+"start": 12143.589,
+"dur": 13.033,
+"ipa": "ˈtuː.to ðɛ ˈiː.pɛn se.ˈmɛ.non ˈpy.o tʰa.ˈna.to ðok.ˈsa.siː ton tʰɛ.ˈon kɛ ˈtuː.to iː.ˈpon ˈlɛ.ɣiː av.ˈto a.ko.ˈluː.tʰiː my"
+},
+{
+"v": "21:20",
+"pre": 0.0,
+"start": 12157.222,
+"dur": 20.839,
+"ipa": "ɛ.pist.ra.ˈpʰiːs o ˈpɛ.tros ˈvlɛ.piː ton ma.tʰe.ˈten on e.ˈɣa.pa o i.e.ˈsuːs a.ko.luː.ˈtʰuːn.ta os kɛ a.ˈnɛ.pɛ.sɛn ɛn ˈto ˈðiːp.no ɛ.ˈpi to ˈste.tʰos av.ˈtuː kɛ ˈiː.pɛn ˈky.ri.ɛ ˈtis ɛs.tin o pa.ra.ði.ˈðuːs sɛ"
+},
+{
+"v": "21:21",
+"pre": 0.0,
+"start": 12178.66,
+"dur": 8.422,
+"ipa": "ˈtuː.ton ˈuːn i.ˈðon o ˈpɛ.tros ˈlɛ.ɣiː ˈto i.e.ˈsuː ˈky.ri.ɛ ˈuː.tos ðɛ ˈti"
+},
+{
+"v": "21:22",
+"pre": 0.0,
+"start": 12187.682,
+"dur": 11.536,
+"ipa": "ˈlɛ.ɣiː av.ˈto o i.e.ˈsuːs ɛ.ˈan av.ˈton ˈtʰɛ.lo ˈmɛ.niːn ˈɛ.os ˈɛr.kʰo.mɛ ˈti pros ˈsɛ ˈsy my a.ko.ˈluː.tʰiː"
+},
+{
+"v": "21:23",
+"pre": 0.0,
+"start": 12199.818,
+"dur": 23.096,
+"ipa": "ɛk.ˈsel.tʰɛn ˈuːn ˈuː.tos o ˈlo.ɣos iːs tuːs a.ðɛl.ˈpʰuːs ˈo.ti o ma.tʰe.ˈtes ɛ.ˈkiː.nos uːk a.potʰ.ˈnes.kiː uːk ˈiː.pɛn ðɛ av.ˈto o i.e.ˈsuːs ˈo.ti uːk a.potʰ.ˈnes.kiː all ɛ.ˈan av.ˈton ˈtʰɛ.lo ˈmɛ.niːn ˈɛ.os ˈɛr.kʰo.mɛ ˈti pros ˈsɛ"
+},
+{
+"v": "21:24",
+"pre": 0.0,
+"start": 12223.514,
+"dur": 14.654,
+"ipa": "ˈuː.ˈtos ɛs.tin o ma.tʰe.ˈtes o mar.ty.ˈron pɛ.ˈri ˈtuː.ton kɛ o ˈɣrap.sas ˈtav.ta kɛ ˈy.ða.mɛn ˈo.ti a.le.ˈtʰes av.ˈtuː e mar.ty.ˈri.a ɛs.ˈtin"
+},
+{
+"v": "21:25",
+"pre": 0.0,
+"start": 12238.768,
+"dur": 16.333,
+"ipa": "ˈɛs.tin ðɛ kɛ ˈa.lla po.ˈlla a ɛ.ˈpy.e.sɛn o i.e.ˈsuːs ˈa.ti.na ɛ.ˈan ˈɣra.pʰe.tɛ katʰ ˈɛn uːð av.ˈton ˈy.mɛ ton ˈkoz.mon kʰo.ˈre.siːn ta ɣra.ˈpʰo.mɛ.na vi.ˈvli.a"
+}
+]
+}

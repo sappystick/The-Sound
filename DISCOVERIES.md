@@ -541,3 +541,7 @@ Write-ups:
   - **π in the bronze sea:** fails as written (with the conjunction it gives 3.134), and the same ratio recurs in non-circle *ketiv/qere* pairs.
   - **The ark as capacitor:** 2–9 nF, a few joules at most.
   - **What is real:** the sanctuary is non-ferrous and iron is excluded (1 Kgs 6:7); a cube / square / double-square geometry; and the 4 × 3 twelve of the camp and the breastpiece.
+- **Round 63 (`POWER_EGYPT.md`):**
+  - "In the midst" is a Hebrew-Bible motif, twelve a New Testament one, the cube a philosophers' one. All three meet in Exod 28/39 (the breastpiece), 1 Kgs 7 and Ezek 43.
+  - **Verified:** Ezek 43:7 bars "the corpses of their kings" from God's dwelling-in-the-midst; Josephus *Ant.* 2.203 (Hebrews "building pyramids") and 13.62–64 (Onias's temple in the Heliopolite nome, built on Isaiah 19).
+  - **Reading:** the Bible keeps the Egyptian sacred matrix but reverses its purpose (God descends; the dead are excluded; twelve around the centre).

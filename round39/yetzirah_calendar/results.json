@@ -168,9 +168,51 @@
    28,
    29
   ],
+  "A1_genre_particles_per100words": {
+   "pooled_power": {
+    "853": 1.7857142857142858,
+    "834": 1.4285714285714286
+   },
+   "source_books": {
+    "853": 3.6020698032539142,
+    "834": 1.7905137205765607
+   }
+  },
   "A1": {
    "Gen 1 divine speech (10 utterances)": {
     "letters": 516,
+    "letter_drivers": [
+     [
+      "צ",
+      17,
+      7.2,
+      3.41
+     ],
+     [
+      "א",
+      29,
+      51.1,
+      -3.4
+     ],
+     [
+      "ז",
+      7,
+      2.9,
+      2.3
+     ],
+     [
+      "ע",
+      28,
+      18.8,
+      2.09
+     ],
+     [
+      "ה",
+      56,
+      41.6,
+      1.97
+     ]
+    ],
     "mothers": {
      "obs": 0.1996124031007752,
      "null_mean": 0.22242122093023253,
@@ -216,6 +258,38 @@
    },
    "Exod 3:14": {
     "letters": 60,
+    "letter_drivers": [
+     [
+      "א",
+      11,
+      5.0,
+      2.66
+     ],
+     [
+      "ו",
+      2,
+      5.9,
+      -1.66
+     ],
+     [
+      "י",
+      10,
+      6.2,
+      1.65
+     ],
+     [
+      "ע",
+      0,
+      2.5,
+      -1.54
+     ],
+     [
+      "ה",
+      9,
+      5.8,
+      1.27
+     ]
+    ],
     "mothers": {
      "obs": 0.35,
      "null_mean": 0.22487333333333331,
@@ -261,6 +335,38 @@
    },
    "Num 6:24-26": {
     "letters": 60,
+    "letter_drivers": [
+     [
+      "כ",
+      7,
+      1.8,
+      3.33
+     ],
+     [
+      "י",
+      13,
+      5.9,
+      3.26
+     ],
+     [
+      "ת",
+      0,
+      3.2,
+      -1.57
+     ],
+     [
+      "ע",
+      0,
+      2.2,
+      -1.5
+     ],
+     [
+      "ו",
+      9,
+      5.7,
+      1.33
+     ]
+    ],
     "mothers": {
      "obs": 0.18333333333333332,
      "null_mean": 0.22766499999999995,
@@ -306,6 +412,38 @@
    },
    "Deut 6:4": {
     "letters": 25,
+    "letter_drivers": [
+     [
+      "ה",
+      5,
+      2.4,
+      1.55
+     ],
+     [
+      "ת",
+      0,
+      1.5,
+      -1.25
+     ],
+     [
+      "כ",
+      0,
+      1.4,
+      -1.17
+     ],
+     [
+      "ב",
+      0,
+      1.4,
+      -1.17
+     ],
+     [
+      "י",
+      4,
+      2.5,
+      1.09
+     ]
+    ],
     "mothers": {
      "obs": 0.24,
      "null_mean": 0.218344,
@@ -351,6 +489,38 @@
    },
    "Ps 29": {
     "letters": 351,
+    "letter_drivers": [
+     [
+      "ה",
+      48,
+      23.7,
+      3.34
+     ],
+     [
+      "ו",
+      59,
+      38.7,
+      2.24
+     ],
+     [
+      "ק",
+      10,
+      5.0,
+      2.16
+     ],
+     [
+      "א",
+      10,
+      21.4,
+      -2.06
+     ],
+     [
+      "פ",
+      1,
+      6.6,
+      -2.05
+     ]
+    ],
     "mothers": {
      "obs": 0.1339031339031339,
      "null_mean": 0.1860790598290598,
@@ -396,6 +566,38 @@
    },
    "Isa 6:3": {
     "letters": 49,
+    "letter_drivers": [
+     [
+      "ק",
+      4,
+      0.8,
+      3.45
+     ],
+     [
+      "ד",
+      4,
+      1.3,
+      2.35
+     ],
+     [
+      "י",
+      1,
+      5.8,
+      -2.21
+     ],
+     [
+      "ז",
+      2,
+      0.5,
+      2.07
+     ],
+     [
+      "ו",
+      9,
+      5.7,
+      1.52
+     ]
+    ],
     "mothers": {
      "obs": 0.22448979591836735,
      "null_mean": 0.19778469387755104,
@@ -441,6 +643,38 @@
    },
    "POOLED power speech": {
     "letters": 1061,
+    "letter_drivers": [
+     [
+      "ה",
+      129,
+      82.7,
+      4.09
+     ],
+     [
+      "ת",
+      29,
+      55.0,
+      -2.89
+     ],
+     [
+      "א",
+      63,
+      88.4,
+      -2.67
+     ],
+     [
+      "ס",
+      0,
+      7.7,
+      -2.4
+     ],
+     [
+      "ז",
+      14,
+      7.5,
+      2.26
+     ]
+    ],
     "mothers": {
      "obs": 0.1875589066918002,
      "null_mean": 0.2096346371347785,
@@ -486,6 +720,38 @@
    },
    "POOLED, divine names removed (sensitivity)": {
     "letters": 939,
+    "letter_drivers": [
+     [
+      "ז",
+      14,
+      6.5,
+      2.78
+     ],
+     [
+      "ת",
+      28,
+      48.7,
+      -2.52
+     ],
+     [
+      "א",
+      58,
+      80.0,
+      -2.49
+     ],
+     [
+      "ס",
+      0,
+      6.7,
+      -2.26
+     ],
+     [
+      "ר",
+      69,
+      54.8,
+      2.0
+     ]
+    ],
     "mothers": {
      "obs": 0.20447284345047922,
      "null_mean": 0.2111074547390841,
@@ -1392,8 +1658,21 @@
   }
  },
  "B0": {
-  "enoch72_month_lengths_found": [],
-  "enoch72_sum_first12": 0,
+  "enoch72_month_lengths_found": [
+   30,
+   30,
+   31,
+   30,
+   30,
+   31,
+   30,
+   30,
+   31,
+   30,
+   30,
+   31
+  ],
+  "enoch72_sum_first12": 364,
   "enoch74_solar": [
    1092,
    1820,
@@ -1472,34 +1751,18 @@
    "4Q330": 12,
    "4Q32": 43
   },
-  "dss_weekday_entries": 45,
-  "dss_weekday_matches": 45,
+  "dss_weekday_entries": 57,
+  "dss_weekday_matches": 57,
   "dss_course_entries": 42,
   "dss_course_fit": {
-   "hits": 39,
+   "hits": 42,
    "of": 42,
    "offset_course_week0": "גמול",
    "weeks_start_sunday": true,
    "fitted_from_entry": 1
   },
-  "dss_course_p_binomial": 3.3553128442679497e-49,
-  "dss_course_misses": [
-   {
-    "ref": "4Q320 f4iii 4",
-    "text_course": "שערים",
-    "model": "שעורים"
-   },
-   {
-    "ref": "4Q320 f4iii 12",
-    "text_course": "שערים",
-    "model": "שעורים"
-   },
-   {
-    "ref": "4Q320 f4iv 2",
-    "text_course": "שערים",
-    "model": "שעורים"
-   }
-  ],
+  "dss_course_p_binomial": 2.5783334907094203e-57,
+  "dss_course_misses": [],
   "dss_entries": [
    {
     "scroll": "4Q320",
@@ -1529,7 +1792,7 @@
     "line": "4",
     "year": 1,
     "weekday_num": 5,
-    "course": "שערים",
+    "course": "שעורים",
     "festival": "Second Passover (14/II)",
     "pred_weekday_num": 5,
     "weekday_ok": true
@@ -1584,7 +1847,7 @@
     "line": "12",
     "year": 2,
     "weekday_num": 3,
-    "course": "שערים",
+    "course": "שעורים",
     "festival": "Passover (14/I)",
     "pred_weekday_num": 3,
     "weekday_ok": true
@@ -1628,7 +1891,7 @@
     "line": "2",
     "year": 2,
     "weekday_num": 4,
-    "course": "שערים",
+    "course": "שעורים",
     "festival": "Remembrance (1/VII)",
     "pred_weekday_num": 4,
     "weekday_ok": true
@@ -1961,6 +2224,150 @@
     "course": "גמול",
     "festival": "Tabernacles (15/VII)",
     "pred_weekday_num": 4,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f12",
+    "line": "1",
+    "year": null,
+    "weekday_num": 1,
+    "course": null,
+    "course_text": "ידעיה",
+    "festival": "Omer waving (26/I)",
+    "pred_weekday_num": 1,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f12",
+    "line": "1",
+    "year": null,
+    "weekday_num": 5,
+    "course": null,
+    "course_text": "שעורים",
+    "festival": "Second Passover (14/II)",
+    "pred_weekday_num": 5,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f12",
+    "line": "2",
+    "year": null,
+    "weekday_num": 1,
+    "course": null,
+    "course_text": "ישוע",
+    "festival": "Weeks (15/III)",
+    "pred_weekday_num": 1,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f12",
+    "line": "2",
+    "year": null,
+    "weekday_num": 4,
+    "course": null,
+    "course_text": "מעזיה",
+    "festival": "Remembrance (1/VII)",
+    "pred_weekday_num": 4,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "1",
+    "year": null,
+    "weekday_num": 5,
+    "course": null,
+    "course_text": "יחזקאל",
+    "festival": "Second Passover (14/II)",
+    "pred_weekday_num": 5,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "1",
+    "year": null,
+    "weekday_num": 1,
+    "course": null,
+    "course_text": "יהויריב",
+    "festival": "Weeks (15/III)",
+    "pred_weekday_num": 1,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "2",
+    "year": null,
+    "weekday_num": 6,
+    "course": null,
+    "course_text": "חזיר",
+    "festival": "Atonement (10/VII)",
+    "pred_weekday_num": 6,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "3",
+    "year": null,
+    "weekday_num": 3,
+    "course": null,
+    "course_text": "יחזקאל",
+    "festival": "Passover (14/I)",
+    "pred_weekday_num": 3,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "4",
+    "year": null,
+    "weekday_num": 5,
+    "course": null,
+    "course_text": "מעזיה",
+    "festival": "Second Passover (14/II)",
+    "pred_weekday_num": 5,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q319",
+    "frag": "f13",
+    "line": "5",
+    "year": null,
+    "weekday_num": 4,
+    "course": null,
+    "course_text": "יחזקאל",
+    "festival": "Remembrance (1/VII)",
+    "pred_weekday_num": 4,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q329a",
+    "frag": "f1",
+    "line": "5",
+    "year": null,
+    "weekday_num": 3,
+    "course": null,
+    "course_text": "יקים",
+    "festival": "Passover (14/I)",
+    "pred_weekday_num": 3,
+    "weekday_ok": true
+   },
+   {
+    "scroll": "4Q329a",
+    "frag": "f1",
+    "line": "6",
+    "year": null,
+    "weekday_num": 3,
+    "course": null,
+    "course_text": "אמר",
+    "festival": "Passover (14/I)",
+    "pred_weekday_num": 3,
     "weekday_ok": true
    },
    {
@@ -1997,14 +2404,20 @@
     "weekday_ok": true
    }
   ],
-  "dss_mentions": {
+  "dss_token_counts": {
    "חנוכה": 0,
-   "פורים": 17,
-   "ה פסח": 35,
+   "חנכה": 0,
+   "פורים": 0,
+   "פסח": 35,
    "סכות": 10,
    "שבועים": 16,
-   "כפורים": 17
+   "כפורים": 17,
+   "עצים": 1,
+   "שמן": 1,
+   "יין": 1,
+   "דוק": 0
   },
+  "dss_weekday_p_binomial": 6.751677959303347e-49,
   "six_year_cycle_days": 2184,
   "six_year_cycle_weeks_over_24": 13.0
  },
@@ -2076,7 +2489,6 @@
    {
     "ref": "2:20",
     "kinds": [
-     "six days",
      "three days",
      "years"
     ],
@@ -2668,7 +3080,6 @@
    "not many days": 1,
    "Passover": 9,
    "three days": 2,
-   "six days": 2,
    "years": 3,
    "feast": 15,
    "night": 6,
@@ -2683,11 +3094,20 @@
    "Dedication": 1,
    "winter": 1,
    "four days": 1,
+   "six days": 1,
    "early morning": 3,
    "Preparation": 3,
    "eight days": 1
   },
   "n_marker_verses": 92,
+  "john1_41_mss": {
+   "P66": "πρωτον",
+   "P75": "πρωτον",
+   "01": "πρωτοσ",
+   "02": "πρωτον",
+   "03": "πρωτον",
+   "032": "πρωτοσ"
+  },
   "inaugural_week_verses": [
    {
     "ref": "1:19",
@@ -3965,8 +4385,8 @@
    "part": "B0",
    "set": "DSS courses",
    "profile": "course rotation vs chance",
-   "p": 3.3553128442679497e-49,
-   "q": 2.1138470918888084e-47
+   "p": 2.5783334907094203e-57,
+   "q": 1.6243500991469348e-55
   }
  ],
  "n_tests": 63,

@@ -195,9 +195,12 @@ def parse_verse(text):
         ow = x[0][1] if x else fw
         first += fw; orig += ow
         final += corr[-1][1] if corr else fw
-        prev = fw
-        if x: events.append((ow, fw, "x"))
-        for h, w in corr: events.append((prev, w, h)); prev = w
+        # one event per correction group: original (x, or the unlabeled text when no x) -> corrected text;
+        # in the CNTR files a corrector edit (a/b/c) repeats the corrected text and names the hand
+        fin = corr[-1][1] if corr else fw
+        hand = "".join(h for h, _ in corr) or "x"
+        if x: events.append((ow, fin if corr else fw, hand))
+        elif corr: events.append((fw, fin, hand))
     return dict(first=first, orig=orig, final=final), events
 
 def load_ms(ms):
@@ -455,7 +458,7 @@ for ms in ("P66", "01", "P75", "03", "02"):
     seq = [seq[i] for i in keep]; letters = [letters[i] for i in keep]
     res = {"verses": len(seq), "letters": int(sum(letters))}
     for hand in ("x", "all"):
-        cnt = [sum(1 for e in DATA[ms][r]["events"] if hand == "all" or e[2] == "x") for r in seq]
+        cnt = [sum(1 for e in DATA[ms][r]["events"] if hand == "all" or e[2] == "x") for r in seq]   # x = first hand only
         res[f"corrections_{hand}"] = int(sum(cnt))
         for comp in ("ALL", "prologue", "I_am", "titles", "passion"):
             mask = [r in LOADED[comp] for r in seq]
@@ -479,11 +482,15 @@ for ms in ("P66", "01", "P75", "03", "02"):
             a, b = ev_text(o), ev_text(c)
             if not a or not b: sc["add/omit"] += 1; continue
             if a == b: sc["layout only"] += 1; continue
-            if sorted(o) != sorted(c) and len(o) == len(c) == 1 or abs(len(a) - len(b)) <= 3:
-                same_k = skey(a, "koine-late") == skey(b, "koine-late"); same_a = skey(a, "attic") == skey(b, "attic")
+            if len(o) == len(c):     # word-for-word substitution: compare each changed word pair by sound
+                wa = [ev_text([x]) for x in o]; wb = [ev_text([x]) for x in c]
+                diff = [(x, y) for x, y in zip(wa, wb) if x != y]
+                if not diff: sc["layout only"] += 1; continue
+                same_k = all(skey(x, "koine-late") == skey(y, "koine-late") for x, y in diff)
+                same_a = all(skey(x, "attic") == skey(y, "attic") for x, y in diff)
                 sc["subst"] += 1; sc["same_koine"] += same_k; sc["same_attic"] += same_a
-                if same_k and len(exs) < 8: exs.append(f"{r[1]}:{r[2]} {a}->{b}")
-            else: sc["other"] += 1
+                if same_k and len(exs) < 10: exs.append(f"{r[1]}:{r[2]} {a}->{b}")
+            else: sc["other (word count changes)"] += 1
     res["sound"] = dict(sc); res["sound"]["share_same_koine"] = round(sc["same_koine"] / max(sc["subst"], 1), 3)
     res["sound"]["share_same_attic"] = round(sc["same_attic"] / max(sc["subst"], 1), 3); res["sound"]["examples"] = exs
     res["sound"]["C11_variant_share"] = c11.get(ms)

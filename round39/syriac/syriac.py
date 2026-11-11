@@ -128,7 +128,7 @@ def in_greek_verse(a, b, key):
     G = sorted({w for w, pos in GVERSES.get(key, []) if pos in GCONTENT})
     if not G: return in_greek(a, b), None, None
     ga = max(G, key=lambda w: DICE.get((a, w), 0)); gb = max(G, key=lambda w: DICE.get((b, w), 0))
-    return groot_same(ga, gb) or in_greek(a, b), ga, gb
+    return groot_same(ga, gb), ga, gb
 
 # ---------------------------------------------------------------- book token tables and pair finder
 BOOKS = ["John", "Matt", "Mark", "Luke", "Acts"]
@@ -328,7 +328,7 @@ for vi, tl in byv.items():
 for k in cands: cands[k]["verses_in_john_with_pair"] = pairseen[k]
 top = sorted(cands.values(), key=lambda d: -d["score"])
 RES["T3_top_syriac_only"] = top[:40]; RES["T3_n_candidates"] = len(top)
-for d in top[:25]:
+for d in top[:45]:
     print(d["verse"], d["kind"], d["translit1"], d["translit2"], d["root_translit"], d["greek_in_verse1"], d["greek_in_verse2"], d["score"], d["verses_in_john_with_pair"])
 
 # ---------------------------------------------------------------- TEST 2 Odes of Solomon vs Psalms of Solomon (English, Harris 1911)

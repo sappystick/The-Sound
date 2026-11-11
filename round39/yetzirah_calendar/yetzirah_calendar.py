@@ -286,6 +286,10 @@ def test_segments(segments, books, place_of, mothers, rng, n=20000, names=None):
     po, _ = profiles(obs_c, place_of, mothers, base)
     pn, _ = profiles(null_c, place_of, mothers, base)
     out = {'letters': int(obs_c.sum())}
+    sh_o = obs_c / obs_c.sum(); sh_n = null_c / null_c.sum(1, keepdims=True)
+    zl = (sh_o - sh_n.mean(0)) / (sh_n.std(0) + 1e-12)
+    out['letter_drivers'] = [(LETTERS[i], int(obs_c[i]), round(float(sh_n.mean(0)[i] * obs_c.sum()), 1), round(float(zl[i]), 2))
+                             for i in np.argsort(-np.abs(zl))[:5]]
     for k in po:
         out[k] = {'obs': float(po[k]), 'null_mean': float(pn[k].mean()),
                   'z': float((po[k] - pn[k].mean()) / (pn[k].std() + 1e-12)),
@@ -390,6 +394,12 @@ def run_A(texts, a0, rng):
         for k, v in a1[nm].items():
             if isinstance(v, dict):
                 out['tests'].append(('A1', nm, k, v['p']))
+    # genre check: the object marker et (H853) and relative asher (H834) are prose particles, rich in alef/tav
+    pooled_w = [w for _, ws in passages['POOLED power speech'] for w in ws]
+    prose_w = sum((words[b] for b in ['Gen', 'Exod', 'Num', 'Deut', 'Isa']), []) + words['Ps']
+    def part_rate(ws):
+        return {lm: 100 * sum(1 for w in ws if lm in lemma_nums(w[2])) / len(ws) for lm in ('853', '834')}
+    out['A1_genre_particles_per100words'] = {'pooled_power': part_rate(pooled_w), 'source_books': part_rate(prose_w)}
     # names removed (sensitivity, reported separately, not in the BH family)
     NAME_LEMMAS = {'3068', '3069', '430', '410', '433', '136', '7706', '6635', '3050', '5945'}
     segs_nr = [(b, [w for w in ws if not (lemma_nums(w[2]) & NAME_LEMMAS)]) for b, ws in passages['POOLED power speech']]
@@ -574,7 +584,8 @@ WEEKDAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 COURSES = ['יהויריב', 'ידעיה', 'חרים', 'שעורים', 'מלכיה', 'מימין', 'הקוץ', 'אביה', 'ישוע', 'שכניה', 'אלישיב',
            'יקים', 'חפה', 'ישבאב', 'בלגה', 'אמר', 'חזיר', 'הפצץ', 'פתחיה', 'יחזקאל', 'יכין', 'גמול', 'דליה', 'מעזיה']
 COURSE_ALIAS = {'ייריב': 'יהויריב', 'יויריב': 'יהויריב', 'מימן': 'מימין', 'קוץ': 'הקוץ', 'חפא': 'חפה', 'חופה': 'חפה',
-                'חופא': 'חפה', 'פצצ': 'הפצץ', 'פצץ': 'הפצץ', 'מעוזיה': 'מעזיה', 'מועזיה': 'מעזיה', 'בלגא': 'בלגה'}
+                'חופא': 'חפה', 'פצצ': 'הפצץ', 'פצץ': 'הפצץ', 'מעוזיה': 'מעזיה', 'מועזיה': 'מעזיה', 'בלגא': 'בלגה',
+                'שערים': 'שעורים'}
 MONTH_LEN = [30, 30, 31] * 4
 
 
@@ -629,9 +640,9 @@ def run_B0(texts):
     out = {}
     # (i) texts
     en = open(os.path.join(texts, 'enoch_jubilees_charles', 'enoch_charles1917_djvu.txt'), encoding='utf-8').read()
-    a = en.find('CHAPTER LXXIl.')
-    b = en.find('CHAPTER LXXIII')
-    ch72 = en[a:b] if a > 0 and b > a else ''
+    a = en.find('CHAPTER LXXIl.')  # OCR spelling of LXXII in this file
+    b = en.find('sixty-four', a)     # 72:32 "... three hundred and sixty-four"
+    ch72 = re.sub(r'\s+', ' ', en[a:b + 20]) if a > 0 and b > a else ''
     ml = [31 if m.startswith('one') else 30 for m in re.findall(r'(one-and-thirty|thirty) mornings', ch72)]
     out['enoch72_month_lengths_found'] = ml
     out['enoch72_sum_first12'] = sum(ml[:12])
@@ -674,6 +685,34 @@ def run_B0(texts):
             if wd and fest_name:
                 entries.append({'scroll': s, 'frag': f, 'line': ln, 'year': year, 'weekday_num': wd,
                                 'course': COURSE_ALIAS.get(course, course), 'festival': fest_name})
+    # other scrolls (4Q319, 4Q329a, ...): "ב <weekday> ב (שבת)? <course> <festival>" anywhere in a line
+    WORDNUM = {'אחד': 1, 'שנים': 2, 'שלשה': 3, 'שלושה': 3, 'ארבעה': 4, 'חמשה': 5, 'ששה': 6, 'שבעה': 7}
+    for s_, f, ln, ws in L:
+        if s_ == '4Q320' and f.startswith('f4'):
+            continue
+        toks = [t for t in ws if t.strip()]
+        for i in range(len(toks) - 3):
+            if toks[i] != 'ב':
+                continue
+            wd = numeral_value(toks[i + 1]) or WORDNUM.get(toks[i + 1])
+            if not wd or wd > 7:
+                continue
+            j = i + 2
+            if toks[j:j + 2] == ['ב', 'שבת']:
+                j += 2
+            elif toks[j:j + 1] == ['ב']:
+                j += 1
+            if j < len(toks) and toks[j] == 'בני':
+                j += 1
+            if j >= len(toks):
+                continue
+            course = COURSE_ALIAS.get(toks[j], toks[j])
+            for fl in (4, 3, 2):
+                fest = ''.join(toks[j + 1:j + 1 + fl])
+                if fest in DSS_FEST:
+                    entries.append({'scroll': s_, 'frag': f, 'line': ln, 'year': None, 'weekday_num': wd,
+                                    'course': None, 'course_text': course, 'festival': DSS_FEST[fest]})
+                    break
     # 4Q326 / 4Q325 "יום שלישי" style
     for s, f, ln, ws in L:
         j = ' '.join(ws)
@@ -719,8 +758,9 @@ def run_B0(texts):
     out['dss_course_misses'] = misses
     out['dss_entries'] = entries
     # does the calendrical corpus mention Hanukkah / Purim?
-    alltxt = ' '.join(' '.join(ws) for _, _, _, ws in L)
-    out['dss_mentions'] = {w: alltxt.count(w) for w in ['חנוכה', 'פורים', 'ה פסח', 'סכות', 'שבועים', 'כפורים']}
+    alltok = Counter(t for _, _, _, ws in L for t in ws)
+    out['dss_token_counts'] = {w: alltok.get(w, 0) for w in ['חנוכה', 'חנכה', 'פורים', 'פסח', 'סכות', 'שבועים', 'כפורים', 'עצים', 'שמן', 'יין', 'דוק']}
+    out['dss_weekday_p_binomial'] = (1 / 7) ** out['dss_weekday_matches'] if out['dss_weekday_matches'] == out['dss_weekday_entries'] else None
     out['six_year_cycle_days'] = 6 * 364
     out['six_year_cycle_weeks_over_24'] = 6 * 364 / 7 / 24
     return out
@@ -755,14 +795,14 @@ def run_B1(texts):
         kinds = []
         if 'ἐπαύριον' in lems: kinds.append('next day')
         if 'ἡμέρα' in lems:
-            if 'τρίτος' in lems: kinds.append('third day')
-            if 'δύο' in lems: kinds.append('two days')
-            if 'ἕξ' in lems: kinds.append('six days')
-            if 'τέσσαρες' in lems: kinds.append('four days')
-            if 'ὀκτώ' in lems: kinds.append('eight days')
-            if 'τρεῖς' in lems: kinds.append('three days')
-            if 'ἔσχατος' in lems: kinds.append('last day')
-            if 'πολύς' in lems: kinds.append('not many days')
+            hpos = [i for i, l in enumerate(lems) if l == 'ἡμέρα']
+
+            def near(lemma, d=3):
+                return any(abs(i - h) <= d for i, l in enumerate(lems) if l == lemma for h in hpos)
+            for lm, kd in [('τρίτος', 'third day'), ('δύο', 'two days'), ('ἕξ', 'six days'), ('τέσσαρες', 'four days'),
+                           ('ὀκτώ', 'eight days'), ('τρεῖς', 'three days'), ('ἔσχατος', 'last day'), ('πολύς', 'not many days')]:
+                if near(lm):
+                    kinds.append(kd)
         if 'ὥρα' in lems:
             for o in ('δέκατος', 'ἕκτος', 'ἕβδομος', 'τρίτος'):
                 if o in lems: kinds.append(f'hour: {o}')
@@ -786,7 +826,17 @@ def run_B1(texts):
         lem = [ln.split()[6] for ln in open(os.path.join(texts, 'sblgnt', fn + '-morphgnt.txt'), encoding='utf-8')]
         freq[nm] = {'epaurion': lem.count('ἐπαύριον'), 'words': len(lem), 'per_1000': 1000 * lem.count('ἐπαύριον') / len(lem),
                     'pascha': lem.count('πάσχα'), 'heorte': lem.count('ἑορτή')}
-    return {'markers': markers, 'kind_counts': dict(counts), 'n_marker_verses': len(markers),
+    # John 1:41 in the early Greek manuscripts (CNTR transcriptions): proton / protos / proi ("in the morning")?
+    ms141 = {}
+    for m in ['P66', 'P75', '01', '02', '03', '032']:
+        fp = os.path.join(texts, 'cntr', 'class 1', m + '.txt')
+        if os.path.exists(fp):
+            for ln in open(fp, encoding='utf-8', errors='replace'):
+                if ln.startswith('43001041'):
+                    t = ln.replace('/', '').replace('¯', 'ν')
+                    w = re.search(r'ουτοσ (\S+)', t)
+                    ms141[m] = w.group(1) if w else None
+    return {'markers': markers, 'kind_counts': dict(counts), 'n_marker_verses': len(markers), 'john1_41_mss': ms141,
             'inaugural_week_verses': week, 'cross_gospel': freq}
 
 

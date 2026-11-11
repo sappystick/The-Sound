@@ -6,8 +6,10 @@ Hypothesis (expected negative): a scribe hid words in the first letters (acrosti
 by '^', words supplied with '~', lines lost '&') are '?', which no word can cross.
 Measure: number of dictionary words (SBLGNT forms + lemmas, accents removed, all sigmas = σ) of
 length >= 4 (and, separately, >= 5) read downwards inside one column, in the line-initial string and
-in the line-final string. Null: shuffle the order of all lines of the manuscript's John 1000 times
-and re-cut into the same column sizes (keeps the letter frequencies of line starts and ends);
+in the line-final string. Null: shuffle the visible line-initial (line-final) letters among the visible positions 1000
+times, keeping the '?' (lacuna) positions fixed and the column sizes (keeps the letter frequencies
+of line starts and ends; keeping lacunae fixed matters because papyrus damage is clustered and a
+naive full shuffle scatters the '?' and so deflates the null);
 p = (1 + #null >= observed)/(N+1). 4 manuscripts x 2 strings x 2 lengths = 16 tests.
 Positive control for the reader: the same counter applied to an implanted acrostic (the word
 ΙΗΣΟΥΣ forced into the first letters of six consecutive lines of a shuffled copy) must count it.
@@ -65,12 +67,31 @@ def main(cntr, sbl, out_json):
                 found = []
                 obs = count_words(recut(seq), lex, minlen, keep=found)
                 null = np.zeros(1000)
+                known = [i for i, x in enumerate(seq) if x != "?"]
+                kv = np.array([seq[i] for i in known])
                 for i in range(1000):
-                    null[i] = count_words(recut(list(rng.permutation(seq))), lex, minlen)
+                    sh = list(seq)  # lacuna positions stay where they are (damage is clustered)
+                    for k, x in zip(known, rng.permutation(kv)):
+                        sh[k] = x
+                    null[i] = count_words(recut(sh), lex, minlen)
                 p = float((1 + (null >= obs).sum()) / 1001)
+                # sensitivity: shuffle only within each column (pages differ in letter mix)
+                nullc = np.zeros(1000)
+                colseq = recut(seq)
+                for i in range(1000):
+                    cs2 = []
+                    for col in colseq:
+                        kn = [j for j, x in enumerate(col) if x != "?"]
+                        c2 = list(col)
+                        for j, x in zip(kn, rng.permutation([col[j] for j in kn])):
+                            c2[j] = x
+                        cs2.append(c2)
+                    nullc[i] = count_words(cs2, lex, minlen)
+                pc = float((1 + (nullc >= obs).sum()) / 1001)
                 key = "%s_len%d" % (nm, minlen)
                 out[key] = dict(obs=obs, null_mean=float(null.mean()), null_sd=float(null.std()),
                                 p=p, ratio=float(obs / null.mean()) if null.mean() else None,
+                                within_column_null_mean=float(nullc.mean()), p_within_column=pc,
                                 words=sorted(set(found), key=len, reverse=True)[:15])
                 tests.append(dict(test="John %s %s len>=%d" % (ms, nm, minlen), p=p,
                                   family="msline"))

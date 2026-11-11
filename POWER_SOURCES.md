@@ -141,3 +141,27 @@ The middle string is named *the middle* in Babylon (*qablītum*) and in Greece (
    - a possible 10-pipe *magrepha* that fits a royal cubit.
 
    **Next:** combine these with the seven-string lyre and vowel tubes of rounds 41–44 into a reconstructed Temple ensemble, and render Tamid 7:3 as a score: trumpets *tekiah–teruah–tekiah*, the cymbal, the psalm in three sections, a *tekiah* at each break.
+
+## 5. Round 48: the daily Temple service rendered as a score
+**Files:**
+- script `power/round48_tamid_service.py`;
+- numbers `power/round48_results.json`;
+- audio **`power/audio/r48_tamid_service_psalm24.mp3`** (2 min 53 s).
+
+**The score, step by step from the Mishnah:**
+1. **Opening call:** two priests with silver trumpets sound *tekiah – teruah – tekiah* (Tamid 7:3).
+   - The lengths follow the ratios of Rosh Hashanah 4:9: a *tekiah* equals 3 *teruot*, and a *teruah* equals 3 "whimpers".
+   - At one whimper = 0.3 s, that gives a *teruah* of three short blasts (0.9 s) and a *tekiah* of 2.7 s.
+2. **The cymbal:** Ben Arza strikes it, and only one is allowed (Arakhin 2:5).
+3. **The psalm:** the Levites sing the psalm of the day. On Sunday this is Psalm 24, "The earth is the LORD's" (Tamid 7:4).
+   - Twelve voices (Arakhin 2:6).
+   - Lyres and harps: the *kinnor* of 10 strings and the *nabla* of 12 notes (Josephus).
+4. **The breaks:** the psalm falls in three sections. At each break the trumpets sound a *tekiah* and the people bow, rendered here as 2 s of silence.
+
+**Choices that are ours, not the text's:**
+- **Section breaks:** 24:1–2 / 3–6 / 7–10. These follow the psalm's own turns: creation, then "who may ascend", then "lift up your heads".
+- **Sound:** a whimper of 0.3 s; a trumpet pitch of 233 Hz.
+- **Pronunciation:** Tiberian-type Hebrew, which is a later reconstruction.
+- **Space:** the reverberation of a stone court.
+
+**Not used:** the *magrepha* is not part of this rite in Tamid 7:3.

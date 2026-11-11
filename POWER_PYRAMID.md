@@ -65,3 +65,48 @@
 - Both buildings were laid out in the same royal cubit with round numbers. A 20 × 10 room is among the commonest plans such a system produces, so a shared plan does not by itself show that one was copied from the other.
 - It does show that **Solomon's builders and the pyramid's builders worked in the same unit, and at least once chose the same room**.
 - **Next test:** collect the plans of other Egyptian royal-cubit chambers (other pyramids and temples). If 20 × 10 is common, the match is ordinary. If it is rare, it becomes meaningful.
+
+---
+
+# Round 61: the area-by-area map, pyramid ↔ Bible
+**Files:**
+- script `power/round61_pyramid_map.py` (seed 61);
+- numbers `power/round61_results.json`.
+
+**Method:**
+- **Best counterpart:** each area in and around the Great Pyramid is matched to its best biblical counterpart.
+- **Shape error:** the difference in proportions.
+- **Size error:** the size difference under the best of four attested cubits.
+- **Local p:** the share of copies of the same area (shape kept, size randomly scaled ×0.5–2) that find an equally good counterpart. In other words: is this size coincidence better than chance, given the area's shape?
+- **Correction:** 12 areas were tested, so the Bonferroni threshold is 0.004.
+
+## Measured pairs, best first
+| Pyramid area | Best biblical counterpart | Cubit needed | Shape error | Size error | Local p | Verdict |
+|---|---|---|---|---|---|---|
+| **King's Chamber** 10.47 × 5.24 × 5.84 m | **20 × 10 cubits**: the tabernacle's Holy Place (20 × 10 × 10); Solomon's porch (20 × 10) | **royal 0.5236** (the builders' own unit) | 5.7% (the height differs) | **0.0%** | **0.001** | **survives correction** (0.001 × 12 = 0.012) |
+| Queens' pyramids, about 46 m square | Ezekiel's temple house, 100 × 100 | 18-inch 0.457 | 0 (both square) | 0.6% | 0.033 | does not survive correction; needs a foreign cubit |
+| Base, 230.36 m square (440 royal cubits) | **500 × 500**: Ezekiel's outer wall; **Herod's Temple Mount** (Middot 2:1) | 18-inch 0.457 | 0 (both square) | 0.8% | 0.04 | does not survive correction; the builders' own measure is 440, not 500 |
+| Khufu's cedar ship, 43.4 × 5.9 m | (size only) the tabernacle court | common | very different | 2.5% | 0.19 | **N** |
+| Coffer (outside) | (size only) the altar of burnt offering | 18-inch | 74% | 0.4% | 0.39 | **N** |
+| Antechamber | Solomon's side chambers 5:6:7 | royal | 34% | 3.5% | 0.60 | **N** |
+| Queen's Chamber | the tabernacle's Holy of Holies, 10-cube | royal | 16% | 9.9% | 0.75 | **N**: its plan is about 11 × 10 royal cubits |
+| Grand Gallery, Queen's niche, subterranean chamber, coffer (inside) | — | — | large | large | ≥ 0.5 | **N** |
+
+## Functional links: the same role, not the same measurements
+| Pyramid | Bible | What they share |
+|---|---|---|
+| King's Chamber, holding the coffer | Holy of Holies, holding the ark | the innermost chamber with a lidded box (the sizes differ: round 60) |
+| Antechamber, with 3 portcullis slabs | the veil, and the screens before it | barriers between the outer and the innermost room |
+| **Grand Gallery, 7 corbel courses** | the menorah (7); the 15 steps of ascent | a sevenfold ascending structure |
+| Queen's Chamber (the middle room) | the Holy Place | the middle room on the way in |
+| Subterranean chamber | the rock below the sanctuary | the room cut into the bedrock beneath |
+| Base square, oriented to the cardinal points | the court; Ezekiel's 500 square; Herod's Temple Mount | the square precinct facing the four directions |
+| **Khufu's cedar ship** | **Noah's ark** | a great wooden vessel tied to the sacred site (proportions 7.4:1 against 6:1) |
+| Three queens' pyramids | the three storeys of side chambers; the three courts | a set of three |
+| 5 relieving chambers above the King's Chamber | the side-chamber storeys | stacked compartments over the main room |
+
+## Verdict
+1. **One direct measured match survives:** the King's Chamber floor is 20 × 10 royal cubits, exactly the plan of the tabernacle's Holy Place and of Solomon's porch "by the former measure" (round 60). It is in the builders' own unit, and it beats chance after correction.
+2. **Two near-matches:** the base square against the 500 × 500 of Ezekiel and Herod's Temple Mount, and the queens' pyramids against Ezekiel's 100 × 100 house. Both need an 18-inch cubit that the pyramid's builders did not use (the base is 440 royal cubits), and neither survives correction.
+3. **Everything else is a functional parallel, not a measured one.** An inner chamber with a box, barriers before it, an ascent, a square oriented precinct, a sacred ship. These are common to sacred architecture, and many may be ordinary features of temple-building in general.
+4. **The pattern overall:** the two traditions share a unit (the royal cubit, which is Ezekiel's), round numbers, and the grammar of sacred space. They do not share a hidden plan.

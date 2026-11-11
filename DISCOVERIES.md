@@ -533,3 +533,7 @@ Write-ups:
 - **Pliny, NH 2.84,** verified: the Pythagorean planetary intervals (tone, ½, ½, 1½, 1, ½, ½), with the Sun 4th of 7.
 - **The speaking planet organ:** vowels identified 97.8% through the tubes, against 0% without (machine test, not a human listening test). ἐγὼ εἰμι = Mercury, Mars, Sun, Sun.
 - **Round 60 (`POWER_PYRAMID.md`):** the Great Pyramid's internal dimensions (Petrie 1883) do not map onto the biblical measurements beyond chance (lengths p 0.062; shapes p 0.90). Shared: the cubit system (Ezekiel's long cubit = the Egyptian royal cubit of 7 palms) and round numbers (the King's Chamber is 20 × 10 royal cubits). The coffer is not the ark's volume under any attested cubit.
+- **Round 61 (`POWER_PYRAMID.md`), the area-by-area map:**
+  - Only the King's Chamber = 20 × 10 royal cubits (tabernacle Holy Place; Solomon's porch) survives correction (local p 0.001).
+  - The base against 500 × 500 (Ezekiel; Herod's Temple Mount) and the queens' pyramids against 100 × 100 need a foreign 18-inch cubit and do not survive correction.
+  - The rest are functional parallels only.

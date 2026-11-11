@@ -3,145 +3,181 @@
   {
    "test": "T1 all: John sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 all: Matt sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 all: Mark sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 all: Luke sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 all: Acts sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 all: John excess > Mt+Mk+Lk+Acts",
    "p": 0.14577084583083383,
-   "q_bh": 0.17492501499700058,
+   "q_bh": 0.23016449341710601,
    "significant": false
   },
   {
    "test": "T1 syr_only: John sound-play verses vs shuffle null",
-   "p": 0.058941058941058944,
-   "q_bh": 0.08841158841158842,
+   "p": 0.4165834165834166,
+   "q_bh": 0.5433696738044563,
    "significant": false
   },
   {
    "test": "T1 syr_only: Matt sound-play verses vs shuffle null",
-   "p": 0.0939060939060939,
-   "q_bh": 0.12520812520812521,
+   "p": 0.14285714285714285,
+   "q_bh": 0.23016449341710601,
    "significant": false
   },
   {
    "test": "T1 syr_only: Mark sound-play verses vs shuffle null",
    "p": 0.000999000999000999,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   },
   {
    "test": "T1 syr_only: Luke sound-play verses vs shuffle null",
-   "p": 0.027972027972027972,
-   "q_bh": 0.05164066702528241,
+   "p": 0.03196803196803197,
+   "q_bh": 0.06850292564578278,
    "significant": false
   },
   {
    "test": "T1 syr_only: Acts sound-play verses vs shuffle null",
    "p": 0.001998001998001998,
-   "q_bh": 0.004359277086549814,
+   "q_bh": 0.005449096358187267,
    "significant": true
   },
   {
    "test": "T1 syr_only: John excess > Mt+Mk+Lk+Acts",
-   "p": 0.8186362727454509,
-   "q_bh": 0.8186362727454509,
+   "p": 0.94501099780044,
+   "q_bh": 0.999000999000999,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: John sound-play verses vs shuffle null",
+   "p": 0.995004995004995,
+   "q_bh": 0.999000999000999,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: Matt sound-play verses vs shuffle null",
+   "p": 0.999000999000999,
+   "q_bh": 0.999000999000999,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: Mark sound-play verses vs shuffle null",
+   "p": 0.5874125874125874,
+   "q_bh": 0.704895104895105,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: Luke sound-play verses vs shuffle null",
+   "p": 0.999000999000999,
+   "q_bh": 0.999000999000999,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: Acts sound-play verses vs shuffle null",
+   "p": 0.9690309690309691,
+   "q_bh": 0.999000999000999,
+   "significant": false
+  },
+  {
+   "test": "T1 S_syr_only: John excess > Mt+Mk+Lk+Acts",
+   "p": 0.3205358928214357,
+   "q_bh": 0.45790841831633666,
    "significant": false
   },
   {
    "test": "T1 greek: John same-root excess > Mt+Mk+Lk+Acts",
-   "p": 0.595880823835233,
-   "q_bh": 0.6217886857411127,
+   "p": 0.5684863027394521,
+   "q_bh": 0.704895104895105,
    "significant": false
   },
   {
    "test": "T2 Odes > Psalms of Solomon, Johannine markers (total)",
-   "p": 0.00019998000199980003,
-   "q_bh": 0.002664002664002664,
+   "p": 9.999000099990002e-05,
+   "q_bh": 0.0029997000299970007,
    "significant": true
   },
   {
    "test": "T2 Odes > PsSol: word",
-   "p": 0.3097690230976902,
-   "q_bh": 0.35402174068307457,
+   "p": 0.3096690330966903,
+   "q_bh": 0.45790841831633666,
    "significant": false
   },
   {
    "test": "T2 Odes > PsSol: light",
-   "p": 0.00029997000299970003,
-   "q_bh": 0.002664002664002664,
+   "p": 0.00019998000199980003,
+   "q_bh": 0.0029997000299970007,
    "significant": true
   },
   {
    "test": "T2 Odes > PsSol: life/living",
-   "p": 0.4166583341665833,
-   "q_bh": 0.45453636454536367,
+   "p": 0.41075892410758924,
+   "q_bh": 0.5433696738044563,
    "significant": false
   },
   {
    "test": "T2 Odes > PsSol: water",
-   "p": 0.0374962503749625,
-   "q_bh": 0.06427928635707857,
+   "p": 0.031596840315968405,
+   "q_bh": 0.06850292564578278,
    "significant": false
   },
   {
    "test": "T2 Odes > PsSol: truth",
-   "p": 0.0014998500149985001,
-   "q_bh": 0.0035996400359964,
+   "p": 0.0013998600139986002,
+   "q_bh": 0.004199580041995801,
    "significant": true
   },
   {
    "test": "T2 Odes > PsSol: love",
-   "p": 0.0430956904309569,
-   "q_bh": 0.06895310468953104,
+   "p": 0.04509549045095491,
+   "q_bh": 0.09019098090190981,
    "significant": false
   },
   {
    "test": "T2 Odes > PsSol: rest",
    "p": 0.0021997800219978004,
-   "q_bh": 0.004399560043995601,
+   "q_bh": 0.0054994500549945015,
    "significant": true
   },
   {
    "test": "T2 Odes > PsSol: I am",
-   "p": 0.0658934106589341,
-   "q_bh": 0.0930259915184952,
+   "p": 0.06029397060293971,
+   "q_bh": 0.11305119488051195,
    "significant": false
   },
   {
    "test": "T2 Odes > PsSol: he who",
-   "p": 0.136986301369863,
-   "q_bh": 0.17303532804614274,
+   "p": 0.1394860513948605,
+   "q_bh": 0.23016449341710601,
    "significant": false
   },
   {
    "test": "T2 control: John > Synoptics, Johannine markers (Greek)",
    "p": 0.0003332222592469177,
-   "q_bh": 0.002664002664002664,
+   "q_bh": 0.00333000333000333,
    "significant": true
   }
  ],
@@ -197,92 +233,140 @@
   "syr_only": {
    "John": {
     "verses": 879,
-    "observed": 0.02161547212741752,
-    "null_mean": 0.014946530147895338,
-    "null_sd": 0.003819029090489625,
-    "excess_ratio": 1.4461866341908964,
-    "p": 0.058941058941058944
+    "observed": 0.015927189988623434,
+    "null_mean": 0.01475995449374289,
+    "null_sd": 0.0037997254634575314,
+    "excess_ratio": 1.0790812394018805,
+    "p": 0.4165834165834166
    },
    "Matt": {
     "verses": 1071,
-    "observed": 0.035480859010270774,
-    "null_mean": 0.028628384687208217,
-    "null_sd": 0.004701107558671791,
-    "excess_ratio": 1.2393594468543099,
-    "p": 0.0939060939060939
+    "observed": 0.03361344537815126,
+    "null_mean": 0.02823716153127918,
+    "null_sd": 0.004672214795543709,
+    "excess_ratio": 1.1903974604854175,
+    "p": 0.14285714285714285
    },
    "Mark": {
     "verses": 678,
     "observed": 0.03982300884955752,
-    "null_mean": 0.020289085545722712,
-    "null_sd": 0.004959452193731017,
-    "excess_ratio": 1.9627798778714745,
+    "null_mean": 0.020013274336283186,
+    "null_sd": 0.004921313961303028,
+    "excess_ratio": 1.9898297590095069,
     "p": 0.000999000999000999
    },
    "Luke": {
     "verses": 1151,
-    "observed": 0.036490008688097306,
-    "null_mean": 0.027122502172024325,
-    "null_sd": 0.004523193678617647,
-    "excess_ratio": 1.3453776667307322,
-    "p": 0.027972027972027972
+    "observed": 0.035621198957428324,
+    "null_mean": 0.026606429192006953,
+    "null_sd": 0.004499111204329572,
+    "excess_ratio": 1.3388192267502612,
+    "p": 0.03196803196803197
    },
    "Acts": {
     "verses": 1007,
-    "observed": 0.05660377358490566,
-    "null_mean": 0.03679543197616683,
-    "null_sd": 0.005593622906196151,
-    "excess_ratio": 1.5383369767630153,
+    "observed": 0.05362462760675273,
+    "null_mean": 0.03571400198609732,
+    "null_sd": 0.005531441843698825,
+    "excess_ratio": 1.5015015015015016,
     "p": 0.001998001998001998
    },
    "John_vs_others": {
-    "john_excess_per_verse": 0.0066689419795221815,
-    "others_excess_per_verse": 0.013133350396723824,
-    "diff": -0.006464408417201643,
-    "p": 0.8186362727454509
+    "john_excess_per_verse": 0.0011672354948805434,
+    "others_excess_per_verse": 0.012183516764781159,
+    "diff": -0.011016281269900615,
+    "p": 0.94501099780044
+   }
+  },
+  "S_syr_only": {
+   "John": {
+    "verses": 879,
+    "observed": 0.0022753128555176336,
+    "null_mean": 0.0076120591581342436,
+    "null_sd": 0.0027618397053386146,
+    "excess_ratio": 0.2989089822149155,
+    "p": 0.995004995004995
+   },
+   "Matt": {
+    "verses": 1071,
+    "observed": 0.004668534080298786,
+    "null_mean": 0.015280112044817926,
+    "null_sd": 0.003480331881839773,
+    "excess_ratio": 0.3055300947143294,
+    "p": 0.999000999000999
+   },
+   "Mark": {
+    "verses": 678,
+    "observed": 0.008849557522123894,
+    "null_mean": 0.009079646017699115,
+    "null_sd": 0.003506996265605617,
+    "excess_ratio": 0.9746588693957114,
+    "p": 0.5874125874125874
+   },
+   "Luke": {
+    "verses": 1151,
+    "observed": 0.005212858384013901,
+    "null_mean": 0.012389226759339705,
+    "null_sd": 0.0030066842503073147,
+    "excess_ratio": 0.42075736325385693,
+    "p": 0.999000999000999
+   },
+   "Acts": {
+    "verses": 1007,
+    "observed": 0.010923535253227408,
+    "null_mean": 0.017285004965243295,
+    "null_sd": 0.0038623291965765296,
+    "excess_ratio": 0.6319659887395151,
+    "p": 0.9690309690309691
+   },
+   "John_vs_others": {
+    "john_excess_per_verse": -0.0053367463026166104,
+    "others_excess_per_verse": -0.006702585103660099,
+    "diff": 0.0013658388010434888,
+    "p": 0.3205358928214357
    }
   },
   "greek_same_root": {
    "John": {
     "verses": 866,
-    "observed": 0.1374133949191686,
-    "null_mean": 0.1101270207852194,
-    "excess_ratio": 1.2477718360071302,
-    "p": 0.004975124378109453
+    "observed": 0.1789838337182448,
+    "null_mean": 0.15136836027713627,
+    "excess_ratio": 1.1824388755387725,
+    "p": 0.009950248756218905
    },
    "Matt": {
     "verses": 1068,
-    "observed": 0.149812734082397,
-    "null_mean": 0.12801029962546817,
-    "excess_ratio": 1.1703178144314816,
-    "p": 0.014925373134328358
+    "observed": 0.20411985018726592,
+    "null_mean": 0.18754213483146068,
+    "excess_ratio": 1.0883946179385406,
+    "p": 0.05472636815920398
    },
    "Mark": {
     "verses": 673,
-    "observed": 0.1664190193164933,
-    "null_mean": 0.11930906389301636,
-    "excess_ratio": 1.394856466778753,
+    "observed": 0.22288261515601784,
+    "null_mean": 0.1736627043090639,
+    "excess_ratio": 1.2834224598930482,
     "p": 0.004975124378109453
    },
    "Luke": {
     "verses": 1149,
-    "observed": 0.15317667536988686,
-    "null_mean": 0.1275543951261967,
-    "excess_ratio": 1.2008733624454146,
+    "observed": 0.21409921671018275,
+    "null_mean": 0.18091818973020019,
+    "excess_ratio": 1.1834034876728803,
     "p": 0.004975124378109453
    },
    "Acts": {
     "verses": 1002,
-    "observed": 0.21357285429141717,
-    "null_mean": 0.1797554890219561,
-    "excess_ratio": 1.188129805957305,
-    "p": 0.004975124378109453
+    "observed": 0.281437125748503,
+    "null_mean": 0.2534630738522954,
+    "excess_ratio": 1.1103673662243574,
+    "p": 0.01990049751243781
    },
    "John_vs_others": {
-    "john_excess_per_verse": 0.027286374133949187,
-    "others_excess_per_verse": 0.030399537512846866,
-    "diff": -0.0031131633788976792,
-    "p": 0.595880823835233
+    "john_excess_per_verse": 0.027615473441108544,
+    "others_excess_per_verse": 0.030057810894141827,
+    "diff": -0.002442337453033284,
+    "p": 0.5684863027394521
    }
   }
  },
@@ -320,26 +404,26 @@
   "books": {
    "Gen": {
     "observed": 0.06327462491846053,
-    "null_mean": 0.031585127201565553,
-    "excess_ratio": 2.0033044196612972,
+    "null_mean": 0.03163078930202218,
+    "excess_ratio": 2.000412456176531,
     "p": 0.009900990099009901
    },
    "Isa": {
     "observed": 0.06893880712625872,
-    "null_mean": 0.03024012393493416,
-    "excess_ratio": 2.2797131147540983,
+    "null_mean": 0.0299147947327653,
+    "excess_ratio": 2.3045054375970997,
     "p": 0.009900990099009901
    },
    "Amos": {
     "observed": 0.04794520547945205,
-    "null_mean": 0.029383561643835612,
-    "excess_ratio": 1.6317016317016317,
-    "p": 0.15841584158415842
+    "null_mean": 0.030000000000000006,
+    "excess_ratio": 1.5981735159817347,
+    "p": 0.12871287128712872
    },
    "Jer": {
     "observed": 0.08504398826979472,
-    "null_mean": 0.048966275659824046,
-    "excess_ratio": 1.7367869441533164,
+    "null_mean": 0.047917888563049855,
+    "excess_ratio": 1.774785801713586,
     "p": 0.009900990099009901
    }
   }
@@ -561,68 +645,6 @@
    "rarity": 5.36,
    "score": 5.06,
    "verses_in_john_with_pair": 1
-  },
-  {
-   "verse": "John 12:33",
-   "kind": "R",
-   "lex1": "MWT",
-   "lex2": "MWT>",
-   "root1": "MT",
-   "root2": "MT",
-   "word1": "M>T",
-   "word2": "MWT>",
-   "syriac1": "ܡܐܬ",
-   "syriac2": "ܡܘܬܐ",
-   "translit1": "mʾt",
-   "translit2": "mwtʾ",
-   "root_translit": "mt / mt",
-   "greek_in_verse1": "αποθνησκω",
-   "greek_in_verse2": "θανατοσ",
-   "greek_equiv1": [
-    "αποθνησκω",
-    "ζαω",
-    "θανατοω"
-   ],
-   "greek_equiv2": [
-    "θανατοσ",
-    "ζωη",
-    "αποθνησκω"
-   ],
-   "distance": 1,
-   "rarity": 5.34,
-   "score": 5.04,
-   "verses_in_john_with_pair": 3
-  },
-  {
-   "verse": "John 5:30",
-   "kind": "R",
-   "lex1": "DJN>",
-   "lex2": "DN",
-   "root1": "DN",
-   "root2": "DN",
-   "word1": "WDJNJ",
-   "word2": "D>N",
-   "syriac1": "ܘܕܝܢܝ",
-   "syriac2": "ܕܐܢ",
-   "translit1": "wdyny",
-   "translit2": "dʾn",
-   "root_translit": "dn / dn",
-   "greek_in_verse1": "κρισισ",
-   "greek_in_verse2": "κρινω",
-   "greek_equiv1": [
-    "κρισισ",
-    "κριμα",
-    "κριτησ"
-   ],
-   "greek_equiv2": [
-    "κρινω",
-    "ανακρινω",
-    "κρισισ"
-   ],
-   "distance": 2,
-   "rarity": 5.49,
-   "score": 5.02,
-   "verses_in_john_with_pair": 5
   },
   {
    "verse": "John 21:25",
@@ -966,7 +988,7 @@
    "verses_in_john_with_pair": 22
   }
  ],
- "T3_n_candidates": 20,
+ "T3_n_candidates": 18,
  "T2": {
   "odes_words": 11301,
   "odes_count": 41,
@@ -1002,31 +1024,31 @@
     21
    ],
    "diff_markers_per_300w": 4.084942084942085,
-   "p_total": 0.00019998000199980003,
+   "p_total": 9.999000099990002e-05,
    "per_term": {
     "word": {
      "diff_per_300w": 0.1788931788931789,
-     "p": 0.3097690230976902
+     "p": 0.3096690330966903
     },
     "light": {
      "diff_per_300w": 0.5469755469755471,
-     "p": 0.00029997000299970003
+     "p": 0.00019998000199980003
     },
     "life/living": {
      "diff_per_300w": 0.11583011583011593,
-     "p": 0.4166583341665833
+     "p": 0.41075892410758924
     },
     "water": {
      "diff_per_300w": 0.3307593307593308,
-     "p": 0.0374962503749625
+     "p": 0.031596840315968405
     },
     "truth": {
      "diff_per_300w": 0.7953667953667954,
-     "p": 0.0014998500149985001
+     "p": 0.0013998600139986002
     },
     "love": {
      "diff_per_300w": 0.7541827541827542,
-     "p": 0.0430956904309569
+     "p": 0.04509549045095491
     },
     "rest": {
      "diff_per_300w": 0.5405405405405406,
@@ -1034,11 +1056,11 @@
     },
     "I am": {
      "diff_per_300w": 0.2496782496782497,
-     "p": 0.0658934106589341
+     "p": 0.06029397060293971
     },
     "he who": {
      "diff_per_300w": 0.5727155727155726,
-     "p": 0.136986301369863
+     "p": 0.1394860513948605
     }
    }
   },
@@ -1052,11 +1074,11 @@
    "per_term": {
     "word": {
      "diff_per_300w": 0.22654784240150094,
-     "p": 0.11162945684771743
+     "p": 0.11596134621792736
     },
     "light": {
      "diff_per_300w": 0.3048780487804878,
-     "p": 0.030989670109963344
+     "p": 0.03265578140619793
     },
     "life/living": {
      "diff_per_300w": 0.8696060037523452,
@@ -1064,7 +1086,7 @@
     },
     "water": {
      "diff_per_300w": 0.29409005628517826,
-     "p": 0.003998667110963012
+     "p": 0.004665111629456847
     },
     "truth": {
      "diff_per_300w": 0.9479362101313321,
@@ -1072,7 +1094,7 @@
     },
     "love": {
      "diff_per_300w": 0.827861163227017,
-     "p": 0.0003332222592469177
+     "p": 0.0006664445184938354
     },
     "rest": {
      "diff_per_300w": -0.04878048780487805,
@@ -1084,11 +1106,11 @@
     },
     "he who": {
      "diff_per_300w": 0.6707317073170733,
-     "p": 0.019326891036321226
+     "p": 0.017994001999333556
     }
    }
   },
   "note": "English (Odes, PsSol) and Greek (John, Synoptics) rates are not on one scale; compare the lean (ratio), not the level."
  },
- "n_tests": 24
+ "n_tests": 30
 }

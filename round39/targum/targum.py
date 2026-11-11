@@ -153,7 +153,11 @@ def find_terms(toks, heb):
         nxt = toks[i + 1] if i + 1 < len(toks) else ""
         m = MEMRA.match(w)
         if m and not (m.group(1) == "" and w.lstrip("ו").startswith("ל")):  # exclude למימר 'saying'
-            c["memra"] += 1
+            # bare construct מימר ('by the word of', e.g. two witnesses, Deut 19:15) only when bound to the divine
+            # name; suffixed forms only in a verse that names God (Hebrew) or has the Tetragram (Targum)
+            suf = m.group(1)
+            if (suf == "" and nxt in DN) or suf == "א" or (suf not in ("", "א") and (divine or any(x in DN for x in toks))):
+                c["memra"] += 1
         if SHEK.match(w): c["shekinah"] += 1
         m = YEQ.match(w)
         if m and not w.lstrip("וד").startswith("ל"):
@@ -351,6 +355,17 @@ for name, refs in SETS.items():
     PV.append((f"T2 pointer enrichment: {name} (book-matched)", T2[name]["book_matched"]["p"]))
     if T2[name]["Neofiti_torah_only"]:
         PV.append((f"T2 pointer enrichment: {name} (Neofiti, Torah verses, book+divine-name matched)", T2[name]["Neofiti_torah_only_divine_matched"]["p"]))
+# direct contrast: John's Torah allusions vs Matthew+Luke Torah quotations, Neofiti layer (label permutation)
+def vals(refs, lay):
+    return [TV[(lay, b)][(c, v)]["mediating"] for b, c, v in refs if b in TORAH and (c, v) in TV.get((lay, b), {})]
+for lay in ("Neofiti", "PsJonathan", "Onkelos"):
+    a = np.array(vals(JOHN_A, lay), float); bb = np.array(vals(MATT_Q + LUKE_Q, lay), float)
+    allv = np.concatenate([a, bb]); obs = a.mean() - bb.mean(); rgc = np.random.default_rng(39); cnt = 0
+    for _ in range(10000):
+        pp = rgc.permutation(allv); cnt += (pp[:len(a)].mean() - pp[len(a):].mean()) >= obs
+    pc = (1 + cnt) / 10001
+    T2[f"contrast John Torah allusions vs Mt+Lk Torah quotations ({lay})"] = dict(john_mean=round(float(a.mean()), 3), synoptic_mean=round(float(bb.mean()), 3), n=[len(a), len(bb)], p=round(float(pc), 4))
+    if lay == "Neofiti": PV.append(("T2 contrast: John Torah allusions richer than Mt+Lk Torah quotations (Neofiti)", pc))
 # per-verse detail for John's quotations
 T2["John quotations detail"] = {f"{b} {c}:{v}": TV[(PRIMARY(b), b)].get((c, v), {}).get("mediating") for b, c, v in JOHN_Q}
 # power: plant term-bearing verses into a John-size set

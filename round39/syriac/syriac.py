@@ -128,6 +128,9 @@ def in_greek_verse(a, b, key):
     G = sorted({w for w, pos in GVERSES.get(key, []) if pos in GCONTENT})
     if not G: return in_greek(a, b), None, None
     ga = max(G, key=lambda w: DICE.get((a, w), 0)); gb = max(G, key=lambda w: DICE.get((b, w), 0))
+    if ga == gb and len(G) > 1:   # one Greek word cannot render both Syriac words: give it to the stronger link
+        if DICE.get((a, ga), 0) >= DICE.get((b, gb), 0): gb = max([w for w in G if w != ga], key=lambda w: DICE.get((b, w), 0))
+        else: ga = max([w for w in G if w != gb], key=lambda w: DICE.get((a, w), 0))
     return groot_same(ga, gb), ga, gb
 
 # ---------------------------------------------------------------- book token tables and pair finder

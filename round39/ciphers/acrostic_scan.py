@@ -310,8 +310,9 @@ def main(texts, out_json):
     logp = sum(np.log10(fr.get(c, 1e-9)) for c in full)
     res["sibyl"]["full_acrostic_log10_prob_per_position"] = float(logp)
     res["sibyl"]["expected_chance_occurrences_in_corpus"] = float(len(allinit) * 10 ** logp)
-    tests.append(dict(test="Sibyl 8 IHSOUS name acrostic (Geffcken lines) vs shuffled lines",
-                      p=sres["ιησουσ"]["p"], family="acrostic_name", known=True))
+    # Geffcken's OCR text lacks 8.221-224, which breaks ΙΗΣΟΥΣ/ΧΡΕΙΣΤΟΣ; ΣΩΤΗΡ (8.238-242) survives
+    tests.append(dict(test="Sibyl 8 control: ΣΩΤΗΡ in Geffcken line initials vs shuffled lines",
+                      p=sres["σωτηρ"]["p"], family="acrostic_name", known=True))
     res["tests"] = tests
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=1)

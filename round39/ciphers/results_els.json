@@ -291,22 +291,22 @@
       "books": 4
      },
      {
-      "word": "ראות",
-      "skip": 2,
-      "books": 3
-     },
-     {
       "word": "ויחי",
       "skip": 2,
       "books": 3
      },
      {
-      "word": "וארד",
+      "word": "יחיו",
       "skip": 2,
       "books": 3
      },
      {
-      "word": "יחיו",
+      "word": "ראות",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "וארד",
       "skip": 2,
       "books": 3
      },

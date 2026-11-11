@@ -5,6 +5,7 @@ symbol. Every claim is tested against chance before it counts.
 
 - `SYNTHESIS.md`: what has been established, graded by evidence; publishable papers; threads to close
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- `POWER_MANUAL.md`: round 64, thought experiment: the Day of Atonement as the pyramid's operating manual; chamber acoustics, Helmholtz breathing, voice through the shafts
 - `POWER_EGYPT.md`: round 63, cube / twelve / centre across the corpora; Egyptian parallels; the matrix with its purpose reversed
 - `POWER_CODE.md`: round 62, decoding tests on the building instructions (elements, constants, pi, capacitor, magnetism, geometry, geography)
 - `POWER_PYRAMID.md`: round 60, the Great Pyramid (Petrie 1883) against the biblical measurements, with chance baselines (negative; shared cubit system)

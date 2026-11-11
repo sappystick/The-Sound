@@ -545,3 +545,6 @@ Write-ups:
   - "In the midst" is a Hebrew-Bible motif, twelve a New Testament one, the cube a philosophers' one. All three meet in Exod 28/39 (the breastpiece), 1 Kgs 7 and Ezek 43.
   - **Verified:** Ezek 43:7 bars "the corpses of their kings" from God's dwelling-in-the-midst; Josephus *Ant.* 2.203 (Hebrews "building pyramids") and 13.62–64 (Onias's temple in the Heliopolite nome, built on Isaiah 19).
   - **Reading:** the Bible keeps the Egyptian sacred matrix but reverses its purpose (God descends; the dead are excluded; twelve around the centre).
+- **Round 64 (`POWER_MANUAL.md`), thought experiment, the Bible as the pyramid's manual (the Day of Atonement):**
+  - **Calc:** the King's Chamber makes a shout felt (94 dB); with its shafts it "breathes" at 0.11 Hz (9 s); the inner voice is audible outside within about 50 m of the shaft mouths.
+  - **Ritual counts against pyramid counts:** chance level (p 0.49). The orientation (north against east) and purpose (tomb against no-dead) do not fit.

@@ -1,0 +1,143 @@
+{
+ "manual": [
+  {
+   "step": "Separation, 7 days before",
+   "text": "Mishnah Yoma 1:1",
+   "pyramid": "outside the pyramid",
+   "note": "preparation"
+  },
+  {
+   "step": "Five immersions, ten washings",
+   "text": "Yoma 3:3",
+   "pyramid": "the well shaft and the subterranean chamber (the water below)",
+   "note": "MAPPING: purification at the lowest level first"
+  },
+  {
+   "step": "White linen garments",
+   "text": "Lev 16:4",
+   "pyramid": "the entrance (north face)",
+   "note": "the player enters in linen, no gold"
+  },
+  {
+   "step": "Spoken confession: 'Please, O Name ...'",
+   "text": "Yoma 3:8",
+   "pyramid": "the descending passage",
+   "note": "the first voice"
+  },
+  {
+   "step": "Incense and coals carried west through the sanctuary to the veil",
+   "text": "Lev 16:12; Yoma 5:1",
+   "pyramid": "the ascending passage past the 3 granite plugs, then the Grand Gallery (7 corbels)",
+   "note": "the ascent"
+  },
+  {
+   "step": "Through the veil",
+   "text": "Lev 16:12",
+   "pyramid": "the antechamber's 3 portcullis slabs",
+   "note": "the barrier before the inner room"
+  },
+  {
+   "step": "Incense on the coals: the cloud covers the ark's cover",
+   "text": "Lev 16:13",
+   "pyramid": "the King's Chamber, at the coffer",
+   "note": "CALC: the cloud fills 320 m3"
+  },
+  {
+   "step": "Blood: one upward, seven downward, counted aloud",
+   "text": "Lev 16:14; Yoma 5:3",
+   "pyramid": "at the coffer",
+   "note": "eight measured strokes"
+  },
+  {
+   "step": "The Name spoken; the people bow and answer 'Blessed be the name of the glory of his kingdom for ever'",
+   "text": "Yoma 6:2; Tamid 3:8",
+   "pyramid": "the King's Chamber -> out through the two shafts",
+   "note": "CALC: the voice in the chamber and outside, below"
+  },
+  {
+   "step": "The scapegoat sent to the wilderness",
+   "text": "Lev 16:21-22; Yoma 6:4",
+   "pyramid": "out by the descending passage",
+   "note": "removal outward"
+  }
+ ],
+ "voice_in_kings_chamber": {
+  "favoured_note_Hz": 132.0,
+  "favoured_note": "C3+16c",
+  "rt_s": 6.0,
+  "levels_dB_at_2m": {
+   "chant (0.1 mW)": 76.9,
+   "loud voice (1 mW)": 86.9,
+   "shout (5 mW)": 93.9
+  },
+  "thresholds": "a shout (94 dB) passes the 90 dB level at which loud low tones stimulate the balance organ"
+ },
+ "helmholtz": {
+  "chamber_volume_m3": 320.4,
+  "shafts": "2, about 0.20 x 0.20 m, about 71 and 53 m long (approx)",
+  "f_Hz": 0.111,
+  "period_s": 9.0,
+  "note": "infrasonic: the chamber 'breathes' through its shafts about once every 9 s (cf. Noah's ark, round 57)"
+ },
+ "voice_outside": {
+  "loud voice 87 dB inside": {
+   "10 m from a shaft mouth": 32.7,
+   "50 m from a shaft mouth": 18.7,
+   "200 m from a shaft mouth": 6.7
+  },
+  "shout 94 dB inside": {
+   "10 m from a shaft mouth": 39.7,
+   "50 m from a shaft mouth": 25.7,
+   "200 m from a shaft mouth": 13.7
+  },
+  "note": "night ambient about 20 dB: the shout is audible within about 50 m of the shaft mouths, not at Jericho (round 47)"
+ },
+ "count_matches": {
+  "ritual": {
+   "days of separation": 7,
+   "immersions": 5,
+   "washings": 10,
+   "sprinklings down": 7,
+   "sprinkling up": 1,
+   "goats": 2,
+   "confessions": 3,
+   "linen garments": 4,
+   "gold garments": 8
+  },
+  "pyramid": {
+   "granite plugs": 3,
+   "portcullis slabs": 3,
+   "Grand Gallery corbels": 7,
+   "relieving chambers": 5,
+   "King's Chamber roof beams": 9,
+   "air shafts": 4,
+   "chambers": 3,
+   "coffer": 1
+  },
+  "ritual_numbers_found_in_pyramid": 6,
+  "null_mean": 5.41,
+  "p": 0.485,
+  "pairs": [
+   "days of separation 7 = Grand Gallery corbels",
+   "immersions 5 = relieving chambers",
+   "sprinklings down 7 = Grand Gallery corbels",
+   "sprinkling up 1 = coffer",
+   "confessions 3 = granite plugs",
+   "confessions 3 = portcullis slabs",
+   "confessions 3 = chambers",
+   "linen garments 4 = air shafts"
+  ]
+ },
+ "render": {
+  "file": "power/audio/r64_kings_chamber_activation.mp3",
+  "sequence": [
+   "0.5 s walking in: the bells at the hem",
+   "8 s the incense cloud",
+   "19 s one upward, seven downward",
+   "29 s 'ana hashem' ('Please, O Name') on the chamber's note, 132 Hz",
+   "34 s 'ana hashem kapper na' ('Please, O Name, grant atonement')",
+   "46 s the people's answer from outside, heard through the shafts",
+   "throughout: the chamber's note, breathing at its Helmholtz rate"
+  ]
+ }
+}

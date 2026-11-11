@@ -76,7 +76,7 @@ Each mapping places John onto the seven strings differently:
 The cry from the cross patterns strongly in Syriac.
 
 **Conclusion:**
-- **The Gospel of John was composed in Greek.** Its sound-patterning belongs to the Greek, and is lost in the Syriac, the way the Hebrew Psalms' patterning is lost in Greek. This agrees with the project's earlier result (round 22, "composed in Greek by a Semitic voice") by a new and independent method.
+- **The Gospel of John was composed in Greek.** Its sound-patterning belongs to the Greek, and is lost in the Syriac, the way the Hebrew Psalms' patterning is lost in Greek. This agrees with the project's earlier result ("composed in Greek by a Semitic voice", `code/analysis/semitic.py`) by a new and independent method.
 - **The power sayings lean the other way** (not significant). If the lean is real, the sayings were patterned in a Semitic language before they reached the Greek, the way Mark keeps *talitha koum* and *Eloi* untranslated (round 37). The book would then be Greek and the words of power Aramaic underneath.
 - **What would settle it:** a larger set of sayings (all Gospels' words of Jesus against narration) and a pre-registered rerun.
 - **Caveat:** the Peshitta is a later Syriac (Eastern Aramaic) *translation from the Greek*, not Jesus' Galilean Aramaic. A pattern that reappears in it is a pattern that Aramaic easily rebuilds, which is the most that can be measured without a first-century Aramaic text.

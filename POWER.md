@@ -8,6 +8,42 @@
 - **New readings** are interpretations offered as hypotheses, not established facts.
 - **Physics** states what sound can and cannot do.
 
+
+## Round 2: experiments, the instrument catalogue, and further findings
+From this round on, every claim in the sources is recorded and kept, whatever current physics says about it; evaluation is a separate, later step. The physics table in section 3 remains as one kind of data among others.
+
+**The five experiments** (`experiments/PROTOCOLS.md`):
+
+| Experiment | Status | Result so far |
+|---|---|---|
+| E1 Breath and heart | Protocol, recitation tracks and analysis code ready; analysis checked on simulated data | Chanted, the Lord's Prayer in Koine paces breathing at about 11 a minute; read at speaking pace, 21. Needs a heart monitor and participants. |
+| E2 The hum | Protocol and analysis code ready | Needs a nitric-oxide meter |
+| E3 Seven vowels | Run by synthesis on an exactly held 110 Hz note | α, ε, η brighten exactly the predicted overtones (11, 19, 17); ο, ω within one; ι, υ need an overtone singer's technique. Singer and listener study specified. |
+| E4 Rooms | Run by calculation | Cube sanctuaries gather their resonances: 73 modes on 15 frequencies, against 56 in an ordinary room of equal volume; Solomon's cube rings three-fold at 96, 116, 135 Hz, the male chanting range. With the royal cubit, its side equals the King's Chamber's length (10.46 against 10.47 m). |
+| E5 Sound or sense | **Live:** https://claude.ai/artifact/9MtD9phqr71mXVq9qgvzrz | Waiting for participants (40 or more). Original against scrambled syllables against English translation, eight formulas. |
+
+**The catalogue** (`INSTRUMENTS.md`, 29 entries, original Hebrew and Greek beside the KJV):
+- **Instruments:** the silver trumpets, the Jericho ram's horns, David's lyre, Amphion's lyre, Pythagoras' hammers and string, the sistrum.
+- **Objects:** the ark and the voice from between the cherubim, the high priest's bells "that he die not", the breastplate with Urim and Thummim, the bronze serpent, Solomon's ring, Elisha's bones.
+- **Recipes:** the anointing oil and incense, the salt for the spring, Tobit's fish.
+- **Procedures:** *ephphatha*, spittle and clay, Siloam, Tabitha, the seven-vowel hymn, healing by music, prophesying with instruments.
+- **Events:** Sinai's shofar; the temple's "one sound" and the cloud.
+- **Texts:** the ten sayings, the seven voices.
+
+**Readings that translation hides:**
+- Joshua 6:20: the wall fell "**beneath itself**" (*tachteyha*).
+- 1 Samuel 16:23: after the lyre "there was **breathing-space** for Saul" (*ravach*, from the root of *ruach*, breath, spirit).
+- Exodus 28:35: the bells must sound "**that he die not**".
+- 2 Chronicles 5:13: the musicians were "as one, to make **one sound** heard", and then the cloud filled the house.
+- Numbers 7:89: Moses heard "**the voice speaking to itself**" (*middabber*) from between the cherubim.
+
+**New measurements:**
+- "And God said" occurs exactly **10** times in Genesis 1 (the Mishnah's "ten utterances").
+- "The voice of the LORD" occurs exactly **7** times in Psalm 29, each time acting on nature.
+- *Talitha qumi* and *Tabitha qumi* differ by one sound, and the two raisings follow the same steps.
+- The angel stirring Bethesda's water is absent from all four earliest manuscripts.
+- The divine name YHWH contains no closure of the mouth: glide, breath, glide, breath.
+
 ---
 
 ## 1. What the ancients themselves claimed

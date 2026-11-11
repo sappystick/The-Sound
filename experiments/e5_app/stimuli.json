@@ -1,0 +1,106 @@
+[
+ {
+  "id": "amen",
+  "original": "Ἀμήν.",
+  "translation": "Truly.",
+  "note": "Hebrew word, kept in Greek",
+  "scrambled_ipa": "men a",
+  "original_ipa": "a men",
+  "dur": [
+   2.0,
+   1.93,
+   1.62
+  ]
+ },
+ {
+  "id": "talitha",
+  "original": "Ταλιθα κουμ.",
+  "translation": "Little girl, arise.",
+  "note": "Aramaic, Mark 5:41",
+  "scrambled_ipa": "li tʰa kuːm ta",
+  "original_ipa": "ta li tʰa kuːm",
+  "dur": [
+   2.36,
+   2.29,
+   2.77
+  ]
+ },
+ {
+  "id": "ephphatha",
+  "original": "Εφφαθα.",
+  "translation": "Be opened.",
+  "note": "Aramaic, Mark 7:34",
+  "scrambled_ipa": "pʰa tʰa ɛpʰ",
+  "original_ipa": "ɛpʰ pʰa tʰa",
+  "dur": [
+   2.32,
+   2.12,
+   1.94
+  ]
+ },
+ {
+  "id": "abba",
+  "original": "Αββα ὁ πατήρ.",
+  "translation": "Father, father.",
+  "note": "Aramaic and Greek, Mark 14:36",
+  "scrambled_ipa": "va o pa ter av",
+  "original_ipa": "av va o pa ter",
+  "dur": [
+   2.57,
+   2.34,
+   2.84
+  ]
+ },
+ {
+  "id": "egoeimi",
+  "original": "Ἐγώ εἰμι.",
+  "translation": "I am.",
+  "note": "Greek, John 18:6",
+  "scrambled_ipa": "ɣo iː mi ɛ",
+  "original_ipa": "ɛ ɣo iː mi",
+  "dur": [
+   2.19,
+   2.08,
+   1.54
+  ]
+ },
+ {
+  "id": "sabaoth",
+  "original": "Κύριε Σαβαώθ.",
+  "translation": "Lord of hosts.",
+  "note": "Hebrew title, kept in Greek (Origen's example)",
+  "scrambled_ipa": "ri ɛ sa va otʰ ky",
+  "original_ipa": "ky ri ɛ sa va otʰ",
+  "dur": [
+   2.75,
+   2.63,
+   2.2
+  ]
+ },
+ {
+  "id": "adonai",
+  "original": "Ἀδωναΐ.",
+  "translation": "My Lord.",
+  "note": "Hebrew title (Origen's example)",
+  "scrambled_ipa": "ðo na i a",
+  "original_ipa": "a ðo na i",
+  "dur": [
+   2.01,
+   2.17,
+   1.99
+  ]
+ },
+ {
+  "id": "kyrie",
+  "original": "Κύριε ἐλέησον.",
+  "translation": "Lord, have mercy.",
+  "note": "Greek liturgy",
+  "scrambled_ipa": "ri ɛ ɛ lɛ e son ky",
+  "original_ipa": "ky ri ɛ ɛ lɛ e son",
+  "dur": [
+   2.77,
+   2.52,
+   2.5
+  ]
+ }
+]

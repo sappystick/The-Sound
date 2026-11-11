@@ -422,3 +422,13 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
   - recited sacred phrasing implies 3.5–12.7 breaths a minute, toward the 6-a-minute rate shown to synchronise heart rhythms (Bernardi 2001);
   - sacred formulas are 79% continuous voiced sound, against 67% in narrative.
 - **N (physics):** sound at voice levels exerts forces millions of times too small to move heavy matter; there is no link to gravity.
+
+## AK. Words of power, round 2 (`experiments/`, `INSTRUMENTS.md`)
+- **Five experiments:**
+  - E3 (vowels) and E4 (rooms) were run by computation;
+  - E5 (sound or sense) is live as a listening test;
+  - E1 (breath) and E2 (hum) are fully specified, with analysis code checked on simulated data.
+- **E4, measured:** cube sanctuaries concentrate their resonances (73 modes on 15 frequencies, against 56 in an equal-volume ordinary room). Solomon's 20-cubit cube rings three-fold at 96, 116 and 135 Hz.
+- **E3, measured:** on a held 110 Hz note, the open vowels brighten exactly the predicted overtones.
+- **Catalogue:** 29 instruments, objects, recipes and procedures with original text.
+- **Measured:** 10 "God said" in Genesis 1; 7 "voice of the LORD" in Psalm 29; *Talitha*/*Tabitha* one sound apart; Bethesda's angel absent from the four earliest manuscripts.

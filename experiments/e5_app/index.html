@@ -1,0 +1,186 @@
+<title>Sound or Sense</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single listening booth: one card at a time, centred, with the study's progress as a thin rail. */
+:root{
+  --bg:#eceee9; --panel:#f7f8f4; --ink:#18202c; --muted:#5d6672; --rule:#cfd4cc; --track:#e0e3dc;
+  --accent:#2c58a0; --orig:#9a6a24; --scr:#6c4fa6; --tr:#3f7d4c; --ok:#2f7a45; --bad:#b2445a;
+  --display:"GFS Didot","Noto Serif",Georgia,serif; --body:"Noto Serif",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --accent:#7ea4e6; --orig:#d7a65a; --scr:#b39ae8; --tr:#7cc28a; --ok:#7cc28a; --bad:#e57d92; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --accent:#7ea4e6; --orig:#d7a65a; --scr:#b39ae8; --tr:#7cc28a; --ok:#7cc28a; --bad:#e57d92; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.wrap{max-width:760px;margin:0 auto;padding-block:26px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+h1{font-size:clamp(2rem,6vw,2.8rem);line-height:1.05} h2{font-size:1.45rem} h3{font-size:1.1rem}
+.eyebrow{font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--orig)}
+.lede{color:var(--muted);margin:8px 0 0;max-width:60ch}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font:500 .78rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:3px;border:1px solid transparent}
+nav a[aria-current="page"]{color:var(--ink);border-color:var(--rule);background:var(--panel)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:22px;display:grid;gap:14px}
+.note{color:var(--muted);font-size:.9rem;margin:0;max-width:66ch}
+.rail{height:6px;background:var(--track);border-radius:3px;overflow:hidden} .rail i{display:block;height:100%;background:var(--accent);width:0}
+.scale{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.scale button{font:500 1rem/1 var(--mono);padding:12px 0;border-radius:4px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+.scale button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.ends{display:flex;justify-content:space-between;font:400 .74rem/1.2 var(--mono);color:var(--muted);margin-top:4px}
+button.b{font:500 .82rem/1 var(--mono);letter-spacing:.04em;padding:12px 16px;border-radius:4px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+button.b.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.b:disabled{opacity:.4;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.play{width:88px;height:88px;border-radius:50%;border:1px solid var(--rule);background:var(--bg);color:var(--ink);font:500 .8rem var(--mono);cursor:pointer;margin:0 auto;display:grid;place-items:center}
+.play.on{border-color:var(--accent);color:var(--accent)}
+label.ck{display:flex;gap:8px;align-items:center;font-size:.95rem}
+table{border-collapse:collapse;width:100%;font-size:.9rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule)}
+th{font:500 .7rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tablebox{overflow-x:auto}
+.chart{overflow-x:auto} .chart svg{display:block;width:100%;min-width:420px;height:auto}
+svg text{fill:var(--muted);font:11px var(--mono)}
+.pill{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.msg{font-size:.92rem;margin:0}.msg.bad{color:var(--bad)}.msg.ok{color:var(--ok)}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Experiment 5 · Origen, Against Celsus 1.25</div>
+  <h1>Sound or Sense</h1>
+  <p class="lede">An ancient claim says a sacred formula carries its force in its sound, and loses it in translation. Listen to short utterances and say how much force each carries.</p>
+</header>
+<nav aria-label="Sections"><a href="#take" data-view="take">Take part</a><a href="#results" data-view="results">Results</a><a href="#about" data-view="about">About the study</a></nav>
+
+<section id="v-take" style="display:grid;gap:16px">
+  <div class="card" id="intro">
+    <h2>Before you start</h2>
+    <p class="note">You will hear 24 short utterances, a few seconds each, in random order, and rate two things for each. It takes about six minutes. Use headphones if you can.</p>
+    <p class="note">Your ratings are stored with an anonymous code, not your name, and pooled with everyone else's. You can stop at any time; nothing is saved until the end.</p>
+    <fieldset style="border:0;padding:0;margin:0;display:grid;gap:6px">
+      <legend class="note" style="margin-bottom:6px">Which of these languages do you understand, even a little?</legend>
+      <label class="ck"><input type="checkbox" id="l-grc" value="greek"> Greek (ancient or modern)</label>
+      <label class="ck"><input type="checkbox" id="l-heb" value="hebrew"> Hebrew</label>
+      <label class="ck"><input type="checkbox" id="l-arc" value="aramaic"> Aramaic or Syriac</label>
+      <label class="ck"><input type="checkbox" id="l-lat" value="latin"> Latin</label>
+      <label class="ck"><input type="checkbox" id="l-eng" value="english" checked> English</label>
+    </fieldset>
+    <div class="row"><button class="b primary" id="start">Begin listening</button></div>
+    <p class="msg" id="dbmsg"></p>
+  </div>
+  <div class="card" id="trial" hidden>
+    <div class="rail" aria-hidden="true"><i id="bar"></i></div>
+    <div class="row" style="justify-content:space-between"><span class="eyebrow" id="count"></span><span class="note">Listen at least once, then rate.</span></div>
+    <button class="play" id="play" aria-label="Play the utterance">▶ Play</button>
+    <audio id="au" preload="auto"></audio>
+    <div><h3>How much force or power does this utterance carry?</h3><div class="scale" id="s1" role="group" aria-label="Force, 1 to 7"></div><div class="ends"><span>1 none</span><span>7 a great deal</span></div></div>
+    <div><h3>How does it leave you?</h3><div class="scale" id="s2" role="group" aria-label="Calm to stirred, 1 to 7"></div><div class="ends"><span>1 calm</span><span>7 stirred</span></div></div>
+    <label class="ck"><input type="checkbox" id="understood"> I understood the words</label>
+    <div class="row"><button class="b primary" id="next" disabled>Next</button></div>
+  </div>
+  <div class="card" id="done" hidden>
+    <h2>Thank you</h2>
+    <p class="msg" id="savemsg" aria-live="polite"></p>
+    <div class="row"><button class="b" id="toresults">See the results so far</button></div>
+  </div>
+</section>
+
+<section id="v-results" hidden style="display:grid;gap:16px">
+  <div class="card">
+    <h2>Results so far</h2>
+    <p class="note" id="rnote">Loading…</p>
+    <div class="chart"><svg id="rchart" viewBox="0 0 640 230" role="img" aria-label="Mean ratings by version"></svg></div>
+    <div class="tablebox"><table id="rtable"></table></div>
+    <h3>Formula by formula</h3>
+    <div class="tablebox"><table id="itable"></table></div>
+  </div>
+</section>
+
+<section id="v-about" hidden style="display:grid;gap:16px">
+  <div class="card">
+    <h2>What is being tested</h2>
+    <p class="note">Origen wrote that an incantation "spoken in its own language achieves what it promises; but translated into any other tongue it becomes slack and powerless. So it is not the meanings of things but the qualities of the sounds that have power." Iamblichus said the same of sacred names.</p>
+    <p class="note">Each of eight formulas is heard in three versions:</p>
+    <div class="tablebox"><table id="design"></table></div>
+    <p class="note"><b>Main comparison:</b> original against scrambled. Both are spoken by the same voice from the same syllables, so any difference comes from the specific arrangement of sounds, not from foreignness. <b>Second comparison:</b> original against translation, which uses a different voice and so should be read with care.</p>
+    <p class="note">Voices: the original and scrambled versions use a neural voice speaking reconstructed first-century Koine pronunciation, shifted to an adult male range; the translations use a male English neural voice. All are matched for loudness and placed in the same small hall.</p>
+  </div>
+</section>
+</div>
+
+<script>
+const ST = [{"id": "amen", "original": "Ἀμήν.", "translation": "Truly.", "note": "Hebrew word, kept in Greek", "scrambled_ipa": "men a", "original_ipa": "a men", "dur": [2.0, 1.93, 1.62]}, {"id": "talitha", "original": "Ταλιθα κουμ.", "translation": "Little girl, arise.", "note": "Aramaic, Mark 5:41", "scrambled_ipa": "li tʰa kuːm ta", "original_ipa": "ta li tʰa kuːm", "dur": [2.36, 2.29, 2.77]}, {"id": "ephphatha", "original": "Εφφαθα.", "translation": "Be opened.", "note": "Aramaic, Mark 7:34", "scrambled_ipa": "pʰa tʰa ɛpʰ", "original_ipa": "ɛpʰ pʰa tʰa", "dur": [2.32, 2.12, 1.94]}, {"id": "abba", "original": "Αββα ὁ πατήρ.", "translation": "Father, father.", "note": "Aramaic and Greek, Mark 14:36", "scrambled_ipa": "va o pa ter av", "original_ipa": "av va o pa ter", "dur": [2.57, 2.34, 2.84]}, {"id": "egoeimi", "original": "Ἐγώ εἰμι.", "translation": "I am.", "note": "Greek, John 18:6", "scrambled_ipa": "ɣo iː mi ɛ", "original_ipa": "ɛ ɣo iː mi", "dur": [2.19, 2.08, 1.54]}, {"id": "sabaoth", "original": "Κύριε Σαβαώθ.", "translation": "Lord of hosts.", "note": "Hebrew title, kept in Greek (Origen's example)", "scrambled_ipa": "ri ɛ sa va otʰ ky", "original_ipa": "ky ri ɛ sa va otʰ", "dur": [2.75, 2.63, 2.2]}, {"id": "adonai", "original": "Ἀδωναΐ.", "translation": "My Lord.", "note": "Hebrew title (Origen's example)", "scrambled_ipa": "ðo na i a", "original_ipa": "a ðo na i", "dur": [2.01, 2.17, 1.99]}, {"id": "kyrie", "original": "Κύριε ἐλέησον.", "translation": "Lord, have mercy.", "note": "Greek liturgy", "scrambled_ipa": "ri ɛ ɛ lɛ e son ky", "original_ipa": "ky ri ɛ ɛ lɛ e son", "dur": [2.77, 2.52, 2.5]}];
+const $ = s => document.querySelector(s), esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const VERS = ["original", "scrambled", "translated"], VLAB = {original: "original sound", scrambled: "same syllables, scrambled", translated: "English translation"}, VCOL = {original: "--orig", scrambled: "--scr", translated: "--tr"};
+let db = null, user = null, uid = null, trials = [], ti = 0, answers = [], cur = {}, played = false;
+// ---------------------------------------------------------------- runtime
+(async () => {
+  try { if (window.claude?.use) { [db, user] = await Promise.all([claude.use("db"), claude.use("user")]); if (user) uid = await user.id(); } } catch (e) {}
+  if (!db || !uid) $("#dbmsg").textContent = "Responses can only be pooled when the page is opened signed in to Claude. You can still take part; your ratings will stay on this screen.";
+  if (location.hash === "#results") loadResults();
+})();
+// ---------------------------------------------------------------- trial
+function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function scale(id, key) { $(id).innerHTML = [1, 2, 3, 4, 5, 6, 7].map(n => `<button aria-pressed="false" data-n="${n}">${n}</button>`).join("");
+  $(id).onclick = e => { const b = e.target.closest("button"); if (!b) return; cur[key] = +b.dataset.n; [...$(id).children].forEach(x => x.setAttribute("aria-pressed", x === b)); ready(); }; }
+function ready() { $("#next").disabled = !(played && cur.force && cur.stir); }
+$("#start").onclick = () => { trials = shuffle(ST.flatMap(s => VERS.map(v => ({id: s.id, v})))); ti = 0; answers = []; $("#intro").hidden = true; $("#trial").hidden = false; show(); };
+function show() {
+  const t = trials[ti]; cur = {id: t.id, v: t.v}; played = false; $("#understood").checked = false;
+  $("#count").textContent = `${ti + 1} of ${trials.length}`; $("#bar").style.width = `${100 * ti / trials.length}%`;
+  $("#au").src = `audio/${t.id}_${t.v}.mp3`; scale("#s1", "force"); scale("#s2", "stir"); ready(); $("#play").focus();
+}
+$("#play").onclick = () => { $("#au").currentTime = 0; $("#au").play().catch(() => {}); };
+$("#au").addEventListener("play", () => $("#play").classList.add("on"));
+$("#au").addEventListener("ended", () => { $("#play").classList.remove("on"); played = true; ready(); });
+$("#next").onclick = async () => {
+  answers.push({id: cur.id, v: cur.v, force: cur.force, stir: cur.stir, understood: $("#understood").checked, order: ti});
+  ti++; if (ti < trials.length) return show();
+  $("#trial").hidden = true; $("#done").hidden = false; $("#bar").style.width = "100%";
+  const langs = [...document.querySelectorAll("#intro input:checked")].map(x => x.value);
+  const doc = {answers, langs, finishedAt: new Date().toISOString(), version: 1};
+  local = doc;
+  if (db && uid) { $("#savemsg").textContent = "Saving…";
+    try { await db.collection("responses").doc(uid).set(doc); $("#savemsg").className = "msg ok"; $("#savemsg").textContent = "Your ratings are saved and pooled. If you take part again, your new ratings replace the old."; }
+    catch (e) { $("#savemsg").className = "msg bad"; $("#savemsg").textContent = "Your ratings could not be saved (" + (e?.code || "error") + "). They are shown in the results on this screen only."; } }
+  else { $("#savemsg").textContent = "Your ratings are shown in the results on this screen; they were not pooled."; }
+};
+let local = null;
+$("#toresults").onclick = () => { location.hash = "results"; };
+// ---------------------------------------------------------------- results
+function stats(xs) { const n = xs.length; if (!n) return {n, m: NaN, ci: NaN}; const m = xs.reduce((a, b) => a + b, 0) / n; const sd = n > 1 ? Math.sqrt(xs.reduce((a, b) => a + (b - m) ** 2, 0) / (n - 1)) : 0; return {n, m, ci: n > 1 ? 1.96 * sd / Math.sqrt(n) : NaN}; }
+async function loadResults() {
+  let docs = [];
+  if (db) { try { const snap = await db.collection("responses").get(); docs = snap.docs.map(d => d.data()).filter(d => d && Array.isArray(d.answers)); } catch (e) { $("#rnote").textContent = "Results could not be loaded (" + (e?.code || "error") + ")."; } }
+  if (!docs.length && local) docs = [local];
+  if (!docs.length) { $("#rnote").textContent = "No completed responses yet."; $("#rchart").innerHTML = ""; $("#rtable").innerHTML = ""; $("#itable").innerHTML = ""; return; }
+  // per participant means per version, then across participants (each person counts once)
+  const per = docs.map(d => { const o = {}; VERS.forEach(v => { const a = d.answers.filter(x => x.v === v); o[v] = {force: a.reduce((s, x) => s + x.force, 0) / (a.length || 1), stir: a.reduce((s, x) => s + x.stir, 0) / (a.length || 1)}; }); return o; });
+  const S = {}; VERS.forEach(v => S[v] = {force: stats(per.map(p => p[v].force)), stir: stats(per.map(p => p[v].stir))});
+  const dOS = stats(per.map(p => p.original.force - p.scrambled.force)), dOT = stats(per.map(p => p.original.force - p.translated.force));
+  $("#rnote").textContent = `${docs.length} participant${docs.length === 1 ? "" : "s"}. Means are taken per person first, so each person counts once. Bars show 95% intervals${docs.length < 2 ? " once there are at least two participants" : ""}. With few participants these numbers mean little; the study is designed for 40 or more.`;
+  const L = 60, R = 620, T = 18, B = 190, Y = v => B - (B - T) * (v - 1) / 6; let h = "";
+  [1, 2, 3, 4, 5, 6, 7].forEach(v => h += `<line x1="${L}" x2="${R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`);
+  ["force", "stir"].forEach((k, g) => { const gx = L + 40 + g * 280; h += `<text x="${gx + 100}" y="${B + 30}" text-anchor="middle" style="fill:var(--ink)">${k === "force" ? "force (1 none – 7 great)" : "calm 1 – stirred 7"}</text>`;
+    VERS.forEach((v, i) => { const s = S[v][k], x = gx + i * 70; if (isNaN(s.m)) return; h += `<rect x="${x}" y="${Y(s.m)}" width="46" height="${B - Y(s.m)}" fill="var(${VCOL[v]})" opacity=".85"/><text x="${x + 23}" y="${Y(s.m) - 6}" text-anchor="middle" style="fill:var(--ink)">${s.m.toFixed(2)}</text>`;
+      if (!isNaN(s.ci)) h += `<line x1="${x + 23}" x2="${x + 23}" y1="${Y(Math.min(7, s.m + s.ci))}" y2="${Y(Math.max(1, s.m - s.ci))}" stroke="var(--ink)" stroke-width="1.5"/>`; }); });
+  $("#rchart").innerHTML = h;
+  const f = s => isNaN(s.m) ? "—" : `${s.m.toFixed(2)}${isNaN(s.ci) ? "" : ` ± ${s.ci.toFixed(2)}`}`;
+  $("#rtable").innerHTML = "<tr><th>Version</th><th>Force</th><th>Calm–stirred</th></tr>" + VERS.map(v => `<tr><td><span class="pill" style="background:var(${VCOL[v]})"></span>${VLAB[v]}</td><td>${f(S[v].force)}</td><td>${f(S[v].stir)}</td></tr>`).join("") +
+    `<tr><td><b>Original minus scrambled</b> (main test)</td><td>${f(dOS)}</td><td></td></tr><tr><td><b>Original minus translation</b></td><td>${f(dOT)}</td><td></td></tr>`;
+  $("#itable").innerHTML = "<tr><th>Formula</th>" + VERS.map(v => `<th>${VLAB[v]}</th>`).join("") + "</tr>" + ST.map(s => `<tr><td><span style="font-family:var(--display)">${esc(s.original)}</span><br><span class="note">${esc(s.translation)}</span></td>` + VERS.map(v => { const xs = docs.flatMap(d => d.answers.filter(a => a.id === s.id && a.v === v).map(a => a.force)); const st = stats(xs); return `<td>${isNaN(st.m) ? "—" : st.m.toFixed(2)}</td>`; }).join("") + "</tr>").join("");
+}
+// ---------------------------------------------------------------- about and routing
+$("#design").innerHTML = "<tr><th>Version</th><th>What you hear</th></tr>" + [["original", "the formula as Greek-speaking churches said it, in reconstructed first-century pronunciation"], ["scrambled", "exactly the same syllables in a different order, same voice"], ["translated", "the meaning in English"]].map(([v, t]) => `<tr><td><span class="pill" style="background:var(${VCOL[v]})"></span>${VLAB[v]}</td><td>${t}</td></tr>`).join("") +
+  ST.map(s => `<tr><td style="font-family:var(--display)">${esc(s.original)}</td><td>${esc(s.translation)} <span class="note">· ${esc(s.note)}</span></td></tr>`).join("");
+const VIEWS = ["take", "results", "about"];
+function route() { const v = (location.hash || "#take").slice(1), ok = VIEWS.includes(v) ? v : "take"; VIEWS.forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); if (ok === "results") loadResults(); }
+addEventListener("hashchange", route); route();
+</script>

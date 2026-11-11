@@ -407,3 +407,18 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **Course:** 89 recorded steps teach 104 sentences in 5.3 minutes of audio.
 - **Costs measured:** 1.4–1.7 times the syllables of English; less lexical precision.
 - **Not tested:** learners, signers, speakers of tone languages. Adoption is a social matter that no design decides.
+
+## AJ. Words of power (round 37, `POWER.md`, `power/`)
+- **Ancient theory established from primary texts:**
+  - Origen (*Against Celsus* 1.25) and Iamblichus (*On the Mysteries* 7.4–5): a sacred formula's power lies in its sound; translated it becomes *atonon*, slack and toneless.
+  - Demetrius (*On Style* 71): the seven-vowel hymn.
+  - Iamblichus (*Life of Pythagoras* 110–111): healing by music.
+  - Josephus (*Antiquities* 8.45–49): an eyewitness healing by incantation, with an overturned cup as proof.
+  - *Sefer Yetzirah* 2.2–2.4: letters "carved with voice, hewn with breath, fixed in the mouth in five places", and 231 gates.
+- **S (measured):** in Mark, all four of Jesus' untranslated Aramaic words are at moments of healing, prayer or death (*talitha koum*, *ephphatha*, *abba*, *eloi*). Matthew keeps one; Luke translates all.
+- **Measured:** "voice" is most frequent in John (0.97 per 1,000 words, against 0.38–0.72), and acts on the dead (5:25, 11:43) and on soldiers ("I am", 18:6).
+- **Measured:**
+  - the seven vowels on one note brighten harmonics 11, 19, 17, 21, 7, 17, 8, an overtone melody;
+  - recited sacred phrasing implies 3.5–12.7 breaths a minute, toward the 6-a-minute rate shown to synchronise heart rhythms (Bernardi 2001);
+  - sacred formulas are 79% continuous voiced sound, against 67% in narrative.
+- **N (physics):** sound at voice levels exerts forces millions of times too small to move heavy matter; there is no link to gravity.

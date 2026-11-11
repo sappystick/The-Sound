@@ -1,0 +1,383 @@
+{
+ "lexicon_size_len4plus": 20234,
+ "manuscripts": {
+  "P66": {
+   "n_lines": 2689,
+   "n_columns": 150,
+   "unknown_first": 451,
+   "unknown_last": 485,
+   "acrostic_first_letters_len4": {
+    "obs": 9,
+    "null_mean": 4.937,
+    "null_sd": 2.3801325593336182,
+    "p": 0.08491508491508491,
+    "ratio": 1.8229694146242656,
+    "words": [
+     "πατερ",
+     "νεοσ",
+     "επτα",
+     "εμεω",
+     "οτου",
+     "λαον",
+     "ατερ",
+     "τοτε",
+     "ειτε"
+    ]
+   },
+   "acrostic_first_letters_len5": {
+    "obs": 1,
+    "null_mean": 0.396,
+    "null_sd": 0.6365406507050433,
+    "p": 0.32167832167832167,
+    "ratio": 2.525252525252525,
+    "words": [
+     "πατερ"
+    ]
+   },
+   "telestich_last_letters_len4": {
+    "obs": 25,
+    "null_mean": 11.951,
+    "null_sd": 3.5186075370805425,
+    "p": 0.002997002997002997,
+    "ratio": 2.091875156890637,
+    "words": [
+     "ειασαν",
+     "ασιασ",
+     "σωσων",
+     "ιασισ",
+     "αμην",
+     "ουσα",
+     "σειω",
+     "ειων",
+     "μηνι",
+     "νυνι",
+     "ουαι",
+     "ναου",
+     "ονον",
+     "νευω",
+     "ισαι"
+    ]
+   },
+   "telestich_last_letters_len5": {
+    "obs": 4,
+    "null_mean": 1.161,
+    "null_sd": 1.1095399947726083,
+    "p": 0.03896103896103896,
+    "ratio": 3.445305770887166,
+    "words": [
+     "ειασαν",
+     "ιασισ",
+     "ασιασ",
+     "σωσων"
+    ]
+   },
+   "implant_control_found": true
+  },
+  "P75": {
+   "n_lines": 1668,
+   "n_columns": 41,
+   "unknown_first": 347,
+   "unknown_last": 298,
+   "acrostic_first_letters_len4": {
+    "obs": 2,
+    "null_mean": 3.039,
+    "null_sd": 1.8263293788361397,
+    "p": 0.7992007992007992,
+    "ratio": 0.6581112207963146,
+    "words": [
+     "κατα",
+     "ειπε"
+    ]
+   },
+   "acrostic_first_letters_len5": {
+    "obs": 0,
+    "null_mean": 0.269,
+    "null_sd": 0.5278626715349363,
+    "p": 1.0,
+    "ratio": 0.0,
+    "words": []
+   },
+   "telestich_last_letters_len4": {
+    "obs": 17,
+    "null_mean": 8.658,
+    "null_sd": 3.078154641989255,
+    "p": 0.00999000999000999,
+    "ratio": 1.9635019635019637,
+    "words": [
+     "ανανια",
+     "ικανου",
+     "σανισ",
+     "ειναι",
+     "ευρεν",
+     "οινον",
+     "ισαι",
+     "υιον",
+     "ισην",
+     "υιοι",
+     "ποια",
+     "ναον",
+     "μονα",
+     "νυνι",
+     "ονον"
+    ]
+   },
+   "telestich_last_letters_len5": {
+    "obs": 6,
+    "null_mean": 0.849,
+    "null_sd": 0.9788763966916354,
+    "p": 0.000999000999000999,
+    "ratio": 7.06713780918728,
+    "words": [
+     "ανανια",
+     "ικανου",
+     "σανισ",
+     "ειναι",
+     "ευρεν",
+     "οινον"
+    ]
+   },
+   "implant_control_found": true
+  },
+  "01": {
+   "n_lines": 5163,
+   "n_columns": 108,
+   "unknown_first": 0,
+   "unknown_last": 0,
+   "acrostic_first_letters_len4": {
+    "obs": 22,
+    "null_mean": 22.532,
+    "null_sd": 4.795516239155072,
+    "p": 0.5664335664335665,
+    "ratio": 0.9763891354518018,
+    "words": [
+     "ποτοσ",
+     "τινι",
+     "ασαφ",
+     "τοκω",
+     "μονα",
+     "ομμα",
+     "βιον",
+     "διοσ",
+     "οδου",
+     "εστη",
+     "τοπω",
+     "εμοσ",
+     "ρεδη",
+     "κακα",
+     "εδει"
+    ]
+   },
+   "acrostic_first_letters_len5": {
+    "obs": 1,
+    "null_mean": 2.615,
+    "null_sd": 1.731119579925084,
+    "p": 0.9140859140859141,
+    "ratio": 0.3824091778202677,
+    "words": [
+     "ποτοσ"
+    ]
+   },
+   "telestich_last_letters_len4": {
+    "obs": 58,
+    "null_mean": 59.8,
+    "null_sd": 7.988116173416609,
+    "p": 0.5974025974025974,
+    "ratio": 0.9698996655518395,
+    "words": [
+     "αρειον",
+     "ιανναι",
+     "κειρω",
+     "ουσαι",
+     "οσουσ",
+     "ουσα",
+     "ναοσ",
+     "ισην",
+     "ανευ",
+     "μωρα",
+     "ονοσ",
+     "ιωνα",
+     "οραω",
+     "νυνι",
+     "ουαι"
+    ]
+   },
+   "telestich_last_letters_len5": {
+    "obs": 5,
+    "null_mean": 7.313,
+    "null_sd": 2.771106457716845,
+    "p": 0.8531468531468531,
+    "ratio": 0.6837139340899768,
+    "words": [
+     "ιανναι",
+     "αρειον",
+     "οσουσ",
+     "κειρω",
+     "ουσαι"
+    ]
+   },
+   "implant_control_found": true
+  },
+  "03": {
+   "n_lines": 4080,
+   "n_columns": 98,
+   "unknown_first": 0,
+   "unknown_last": 0,
+   "acrostic_first_letters_len4": {
+    "obs": 21,
+    "null_mean": 19.896,
+    "null_sd": 4.568936856644005,
+    "p": 0.4245754245754246,
+    "ratio": 1.0554885404101326,
+    "words": [
+     "ποτοσ",
+     "οσιον",
+     "ποδοσ",
+     "ιαμα",
+     "εμασ",
+     "αλασ",
+     "εατε",
+     "περι",
+     "ειτα",
+     "νεοσ",
+     "αγων",
+     "ετων",
+     "οπου",
+     "οδοσ",
+     "εστε"
+    ]
+   },
+   "acrostic_first_letters_len5": {
+    "obs": 3,
+    "null_mean": 2.313,
+    "null_sd": 1.5003436273067579,
+    "p": 0.41058941058941056,
+    "ratio": 1.2970168612191957,
+    "words": [
+     "ποτοσ",
+     "οσιον",
+     "ποδοσ"
+    ]
+   },
+   "telestich_last_letters_len4": {
+    "obs": 52,
+    "null_mean": 46.214,
+    "null_sd": 7.265962014764459,
+    "p": 0.22977022977022976,
+    "ratio": 1.1252001557969447,
+    "words": [
+     "ερεισ",
+     "εργου",
+     "αιρων",
+     "ανναν",
+     "ουσα",
+     "ισον",
+     "ειων",
+     "ιωνα",
+     "νυνι",
+     "εσλι",
+     "ναυν",
+     "μιση",
+     "ναυσ",
+     "νουσ",
+     "αννα"
+    ]
+   },
+   "telestich_last_letters_len5": {
+    "obs": 5,
+    "null_mean": 5.919,
+    "null_sd": 2.515638885054848,
+    "p": 0.6953046953046953,
+    "ratio": 0.8447372867038352,
+    "words": [
+     "αιρων",
+     "εργου",
+     "ανναν",
+     "ερεισ"
+    ]
+   },
+   "implant_control_found": true
+  }
+ },
+ "tests": [
+  {
+   "test": "John P66 acrostic_first_letters len>=4",
+   "p": 0.08491508491508491,
+   "family": "msline"
+  },
+  {
+   "test": "John P66 acrostic_first_letters len>=5",
+   "p": 0.32167832167832167,
+   "family": "msline"
+  },
+  {
+   "test": "John P66 telestich_last_letters len>=4",
+   "p": 0.002997002997002997,
+   "family": "msline"
+  },
+  {
+   "test": "John P66 telestich_last_letters len>=5",
+   "p": 0.03896103896103896,
+   "family": "msline"
+  },
+  {
+   "test": "John P75 acrostic_first_letters len>=4",
+   "p": 0.7992007992007992,
+   "family": "msline"
+  },
+  {
+   "test": "John P75 acrostic_first_letters len>=5",
+   "p": 1.0,
+   "family": "msline"
+  },
+  {
+   "test": "John P75 telestich_last_letters len>=4",
+   "p": 0.00999000999000999,
+   "family": "msline"
+  },
+  {
+   "test": "John P75 telestich_last_letters len>=5",
+   "p": 0.000999000999000999,
+   "family": "msline"
+  },
+  {
+   "test": "John 01 acrostic_first_letters len>=4",
+   "p": 0.5664335664335665,
+   "family": "msline"
+  },
+  {
+   "test": "John 01 acrostic_first_letters len>=5",
+   "p": 0.9140859140859141,
+   "family": "msline"
+  },
+  {
+   "test": "John 01 telestich_last_letters len>=4",
+   "p": 0.5974025974025974,
+   "family": "msline"
+  },
+  {
+   "test": "John 01 telestich_last_letters len>=5",
+   "p": 0.8531468531468531,
+   "family": "msline"
+  },
+  {
+   "test": "John 03 acrostic_first_letters len>=4",
+   "p": 0.4245754245754246,
+   "family": "msline"
+  },
+  {
+   "test": "John 03 acrostic_first_letters len>=5",
+   "p": 0.41058941058941056,
+   "family": "msline"
+  },
+  {
+   "test": "John 03 telestich_last_letters len>=4",
+   "p": 0.22977022977022976,
+   "family": "msline"
+  },
+  {
+   "test": "John 03 telestich_last_letters len>=5",
+   "p": 0.6953046953046953,
+   "family": "msline"
+  }
+ ]
+}

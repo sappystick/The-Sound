@@ -1,0 +1,1342 @@
+{
+ "tests": [
+  {
+   "test": "T1 all: John sound-play verses vs shuffle null",
+   "p": 0.000999000999000999,
+   "q_bh": 0.002997002997002997,
+   "significant": true
+  },
+  {
+   "test": "T1 all: Matt sound-play verses vs shuffle null",
+   "p": 0.000999000999000999,
+   "q_bh": 0.002997002997002997,
+   "significant": true
+  },
+  {
+   "test": "T1 all: Mark sound-play verses vs shuffle null",
+   "p": 0.000999000999000999,
+   "q_bh": 0.002997002997002997,
+   "significant": true
+  },
+  {
+   "test": "T1 all: Luke sound-play verses vs shuffle null",
+   "p": 0.000999000999000999,
+   "q_bh": 0.002997002997002997,
+   "significant": true
+  },
+  {
+   "test": "T1 all: Acts sound-play verses vs shuffle null",
+   "p": 0.000999000999000999,
+   "q_bh": 0.002997002997002997,
+   "significant": true
+  },
+  {
+   "test": "T1 all: John excess > Mt+Mk+Lk+Acts",
+   "p": 0.524495100979804,
+   "q_bh": 0.6293941211757648,
+   "significant": false
+  },
+  {
+   "test": "T1 syr_only: John sound-play verses vs shuffle null",
+   "p": 0.8841158841158842,
+   "q_bh": 0.9210157968406318,
+   "significant": false
+  },
+  {
+   "test": "T1 syr_only: Matt sound-play verses vs shuffle null",
+   "p": 0.37162837162837165,
+   "q_bh": 0.4955044955044955,
+   "significant": false
+  },
+  {
+   "test": "T1 syr_only: Mark sound-play verses vs shuffle null",
+   "p": 0.02197802197802198,
+   "q_bh": 0.04795204795204795,
+   "significant": true
+  },
+  {
+   "test": "T1 syr_only: Luke sound-play verses vs shuffle null",
+   "p": 0.8161838161838162,
+   "q_bh": 0.8903823449277994,
+   "significant": false
+  },
+  {
+   "test": "T1 syr_only: Acts sound-play verses vs shuffle null",
+   "p": 0.07392607392607392,
+   "q_bh": 0.11828171828171827,
+   "significant": false
+  },
+  {
+   "test": "T1 syr_only: John excess > Mt+Mk+Lk+Acts",
+   "p": 0.9210157968406318,
+   "q_bh": 0.9210157968406318,
+   "significant": false
+  },
+  {
+   "test": "T1 greek: John same-root excess > Mt+Mk+Lk+Acts",
+   "p": 0.595880823835233,
+   "q_bh": 0.6810066558116948,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > Psalms of Solomon, Johannine markers (total)",
+   "p": 0.00019998000199980003,
+   "q_bh": 0.0026657780739753416,
+   "significant": true
+  },
+  {
+   "test": "T2 Odes > PsSol: word",
+   "p": 0.3097690230976902,
+   "q_bh": 0.4373209737849745,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > PsSol: light",
+   "p": 0.00029997000299970003,
+   "q_bh": 0.0026657780739753416,
+   "significant": true
+  },
+  {
+   "test": "T2 Odes > PsSol: life/living",
+   "p": 0.4166583341665833,
+   "q_bh": 0.526305264210421,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > PsSol: water",
+   "p": 0.0374962503749625,
+   "q_bh": 0.074992500749925,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > PsSol: truth",
+   "p": 0.0014998500149985001,
+   "q_bh": 0.003999600039996,
+   "significant": true
+  },
+  {
+   "test": "T2 Odes > PsSol: love",
+   "p": 0.0430956904309569,
+   "q_bh": 0.07956127464176659,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > PsSol: rest",
+   "p": 0.0021997800219978004,
+   "q_bh": 0.005279472052794721,
+   "significant": true
+  },
+  {
+   "test": "T2 Odes > PsSol: I am",
+   "p": 0.0658934106589341,
+   "q_bh": 0.11296013255817274,
+   "significant": false
+  },
+  {
+   "test": "T2 Odes > PsSol: he who",
+   "p": 0.136986301369863,
+   "q_bh": 0.2054794520547945,
+   "significant": false
+  },
+  {
+   "test": "T2 control: John > Synoptics, Johannine markers (Greek)",
+   "p": 0.0003332222592469177,
+   "q_bh": 0.0026657780739753416,
+   "significant": true
+  }
+ ],
+ "T1": {
+  "all": {
+   "John": {
+    "verses": 879,
+    "observed": 0.1558589306029579,
+    "null_mean": 0.10793856655290102,
+    "null_sd": 0.008521883213208707,
+    "excess_ratio": 1.4439596112902888,
+    "p": 0.000999000999000999
+   },
+   "Matt": {
+    "verses": 1071,
+    "observed": 0.11297852474323063,
+    "null_mean": 0.07281699346405228,
+    "null_sd": 0.0073745598926221335,
+    "excess_ratio": 1.5515406413889496,
+    "p": 0.000999000999000999
+   },
+   "Mark": {
+    "verses": 678,
+    "observed": 0.13864306784660768,
+    "null_mean": 0.06124926253687316,
+    "null_sd": 0.008502699891686784,
+    "excess_ratio": 2.2635875454523564,
+    "p": 0.000999000999000999
+   },
+   "Luke": {
+    "verses": 1151,
+    "observed": 0.11728931364031277,
+    "null_mean": 0.07876542137271937,
+    "null_sd": 0.006925384709958203,
+    "excess_ratio": 1.4890965044838351,
+    "p": 0.000999000999000999
+   },
+   "Acts": {
+    "verses": 1007,
+    "observed": 0.15690168818272096,
+    "null_mean": 0.10741708043694141,
+    "null_sd": 0.008193008869456187,
+    "excess_ratio": 1.4606772735256868,
+    "p": 0.000999000999000999
+   },
+   "John_vs_others": {
+    "john_excess_per_verse": 0.047920364050056875,
+    "others_excess_per_verse": 0.04854312771947786,
+    "diff": -0.0006227636694209823,
+    "p": 0.524495100979804
+   }
+  },
+  "syr_only": {
+   "John": {
+    "verses": 879,
+    "observed": 0.07963594994311718,
+    "null_mean": 0.08841183162684871,
+    "null_sd": 0.007946202688285385,
+    "excess_ratio": 0.9007386056566383,
+    "p": 0.8841158841158842
+   },
+   "Matt": {
+    "verses": 1071,
+    "observed": 0.06069094304388422,
+    "null_mean": 0.05821942110177405,
+    "null_sd": 0.006401742810140966,
+    "excess_ratio": 1.0424518467435406,
+    "p": 0.37162837162837165
+   },
+   "Mark": {
+    "verses": 678,
+    "observed": 0.06342182890855458,
+    "null_mean": 0.04782300884955752,
+    "null_sd": 0.0073376986701021,
+    "excess_ratio": 1.3261781396496424,
+    "p": 0.02197802197802198
+   },
+   "Luke": {
+    "verses": 1151,
+    "observed": 0.060816681146828845,
+    "null_mean": 0.06592528236316246,
+    "null_sd": 0.006160565556065918,
+    "excess_ratio": 0.9225092250922511,
+    "p": 0.8161838161838162
+   },
+   "Acts": {
+    "verses": 1007,
+    "observed": 0.09831181727904667,
+    "null_mean": 0.08653525322740814,
+    "null_sd": 0.007644483097401685,
+    "excess_ratio": 1.1360897855200194,
+    "p": 0.07392607392607392
+   },
+   "John_vs_others": {
+    "john_excess_per_verse": -0.008775881683731513,
+    "others_excess_per_verse": 0.0049147683644740195,
+    "diff": -0.013690650048205532,
+    "p": 0.9210157968406318
+   }
+  },
+  "greek_same_root": {
+   "John": {
+    "verses": 866,
+    "observed": 0.1374133949191686,
+    "null_mean": 0.1101270207852194,
+    "excess_ratio": 1.2477718360071302,
+    "p": 0.004975124378109453
+   },
+   "Matt": {
+    "verses": 1068,
+    "observed": 0.149812734082397,
+    "null_mean": 0.12801029962546817,
+    "excess_ratio": 1.1703178144314816,
+    "p": 0.014925373134328358
+   },
+   "Mark": {
+    "verses": 673,
+    "observed": 0.1664190193164933,
+    "null_mean": 0.11930906389301636,
+    "excess_ratio": 1.394856466778753,
+    "p": 0.004975124378109453
+   },
+   "Luke": {
+    "verses": 1149,
+    "observed": 0.15317667536988686,
+    "null_mean": 0.1275543951261967,
+    "excess_ratio": 1.2008733624454146,
+    "p": 0.004975124378109453
+   },
+   "Acts": {
+    "verses": 1002,
+    "observed": 0.21357285429141717,
+    "null_mean": 0.1797554890219561,
+    "excess_ratio": 1.188129805957305,
+    "p": 0.004975124378109453
+   },
+   "John_vs_others": {
+    "john_excess_per_verse": 0.027286374133949187,
+    "others_excess_per_verse": 0.030399537512846866,
+    "diff": -0.0031131633788976792,
+    "p": 0.595880823835233
+   }
+  }
+ },
+ "hebrew_control": {
+  "controls": [
+   {
+    "control": "Gen 2:7 adam/adamah",
+    "rule": "exact skeleton",
+    "found": true
+   },
+   {
+    "control": "Amos 8:2 qayits/qets",
+    "rule": "exact skeleton",
+    "found": true
+   },
+   {
+    "control": "Jer 1:11-12 shaqed/shoqed",
+    "rule": "exact skeleton",
+    "found": true
+   },
+   {
+    "control": "Isa 5:7 mishpat/mishpach",
+    "rule": "near (one radical)",
+    "found": true
+   },
+   {
+    "control": "Isa 5:7 tsedaqah/tse'aqah",
+    "rule": "near (one radical)",
+    "found": true
+   }
+  ],
+  "verses": 23213,
+  "share_flagged_exact": 0.09498987636238315,
+  "share_flagged_near": 0.2610606125877741,
+  "books": {
+   "Gen": {
+    "observed": 0.10241356816699282,
+    "null_mean": 0.05934116112198304,
+    "excess_ratio": 1.72584368473123,
+    "p": 0.009900990099009901
+   },
+   "Isa": {
+    "observed": 0.09914794732765299,
+    "null_mean": 0.0628272656855151,
+    "excess_ratio": 1.5781038096412283,
+    "p": 0.009900990099009901
+   },
+   "Amos": {
+    "observed": 0.0547945205479452,
+    "null_mean": 0.04534246575342467,
+    "excess_ratio": 1.2084592145015103,
+    "p": 0.36633663366336633
+   },
+   "Jer": {
+    "observed": 0.1187683284457478,
+    "null_mean": 0.08247067448680355,
+    "excess_ratio": 1.4401280113787887,
+    "p": 0.009900990099009901
+   }
+  }
+ },
+ "T3_top_syriac_only": [
+  {
+   "verse": "John 2:15",
+   "kind": "R",
+   "lex1": "<WRPN>",
+   "lex2": "M<RPN>",
+   "root1": "<RP",
+   "root2": "<RP",
+   "word1": "<WRPNHWN",
+   "word2": "WLM<RPN>",
+   "syriac1": "ܥܘܪܦܢܗܘܢ",
+   "syriac2": "ܘܠܡܥܪܦܢܐ",
+   "translit1": "ʿwrpnhwn",
+   "translit2": "wlmʿrpnʾ",
+   "root_translit": "ʿrp / ʿrp",
+   "greek_in_verse1": "κερμα",
+   "greek_in_verse2": "κολλυβιστησ",
+   "greek_equiv1": [
+    "φραγελλιον",
+    "κερμα",
+    "σχοινιον"
+   ],
+   "greek_equiv2": [
+    "κολλυβιστησ",
+    "καταστρεφω",
+    "καθεδρα"
+   ],
+   "distance": 2,
+   "rarity": 8.77,
+   "score": 8.29,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 21:2",
+   "kind": "S",
+   "lex1": "T>M>",
+   "lex2": "T>WM>",
+   "root1": "T>M>",
+   "root2": "T>WM>",
+   "word1": "T>M>",
+   "word2": "WT>WM>",
+   "syriac1": "ܬܐܡܐ",
+   "syriac2": "ܘܬܐܘܡܐ",
+   "translit1": "tʾmʾ",
+   "translit2": "wtʾwmʾ",
+   "root_translit": "tʾmʾ / tʾwmʾ",
+   "greek_in_verse1": "διδυμοσ",
+   "greek_in_verse2": "θωμασ",
+   "greek_equiv1": [
+    "διδυμοσ",
+    "συμμαθητησ",
+    "παρασημοσ"
+   ],
+   "greek_equiv2": [
+    "θωμασ",
+    "μαθθαιοσ",
+    "αλφαιοσ"
+   ],
+   "distance": 2,
+   "rarity": 8.03,
+   "score": 7.55,
+   "verses_in_john_with_pair": 3
+  },
+  {
+   "verse": "John 13:5",
+   "kind": "S",
+   "lex1": "CW>",
+   "lex2": "MCGT>",
+   "root1": "CW>",
+   "root2": "CWG",
+   "word1": "WMCW>",
+   "word2": "BMCGT>",
+   "syriac1": "ܘܡܫܘܐ",
+   "syriac2": "ܒܡܫܓܬܐ",
+   "translit1": "wmšwʾ",
+   "translit2": "bmšgtʾ",
+   "root_translit": "šwʾ / šwg",
+   "greek_in_verse1": "εκμασσω",
+   "greek_in_verse2": "νιπτηρ",
+   "greek_equiv1": [
+    "αξιοσ",
+    "υποδημα",
+    "ικανοσ"
+   ],
+   "greek_equiv2": [
+    "νιπτηρ",
+    "λεντιον",
+    "διαζωννυμι"
+   ],
+   "distance": 5,
+   "rarity": 7.74,
+   "score": 6.96,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 3:20",
+   "kind": "R",
+   "lex1": "SN>",
+   "lex2": "SNJ>",
+   "root1": "SN>",
+   "root2": "SN>",
+   "word1": "SN>",
+   "word2": "DSNJT>",
+   "syriac1": "ܣܢܐ",
+   "syriac2": "ܕܣܢܝܬܐ",
+   "translit1": "snʾ",
+   "translit2": "dsnytʾ",
+   "root_translit": "snʾ / snʾ",
+   "greek_in_verse1": "μισεω",
+   "greek_in_verse2": "φαυλοσ",
+   "greek_equiv1": [
+    "μισεω",
+    "δουλευω",
+    "μαμωνασ"
+   ],
+   "greek_equiv2": [
+    "βατοσ",
+    "λυτρωτησ",
+    "κατοικητηριον"
+   ],
+   "distance": 2,
+   "rarity": 7.15,
+   "score": 6.67,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 16:21",
+   "kind": "R",
+   "lex1": "JLD",
+   "lex2": "MWLD>",
+   "root1": "JLD",
+   "root2": "JLD",
+   "word1": "DJLDT",
+   "word2": "DMWLDH",
+   "syriac1": "ܕܝܠܕܬ",
+   "syriac2": "ܕܡܘܠܕܗ",
+   "translit1": "dyldt",
+   "translit2": "dmwldh",
+   "root_translit": "yld / yld",
+   "greek_in_verse1": "γενναω",
+   "greek_in_verse2": "λυπη",
+   "greek_equiv1": [
+    "γενναω",
+    "τικτω",
+    "υιοσ"
+   ],
+   "greek_equiv2": [
+    "παλιγγενεσια",
+    "λουτρον",
+    "ανακαινωσισ"
+   ],
+   "distance": 2,
+   "rarity": 7.12,
+   "score": 6.64,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 19:40",
+   "kind": "S",
+   "lex1": "<JD>",
+   "lex2": "JHWDJ>",
+   "root1": "<WD",
+   "root2": "JHWD",
+   "word1": "<JD>",
+   "word2": "LJHWDJ>",
+   "syriac1": "ܥܝܕܐ",
+   "syriac2": "ܠܝܗܘܕܝܐ",
+   "translit1": "ʿydʾ",
+   "translit2": "lyhwdyʾ",
+   "root_translit": "ʿwd / yhwd",
+   "greek_in_verse1": "εθοσ",
+   "greek_in_verse2": "ιουδαιοσ",
+   "greek_equiv1": [
+    "εθοσ",
+    "συνηθεια",
+    "ρωμαιοσ"
+   ],
+   "greek_equiv2": [
+    "ιουδαιοσ",
+    "ελλην",
+    "βασιλευσ"
+   ],
+   "distance": 1,
+   "rarity": 6.28,
+   "score": 5.98,
+   "verses_in_john_with_pair": 2
+  },
+  {
+   "verse": "John 5:4",
+   "kind": "R",
+   "lex1": "Z<",
+   "lex2": "ZW<>",
+   "root1": "Z<",
+   "root2": "Z<",
+   "word1": "WMZJ<",
+   "word2": "ZW<>",
+   "syriac1": "ܘܡܙܝܥ",
+   "syriac2": "ܙܘܥܐ",
+   "translit1": "wmzyʿ",
+   "translit2": "zwʿʾ",
+   "root_translit": "zʿ / zʿ",
+   "greek_in_verse1": null,
+   "greek_in_verse2": null,
+   "greek_equiv1": [
+    "σαλευω",
+    "σειω",
+    "ταρασσω"
+   ],
+   "greek_equiv2": [
+    "σεισμοσ",
+    "λιμοσ",
+    "φοβητρον"
+   ],
+   "distance": 10,
+   "rarity": 6.92,
+   "score": 5.87,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 13:5",
+   "kind": "S",
+   "lex1": "CG",
+   "lex2": "CW>",
+   "root1": "CWG",
+   "root2": "CW>",
+   "word1": "LMCGW",
+   "word2": "WMCW>",
+   "syriac1": "ܠܡܫܓܘ",
+   "syriac2": "ܘܡܫܘܐ",
+   "translit1": "lmšgw",
+   "translit2": "wmšwʾ",
+   "root_translit": "šwg / šwʾ",
+   "greek_in_verse1": "νιπτω",
+   "greek_in_verse2": "εκμασσω",
+   "greek_equiv1": [
+    "νιπτω",
+    "παραδοσισ",
+    "ανιπτοσ"
+   ],
+   "greek_equiv2": [
+    "αξιοσ",
+    "υποδημα",
+    "ικανοσ"
+   ],
+   "distance": 3,
+   "rarity": 6.36,
+   "score": 5.76,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 5:37",
+   "kind": "R",
+   "lex1": "XZ>",
+   "lex2": "XZW>",
+   "root1": "XZ>",
+   "root2": "XZ>",
+   "word1": "XZJTWN",
+   "word2": "XZWH",
+   "syriac1": "ܚܙܝܬܘܢ",
+   "syriac2": "ܚܙܘܗ",
+   "translit1": "ḥzytwn",
+   "translit2": "ḥzwh",
+   "root_translit": "ḥzʾ / ḥzʾ",
+   "greek_in_verse1": "οραω",
+   "greek_in_verse2": "ειδοσ",
+   "greek_equiv1": [
+    "οραω",
+    "βλεπω",
+    "λεγω"
+   ],
+   "greek_equiv2": [
+    "οραμα",
+    "κορνηλιοσ",
+    "φαντασμα"
+   ],
+   "distance": 1,
+   "rarity": 5.36,
+   "score": 5.06,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 8:52",
+   "kind": "S",
+   "lex1": "DJW>",
+   "lex2": "JD<",
+   "root1": "DJW>",
+   "root2": "JD<",
+   "word1": "DDJW>",
+   "word2": "JD<N",
+   "syriac1": "ܕܕܝܘܐ",
+   "syriac2": "ܝܕܥܢ",
+   "translit1": "ddywʾ",
+   "translit2": "ydʿn",
+   "root_translit": "dywʾ / ydʿ",
+   "greek_in_verse1": "δαιμονιον",
+   "greek_in_verse2": "γινωσκω",
+   "greek_equiv1": [
+    "δαιμονιον",
+    "βεελζεβουλ",
+    "εκβαλλω"
+   ],
+   "greek_equiv2": [
+    "οιδα",
+    "γινωσκω",
+    "ειμι"
+   ],
+   "distance": 1,
+   "rarity": 5.33,
+   "score": 5.03,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 14:2",
+   "kind": "S",
+   "lex1": ">WN>",
+   "lex2": "HW>",
+   "root1": ">W>",
+   "root2": "HW>",
+   "word1": ">WN>",
+   "word2": "HWJT",
+   "syriac1": "ܐܘܢܐ",
+   "syriac2": "ܗܘܝܬ",
+   "translit1": "ʾwnʾ",
+   "translit2": "hwyt",
+   "root_translit": "ʾwʾ / hwʾ",
+   "greek_in_verse1": "μονη",
+   "greek_in_verse2": "ειμι",
+   "greek_equiv1": [
+    "μονη",
+    "ετοιμαζω",
+    "τηρεω"
+   ],
+   "greek_equiv2": [
+    "ειμι",
+    "γινομαι",
+    "λεγω"
+   ],
+   "distance": 5,
+   "rarity": 5.77,
+   "score": 4.99,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 5:30",
+   "kind": "R",
+   "lex1": "YBJN>",
+   "lex2": "YBWT>",
+   "root1": "YB>",
+   "root2": "YB>",
+   "word1": "YBJNJ",
+   "word2": "YBWT",
+   "syriac1": "ܨܒܝܢܝ",
+   "syriac2": "ܨܒܘܬ",
+   "translit1": "ṣbyny",
+   "translit2": "ṣbwt",
+   "root_translit": "ṣbʾ / ṣbʾ",
+   "greek_in_verse1": "θελημα",
+   "greek_in_verse2": "πεμπω",
+   "greek_equiv1": [
+    "θελημα",
+    "ευδοκια",
+    "βουλη"
+   ],
+   "greek_equiv2": [
+    "πραγμα",
+    "αναγκαιοσ",
+    "πεμπω"
+   ],
+   "distance": 16,
+   "rarity": 6.15,
+   "score": 4.92,
+   "verses_in_john_with_pair": 2
+  },
+  {
+   "verse": "John 15:9",
+   "kind": "S",
+   "lex1": ">B>",
+   "lex2": "XB",
+   "root1": ">B",
+   "root2": "XB",
+   "word1": ">BJ",
+   "word2": "D>XBNJ",
+   "syriac1": "ܐܒܝ",
+   "syriac2": "ܕܐܚܒܢܝ",
+   "translit1": "ʾby",
+   "translit2": "dʾḥbny",
+   "root_translit": "ʾb / ḥb",
+   "greek_in_verse1": "πατηρ",
+   "greek_in_verse2": "αγαπαω",
+   "greek_equiv1": [
+    "πατηρ",
+    "υιοσ",
+    "ιησουσ"
+   ],
+   "greek_equiv2": [
+    "αγαπαω",
+    "εντολη",
+    "αγαπη"
+   ],
+   "distance": 1,
+   "rarity": 5.0,
+   "score": 4.7,
+   "verses_in_john_with_pair": 6
+  },
+  {
+   "verse": "John 21:12",
+   "kind": "S",
+   "lex1": "MRJ>",
+   "lex2": "MRX",
+   "root1": "MR>",
+   "root2": "MRX",
+   "word1": "DMRN",
+   "word2": "MMRX",
+   "syriac1": "ܕܡܪܢ",
+   "syriac2": "ܡܡܪܚ",
+   "translit1": "dmrn",
+   "translit2": "mmrḥ",
+   "root_translit": "mrʾ / mrḥ",
+   "greek_in_verse1": "κυριοσ",
+   "greek_in_verse2": "τολμαω",
+   "greek_equiv1": [
+    "κυριοσ",
+    "ιησουσ",
+    "χριστοσ"
+   ],
+   "greek_equiv2": [
+    "τολμαω",
+    "εγκρινω",
+    "αυθεντεω"
+   ],
+   "distance": 6,
+   "rarity": 5.54,
+   "score": 4.7,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 9:1",
+   "kind": "S",
+   "lex1": "<BR",
+   "lex2": "GBR>",
+   "root1": "<BR",
+   "root2": "GBR",
+   "word1": "<BR",
+   "word2": "GBR>",
+   "syriac1": "ܥܒܪ",
+   "syriac2": "ܓܒܪܐ",
+   "translit1": "ʿbr",
+   "translit2": "gbrʾ",
+   "root_translit": "ʿbr / gbr",
+   "greek_in_verse1": "παραγω",
+   "greek_in_verse2": "ανθρωποσ",
+   "greek_equiv1": [
+    "παρερχομαι",
+    "διερχομαι",
+    "παραγω"
+   ],
+   "greek_equiv2": [
+    "ανηρ",
+    "ανθρωποσ",
+    "γυνη"
+   ],
+   "distance": 2,
+   "rarity": 5.13,
+   "score": 4.66,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 13:8",
+   "kind": "S",
+   "lex1": "CG",
+   "lex2": "JCW<",
+   "root1": "CWG",
+   "root2": "JCW<",
+   "word1": "MCJG",
+   "word2": "JCW<",
+   "syriac1": "ܡܫܝܓ",
+   "syriac2": "ܝܫܘܥ",
+   "translit1": "mšyg",
+   "translit2": "yšwʿ",
+   "root_translit": "šwg / yšwʿ",
+   "greek_in_verse1": "νιπτω",
+   "greek_in_verse2": "ιησουσ",
+   "greek_equiv1": [
+    "νιπτω",
+    "παραδοσισ",
+    "ανιπτοσ"
+   ],
+   "greek_equiv2": [
+    "ιησουσ",
+    "χριστοσ",
+    "λεγω"
+   ],
+   "distance": 3,
+   "rarity": 5.25,
+   "score": 4.64,
+   "verses_in_john_with_pair": 3
+  },
+  {
+   "verse": "John 17:24",
+   "kind": "S",
+   "lex1": "JHB",
+   "lex2": "XB",
+   "root1": "JHB",
+   "root2": "XB",
+   "word1": "DJHBT",
+   "word2": "D>XBTNJ",
+   "syriac1": "ܕܝܗܒܬ",
+   "syriac2": "ܕܐܚܒܬܢܝ",
+   "translit1": "dyhbt",
+   "translit2": "dʾḥbtny",
+   "root_translit": "yhb / ḥb",
+   "greek_in_verse1": "διδωμι",
+   "greek_in_verse2": "αγαπαω",
+   "greek_equiv1": [
+    "διδωμι",
+    "θεοσ",
+    "εξουσια"
+   ],
+   "greek_equiv2": [
+    "αγαπαω",
+    "εντολη",
+    "αγαπη"
+   ],
+   "distance": 2,
+   "rarity": 4.93,
+   "score": 4.46,
+   "verses_in_john_with_pair": 4
+  },
+  {
+   "verse": "John 4:10",
+   "kind": "R",
+   "lex1": "JHB",
+   "lex2": "MWHBT>",
+   "root1": "JHB",
+   "root2": "JHB",
+   "word1": "HB",
+   "word2": "MWHBT>",
+   "syriac1": "ܗܒ",
+   "syriac2": "ܡܘܗܒܬܐ",
+   "translit1": "hb",
+   "translit2": "mwhbtʾ",
+   "root_translit": "yhb / yhb",
+   "greek_in_verse1": "διδωμι",
+   "greek_in_verse2": "δωρεα",
+   "greek_equiv1": [
+    "διδωμι",
+    "θεοσ",
+    "εξουσια"
+   ],
+   "greek_equiv2": [
+    "χαρισμα",
+    "δωρεα",
+    "δομα"
+   ],
+   "distance": 6,
+   "rarity": 5.28,
+   "score": 4.44,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 12:3",
+   "kind": "S",
+   "lex1": "CW>",
+   "lex2": "JCW<",
+   "root1": "CW>",
+   "root2": "JCW<",
+   "word1": "WCWJT",
+   "word2": "DJCW<",
+   "syriac1": "ܘܫܘܝܬ",
+   "syriac2": "ܕܝܫܘܥ",
+   "translit1": "wšwyt",
+   "translit2": "dyšwʿ",
+   "root_translit": "šwʾ / yšwʿ",
+   "greek_in_verse1": "εκμασσω",
+   "greek_in_verse2": "ιησουσ",
+   "greek_equiv1": [
+    "αξιοσ",
+    "υποδημα",
+    "ικανοσ"
+   ],
+   "greek_equiv2": [
+    "ιησουσ",
+    "χριστοσ",
+    "λεγω"
+   ],
+   "distance": 1,
+   "rarity": 4.69,
+   "score": 4.39,
+   "verses_in_john_with_pair": 2
+  },
+  {
+   "verse": "John 15:10",
+   "kind": "S",
+   "lex1": ">B>",
+   "lex2": "XWB>",
+   "root1": ">B",
+   "root2": "XB",
+   "word1": "D>BJ",
+   "word2": "BXWBH",
+   "syriac1": "ܕܐܒܝ",
+   "syriac2": "ܒܚܘܒܗ",
+   "translit1": "dʾby",
+   "translit2": "bḥwbh",
+   "root_translit": "ʾb / ḥb",
+   "greek_in_verse1": "πατηρ",
+   "greek_in_verse2": "αγαπη",
+   "greek_equiv1": [
+    "πατηρ",
+    "υιοσ",
+    "ιησουσ"
+   ],
+   "greek_equiv2": [
+    "αγαπη",
+    "πιστισ",
+    "αγαπαω"
+   ],
+   "distance": 3,
+   "rarity": 4.91,
+   "score": 4.31,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 1:29",
+   "kind": "R",
+   "lex1": ">MR",
+   "lex2": ">MR>",
+   "root1": ">MR",
+   "root2": ">MR",
+   "word1": "W>MR",
+   "word2": ">MRH",
+   "syriac1": "ܘܐܡܪ",
+   "syriac2": "ܐܡܪܗ",
+   "translit1": "wʾmr",
+   "translit2": "ʾmrh",
+   "root_translit": "ʾmr / ʾmr",
+   "greek_in_verse1": "λεγω",
+   "greek_in_verse2": "αμνοσ",
+   "greek_equiv1": [
+    "λεγω",
+    "ειμι",
+    "ιησουσ"
+   ],
+   "greek_equiv2": [
+    "αρνιον",
+    "αμνοσ",
+    "θρονοσ"
+   ],
+   "distance": 2,
+   "rarity": 4.68,
+   "score": 4.2,
+   "verses_in_john_with_pair": 3
+  },
+  {
+   "verse": "John 12:15",
+   "kind": "R",
+   "lex1": "BR>",
+   "lex2": "BRT>",
+   "root1": "BR",
+   "root2": "BR",
+   "word1": "BR",
+   "word2": "BRT",
+   "syriac1": "ܒܪ",
+   "syriac2": "ܒܪܬ",
+   "translit1": "br",
+   "translit2": "brt",
+   "root_translit": "br / br",
+   "greek_in_verse1": "ερχομαι",
+   "greek_in_verse2": "θυγατηρ",
+   "greek_equiv1": [
+    "υιοσ",
+    "ανθρωποσ",
+    "τεκνον"
+   ],
+   "greek_equiv2": [
+    "θυγατηρ",
+    "θυγατριον",
+    "σκυλλω"
+   ],
+   "distance": 9,
+   "rarity": 5.15,
+   "score": 4.15,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 1:17",
+   "kind": "S",
+   "lex1": "MCJX>",
+   "lex2": "MWC>",
+   "root1": "MCX",
+   "root2": "MWC>",
+   "word1": "MCJX>",
+   "word2": "MWC>",
+   "syriac1": "ܡܫܝܚܐ",
+   "syriac2": "ܡܘܫܐ",
+   "translit1": "mšyḥʾ",
+   "translit2": "mwšʾ",
+   "root_translit": "mšḥ / mwšʾ",
+   "greek_in_verse1": "χριστοσ",
+   "greek_in_verse2": "μωυσησ",
+   "greek_equiv1": [
+    "χριστοσ",
+    "ιησουσ",
+    "θεοσ"
+   ],
+   "greek_equiv2": [
+    "μωυσησ",
+    "ηλιασ",
+    "νομοσ"
+   ],
+   "distance": 7,
+   "rarity": 4.99,
+   "score": 4.09,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 12:28",
+   "kind": "S",
+   "lex1": "CM<",
+   "lex2": "CMJ>",
+   "root1": "CM<",
+   "root2": "CMJ>",
+   "word1": ">CTM<",
+   "word2": "CMJ>",
+   "syriac1": "ܐܫܬܡܥ",
+   "syriac2": "ܫܡܝܐ",
+   "translit1": "ʾštmʿ",
+   "translit2": "šmyʾ",
+   "root_translit": "šmʿ / šmyʾ",
+   "greek_in_verse1": "φωνη",
+   "greek_in_verse2": "ουρανοσ",
+   "greek_equiv1": [
+    "ακουω",
+    "φωνη",
+    "λογοσ"
+   ],
+   "greek_equiv2": [
+    "ουρανοσ",
+    "γη",
+    "βασιλεια"
+   ],
+   "distance": 2,
+   "rarity": 4.49,
+   "score": 4.01,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 6:32",
+   "kind": "S",
+   "lex1": ">B>",
+   "lex2": "JHB",
+   "root1": ">B",
+   "root2": "JHB",
+   "word1": ">BJ",
+   "word2": "JHB",
+   "syriac1": "ܐܒܝ",
+   "syriac2": "ܝܗܒ",
+   "translit1": "ʾby",
+   "translit2": "yhb",
+   "root_translit": "ʾb / yhb",
+   "greek_in_verse1": "πατηρ",
+   "greek_in_verse2": "διδωμι",
+   "greek_equiv1": [
+    "πατηρ",
+    "υιοσ",
+    "ιησουσ"
+   ],
+   "greek_equiv2": [
+    "διδωμι",
+    "θεοσ",
+    "εξουσια"
+   ],
+   "distance": 1,
+   "rarity": 4.29,
+   "score": 3.99,
+   "verses_in_john_with_pair": 20
+  },
+  {
+   "verse": "John 4:42",
+   "kind": "S",
+   "lex1": "HW>",
+   "lex2": "MXJN>",
+   "root1": "HW>",
+   "root2": "XJ>",
+   "word1": "HW>",
+   "word2": "MXJNH",
+   "syriac1": "ܗܘܐ",
+   "syriac2": "ܡܚܝܢܗ",
+   "translit1": "hwʾ",
+   "translit2": "mḥynh",
+   "root_translit": "hwʾ / ḥyʾ",
+   "greek_in_verse1": "ειμι",
+   "greek_in_verse2": "σωτηρ",
+   "greek_equiv1": [
+    "ειμι",
+    "γινομαι",
+    "λεγω"
+   ],
+   "greek_equiv2": [
+    "σωτηρ",
+    "επιφανεια",
+    "επιταγη"
+   ],
+   "distance": 13,
+   "rarity": 4.87,
+   "score": 3.72,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 14:22",
+   "kind": "S",
+   "lex1": "HW>",
+   "lex2": "XW>",
+   "root1": "HW>",
+   "root2": "XW>",
+   "word1": "HW>",
+   "word2": "LMXWJW",
+   "syriac1": "ܗܘܐ",
+   "syriac2": "ܠܡܚܘܝܘ",
+   "translit1": "hwʾ",
+   "translit2": "lmḥwyw",
+   "root_translit": "hwʾ / ḥwʾ",
+   "greek_in_verse1": "γινομαι",
+   "greek_in_verse2": "εμφανιζω",
+   "greek_equiv1": [
+    "ειμι",
+    "γινομαι",
+    "λεγω"
+   ],
+   "greek_equiv2": [
+    "δεικνυμι",
+    "ενδεικνυμι",
+    "επιδεικνυμι"
+   ],
+   "distance": 3,
+   "rarity": 4.08,
+   "score": 3.47,
+   "verses_in_john_with_pair": 2
+  },
+  {
+   "verse": "John 1:4",
+   "kind": "S",
+   "lex1": "HW>",
+   "lex2": "XJ>",
+   "root1": "HW>",
+   "root2": "XJ>",
+   "word1": "HW>",
+   "word2": "XJ>",
+   "syriac1": "ܗܘܐ",
+   "syriac2": "ܚܝܐ",
+   "translit1": "hwʾ",
+   "translit2": "ḥyʾ",
+   "root_translit": "hwʾ / ḥyʾ",
+   "greek_in_verse1": "ειμι",
+   "greek_in_verse2": "ζωη",
+   "greek_equiv1": [
+    "ειμι",
+    "γινομαι",
+    "λεγω"
+   ],
+   "greek_equiv2": [
+    "ζωη",
+    "ζαω",
+    "σωζω"
+   ],
+   "distance": 1,
+   "rarity": 3.44,
+   "score": 3.14,
+   "verses_in_john_with_pair": 13
+  }
+ ],
+ "T3_n_candidates": 28,
+ "T2": {
+  "odes_words": 11301,
+  "odes_count": 41,
+  "psssol_words": 6306,
+  "pssol_count": 16,
+  "odes_rates": {
+   "word": 2.389169100079639,
+   "light": 1.9467303778426688,
+   "life/living": 3.2740465445535794,
+   "water": 1.2388284222635164,
+   "truth": 3.5395097778957614,
+   "love": 3.8049730112379434,
+   "rest": 1.7697548889478807,
+   "I am": 1.0618529333687283,
+   "he who": 6.017166622422795
+  },
+  "odes_total": 25.042031678612513,
+  "pssol_rates": {
+   "word": 1.744370440849984,
+   "light": 0.1585791309863622,
+   "life/living": 2.8544243577545196,
+   "water": 0.1585791309863622,
+   "truth": 0.9514747859181731,
+   "love": 1.2686330478908976,
+   "rest": 0.0,
+   "I am": 0.1585791309863622,
+   "he who": 4.123057405645417
+  },
+  "pssol_total": 11.417697431018079,
+  "odes_vs_pssol": {
+   "chunks": [
+    37,
+    21
+   ],
+   "diff_markers_per_300w": 4.084942084942085,
+   "p_total": 0.00019998000199980003,
+   "per_term": {
+    "word": {
+     "diff_per_300w": 0.1788931788931789,
+     "p": 0.3097690230976902
+    },
+    "light": {
+     "diff_per_300w": 0.5469755469755471,
+     "p": 0.00029997000299970003
+    },
+    "life/living": {
+     "diff_per_300w": 0.11583011583011593,
+     "p": 0.4166583341665833
+    },
+    "water": {
+     "diff_per_300w": 0.3307593307593308,
+     "p": 0.0374962503749625
+    },
+    "truth": {
+     "diff_per_300w": 0.7953667953667954,
+     "p": 0.0014998500149985001
+    },
+    "love": {
+     "diff_per_300w": 0.7541827541827542,
+     "p": 0.0430956904309569
+    },
+    "rest": {
+     "diff_per_300w": 0.5405405405405406,
+     "p": 0.0021997800219978004
+    },
+    "I am": {
+     "diff_per_300w": 0.2496782496782497,
+     "p": 0.0658934106589341
+    },
+    "he who": {
+     "diff_per_300w": 0.5727155727155726,
+     "p": 0.136986301369863
+    }
+   }
+  },
+  "greek_control_john_vs_synoptics": {
+   "chunks": [
+    52,
+    164
+   ],
+   "diff_markers_per_300w": 4.689493433395873,
+   "p_total": 0.0003332222592469177,
+   "per_term": {
+    "word": {
+     "diff_per_300w": 0.22654784240150094,
+     "p": 0.11162945684771743
+    },
+    "light": {
+     "diff_per_300w": 0.3048780487804878,
+     "p": 0.030989670109963344
+    },
+    "life/living": {
+     "diff_per_300w": 0.8696060037523452,
+     "p": 0.0003332222592469177
+    },
+    "water": {
+     "diff_per_300w": 0.29409005628517826,
+     "p": 0.003998667110963012
+    },
+    "truth": {
+     "diff_per_300w": 0.9479362101313321,
+     "p": 0.0003332222592469177
+    },
+    "love": {
+     "diff_per_300w": 0.827861163227017,
+     "p": 0.0003332222592469177
+    },
+    "rest": {
+     "diff_per_300w": -0.04878048780487805,
+     "p": 1.0
+    },
+    "I am": {
+     "diff_per_300w": 0.5966228893058161,
+     "p": 0.0003332222592469177
+    },
+    "he who": {
+     "diff_per_300w": 0.6707317073170733,
+     "p": 0.019326891036321226
+    }
+   }
+  },
+  "note": "English (Odes, PsSol) and Greek (John, Synoptics) rates are not on one scale; compare the lean (ratio), not the level."
+ },
+ "n_tests": 24
+}

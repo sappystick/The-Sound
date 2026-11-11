@@ -1,0 +1,255 @@
+<title>Akouo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one clause at a time, centred like a line on a scroll; the ladder runs along the top as a row of rungs. */
+:root{
+  --bg:#eceee9; --panel:#f7f8f4; --ink:#18202c; --muted:#5d6672; --rule:#cfd4cc; --track:#e0e3dc;
+  --subject:#9a6a24; --verb:#2c58a0; --object:#b2445a; --of:#3f7d4c; --to:#6c4fa6; --link:#6b7480; --address:#22809a;
+  --ok:#2f7a45; --bad:#b2445a; --accent:#2c58a0;
+  --display:"GFS Didot","Noto Serif",Georgia,serif; --body:"Noto Serif",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --subject:#d7a65a; --verb:#7ea4e6; --object:#e57d92; --of:#7cc28a; --to:#b39ae8; --link:#98a1ad; --address:#6cc6dc;
+  --ok:#7cc28a; --bad:#e57d92; --accent:#7ea4e6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --subject:#d7a65a; --verb:#7ea4e6; --object:#e57d92; --of:#7cc28a; --to:#b39ae8; --link:#98a1ad; --address:#6cc6dc;
+  --ok:#7cc28a; --bad:#e57d92; --accent:#7ea4e6; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.wrap{max-width:920px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+h1{font-size:clamp(2rem,6vw,3rem);line-height:1.05}
+h2{font-size:1.5rem} h3{font-size:1.15rem}
+.eyebrow{font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--subject)}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px 24px;border-bottom:1px solid var(--rule);padding-bottom:16px}
+.lede{color:var(--muted);max-width:60ch;margin:8px 0 0}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font:500 .78rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:3px;border:1px solid transparent}
+nav a[aria-current="page"]{color:var(--ink);border-color:var(--rule);background:var(--panel)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.stat{background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:10px 12px;font:400 .74rem/1.3 var(--mono);color:var(--muted)}
+.stat b{display:block;font:400 1.5rem/1.2 var(--display);color:var(--ink);font-variant-numeric:tabular-nums}
+.rungs{display:flex;gap:2px;flex-wrap:wrap}
+.rungs i{width:9px;height:14px;border-radius:2px;background:var(--track);display:block}
+.rungs i.done{background:var(--verb)} .rungs i.cur{background:var(--subject);outline:2px solid var(--subject);outline-offset:1px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:22px}
+.stage{font:500 .72rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.clause{display:flex;flex-wrap:wrap;gap:14px 12px;margin:22px 0 10px;justify-content:center}
+.w{background:none;border:0;padding:6px 6px 4px;border-radius:6px;cursor:pointer;color:var(--ink);text-align:center;border-bottom:3px solid transparent;font:inherit;min-width:0}
+.w .g{font-family:var(--display);font-size:clamp(1.6rem,5vw,2.3rem);line-height:1.25;display:block}
+.w .m{display:block;font-size:.82rem;color:var(--muted);max-width:11ch;margin:2px auto 0;line-height:1.25}
+.w .h{display:block;font:400 .66rem/1.3 var(--mono);color:var(--muted);max-width:14ch;margin:2px auto 0}
+.w.lit{background:var(--track)}
+.w.new .g{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+.show .w.subject{border-color:var(--subject)} .show .w.subject .g{color:var(--subject)}
+.show .w.verb{border-color:var(--verb)} .show .w.verb .g{color:var(--verb)}
+.show .w.object{border-color:var(--object)} .show .w.object .g{color:var(--object)}
+.show .w.of{border-color:var(--of)} .show .w.of .g{color:var(--of)}
+.show .w.to{border-color:var(--to)} .show .w.to .g{color:var(--to)}
+.show .w.address{border-color:var(--address)} .show .w.address .g{color:var(--address)}
+.show .w.link .g{color:var(--link)}
+.clause:not(.show) .m,.clause:not(.show) .h{visibility:hidden}
+.newbox{border:1px solid var(--rule);border-left:4px solid var(--subject);border-radius:4px;padding:12px 14px;margin:14px 0 0;display:grid;gap:4px}
+.newbox .big{font-family:var(--display);font-size:1.6rem}
+.say{font:500 .9rem var(--mono);color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font:400 .72rem/1.2 var(--mono);color:var(--muted);margin-top:14px;justify-content:center}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;background:var(--c)}
+.ctrls{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px}
+button.b{font:500 .82rem/1 var(--mono);letter-spacing:.04em;padding:12px 16px;border-radius:4px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+button.b.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.b:disabled{opacity:.4;cursor:default}
+.q{margin-top:8px;display:grid;gap:10px}
+.q p{margin:0;text-align:center}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.opts button{font:400 .98rem/1.3 var(--body);padding:12px;border-radius:4px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer;text-align:left}
+.opts button.right{border-color:var(--ok);color:var(--ok)} .opts button.wrong{border-color:var(--bad);color:var(--bad)}
+.note{color:var(--muted);font-size:.9rem;max-width:70ch}
+.ref{font:400 .78rem var(--mono);color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:500 .7rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tablebox{overflow-x:auto}
+.chart{overflow-x:auto} .chart svg{display:block;width:100%;min-width:480px;height:auto}
+svg text{fill:var(--muted);font:10px var(--mono)}
+ol.steps{padding-left:20px;display:grid;gap:8px;max-width:72ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <div class="eyebrow">ἀκούω · I hear · the Echo Ladder</div>
+    <h1>Akouo</h1>
+    <p class="lede">Learn to understand the Greek of John's Gospel by ear. Each step is a real clause from the text, spoken in reconstructed first-century pronunciation, with one new word.</p>
+  </div>
+  <nav aria-label="Views">
+    <a href="#learn" data-view="learn">Learn</a>
+    <a href="#progress" data-view="progress">Progress</a>
+    <a href="#method" data-view="method">Method</a>
+  </nav>
+</header>
+
+<section id="v-learn" style="display:grid;gap:16px;grid-template-columns:minmax(0,1fr)">
+  <div class="stats" id="stats"></div>
+  <div class="rungs" id="rungs" aria-label="Steps of the ladder"></div>
+  <div class="card" id="card">
+    <div class="stage"><span id="stagename"></span><span class="ref" id="ref"></span></div>
+    <div class="clause" id="clause"></div>
+    <div id="newbox"></div>
+    <div class="legend" id="legend" hidden></div>
+    <div class="q" id="quiz" hidden></div>
+    <div class="ctrls" id="ctrls"></div>
+    <audio id="au" preload="auto"></audio>
+  </div>
+  <p class="note">Tap any word to hear it again. Your progress is kept in this browser only.</p>
+</section>
+
+<section id="v-progress" hidden style="display:grid;gap:16px;grid-template-columns:minmax(0,1fr)">
+  <div class="card">
+    <h2>How far each step takes you</h2>
+    <p class="note">Measured on the whole Gospel: the share of all its words you can recognise once you know the words of the ladder up to each step. The dot is where you are.</p>
+    <div class="chart"><svg id="curve" viewBox="0 0 720 280" role="img" aria-label="Coverage curve"></svg></div>
+  </div>
+  <div class="card">
+    <h2>Your words</h2>
+    <p class="note" id="wordsnote"></p>
+    <div class="tablebox"><table id="words"></table></div>
+    <div class="ctrls" style="justify-content:flex-start"><button class="b" id="reset">Start again from step 1</button><span class="note" id="resetmsg" aria-live="polite"></span></div>
+  </div>
+</section>
+
+<section id="v-method" hidden style="display:grid;gap:16px;grid-template-columns:minmax(0,1fr)">
+  <div class="card">
+    <h2>The Echo Ladder method</h2>
+    <p class="note">A proposed method built from this project's measurements. Its parts rest on established research; the combination has not yet been tested on learners, so its speed is a hypothesis.</p>
+    <ol class="steps" id="principles"></ol>
+  </div>
+  <div class="card">
+    <h3>What has been measured</h3>
+    <div class="tablebox"><table id="measured"></table></div>
+  </div>
+  <div class="card">
+    <h3>Using it for any language</h3>
+    <p class="note">The ladder builder needs only a text split into short units with a dictionary form for each word. It was run unchanged on the Hebrew of Genesis. To make a course it also needs a recording or voice with word timings, and a word list with meanings. The same steps then apply: hear, see, check, and meet each word again inside new text.</p>
+  </div>
+</section>
+</div>
+
+<script>
+const D = __DATA__;
+const $ = s => document.querySelector(s), S = D.steps, N = S.length;
+const ROLES = {subject:"who does it", verb:"the action", object:"what is acted on", of:"of / from", to:"to / for / in", address:"calling someone", link:"small linking words"};
+const GAP = [0, 2, 5, 12, 30, 75];
+let st = {step: 0, words: {}};
+try { const x = JSON.parse(localStorage.getItem("akouo") || "null"); if (x && typeof x.step === "number") st = x; } catch (e) {}
+const save = () => { try { localStorage.setItem("akouo", JSON.stringify(st)); } catch (e) {} };
+const au = $("#au"); let stopAt = null, stage = "listen", cur = null, queue = [];
+au.addEventListener("timeupdate", () => {
+  if (!cur) return; const t = au.currentTime, ws = D.audio[cur.n].words;
+  document.querySelectorAll("#clause .w").forEach((el, i) => el.classList.toggle("lit", t >= ws[i].s - 0.03 && t < ws[i].e));
+  if (stopAt !== null && t >= stopAt) { au.pause(); stopAt = null; }
+});
+au.addEventListener("ended", () => document.querySelectorAll("#clause .w").forEach(el => el.classList.remove("lit")));
+function play(from, to) { if (!cur) return; const src = `audio/step_${String(cur.n).padStart(3, "0")}.mp3`; if (!au.src.endsWith(src)) au.src = src; stopAt = to ?? null; try { au.currentTime = from || 0; } catch (e) {} au.play().catch(() => {}); }
+function seeded(n) { let x = n * 2654435761 % 4294967296; return () => (x = (x * 1664525 + 1013904223) % 4294967296) / 4294967296; }
+function options(correct, seed) { const r = seeded(seed), pool = D.distractors.filter(g => g !== correct), o = new Set([correct]); while (o.size < 4) o.add(pool[Math.floor(r() * pool.length)]); return [...o].sort(() => r() - 0.5); }
+function known() { return Object.keys(st.words).length; }
+function header() {
+  const c = st.step > 0 ? D.curve[Math.min(st.step, D.curve.length) - 1] : {lemmas: 0, tokens: 0, clauses: 0, verses: 0};
+  $("#stats").innerHTML = [["Step", `${Math.min(st.step + 1, N)} / ${N}`], ["Words you know", known()], ["Of all words in John", Math.round(c.tokens * 100) + "%"], ["Clauses you can read", c.clauses.toLocaleString()]].map(([a, b]) => `<div class="stat">${a}<b>${b}</b></div>`).join("");
+  $("#rungs").innerHTML = S.map((s, i) => `<i class="${i < st.step ? "done" : i === st.step ? "cur" : ""}" title="Step ${i + 1}"></i>`).join("");
+}
+function drawClause(s, show) {
+  const a = D.audio[s.n].words;
+  $("#clause").className = "clause" + (show ? " show" : "");
+  $("#clause").innerHTML = s.toks.map((t, i) => `<button class="w ${t.role}${t.new ? " new" : ""}" data-i="${i}" aria-label="${t.w}"><span class="g" lang="grc">${t.w}</span><span class="m">${t.g}</span><span class="h">${t.hint || ""}</span></button>`).join("");
+  $("#ref").textContent = "John " + s.ref;
+}
+$("#clause").addEventListener("click", e => { const b = e.target.closest(".w"); if (!b || !cur) return; const w = D.audio[cur.n].words[+b.dataset.i]; play(Math.max(0, w.s - 0.05), w.e + 0.05); });
+function ctrls(list) { $("#ctrls").innerHTML = list.map(([id, label, primary]) => `<button class="b${primary ? " primary" : ""}" id="${id}">${label}</button>`).join(""); }
+function render() {
+  header(); $("#quiz").hidden = true; $("#newbox").innerHTML = ""; $("#legend").hidden = true;
+  if (st.step >= N) { cur = null; $("#stagename").textContent = "Ladder complete"; $("#ref").textContent = ""; $("#clause").innerHTML = `<p>You have climbed all ${N} steps. You now know ${known()} words, which make up ${Math.round(D.curve[N - 1].tokens * 100)}% of all the words in John.</p>`; ctrls([]); return; }
+  // review first: words due at this step
+  const due = Object.entries(st.words).filter(([l, w]) => w.due <= st.step && w.at < st.step).sort((a, b) => a[1].due - b[1].due).slice(0, 2);
+  if (stage === "listen" && queue.length === 0 && due.length && !render.reviewed) { queue = due.map(([l]) => l); render.reviewed = true; }
+  if (queue.length) return review(queue[0]);
+  cur = S[st.step];
+  if (stage === "listen") {
+    $("#stagename").textContent = "1 · Listen"; drawClause(cur, false);
+    ctrls([["bplay", "▶ Play", true], ["bshow", "Show the meaning"]]);
+    $("#bplay").onclick = () => play(0); $("#bshow").onclick = () => { stage = "see"; render(); play(0); };
+  } else if (stage === "see") {
+    $("#stagename").textContent = "2 · See what it says"; drawClause(cur, true);
+    const news = cur.toks.map((t, i) => [t, i]).filter(([t]) => t.new), seen = new Set();
+    $("#newbox").innerHTML = news.filter(([t]) => !seen.has(t.lem) && seen.add(t.lem)).map(([t, i]) => `<div class="newbox"><div class="eyebrow">New word</div><div class="big" lang="grc">${t.w.replace(/[,.;·]/g, "")}</div><div class="say">say: ${D.audio[cur.n].words[i].say} &nbsp; /${D.audio[cur.n].words[i].ipa}/</div><div>${t.g} <span class="note">· here: ${t.hint || t.role}</span></div></div>`).join("");
+    $("#legend").hidden = false; $("#legend").innerHTML = Object.entries(ROLES).filter(([k]) => cur.toks.some(t => t.role === k)).map(([k, v]) => `<span style="--c:var(--${k})">${v}</span>`).join("");
+    ctrls([["bplay", "▶ Play again"], ["bcheck", "Check yourself", true]]);
+    $("#bplay").onclick = () => play(0); $("#bcheck").onclick = () => { stage = "check"; render(); };
+  } else {
+    $("#stagename").textContent = "3 · Check"; drawClause(cur, false);
+    const t = cur.toks.find(t => t.new), i = cur.toks.indexOf(t), w = D.audio[cur.n].words[i];
+    ask(t, () => play(Math.max(0, w.s - 0.05), w.e + 0.05), ok => {
+      const seen = new Set(); cur.toks.filter(t => t.new && !seen.has(t.lem) && seen.add(t.lem)).forEach(t => st.words[t.lem] = {box: ok ? 1 : 0, due: st.step + (ok ? 2 : 1), at: st.step, g: t.g, w: t.w.replace(/[,.;·]/g, "")});
+      st.step++; stage = "listen"; render.reviewed = false; save();
+      ctrls([["bnext", st.step >= N ? "Finish" : "Next step →", true]]); $("#bnext").onclick = () => render(); header();
+    });
+  }
+}
+function ask(t, replay, done, label) {
+  $("#quiz").hidden = false; $("#quiz").dataset.done = "0"; const opts = options(t.g, st.step * 31 + t.lem.length);
+  $("#quiz").innerHTML = `<p>${label || "What does"} <b lang="grc" style="font-family:var(--display);font-size:1.3rem">${t.w.replace(/[,.;·]/g, "")}</b> mean?</p><div class="opts">${opts.map(o => `<button data-o="${o.replace(/"/g, "&quot;")}">${o}</button>`).join("")}</div>`;
+  ctrls([["bhear", "▶ Hear the word"]]); $("#bhear").onclick = replay; replay();
+  $("#quiz .opts").onclick = e => { const b = e.target.closest("button"); if (!b || $("#quiz").dataset.done === "1") return; $("#quiz").dataset.done = "1";
+    const ok = b.dataset.o === t.g; b.classList.add(ok ? "right" : "wrong"); if (!ok) [...$("#quiz .opts").children].find(x => x.dataset.o === t.g).classList.add("right");
+    document.querySelector("#clause").classList.add("show"); done(ok); };
+}
+function review(lem) {
+  const w = st.words[lem], s = S[w.at]; cur = s; const i = s.toks.findIndex(t => t.lem === lem), t = s.toks[i], a = D.audio[s.n].words[i];
+  $("#stagename").textContent = "Review · a word you met at step " + (w.at + 1); drawClause(s, false);
+  ask(t, () => play(0), ok => { w.box = ok ? Math.min(5, w.box + 1) : 1; w.due = st.step + GAP[w.box]; queue.shift(); save();
+    ctrls([["bnext", "Continue →", true]]); $("#bnext").onclick = () => render(); }, "You have met this word. What does");
+}
+// ---------- progress
+function progress() {
+  const W = 720, H = 280, L = 50, R = 700, T = 20, B = 240, C = D.curve, X = n => L + (R - L) * n / C.length, Y = v => B - (B - T) * v;
+  let h = ""; [0, .25, .5, .75, 1].forEach(v => h += `<line x1="${L}" x2="${R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--rule)"/><text x="${L - 8}" y="${Y(v) + 3}" text-anchor="end">${v * 100}%</text>`);
+  [0, 50, 100, 150, 200, 300, 400].forEach(n => { if (n <= C.length) h += `<text x="${X(n)}" y="${B + 16}" text-anchor="middle">${n}</text>`; });
+  h += `<text x="${(L + R) / 2}" y="${B + 34}" text-anchor="middle">steps (one new word each)</text>`;
+  h += `<path d="${C.map((c, i) => (i ? "L" : "M") + X(c.step).toFixed(1) + "," + Y(c.tokens).toFixed(1)).join("")}" fill="none" stroke="var(--verb)" stroke-width="2"/>`;
+  h += `<line x1="${X(N)}" x2="${X(N)}" y1="${T}" y2="${B}" stroke="var(--subject)" stroke-dasharray="4 4"/><text x="${X(N) + 4}" y="${T + 10}">recorded so far: ${N} steps</text>`;
+  if (st.step > 0) { const c = C[Math.min(st.step, C.length) - 1]; h += `<circle cx="${X(c.step)}" cy="${Y(c.tokens)}" r="6" fill="var(--subject)"/>`; }
+  $("#curve").innerHTML = h;
+  const ws = Object.entries(st.words).sort((a, b) => a[1].at - b[1].at);
+  $("#wordsnote").textContent = ws.length ? `${ws.length} words. Strength grows each time you recall a word; weaker words come back sooner.` : "No words yet. Climb the first step.";
+  $("#words").innerHTML = ws.length ? "<tr><th>Word</th><th>Meaning</th><th>Met at step</th><th>Strength</th></tr>" + ws.map(([l, w]) => `<tr><td lang="grc" style="font-family:var(--display);font-size:1.1rem">${w.w}</td><td>${w.g}</td><td>${w.at + 1}</td><td>${"●".repeat(Math.max(1, w.box))}${"○".repeat(5 - Math.max(1, w.box))}</td></tr>`).join("") : "";
+}
+let armed = false;
+$("#reset").onclick = () => { if (!armed) { armed = true; $("#resetmsg").textContent = "Press again to erase your progress."; return; } st = {step: 0, words: {}}; save(); armed = false; $("#resetmsg").textContent = "Progress erased."; stage = "listen"; queue = []; render(); progress(); };
+// ---------- method
+const PR = [["Sound first.", "Each clause is heard before it is read or explained, in the pronunciation of its own time. Speech rhythm and melody are how infants first break a language into pieces."],
+ ["Only real text.", "Every step is an unaltered clause of the Gospel, so nothing has to be unlearned and every step is already reading."],
+ ["One new word per step.", "The ladder orders the clauses so that each contains exactly one word you have not met. Understanding stays near complete while it grows (comprehensible input)."],
+ ["Useful words first.", "A few words do most of the work in any text. The ladder teaches them in order of how much of the text they unlock."],
+ ["Review inside new text.", "Words return inside later clauses at growing intervals, and weak words are asked again sooner (spaced retrieval), instead of drilling a separate card deck."],
+ ["Grammar by colour.", "Each word is coloured by its job in the sentence: who acts, the action, what is acted on, of, to. Greek word order is free, so the colour shows the role that the ending carries."],
+ ["Recall, then confirm.", "After each clause you retrieve the new meaning yourself before seeing it again. Retrieval strengthens memory more than rereading."]];
+$("#principles").innerHTML = PR.map(([a, b]) => `<li><b>${a}</b> ${b}</li>`).join("");
+const c100 = D.curve[99], cN = D.curve[N - 1], c400 = D.curve[D.curve.length - 1];
+$("#measured").innerHTML = "<tr><th>Measure</th><th>Result</th></tr>" + [
+ ["Steps adding exactly one new word", `${D.one_new} of ${N}`], ["New words per clause, reading John in its own order", D.canon_new.toFixed(2)],
+ ["After 100 steps", `${c100.lemmas} words → ${Math.round(c100.tokens * 100)}% of all words in John; ${c100.clauses} clauses fully readable`],
+ [`After ${N} steps`, `${cN.lemmas} words → ${Math.round(cN.tokens * 100)}%; ${cN.clauses} clauses and ${cN.verses} whole verses fully readable`],
+ [`After ${c400.step} steps (not yet recorded)`, `${Math.round(c400.tokens * 100)}%; ${c400.verses} whole verses`],
+ ["Same algorithm on Hebrew Genesis, 150 steps", D.hebrew], ["Not yet measured", "How fast real learners progress, and whether they retain it. That needs a trial with learners."]].map(([a, b]) => `<tr><td>${a}</td><td>${b}</td></tr>`).join("");
+// ---------- routing
+function route() { const v = (location.hash || "#learn").slice(1), ok = ["learn", "progress", "method"].includes(v) ? v : "learn";
+  ["learn", "progress", "method"].forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); if (ok === "progress") progress(); }
+addEventListener("hashchange", route); route(); render();
+</script>

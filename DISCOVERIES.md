@@ -382,3 +382,9 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **Speaker rules improved** (recitative ὅτι, quotations inside speech, the pluperfect as narrative, roles such as the steward). Every verse of 1:1–2:11 was hand-checked (`speaker_overrides.json`).
 - **Opening pages rendered:** John 1:1–2:11, 10.6 minutes, Koine voice v2, with word-synced video (`video/samples/opening_*.mp4`).
 - **Aramaic shadow:** eight sayings from John 1 voiced in Aramaic. The consonants are from the Peshitta; the vowels were supplied by hand and are **unverified**; Syriac is a later dialect than the Aramaic of AD 30. The voice is a male neural voice with Semitic consonants. This is an illustration only.
+
+## AG. The Echo Ladder (round 34, `learn/`, `LEARNING_METHOD.md`)
+- **S (computed):** John's clauses can be ordered so that 149 of the first 150 steps add exactly one new word. In its own order John adds 1.51 new words per clause. After 150 steps (151 words) the learner recognises 83% of all the words in John, and 864 clauses and 90 whole verses are fully readable. After 400 steps the figure is 94%.
+- **Control:** the same algorithm on Hebrew Genesis gives 70% after 150 steps, with 149 of 150 one-new-word steps.
+- **Engine:** a working sound-first course of 150 recorded steps: hear → see (meanings, grammar by colour) → recall, with spaced review inside the text.
+- **Not measured:** learner outcomes. The method is a hypothesis until it is tried on people; the trial design is in LEARNING_METHOD.md.

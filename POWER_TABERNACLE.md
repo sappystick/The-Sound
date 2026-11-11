@@ -156,3 +156,72 @@
   - every string, pipe and box value above, which are physically realistic.
 - **Mapping:** the roles. No text describes these objects as instruments.
 - **What this shows:** read as a design, the instructions are physically buildable as a working ensemble, with realistic tensions and lengths, in the voice range. It does **not** show that they were meant or used that way.
+
+---
+
+# Round 58: the whole prologue on the ark instrument, and what was still missing
+**Files:**
+- script `power/round58_prologue_and_additions.py`;
+- numbers `power/round58_results.json`;
+- audio **`power/audio/r58_prologue_ark_instrument.mp3`** (3 min 54 s).
+
+## 1. John 1:1–18 played on the ark instrument
+**How it is played:**
+- **Strings:** each of the prologue's **499 syllables** plucks the ark-zither string of its vowel, held for its length (short 0.3 s, long 0.6 s), and rings through the ark box's own resonances.
+- **Pipes:** the menorah pipes hold the mese (154.2 Hz) throughout.
+- **Breath:** pauses fall at the punctuation.
+- **The centre:** at **1:12**, the prologue's measured syllable centre (claim C1), the pipes open to the fourth and fifth above.
+
+**Strings played:**
+
+| String | Times played |
+|---|---|
+| lichanos (Mars) | 181 |
+| paranete (Mercury) | 117 |
+| nete (Moon) | 88 |
+| **mese (Sun, "I am")** | **55** |
+| trite (Venus) | 47 |
+| parhypate (Jupiter) | 11 |
+| hypate (Saturn) | silent, because Koine ω = ο |
+
+**Calc:** in performed time, **1:12 begins at 117.1 s of 233.5 s, 50.2% of the piece**. The prologue's syllable centre is also the centre of the performance.
+
+**Verse start times (s):** 1:1 1.0 · 1:2 12.4 · 1:3 17.9 · 1:4 29.4 · 1:5 38.4 · 1:6 49.9 · 1:7 60.0 · 1:8 74.2 · 1:9 83.8 · 1:10 94.4 · 1:11 107.2 · **1:12 117.1** · 1:13 133.9 · 1:14 147.6 · 1:15 168.2 · 1:16 188.1 · 1:17 199.2 · 1:18 212.9
+
+## 2. Construction texts added this round (checked on Sefaria)
+| Text | What it gives | Calc / mapping |
+|---|---|---|
+| **1 Kgs 6:6**, Solomon's side chambers, **5, 6, 7 cubits wide (explicit)** | three stacked storeys | 77.1, 64.2, 55.1 Hz (D♯2, C2, A1). **The lowest (5 cubits) is exactly one octave below the ark's note.** Frequencies 42 : 35 : 30 make a minor third over a septimal minor third: a dark, narrow chord |
+| **Exod 26:28**, "the centre bar halfway up the planks shall run from end to end" | one wooden bar through the whole tabernacle, 30 cubits (13.4 m) | its lowest ringing note is **131–187 Hz** (hardwood, 3,500–5,000 m/s along the grain): **the range of the ark zither** |
+| **1 Kgs 7:49**, ten lampstands, five right and five left | 70 lamps | ten seven-pipe ranks: 70 pipes |
+| **Zech 4:2**, "a lampstand all of gold … seven lamps … **seven pipes**" | the text itself says "pipes" (Hebrew *mutsaqot*, conduits) | the menorah's pipes, named |
+| **1 Chr 15:20–21**, harps "on *alamoth*", lyres "on the *sheminith*" | usually read as registers: high, and "the eighth" (an octave); meaning uncertain (K) | the zither doubled an octave lower: 57.8–102.8 Hz |
+| **1 Chr 25:7**, 288 trained singers | 24 courses × 12 | 12 per course, as Josephus's 12-note *nabla* |
+| **1 Kgs 10:12**, harps and lyres of almug wood | the only explicit instruction to build instruments for the House | — |
+| **Mishnah Middot 4:6**, Herod's house 100 × 100 × 100 cubits | **the temple Jesus taught in was a cube** | 3.85 Hz on every axis; Holy of Holies 20 × 20; 15 steps where the Levites sang (Middot 2:5) |
+| **Rev 21:16–17**, the city "its length, width and height equal", 12,000 stadia; wall 144 cubits | **the final sanctuary is a cube** | the same shape as the tabernacle's and Solomon's inner rooms and Herod's house |
+
+## 3. What is still missing
+1. **Tabernacle structure:**
+   - the boards' tenons and the five bars per side (Exod 26:15–29);
+   - the entrance screen on 5 pillars;
+   - the court's 60 pillars with silver hooks and bands (27:9–19).
+2. **Tabernacle materials:**
+   - the laver made from bronze mirrors (38:8);
+   - the anointing oil and incense recipes (30:22–38).
+3. **The priestly garments in full:** the ephod, the onyx shoulder stones with the 12 names, the sash, tunic and turban, and the gold plate "Holy to the LORD" (Exod 28).
+4. **Solomon:**
+   - the ten lavers on wheeled stands, 4 cubits, 40 baths each (1 Kgs 7:27–39);
+   - the olive-wood doors with five- and four-sided frames (6:31–35);
+   - the windows (6:4).
+5. **Ezekiel 40–48 in full:**
+   - six gates with their chambers and porches;
+   - 30 chambers on the pavement;
+   - the kitchens;
+   - the east gate kept shut (44:1–2).
+6. **Other sound objects with instructions:**
+   - Joshua's seven shofars (Josh 6);
+   - Gideon's 300 trumpets and smashed jars (Judg 7:16–20);
+   - Miriam's drum (Exod 15:20);
+   - David's 4,000 instruments (1 Chr 23:5).
+7. **Herod's temple in full:** Mishnah Middot 1–5, and Josephus, *War* 5.184–237 (the Nicanor gate, the 15 steps, the golden vine over the entrance).

@@ -524,3 +524,6 @@ Write-ups:
   - **Noah's ark:** axes are harmonics 1, 6, 10; its 10-cubit decks share the Holy of Holies' 38.5 Hz; as a sealed hull it breathes at about 0.14 Hz (a 7-s swell).
   - **Ezekiel's side chambers:** widths 4:5:6 resonate as an A-minor triad (5 and 6 inferred).
   - **The furniture as a buildable instrument:** an ark box zither (gut 0.8–1.4 mm, 87–110 N), menorah pipes 0.41–0.73 m, a table monochord. All realistic.
+- **Round 58:**
+  - The prologue played on the ark instrument (499 syllables, 3 min 54 s): 1:12, the syllable centre, begins at 50.2% of the performance.
+  - **Added:** Solomon's side chambers 5/6/7 cubits (1 Kgs 6:6; the lowest is one octave below the ark's note); the centre bar, ringing at 131–187 Hz; Zechariah's seven pipes; *alamoth* and *sheminith* as registers; Herod's 100-cubit cube house (Middot 4:6) and Revelation's cube city.

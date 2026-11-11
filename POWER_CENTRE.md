@@ -96,3 +96,70 @@
 **The position itself is stable, near 0.505 in every witness.** The p values hover around the 0.02–0.06 line because the null is broad: any one of seven sayings could land anywhere.
 - **This is a consistent, moderate signal.** It is not a decisive one.
 - **What would settle it:** a test with more power, using all seven sayings' positions rather than the middle one alone. For example: do all seven sit symmetrically around the centre (the ring of claim C2)? Pre-register it on the 20:31 book.
+
+---
+
+# Round 54: the seven-saying ring (pre-registered)
+**Files:**
+- pre-registration: `robustness/PREREG_R54.md`, commit `dfdab0d`;
+- script `power/round54_ring.py`;
+- numbers `power/round54_results.json`.
+
+**The test:**
+- **Data:** the seven "I am" + predicate sayings (first occurrence of each).
+- **Book:** John 1:1–20:31.
+- **Ring error:** how far the pairs (1,7), (2,6), (3,5) and saying 4 sit from the book's centre.
+- **Null:** seven random points.
+
+## Primary result: passes
+**SBLGNT words:** ring error 0.0247, **p = 0.027**.
+
+| Saying | Verse | Position |
+|---|---|---|
+| bread of life | 6:35 | 0.285 |
+| light of the world | 8:12 | 0.386 |
+| the door | 10:7 | 0.499 |
+| the good shepherd | 10:11 | 0.504 |
+| resurrection and life | 11:25 | 0.563 |
+| way, truth, life | 14:6 | 0.712 |
+| the true vine | 15:1 | 0.745 |
+
+**Pair midpoints:**
+
+| Pair | Midpoint |
+|---|---|
+| 1 + 7 | 0.515 |
+| 2 + 6 | 0.549 |
+| 3 + 5 | 0.531 |
+| saying 4 | 0.504 |
+
+## Secondary results
+| Witness / version | p (ring around the centre) | p (shape only, centred on saying 4) |
+|---|---|---|
+| Sinaiticus lines | 0.044 | 0.087 |
+| Vaticanus lines | 0.028 | 0.078 |
+| Sahidic tokens | 0.038 | 0.066 |
+| Peshitta words | 0.063 | 0.064 |
+| **Control: the seven signs** | **0.95** (no ring, as predicted) | 0.29 |
+| Control: full Gospel to 21:25 | 0.0046 | 0.075 |
+
+**Post hoc, not pre-registered:**
+- **Null:** 7 random verses that contain ἐγώ ("I"), 114 of them.
+- **Result:** p = 0.031. The ring is not explained by first-person speech crowding the middle of the book.
+
+## What this proves, and what it does not
+**Proves** (as far as one pre-registered test can):
+- In John 1:1–20:31, the seven "I am" sayings are placed more tightly and more evenly around the book's centre than in 97% of random placements.
+- They are also more tightly placed than seven random first-person verses.
+- The middle saying sits on the centre, and the pairs balance around it.
+- The arrangement is a property of the text. It survives every way of measuring: printed words, the lines of two codices, the Coptic translation, and, narrowly, the Syriac.
+- The seven signs, as a control, show no such arrangement.
+
+**Does not prove:**
+- **That anyone designed it.** An author, an editor, or the way the discourses grew could all produce it. The test shows that the pattern exists, not why.
+- **That the witnesses are independent confirmations.** The manuscripts and translations are copies of the same text. Their agreement shows the result does not depend on the unit of measurement; it is not separate evidence.
+- **That it is a strict mirror.** The shape-only version (balance around saying 4, wherever it falls) is not significant (p 0.06–0.09). The pairs' midpoints drift late (0.51–0.55). The sayings are **centred and balanced**, not exact mirror images.
+- **Anything about an instrument, a hidden score, or divine sound.** It is a fact about where seven sentences stand in a book. The instrument reading (seven strings around a governing mese) is one interpretation that fits it. So are the menorah (Philo, Josephus) and ancient ring composition in general.
+- **That the result is free of earlier choices.** The project has looked at John's centre many times, and the 20:31 ending was suggested by the data (round 51). This test was pre-registered, but the hypothesis grew out of that history.
+
+**The full Gospel (to 21:25) gives an even tighter ring** (p 0.005) in this pre-registered control. The ring therefore does not depend on choosing the 20:31 ending; only the exact central position of saying 4 does.

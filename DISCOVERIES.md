@@ -502,3 +502,8 @@ Write-ups:
   - P66 0.508 (p 0.034) and P75 0.506 (p 0.027), both reconstructed in part; Sahidic 0.509 (p 0.038); Peshitta 0.514 (p 0.062).
   - The translation test failed (Peshitta). The papyrus test passed its rule but not the pre-registered correction.
   - The position is stable at about 0.505 in every witness; the significance is moderate.
+- **Round 54 (pre-registered, `PREREG_R54.md`): the seven "I am" sayings form a balanced ring around the centre of John.**
+  - John 1:1–20:31: p 0.027 (SBLGNT words). Sinaiticus 0.044, Vaticanus 0.028, Sahidic 0.038, Peshitta 0.063.
+  - The full Gospel: p 0.005. The seven signs (control): p 0.95.
+  - Against 7 random "I" verses (post hoc): p 0.031.
+  - The pattern is centred and balanced, not a strict mirror (shape-only p 0.06–0.09).

@@ -680,197 +680,236 @@
   {
    "test": "atbash rare hits in Gen vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Exod vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Lev vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Num vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Deut vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Josh vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Judg vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 1Sam vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 2Sam vs random involutions",
    "p": 0.11004449777511124,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 1Kgs vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 2Kgs vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Isa vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Jer vs random involutions",
    "p": 0.0022498875056247186,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": true
   },
   {
    "test": "atbash rare hits in Ezek vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Hos vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Joel vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Amos vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Obad vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Jonah vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Mic vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Nah vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Hab vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Zeph vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Hag vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Zech vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Mal vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Ps vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Prov vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Job vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Song vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Ruth vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Lam vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Eccl vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Esth vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Dan vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Ezra vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in Neh vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 1Chr vs random involutions",
    "p": 0.23483825808709566,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash rare hits in 2Chr vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "atbash total rare hits vs random involutions",
@@ -885,197 +924,236 @@
   {
    "test": "albam rare hits in Gen vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Exod vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Lev vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Num vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Deut vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Josh vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Judg vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 1Sam vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 2Sam vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 1Kgs vs random involutions",
    "p": 0.11384430778461077,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 2Kgs vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Isa vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Jer vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Ezek vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Hos vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Joel vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Amos vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Obad vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Jonah vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Mic vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Nah vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Hab vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Zeph vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Hag vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Zech vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Mal vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Ps vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Prov vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Job vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Song vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Ruth vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Lam vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Eccl vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Esth vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Dan vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Ezra vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in Neh vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 1Chr vs random involutions",
    "p": 0.23483825808709566,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam rare hits in 2Chr vs random involutions",
    "p": 1.0,
-   "family": "cipher_book"
+   "family": "cipher_book",
+   "known": false
   },
   {
    "test": "albam total rare hits vs random involutions",

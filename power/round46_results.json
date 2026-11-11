@@ -1,0 +1,164 @@
+{
+ "A_predictions": {
+  "letters": {
+   "P1_mese_share": {
+    "Jn": 0.1781,
+    "Mt": 0.176,
+    "Mk": 0.185,
+    "Lk": 0.1792
+   },
+   "P1_most_sounded_John": "paranete",
+   "P1_john_string_shares": {
+    "hypate": 0.059,
+    "parhypate": 0.116,
+    "lichanos": 0.188,
+    "mese": 0.178,
+    "trite": 0.077,
+    "paranete": 0.19,
+    "nete": 0.19
+   },
+   "P2_chi2": 29.97,
+   "P2_p": 0.1504,
+   "P2_cadence_of_movements": [
+    "lichanos",
+    "mese",
+    "mese",
+    "mese"
+   ],
+   "P2_mese_cadence_share_by_movement": [
+    0.0,
+    0.236,
+    0.325,
+    0.196
+   ],
+   "P3_middle_i_am": 0.489,
+   "P3_p": 0.05,
+   "P3_middle_sign": 0.248,
+   "P3_sign_p": 0.864,
+   "P4": {
+    "i_am_verses": 24,
+    "on_mese": 9,
+    "base": 0.234,
+    "p": 0.0865
+   }
+  },
+  "accent": {
+   "P1_mese_share": {
+    "Jn": 0.473,
+    "Mt": 0.4809,
+    "Mk": 0.4791,
+    "Lk": 0.4823
+   },
+   "P1_most_sounded_John": "mese",
+   "P1_john_string_shares": {
+    "hypate": 0.0,
+    "parhypate": 0.0,
+    "lichanos": 0.218,
+    "mese": 0.473,
+    "trite": 0.0,
+    "paranete": 0.309,
+    "nete": 0.0
+   },
+   "P2_chi2": 5.22,
+   "P2_p": 0.9004,
+   "P2_cadence_of_movements": [
+    "lichanos",
+    "lichanos",
+    "lichanos",
+    "lichanos"
+   ],
+   "P2_mese_cadence_share_by_movement": [
+    0.2,
+    0.302,
+    0.39,
+    0.312
+   ],
+   "P3_middle_i_am": 0.487,
+   "P3_p": 0.056,
+   "P3_middle_sign": 0.247,
+   "P3_sign_p": 0.864,
+   "P4": {
+    "i_am_verses": 24,
+    "on_mese": 12,
+    "base": 0.309,
+    "p": 0.039
+   }
+  }
+ },
+ "B_language": {
+  "control_psalms": {
+   "hebrew_original": [
+    -0.086,
+    0.039,
+    2479
+   ],
+   "greek_translation": [
+    -0.246,
+    0.038,
+    2515
+   ]
+  },
+  "control_romans": {
+   "greek_original": [
+    -0.191,
+    0.093,
+    428
+   ],
+   "syriac_translation": [
+    -0.242,
+    0.094,
+    427
+   ]
+  },
+  "john": {
+   "greek": [
+    -0.217,
+    0.066,
+    865
+   ],
+   "syriac": [
+    -0.35,
+    0.063,
+    872
+   ]
+  },
+  "mark": {
+   "greek": [
+    -0.126,
+    0.071,
+    672
+   ],
+   "syriac": [
+    -0.176,
+    0.074,
+    670
+   ]
+  },
+  "john_power_sayings_DiD": {
+   "power_verses": 49,
+   "greek_minus_syriac_power": -0.109,
+   "greek_minus_syriac_other": 0.149,
+   "difference": -0.258,
+   "p_two_sided": 0.1952
+  },
+  "mark_aramaic_word_verses": {
+   "5:41": {
+    "greek": 0.48,
+    "syriac": -0.69
+   },
+   "7:34": {
+    "greek": -0.15,
+    "syriac": -0.85
+   },
+   "14:36": {
+    "greek": 0.99,
+    "syriac": 0.99
+   },
+   "15:34": {
+    "greek": 0.1,
+    "syriac": 1.84
+   }
+  },
+  "note": "z = sound-patterning of adjacent words against the verse's own words shuffled. Higher in the original than in a translation if the controls hold. The Peshitta is a later Syriac (Eastern Aramaic) translation, not Jesus' Galilean Aramaic."
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "language": "hebrew",
+ "era": "tiberian",
+ "mode": "ritual",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "j",
+     "ə"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "h",
+     "iː"
+    ],
+    "accent": "stress",
+    "long": true
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ʔ",
+     "oː",
+     "r"
+    ],
+    "accent": "stress",
+    "long": true
+   }
+  ]
+ ],
+ "ipa": "jə.ˈhiː ˈʔoːr",
+ "melody": [
+  {
+   "t": 0.14,
+   "dur": 0.323,
+   "hz": [
+    232.5
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.568,
+   "dur": 0.723,
+   "hz": [
+    258.3,
+    290.6,
+    258.3
+   ],
+   "cents_from_first": [
+    182.4,
+    386.3,
+    182.4
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 1.601,
+   "dur": 0.723,
+   "hz": [
+    258.3,
+    232.5,
+    155.0
+   ],
+   "cents_from_first": [
+    182.4,
+    0.0,
+    -702.0
+   ],
+   "accent": "stress"
+  }
+ ],
+ "text": "יְהִי אוֹר",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

@@ -1,0 +1,166 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "ritual",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "a"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "e"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "i"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "o"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "y"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɔ"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "ˈa ˈɛ ˈe ˈi ˈo ˈy ˈɔ",
+ "melody": [
+  {
+   "t": 0.05,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 0.674,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 1.298,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 1.921,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 2.545,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 3.169,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 3.793,
+   "dur": 0.404,
+   "hz": [
+    234.7,
+    198.0,
+    132.0
+   ],
+   "cents_from_first": [
+    0.0,
+    -294.1,
+    -996.1
+   ],
+   "accent": "stress"
+  }
+ ],
+ "text": "ˈa | ˈɛ | ˈe | ˈi | ˈo | ˈy | ˈɔ",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

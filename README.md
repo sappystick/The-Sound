@@ -4,6 +4,8 @@ A research model that reads the Gospel of John, and the scriptures it points to,
 symbol. Every claim is tested against chance before it counts.
 
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- `POWER_SOUNDS.md`: round 40, the original words of power as calculated sound in their spaces (renders in `power/audio/r40_*`)
+- `round39/`: multi-lens team (Coptic, scribal marks, Sefer Yetzirah and calendar; partial Targum, ciphers, Syriac)
 - `TIMELINE.md`: the historical Johns (the Baptist, the son of Zebedee, the beloved disciple, the Elder) as a timeline tree
 - `LENSES.md`: the era lenses (sound, number, geometry, music, light, water, spirit, temple, stones, medicine, heavens, style, Egypt)
 - `crossref/`: the lens cross-reference across all sources

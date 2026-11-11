@@ -1,0 +1,110 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "declaim",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "tˤ",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "l",
+     "i"
+    ],
+    "accent": "stress",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "θ",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "q",
+     "u",
+     "m"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "tˤa.ˈli.θa ˈqum",
+ "melody": [
+  {
+   "t": 0.14,
+   "dur": 0.143,
+   "hz": [
+    171.0
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.361,
+   "dur": 0.178,
+   "hz": [
+    181.2,
+    224.7,
+    171.0
+   ],
+   "cents_from_first": [
+    100.0,
+    472.5,
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 0.659,
+   "dur": 0.143,
+   "hz": [
+    181.3,
+    146.3
+   ],
+   "cents_from_first": [
+    100.9,
+    -270.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.971,
+   "dur": 0.223,
+   "hz": [
+    173.5,
+    215.1,
+    163.8,
+    135.9
+   ],
+   "cents_from_first": [
+    25.0,
+    397.5,
+    -75.0,
+    -397.7
+   ],
+   "accent": "stress"
+  }
+ ],
+ "text": "tˤ a l ˈi θ a | ˈq u m",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

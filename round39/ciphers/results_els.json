@@ -1,0 +1,615 @@
+{
+ "weissmandl": {
+  "window_letters": 400,
+  "per_book": {
+   "Gen": {
+    "hits": [
+     [
+      5,
+      "forward"
+     ]
+    ],
+    "any": true
+   },
+   "Exod": {
+    "hits": [
+     [
+      7,
+      "forward"
+     ]
+    ],
+    "any": true
+   },
+   "Lev": {
+    "hits": [],
+    "any": false
+   },
+   "Num": {
+    "hits": [
+     [
+      13,
+      "backward"
+     ]
+    ],
+    "any": true
+   },
+   "Deut": {
+    "hits": [],
+    "any": false
+   },
+   "Josh": {
+    "hits": [],
+    "any": false
+   },
+   "Judg": {
+    "hits": [],
+    "any": false
+   },
+   "1Sam": {
+    "hits": [],
+    "any": false
+   },
+   "2Sam": {
+    "hits": [],
+    "any": false
+   },
+   "1Kgs": {
+    "hits": [],
+    "any": false
+   },
+   "2Kgs": {
+    "hits": [],
+    "any": false
+   },
+   "Isa": {
+    "hits": [],
+    "any": false
+   },
+   "Jer": {
+    "hits": [],
+    "any": false
+   },
+   "Ezek": {
+    "hits": [],
+    "any": false
+   },
+   "Hos": {
+    "hits": [],
+    "any": false
+   },
+   "Joel": {
+    "hits": [],
+    "any": false
+   },
+   "Amos": {
+    "hits": [],
+    "any": false
+   },
+   "Obad": {
+    "hits": [],
+    "any": false
+   },
+   "Jonah": {
+    "hits": [],
+    "any": false
+   },
+   "Mic": {
+    "hits": [],
+    "any": false
+   },
+   "Nah": {
+    "hits": [],
+    "any": false
+   },
+   "Hab": {
+    "hits": [],
+    "any": false
+   },
+   "Zeph": {
+    "hits": [],
+    "any": false
+   },
+   "Hag": {
+    "hits": [],
+    "any": false
+   },
+   "Zech": {
+    "hits": [],
+    "any": false
+   },
+   "Mal": {
+    "hits": [],
+    "any": false
+   },
+   "Ps": {
+    "hits": [],
+    "any": false
+   },
+   "Prov": {
+    "hits": [],
+    "any": false
+   },
+   "Job": {
+    "hits": [],
+    "any": false
+   },
+   "Song": {
+    "hits": [],
+    "any": false
+   },
+   "Ruth": {
+    "hits": [],
+    "any": false
+   },
+   "Lam": {
+    "hits": [],
+    "any": false
+   },
+   "Eccl": {
+    "hits": [],
+    "any": false
+   },
+   "Esth": {
+    "hits": [],
+    "any": false
+   },
+   "Dan": {
+    "hits": [],
+    "any": false
+   },
+   "Ezra": {
+    "hits": [
+     [
+      256,
+      "backward"
+     ]
+    ],
+    "any": true
+   },
+   "Neh": {
+    "hits": [],
+    "any": false
+   },
+   "1Chr": {
+    "hits": [],
+    "any": false
+   },
+   "2Chr": {
+    "hits": [],
+    "any": false
+   }
+  },
+  "books_with_pattern": [
+   "Gen",
+   "Exod",
+   "Num",
+   "Ezra"
+  ],
+  "genesis_first_tav_index": 5,
+  "vocabulary_null": {
+   "n_words": 2917,
+   "frac_words_with_skip50_start_in_Gen": 0.011998628728145356,
+   "torah_books_with_torah_pattern": 3,
+   "frac_words_in_ge_that_many_torah_books": 0.00034281796366129587,
+   "distribution": {
+    "0": 2746,
+    "1": 161,
+    "2": 9,
+    "3": 1
+   }
+  },
+  "p_fixed_word_fixed_skip": 0.0006854009595613434,
+  "wiggle_room": {
+   "Torah": {
+    "n_pairs_ge3": 25,
+    "n_pairs_ge4": 1,
+    "examples": [
+     {
+      "word": "אשיב",
+      "skip": 2,
+      "books": 4
+     },
+     {
+      "word": "אימה",
+      "skip": 14,
+      "books": 3
+     },
+     {
+      "word": "ויינ",
+      "skip": 16,
+      "books": 3
+     },
+     {
+      "word": "יובב",
+      "skip": 17,
+      "books": 3
+     },
+     {
+      "word": "יהוה",
+      "skip": 21,
+      "books": 3
+     },
+     {
+      "word": "ימלא",
+      "skip": 32,
+      "books": 3
+     },
+     {
+      "word": "מלימ",
+      "skip": 40,
+      "books": 3
+     },
+     {
+      "word": "ממימ",
+      "skip": 45,
+      "books": 3
+     },
+     {
+      "word": "מאשי",
+      "skip": 45,
+      "books": 3
+     },
+     {
+      "word": "ולבנ",
+      "skip": 46,
+      "books": 3
+     },
+     {
+      "word": "תורה",
+      "skip": 50,
+      "books": 3
+     },
+     {
+      "word": "נהרה",
+      "skip": 53,
+      "books": 3
+     }
+    ]
+   },
+   "Former prophets": {
+    "n_pairs_ge3": 42,
+    "n_pairs_ge4": 4,
+    "examples": [
+     {
+      "word": "מראה",
+      "skip": 2,
+      "books": 4
+     },
+     {
+      "word": "מיומ",
+      "skip": 2,
+      "books": 4
+     },
+     {
+      "word": "והמה",
+      "skip": 46,
+      "books": 4
+     },
+     {
+      "word": "ומני",
+      "skip": 96,
+      "books": 4
+     },
+     {
+      "word": "ראות",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "ויחי",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "וארד",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "יחיו",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "ולנו",
+      "skip": 7,
+      "books": 3
+     },
+     {
+      "word": "הימה",
+      "skip": 8,
+      "books": 3
+     },
+     {
+      "word": "נוהו",
+      "skip": 16,
+      "books": 3
+     },
+     {
+      "word": "מלאו",
+      "skip": 16,
+      "books": 3
+     }
+    ]
+   },
+   "Latter prophets": {
+    "n_pairs_ge3": 31,
+    "n_pairs_ge4": 1,
+    "examples": [
+     {
+      "word": "אויב",
+      "skip": 2,
+      "books": 4
+     },
+     {
+      "word": "ימיו",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "יהיו",
+      "skip": 3,
+      "books": 3
+     },
+     {
+      "word": "ויהי",
+      "skip": 3,
+      "books": 3
+     },
+     {
+      "word": "אהבי",
+      "skip": 3,
+      "books": 3
+     },
+     {
+      "word": "הימה",
+      "skip": 4,
+      "books": 3
+     },
+     {
+      "word": "יהיה",
+      "skip": 5,
+      "books": 3
+     },
+     {
+      "word": "שמנה",
+      "skip": 17,
+      "books": 3
+     },
+     {
+      "word": "יהוה",
+      "skip": 18,
+      "books": 3
+     },
+     {
+      "word": "ואמה",
+      "skip": 20,
+      "books": 3
+     },
+     {
+      "word": "יבוא",
+      "skip": 26,
+      "books": 3
+     },
+     {
+      "word": "הוית",
+      "skip": 26,
+      "books": 3
+     }
+    ]
+   },
+   "Writings": {
+    "n_pairs_ge3": 39,
+    "n_pairs_ge4": 0,
+    "examples": [
+     {
+      "word": "באימ",
+      "skip": 2,
+      "books": 3
+     },
+     {
+      "word": "ויומ",
+      "skip": 3,
+      "books": 3
+     },
+     {
+      "word": "והיו",
+      "skip": 7,
+      "books": 3
+     },
+     {
+      "word": "ויינ",
+      "skip": 11,
+      "books": 3
+     },
+     {
+      "word": "יומו",
+      "skip": 12,
+      "books": 3
+     },
+     {
+      "word": "ביומ",
+      "skip": 18,
+      "books": 3
+     },
+     {
+      "word": "ההיא",
+      "skip": 18,
+      "books": 3
+     },
+     {
+      "word": "ימיו",
+      "skip": 22,
+      "books": 3
+     },
+     {
+      "word": "אישי",
+      "skip": 22,
+      "books": 3
+     },
+     {
+      "word": "ויחי",
+      "skip": 22,
+      "books": 3
+     },
+     {
+      "word": "יחיו",
+      "skip": 22,
+      "books": 3
+     },
+     {
+      "word": "ישימ",
+      "skip": 23,
+      "books": 3
+     }
+    ]
+   }
+  },
+  "controls_with_any_pair_ge3": 3
+ },
+ "rates": {
+  "per_word": {
+   "תורה": {
+    "genesis": 421,
+    "isaiah_jeremiah_same_length": 435,
+    "shuffled_mean": 439.34,
+    "shuffled_sd": 22.364802704249374,
+    "expected_from_frequencies": 438.64350298075436,
+    "p_genesis_ge_shuffled": 0.801980198019802
+   },
+   "יהוה": {
+    "genesis": 1243,
+    "isaiah_jeremiah_same_length": 1348,
+    "shuffled_mean": 1246.43,
+    "shuffled_sd": 43.22829050517728,
+    "expected_from_frequencies": 1252.075323265216,
+    "p_genesis_ge_shuffled": 0.6039603960396039
+   },
+   "אלהימ": {
+    "genesis": 70,
+    "isaiah_jeremiah_same_length": 52,
+    "shuffled_mean": 73.62,
+    "shuffled_sd": 9.265829698413413,
+    "expected_from_frequencies": 74.30426708102043,
+    "p_genesis_ge_shuffled": 0.6831683168316832
+   },
+   "ישראל": {
+    "genesis": 25,
+    "isaiah_jeremiah_same_length": 21,
+    "shuffled_mean": 33.32,
+    "shuffled_sd": 5.558560964854123,
+    "expected_from_frequencies": 33.156406995274146,
+    "p_genesis_ge_shuffled": 0.9801980198019802
+   },
+   "משיח": {
+    "genesis": 161,
+    "isaiah_jeremiah_same_length": 165,
+    "shuffled_mean": 148.98,
+    "shuffled_sd": 11.554202698585481,
+    "expected_from_frequencies": 151.19955667098574,
+    "p_genesis_ge_shuffled": 0.1782178217821782
+   },
+   "ישוע": {
+    "genesis": 323,
+    "isaiah_jeremiah_same_length": 350,
+    "shuffled_mean": 320.13,
+    "shuffled_sd": 17.175945388827948,
+    "expected_from_frequencies": 320.008683502125,
+    "p_genesis_ge_shuffled": 0.44554455445544555
+   },
+   "שלומ": {
+    "genesis": 408,
+    "isaiah_jeremiah_same_length": 437,
+    "shuffled_mean": 402.43,
+    "shuffled_sd": 19.658206937561726,
+    "expected_from_frequencies": 404.1085972398955,
+    "p_genesis_ge_shuffled": 0.46534653465346537
+   },
+   "ירושלמ": {
+    "genesis": 3,
+    "isaiah_jeremiah_same_length": 3,
+    "shuffled_mean": 2.68,
+    "shuffled_sd": 1.6666133324799723,
+    "expected_from_frequencies": 2.8694314038651823,
+    "p_genesis_ge_shuffled": 0.5148514851485149
+   },
+   "ברית": {
+    "genesis": 298,
+    "isaiah_jeremiah_same_length": 261,
+    "shuffled_mean": 327.89,
+    "shuffled_sd": 16.38468492220708,
+    "expected_from_frequencies": 323.7032534808388,
+    "p_genesis_ge_shuffled": 0.9801980198019802
+   },
+   "כהנ": {
+    "genesis": 2025,
+    "isaiah_jeremiah_same_length": 2331,
+    "shuffled_mean": 2142.58,
+    "shuffled_sd": 45.340088222234414,
+    "expected_from_frequencies": 2140.3242153186643,
+    "p_genesis_ge_shuffled": 1.0
+   }
+  },
+  "total_genesis": 4977,
+  "total_control": 5403,
+  "total_shuffled_mean": 5137.4,
+  "genesis_letters": 78069
+ },
+ "tests": [
+  {
+   "test": "Weissmandl: Torah quintet has more (word,skip) book-opening ELS than control quintets",
+   "p": 1.0,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of תורה (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.801980198019802,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of יהוה (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.6039603960396039,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of אלהימ (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.6831683168316832,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of ישראל (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.9801980198019802,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of משיח (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.1782178217821782,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of ישוע (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.44554455445544555,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of שלומ (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.46534653465346537,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of ירושלמ (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.5148514851485149,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of ברית (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 0.9801980198019802,
+   "family": "els"
+  },
+  {
+   "test": "ELS count of כהנ (|skip| 2-100) in Genesis vs letter-shuffled Genesis",
+   "p": 1.0,
+   "family": "els"
+  }
+ ]
+}

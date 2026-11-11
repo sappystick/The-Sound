@@ -356,6 +356,9 @@ t1["handcheck_sample"] = []
 for i in sorted(idx):
     o = smp_pool[i]; ref = o[5]
     t1["handcheck_sample"].append(f"{o[0]} {ref[0]} {ref[1]}:{ref[2]} {o[2]} label={o[3]} | " + " ".join(t["word"] for t in SB[ref]))
+# hand check (done by reading the 40 printed verses after the first run; recorded here so results.json carries it)
+t1["handcheck_result"] = dict(n=40, agree=40, debatable=["2Co 3:6 pneuma (letter vs Spirit) labelled D"],
+                              note="rule-only labels outside John/Paul are not used in tests (e.g. Acts 28:6 'a god' would be mislabelled D)")
 R["T1_nomina_sacra"] = t1
 
 # ================================================================= T2 staurogram and special signs
@@ -506,7 +509,18 @@ for ms in ("P66", "01", "P75", "03", "02"):
             tow["to_SBL" if (ib and not ia) or (not b and a and not ia) else ("away" if (ia and not ib) else "neutral")] += 1
     res["direction"] = dict(tow)
     t3["ms"][ms] = res
-# itacism: one-sided binomial-type comparison with C11 is descriptive (different populations)
+# Corrections vs C11 variants: are sound-identical deviations LESS often corrected than they occur as variants?
+# (one-sided Fisher via the two-sided routine's table; C11 counts read from code/analysis/ms_sound_results.json)
+c11f = os.path.join(os.path.dirname(os.path.abspath(ENG)), "analysis", "ms_sound_results.json")
+t3["corr_vs_C11"] = {}
+if os.path.exists(c11f):
+    C11 = json.load(open(c11f, encoding="utf-8"))["variants"]
+    for ms in ("P66", "P75", "01", "03"):
+        sv = C11[ms]; vs = sv["same sound, spelling only"] + sv["same sound, other REAL word"]; vn = vs + sv["different sound"]
+        so = t3["ms"][ms]["sound"]; cs, cn = so["same_koine"], so["subst"]
+        p = fisher2(cs, cn - cs, vs, vn - vs)
+        t3["corr_vs_C11"][ms] = dict(corrections_same=f"{cs}/{cn}", variants_same=f"{vs}/{vn}", p_two_sided=p)
+        addp(f"T3snd|{ms}", p)
 R["T3_corrections"] = t3
 
 # ================================================================= T4 scribal breaks
@@ -630,6 +644,10 @@ for ms, books in (("P66", JOHN), ("P75", JOHN), ("01", JOHN), ("02", JOHN), ("03
             res["p_random_SBLpara"] = float((np.sum(sims2 <= obsd) + 1) / 20001)
             addp(f"T4|{key}|vs_random", res["p_random_vstart"]); addp(f"T4|{key}|vs_SBLpara", res["p_random_SBLpara"])
             res["outline_dist"] = md([VIDX[c] for c in OUTLINE if lo <= VIDX[c] <= hi])
+            sv = set(s_start); base = len(sv) / max(len(obs), 1)
+            res["exact_hits"] = [f"{c[1]}:{c[2]}" for c in cuts if c in sv]
+            res["exact_hit_base_rate"] = round(base, 4)
+            res["p_at_least_hits"] = round(float(1 - sum(math.comb(len(cuts), k) * base ** k * (1 - base) ** (len(cuts) - k) for k in range(len(res["exact_hits"])))), 4)
     t4["ms"][key] = res
 R["T4_breaks"] = t4
 

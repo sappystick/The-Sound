@@ -169,7 +169,7 @@ def main(wlc_dir, out_json):
             p = float((1 + (pb[:, j] >= ob).sum()) / (n + 1))
             per[b] = dict(obs=ob, null_mean=float(pb[:, j].mean()), p=p)
             tests.append(dict(test="%s rare hits in %s vs random involutions" % (name, b), p=p,
-                              family="cipher_book"))
+                              family="cipher_book", known=(name == "atbash" and b == "Jer")))
         res[name]["per_book_vs_involution"] = per
         tests.append(dict(test="%s total rare hits vs random involutions" % name,
                           p=res[name]["null_involution"]["rare_p"], family="cipher_total"))

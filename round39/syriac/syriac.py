@@ -98,7 +98,7 @@ def groot_same(a, b):
     sa, sb = gstem(a), gstem(b)
     if len(sa) >= 4 and len(sb) >= 4 and sa[:4] == sb[:4]: return True
     ka, kb = gskel(a), gskel(b)
-    k = min(len(ka), len(kb), 3)
+    k = min(len(ka), len(kb), 2)   # two stem consonants (κρινω/κρισισ, θνησκω/θανατοσ): errs toward "also in Greek"
     if k >= 2 and ka[:k] == kb[:k] and sa[0] == sb[0]: return True
     fa, fb = re.sub(r"[αεηιουω]", "", a), re.sub(r"[αεηιουω]", "", b)   # unstripped (απολλυμι / απωλεια)
     k = min(len(fa), len(fb), 3)
@@ -166,8 +166,8 @@ def pair_flags(groups, filt):
     """groups: per verse list of (lex, root).  filt in {'all', 'syr_only'}"""
     flags = np.zeros(len(groups), bool)
     for i, g in enumerate(groups):
-        ps = verse_pairs(g, "R") | verse_pairs(g, "S")
-        if filt == "syr_only":
+        ps = verse_pairs(g, "S") if filt == "S_syr_only" else verse_pairs(g, "R") | verse_pairs(g, "S")
+        if filt in ("syr_only", "S_syr_only"):
             ps = {p for p in ps if not PAIRCACHE.setdefault(p, in_greek(*p))}
         flags[i] = bool(ps)
     return flags
@@ -198,7 +198,7 @@ def compare(ex, label):
     return dict(john_excess_per_verse=float(j.mean()), others_excess_per_verse=float(o.mean()), diff=float(d), p=float((cnt + 1) / 5001))
 
 T1 = {}
-for filt in ("all", "syr_only"):
+for filt in ("all", "syr_only", "S_syr_only"):
     T1[filt] = {}; ex = {}
     for b in BOOKS:
         r, e = density(b, filt); T1[filt][b] = r; ex[b] = e
@@ -327,8 +327,8 @@ for vi, tl in byv.items():
                                 greek_in_verse1=ga, greek_in_verse2=gb, greek_equiv1=EQ.get(a, []), greek_equiv2=EQ.get(b, []), distance=dist, rarity=round(rar, 2), score=round(sc, 2))
 for k in cands: cands[k]["verses_in_john_with_pair"] = pairseen[k]
 top = sorted(cands.values(), key=lambda d: -d["score"])
-RES["T3_top_syriac_only"] = top[:40]; RES["T3_n_candidates"] = len(top)
-for d in top[:45]:
+RES["T3_top_syriac_only"] = top[:60]; RES["T3_n_candidates"] = len(top)
+for d in top[:60]:
     print(d["verse"], d["kind"], d["translit1"], d["translit2"], d["root_translit"], d["greek_in_verse1"], d["greek_in_verse2"], d["score"], d["verses_in_john_with_pair"])
 
 # ---------------------------------------------------------------- TEST 2 Odes of Solomon vs Psalms of Solomon (English, Harris 1911)

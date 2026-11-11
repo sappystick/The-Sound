@@ -139,8 +139,11 @@ def heb_flags(h):
 
 # ---------------------------------------------------------------- term finder
 PFX = r"(?:[ודבלכמ]{0,3})"
-MEMRA = re.compile(rf"^{PFX}(?:מימר|ממר)(א|י|יה|ה|כ|כונ|הונ|יהונ|נא|יכ|יכונ|ן|)$")
-SHEK = re.compile(rf"^{PFX}שכינ(?:ת|תא|תיה|תי|תכ|תה|תהונ|תכונ|תנא|א|)$")
+# Memra is spelled מימר- in these editions; bare ממרא is the place name Mamre, so it is not counted.
+MEMRA = re.compile(rf"^{PFX}מימר(א|י|יה|ה|כ|כונ|הונ|יהונ|נא|יכ|יכונ|וי|ן|)$")
+# Shekinah: שכינת- or defective שכנת- (Onkelos Exod 33:14 שכנתי); the prefix מ is excluded so that משכנא
+# 'tabernacle' (which renders Hebrew mishkan) is not counted.
+SHEK = re.compile(r"^[ודבלכ]{0,3}(?:שכינ|שכנ)(?:ת|תא|תיה|תי|תכ|תה|תהונ|תכונ|תנא)$|^[ודבלכ]{0,3}שכינא$")
 YEQ = re.compile(rf"^{PFX}(?:א?יקר)(א|יה|י|כ|ה|)$")
 DN = {"יי", "ייי", "דיי", "דייי", "יהוה", "ייה", "דה", "יוי", "דיוי"}
 def find_terms(toks, heb):
@@ -312,7 +315,7 @@ SETS = {"John quotations": JOHN_Q, "John quotations+allusions": JOHN_A, "Matthew
 iam = [(b, c, v) for b in ALLB for (c, v), h in HEB[b].items() if heb_flags(h)[3]]
 SETS["CONTROL: 'I am YHWH' verses (40 random)"] = [iam[i] for i in np.random.default_rng(7).choice(len(iam), 40, replace=False)]
 
-def pointer_test(refs, layer="primary", n=10000, seed=39, lenmatch=False):
+def pointer_test(refs, layer="primary", n=10000, seed=39, lenmatch=False, divmatch=False):
     rg = np.random.default_rng(seed)
     obs, pools = [], []
     for b, c, v in refs:
@@ -324,6 +327,9 @@ def pointer_test(refs, layer="primary", n=10000, seed=39, lenmatch=False):
         if lenmatch:
             L0 = TLEN[(t, b)][(c, v)]
             ks = [k for k in ks if abs(TLEN[(t, b)][k] - L0) <= 0.25 * L0 + 1]
+        if divmatch and (c, v) in HEB[b]:  # same book AND same Hebrew divine-name status (added after first run)
+            f0 = heb_flags(HEB[b][(c, v)])[0]
+            ks = [k for k in ks if k in HEB[b] and heb_flags(HEB[b][k])[0] == f0] or ks
         pools.append(np.array([d[k]["mediating"] for k in ks]))
     if not obs: return None
     o = float(np.mean(obs))
@@ -335,10 +341,16 @@ def pointer_test(refs, layer="primary", n=10000, seed=39, lenmatch=False):
                 share_with_term=round(float(np.mean(np.array(obs) > 0)), 3), ratio=round(o / max(sims.mean(), 1e-9), 2), p=round(float(p), 4))
 T2 = {}
 for name, refs in SETS.items():
-    T2[name] = dict(book_matched=pointer_test(refs), book_and_length_matched=pointer_test(refs, lenmatch=True))
-    T2[name]["neofiti_torah_only"] = pointer_test([r for r in refs if r[0] in TORAH], layer="Neofiti")
+    T2[name] = dict(book_matched=pointer_test(refs), book_and_length_matched=pointer_test(refs, lenmatch=True),
+                    book_and_divine_name_matched=pointer_test(refs, divmatch=True))
+    for lay in ("Neofiti", "PsJonathan", "Onkelos"):
+        tor = [r for r in refs if r[0] in TORAH]
+        T2[name][f"{lay}_torah_only"] = pointer_test(tor, layer=lay)
+        T2[name][f"{lay}_torah_only_divine_matched"] = pointer_test(tor, layer=lay, divmatch=True)
     T2[name]["genres"] = dict(collections.Counter(GENRE.get(b, "?") for b, _, _ in refs))
     PV.append((f"T2 pointer enrichment: {name} (book-matched)", T2[name]["book_matched"]["p"]))
+    if T2[name]["Neofiti_torah_only"]:
+        PV.append((f"T2 pointer enrichment: {name} (Neofiti, Torah verses, book+divine-name matched)", T2[name]["Neofiti_torah_only_divine_matched"]["p"]))
 # per-verse detail for John's quotations
 T2["John quotations detail"] = {f"{b} {c}:{v}": TV[(PRIMARY(b), b)].get((c, v), {}).get("mediating") for b, c, v in JOHN_Q}
 # power: plant term-bearing verses into a John-size set
@@ -481,7 +493,9 @@ PAIRS = [("σκηνοω", "שכינ", "dwell / Shekinah (Jn 1:14)"), ("λογο�
          ("αμπελος", "גופנ", "vine"), ("θυρα", "תרע", "door"), ("ποιμην", "רעי", "shepherd"), ("ζητεω", "בעי", "seek"),
          ("μενω", "שרי", "abide/dwell"), ("θεαομαι", "חזי", "behold"), ("γινωσκω", "ידע", "know"), ("πιστευω", "הימנ", "believe"),
          ("αγαπη", "רחמ", "love"), ("ωρα", "שעת", "hour"), ("σημειον", "את", "sign"), ("εντολη", "תפקיד", "commandment"),
-         ("βασιλεια", "מלכו", "kingdom"), ("σκηνη", "משכנ", "tent / tabernacle")]
+         ("βασιλεια", "מלכו", "kingdom")]
+# (σκηνή / משכנא 'tabernacle' is the same root family as σκηνόω / שכינתא, so it is reported separately, not counted)
+EXTRA4 = [("σκηνη", "משכנ", "tent / tabernacle (same family as dwell)")]
 CTRL4 = [("σαββατον", "שבת"), ("ισραηλ", "ישראל"), ("σατανας", "סטנ"), ("γολγοθα", "גלגלת"), ("βηθσαιδα", "ביתצידא"),
          ("ναζωραιος", "נצרי"), ("καφαρναουμ", "כפרנחומ"), ("γαββαθα", "גבתא"), ("ιορδανης", "ירדנ"), ("βηθανια", "ביתעני"),
          ("ζεβεδαιος", "זבדי"), ("φαρισαιος", "פרישא"), ("σαμαρεια", "שמרינ"), ("μαρθα", "מרתא"), ("ιερουσαλημ", "ירושלמ"),
@@ -529,6 +543,7 @@ T4 = dict(pairs={d: dict(greek=g, aramaic=a, g_skel=gskel(gstem(g)), a_skel=aske
           skn_single_pair_rarity="share of random John-lemma x Onkelos-word pairs with the same skeleton lengths that echo: see random_pair_rate")
 # how rare is S-K-N specifically: share of Onkelos stems containing S..K..N and of John lemmas containing S..K..N
 def has(sk, pat): return slcs(sk, pat) == len(pat)
+T4["extra_same_family"] = {d: dict(g_skel=gskel(gstem(g)), a_skel=askel(a), echo=bool(echo(g, a))) for g, a, d in EXTRA4}
 T4["share_john_lemmas_with_SKN"] = round(float(np.mean([has(gskel(gstem(w)), "SKN") for w in jlem])), 4)
 T4["share_onkelos_stems_with_SKN"] = round(float(np.mean([has(askel(w), "SKN") for w in onk_st])), 4)
 PV.append(("T4 Greek-Aramaic consonant echoes beyond permutation", p4))

@@ -238,7 +238,8 @@ def main(texts, out_json):
         for r, a in zip(grows, adj):
             r["q_within_family"] = float(a)
             tests.append(dict(test="Greek alphabetic acrostic %s %s %d" % (corpus, r["book"], r["ch"]),
-                              p=r["p"], family="acrostic_greek"))
+                              p=r["p"], family="acrostic_greek",
+                              known=("Threni" in r["book"])))  # Swete prints Hebrew letter names
         res["greek"][corpus + "_alphabetic"] = dict(
             n_tests=len(grows), top=sorted(grows, key=lambda r: r["p"])[:10],
             max_score=max(r["score"] for r in grows),

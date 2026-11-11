@@ -17,6 +17,23 @@
     "share_divine_with_term": 0.133,
     "share_other_with_term": 0.021
    },
+   "Neofiti|Genesis": {
+    "memra": 69,
+    "shekinah": 10,
+    "yeqara": 14,
+    "yeqara_all": 14,
+    "anahu": 0,
+    "anahu_all": 0,
+    "dibbera": 0,
+    "mediating": 93,
+    "verses": 1431,
+    "aligned": 1431,
+    "divine_verses": 304,
+    "per1000": 51.7,
+    "share_divine_with_term": 0.191,
+    "share_other_with_term": 0.014,
+    "note": "English translation OCR (Word=Memra); verses parsed: 1431"
+   },
    "PsJonathan|Genesis": {
     "memra": 93,
     "shekinah": 11,
@@ -64,6 +81,23 @@
     "per1000": 33.9,
     "share_divine_with_term": 0.057,
     "share_other_with_term": 0.022
+   },
+   "Neofiti|Exodus": {
+    "memra": 49,
+    "shekinah": 36,
+    "yeqara": 27,
+    "yeqara_all": 37,
+    "anahu": 0,
+    "anahu_all": 0,
+    "dibbera": 0,
+    "mediating": 112,
+    "verses": 1049,
+    "aligned": 1049,
+    "divine_verses": 362,
+    "per1000": 73.4,
+    "share_divine_with_term": 0.141,
+    "share_other_with_term": 0.038,
+    "note": "English translation OCR (Word=Memra); verses parsed: 1049"
    },
    "PsJonathan|Exodus": {
     "memra": 64,
@@ -113,6 +147,23 @@
     "share_divine_with_term": 0.024,
     "share_other_with_term": 0.019
    },
+   "Neofiti|Leviticus": {
+    "memra": 16,
+    "shekinah": 7,
+    "yeqara": 4,
+    "yeqara_all": 6,
+    "anahu": 0,
+    "anahu_all": 0,
+    "dibbera": 0,
+    "mediating": 27,
+    "verses": 723,
+    "aligned": 723,
+    "divine_verses": 262,
+    "per1000": 29.0,
+    "share_divine_with_term": 0.046,
+    "share_other_with_term": 0.02,
+    "note": "English translation OCR (Word=Memra); verses parsed: 723"
+   },
    "PsJonathan|Leviticus": {
     "memra": 17,
     "shekinah": 10,
@@ -161,6 +212,23 @@
     "share_divine_with_term": 0.118,
     "share_other_with_term": 0.009
    },
+   "Neofiti|Numbers": {
+    "memra": 58,
+    "shekinah": 16,
+    "yeqara": 0,
+    "yeqara_all": 0,
+    "anahu": 0,
+    "anahu_all": 0,
+    "dibbera": 0,
+    "mediating": 74,
+    "verses": 920,
+    "aligned": 814,
+    "divine_verses": 285,
+    "per1000": 67.4,
+    "share_divine_with_term": 0.112,
+    "share_other_with_term": 0.053,
+    "note": "English translation OCR (Word=Memra); verses parsed: 920"
+   },
    "PsJonathan|Numbers": {
     "memra": 75,
     "shekinah": 22,
@@ -208,6 +276,23 @@
     "per1000": 59.6,
     "share_divine_with_term": 0.091,
     "share_other_with_term": 0.029
+   },
+   "Neofiti|Deuteronomy": {
+    "memra": 113,
+    "shekinah": 25,
+    "yeqara": 4,
+    "yeqara_all": 4,
+    "anahu": 1,
+    "anahu_all": 3,
+    "dibbera": 0,
+    "mediating": 143,
+    "verses": 633,
+    "aligned": 633,
+    "divine_verses": 321,
+    "per1000": 165.9,
+    "share_divine_with_term": 0.268,
+    "share_other_with_term": 0.061,
+    "note": "English translation OCR (Word=Memra); verses parsed: 633"
    },
    "PsJonathan|Deuteronomy": {
     "memra": 132,
@@ -751,6 +836,18 @@
     "verses": 5846,
     "divine_verses": 1858
    },
+   "Neofiti": {
+    "memra": 305,
+    "shekinah": 94,
+    "yeqara": 49,
+    "yeqara_all": 61,
+    "anahu": 1,
+    "anahu_all": 3,
+    "dibbera": 0,
+    "mediating": 449,
+    "verses": 4756,
+    "divine_verses": 1534
+   },
    "PsJonathan": {
     "memra": 381,
     "shekinah": 118,
@@ -807,6 +904,12 @@
     "diff": 0.066,
     "p": 0.001
    },
+   "Neofiti": {
+    "rate_divine": 0.156,
+    "rate_other": 0.031,
+    "diff": 0.124,
+    "p": 0.001
+   },
    "PsJonathan": {
     "rate_divine": 0.192,
     "rate_other": 0.032,
@@ -837,7 +940,10 @@
     "memra": 1,
     "mediating": 1
    },
-   "Gen 3:8 Neofiti": {},
+   "Gen 3:8 Neofiti": {
+    "memra": 1,
+    "mediating": 1
+   },
    "Gen 28:21 Onkelos": {
     "memra": 1,
     "mediating": 1
@@ -851,15 +957,22 @@
     "anahu_all": 2,
     "mediating": 2
    },
-   "Deut 32:39 Neofiti": {},
+   "Deut 32:39 Neofiti": {
+    "memra": 1,
+    "anahu_all": 2,
+    "mediating": 1
+   },
    "Isa 43:10 Jonathan": {
     "anahu_all": 1
    },
    "Gen 1:1 Neofiti (main text)": {},
-   "Gen 1:3 Neofiti": {},
+   "Gen 1:3 Neofiti": {
+    "memra": 2,
+    "mediating": 2
+   },
    "Exod 33:14 Onkelos": {}
   },
-  "neofiti_gen1_1": "",
+  "neofiti_gen1_1": "מלקדמין בחכמה [בחוכמתא] ברא (ד)יי שכלל [ושכלל] ית שמיא וית ארעא:",
   "primary_by_genre_per1000": {
    "Torah": 40.4,
    "Former prophets": 40.3,
@@ -885,7 +998,14 @@
     "ratio": 0.55,
     "p": 0.832
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 4,
+    "observed_mean": 0.0,
+    "null_mean": 0.103,
+    "share_with_term": 0.0,
+    "ratio": 0.0,
+    "p": 1.0
+   },
    "genres": {
     "Writings": 11,
     "Latter prophets": 7,
@@ -910,7 +1030,14 @@
     "ratio": 0.71,
     "p": 0.807
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 29,
+    "observed_mean": 0.483,
+    "null_mean": 0.099,
+    "share_with_term": 0.31,
+    "ratio": 4.86,
+    "p": 0.0005
+   },
    "genres": {
     "Writings": 13,
     "Latter prophets": 36,
@@ -935,7 +1062,14 @@
     "ratio": 1.14,
     "p": 0.4026
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 15,
+    "observed_mean": 0.467,
+    "null_mean": 0.14,
+    "share_with_term": 0.333,
+    "ratio": 3.33,
+    "p": 0.0282
+   },
    "genres": {
     "Latter prophets": 25,
     "Former prophets": 1,
@@ -960,7 +1094,14 @@
     "ratio": 1.04,
     "p": 0.5292
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 16,
+    "observed_mean": 0.375,
+    "null_mean": 0.129,
+    "share_with_term": 0.25,
+    "ratio": 2.91,
+    "p": 0.0482
+   },
    "genres": {
     "Latter prophets": 14,
     "Torah": 17,
@@ -985,7 +1126,14 @@
     "ratio": 1.6,
     "p": 0.3455
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 1,
+    "observed_mean": 0.0,
+    "null_mean": 0.035,
+    "share_with_term": 0.0,
+    "ratio": 0.0,
+    "p": 1.0
+   },
    "genres": {
     "Former prophets": 6,
     "Writings": 7,
@@ -1010,7 +1158,14 @@
     "ratio": 0.76,
     "p": 0.7269
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 3,
+    "observed_mean": 0.0,
+    "null_mean": 0.169,
+    "share_with_term": 0.0,
+    "ratio": 0.0,
+    "p": 1.0
+   },
    "genres": {
     "Latter prophets": 7,
     "Torah": 6,
@@ -1035,7 +1190,14 @@
     "ratio": 0.35,
     "p": 0.9377
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 10,
+    "observed_mean": 0.0,
+    "null_mean": 0.109,
+    "share_with_term": 0.0,
+    "ratio": 0.0,
+    "p": 1.0
+   },
    "genres": {
     "Writings": 19,
     "Torah": 12,
@@ -1060,7 +1222,14 @@
     "ratio": 3.44,
     "p": 0.0023
    },
-   "neofiti_torah_only": null,
+   "neofiti_torah_only": {
+    "n_verses": 10,
+    "observed_mean": 0.0,
+    "null_mean": 0.047,
+    "share_with_term": 0.0,
+    "ratio": 0.0,
+    "p": 1.0
+   },
    "genres": {
     "Torah": 11,
     "Latter prophets": 29
@@ -1105,23 +1274,61 @@
    "darkness",
    "grace_truth",
    "world",
-   "see_God",
    "dwelt",
+   "see_God",
    "glory",
    "moses_law"
   ],
-  "Neofiti": {
-   "target_score": 0,
-   "target_first_order": [],
-   "target_tokens": 0,
-   "null_mean": 0.0,
-   "null_sd": 0.0,
-   "z": 0.0,
-   "p": 1.0,
-   "control_gen1_overlay_score": 0,
+  "Neofiti (English tr.)": {
+   "target_score": 5,
+   "target_first_order": [
+    "beginning",
+    "God",
+    "darkness",
+    "word",
+    "light",
+    "see_God",
+    "glory",
+    "life",
+    "moses_law",
+    "dwelt",
+    "grace_truth"
+   ],
+   "target_tokens": 2864,
+   "null_mean": 3.79,
+   "null_sd": 0.84,
+   "z": 1.45,
+   "p": 0.1824,
+   "control_gen1_overlay_score": 3,
    "control_gen1_rank": 1,
-   "control_chapters": 3,
-   "control_ties_at_or_above": 3
+   "control_chapters": 186,
+   "control_ties_at_or_above": 2
+  },
+  "PsJonathan": {
+   "target_score": 5,
+   "target_first_order": [
+    "God",
+    "darkness",
+    "grace_truth",
+    "light",
+    "see_God",
+    "world",
+    "beginning",
+    "glory",
+    "word",
+    "moses_law",
+    "dwelt",
+    "life"
+   ],
+   "target_tokens": 1806,
+   "null_mean": 4.01,
+   "null_sd": 0.75,
+   "z": 1.32,
+   "p": 0.2391,
+   "control_gen1_overlay_score": 2,
+   "control_gen1_rank": 3,
+   "control_chapters": 187,
+   "control_ties_at_or_above": 27
   },
   "Onkelos": {
    "target_score": 5,
@@ -1129,8 +1336,8 @@
     "beginning",
     "God",
     "darkness",
-    "see_God",
     "light",
+    "see_God",
     "word",
     "moses_law",
     "dwelt",
@@ -1140,10 +1347,10 @@
     "world"
    ],
    "target_tokens": 1374,
-   "null_mean": 3.72,
-   "null_sd": 0.73,
-   "z": 1.77,
-   "p": 0.1206,
+   "null_mean": 3.81,
+   "null_sd": 0.77,
+   "z": 1.56,
+   "p": 0.145,
    "control_gen1_overlay_score": 3,
    "control_gen1_rank": 1,
    "control_chapters": 187,
@@ -1166,10 +1373,10 @@
     "glory"
    ],
    "target_tokens": 2084,
-   "null_mean": 3.06,
-   "null_sd": 0.72,
-   "z": 4.1,
-   "p": 0.003,
+   "null_mean": 3.1,
+   "null_sd": 0.74,
+   "z": 3.93,
+   "p": 0.0026,
    "control_gen1_overlay_score": 3,
    "control_gen1_rank": 1,
    "control_chapters": 187,
@@ -1618,73 +1825,79 @@
   {
    "test": "T1 divine-name verses carry more mediating terms (Onkelos)",
    "p": 0.001,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
+   "survives": true
+  },
+  {
+   "test": "T1 divine-name verses carry more mediating terms (Neofiti)",
+   "p": 0.001,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T1 divine-name verses carry more mediating terms (PsJonathan)",
    "p": 0.001,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T1 divine-name verses carry more mediating terms (Fragment)",
    "p": 0.001,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T1 divine-name verses carry more mediating terms (Jonathan)",
    "p": 0.001,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T1 divine-name verses carry more mediating terms (Writings)",
    "p": 0.001,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T2 pointer enrichment: John quotations (book-matched)",
    "p": 0.8278,
-   "q_BH": 0.9313,
+   "q_BH": 0.8714,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: John quotations+allusions (book-matched)",
    "p": 0.8087,
-   "q_BH": 0.9313,
+   "q_BH": 0.8714,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: Matthew quotations (book-matched)",
    "p": 0.1517,
-   "q_BH": 0.2482,
+   "q_BH": 0.2528,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: Luke quotations (book-matched)",
    "p": 0.1822,
-   "q_BH": 0.2733,
+   "q_BH": 0.2605,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: John rare-word pointers (csv) (book-matched)",
    "p": 0.2965,
-   "q_BH": 0.4105,
+   "q_BH": 0.3706,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: Matthew rare-word pointers (csv) (book-matched)",
    "p": 0.7547,
-   "q_BH": 0.9313,
+   "q_BH": 0.8714,
    "survives": false
   },
   {
    "test": "T2 pointer enrichment: Luke rare-word pointers (csv) (book-matched)",
    "p": 0.96,
-   "q_BH": 1.0,
+   "q_BH": 0.96,
    "survives": false
   },
   {
@@ -1694,35 +1907,41 @@
    "survives": true
   },
   {
-   "test": "T3 prologue order vs Neofiti Gen1+Exod33-34",
-   "p": 1.0,
-   "q_BH": 1.0,
+   "test": "T3 prologue order vs Neofiti (English tr.) Gen1+Exod33-34",
+   "p": 0.1824,
+   "q_BH": 0.2605,
+   "survives": false
+  },
+  {
+   "test": "T3 prologue order vs PsJonathan Gen1+Exod33-34",
+   "p": 0.2391,
+   "q_BH": 0.3188,
    "survives": false
   },
   {
    "test": "T3 prologue order vs Onkelos Gen1+Exod33-34",
-   "p": 0.1206,
-   "q_BH": 0.2171,
+   "p": 0.145,
+   "q_BH": 0.2528,
    "survives": false
   },
   {
    "test": "T3 prologue order vs LXX Gen1+Exod33-34",
-   "p": 0.003,
-   "q_BH": 0.0062,
+   "p": 0.0026,
+   "q_BH": 0.0058,
    "survives": true
   },
   {
    "test": "T4 Greek-Aramaic consonant echoes beyond permutation",
    "p": 0.0013,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   },
   {
    "test": "T4 echoes beyond random-pair rate",
    "p": 0.0013,
-   "q_BH": 0.0033,
+   "q_BH": 0.0032,
    "survives": true
   }
  ],
- "n_tests": 18
+ "n_tests": 20
 }

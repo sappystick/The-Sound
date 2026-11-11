@@ -470,6 +470,68 @@
    "verses_in_john_with_pair": 1
   },
   {
+   "verse": "John 6:45",
+   "kind": "R",
+   "lex1": "JLP",
+   "lex2": "MLP>",
+   "root1": "JLP",
+   "root2": "JLP",
+   "word1": "WJLP",
+   "word2": "MLP>",
+   "syriac1": "ܘܝܠܦ",
+   "syriac2": "ܡܠܦܐ",
+   "translit1": "wylp",
+   "translit2": "mlpʾ",
+   "root_translit": "ylp / ylp",
+   "greek_in_verse1": "μανθανω",
+   "greek_in_verse2": "διδακτοσ",
+   "greek_equiv1": [
+    "διδασκω",
+    "μανθανω",
+    "ιεροσ"
+   ],
+   "greek_equiv2": [
+    "νομοδιδασκαλοσ",
+    "θεοδιδακτοσ",
+    "διδακτοσ"
+   ],
+   "distance": 8,
+   "rarity": 6.9,
+   "score": 5.95,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 5:35",
+   "kind": "R",
+   "lex1": "NHR",
+   "lex2": "NWHR>",
+   "root1": "NHR",
+   "root2": "NHR",
+   "word1": "WMNHR",
+   "word2": "BNWHRH",
+   "syriac1": "ܘܡܢܗܪ",
+   "syriac2": "ܒܢܘܗܪܗ",
+   "translit1": "wmnhr",
+   "translit2": "bnwhrh",
+   "root_translit": "nhr / nhr",
+   "greek_in_verse1": "λυχνοσ",
+   "greek_in_verse2": "φωσ",
+   "greek_equiv1": [
+    "λυχνοσ",
+    "φωτιζω",
+    "λαμπω"
+   ],
+   "greek_equiv2": [
+    "φωσ",
+    "σκοτια",
+    "σκοτοσ"
+   ],
+   "distance": 5,
+   "rarity": 6.38,
+   "score": 5.6,
+   "verses_in_john_with_pair": 3
+  },
+  {
    "verse": "John 5:37",
    "kind": "R",
    "lex1": "XZ>",
@@ -498,6 +560,130 @@
    "distance": 1,
    "rarity": 5.36,
    "score": 5.06,
+   "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 12:33",
+   "kind": "R",
+   "lex1": "MWT",
+   "lex2": "MWT>",
+   "root1": "MT",
+   "root2": "MT",
+   "word1": "M>T",
+   "word2": "MWT>",
+   "syriac1": "ܡܐܬ",
+   "syriac2": "ܡܘܬܐ",
+   "translit1": "mʾt",
+   "translit2": "mwtʾ",
+   "root_translit": "mt / mt",
+   "greek_in_verse1": "αποθνησκω",
+   "greek_in_verse2": "θανατοσ",
+   "greek_equiv1": [
+    "αποθνησκω",
+    "ζαω",
+    "θανατοω"
+   ],
+   "greek_equiv2": [
+    "θανατοσ",
+    "ζωη",
+    "αποθνησκω"
+   ],
+   "distance": 1,
+   "rarity": 5.34,
+   "score": 5.04,
+   "verses_in_john_with_pair": 3
+  },
+  {
+   "verse": "John 5:30",
+   "kind": "R",
+   "lex1": "DJN>",
+   "lex2": "DN",
+   "root1": "DN",
+   "root2": "DN",
+   "word1": "WDJNJ",
+   "word2": "D>N",
+   "syriac1": "ܘܕܝܢܝ",
+   "syriac2": "ܕܐܢ",
+   "translit1": "wdyny",
+   "translit2": "dʾn",
+   "root_translit": "dn / dn",
+   "greek_in_verse1": "κρισισ",
+   "greek_in_verse2": "κρινω",
+   "greek_equiv1": [
+    "κρισισ",
+    "κριμα",
+    "κριτησ"
+   ],
+   "greek_equiv2": [
+    "κρινω",
+    "ανακρινω",
+    "κρισισ"
+   ],
+   "distance": 2,
+   "rarity": 5.49,
+   "score": 5.02,
+   "verses_in_john_with_pair": 5
+  },
+  {
+   "verse": "John 21:25",
+   "kind": "R",
+   "lex1": "KTB",
+   "lex2": "KTB>",
+   "root1": "KTB",
+   "root2": "KTB",
+   "word1": "DMTKTBJN",
+   "word2": "LKTB>",
+   "syriac1": "ܕܡܬܟܬܒܝܢ",
+   "syriac2": "ܠܟܬܒܐ",
+   "translit1": "dmtktbyn",
+   "translit2": "lktbʾ",
+   "root_translit": "ktb / ktb",
+   "greek_in_verse1": "γραφω",
+   "greek_in_verse2": "βιβλιον",
+   "greek_equiv1": [
+    "γραφω",
+    "βιβλιον",
+    "νομοσ"
+   ],
+   "greek_equiv2": [
+    "γραφη",
+    "βιβλιον",
+    "βιβλοσ"
+   ],
+   "distance": 1,
+   "rarity": 5.3,
+   "score": 5.0,
+   "verses_in_john_with_pair": 2
+  },
+  {
+   "verse": "John 18:20",
+   "kind": "R",
+   "lex1": "KNC",
+   "lex2": "KNWCT>",
+   "root1": "KNC",
+   "root2": "KNC",
+   "word1": "MTKNCJN",
+   "word2": "BKNWCT>",
+   "syriac1": "ܡܬܟܢܫܝܢ",
+   "syriac2": "ܒܟܢܘܫܬܐ",
+   "translit1": "mtknšyn",
+   "translit2": "bknwštʾ",
+   "root_translit": "knš / knš",
+   "greek_in_verse1": "συνερχομαι",
+   "greek_in_verse2": "συναγωγη",
+   "greek_equiv1": [
+    "συναγω",
+    "συνερχομαι",
+    "επισυναγω"
+   ],
+   "greek_equiv2": [
+    "συναγωγη",
+    "αρχισυναγωγοσ",
+    "συνεδριον"
+   ],
+   "distance": 5,
+   "rarity": 5.77,
+   "score": 4.99,
    "verses_in_john_with_pair": 1
   },
   {
@@ -592,6 +778,37 @@
    "rarity": 5.28,
    "score": 4.44,
    "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 8:20",
+   "kind": "R",
+   "lex1": "ML",
+   "lex2": "MLT>",
+   "root1": "ML",
+   "root2": "ML",
+   "word1": "MLL",
+   "word2": "ML>",
+   "syriac1": "ܡܠܠ",
+   "syriac2": "ܡܠܐ",
+   "translit1": "mll",
+   "translit2": "mlʾ",
+   "root_translit": "ml / ml",
+   "greek_in_verse1": "λαλεω",
+   "greek_in_verse2": "ρημα",
+   "greek_equiv1": [
+    "λαλεω",
+    "γλωσσα",
+    "ακουω"
+   ],
+   "greek_equiv2": [
+    "λογοσ",
+    "ρημα",
+    "ακουω"
+   ],
+   "distance": 1,
+   "rarity": 4.52,
+   "score": 4.22,
+   "verses_in_john_with_pair": 6
   },
   {
    "verse": "John 1:29",
@@ -716,9 +933,40 @@
    "rarity": 4.49,
    "score": 4.01,
    "verses_in_john_with_pair": 1
+  },
+  {
+   "verse": "John 14:10",
+   "kind": "R",
+   "lex1": "<BD",
+   "lex2": "<BD>",
+   "root1": "<BD",
+   "root2": "<BD",
+   "word1": "<BD",
+   "word2": "<BD>",
+   "syriac1": "ܥܒܕ",
+   "syriac2": "ܥܒܕܐ",
+   "translit1": "ʿbd",
+   "translit2": "ʿbdʾ",
+   "root_translit": "ʿbd / ʿbd",
+   "greek_in_verse1": "ποιεω",
+   "greek_in_verse2": "εργον",
+   "greek_equiv1": [
+    "ποιεω",
+    "λεγω",
+    "πασ"
+   ],
+   "greek_equiv2": [
+    "εργον",
+    "δουλοσ",
+    "ποιεω"
+   ],
+   "distance": 1,
+   "rarity": 4.3,
+   "score": 4.0,
+   "verses_in_john_with_pair": 22
   }
  ],
- "T3_n_candidates": 12,
+ "T3_n_candidates": 20,
  "T2": {
   "odes_words": 11301,
   "odes_count": 41,

@@ -45,3 +45,54 @@
 - The hypothesis was formed on the printed text before the manuscripts were counted.
 - Washingtonianus does not reproduce it.
 - **Next:** pre-register the same test on P66 and P75 for the chapters they preserve, on other complete codices of John, and on the Syriac and Coptic versions by words.
+
+---
+
+# Round 53: the papyri and the ancient translations (pre-registered)
+**Files:**
+- pre-registration: `robustness/PREREG_R53.md`, commit `abfcfd8`;
+- script `power/round53_papyri_versions.py`;
+- numbers `power/round53_results.json`.
+
+**Common method:** John 1:1–20:31, the position of 10:11, and the same null as round 52.
+
+| Witness | Unit | Position of 10:11 | p | Centre falls at |
+|---|---|---|---|---|
+| **Sahidic Coptic** | SCRIPTORIUM tokens | **0.509** | **0.038** | 10:4 |
+| Sahidic Coptic (secondary) | letters | 0.505 | 0.022 | **10:7**, "I am the door" |
+| **Syriac Peshitta** | words | 0.514 | 0.062 | 9:40 |
+| Syriac Peshitta (secondary) | letters | 0.514 | 0.060 | 9:40 |
+| **P66** (c. AD 200) | letters; 552 verses its own, 64% of the letter mass, preserved to 16:15; the rest reconstructed | **0.508** | **0.034** | 10:4 |
+| **P75** (c. AD 200) | letters; 268 verses its own, 31% of the letter mass, preserved to 14:20; the rest reconstructed | **0.506** | **0.027** | 10:6 |
+
+## Verdict by the pre-registered rules
+- **H2 (both translations, p < 0.05): fails.** The Sahidic passes; the Syriac misses narrowly (0.062).
+- **H3 (both papyri, p < 0.05): passes its own rule**, but **not after the pre-registered Holm correction** (adjusted p 0.068 for both hypotheses).
+- **Overall status for round 53: not confirmed.**
+- The round-52 result on Sinaiticus and Vaticanus stands as the confirmed finding.
+
+## What the numbers show
+- **Every witness puts 10:11 within 0.504–0.514 of John 1:1–20:31:**
+
+  | Group | Witnesses |
+  |---|---|
+  | Two papyri | P66, P75 |
+  | Two codices | 01, 03 |
+  | Two translations | Sahidic, Peshitta |
+  | The printed text | SBLGNT |
+
+  Across them, the centre of the book falls at 9:40–10:7, in or just before the good-shepherd discourse.
+- **The translations sit slightly later** (0.509–0.514). Translation lengthens some passages more than others.
+- **Most of each papyrus is reconstruction.** P75 is two-thirds rebuilt from the printed text, P66 a third, so these two results are only partly independent of SBLGNT.
+
+## Honest summary across rounds 50–53
+| Pre-registered test | Witnesses | Result |
+|---|---|---|
+| Round 50, R1 (whole Gospel to 21:25) | 01, 03 | failed narrowly (03 p 0.054) |
+| **Round 52, H1 (to 20:31)** | **01, 03** | **passed** |
+| Round 53, H2 (to 20:31) | Peshitta, Sahidic | failed (Peshitta p 0.062) |
+| Round 53, H3 (to 20:31) | P66, P75 (reconstructed) | passed raw; failed after correction |
+
+**The position itself is stable, near 0.505 in every witness.** The p values hover around the 0.02–0.06 line because the null is broad: any one of seven sayings could land anywhere.
+- **This is a consistent, moderate signal.** It is not a decisive one.
+- **What would settle it:** a test with more power, using all seven sayings' positions rather than the middle one alone. For example: do all seven sit symmetrically around the centre (the ring of claim C2)? Pre-register it on the 20:31 book.

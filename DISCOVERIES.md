@@ -498,3 +498,7 @@ Write-ups:
 - Vaticanus's central line is 10:7, "I am the door of the sheep".
 - Secondary: Washingtonianus 0.524 (p 0.10, not significant).
 - The earlier small offset (0.487) was chapter 21, the epilogue.
+- **Round 53 (pre-registered, `PREREG_R53.md`):**
+  - P66 0.508 (p 0.034) and P75 0.506 (p 0.027), both reconstructed in part; Sahidic 0.509 (p 0.038); Peshitta 0.514 (p 0.062).
+  - The translation test failed (Peshitta). The papyrus test passed its rule but not the pre-registered correction.
+  - The position is stable at about 0.505 in every witness; the significance is moderate.

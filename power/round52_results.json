@@ -1,0 +1,78 @@
+{
+ "preregistration": "robustness/PREREG_R52.md (commit e7f7c5d)",
+ "01": {
+  "available": true,
+  "coverage": 1.0,
+  "lines": 4998,
+  "has_7_53_8_11": true,
+  "position": 0.5075,
+  "p": 0.0326,
+  "without_7_53_8_11": {
+   "position": 0.5075,
+   "p": 0.0326
+  },
+  "centre_verse": "10:4"
+ },
+ "03": {
+  "available": true,
+  "coverage": 1.0,
+  "lines": 3944,
+  "has_7_53_8_11": true,
+  "position": 0.5046,
+  "p": 0.0199,
+  "without_7_53_8_11": {
+   "position": 0.5046,
+   "p": 0.0199
+  },
+  "centre_verse": "10:7"
+ },
+ "H1_pass": true,
+ "secondary": {
+  "02": {
+   "available": true,
+   "coverage": 0.8656,
+   "lines": 2650,
+   "has_7_53_8_11": false,
+   "position": 0.4485,
+   "p": 0.2222,
+   "centre_verse": "11:11",
+   "used": false
+  },
+  "04": {
+   "available": true,
+   "coverage": 0.4078,
+   "lines": 755,
+   "has_7_53_8_11": false,
+   "centre_verse": "8:55",
+   "used": false
+  },
+  "05": {
+   "available": true,
+   "coverage": 0.8026,
+   "lines": 1950,
+   "has_7_53_8_11": true,
+   "position": 0.5277,
+   "p": 0.1198,
+   "without_7_53_8_11": {
+    "position": 0.5213,
+    "p": 0.0924
+   },
+   "centre_verse": "9:30",
+   "used": false
+  },
+  "032": {
+   "available": true,
+   "coverage": 0.9536,
+   "lines": 2357,
+   "has_7_53_8_11": true,
+   "position": 0.524,
+   "p": 0.1038,
+   "without_7_53_8_11": {
+    "position": 0.524,
+    "p": 0.1038
+   },
+   "centre_verse": "9:31",
+   "used": true
+  }
+ }
+}

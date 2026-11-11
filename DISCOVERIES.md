@@ -491,3 +491,10 @@ Write-ups:
 - Thomas has no Johannine vocabulary.
 - Sacred-name abbreviations are not a theology code.
 - Sound cannot topple walls (Jericho is short by about 250× in pressure).
+
+## AN. Round 52: pre-registered, the middle "I am" at the centre of the Gospel ending at 20:31 (`POWER_CENTRE.md`)
+- John 10:11 (the 4th of 7 "I am" sayings) stands at the centre of John 1:1–20:31, by manuscript lines.
+- **Sinaiticus:** 0.5075 (p 0.033). **Vaticanus:** 0.5046 (p 0.020). This passes the rule pre-registered in `robustness/PREREG_R52.md` (commit e7f7c5d).
+- Vaticanus's central line is 10:7, "I am the door of the sheep".
+- Secondary: Washingtonianus 0.524 (p 0.10, not significant).
+- The earlier small offset (0.487) was chapter 21, the epilogue.

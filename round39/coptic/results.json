@@ -1,0 +1,2435 @@
+{
+ "seed": 39,
+ "scriptorium_commit": "6fb51458e7156dd5387c2b2dca207aac1692e4d0",
+ "corpus_sizes_tokens": {
+  "Mt": 33465,
+  "Mk": 19986,
+  "Lk": 34040,
+  "Jn": 26421,
+  "Thomas (NHC II,2)": 6521,
+  "Pistis Sophia": 119506,
+  "Mysteries of John": 6303,
+  "Book of Bartholomew": 13000,
+  "Acts of Pilate": 935,
+  "Dormition of John": 3064,
+  "Magical papyri": 1446,
+  "Shenoute (pooled)": 77685,
+  "null_pool": 1069276,
+  "greek_lexicon_lemmas": 2514
+ },
+ "john_chapters_present": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21
+ ],
+ "john_verses_present": 866,
+ "T1": {
+  "n_features": 250,
+  "gospel_sample_tokens": 19662,
+  "gospel_tokens": {
+   "Mt": 32891,
+   "Mk": 19662,
+   "Lk": 33537,
+   "Jn": 25801
+  },
+  "note": "lean_to_john = mean Delta to Mt/Mk/Lk minus Delta to Jn; relative_lean_z = same for each gospel, as z against the null chunks",
+  "texts": {
+   "Thomas (NHC II,2)": {
+    "tokens": 6390,
+    "delta": {
+     "Mt": 0.6630768721308903,
+     "Mk": 0.7233972810391819,
+     "Lk": 0.6249933812620003,
+     "Jn": 0.7665869867748892
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.09609780863086503,
+    "null_mean": -0.11442271954276484,
+    "null_sd": 0.052542680127378026,
+    "z": 0.34876239406659765,
+    "p_one_sided_john": 0.3266832917705736,
+    "p_two_sided": 0.6533665835411472,
+    "null_nearest_share": {
+     "Lk": 0.98,
+     "Mt": 0.0175,
+     "Jn": 0.0025
+    },
+    "relative_lean_z": {
+     "Mt": 0.5299082395456034,
+     "Mk": -0.7080667528280735,
+     "Lk": -0.2871724942401999,
+     "Jn": 0.34876239406659765
+    },
+    "relatively_nearest": "Mt",
+    "relatively_farthest": "Mk",
+    "role": "target"
+   },
+   "Pistis Sophia": {
+    "tokens": 118510,
+    "delta": {
+     "Mt": 0.7559270391126298,
+     "Mk": 0.7948394744541889,
+     "Lk": 0.7343543476781837,
+     "Jn": 0.8276541332406171
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.0659471794922829,
+    "null_mean": -0.14317233642922342,
+    "null_sd": 0.038544929359241704,
+    "z": 2.003510143116261,
+    "p_one_sided_john": 0.032418952618453865,
+    "p_two_sided": 0.06483790523690773,
+    "null_nearest_share": {
+     "Lk": 1.0
+    },
+    "relative_lean_z": {
+     "Mt": -0.6449883533591526,
+     "Mk": -0.31883139967050944,
+     "Lk": -5.0497079172363915,
+     "Jn": 2.003510143116261
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Lk",
+    "role": "target"
+   },
+   "Mysteries of John": {
+    "tokens": 6214,
+    "delta": {
+     "Mt": 0.7482400236775051,
+     "Mk": 0.8014395559642804,
+     "Lk": 0.6817793520901761,
+     "Jn": 0.8054023364723638
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.061582692561709895,
+    "null_mean": -0.1166829818348896,
+    "null_sd": 0.05543741997288443,
+    "z": 0.9939187159166204,
+    "p_one_sided_john": 0.14962593516209477,
+    "p_two_sided": 0.29925187032418954,
+    "null_nearest_share": {
+     "Lk": 0.98,
+     "Mt": 0.0125,
+     "Jn": 0.0075
+    },
+    "relative_lean_z": {
+     "Mt": -0.6381191099851816,
+     "Mk": -1.3397016588670168,
+     "Lk": 0.32974855649202106,
+     "Jn": 0.9939187159166204
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Mk",
+    "role": "target"
+   },
+   "Book of Bartholomew": {
+    "tokens": 12758,
+    "delta": {
+     "Mt": 0.7298163679777141,
+     "Mk": 0.7576714784292891,
+     "Lk": 0.689196712853709,
+     "Jn": 0.7865087576969394
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.06094723794336865,
+    "null_mean": -0.12360921004880732,
+    "null_sd": 0.05191217988790516,
+    "z": 1.2070764942012782,
+    "p_one_sided_john": 0.10224438902743142,
+    "p_two_sided": 0.20448877805486285,
+    "null_nearest_share": {
+     "Lk": 0.9975,
+     "Mt": 0.0025
+    },
+    "relative_lean_z": {
+     "Mt": -0.7322857718843847,
+     "Mk": -0.2992513432604685,
+     "Lk": -2.176094413212508,
+     "Jn": 1.2070764942012782
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Lk",
+    "role": "target"
+   },
+   "Acts of Pilate": {
+    "tokens": 907,
+    "delta": {
+     "Mt": 0.870356376801947,
+     "Mk": 0.8883457968961613,
+     "Lk": 0.8005952533274807,
+     "Jn": 0.8772174274858419
+    },
+    "nearest": "Lk",
+    "farthest": "Mk",
+    "lean_to_john": -0.024118285143978846,
+    "null_mean": -0.08754433806416294,
+    "null_sd": 0.05140861295890846,
+    "z": 1.2337631628163421,
+    "p_one_sided_john": 0.1172069825436409,
+    "p_two_sided": 0.2344139650872818,
+    "null_nearest_share": {
+     "Lk": 0.9675,
+     "Jn": 0.0125,
+     "Mk": 0.015,
+     "Mt": 0.005
+    },
+    "relative_lean_z": {
+     "Mt": -1.2479907909324224,
+     "Mk": -0.8086231344093889,
+     "Lk": -0.23242400995127724,
+     "Jn": 1.2337631628163421
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Mt",
+    "role": "target"
+   },
+   "Dormition of John": {
+    "tokens": 3035,
+    "delta": {
+     "Mt": 0.7586384864634913,
+     "Mk": 0.8058099187304129,
+     "Lk": 0.7450711506926809,
+     "Jn": 0.8421471435944433
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.07230729163224825,
+    "null_mean": -0.11009264340900841,
+    "null_sd": 0.04934777245151095,
+    "z": 0.7656951854085814,
+    "p_one_sided_john": 0.18453865336658354,
+    "p_two_sided": 0.3690773067331671,
+    "null_nearest_share": {
+     "Lk": 0.975,
+     "Jn": 0.0075,
+     "Mt": 0.0125,
+     "Mk": 0.005
+    },
+    "relative_lean_z": {
+     "Mt": 0.5773947788354838,
+     "Mk": -0.3875465338338075,
+     "Lk": -1.9821629854523597,
+     "Jn": 0.7656951854085814
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Lk",
+    "role": "target"
+   },
+   "Magical papyri": {
+    "tokens": 1410,
+    "delta": {
+     "Mt": 1.1312776478966735,
+     "Mk": 1.1427943040374293,
+     "Lk": 1.0688662574299803,
+     "Jn": 1.2282020726175074
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.11388933616281305,
+    "null_mean": -0.09513916788878381,
+    "null_sd": 0.05378197644039092,
+    "z": -0.3486329345819213,
+    "p_one_sided_john": 0.600997506234414,
+    "p_two_sided": 0.8029925187032418,
+    "null_nearest_share": {
+     "Lk": 0.96,
+     "Jn": 0.015,
+     "Mt": 0.0125,
+     "Mk": 0.0125
+    },
+    "relative_lean_z": {
+     "Mt": -0.2631819417816228,
+     "Mk": 0.3285678914401595,
+     "Lk": 0.6792005195380071,
+     "Jn": -0.3486329345819213
+    },
+    "relatively_nearest": "Lk",
+    "relatively_farthest": "Jn",
+    "role": "target"
+   },
+   "Shenoute (pooled)": {
+    "tokens": 77279,
+    "delta": {
+     "Mt": 0.6585010308646255,
+     "Mk": 0.7052619772073346,
+     "Lk": 0.6020962044376844,
+     "Jn": 0.7534171170674279
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.09813071289754638,
+    "null_mean": -0.1351888396013047,
+    "null_sd": 0.04600928636462444,
+    "z": 0.8054488480884487,
+    "p_one_sided_john": 0.1396508728179551,
+    "p_two_sided": 0.2793017456359102,
+    "null_nearest_share": {
+     "Lk": 1.0
+    },
+    "relative_lean_z": {
+     "Mt": -0.5133378010755436,
+     "Mk": -0.5917733520851979,
+     "Lk": -0.8164809336373857,
+     "Jn": 0.8054488480884487
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Lk",
+    "role": "target"
+   },
+   "CONTROL 1-3 John (Sahidic)": {
+    "tokens": 4244,
+    "delta": {
+     "Mt": 1.1059558472187982,
+     "Mk": 1.172047231473684,
+     "Lk": 1.0707994256736855,
+     "Jn": 0.9358834134927568
+    },
+    "nearest": "Jn",
+    "farthest": "Mk",
+    "lean_to_john": 0.18038408796263228,
+    "null_mean": -0.11131654113348496,
+    "null_sd": 0.049613578908393345,
+    "z": 5.879451462969728,
+    "p_one_sided_john": 0.0024937655860349127,
+    "p_two_sided": 0.004987531172069825,
+    "null_nearest_share": {
+     "Lk": 0.99,
+     "Mt": 0.0075,
+     "Jn": 0.0025
+    },
+    "relative_lean_z": {
+     "Mt": -3.2327998991036635,
+     "Mk": -3.7106557588157454,
+     "Lk": -5.532853830377124,
+     "Jn": 5.879451462969728
+    },
+    "relatively_nearest": "Jn",
+    "relatively_farthest": "Lk",
+    "role": "control"
+   },
+   "CONTROL Acts (Sahidic)": {
+    "tokens": 33046,
+    "delta": {
+     "Mt": 0.5358840321335727,
+     "Mk": 0.522830816919715,
+     "Lk": 0.4840470967030641,
+     "Jn": 0.6804162717527993
+    },
+    "nearest": "Lk",
+    "farthest": "Jn",
+    "lean_to_john": -0.16616228983401526,
+    "null_mean": -0.1308458020003765,
+    "null_sd": 0.05126919876208211,
+    "z": -0.6888441537291645,
+    "p_one_sided_john": 0.7531172069825436,
+    "p_two_sided": 0.49875311720698257,
+    "null_nearest_share": {
+     "Lk": 1.0
+    },
+    "relative_lean_z": {
+     "Mt": -0.4443144739092324,
+     "Mk": 1.7460644417183617,
+     "Lk": -0.9778205331085517,
+     "Jn": -0.6888441537291645
+    },
+    "relatively_nearest": "Mk",
+    "relatively_farthest": "Lk",
+    "role": "control"
+   }
+  }
+ },
+ "T2a": {
+  "Mt": {
+   "loan_content": 1473,
+   "content": 9023,
+   "share": 0.1632494735675496,
+   "loan_share_function_words": 0.4399195575666164
+  },
+  "Mk": {
+   "loan_content": 866,
+   "content": 5354,
+   "share": 0.1617482256257004,
+   "loan_share_function_words": 0.43653899916130834
+  },
+  "Lk": {
+   "loan_content": 1426,
+   "content": 9127,
+   "share": 0.15623972827873342,
+   "loan_share_function_words": 0.44485866448176975
+  },
+  "Jn": {
+   "loan_content": 1208,
+   "content": 6667,
+   "share": 0.18119094045297734,
+   "loan_share_function_words": 0.3630187101494721
+  },
+  "test_john_vs_synoptic_chunks": {
+   "john_share": 0.18119094045297734,
+   "null_mean": 0.16003067346632668,
+   "null_sd": 0.005275163522563794,
+   "null_2.5_97.5": [
+    0.14984250787460626,
+    0.1691952902354882
+   ],
+   "p_two_sided": 0.0009995002498750624
+  },
+  "noncanonical": {
+   "Thomas (NHC II,2)": {
+    "share": 0.1578660860097986,
+    "content": 1837
+   },
+   "Pistis Sophia": {
+    "share": 0.30679756061282165,
+    "content": 33615
+   },
+   "Mysteries of John": {
+    "share": 0.17996697853604843,
+    "content": 1817
+   },
+   "Book of Bartholomew": {
+    "share": 0.236358414704193,
+    "content": 3482
+   },
+   "Acts of Pilate": {
+    "share": 0.22466960352422907,
+    "content": 227
+   },
+   "Dormition of John": {
+    "share": 0.24461343472750316,
+    "content": 789
+   },
+   "Magical papyri": {
+    "share": 0.19703389830508475,
+    "content": 472
+   },
+   "Shenoute (pooled)": {
+    "share": 0.1970050831158126,
+    "content": 21837
+   }
+  }
+ },
+ "T2b": {
+  "Mt": {
+   "greek_content_tokens": 7761,
+   "kept": 1061,
+   "keep_rate": 0.13670918696044324,
+   "proper_names_tokens": 632,
+   "proper_names_keep_rate_positive_control": 0.9177215189873418
+  },
+  "Mk": {
+   "greek_content_tokens": 4753,
+   "kept": 617,
+   "keep_rate": 0.12981274984220492,
+   "proper_names_tokens": 366,
+   "proper_names_keep_rate_positive_control": 0.8934426229508197
+  },
+  "Lk": {
+   "greek_content_tokens": 8211,
+   "kept": 999,
+   "keep_rate": 0.1216660577274388,
+   "proper_names_tokens": 612,
+   "proper_names_keep_rate_positive_control": 0.8006535947712419
+  },
+  "Jn": {
+   "greek_content_tokens": 5756,
+   "kept": 713,
+   "keep_rate": 0.12387074357192494,
+   "proper_names_tokens": 693,
+   "proper_names_keep_rate_positive_control": 0.8253968253968254
+  },
+  "lemma_controlled": {
+   "shared_lemmas": 620,
+   "john_tokens_on_shared": 5510,
+   "john_kept_observed": 670,
+   "john_kept_expected_from_synoptic_rates": 673.2862802201446,
+   "ratio_obs_exp": 0.9951190447263086,
+   "perm_mean": 672.381,
+   "p_two_sided": 0.770245950809838,
+   "top_john_keeps_more": [
+    [
+     "ἔρημος",
+     5,
+     0.8,
+     27,
+     0.2962962962962963
+    ],
+    [
+     "βαπτίζω",
+     13,
+     1.0,
+     30,
+     0.7
+    ],
+    [
+     "ἀποστέλλω",
+     28,
+     0.17857142857142858,
+     67,
+     0.029850746268656716
+    ],
+    [
+     "καρπός",
+     10,
+     1.0,
+     36,
+     0.7777777777777778
+    ],
+    [
+     "ἀγαπάω",
+     37,
+     0.08108108108108109,
+     26,
+     0.0
+    ],
+    [
+     "ὑπηρέτης",
+     9,
+     1.0,
+     6,
+     0.8333333333333334
+    ],
+    [
+     "κρίσις",
+     11,
+     0.9090909090909091,
+     16,
+     0.8125
+    ],
+    [
+     "ἀνίστημι",
+     8,
+     0.125,
+     47,
+     0.02127659574468085
+    ],
+    [
+     "ἄρχων",
+     7,
+     1.0,
+     14,
+     0.9285714285714286
+    ],
+    [
+     "μαθητής",
+     78,
+     0.9871794871794872,
+     156,
+     0.967948717948718
+    ],
+    [
+     "κρίνω",
+     19,
+     0.9473684210526315,
+     12,
+     0.9166666666666666
+    ],
+    [
+     "πολύς",
+     41,
+     0.04878048780487805,
+     181,
+     0.03314917127071823
+    ]
+   ],
+   "top_john_translates_more": [
+    [
+     "αἰών",
+     13,
+     0.0,
+     19,
+     0.6842105263157895
+    ],
+    [
+     "ἀρχή",
+     8,
+     0.0,
+     11,
+     0.5454545454545454
+    ],
+    [
+     "δοκέω",
+     8,
+     0.0,
+     22,
+     0.2727272727272727
+    ],
+    [
+     "τιμάω",
+     6,
+     0.0,
+     10,
+     0.2
+    ],
+    [
+     "θάλασσα",
+     9,
+     0.6666666666666666,
+     38,
+     0.8157894736842105
+    ],
+    [
+     "ψυχή",
+     10,
+     0.9,
+     38,
+     1.0
+    ],
+    [
+     "χαίρω",
+     9,
+     0.1111111111111111,
+     20,
+     0.2
+    ],
+    [
+     "τόπος",
+     16,
+     0.0,
+     39,
+     0.05128205128205128
+    ],
+    [
+     "αἰτέω",
+     11,
+     0.9090909090909091,
+     34,
+     0.9705882352941176
+    ],
+    [
+     "παραδίδωμι",
+     15,
+     0.6,
+     68,
+     0.6470588235294118
+    ],
+    [
+     "συνάγω",
+     7,
+     0.0,
+     35,
+     0.05714285714285714
+    ],
+    [
+     "πιστεύω",
+     98,
+     0.9795918367346939,
+     34,
+     1.0
+    ]
+   ]
+  },
+  "negative_control_shuffled_verses_keep_rate": {
+   "Mt": 0.003994330627496457,
+   "Mk": 0.004207868714496108,
+   "Lk": 0.004262574595055414,
+   "Jn": 0.006254343293954135
+  },
+  "negative_control_shuffled_verses_proper_names": {
+   "Mt": 0.04113924050632911,
+   "Mk": 0.03278688524590164,
+   "Lk": 0.0196078431372549,
+   "Jn": 0.09668109668109669
+  },
+  "aligned_verses": {
+   "Mt": 1066,
+   "Mk": 671,
+   "Lk": 1148,
+   "Jn": 866
+  }
+ },
+ "T2_key_terms": {
+  "λόγος": {
+   "Jn": {
+    "n": 40,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 33,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 23,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 33,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ϣⲁϫⲉ",
+     "dice": 0.615,
+     "co_verses": 36
+    },
+    {
+     "lemma": "ϩⲁⲣⲉϩ",
+     "dice": 0.235,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ϫⲱⲕ",
+     "dice": 0.182,
+     "co_verses": 5
+    }
+   ],
+   "verses_with_term": 36
+  },
+  "ζωή": {
+   "Jn": {
+    "n": 36,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 7,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 4,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 5,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲱⲛϩ",
+     "dice": 0.704,
+     "co_verses": 25
+    },
+    {
+     "lemma": "ⲉⲛⲉϩ",
+     "dice": 0.606,
+     "co_verses": 20
+    },
+    {
+     "lemma": "ⲟⲩⲱⲛϩ",
+     "dice": 0.292,
+     "co_verses": 7
+    }
+   ],
+   "verses_with_term": 32
+  },
+  "φῶς": {
+   "Jn": {
+    "n": 23,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 7,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 1,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 6,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲟⲩⲟⲉⲓⲛ",
+     "dice": 0.968,
+     "co_verses": 15
+    },
+    {
+     "lemma": "ⲕⲁⲕⲉ",
+     "dice": 0.435,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ⲣⲟⲩⲟⲓⲛ",
+     "dice": 0.316,
+     "co_verses": 3
+    }
+   ],
+   "verses_with_term": 16
+  },
+  "ἀλήθεια": {
+   "Jn": {
+    "n": 25,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 1,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 3,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 3,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲙⲉ",
+     "dice": 0.427,
+     "co_verses": 19
+    },
+    {
+     "lemma": "ⲡⲛⲉⲩⲙⲁ",
+     "dice": 0.263,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ⲭⲁⲣⲓⲥ",
+     "dice": 0.174,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 20
+  },
+  "ἀληθινός": {
+   "Jn": {
+    "n": 9,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 0,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲣⲉϥⲟⲩⲱϣⲧ",
+     "dice": 0.2,
+     "co_verses": 1
+    },
+    {
+     "lemma": "ⲡⲟⲩⲟⲟⲓⲉ",
+     "dice": 0.2,
+     "co_verses": 1
+    },
+    {
+     "lemma": "ϫⲉⲙⲉ",
+     "dice": 0.2,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 9
+  },
+  "κόσμος": {
+   "Jn": {
+    "n": 78,
+    "kept": 78
+   },
+   "Mt": {
+    "n": 8,
+    "kept": 8
+   },
+   "Mk": {
+    "n": 3,
+    "kept": 3
+   },
+   "Lk": {
+    "n": 3,
+    "kept": 3
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲕⲟⲥⲙⲟⲥ",
+     "dice": 1.0,
+     "co_verses": 57
+    },
+    {
+     "lemma": "ⲙⲉ",
+     "dice": 0.175,
+     "co_verses": 11
+    },
+    {
+     "lemma": "ⲟⲩⲟⲉⲓⲛ",
+     "dice": 0.167,
+     "co_verses": 6
+    }
+   ],
+   "verses_with_term": 57
+  },
+  "πνεῦμα": {
+   "Jn": {
+    "n": 24,
+    "kept": 24
+   },
+   "Mt": {
+    "n": 19,
+    "kept": 19
+   },
+   "Mk": {
+    "n": 23,
+    "kept": 23
+   },
+   "Lk": {
+    "n": 36,
+    "kept": 36
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲡⲛⲉⲩⲙⲁ",
+     "dice": 1.0,
+     "co_verses": 18
+    },
+    {
+     "lemma": "ⲟⲩⲟⲡ",
+     "dice": 0.261,
+     "co_verses": 3
+    },
+    {
+     "lemma": "ⲧⲛⲛⲟⲟⲩ",
+     "dice": 0.222,
+     "co_verses": 4
+    }
+   ],
+   "verses_with_term": 18
+  },
+  "δόξα": {
+   "Jn": {
+    "n": 19,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 7,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 3,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 13,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲉⲟⲟⲩ",
+     "dice": 0.789,
+     "co_verses": 15
+    },
+    {
+     "lemma": "ϯⲉⲟⲟⲩ",
+     "dice": 0.19,
+     "co_verses": 2
+    },
+    {
+     "lemma": "ⲛⲟⲩⲧⲉ",
+     "dice": 0.145,
+     "co_verses": 6
+    }
+   ],
+   "verses_with_term": 15
+  },
+  "δοξάζω": {
+   "Jn": {
+    "n": 23,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 4,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 1,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 9,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲉⲟⲟⲩ",
+     "dice": 0.564,
+     "co_verses": 11
+    },
+    {
+     "lemma": "ϯⲉⲟⲟⲩ",
+     "dice": 0.545,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ϫⲓⲉⲟⲟⲩ",
+     "dice": 0.316,
+     "co_verses": 3
+    }
+   ],
+   "verses_with_term": 16
+  },
+  "ἀγάπη": {
+   "Jn": {
+    "n": 7,
+    "kept": 6
+   },
+   "Mt": {
+    "n": 1,
+    "kept": 1
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 1
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲁⲅⲁⲡⲏ",
+     "dice": 0.909,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ϣⲃⲏⲣ",
+     "dice": 0.182,
+     "co_verses": 1
+    },
+    {
+     "lemma": "ⲯⲩⲭⲏ",
+     "dice": 0.143,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 6
+  },
+  "ἀγαπάω": {
+   "Jn": {
+    "n": 37,
+    "kept": 3
+   },
+   "Mt": {
+    "n": 8,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 5,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 13,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲙⲉ",
+     "dice": 0.5,
+     "co_verses": 24
+    },
+    {
+     "lemma": "ⲉⲛⲧⲟⲗⲏ",
+     "dice": 0.222,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ϩⲁⲣⲉϩ",
+     "dice": 0.19,
+     "co_verses": 4
+    }
+   ],
+   "verses_with_term": 27
+  },
+  "πιστεύω": {
+   "Jn": {
+    "n": 98,
+    "kept": 96
+   },
+   "Mt": {
+    "n": 11,
+    "kept": 11
+   },
+   "Mk": {
+    "n": 14,
+    "kept": 14
+   },
+   "Lk": {
+    "n": 9,
+    "kept": 9
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲡⲓⲥⲧⲉⲩⲉ",
+     "dice": 0.988,
+     "co_verses": 83
+    },
+    {
+     "lemma": "ϫⲱ",
+     "dice": 0.2,
+     "co_verses": 30
+    },
+    {
+     "lemma": "ⲛⲁⲩ",
+     "dice": 0.162,
+     "co_verses": 15
+    }
+   ],
+   "verses_with_term": 85
+  },
+  "μένω": {
+   "Jn": {
+    "n": 40,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 3,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 2,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 7,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ϭⲱ",
+     "dice": 0.786,
+     "co_verses": 22
+    },
+    {
+     "lemma": "ϩⲏⲧ",
+     "dice": 0.206,
+     "co_verses": 7
+    },
+    {
+     "lemma": "ⲕⲁⲣⲡⲟⲥ",
+     "dice": 0.2,
+     "co_verses": 4
+    }
+   ],
+   "verses_with_term": 33
+  },
+  "σκοτία": {
+   "Jn": {
+    "n": 8,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 2,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲕⲁⲕⲉ",
+     "dice": 0.923,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ⲟⲩⲟⲉⲓⲛ",
+     "dice": 0.381,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ⲉⲧⲓ",
+     "dice": 0.333,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 6
+  },
+  "χάρις": {
+   "Jn": {
+    "n": 4,
+    "kept": 4
+   },
+   "Mt": {
+    "n": 0,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 8,
+    "kept": 3
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲭⲁⲣⲓⲥ",
+     "dice": 0.706,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ϩⲙⲟⲧ",
+     "dice": 0.556,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ⲥⲟⲫⲓⲁ",
+     "dice": 0.19,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 11
+  },
+  "μαρτυρία": {
+   "Jn": {
+    "n": 14,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 0,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 3,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲙⲛⲧⲙⲛⲧⲣⲉ",
+     "dice": 1.0,
+     "co_verses": 14
+    },
+    {
+     "lemma": "ⲣⲙⲛⲧⲣⲉ",
+     "dice": 0.476,
+     "co_verses": 10
+    },
+    {
+     "lemma": "ⲙⲉ",
+     "dice": 0.193,
+     "co_verses": 8
+    }
+   ],
+   "verses_with_term": 14
+  },
+  "μαρτυρέω": {
+   "Jn": {
+    "n": 33,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 1,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲣⲙⲛⲧⲣⲉ",
+     "dice": 0.949,
+     "co_verses": 28
+    },
+    {
+     "lemma": "ⲙⲛⲧⲙⲛⲧⲣⲉ",
+     "dice": 0.444,
+     "co_verses": 10
+    },
+    {
+     "lemma": "ⲙⲉ",
+     "dice": 0.18,
+     "co_verses": 9
+    }
+   ],
+   "verses_with_term": 31
+  },
+  "ἐντολή": {
+   "Jn": {
+    "n": 10,
+    "kept": 10
+   },
+   "Mt": {
+    "n": 6,
+    "kept": 6
+   },
+   "Mk": {
+    "n": 6,
+    "kept": 6
+   },
+   "Lk": {
+    "n": 4,
+    "kept": 4
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲉⲛⲧⲟⲗⲏ",
+     "dice": 1.0,
+     "co_verses": 9
+    },
+    {
+     "lemma": "ⲙⲁⲩⲁⲁⲧ",
+     "dice": 0.308,
+     "co_verses": 2
+    },
+    {
+     "lemma": "ϩⲁⲣⲉϩ",
+     "dice": 0.25,
+     "co_verses": 3
+    }
+   ],
+   "verses_with_term": 9
+  },
+  "νόμος": {
+   "Jn": {
+    "n": 14,
+    "kept": 14
+   },
+   "Mt": {
+    "n": 8,
+    "kept": 8
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 9,
+    "kept": 9
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲛⲟⲙⲟⲥ",
+     "dice": 1.0,
+     "co_verses": 12
+    },
+    {
+     "lemma": "ⲥϩⲁⲓ",
+     "dice": 0.235,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ⲙⲟⲩⲟⲩⲧ",
+     "dice": 0.167,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 12
+  },
+  "σάρξ": {
+   "Jn": {
+    "n": 13,
+    "kept": 12
+   },
+   "Mt": {
+    "n": 5,
+    "kept": 5
+   },
+   "Mk": {
+    "n": 4,
+    "kept": 4
+   },
+   "Lk": {
+    "n": 2,
+    "kept": 1
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲥⲁⲣⲝ",
+     "dice": 0.957,
+     "co_verses": 11
+    },
+    {
+     "lemma": "ⲥⲛⲟϥ",
+     "dice": 0.556,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ⲥⲱ",
+     "dice": 0.308,
+     "co_verses": 4
+    }
+   ],
+   "verses_with_term": 12
+  },
+  "ψυχή": {
+   "Jn": {
+    "n": 10,
+    "kept": 9
+   },
+   "Mt": {
+    "n": 16,
+    "kept": 16
+   },
+   "Mk": {
+    "n": 8,
+    "kept": 8
+   },
+   "Lk": {
+    "n": 14,
+    "kept": 14
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲯⲩⲭⲏ",
+     "dice": 0.941,
+     "co_verses": 8
+    },
+    {
+     "lemma": "ⲕⲱ",
+     "dice": 0.203,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ⲥⲱⲣⲙ",
+     "dice": 0.2,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 9
+  },
+  "κρίσις": {
+   "Jn": {
+    "n": 11,
+    "kept": 10
+   },
+   "Mt": {
+    "n": 12,
+    "kept": 10
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 4,
+    "kept": 3
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲕⲣⲓⲥⲓⲥ",
+     "dice": 0.952,
+     "co_verses": 10
+    },
+    {
+     "lemma": "ⲕⲣⲓⲛⲉ",
+     "dice": 0.333,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ⲟⲩⲙⲉⲉ",
+     "dice": 0.308,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 11
+  },
+  "παράκλητος": {
+   "Jn": {
+    "n": 4,
+    "kept": 4
+   },
+   "Mt": {
+    "n": 0,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 0,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 0,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲡⲁⲣⲁⲕⲗⲏⲧⲟⲥ",
+     "dice": 1.0,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ⲉⲓⲧⲙ",
+     "dice": 0.4,
+     "co_verses": 1
+    },
+    {
+     "lemma": "ⲥⲱⲡ",
+     "dice": 0.2,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 4
+  },
+  "βασιλεία": {
+   "Jn": {
+    "n": 5,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 55,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 20,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 46,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲙⲛⲧⲣⲣⲟ",
+     "dice": 0.991,
+     "co_verses": 116
+    },
+    {
+     "lemma": "ⲛⲟⲩⲧⲉ",
+     "dice": 0.26,
+     "co_verses": 50
+    },
+    {
+     "lemma": "ⲡⲉ",
+     "dice": 0.257,
+     "co_verses": 35
+    }
+   ],
+   "verses_with_term": 118
+  },
+  "ἄρτος": {
+   "Jn": {
+    "n": 24,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 21,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 21,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 15,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲟⲉⲓⲕ",
+     "dice": 0.905,
+     "co_verses": 19
+    },
+    {
+     "lemma": "ⲟⲩⲱⲙ",
+     "dice": 0.462,
+     "co_verses": 9
+    },
+    {
+     "lemma": "ⲡⲉ",
+     "dice": 0.359,
+     "co_verses": 7
+    }
+   ],
+   "verses_with_term": 20
+  },
+  "ποιμήν": {
+   "Jn": {
+    "n": 6,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 3,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 2,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 4,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ϣⲱⲥ",
+     "dice": 0.909,
+     "co_verses": 5
+    },
+    {
+     "lemma": "ⲉⲥⲟⲟⲩ",
+     "dice": 0.4,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ⲟⲩⲱⲛϣ",
+     "dice": 0.333,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 5
+  },
+  "θύρα": {
+   "Jn": {
+    "n": 7,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 4,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 6,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 4,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲣⲟ",
+     "dice": 0.667,
+     "co_verses": 4
+    },
+    {
+     "lemma": "ϣⲱⲧⲙ",
+     "dice": 0.444,
+     "co_verses": 2
+    },
+    {
+     "lemma": "ⲙⲏⲧⲉ",
+     "dice": 0.333,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 7
+  },
+  "ἄμπελος": {
+   "Jn": {
+    "n": 3,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 1,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 1,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 1,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲅⲉⲛⲏⲙⲁ",
+     "dice": 0.667,
+     "co_verses": 3
+    },
+    {
+     "lemma": "ⲃⲱ",
+     "dice": 0.414,
+     "co_verses": 6
+    },
+    {
+     "lemma": "ϣⲗϩ",
+     "dice": 0.4,
+     "co_verses": 2
+    }
+   ],
+   "verses_with_term": 6
+  },
+  "ὁδός": {
+   "Jn": {
+    "n": 4,
+    "kept": 0
+   },
+   "Mt": {
+    "n": 22,
+    "kept": 0
+   },
+   "Mk": {
+    "n": 16,
+    "kept": 0
+   },
+   "Lk": {
+    "n": 20,
+    "kept": 0
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ϩⲓⲏ",
+     "dice": 0.934,
+     "co_verses": 57
+    },
+    {
+     "lemma": "ⲥⲟⲟⲩⲧⲛ",
+     "dice": 0.195,
+     "co_verses": 8
+    },
+    {
+     "lemma": "ⲙⲟⲟϣⲉ",
+     "dice": 0.135,
+     "co_verses": 10
+    }
+   ],
+   "verses_with_term": 61
+  },
+  "ἀνάστασις": {
+   "Jn": {
+    "n": 4,
+    "kept": 4
+   },
+   "Mt": {
+    "n": 4,
+    "kept": 4
+   },
+   "Mk": {
+    "n": 2,
+    "kept": 2
+   },
+   "Lk": {
+    "n": 6,
+    "kept": 5
+   },
+   "coptic_rendering_dice": [
+    {
+     "lemma": "ⲁⲛⲁⲥⲧⲁⲥⲓⲥ",
+     "dice": 0.966,
+     "co_verses": 14
+    },
+    {
+     "lemma": "ϩⲁⲓ",
+     "dice": 0.167,
+     "co_verses": 2
+    },
+    {
+     "lemma": "ⲱϩⲙ",
+     "dice": 0.125,
+     "co_verses": 1
+    }
+   ],
+   "verses_with_term": 15
+  }
+ },
+ "T2c_me_homophone": {
+  "Mt": {
+   "me_noun_truth": 6,
+   "me_verb_love": 13,
+   "per_10k_tokens": 5.677573584341849,
+   "verses_with_both": 0,
+   "greek_truth_words": 5,
+   "greek_love_words": 14
+  },
+  "Mk": {
+   "me_noun_truth": 3,
+   "me_verb_love": 3,
+   "per_10k_tokens": 3.0021014710297207,
+   "verses_with_both": 0,
+   "greek_truth_words": 6,
+   "greek_love_words": 6
+  },
+  "Lk": {
+   "me_noun_truth": 12,
+   "me_verb_love": 16,
+   "per_10k_tokens": 8.225616921269095,
+   "verses_with_both": 0,
+   "greek_truth_words": 7,
+   "greek_love_words": 16
+  },
+  "Jn": {
+   "me_noun_truth": 42,
+   "me_verb_love": 47,
+   "per_10k_tokens": 33.68532606638659,
+   "verses_with_both": 0,
+   "greek_truth_words": 55,
+   "greek_love_words": 57
+  },
+  "Thomas (NHC II,2)": {
+   "me_noun_truth": 5,
+   "me_verb_love": 3,
+   "per_10k_tokens": 12.268057046465266
+  },
+  "Pistis Sophia": {
+   "me_noun_truth": 50,
+   "me_verb_love": 14,
+   "per_10k_tokens": 5.355379646210232
+  },
+  "Mysteries of John": {
+   "me_noun_truth": 1,
+   "me_verb_love": 0,
+   "per_10k_tokens": 1.5865460891638903
+  },
+  "Book of Bartholomew": {
+   "me_noun_truth": 8,
+   "me_verb_love": 4,
+   "per_10k_tokens": 9.23076923076923
+  },
+  "Acts of Pilate": {
+   "me_noun_truth": 0,
+   "me_verb_love": 0,
+   "per_10k_tokens": 0.0
+  },
+  "Dormition of John": {
+   "me_noun_truth": 2,
+   "me_verb_love": 1,
+   "per_10k_tokens": 9.7911227154047
+  },
+  "Magical papyri": {
+   "me_noun_truth": 0,
+   "me_verb_love": 3,
+   "per_10k_tokens": 20.74688796680498
+  },
+  "Shenoute (pooled)": {
+   "me_noun_truth": 69,
+   "me_verb_love": 30,
+   "per_10k_tokens": 12.743772929136899
+  },
+  "test_john_vs_syn": {
+   "x": 89,
+   "n": 142,
+   "p_one_sided": 1.2915992567761803e-23
+  }
+ },
+ "T3": {
+  "counts": {
+   "Mt": {
+    "noun": 3,
+    "rel": 0,
+    "bare": 2,
+    "tokens": 33465,
+    "noun_per_10k": 0.8964589870013447,
+    "noun_per_10k_ci95": [
+     0.18487139485898735,
+     2.6198335782884583
+    ],
+    "noun_or_rel_per_10k": 0.8964589870013447,
+    "noun_or_rel_per_10k_ci95": [
+     0.18487139485898735,
+     2.6198335782884583
+    ]
+   },
+   "Mk": {
+    "noun": 1,
+    "rel": 0,
+    "bare": 6,
+    "tokens": 19986,
+    "noun_per_10k": 0.5003502451716202,
+    "noun_per_10k_ci95": [
+     0.012667771432147425,
+     2.787773136665115
+    ],
+    "noun_or_rel_per_10k": 0.5003502451716202,
+    "noun_or_rel_per_10k_ci95": [
+     0.012667771432147425,
+     2.787773136665115
+    ]
+   },
+   "Lk": {
+    "noun": 1,
+    "rel": 0,
+    "bare": 4,
+    "tokens": 34040,
+    "noun_per_10k": 0.2937720329024677,
+    "noun_per_10k_ci95": [
+     0.007437663920179155,
+     1.6367930055637188
+    ],
+    "noun_or_rel_per_10k": 0.2937720329024677,
+    "noun_or_rel_per_10k_ci95": [
+     0.007437663920179155,
+     1.6367930055637188
+    ]
+   },
+   "Jn": {
+    "noun": 17,
+    "rel": 1,
+    "bare": 14,
+    "tokens": 26421,
+    "noun_per_10k": 6.434275765489573,
+    "noun_per_10k_ci95": [
+     3.7482027438807326,
+     10.30189879864752
+    ],
+    "noun_or_rel_per_10k": 6.812762575224253,
+    "noun_or_rel_per_10k_ci95": [
+     4.037674872411917,
+     10.767102027753676
+    ]
+   },
+   "Thomas (NHC II,2)": {
+    "noun": 2,
+    "rel": 1,
+    "bare": 0,
+    "tokens": 6521,
+    "noun_per_10k": 3.0670142616163165,
+    "noun_per_10k_ci95": [
+     0.3714296557950696,
+     11.079110056316456
+    ],
+    "noun_or_rel_per_10k": 4.600521392424475,
+    "noun_or_rel_per_10k_ci95": [
+     0.9487381120926255,
+     13.44467577019219
+    ]
+   },
+   "Pistis Sophia": {
+    "noun": 9,
+    "rel": 0,
+    "bare": 14,
+    "tokens": 119506,
+    "noun_per_10k": 0.7531002627483139,
+    "noun_per_10k_ci95": [
+     0.344365395660329,
+     1.4296188853630085
+    ],
+    "noun_or_rel_per_10k": 0.7531002627483139,
+    "noun_or_rel_per_10k_ci95": [
+     0.344365395660329,
+     1.4296188853630085
+    ]
+   },
+   "Mysteries of John": {
+    "noun": 0,
+    "rel": 0,
+    "bare": 0,
+    "tokens": 6303,
+    "noun_per_10k": 0.0,
+    "noun_per_10k_ci95": [
+     0.0,
+     5.852577271321492
+    ],
+    "noun_or_rel_per_10k": 0.0,
+    "noun_or_rel_per_10k_ci95": [
+     0.0,
+     5.852577271321492
+    ]
+   },
+   "Book of Bartholomew": {
+    "noun": 0,
+    "rel": 0,
+    "bare": 1,
+    "tokens": 13000,
+    "noun_per_10k": 0.0,
+    "noun_per_10k_ci95": [
+     0.0,
+     2.8375995800876432
+    ],
+    "noun_or_rel_per_10k": 0.0,
+    "noun_or_rel_per_10k_ci95": [
+     0.0,
+     2.8375995800876432
+    ]
+   },
+   "Acts of Pilate": {
+    "noun": 0,
+    "rel": 0,
+    "bare": 0,
+    "tokens": 935,
+    "noun_per_10k": 0.0,
+    "noun_per_10k_ci95": [
+     0.0,
+     39.45325619373194
+    ],
+    "noun_or_rel_per_10k": 0.0,
+    "noun_or_rel_per_10k_ci95": [
+     0.0,
+     39.45325619373194
+    ]
+   },
+   "Dormition of John": {
+    "noun": 0,
+    "rel": 0,
+    "bare": 0,
+    "tokens": 3064,
+    "noun_per_10k": 0.0,
+    "noun_per_10k_ci95": [
+     0.0,
+     12.039423805854883
+    ],
+    "noun_or_rel_per_10k": 0.0,
+    "noun_or_rel_per_10k_ci95": [
+     0.0,
+     12.039423805854883
+    ]
+   },
+   "Magical papyri": {
+    "noun": 0,
+    "rel": 0,
+    "bare": 1,
+    "tokens": 1446,
+    "noun_per_10k": 0.0,
+    "noun_per_10k_ci95": [
+     0.0,
+     25.510922919183514
+    ],
+    "noun_or_rel_per_10k": 0.0,
+    "noun_or_rel_per_10k_ci95": [
+     0.0,
+     25.510922919183514
+    ]
+   },
+   "Shenoute (pooled)": {
+    "noun": 2,
+    "rel": 0,
+    "bare": 4,
+    "tokens": 77685,
+    "noun_per_10k": 0.2574499581643818,
+    "noun_per_10k_ci95": [
+     0.031178384314084425,
+     0.9299977689031294
+    ],
+    "noun_or_rel_per_10k": 0.2574499581643818,
+    "noun_or_rel_per_10k_ci95": [
+     0.031178384314084425,
+     0.9299977689031294
+    ]
+   }
+  },
+  "tests": {
+   "Jn_vs_Syn": {
+    "x": 17,
+    "n": 22,
+    "p_one_sided": 1.2478327583824499e-07,
+    "rate_ratio": 11.258824419968963
+   },
+   "Thomas (NHC II,2)_vs_Syn": {
+    "x": 2,
+    "n": 7,
+    "p_two_sided": 0.15995152838187668,
+    "rate_ratio": 5.3667228952614625
+   },
+   "Thomas (NHC II,2)_vs_Jn": {
+    "x": 2,
+    "n": 19,
+    "p_two_sided": 0.4873091322078369,
+    "rate_ratio": 0.4766681400362629,
+    "descriptive_only": true
+   },
+   "Pistis Sophia_vs_Syn": {
+    "x": 9,
+    "n": 14,
+    "p_two_sided": 0.8331601479238286,
+    "rate_ratio": 1.3177899017622545
+   },
+   "Pistis Sophia_vs_Jn": {
+    "x": 9,
+    "n": 26,
+    "p_two_sided": 2.804173304671309e-07,
+    "rate_ratio": 0.11704507083572471,
+    "descriptive_only": true
+   },
+   "Mysteries of John_vs_Syn": {
+    "x": 0,
+    "n": 5,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0
+   },
+   "Mysteries of John_vs_Jn": {
+    "x": 0,
+    "n": 17,
+    "p_two_sided": 0.05265489316254035,
+    "rate_ratio": 0.0,
+    "descriptive_only": true
+   },
+   "Book of Bartholomew_vs_Syn": {
+    "x": 0,
+    "n": 5,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0
+   },
+   "Book of Bartholomew_vs_Jn": {
+    "x": 0,
+    "n": 17,
+    "p_two_sided": 0.002222273135377595,
+    "rate_ratio": 0.0,
+    "descriptive_only": true
+   },
+   "Acts of Pilate_vs_Syn": {
+    "x": 0,
+    "n": 5,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0
+   },
+   "Acts of Pilate_vs_Jn": {
+    "x": 0,
+    "n": 17,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0,
+    "descriptive_only": true
+   },
+   "Dormition of John_vs_Syn": {
+    "x": 0,
+    "n": 5,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0
+   },
+   "Dormition of John_vs_Jn": {
+    "x": 0,
+    "n": 17,
+    "p_two_sided": 0.30970485806208137,
+    "rate_ratio": 0.0,
+    "descriptive_only": true
+   },
+   "Magical papyri_vs_Syn": {
+    "x": 0,
+    "n": 5,
+    "p_two_sided": 1.0,
+    "rate_ratio": 0.0
+   },
+   "Magical papyri_vs_Jn": {
+    "x": 0,
+    "n": 17,
+    "p_two_sided": 0.8084135134223893,
+    "rate_ratio": 0.0,
+    "descriptive_only": true
+   },
+   "Shenoute (pooled)_vs_Syn": {
+    "x": 2,
+    "n": 7,
+    "p_two_sided": 0.5561712077313938,
+    "rate_ratio": 0.45049108579519853
+   },
+   "Shenoute (pooled)_vs_Jn": {
+    "x": 2,
+    "n": 19,
+    "p_two_sided": 1.486587475341139e-08,
+    "rate_ratio": 0.04001226673330077,
+    "descriptive_only": true
+   },
+   "positive_control_recall": {
+    "greek_verses": [
+     "1:20",
+     "4:26",
+     "6:35",
+     "6:41",
+     "6:48",
+     "6:51",
+     "8:12",
+     "8:18",
+     "10:7",
+     "10:9",
+     "10:11",
+     "10:14",
+     "11:25",
+     "14:6",
+     "15:1",
+     "15:5",
+     "18:35"
+    ],
+    "recalled": [
+     "4:26",
+     "6:35",
+     "6:41",
+     "6:48",
+     "6:51",
+     "8:12",
+     "10:7",
+     "10:9",
+     "10:11",
+     "10:14",
+     "11:25",
+     "14:6",
+     "15:1",
+     "15:5"
+    ],
+    "recall": 0.8235294117647058,
+    "coptic_hits_not_in_greek_set": [
+     "12:46",
+     "19:21",
+     "1:23"
+    ]
+   }
+  },
+  "john_hits": [
+   {
+    "ref": "1:23",
+    "kind": "noun"
+   },
+   {
+    "ref": "4:26",
+    "kind": "rel"
+   },
+   {
+    "ref": "4:34",
+    "kind": "bare"
+   },
+   {
+    "ref": "6:20",
+    "kind": "bare"
+   },
+   {
+    "ref": "6:35",
+    "kind": "noun"
+   },
+   {
+    "ref": "6:41",
+    "kind": "noun"
+   },
+   {
+    "ref": "6:48",
+    "kind": "noun"
+   },
+   {
+    "ref": "6:51",
+    "kind": "noun"
+   },
+   {
+    "ref": "6:51",
+    "kind": "noun"
+   },
+   {
+    "ref": "8:12",
+    "kind": "noun"
+   },
+   {
+    "ref": "8:18",
+    "kind": "bare"
+   },
+   {
+    "ref": "8:24",
+    "kind": "bare"
+   },
+   {
+    "ref": "8:26",
+    "kind": "bare"
+   },
+   {
+    "ref": "8:28",
+    "kind": "bare"
+   },
+   {
+    "ref": "8:38",
+    "kind": "bare"
+   },
+   {
+    "ref": "9:9",
+    "kind": "bare"
+   },
+   {
+    "ref": "9:25",
+    "kind": "bare"
+   },
+   {
+    "ref": "10:7",
+    "kind": "noun"
+   },
+   {
+    "ref": "10:9",
+    "kind": "noun"
+   },
+   {
+    "ref": "10:11",
+    "kind": "noun"
+   },
+   {
+    "ref": "10:14",
+    "kind": "noun"
+   },
+   {
+    "ref": "11:25",
+    "kind": "noun"
+   },
+   {
+    "ref": "12:46",
+    "kind": "noun"
+   },
+   {
+    "ref": "13:13",
+    "kind": "bare"
+   },
+   {
+    "ref": "13:19",
+    "kind": "bare"
+   },
+   {
+    "ref": "14:6",
+    "kind": "noun"
+   },
+   {
+    "ref": "15:1",
+    "kind": "noun"
+   },
+   {
+    "ref": "15:5",
+    "kind": "noun"
+   },
+   {
+    "ref": "18:5",
+    "kind": "bare"
+   },
+   {
+    "ref": "18:6",
+    "kind": "bare"
+   },
+   {
+    "ref": "18:8",
+    "kind": "bare"
+   },
+   {
+    "ref": "19:21",
+    "kind": "noun"
+   }
+  ],
+  "thomas_hits": [
+   {
+    "kind": "rel",
+    "next": "ⲁⲛⲟⲕ ⲡⲉ ⲡ ⲉⲧ ϣⲟⲟⲡ ⲉⲃⲟⲗ"
+   },
+   {
+    "kind": "noun",
+    "next": "ⲁⲛⲟⲕ ⲡⲉ ⲡ ⲟⲩⲟⲉⲓⲛ ⲡⲁⲓ ⲉⲧ"
+   },
+   {
+    "kind": "noun",
+    "next": "ⲁⲛⲟⲕ ⲡⲉ ⲡ ⲧⲏⲣϥ ⲛⲧ ⲁ"
+   }
+  ]
+ },
+ "BH": [
+  {
+   "test": "T1 lean->John Thomas (NHC II,2)",
+   "p": 0.3266832917705736,
+   "q": 0.6206982543640899,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Pistis Sophia",
+   "p": 0.032418952618453865,
+   "q": 0.20532003325020784,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Mysteries of John",
+   "p": 0.14962593516209477,
+   "q": 0.37988487990695713,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Book of Bartholomew",
+   "p": 0.10224438902743142,
+   "q": 0.37988487990695713,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Acts of Pilate",
+   "p": 0.1172069825436409,
+   "q": 0.37988487990695713,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Dormition of John",
+   "p": 0.18453865336658354,
+   "q": 0.38958160155167637,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Magical papyri",
+   "p": 0.600997506234414,
+   "q": 0.9515793848711555,
+   "pass_q05": false
+  },
+  {
+   "test": "T1 lean->John Shenoute (pooled)",
+   "p": 0.1396508728179551,
+   "q": 0.37988487990695713,
+   "pass_q05": false
+  },
+  {
+   "test": "T2a John loan share vs Synoptic chunks",
+   "p": 0.0009995002498750624,
+   "q": 0.009495252373813092,
+   "pass_q05": true
+  },
+  {
+   "test": "T2b John keep-rate, lemma-controlled",
+   "p": 0.770245950809838,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 John I-am+noun vs Synoptics",
+   "p": 1.2478327583824499e-07,
+   "q": 2.370882240926655e-06,
+   "pass_q05": true
+  },
+  {
+   "test": "T3 Thomas (NHC II,2)_vs_Syn",
+   "p": 0.15995152838187668,
+   "q": 0.37988487990695713,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Pistis Sophia_vs_Syn",
+   "p": 0.8331601479238286,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Mysteries of John_vs_Syn",
+   "p": 1.0,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Book of Bartholomew_vs_Syn",
+   "p": 1.0,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Acts of Pilate_vs_Syn",
+   "p": 1.0,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Dormition of John_vs_Syn",
+   "p": 1.0,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Magical papyri_vs_Syn",
+   "p": 1.0,
+   "q": 1.0,
+   "pass_q05": false
+  },
+  {
+   "test": "T3 Shenoute (pooled)_vs_Syn",
+   "p": 0.5561712077313938,
+   "q": 0.9515793848711555,
+   "pass_q05": false
+  }
+ ],
+ "n_tests": 19
+}

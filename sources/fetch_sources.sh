@@ -25,3 +25,4 @@ mkdir -p heron && curl -sL -o heron/heron_vol1_schmidt1899.txt "https://archive.
 mkdir -p oxyrhynchus && curl -sL -o oxyrhynchus/poxy15.txt "https://archive.org/download/oxyrhynchuspapyr0015gren/oxyrhynchuspapyr0015gren_djvu.txt"   # P.Oxy. XV (1922), incl. 1786 Christian hymn with notes
 curl -sS -o sefaria/berakhot_3b.json "https://www.sefaria.org/api/v3/texts/Berakhot.3b?version=english&version=hebrew"   # David's wind-played lyre
 mkdir -p odes_solomon && curl -sL -o odes_solomon/harris1909.txt "https://archive.org/download/bwb_KU-773-127/bwb_KU-773-127_djvu.txt" && curl -sL -o odes_solomon/harris1916.txt "https://archive.org/download/odespsalmsofsolo01harruoft/odespsalmsofsolo01harruoft_djvu.txt"
+mkdir -p amherst && curl -sL -o amherst/pamh1.txt "https://archive.org/download/amherstpapyribei01grenuoft/amherstpapyribei01grenuoft_djvu.txt"   # Amherst Papyri I (1900), P.Amh. 2 Christian acrostic hymn

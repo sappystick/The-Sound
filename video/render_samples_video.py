@@ -13,7 +13,7 @@ import collections, glob, json, math, os, re, subprocess, sys, unicodedata
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from scipy.io import wavfile
-SBL = sys.argv[1]; HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
+SBL = sys.argv[1]; SETNAME = sys.argv[2] if len(sys.argv) > 2 else "samples"; HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 A2 = os.path.join(ROOT, "audio_model", "v2"); OUT = os.path.join(HERE, "samples"); os.makedirs(OUT, exist_ok=True)
 RB = json.load(open(os.path.join(ROOT, "code/voice/delivery_rules.json"), encoding="utf-8")); RULE = {r["id"]: r for r in RB["rules"]}
 GEO = json.load(open(os.path.join(ROOT, "data/john_geo.json"), encoding="utf-8"))
@@ -23,7 +23,8 @@ def font(n, kind="sans"):
     return ImageFont.truetype("/usr/share/fonts/truetype/dejavu/" + f, n)
 BG, PANEL, INK, MUTED, RULEC = (16, 19, 26), (24, 28, 37), (234, 230, 220), (140, 146, 156), (46, 52, 64)
 EVID, INTERP, GOLD = (110, 160, 235), (226, 170, 80), (214, 170, 86)
-SPK = {"narrator": (150, 165, 190), "Jesus": (232, 190, 92), "Mary": (226, 120, 140), "Martha": (176, 140, 226), "they": (120, 196, 140)}
+SPK = {"narrator": (150, 165, 190), "Jesus": (232, 190, 92), "Mary": (226, 120, 140), "Martha": (176, 140, 226), "they": (120, 196, 140), "John (the Baptist)": (224, 128, 96),
+       "his mother": (226, 120, 140), "the steward": (176, 140, 226), "Andrew": (110, 200, 210), "Philip": (140, 170, 240), "Nathanael": (196, 160, 230), "Peter": (120, 210, 170)}
 def spk_col(s): return SPK.get(s, (110, 200, 210))
 def nrm(w):
     w = unicodedata.normalize("NFD", w.lower()); w = "".join(c for c in w if not unicodedata.combining(c)); return re.sub(r"[^α-ω]", "", w.replace("ς", "σ"))
@@ -92,7 +93,7 @@ def render(name, label):
         k = len(w["pitch_hz"])
         for j, hz in enumerate(w["pitch_hz"]): plan.append((w["start"] + (w["end"] - w["start"]) * (j + .5) / max(1, k), hz, w["speaker"]))
     plan = np.array([(a, b) for a, b, _ in plan]) if plan else np.zeros((0, 2))
-    base = base_frame(label, f"John {js['refs'][0]}–{js['refs'][-1]} · Koine voice v2 · evidence + delivery layers · synagogue room · {js['voice']}")
+    base = base_frame(label, f"John {js['refs'][0]}–{js['refs'][-1]} · Koine voice v2 (reconstructed 1st-century pronunciation) · evidence + delivery layers · synagogue room")
     by_verse = collections.OrderedDict()
     for i, w in enumerate(words): by_verse.setdefault(w["ref"], []).append(i)
     fdir = os.path.join(OUT, "_frames_" + name); os.makedirs(fdir, exist_ok=True)
@@ -105,26 +106,39 @@ def render(name, label):
         # speaker chip and verse
         col = spk_col(w["speaker"]); d.rounded_rectangle([40, 76, 40 + 22 + d.textlength(w["speaker"], font=font(15, "bold")) + 16, 104], 12, fill=col)
         d.text((60, 81), w["speaker"], font=font(15, "bold"), fill=BG); d.text((40 + 60 + d.textlength(w["speaker"], font=font(15, "bold")), 80), f"John {ref}", font=font(18), fill=INK)
-        f = font(28, "serif"); toks = [words[i]["word"] for i in vi]; yy = 124
-        for line in wrap_words(d, toks, f, 780):
+        if w.get("lang"):
+            lx = 40 + 60 + d.textlength(w["speaker"], font=font(15, "bold")) + d.textlength(f"John {ref}", font=font(18)) + 24
+            d.text((lx, 84), ("composed in Greek" if w["speaker"] == "narrator" else f"first spoken in {w['lang']} ({w['lang_conf']}) · heard here in the Gospel's Greek"), font=font(12), fill=MUTED)
+        toks = [words[i]["word"] for i in vi]
+        for size in (28, 24, 21, 18, 16):
+            f = font(size, "serif"); L = wrap_words(d, toks, f, 780); lh = int(size * 1.55)
+            if len(L) * lh <= 172: break
+        yy = 120
+        for line in L:
             x = 40
             for li in line:
                 gi = vi[li]; ww = d.textlength(toks[li], font=f)
-                if gi == cur: d.rounded_rectangle([x - 4, yy - 2, x + ww + 4, yy + 38], 6, fill=spk_col(words[gi]["speaker"])); d.text((x, yy), toks[li], font=f, fill=BG)
+                if gi == cur: d.rounded_rectangle([x - 4, yy - 2, x + ww + 4, yy + int(size * 1.35)], 6, fill=spk_col(words[gi]["speaker"])); d.text((x, yy), toks[li], font=f, fill=BG)
                 else: d.text((x, yy), toks[li], font=f, fill=INK if words[gi]["end"] <= t else (118, 124, 136))
                 x += ww + d.textlength(" ", font=f)
-            yy += 44
-        # current word panel
-        py = max(yy + 10, 300); d.rectangle([40, py, 820, py + 170], fill=PANEL)
+            yy += lh
+        # current word panel: left = the word; right = rules and the earliest manuscripts
+        py = 300; d.rectangle([40, py, 820, py + 205], fill=PANEL)
         d.text((56, py + 10), w["word"], font=font(30, "serif"), fill=INK); d.text((56, py + 52), "/" + w["ipa"] + "/", font=font(16, "mono"), fill=(160, 178, 210))
-        d.text((420, py + 14), "pitch targets  " + "  ".join(f"{h:.0f} Hz" for h in w["pitch_hz"][:4]), font=font(13), fill=MUTED)
-        d.text((420, py + 34), f"gain {w['gain_db']:+.0f} dB · {w['end'] - w['start']:.2f} s", font=font(13), fill=MUTED)
-        ry = py + 82
-        for r in w["rules"][:5]:
+        d.text((56, py + 80), "pitch  " + "  ".join(f"{h:.0f} Hz" for h in w["pitch_hz"][:4]), font=font(12), fill=MUTED)
+        d.text((56, py + 98), f"gain {w['gain_db']:+.0f} dB · {w['end'] - w['start']:.2f} s", font=font(12), fill=MUTED)
+        if w.get("aram"):
+            d.text((56, py + 124), "Aramaic kept in the Greek", font=font(11, "bold"), fill=GOLD)
+            for q, ln in enumerate(wrap_words(d, w["aram"].split(), font(12), 340)[:3]): d.text((56, py + 140 + 16 * q), " ".join(w["aram"].split()[i] for i in ln), font=font(12), fill=INK)
+        ry = py + 12
+        for r in w["rules"][:6]:
             rr = RULE.get(r, {}); c = EVID if rr.get("layer") == "evidence" else INTERP
-            d.text((56, ry), r, font=font(12, "bold"), fill=c); d.text((140, ry), rr.get("effect", "")[:92], font=font(12), fill=INK); ry += 17
+            d.text((400, ry), r, font=font(11, "bold"), fill=c); d.text((472, ry), rr.get("effect", "")[:56], font=font(11), fill=INK); ry += 16
+        if js.get("mss", {}).get(ref):
+            d.text((400, py + 116), "this verse in the earliest manuscripts (against SBLGNT)", font=font(11, "bold"), fill=MUTED)
+            for q, ln in enumerate(js["mss"][ref]): d.text((400, py + 133 + 16 * q), ln, font=font(11), fill=INK if "same wording" in ln else (226, 170, 80) if "differ" in ln else MUTED)
         # melody panel
-        gy0, gy1, gx0, gx1 = 520, 670, 40, 820; d.rectangle([gx0, gy0, gx1, gy1], fill=PANEL)
+        gy0, gy1, gx0, gx1 = 520, 678, 40, 820; d.rectangle([gx0, gy0, gx1, gy1], fill=PANEL)
         lo, hi = 70.0, 150.0; Y = lambda hz: gy1 - 8 - (math.log(hz / lo) / math.log(hi / lo)) * (gy1 - gy0 - 16); Xt = lambda tt: gx0 + (tt - (t - 3)) / 6 * (gx1 - gx0)
         m = (rms_t > t - 3) & (rms_t < t + 3)
         for tt, db in zip(rms_t[m], rms_db[m]):
@@ -150,19 +164,22 @@ def render(name, label):
             a, b = sorted((bx(i), bx(j))); r_ = min((b - a) / 2, 60); d.arc([a, byy - r_, b, byy + r_], 0, 180, fill=EVID, width=2); d.text((bx(j) - 12, byy + 40 + 12 * echoes(i).index((j, s))), keys[j][0].__str__() + ":" + str(keys[j][1]), font=font(10), fill=EVID)
         d.ellipse([bx(i) - 5, byy - 5, bx(i) + 5, byy + 5], fill=GOLD)
         # legend
-        ly = 572
+        ly = 566
         for s in sorted({w_["speaker"] for w_ in words}, key=lambda s: s != "narrator"):
-            d.rounded_rectangle([MX0, ly, MX0 + 12, ly + 12], 3, fill=spk_col(s)); d.text((MX0 + 20, ly - 2), s, font=font(12), fill=INK); ly += 20
-        d.text((MX0, ly + 8), "■ evidence rule", font=font(12), fill=EVID); d.text((MX0 + 120, ly + 8), "■ interpretive rule", font=font(12), fill=INTERP)
+            d.rounded_rectangle([MX0, ly, MX0 + 10, ly + 10], 3, fill=spk_col(s)); d.text((MX0 + 18, ly - 2), s, font=font(11), fill=INK); ly += 15
+        d.text((MX0 + 190, 566), "■ evidence rule", font=font(11), fill=EVID); d.text((MX0 + 190, 582), "■ interpretive rule", font=font(11), fill=INTERP)
         im.save(os.path.join(fdir, f"{fi:05d}.png"))
     mp4 = os.path.join(OUT, f"{name}.mp4")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(fdir, "%05d.png"), "-i", os.path.join(A2, f"{name}_C_full.wav"),
                     "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "26", "-preset", "medium", "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", mp4], check=True)
     for f_ in glob.glob(os.path.join(fdir, "*.png")): os.remove(f_)
     os.rmdir(fdir); print(name, round(os.path.getsize(mp4) / 1e6, 1), "MB", flush=True); return mp4
-LABELS = {"prologue_1-1-5": "In the beginning was the Word", "lazarus_11-32-36": "Jesus wept", "vine_15-1-5": "I am the vine", "finished_19-28-30": "It is finished"}
+if SETNAME == "opening":
+    LABELS = {x["name"]: x["label"] for x in json.load(open(os.path.join(A2, "opening_index.json"), encoding="utf-8"))}; REEL = "opening_pages.mp4"
+else:
+    LABELS = {"prologue_1-1-5": "In the beginning was the Word", "lazarus_11-32-36": "Jesus wept", "vine_15-1-5": "I am the vine", "finished_19-28-30": "It is finished"}; REEL = "sample_reel.mp4"
 parts = [render(k, v) for k, v in LABELS.items()]
 with open(os.path.join(OUT, "_list.txt"), "w") as fh:
     for p in parts: fh.write(f"file '{p}'\n")
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(OUT, "_list.txt"), "-c", "copy", "-movflags", "+faststart", os.path.join(OUT, "sample_reel.mp4")], check=True)
-os.remove(os.path.join(OUT, "_list.txt")); print("reel", round(os.path.getsize(os.path.join(OUT, "sample_reel.mp4")) / 1e6, 1), "MB")
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", os.path.join(OUT, "_list.txt"), "-c", "copy", "-movflags", "+faststart", os.path.join(OUT, REEL)], check=True)
+os.remove(os.path.join(OUT, "_list.txt")); print("reel", round(os.path.getsize(os.path.join(OUT, REEL)) / 1e6, 1), "MB")

@@ -23,7 +23,7 @@ from scipy.signal import resample_poly
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, os.path.join(ROOT, "code", "engine")); import engine as E
 RULES = json.load(open(os.path.join(HERE, "delivery_rules.json"), encoding="utf-8")); VC = RULES["voice"]; LEX = RULES["lexicon"]
-SPEAKERS = RULES["speakers"]; SPEECHV = set(RULES["speech_verbs"])
+SPEAKERS = RULES["speakers"]; SPEECHV = set(RULES["speech_verbs"]) | {"φημι"}; ROLES = {"αρχιτρικλινοσ", "βασιλικοσ", "τυφλοσ", "γυνη", "μητηρ", "θυρωροσ"}
 PAUSE = {",": 0.35, "·": 0.6, ";": 0.9, ".": 0.9, "": 0.25}
 def nrm(w):
     w = unicodedata.normalize("NFD", w.lower()); w = "".join(c for c in w if not unicodedata.combining(c)); return re.sub(r"[^α-ω]", "", w.replace("ς", "σ"))
@@ -44,8 +44,10 @@ def assign_speakers(V):
         ranges = []
         intro = [i for i, t in enumerate(toks) if t["pos"].startswith("V") and t["lem"] in SPEECHV and t["parse"][0] not in "12"]
         for n_, i in enumerate(intro):
-            start = next((j for j in range(i + 1, len(toks)) if toks[j - 1]["raw"].endswith(("·", ":")) and toks[j]["raw"][:1].isupper()), None)
+            start = next((j for j in range(i + 1, len(toks)) if (toks[j - 1]["raw"].endswith(("·", ":")) or toks[j - 1]["w"] == "οτι") and toks[j]["raw"].lstrip("(")[:1].isupper()), None)
             if start is None: continue
+            pre = toks[(ranges[-1][1] if ranges else 0):i]
+            if cur != "narrator" and not ranges and any((x["pos"].startswith("V") and x["parse"][0] in "12") or x["lem"] in ("εγω", "συ", "ημεισ", "υμεισ") for x in pre): continue   # a quotation inside ongoing speech
             if ranges and ranges[-1][1] == start: continue        # 'answered and said': one speech, two verbs
             who = None; lo = ranges[-1][1] if ranges else 0
             fem = any(len(toks[j]["parse"]) > 6 and toks[j]["parse"][4] == "N" and toks[j]["parse"][6] == "F" and (toks[j]["pos"] in ("RD", "RP", "RR") or toks[j]["parse"][3:4] == "P") for j in range(max(lo, i - 8), start))
@@ -61,10 +63,10 @@ def assign_speakers(V):
             if who is None and vi - named_at > 1 and len(hist) >= 2 and hist[-1] != hist[-2]: who = hist[-2]     # turn-taking
             if who is None: who = last_named or "a speaker"
             if not hist or hist[-1] != who: hist.append(who)
-            if not hist or hist[-1] != who: hist.append(who)
             ranges.append((i, start, who))
         if ranges:
-            for t in toks: t["spk"] = cur if cur != "narrator" and ranges[0][0] > 0 and not any(x["pos"].startswith("V") and x["parse"][0] == "3" and x["parse"][1] in "AI" for x in toks[:ranges[0][0]]) else "narrator"
+            head = toks[:ranges[0][0]]; keep = cur != "narrator" and any((x["pos"].startswith("V") and x["parse"][0] in "12") or x["lem"] in ("εγω", "συ", "ημεισ", "υμεισ") for x in head)
+            for t in toks: t["spk"] = cur if keep else "narrator"
             for n_, (i, start, who) in enumerate(ranges):
                 stop = ranges[n_ + 1][0] if n_ + 1 < len(ranges) else len(toks)
                 for j in range(i, start): toks[j]["spk"] = "narrator"
@@ -72,15 +74,22 @@ def assign_speakers(V):
                 cur = who
         else:
             first2 = any(t["pos"].startswith("V") and t["parse"][0] in "12" for t in toks) or any(t["lem"] in ("εγω", "συ", "ημεισ", "υμεισ") for t in toks)
-            narrative = any(t["pos"].startswith("V") and t["parse"][0] == "3" and t["parse"][1] in "AI" and t["parse"][3] == "I" for t in toks)
+            narrative = any(t["pos"].startswith("V") and t["parse"][0] == "3" and t["parse"][1] in "AIY" and t["parse"][3] == "I" for t in toks)
             if cur != "narrator" and (first2 or not narrative): spk = cur
             else: spk = cur = "narrator"
             for t in toks: t["spk"] = spk
         for t in toks:
-            if t["spk"] == "narrator" and t["pos"][0] == "N" and len(t["parse"]) > 4 and t["parse"][4] == "N" and t["lem"] in SPEAKERS and SPEAKERS[t["lem"]][0].isupper():
+            if t["spk"] == "narrator" and t["pos"][0] == "N" and len(t["parse"]) > 4 and t["parse"][4] == "N" and t["lem"] in SPEAKERS and (SPEAKERS[t["lem"]][0].isupper() or t["lem"] in ROLES):
                 if len(t["parse"]) > 6 and t["parse"][6] == "F": last_female = SPEAKERS[t["lem"]]
                 else: last_named = SPEAKERS[t["lem"]]
                 named_at = vi
+    ov = os.path.join(HERE, "speaker_overrides.json")
+    if os.path.exists(ov):
+        for ref, segs_ in json.load(open(ov, encoding="utf-8"))["verses"].items():
+            c, v = (int(x) for x in ref.split(":")); toks = V[(c, v)]
+            for n_, (i0, who) in enumerate(segs_):
+                i1 = segs_[n_ + 1][0] if n_ + 1 < len(segs_) else len(toks)
+                for j in range(i0, i1): toks[j]["spk"] = who; toks[j]["spk_src"] = "hand-checked"
     return V
 def verse_moods(toks):
     lem = {t["lem"] for t in toks}; m = []

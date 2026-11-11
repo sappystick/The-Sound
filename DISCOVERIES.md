@@ -372,3 +372,13 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **Speaker estimation** (SBLGNT's capitalised direct speech plus subject search plus turn-taking) assigns the whole Gospel. Counted in words: narrator 6,856; Jesus about 6,250. It was checked by hand on dialogue scenes.
 - **Video.** Each word lights up in its speaker's colour as it is spoken. The frame also shows the planned and measured melody, the rules applied, an OpenBible.info map of the scene, and arcs to the verse's echoes.
 - **Samples:** `audio_model/v2/` (A engine / B evidence / C full) and `video/samples/`.
+
+## AF. The spoken world and the opening pages (round 33)
+- **Evidence base compiled:** `SPOKEN_WORLD.md` covers the three layers of speech (events, composition, performance); who probably spoke what language, with confidence and basis; the Koine sound system against the Judeo-Palestinian reconstruction; and the evidence for delivery. Each point is marked firm, probable or conjecture.
+- **New data on every word:**
+  - probable original language (`code/voice/language_layer.json`);
+  - Aramaic words kept in the Greek;
+  - the verse in P66, P75, Sinaiticus and Vaticanus: words that differ, and how many differences sound the same.
+- **Speaker rules improved** (recitative ὅτι, quotations inside speech, the pluperfect as narrative, roles such as the steward). Every verse of 1:1–2:11 was hand-checked (`speaker_overrides.json`).
+- **Opening pages rendered:** John 1:1–2:11, 10.6 minutes, Koine voice v2, with word-synced video (`video/samples/opening_*.mp4`).
+- **Aramaic shadow:** eight sayings from John 1 voiced in Aramaic. The consonants are from the Peshitta; the vowels were supplied by hand and are **unverified**; Syriac is a later dialect than the Aramaic of AD 30. The voice is a male neural voice with Semitic consonants. This is an illustration only.

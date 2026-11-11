@@ -1,0 +1,14 @@
+{
+ "_about": "Hand-checked speaker assignments that override the automatic estimate. Each verse lists [first word index, speaker] segments. Covers John 1:1-2:11 (every verse read and checked); elsewhere the automatic estimate stands.",
+ "checked_range": "1:1-2:11",
+ "verses": {
+  "1:16": [[0, "narrator"]],
+  "1:21": [[0, "narrator"], [3, "they"], [8, "narrator"], [10, "John (the Baptist)"], [12, "they"], [16, "narrator"], [18, "John (the Baptist)"]],
+  "1:38": [[0, "narrator"], [10, "Jesus"], [12, "narrator"], [16, "they"], [17, "narrator"], [21, "they"]],
+  "1:39": [[0, "narrator"], [2, "Jesus"], [5, "narrator"]],
+  "1:41": [[0, "narrator"], [11, "Andrew"], [14, "narrator"]],
+  "1:42": [[0, "narrator"], [10, "Jesus"], [19, "narrator"]],
+  "2:7": [[0, "narrator"], [4, "Jesus"], [8, "narrator"]],
+  "2:8": [[0, "narrator"], [3, "Jesus"], [9, "narrator"]]
+ }
+}

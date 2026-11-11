@@ -182,6 +182,22 @@ pre.cmd{background:var(--bg);border:1px solid var(--rule);border-radius:3px;padd
     <h2>Voice lab</h2>
     <p class="note">Three renderings of the same passages. <b>A</b> is the formant synthesiser used for the full Gospel. <b>B</b> is a neural Greek voice speaking the project's reconstructed Koine pronunciation, shaped only by the evidence rules: accent melody, declination, cadences, stress and the synagogue room. <b>C</b> adds the interpretive delivery layer: estimated speaker, mood and emphasis. Each rule is listed below, with its basis. The video for C lights each word as it is spoken.</p>
   </div>
+  <div class="card">
+    <h3>The opening pages, John 1:1–2:11</h3>
+    <p class="note">Ten and a half minutes in the reconstructed voice, every word lit as it is spoken. Each frame also shows who is speaking (hand-checked for these verses), the language the words were probably first spoken in, the Aramaic words John keeps in his Greek, how the verse reads in the four earliest manuscripts, the melody planned and measured, the place, and the verse's echoes.</p>
+    <div class="claims" id="opening" style="margin-top:12px"></div>
+  </div>
+  <div class="card">
+    <h3>Behind the Greek: eight sayings in Aramaic</h3>
+    <p class="note" id="aramnote"></p>
+    <div class="tablebox"><table id="aram"></table></div>
+  </div>
+  <div class="card">
+    <h3>Who spoke what</h3>
+    <p class="note">The Gospel was composed and read in Greek. This is the language each speaker's words were most probably first spoken in.</p>
+    <div class="tablebox"><table id="langs"></table></div>
+  </div>
+  <div><h2>Three versions compared</h2></div>
   <div class="claims" id="lab"></div>
   <div class="card">
     <h3>The rulebook</h3>
@@ -349,6 +365,12 @@ function drawLab(){
     <div class="kvmini">${["A_engine","B_evidence","C_full"].map(v => `<p class="mono" style="margin:6px 0 2px">${{A_engine:"A · current engine",B_evidence:"B · neural voice, evidence rules",C_full:"C · plus delivery layer"}[v]}</p><audio controls preload="none" src="audio/${p.name}_${v}.mp3" style="width:100%"></audio>`).join("")}</div>
     <p class="note">Speakers: ${p.speakers.join(", ")}. Measured pitch follows the planned melody within a median ${p.err} semitones (r ${p.r}); voice median ${p.median} Hz.</p>
     <details><summary>Rules used</summary><p class="mono">${p.rules.join(" · ")}</p></details></article>`).join("");
+  $("#opening").innerHTML = (D.opening || []).map(p => `<article class="claim" style="--c:var(--bronze)"><div class="st">John ${p.refs[0]}–${p.refs[1]} · ${Math.floor(p.duration/60)}:${String(Math.round(p.duration%60)).padStart(2,"0")}</div><h3>${p.label}</h3>
+    <video controls preload="none" playsinline src="video/samples/${p.name}.mp4"></video>
+    <p class="note">Speakers: ${p.speakers.join(", ")}.${p.aramaic.length ? " Aramaic kept in the Greek: " + p.aramaic.join(", ") + "." : ""}</p></article>`).join("");
+  $("#aramnote").textContent = "An illustration of the sound of the language, not a recovery of the words. " + (D.aramaic._caveat || "");
+  $("#aram").innerHTML = "<tr><th>Verse</th><th>Speaker</th><th>Aramaic (Syriac script)</th><th>Transliteration</th><th>Meaning</th><th>Listen</th></tr>" + D.aramaic.sayings.map(a => `<tr><td>${a.ref}</td><td>${a.speaker}</td><td lang="syr" dir="rtl" style="font-size:1.15rem">${a.syriac}</td><td><i>${a.translit}</i></td><td>${a.english}</td><td><audio controls preload="none" src="audio/${a.file}" style="width:170px"></audio></td></tr>`).join("");
+  $("#langs").innerHTML = "<tr><th>Speaker</th><th>Language</th><th>Confidence</th><th>Basis</th></tr>" + D.langs.map(l => `<tr><td>${l.who}</td><td>${l.lang}</td><td>${l.confidence}</td><td class="note">${l.basis}</td></tr>`).join("");
   $("#rules").innerHTML = "<tr><th>Rule</th><th>Layer</th><th>Effect</th><th>Basis</th></tr>" + D.rulebook.map(r => `<tr><td class="mono">${r.id}</td><td class="${r.layer==="evidence"?"ok":"warn"}">${r.layer}</td><td>${r.effect}</td><td class="note">${r.basis}</td></tr>`).join("");
 }
 // ---------- routing

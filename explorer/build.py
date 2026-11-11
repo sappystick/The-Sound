@@ -61,6 +61,11 @@ if os.path.exists(os.path.join(A2, "index.json")):
         lab.append(dict(name=name, refs=js["refs"], dur=info["duration"], speakers=info["speakers"], rules=info["rules"], r=round(float(np.corrcoef(np.log(P), np.log(M))[0, 1]), 2),
                         err=round(float(np.median(np.abs(12 * np.log2(M / P)))), 2), median=round(float(np.median(f0[f0[:, 1] > 0, 1])), 1),
                         words=[dict(w=x["word"], s=x["speaker"], r=x["rules"]) for x in js["words"]]))
+def _j(n):
+    q = os.path.join(A2, n); return json.load(open(q, encoding="utf-8")) if os.path.exists(q) else None
+DATA["opening"] = _j("opening_index.json") or []; DATA["aramaic"] = _j("aramaic_index.json") or {"sayings": []}
+_ll = json.load(open(os.path.join(ROOT, "code/voice/language_layer.json"), encoding="utf-8"))
+DATA["langs"] = [dict(who=k, **{x: v[x] for x in ("lang", "confidence", "basis")}) for k, v in _ll["speakers"].items()]
 DATA["lab"] = lab; DATA["rulebook"] = json.load(open(os.path.join(ROOT, "code/voice/delivery_rules.json"), encoding="utf-8"))["rules"]
 tpl = open(os.path.join(HERE, "template.html"), encoding="utf-8").read()
 open(os.path.join(HERE, "index.html"), "w", encoding="utf-8").write(tpl.replace("__DATA__", json.dumps(DATA, ensure_ascii=False, separators=(",", ":"))))

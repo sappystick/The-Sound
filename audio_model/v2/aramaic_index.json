@@ -1,0 +1,85 @@
+{
+ "_caveat": "Peshitta consonants; vowels supplied by hand from Classical Syriac grammar; a later dialect than the Aramaic of AD 30; needs a Syriacist's check.",
+ "sayings": [
+  {
+   "file": "aramaic_1_1-23.mp3",
+   "ref": "1:23",
+   "speaker": "John (the Baptist)",
+   "english": "I am the voice of one crying in the wilderness: make straight the way of the Lord.",
+   "syriac": "ܐܢܐ ܩܠܐ ܕܩܪܐ ܒܡܕܒܪܐ ܕܐܫܘܘ ܐܘܪܚܗ ܕܡܪܝܐ",
+   "translit": "ʾenā qālā d-qārē b-madbrā, d-ʾašwaw ʾurḥeh d-māryā",
+   "ipa": "ʔe.ˈnaː ˈqaː.laː də.ˈqaː.reː bə.mað.bə.ˈraː | dʔaʃ.ˈwaw ʔur.ˈħeh də.ˈmaːr.jaː",
+   "dur": 7.4
+  },
+  {
+   "file": "aramaic_2_1-29.mp3",
+   "ref": "1:29",
+   "speaker": "John (the Baptist)",
+   "english": "Behold the Lamb of God, who takes away the sin of the world.",
+   "syriac": "ܗܐ ܐܡܪܗ ܕܐܠܗܐ ܗܘ ܕܫܩܠ ܚܛܝܬܗ ܕܥܠܡܐ",
+   "translit": "hā ʾemreh d-ʾalāhā, haw d-šāqel ḥṭīteh d-ʿālmā",
+   "ipa": "ˈhaː ʔem.ˈreh da.ʔa.ˈlaː.haː | ˈhaw də.ˈʃaː.qel ħtˤiː.ˈθeh də.ˈʕaːl.maː",
+   "dur": 7.1
+  },
+  {
+   "file": "aramaic_3_1-38.mp3",
+   "ref": "1:38",
+   "speaker": "Jesus",
+   "english": "What are you seeking?",
+   "syriac": "ܡܢܐ ܒܥܝܢ ܐܢܬܘܢ",
+   "translit": "mānā bāʿēn ʾa(n)tōn",
+   "ipa": "ˈmaː.naː baː.ˈʕeːn ʔat.ˈtoːn",
+   "dur": 4.2
+  },
+  {
+   "file": "aramaic_4_1-38.mp3",
+   "ref": "1:38",
+   "speaker": "two disciples",
+   "english": "Our master, where are you staying?",
+   "syriac": "ܪܒܢ ܐܝܟܐ ܗܘܐ ܐܢܬ",
+   "translit": "rabban, ʾaykā hāwē ʾa(n)t",
+   "ipa": "rab.ˈban | ʔaj.ˈkaː ˈhaː.weː ˈʔat",
+   "dur": 4.5
+  },
+  {
+   "file": "aramaic_5_1-39.mp3",
+   "ref": "1:39",
+   "speaker": "Jesus",
+   "english": "Come and you will see.",
+   "syriac": "ܬܘ ܘܬܚܙܘܢ",
+   "translit": "taw w-teḥzōn",
+   "ipa": "ˈtaw wə.teħ.ˈzoːn",
+   "dur": 3.3
+  },
+  {
+   "file": "aramaic_6_1-41.mp3",
+   "ref": "1:41",
+   "speaker": "Andrew",
+   "english": "We have found the Messiah.",
+   "syriac": "ܐܫܟܚܢܝܗܝ ܠܡܫܝܚܐ",
+   "translit": "ʾeškaḥnāy la-mšīḥā",
+   "ipa": "ʔeʃ.kaħ.ˈnaːj lam.ˈʃiː.ħaː",
+   "dur": 3.9
+  },
+  {
+   "file": "aramaic_7_1-42.mp3",
+   "ref": "1:42",
+   "speaker": "Jesus",
+   "english": "You are Simon son of Jona; you shall be called Kepha.",
+   "syriac": "ܐܢܬ ܗܘ ܫܡܥܘܢ ܒܪܗ ܕܝܘܢܐ ܐܢܬ ܬܬܩܪܐ ܟܐܦܐ",
+   "translit": "ʾa(n)t-hū šemʿōn breh d-yawnā; ʾa(n)t tetqrē kēpā",
+   "ipa": "ˈʔat huː ʃem.ˈʕoːn bə.ˈreh də.ˈjaw.naː | ˈʔat teθ.qə.ˈreː ˈkeː.faː",
+   "dur": 6.3
+  },
+  {
+   "file": "aramaic_8_1-43.mp3",
+   "ref": "1:43",
+   "speaker": "Jesus",
+   "english": "Follow me.",
+   "syriac": "ܬܐ ܒܬܪܝ",
+   "translit": "tā bātar",
+   "ipa": "ˈtaː ˈbaː.θar",
+   "dur": 3.1
+  }
+ ]
+}

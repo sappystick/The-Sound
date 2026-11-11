@@ -1,0 +1,100 @@
+{
+ "_about": "For each speaker in John: the language the words were most probably first spoken in, with a confidence label and the basis. The Gospel itself was composed and read in Greek (project finding 12), so the rendered voice is the Greek a first-century audience heard. This layer says what stood behind it.",
+ "default": {
+  "lang": "Aramaic",
+  "confidence": "probable",
+  "basis": "Aramaic was the everyday language of Jewish Palestine (Fitzmyer, 'The Languages of Palestine in the First Century AD'; Aramaic documents from Qumran, Murabba'at and Nahal Hever; ossuary inscriptions)."
+ },
+ "speakers": {
+  "narrator": {
+   "lang": "Greek",
+   "confidence": "certain",
+   "basis": "The Gospel is a Greek composition: its word-chains exist only in Greek (finding 12) and all early manuscripts are Greek."
+  },
+  "Jesus": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "very probable",
+   "basis": "Aramaic sayings preserved in the Gospels (talitha koum, ephphatha, abba, eloi eloi lema sabachthani); the Aramaic words John keeps (rabbi, Messias, Kephas, rabbouni). Hebrew likely for scripture; Greek possible with Pilate and with 'the Greeks' (12:20)."
+  },
+  "John (the Baptist)": {
+   "lang": "Aramaic (Judean)",
+   "confidence": "probable",
+   "basis": "A Judean preacher to Judean crowds; his self-description quotes Isaiah 40:3, known in Hebrew and in the Aramaic targum tradition. Josephus (Antiquities 18.116-119) describes his preaching to the Jews."
+  },
+  "Pilate": {
+   "lang": "Greek",
+   "confidence": "probable",
+   "basis": "Roman governors dealt with provincials in Greek; Latin was the language of the army and of his own inscription at Caesarea. The title on the cross was in Hebrew, Latin and Greek (19:20)."
+  },
+  "the disciples": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "Galilean fishermen; Peter's Galilean speech was recognisable (Matthew 26:73). Andrew and Philip bear Greek names and came from Bethsaida, so were likely bilingual."
+  },
+  "Andrew": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "Galilean from Bethsaida; Greek name, likely bilingual; John has him say 'Messias' and glosses it."
+  },
+  "Philip": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "Galilean from Bethsaida; Greek name; the Greeks approach him (12:21), which suggests he spoke Greek too."
+  },
+  "Nathanael": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "From Cana in Galilee (21:2); addresses Jesus as 'Rabbi'."
+  },
+  "Peter": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "Renamed Kepha (Aramaic 'rock'), which John keeps as Kephas and translates (1:42)."
+  },
+  "his mother": {
+   "lang": "Aramaic (Galilean)",
+   "confidence": "probable",
+   "basis": "A Galilean village household."
+  },
+  "the steward": {
+   "lang": "Aramaic",
+   "confidence": "probable",
+   "basis": "A village wedding at Cana in Galilee."
+  },
+  "they": {
+   "lang": "Aramaic",
+   "confidence": "probable",
+   "basis": "Jewish interlocutors in Judea or Galilee (here: priests and Levites from Jerusalem, then two disciples of the Baptist)."
+  },
+  "the Jews": {
+   "lang": "Aramaic",
+   "confidence": "probable",
+   "basis": "Jerusalem authorities and crowds; Hebrew for scripture and legal debate is also possible."
+  },
+  "the Pharisees": {
+   "lang": "Aramaic or Hebrew",
+   "confidence": "probable",
+   "basis": "Legal debate may have used Hebrew (Mishnaic Hebrew was a living language)."
+  }
+ },
+ "aramaic_words": {
+  "ραββι": "rabbi: 'my great one', teacher (John translates it at 1:38)",
+  "ραββουνι": "rabbouni: 'my teacher' (translated at 20:16)",
+  "μεσσιασ": "meshiha: 'anointed one' (translated 'Christ' at 1:41)",
+  "κηφασ": "kepha: 'rock' (translated 'Peter' at 1:42)",
+  "αμην": "amen: 'truly', a Hebrew/Aramaic word left untranslated; doubled only in John",
+  "ωσαννα": "hosha'na: 'save, please' (12:13)",
+  "μαννα": "manna (6:31)",
+  "πασχα": "pascha: Aramaic form of Passover",
+  "σαββατον": "shabbata: the sabbath",
+  "σατανασ": "satana: 'the adversary'",
+  "βηθεσδα": "Beth-hesda: 'house of mercy' (5:2)",
+  "γαββαθα": "Gabbatha: the raised place (19:13)",
+  "γολγοθα": "Golgotha: 'skull' (19:17)",
+  "σιλωαμ": "Shiloah: 'sent' (translated at 9:7)",
+  "θωμασ": "Toma: 'twin' (translated Didymus at 11:16)",
+  "βαριωνα": "bar-Yona",
+  "ιωαννησ": "Yohanan: 'the Lord has been gracious'",
+  "ιησουσ": "Yeshua: 'the Lord saves'"
+ }
+}

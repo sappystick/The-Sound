@@ -4,6 +4,7 @@ A research model that reads the Gospel of John, and the scriptures it points to,
 symbol. Every claim is tested against chance before it counts.
 
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- `POWER_SOURCES.md`: round 47, Palestinian Aramaic of the period (Qumran, targum, Galilean Talmud) vs the Gospel Aramaic words; ancient ways of writing sound; Jericho and magrepha physics
 - `POWER_LANGUAGE.md`: round 46, the four predictions by letters and accent; composition language (Greek vs Syriac, with controls)
 - `POWER_AXIOM.md`: round 45, John taken as the score of a lost instrument; the whole book mapped, the axiom tested
 - `POWER_MESE.md`: round 44, hymn papyri tests, "I am" on the middle string, the instrument, the technical second reading

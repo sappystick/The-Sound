@@ -1,0 +1,892 @@
+{
+ "corpus_words": {
+  "Qumran Aramaic (DSS)": 40027,
+  "Qumran Hebrew (DSS, control)": 368000,
+  "Biblical Aramaic": 4948,
+  "Targum Onkelos": 83102,
+  "Jerusalem Talmud (Galilean, sample)": 78687,
+  "Syriac NT (Peshitta)": 109640
+ },
+ "A_aramaisms": {
+  "talitha (Mk 5:41)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 42,
+    "with_prefix": 66,
+    "per_100k": 60.2
+   }
+  },
+  "koum (Mk 5:41)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 6,
+    "with_prefix": 6,
+    "per_100k": 15.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 55,
+    "with_prefix": 55,
+    "per_100k": 14.9
+   },
+   "Biblical Aramaic": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 20.2
+   },
+   "Targum Onkelos": {
+    "exact": 13,
+    "with_prefix": 14,
+    "per_100k": 16.8
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 116,
+    "with_prefix": 116,
+    "per_100k": 147.4
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 33,
+    "with_prefix": 36,
+    "per_100k": 32.8
+   }
+  },
+  "ephphatha (Mk 7:34)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 2.5
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 13,
+    "with_prefix": 13,
+    "per_100k": 3.5
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 12,
+    "with_prefix": 17,
+    "per_100k": 15.5
+   }
+  },
+  "abba (Mk 14:36)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 45,
+    "with_prefix": 59,
+    "per_100k": 71.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 108,
+    "with_prefix": 114,
+    "per_100k": 144.9
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 83,
+    "with_prefix": 129,
+    "per_100k": 117.7
+   }
+  },
+  "eloi / elahi (Mk 15:34)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 6,
+    "with_prefix": 6,
+    "per_100k": 15.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 191,
+    "with_prefix": 191,
+    "per_100k": 51.9
+   },
+   "Biblical Aramaic": {
+    "exact": 2,
+    "with_prefix": 5,
+    "per_100k": 101.1
+   },
+   "Targum Onkelos": {
+    "exact": 6,
+    "with_prefix": 6,
+    "per_100k": 7.2
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 22,
+    "with_prefix": 38,
+    "per_100k": 48.3
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 4,
+    "with_prefix": 13,
+    "per_100k": 11.9
+   }
+  },
+  "eli (Mt 27:46)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 2.5
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 348,
+    "with_prefix": 348,
+    "per_100k": 94.6
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 12,
+    "with_prefix": 12,
+    "per_100k": 15.3
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "lema (Mk 15:34)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 9,
+    "with_prefix": 10,
+    "per_100k": 25.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 117,
+    "with_prefix": 117,
+    "per_100k": 31.8
+   },
+   "Biblical Aramaic": {
+    "exact": 3,
+    "with_prefix": 3,
+    "per_100k": 60.6
+   },
+   "Targum Onkelos": {
+    "exact": 34,
+    "with_prefix": 57,
+    "per_100k": 68.6
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 65,
+    "with_prefix": 109,
+    "per_100k": 138.5
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 59,
+    "with_prefix": 142,
+    "per_100k": 129.5
+   }
+  },
+  "sabachthani (Mk 15:34)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 1.2
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 6,
+    "with_prefix": 6,
+    "per_100k": 5.5
+   }
+  },
+  "rabbouni (Jn 20:16)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 4,
+    "with_prefix": 4,
+    "per_100k": 10.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 0.3
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 96,
+    "with_prefix": 143,
+    "per_100k": 172.1
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 4,
+    "with_prefix": 4,
+    "per_100k": 5.1
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "golgotha (Jn 19:17)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 3,
+    "per_100k": 3.6
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "gabbatha (Jn 19:13)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "kepha (Jn 1:42)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 0.3
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 5,
+    "with_prefix": 5,
+    "per_100k": 6.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "messias (Jn 1:41)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 2,
+    "with_prefix": 2,
+    "per_100k": 2.4
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 3,
+    "with_prefix": 3,
+    "per_100k": 3.8
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 404,
+    "with_prefix": 564,
+    "per_100k": 514.4
+   }
+  },
+  "mammon (Mt 6:24)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 2.5
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 5,
+    "with_prefix": 5,
+    "per_100k": 1.4
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 5,
+    "with_prefix": 5,
+    "per_100k": 6.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 15,
+    "with_prefix": 15,
+    "per_100k": 19.1
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 1,
+    "with_prefix": 4,
+    "per_100k": 3.6
+   }
+  },
+  "raka (Mt 5:22)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 3,
+    "with_prefix": 3,
+    "per_100k": 0.8
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 1.2
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "maranatha (1 Cor 16:22)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 2.5
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 0.3
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 0,
+    "with_prefix": 1,
+    "per_100k": 1.3
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 106,
+    "with_prefix": 300,
+    "per_100k": 273.6
+   }
+  },
+  "korban (Mk 7:11)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 5,
+    "with_prefix": 5,
+    "per_100k": 12.5
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 26,
+    "with_prefix": 26,
+    "per_100k": 7.1
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 42,
+    "with_prefix": 43,
+    "per_100k": 51.7
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 12,
+    "with_prefix": 22,
+    "per_100k": 28.0
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   }
+  },
+  "hosanna (Jn 12:13)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 7,
+    "with_prefix": 7,
+    "per_100k": 1.9
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 1,
+    "with_prefix": 3,
+    "per_100k": 3.6
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 1,
+    "with_prefix": 2,
+    "per_100k": 2.5
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 0,
+    "with_prefix": 1,
+    "per_100k": 0.9
+   }
+  },
+  "I am: ana hu": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 164,
+    "with_prefix": 164,
+    "per_100k": 409.7
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 41,
+    "with_prefix": 42,
+    "per_100k": 11.4
+   },
+   "Biblical Aramaic": {
+    "exact": 14,
+    "with_prefix": 16,
+    "per_100k": 323.4
+   },
+   "Targum Onkelos": {
+    "exact": 310,
+    "with_prefix": 352,
+    "per_100k": 423.6
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 53,
+    "with_prefix": 75,
+    "per_100k": 95.3
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 1361,
+    "with_prefix": 1504,
+    "per_100k": 1371.8
+   }
+  },
+  "amen": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 101,
+    "with_prefix": 101,
+    "per_100k": 27.4
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 24,
+    "with_prefix": 26,
+    "per_100k": 31.3
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 20,
+    "with_prefix": 27,
+    "per_100k": 34.3
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 1,
+    "with_prefix": 1,
+    "per_100k": 0.9
+   }
+  },
+  "bar (son)": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 88,
+    "with_prefix": 100,
+    "per_100k": 249.8
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 76,
+    "with_prefix": 965,
+    "per_100k": 262.2
+   },
+   "Biblical Aramaic": {
+    "exact": 4,
+    "with_prefix": 5,
+    "per_100k": 101.1
+   },
+   "Targum Onkelos": {
+    "exact": 412,
+    "with_prefix": 485,
+    "per_100k": 583.6
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 557,
+    "with_prefix": 691,
+    "per_100k": 878.2
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 136,
+    "with_prefix": 274,
+    "per_100k": 249.9
+   }
+  },
+  "abba/father emphatic 'abuna'": {
+   "Qumran Aramaic (DSS)": {
+    "exact": 2,
+    "with_prefix": 2,
+    "per_100k": 5.0
+   },
+   "Qumran Hebrew (DSS, control)": {
+    "exact": 1,
+    "with_prefix": 5,
+    "per_100k": 1.4
+   },
+   "Biblical Aramaic": {
+    "exact": 0,
+    "with_prefix": 0,
+    "per_100k": 0.0
+   },
+   "Targum Onkelos": {
+    "exact": 10,
+    "with_prefix": 14,
+    "per_100k": 16.8
+   },
+   "Jerusalem Talmud (Galilean, sample)": {
+    "exact": 35,
+    "with_prefix": 35,
+    "per_100k": 44.5
+   },
+   "Syriac NT (Peshitta)": {
+    "exact": 25,
+    "with_prefix": 28,
+    "per_100k": 25.5
+   }
+  }
+ },
+ "B_war_scroll": {
+  "lines_with_trumpets": 37,
+  "of_which_with_writing_verb": 10,
+  "refs": [
+   "2:16",
+   "2:17",
+   "2:20",
+   "3:1",
+   "3:2",
+   "3:3",
+   "3:4",
+   "3:5",
+   "3:6",
+   "3:7",
+   "3:8",
+   "3:9",
+   "3:10",
+   "7:13",
+   "7:15",
+   "8:1",
+   "8:2",
+   "8:3",
+   "8:5",
+   "8:8",
+   "8:11",
+   "8:13",
+   "8:17",
+   "9:1",
+   "9:3",
+   "9:6",
+   "10:7",
+   "16:3",
+   "16:5",
+   "16:7",
+   "16:9",
+   "16:12",
+   "17:10",
+   "17:11",
+   "17:12",
+   "17:15",
+   "18:4"
+  ],
+  "note": "1QM 2-3, 7-9: trumpets named for their purpose with words written on them; signals specified as long or sharp blasts (counts only; CC BY-NC)"
+ },
+ "B_psalm_terms": {
+  "lamenatseah (to the leader)": 55,
+  "selah": 72,
+  "neginot (strings)": 2,
+  "sheminit (the eighth)": 2,
+  "gittit": 3,
+  "alamot": 4,
+  "mizmor (psalm, sung with instrument)": 57,
+  "shir hamaalot (song of ascents)": 14,
+  "maskil": 17,
+  "miktam": 0,
+  "nehilot (flutes?)": 1,
+  "higgayon": 0
+ },
+ "C_jericho": {
+  "distance_km": 22,
+  "ambient_night_dB": 20.0,
+  "needed_Lw_by_band": {
+   "63": {
+    "spherical_Lw_needed": 135.0,
+    "inversion_Lw_needed": 121.6
+   },
+   "125": {
+    "spherical_Lw_needed": 128.6,
+    "inversion_Lw_needed": 115.2
+   },
+   "250": {
+    "spherical_Lw_needed": 139.8,
+    "inversion_Lw_needed": 126.4
+   },
+   "500": {
+    "spherical_Lw_needed": 159.6,
+    "inversion_Lw_needed": 146.2
+   },
+   "1000": {
+    "spherical_Lw_needed": 199.2,
+    "inversion_Lw_needed": 185.8
+   }
+  },
+  "sources_Lw": {
+   "the crier Gevini, a great shout": 97,
+   "a shofar": 115,
+   "two silver trumpets": 118,
+   "cymbal crash (peak)": 120,
+   "Levites' choir of 12": 107.8,
+   "120 trumpets (2 Chr 5:12)": 136,
+   "the great gate (heavy bronze doors, a slam)": 125
+  },
+  "verdict": {
+   "the crier Gevini, a great shout": [],
+   "a shofar": [],
+   "two silver trumpets": [
+    125
+   ],
+   "cymbal crash (peak)": [
+    125
+   ],
+   "Levites' choir of 12": [],
+   "120 trumpets (2 Chr 5:12)": [
+    63,
+    125,
+    250
+   ],
+   "the great gate (heavy bronze doors, a slam)": [
+    63,
+    125
+   ]
+  },
+  "note": "audible bands under a night inversion duct (spherical spreading to 1 km, cylindrical beyond); with plain spherical spreading nothing listed is audible"
+ },
+ "C_magrepha": {
+  "text": "Arakhin 11a: one cubit wide, one cubit tall, a handle; hollow, ten holes; each hole ten kinds of tone (Shmuel: 100 in all; the baraita: 100 each, 1,000)",
+  "reading": "ten pipes, each overblown through its harmonics: 10 x 10 = 100 pitches (stopped pipes give odd harmonics only)",
+  "pipes": [
+   {
+    "Hz": 165.0,
+    "stopped_m": 0.52,
+    "open_m": 1.039
+   },
+   {
+    "Hz": 173.8,
+    "stopped_m": 0.493,
+    "open_m": 0.987
+   },
+   {
+    "Hz": 195.6,
+    "stopped_m": 0.438,
+    "open_m": 0.877
+   },
+   {
+    "Hz": 220.0,
+    "stopped_m": 0.39,
+    "open_m": 0.78
+   },
+   {
+    "Hz": 231.8,
+    "stopped_m": 0.37,
+    "open_m": 0.74
+   },
+   {
+    "Hz": 260.7,
+    "stopped_m": 0.329,
+    "open_m": 0.658
+   },
+   {
+    "Hz": 293.3,
+    "stopped_m": 0.292,
+    "open_m": 0.585
+   },
+   {
+    "Hz": 330.0,
+    "stopped_m": 0.26,
+    "open_m": 0.52
+   },
+   {
+    "Hz": 347.6,
+    "stopped_m": 0.247,
+    "open_m": 0.493
+   },
+   {
+    "Hz": 391.1,
+    "stopped_m": 0.219,
+    "open_m": 0.439
+   }
+  ],
+  "fits": {
+   "common cubit 0.445 m": false,
+   "royal cubit 0.525 m": true
+  },
+  "longest_stopped_m": 0.52,
+  "distinct_pitches_open_10x10": 45
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "file": "power/audio/r49_tamid_psalm24_lyre_tubes.mp3",
+ "seconds": 141.9,
+ "syllables": 196,
+ "string_shares": {
+  "hypate": 0.25,
+  "parhypate": 0.046,
+  "lichanos": 0.133,
+  "mese": 0.128,
+  "trite": 0.066,
+  "paranete": 0.265,
+  "nete": 0.112
+ },
+ "hypate_sounds": true,
+ "most_sounded": "paranete",
+ "note": "Hebrew qamets (ɔ) sounds the hypate (Saturn), the string Koine Greek leaves silent (round 45)"
+}

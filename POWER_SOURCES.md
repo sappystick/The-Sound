@@ -165,3 +165,24 @@ The middle string is named *the middle* in Babylon (*qablītum*) and in Greece (
 - **Space:** the reverberation of a stone court.
 
 **Not used:** the *magrepha* is not part of this rite in Tamid 7:3.
+
+## 6. Round 49: the same service played on the seven-string lyre with vowel tubes
+**Files:**
+- script `power/round49_service_on_lyre.py`;
+- numbers `power/round49_results.json`;
+- audio **`power/audio/r49_tamid_psalm24_lyre_tubes.mp3`** (2 min 22 s).
+
+**What changes:** the trumpets and cymbal stay as in round 48. Psalm 24 is now played, not sung. Each of its 196 syllables plucks the string of its vowel (Nicomachus) through that vowel's tube.
+
+**String shares:**
+
+| String | hypate (Saturn) | parhypate | lichanos | mese | trite | paranete | nete |
+|---|---|---|---|---|---|---|---|
+| Share | **25%** | 4.6% | 13.3% | 12.8% | 6.6% | **26.5%** | 11.2% |
+
+**What it shows:**
+- **Hebrew sounds all seven strings.**
+- The lowest string (Saturn), which Koine Greek leaves silent (round 45), carries a quarter of the psalm, through the vowel *qamets* (ɔ).
+- **Caveat:** the open-o pronunciation of *qamets* is Tiberian (medieval). Second Temple Hebrew probably had a long ā there, which would move these syllables to the Moon string.
+
+**Our choices:** u is played on the υ string and the short ə on ε.

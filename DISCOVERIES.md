@@ -448,3 +448,46 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
   - the cornerstone episode quotes Psalm 118:22 and is lifted by a wind-spirit in a wineskin;
   - cross-links to Tobit (fish liver and gall against Asmodeus) and to Exodus 28 (twelve stones).
 - **Gematria with control:** serpent = Messiah = 358; ark = Urim = 257; love = one = 13. Three equal pairs against 0.6 expected, but the terms were chosen with known pairs in mind. Sums are at chance.
+
+## AM. Rounds 39–49: lenses, words of power as sound, the papyrus as score, the instrument, the languages
+Write-ups:
+- `round39/*/FINDINGS.md`
+- `POWER_SOUNDS.md`, `POWER_SIM.md`, `POWER_MACHINES.md`, `POWER_SCORE.md`
+- `POWER_MESE.md`, `POWER_AXIOM.md`, `POWER_LANGUAGE.md`, `POWER_SOURCES.md`
+
+### Measured, with controls
+- **Scribes corrected by ear.** In P66 only 9.7% of corrections sound the same, against 60% of variants (p ≈ 10⁻⁴⁰); Sinaiticus is alike.
+- **The papyri are laid out in spoken syllables.** 96–99% of line-end word splits fall at a syllable boundary, against 35% by chance (P66, P75, 01, 03).
+- **John was composed in Greek.** It carries more sound-patterning between neighbouring words than its Syriac translation. The control works: Hebrew Psalms beat their Greek translation.
+- **The Gospels' Aramaic words are Western, Palestinian.** They are attested in the targums, the Galilean Talmud and Qumran Aramaic, not in the Eastern Syriac. *Abba* is colloquial: absent from Qumran's literary Aramaic, common in Galilean.
+- **"Many waters" = a crowd.** 10–30 summed voices reach the spectral flatness of rushing water (Rev 19:6).
+- **The 364-day calendar engine reproduces the Qumran scrolls:** 57/57 festival weekdays and 42/42 priestly courses. John's chronology fits the lunar calendar (0 contradictions against 4).
+- **Rooms:** each has a favoured note (King's Chamber C3, 132 Hz). A pop or hiss excites every room mode, a sung note only 1–3%. A loud voice in a small stone chamber exceeds the 90 dB threshold of the balance organ.
+- **Original wording is not physically stronger than translation** (3 of 7 pairs; p 0.77).
+- **The speaking machine:** a three-section tube design reproduces all seven Greek vowels within 4%, at real-mouth size.
+
+### Suggestive (needs a pre-registered rerun)
+- **The middle "I am" is at the book's centre.** The fourth of seven, "I am the good shepherd … lays down his life" (10:11), stands at 0.487 of John's syllables (p ≈ 0.05 under every mapping). It overlaps claim C2.
+- **The middle belongs to Jesus.** In John all 4 uses of μέσος put Jesus in the middle, against 5 of 26 in the Synoptics (p 0.005, post hoc).
+- **Visions crescendo.** Their sound events rise toward a climax (p 0.0014, exploratory).
+- **"I am" verses end on the mese under the accent melody** (p 0.039; does not survive correction).
+- **John's power sayings lean toward Aramaic patterning** (p 0.20).
+
+### Sources brought in
+- Coptic SCRIPTORIUM; Sefer Yetzirah; Charles's 1 Enoch and Jubilees; Qumran calendar texts.
+- Heron, *Pneumatica* (temple sound machines).
+- P.Oxy. 1786 (Christian hymn with notes, late 3rd c.); P.Amh. 2.
+- Clement, *Protrepticus* 1.5: the human as the Logos's "many-voiced instrument": lyre, aulos, temple.
+- Berakhot 3b (wind-played lyre); Berakhot 62a (cantillation hand signs); Odes of Solomon.
+- Mishnah Arakhin 2, Tamid 3 and 7, Rosh Hashanah 4:9 (rhythm as ratios); Arakhin 11a (the *magrepha*).
+- Josephus, *Antiquities* 7.306 (*kinnor* 10 strings, *nabla* 12 notes); War Scroll trumpets.
+- Qumran Aramaic; the Jerusalem Talmud (Galilean).
+
+### Negative
+- No hidden letter-melody in the text.
+- No Sefer Yetzirah letter power.
+- No section modes.
+- "I am" is not at its own verse's centre.
+- Thomas has no Johannine vocabulary.
+- Sacred-name abbreviations are not a theology code.
+- Sound cannot topple walls (Jericho is short by about 250× in pressure).

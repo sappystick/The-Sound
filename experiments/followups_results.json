@@ -1,0 +1,193 @@
+{
+ "F1": {
+  "life": {
+   "hit": 5,
+   "expected": 0.86,
+   "p": 0.0008198592624225763,
+   "books": [
+    "Eccl",
+    "Exod",
+    "Lev",
+    "Ruth",
+    "Song"
+   ],
+   "survives_holm": true
+  },
+  "water": {
+   "hit": 5,
+   "expected": 3.03,
+   "p": 0.1763521714808843,
+   "books": [
+    "Jonah",
+    "Lev",
+    "Nah",
+    "Neh",
+    "Song"
+   ],
+   "survives_holm": false
+  },
+  "light": {
+   "hit": 1,
+   "expected": 1.05,
+   "p": 0.6692147536293025,
+   "books": [
+    "Neh"
+   ],
+   "survives_holm": false
+  },
+  "heaven and earth": {
+   "hit": 2,
+   "expected": 2.08,
+   "p": 0.6379266322334366,
+   "books": [
+    "Hag",
+    "Zech"
+   ],
+   "survives_holm": false
+  },
+  "tree": {
+   "hit": 3,
+   "expected": 1.5,
+   "p": 0.17957230185723702,
+   "books": [
+    "Hab",
+    "Lev",
+    "Neh"
+   ],
+   "survives_holm": false
+  },
+  "gate": {
+   "hit": 4,
+   "expected": 2.31,
+   "p": 0.18806004290838504,
+   "books": [
+    "Amos",
+    "Esth",
+    "Neh",
+    "Obad"
+   ],
+   "survives_holm": false
+  },
+  "house of YHWH / temple": {
+   "hit": 1,
+   "expected": 2.74,
+   "p": 0.9541016169994184,
+   "books": [
+    "Jonah"
+   ],
+   "survives_holm": false
+  },
+  "name of YHWH": {
+   "hit": 0,
+   "expected": 0.79,
+   "p": 1.0000000000000002,
+   "books": [],
+   "survives_holm": false
+  }
+ },
+ "F2": {
+  "f0": 110.0,
+  "directions": [
+   {
+    "direction": "dawn",
+    "sequence": "αεεηηηιιιιοοοοουυυυυυωωωωωωω",
+    "start": "α",
+    "overtones": [
+     11,
+     19,
+     17,
+     5,
+     6,
+     5,
+     7
+    ]
+   },
+   {
+    "direction": "south",
+    "sequence": "ιοουυυωωωωαααααεεεεεεηηηηηηη",
+    "start": "ι",
+    "overtones": [
+     5,
+     6,
+     5,
+     7,
+     11,
+     19,
+     17
+    ]
+   },
+   {
+    "direction": "west",
+    "sequence": "ηιιοοουυυυωωωωωααααααεεεεεεε",
+    "start": "η",
+    "overtones": [
+     17,
+     5,
+     6,
+     5,
+     7,
+     11,
+     19
+    ]
+   },
+   {
+    "direction": "north",
+    "sequence": "ωααεεεηηηηιιιιιοοοοοουυυυυυυ",
+    "start": "ω",
+    "overtones": [
+     7,
+     11,
+     19,
+     17,
+     5,
+     6,
+     5
+    ]
+   },
+   {
+    "direction": "earth",
+    "sequence": "εηηιιιοοοουυυυυωωωωωωααααααα",
+    "start": "ε",
+    "overtones": [
+     19,
+     17,
+     5,
+     6,
+     5,
+     7,
+     11
+    ]
+   },
+   {
+    "direction": "sky",
+    "sequence": "υωωαααεεεεηηηηηιιιιιιοοοοοοο",
+    "start": "υ",
+    "overtones": [
+     5,
+     7,
+     11,
+     19,
+     17,
+     5,
+     6
+    ]
+   },
+   {
+    "direction": "cosmos",
+    "sequence": "ουυωωωααααεεεεεηηηηηηιιιιιιι",
+    "start": "ο",
+    "overtones": [
+     6,
+     5,
+     7,
+     11,
+     19,
+     17,
+     5
+    ]
+   }
+  ],
+  "duration_s": 70.1,
+  "complete_square": true
+ }
+}

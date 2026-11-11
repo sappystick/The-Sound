@@ -532,3 +532,4 @@ Write-ups:
 - **The last construction pieces added**, among them: the anointing oil 2:1:1:2 and incense 1:1:1:1; Ezekiel's 36 gate cells at 55 Hz; Herod's 15 steps and the golden vine (John 15:1).
 - **Pliny, NH 2.84,** verified: the Pythagorean planetary intervals (tone, ½, ½, 1½, 1, ½, ½), with the Sun 4th of 7.
 - **The speaking planet organ:** vowels identified 97.8% through the tubes, against 0% without (machine test, not a human listening test). ἐγὼ εἰμι = Mercury, Mars, Sun, Sun.
+- **Round 60 (`POWER_PYRAMID.md`):** the Great Pyramid's internal dimensions (Petrie 1883) do not map onto the biblical measurements beyond chance (lengths p 0.062; shapes p 0.90). Shared: the cubit system (Ezekiel's long cubit = the Egyptian royal cubit of 7 palms) and round numbers (the King's Chamber is 20 × 10 royal cubits). The coffer is not the ark's volume under any attested cubit.

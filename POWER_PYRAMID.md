@@ -37,3 +37,31 @@
   - round cubit numbers;
   - a 2:1 room (King's Chamber 20 × 10; Holy Place 20 × 10).
 - The famous coffer-and-ark equation fails with any attested cubit.
+
+## Addendum: the King's Chamber and Solomon's porch have the same floor
+**The texts:**
+- Solomon's porch (*ulam*) was "20 cubits long, along the width of the House, and 10 cubits deep" (1 Kgs 6:3).
+- Chronicles says Solomon's House was laid out in cubits "**by the former measure**" (2 Chr 3:3). This is commonly read as the older, longer cubit: the 7-handbreadth royal cubit that Ezekiel also uses ("a cubit and a handbreadth", Ezek 40:5).
+
+| Room | Plan | In metres |
+|---|---|---|
+| **King's Chamber** (Petrie) | 20 × 10 royal cubits | **10.47 × 5.24** (height 5.84) |
+| **Solomon's porch**, former (royal) cubit 0.5236 m | 20 × 10 cubits | **10.47 × 5.24** |
+| Solomon's porch, long cubit 0.52 m | 20 × 10 | 10.40 × 5.20 |
+| Solomon's porch, common cubit 0.445 m | 20 × 10 | 8.90 × 4.45 |
+| Solomon's Holy Place (*hekhal*) | 40 × 20 | twice the King's Chamber in each direction |
+| Solomon's Holy of Holies (*debir*) | 20 × 20 × 20 | a cube; not the same |
+
+**Calc:** if Solomon's "former measure" is the royal cubit, **the King's Chamber and Solomon's porch have the same floor to the centimetre.** Solomon's Holy Place is the same plan doubled.
+- They therefore share the same horizontal resonances: 16.4 Hz along the length and 32.7 Hz across.
+
+**What differs:**
+- **Height:** the King's Chamber is 11.16 royal cubits high. Chronicles gives the porch 120 cubits, a figure usually judged a textual error. Kings gives no height.
+- **Function:** a sealed granite burial chamber deep inside the pyramid, against an open entrance porch in front of the temple.
+- **Position:** the innermost room of the pyramid, against the outermost part of the temple.
+
+**How strong is it?**
+- The match is exact, and it is real **if** "the former measure" is the royal cubit. That reading is plausible but not certain.
+- Both buildings were laid out in the same royal cubit with round numbers. A 20 × 10 room is among the commonest plans such a system produces, so a shared plan does not by itself show that one was copied from the other.
+- It does show that **Solomon's builders and the pyramid's builders worked in the same unit, and at least once chose the same room**.
+- **Next test:** collect the plans of other Egyptian royal-cubit chambers (other pyramids and temples). If 20 × 10 is common, the match is ordinary. If it is rare, it becomes meaningful.

@@ -1,0 +1,56 @@
+{
+ "plain": {
+  "text": "mi sa mila ke yu",
+  "dur": 2.3,
+  "median_hz": 107.4,
+  "low": 80.5,
+  "high": 119.1,
+  "name": "statement",
+  "shape": "level, falling at the end"
+ },
+ "ka": {
+  "text": "mi sa mila ke yu ka",
+  "dur": 2.5,
+  "median_hz": 114.0,
+  "low": 107.4,
+  "high": 140.1,
+  "name": "question",
+  "shape": "rising at the end"
+ },
+ "pu": {
+  "text": "mi sa mila ke yu pu",
+  "dur": 2.68,
+  "median_hz": 113.3,
+  "low": 96.2,
+  "high": 125.2,
+  "name": "request",
+  "shape": "soft, dipping then lifting"
+ },
+ "hi": {
+  "text": "mi sa mila ke yu hi",
+  "dur": 2.4,
+  "median_hz": 133.5,
+  "low": 117.8,
+  "high": 149.6,
+  "name": "joy",
+  "shape": "high and wide, a lift then a fall"
+ },
+ "he": {
+  "text": "mi sa mila ke yu he",
+  "dur": 2.62,
+  "median_hz": 90.6,
+  "low": 74.7,
+  "high": 94.9,
+  "name": "sorrow",
+  "shape": "low, narrow and slow, sinking"
+ },
+ "wa": {
+  "text": "mi sa mila ke yu wa",
+  "dur": 2.28,
+  "median_hz": 136.5,
+  "low": 128.7,
+  "high": 146.1,
+  "name": "urgent",
+  "shape": "high, fast and loud, staying high"
+ }
+}

@@ -395,3 +395,15 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **Any language:** the engine is separated from the course pack. In-app builder: paste a text → analysis by Claude, or a plain word-list fallback → ladder built in the browser → spoken by the page's voice. An offline builder is also provided (`build_course.py`).
 - **Verified:** the browser ladder is identical to the Python ladder on John (60 steps); an automated run exercised every stage and review type; a Spanish course was built without analysis.
 - **Not verified here:** the Claude-analysis path and the Claude voice (they need a signed-in viewer). No learner outcomes.
+
+## AI. Sala, a designed language for people and machines (round 36, `lang/`)
+- **Built:**
+  - a 50-syllable sound system, chosen from PHOIBLE frequencies (each sound in 56–97% of 3,020 inventories);
+  - 148 roots derived by rule from widely known words (70 unchanged; every pair at least two sounds apart);
+  - 33 one-syllable grammar words and ten rules;
+  - a featural script, a syllable-by-syllable hand code, and six stance melodies;
+  - a number code and an unambiguous parser, giving each sentence a function-call form and a compact byte form.
+- **Checked:** 99 sample sentences parse to exactly one structure and survive the byte round trip; the browser parser equals the Python reference on all 99; the six melodies are measurably distinct (medians 91–137 Hz).
+- **Course:** 89 recorded steps teach 104 sentences in 5.3 minutes of audio.
+- **Costs measured:** 1.4–1.7 times the syllables of English; less lexical precision.
+- **Not tested:** learners, signers, speakers of tone languages. Adoption is a social matter that no design decides.

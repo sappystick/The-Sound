@@ -1,0 +1,404 @@
+{
+ "john": [
+  {
+   "sala": "loko sa ta yowu na kamu.",
+   "english": "In the beginning was the Word,",
+   "literal": "word [past] exist in begin.",
+   "call": [
+    "state(exist(who=word, in=begin, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "84dc99c85cab9f2532293cb3",
+   "file": "john_01.mp3",
+   "dur": 3.87
+  },
+  {
+   "sala": "ye loko sa ta yowu wi tewa.",
+   "english": "and the Word was with God,",
+   "literal": "and word [past] exist with god.",
+   "call": [
+    "state(exist(who=word, with=god, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a7284dc99c85cab9f29721a3cb30",
+   "file": "john_02.mp3",
+   "dur": 4.22
+  },
+  {
+   "sala": "ye loko sa ta tewa.",
+   "english": "and the Word was God.",
+   "literal": "and word [past] god.",
+   "call": [
+    "state(god(who=word, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a7284dc99c85c868f2cc",
+   "file": "john_03.mp3",
+   "dur": 3.26
+  },
+  {
+   "sala": "si sa ta yowu wi tewa na kamu.",
+   "english": "He was in the beginning with God.",
+   "literal": "he/she/it [past] exist with god in begin.",
+   "call": [
+    "state(exist(who=it, with=god, in=begin, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "6f2672172ae7ca5c868f2532293cb3",
+   "file": "john_04.mp3",
+   "dur": 4.7
+  },
+  {
+   "sala": "kosi tote sa ta yate ho si.",
+   "english": "All things came to be through him,",
+   "literal": "all thing [past] become from he/she/it.",
+   "call": [
+    "state(become(who=thing[all], from=it, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "35bc881b2672172a06cb0c9bcb30",
+   "file": "john_05.mp3",
+   "dur": 4.19
+  },
+  {
+   "sala": "ye kosi sa ta mo yate wi mo si.",
+   "english": "and without him nothing came to be.",
+   "literal": "and thing [past not] become with not he/she/it.",
+   "call": [
+    "state(not(become(who=thing, with=not(it), past=true)))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a7235bc99c85c92ca81b29724b26f2cc",
+   "file": "john_06.mp3",
+   "dur": 4.4
+  },
+  {
+   "sala": "haya sa ta yowu na si.",
+   "english": "In him was life,",
+   "literal": "life [past] exist in he/she/it.",
+   "call": [
+    "state(exist(who=life, in=it, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "b68c99c85cab9f25326f2cc0",
+   "file": "john_07.mp3",
+   "dur": 3.65
+  },
+  {
+   "sala": "ye haya sa ta lumi le homo lu.",
+   "english": "and the life was the light of people.",
+   "literal": "and life [past] light of persons.",
+   "call": [
+    "state(light[of=person[plural]](who=life, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a72b68c99c85ca24727f2c12ca2cb3",
+   "file": "john_08.mp3",
+   "dur": 4.39
+  },
+  {
+   "sala": "ye lumi sa lumi na yami.",
+   "english": "The light shines in the darkness,",
+   "literal": "and light light in dark.",
+   "call": [
+    "state(light(who=light, in=dark))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a72891c99ca2472532a11cb3",
+   "file": "john_09.mp3",
+   "dur": 4.09
+  },
+  {
+   "sala": "ye yami sa ta mo winu ke si.",
+   "english": "and the darkness did not overcome it.",
+   "literal": "and dark [past not] win he/she/it.",
+   "call": [
+    "state(not(win(who=dark, object=it, past=true)))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a72a11c99c85c92ca56322f26f2cc0",
+   "file": "john_10.mp3",
+   "dur": 4.35
+  },
+  {
+   "sala": "ye loko sa ta yate kale.",
+   "english": "And the Word became flesh",
+   "literal": "and word [past] flesh become.",
+   "call": [
+    "state(become[flesh](who=word, past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a7284dc99c85ca81b229fcb3",
+   "file": "john_11.mp3",
+   "dur": 3.97
+  },
+  {
+   "sala": "ye si sa ta molu wi mi lu.",
+   "english": "and dwelt among us,",
+   "literal": "and he/she/it [past] stay with we.",
+   "call": [
+    "state(stay(who=it, with=speaker[plural], past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a726f26721724a2ca5c91ca2cb30",
+   "file": "john_12.mp3",
+   "dur": 3.85
+  },
+  {
+   "sala": "ye mi lu sa ta mila ke lumi mahi le si.",
+   "english": "and we saw his glory.",
+   "literal": "and we [past] see big light of he/she/it.",
+   "call": [
+    "state(see(who=speaker[plural], object=light[big, of=it], past=true))"
+   ],
+   "stance": [
+    null
+   ],
+   "hex": "a724728b267217245ec8bca24723efc9fc9bcb30",
+   "file": "john_13.mp3",
+   "dur": 5.46
+  }
+ ],
+ "dialogue": [
+  {
+   "sala": "sala. name le yu sa nani ka",
+   "english": "A: Peace. What is your name?",
+   "literal": "peace. name of you what?",
+   "call": [
+    "state(peace)",
+    "ask(what(who=name[of=listener]))"
+   ],
+   "stance": [
+    null,
+    "ka"
+   ],
+   "hex": "65ecb3510c9fcacc99c945b22b20",
+   "file": "dialogue_01.mp3",
+   "dur": 4.68
+  },
+  {
+   "sala": "sala. name le mi sa ha Mira. ye yu ka",
+   "english": "B: Peace. My name is Mira. And you?",
+   "literal": "peace. name of I Mira. and you?",
+   "call": [
+    "state(peace)",
+    "state(\"Mira\"(who=name[of=speaker]))",
+    "ask(listener)"
+   ],
+   "stance": [
+    null,
+    null,
+    "ka"
+   ],
+   "hex": "65ecb3510c9fc91c99cadcb4101341a41c81872ce9cacc8ac8",
+   "file": "dialogue_02.mp3",
+   "dur": 5.96
+  },
+  {
+   "sala": "mi sa ha Tomas. yu sa kome ho luka nani ka",
+   "english": "A: I am Tomas. Where do you come from?",
+   "literal": "I Tomas. you come from what place?",
+   "call": [
+    "state(\"Tomas\"(who=speaker))",
+    "ask(come(who=listener, from=place[what]))"
+   ],
+   "stance": [
+    null,
+    "ka"
+   ],
+   "hex": "472672b72d0505406f06d061073cb3b32672350cb0ca22b2516c8ac8",
+   "file": "dialogue_03.mp3",
+   "dur": 5.75
+  },
+  {
+   "sala": "mi sa kome ho ha Kenya. sa tona ke wata pe mi pu",
+   "english": "B: I come from Kenya. Please give me water.",
+   "literal": "I come from Kenya. give water to I, please.",
+   "call": [
+    "state(come(who=speaker, from=\"Kenya\"))",
+    "request(give(object=water, to=speaker))"
+   ],
+   "stance": [
+    null,
+    "pu"
+   ],
+   "hex": "472672350cb0cadcb41412c1941b81e41872cd9c885322f28c5c81c91c84c8",
+   "file": "dialogue_04.mp3",
+   "dur": 6.63
+  },
+  {
+   "sala": "yese. wata sa yowu na luka hini hi",
+   "english": "A: Yes. There is water here! (gladly)",
+   "literal": "yes. water exist in this place! (gladly)",
+   "call": [
+    "state(yes)",
+    "state.joy(exist(who=water, in=place[this]))"
+   ],
+   "stance": [
+    null,
+    "hi"
+   ],
+   "hex": "a5acb38c5c99cab9f253288acaf5b2bf20",
+   "file": "dialogue_05.mp3",
+   "dur": 5.37
+  },
+  {
+   "sala": "kaki. mi sa mo sape ke wiya pe kasa le lapi le mi he",
+   "english": "B: Thanks. I do not know the way to my friend's house. (sadly)",
+   "literal": "thanks. I [not] know way to house of friend of I. (sadly)",
+   "call": [
+    "state(thanks)",
+    "state.sorrow(not(know(who=speaker, object=way, to=house[of=friend[of=speaker]])))"
+   ],
+   "stance": [
+    null,
+    "he"
+   ],
+   "hex": "28ccb34726724b2641c8bca5a32072299c9fc9e0b27f2472bb20",
+   "file": "dialogue_06.mp3",
+   "dur": 7.55
+  },
+  {
+   "sala": "mi sa so sayi ke yu. sa kome wi mi pu",
+   "english": "A: I can help you. Please come with me.",
+   "literal": "I [can] help you. come with I, please.",
+   "call": [
+    "state(help(who=speaker, object=listener, can=true))",
+    "request(come(with=speaker))"
+   ],
+   "stance": [
+    null,
+    "pu"
+   ],
+   "hex": "47267273266ac8bcaccb3672350ca5c91c84c8",
+   "file": "dialogue_07.mp3",
+   "dur": 5.11
+  },
+  {
+   "sala": "wena. mi lu sa hiku sesu hi",
+   "english": "B: Good. We go now! (gladly)",
+   "literal": "good. we now go! (gladly)",
+   "call": [
+    "state(good)",
+    "state.joy(go[now](who=speaker[plural]))"
+   ],
+   "stance": [
+    null,
+    "hi"
+   ],
+   "hex": "914cb34728b2672bcec9a772bf20",
+   "file": "dialogue_08.mp3",
+   "dur": 4.7
+  }
+ ],
+ "machine": [
+  {
+   "sala": "sa puke ke poli pu",
+   "english": "Please open the door.",
+   "literal": "open door, please.",
+   "call": [
+    "request(open(object=door))"
+   ],
+   "stance": [
+    "pu"
+   ],
+   "hex": "67210bc8bc83832132",
+   "file": "machine_01.mp3",
+   "dur": 3.63
+  },
+  {
+   "sala": "wata sa yowu na kasa ka",
+   "english": "Is there water in the house?",
+   "literal": "water exist in house?",
+   "call": [
+    "ask(exist(who=water, in=house))"
+   ],
+   "stance": [
+    "ka"
+   ],
+   "hex": "8c5c99cab9f2532299c8ac80",
+   "file": "machine_02.mp3",
+   "dur": 3.57
+  },
+  {
+   "sala": "ku puyo sa yowu na kasa te sa tuma ke loko pe mi wa",
+   "english": "If there is fire in the house, send word to me! (warning)",
+   "literal": "if fire exist in house, then send word to I! (warning)",
+   "call": [
+    "alert(if(exist(who=fire, in=house), then=send(object=word, to=speaker)))"
+   ],
+   "stance": [
+    "wa"
+   ],
+   "hex": "3b212bc99cab9f2532299c86c99c893f22f284dc81c91ca3c8",
+   "file": "machine_03.mp3",
+   "dur": 6.05
+  },
+  {
+   "sala": "sa mosa ke kitu noma pe mi pu",
+   "english": "Please show me book 3.",
+   "literal": "show book 3 to I, please.",
+   "call": [
+    "request(show(object=book[3], to=speaker))"
+   ],
+   "stance": [
+    "pu"
+   ],
+   "hex": "672499c8bc8c2725cfc81c91c84c80",
+   "file": "machine_04.mp3",
+   "dur": 4.25
+  },
+  {
+   "sala": "sa pati ke homo ti si sa sape ke wiya tu pu",
+   "english": "Please find a person who knows the way.",
+   "literal": "find person which he/she/it know way, please.",
+   "call": [
+    "request(find(object=person[which=know(who=it, object=way)]))"
+   ],
+   "stance": [
+    "pu"
+   ],
+   "hex": "672007c8bcb04b21f26f2672641c8bca5a32272132",
+   "file": "machine_05.mp3",
+   "dur": 5.96
+  },
+  {
+   "sala": "sa make ke lumi piko na yola pu",
+   "english": "Please make the light small at night.",
+   "literal": "make small light in night, please.",
+   "call": [
+    "request(make(object=light[small], in=night))"
+   ],
+   "stance": [
+    "pu"
+   ],
+   "hex": "6723cbc8bca247208dc94cab7b2132",
+   "file": "machine_06.mp3",
+   "dur": 5.08
+  }
+ ]
+}

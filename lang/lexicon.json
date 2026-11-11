@@ -1,0 +1,1190 @@
+{
+ "consonants": "ptkmnslwyh",
+ "vowels": "aeiou",
+ "roots": [
+  {
+   "root": "wata",
+   "code": 1755,
+   "meaning": "water",
+   "kind": "thing",
+   "source": "wata",
+   "exact": true
+  },
+  {
+   "root": "wena",
+   "code": 1820,
+   "meaning": "good",
+   "kind": "quality",
+   "source": "wena",
+   "exact": true
+  },
+  {
+   "root": "yowu",
+   "code": 2189,
+   "meaning": "exist",
+   "kind": "action",
+   "source": "yowu",
+   "exact": true
+  },
+  {
+   "root": "mila",
+   "code": 880,
+   "meaning": "see",
+   "kind": "action",
+   "source": "mira",
+   "exact": true
+  },
+  {
+   "root": "sema",
+   "code": 1315,
+   "meaning": "say",
+   "kind": "action",
+   "source": "sema",
+   "exact": true
+  },
+  {
+   "root": "hiku",
+   "code": 2364,
+   "meaning": "go",
+   "kind": "action",
+   "source": "iku",
+   "exact": true
+  },
+  {
+   "root": "kome",
+   "code": 666,
+   "meaning": "come",
+   "kind": "action",
+   "source": "come",
+   "exact": true
+  },
+  {
+   "root": "tona",
+   "code": 420,
+   "meaning": "give",
+   "kind": "action",
+   "source": "dona",
+   "exact": true
+  },
+  {
+   "root": "sape",
+   "code": 1251,
+   "meaning": "know",
+   "kind": "action",
+   "source": "sabe",
+   "exact": true
+  },
+  {
+   "root": "wole",
+   "code": 1931,
+   "meaning": "want",
+   "kind": "action",
+   "source": "vole",
+   "exact": true
+  },
+  {
+   "root": "make",
+   "code": 761,
+   "meaning": "make",
+   "kind": "action",
+   "source": "make",
+   "exact": true
+  },
+  {
+   "root": "tene",
+   "code": 321,
+   "meaning": "have",
+   "kind": "action",
+   "source": "tene",
+   "exact": true
+  },
+  {
+   "root": "homo",
+   "code": 2418,
+   "meaning": "person",
+   "kind": "thing",
+   "source": "homo",
+   "exact": true
+  },
+  {
+   "root": "loko",
+   "code": 1663,
+   "meaning": "word",
+   "kind": "thing",
+   "source": "logo",
+   "exact": true
+  },
+  {
+   "root": "haya",
+   "code": 2290,
+   "meaning": "life",
+   "kind": "thing",
+   "source": "hayat",
+   "exact": true
+  },
+  {
+   "root": "lumi",
+   "code": 1717,
+   "meaning": "light",
+   "kind": "thing",
+   "source": "lumi",
+   "exact": true
+  },
+  {
+   "root": "tewa",
+   "code": 335,
+   "meaning": "god",
+   "kind": "thing",
+   "source": "deva",
+   "exact": true
+  },
+  {
+   "root": "lowe",
+   "code": 1686,
+   "meaning": "love",
+   "kind": "action",
+   "source": "lowe",
+   "exact": true
+  },
+  {
+   "root": "kasa",
+   "code": 525,
+   "meaning": "house",
+   "kind": "thing",
+   "source": "kasa",
+   "exact": true
+  },
+  {
+   "root": "kula",
+   "code": 730,
+   "meaning": "eat",
+   "kind": "action",
+   "source": "kula",
+   "exact": true
+  },
+  {
+   "root": "hali",
+   "code": 2282,
+   "meaning": "day",
+   "kind": "thing",
+   "source": "hari",
+   "exact": true
+  },
+  {
+   "root": "nani",
+   "code": 1022,
+   "meaning": "what",
+   "kind": "question",
+   "source": "nani",
+   "exact": true
+  },
+  {
+   "root": "hini",
+   "code": 2372,
+   "meaning": "this",
+   "kind": "pointer",
+   "source": "ini",
+   "exact": true
+  },
+  {
+   "root": "hute",
+   "code": 2456,
+   "meaning": "that",
+   "kind": "pointer",
+   "source": "itu",
+   "exact": false
+  },
+  {
+   "root": "yese",
+   "code": 2076,
+   "meaning": "yes",
+   "kind": "link",
+   "source": "yes",
+   "exact": true
+  },
+  {
+   "root": "sala",
+   "code": 1280,
+   "meaning": "peace",
+   "kind": "thing",
+   "source": "salam",
+   "exact": true
+  },
+  {
+   "root": "kaki",
+   "code": 512,
+   "meaning": "thanks",
+   "kind": "link",
+   "source": "gracias",
+   "exact": true
+  },
+  {
+   "root": "mama",
+   "code": 765,
+   "meaning": "mother",
+   "kind": "thing",
+   "source": "mama",
+   "exact": true
+  },
+  {
+   "root": "papa",
+   "code": 0,
+   "meaning": "father",
+   "kind": "thing",
+   "source": "papa",
+   "exact": true
+  },
+  {
+   "root": "nino",
+   "code": 1123,
+   "meaning": "child",
+   "kind": "thing",
+   "source": "nino",
+   "exact": true
+  },
+  {
+   "root": "pemi",
+   "code": 67,
+   "meaning": "woman",
+   "kind": "thing",
+   "source": "femina",
+   "exact": true
+  },
+  {
+   "root": "tato",
+   "code": 258,
+   "meaning": "man",
+   "kind": "thing",
+   "source": "tato",
+   "exact": true
+  },
+  {
+   "root": "lapi",
+   "code": 1502,
+   "meaning": "friend",
+   "kind": "thing",
+   "source": "rafiki",
+   "exact": true
+  },
+  {
+   "root": "name",
+   "code": 1016,
+   "meaning": "name",
+   "kind": "thing",
+   "source": "nama",
+   "exact": false
+  },
+  {
+   "root": "kolo",
+   "code": 683,
+   "meaning": "body",
+   "kind": "thing",
+   "source": "korpo",
+   "exact": true
+  },
+  {
+   "root": "kepa",
+   "code": 550,
+   "meaning": "head",
+   "kind": "thing",
+   "source": "kepala",
+   "exact": true
+  },
+  {
+   "root": "mano",
+   "code": 773,
+   "meaning": "hand",
+   "kind": "thing",
+   "source": "mano",
+   "exact": true
+  },
+  {
+   "root": "pete",
+   "code": 56,
+   "meaning": "foot",
+   "kind": "thing",
+   "source": "pede",
+   "exact": true
+  },
+  {
+   "root": "moti",
+   "code": 907,
+   "meaning": "eye",
+   "kind": "thing",
+   "source": "mata",
+   "exact": false
+  },
+  {
+   "root": "kupi",
+   "code": 702,
+   "meaning": "ear",
+   "kind": "thing",
+   "source": "kuping",
+   "exact": true
+  },
+  {
+   "root": "poka",
+   "code": 160,
+   "meaning": "mouth",
+   "kind": "thing",
+   "source": "boka",
+   "exact": true
+  },
+  {
+   "root": "hatu",
+   "code": 2259,
+   "meaning": "heart",
+   "kind": "thing",
+   "source": "hati",
+   "exact": false
+  },
+  {
+   "root": "puyo",
+   "code": 243,
+   "meaning": "fire",
+   "kind": "thing",
+   "source": "paya",
+   "exact": false
+  },
+  {
+   "root": "lana",
+   "code": 1520,
+   "meaning": "land",
+   "kind": "thing",
+   "source": "land",
+   "exact": true
+  },
+  {
+   "root": "sele",
+   "code": 1331,
+   "meaning": "sky",
+   "kind": "thing",
+   "source": "sela",
+   "exact": false
+  },
+  {
+   "root": "suli",
+   "code": 1482,
+   "meaning": "sun",
+   "kind": "thing",
+   "source": "surya",
+   "exact": true
+  },
+  {
+   "root": "lune",
+   "code": 1721,
+   "meaning": "moon",
+   "kind": "thing",
+   "source": "luna",
+   "exact": false
+  },
+  {
+   "root": "sita",
+   "code": 1355,
+   "meaning": "star",
+   "kind": "thing",
+   "source": "sitara",
+   "exact": true
+  },
+  {
+   "root": "yola",
+   "code": 2180,
+   "meaning": "night",
+   "kind": "thing",
+   "source": "yoru",
+   "exact": false
+  },
+  {
+   "root": "temo",
+   "code": 318,
+   "meaning": "time",
+   "kind": "thing",
+   "source": "tempo",
+   "exact": true
+  },
+  {
+   "root": "sanu",
+   "code": 1274,
+   "meaning": "year",
+   "kind": "thing",
+   "source": "sana",
+   "exact": false
+  },
+  {
+   "root": "luka",
+   "code": 1710,
+   "meaning": "place",
+   "kind": "thing",
+   "source": "lugar",
+   "exact": true
+  },
+  {
+   "root": "wiya",
+   "code": 1890,
+   "meaning": "way",
+   "kind": "thing",
+   "source": "via",
+   "exact": true
+  },
+  {
+   "root": "poli",
+   "code": 182,
+   "meaning": "door",
+   "kind": "thing",
+   "source": "porta",
+   "exact": false
+  },
+  {
+   "root": "hane",
+   "code": 2271,
+   "meaning": "food",
+   "kind": "thing",
+   "source": "khana",
+   "exact": false
+  },
+  {
+   "root": "pine",
+   "code": 121,
+   "meaning": "bread",
+   "kind": "thing",
+   "source": "pane",
+   "exact": false
+  },
+  {
+   "root": "pesa",
+   "code": 75,
+   "meaning": "fish",
+   "kind": "thing",
+   "source": "peska",
+   "exact": true
+  },
+  {
+   "root": "heno",
+   "code": 2323,
+   "meaning": "animal",
+   "kind": "thing",
+   "source": "animal",
+   "exact": false
+  },
+  {
+   "root": "mite",
+   "code": 856,
+   "meaning": "tree",
+   "kind": "thing",
+   "source": "miti",
+   "exact": false
+  },
+  {
+   "root": "kiwi",
+   "code": 637,
+   "meaning": "stone",
+   "kind": "thing",
+   "source": "kivi",
+   "exact": true
+  },
+  {
+   "root": "kosi",
+   "code": 677,
+   "meaning": "thing",
+   "kind": "thing",
+   "source": "kosa",
+   "exact": false
+  },
+  {
+   "root": "mayu",
+   "code": 794,
+   "meaning": "death",
+   "kind": "thing",
+   "source": "maut",
+   "exact": true
+  },
+  {
+   "root": "yami",
+   "code": 2017,
+   "meaning": "dark",
+   "kind": "quality",
+   "source": "yami",
+   "exact": true
+  },
+  {
+   "root": "peyu",
+   "code": 94,
+   "meaning": "spirit",
+   "kind": "thing",
+   "source": "pneuma",
+   "exact": true
+  },
+  {
+   "root": "hapo",
+   "code": 2253,
+   "meaning": "joy",
+   "kind": "thing",
+   "source": "hapi",
+   "exact": false
+  },
+  {
+   "root": "seti",
+   "code": 1307,
+   "meaning": "sorrow",
+   "kind": "thing",
+   "source": "sedih",
+   "exact": true
+  },
+  {
+   "root": "pawo",
+   "code": 38,
+   "meaning": "fear",
+   "kind": "thing",
+   "source": "pavor",
+   "exact": true
+  },
+  {
+   "root": "hile",
+   "code": 2381,
+   "meaning": "anger",
+   "kind": "thing",
+   "source": "ira",
+   "exact": false
+  },
+  {
+   "root": "welo",
+   "code": 1833,
+   "meaning": "truth",
+   "kind": "thing",
+   "source": "vero",
+   "exact": true
+  },
+  {
+   "root": "tuni",
+   "code": 472,
+   "meaning": "world",
+   "kind": "thing",
+   "source": "dunia",
+   "exact": true
+  },
+  {
+   "root": "kale",
+   "code": 531,
+   "meaning": "flesh",
+   "kind": "thing",
+   "source": "karne",
+   "exact": true
+  },
+  {
+   "root": "mone",
+   "code": 921,
+   "meaning": "money",
+   "kind": "thing",
+   "source": "money",
+   "exact": true
+  },
+  {
+   "root": "leke",
+   "code": 1561,
+   "meaning": "law",
+   "kind": "thing",
+   "source": "lege",
+   "exact": true
+  },
+  {
+   "root": "popo",
+   "code": 153,
+   "meaning": "people",
+   "kind": "thing",
+   "source": "popo",
+   "exact": true
+  },
+  {
+   "root": "palu",
+   "code": 34,
+   "meaning": "part",
+   "kind": "thing",
+   "source": "parte",
+   "exact": false
+  },
+  {
+   "root": "tipo",
+   "code": 353,
+   "meaning": "kind",
+   "kind": "thing",
+   "source": "tipo",
+   "exact": true
+  },
+  {
+   "root": "nuwu",
+   "code": 1239,
+   "meaning": "power",
+   "kind": "thing",
+   "source": "nguvu",
+   "exact": true
+  },
+  {
+   "root": "meli",
+   "code": 832,
+   "meaning": "bad",
+   "kind": "quality",
+   "source": "mala",
+   "exact": false
+  },
+  {
+   "root": "mahi",
+   "code": 797,
+   "meaning": "big",
+   "kind": "quality",
+   "source": "maha",
+   "exact": false
+  },
+  {
+   "root": "piko",
+   "code": 113,
+   "meaning": "small",
+   "kind": "quality",
+   "source": "piko",
+   "exact": true
+  },
+  {
+   "root": "mule",
+   "code": 981,
+   "meaning": "many",
+   "kind": "quality",
+   "source": "multi",
+   "exact": false
+  },
+  {
+   "root": "paye",
+   "code": 41,
+   "meaning": "few",
+   "kind": "quality",
+   "source": "pauci",
+   "exact": false
+  },
+  {
+   "root": "tote",
+   "code": 406,
+   "meaning": "all",
+   "kind": "quality",
+   "source": "total",
+   "exact": false
+  },
+  {
+   "root": "layo",
+   "code": 1543,
+   "meaning": "other",
+   "kind": "quality",
+   "source": "lain",
+   "exact": false
+  },
+  {
+   "root": "samo",
+   "code": 1268,
+   "meaning": "same",
+   "kind": "quality",
+   "source": "same",
+   "exact": false
+  },
+  {
+   "root": "nuye",
+   "code": 1241,
+   "meaning": "new",
+   "kind": "quality",
+   "source": "nueva",
+   "exact": true
+  },
+  {
+   "root": "lawu",
+   "code": 1539,
+   "meaning": "old",
+   "kind": "quality",
+   "source": "lawo",
+   "exact": false
+  },
+  {
+   "root": "loni",
+   "code": 1672,
+   "meaning": "long",
+   "kind": "quality",
+   "source": "longa",
+   "exact": false
+  },
+  {
+   "root": "kelu",
+   "code": 584,
+   "meaning": "short",
+   "kind": "quality",
+   "source": "korta",
+   "exact": false
+  },
+  {
+   "root": "hota",
+   "code": 2405,
+   "meaning": "hot",
+   "kind": "quality",
+   "source": "hot",
+   "exact": false
+  },
+  {
+   "root": "simu",
+   "code": 1369,
+   "meaning": "cold",
+   "kind": "quality",
+   "source": "samui",
+   "exact": false
+  },
+  {
+   "root": "kuyu",
+   "code": 744,
+   "meaning": "strong",
+   "kind": "quality",
+   "source": "kuat",
+   "exact": false
+  },
+  {
+   "root": "puwa",
+   "code": 235,
+   "meaning": "beautiful",
+   "kind": "quality",
+   "source": "bela",
+   "exact": false
+  },
+  {
+   "root": "ponu",
+   "code": 174,
+   "meaning": "full",
+   "kind": "quality",
+   "source": "plena",
+   "exact": false
+  },
+  {
+   "root": "leya",
+   "code": 1590,
+   "meaning": "true",
+   "kind": "quality",
+   "source": "real",
+   "exact": true
+  },
+  {
+   "root": "seko",
+   "code": 1313,
+   "meaning": "holy",
+   "kind": "quality",
+   "source": "sakra",
+   "exact": false
+  },
+  {
+   "root": "taka",
+   "code": 260,
+   "meaning": "take",
+   "kind": "action",
+   "source": "take",
+   "exact": false
+  },
+  {
+   "root": "suna",
+   "code": 1470,
+   "meaning": "hear",
+   "kind": "action",
+   "source": "suna",
+   "exact": true
+  },
+  {
+   "root": "soso",
+   "code": 1428,
+   "meaning": "think",
+   "kind": "action",
+   "source": "soch",
+   "exact": true
+  },
+  {
+   "root": "pipi",
+   "code": 102,
+   "meaning": "drink",
+   "kind": "action",
+   "source": "bibe",
+   "exact": false
+  },
+  {
+   "root": "lili",
+   "code": 1632,
+   "meaning": "sleep",
+   "kind": "action",
+   "source": "lala",
+   "exact": false
+  },
+  {
+   "root": "lepo",
+   "code": 1553,
+   "meaning": "work",
+   "kind": "action",
+   "source": "labor",
+   "exact": false
+  },
+  {
+   "root": "sayi",
+   "code": 1292,
+   "meaning": "help",
+   "kind": "action",
+   "source": "saidia",
+   "exact": true
+  },
+  {
+   "root": "kamu",
+   "code": 519,
+   "meaning": "begin",
+   "kind": "action",
+   "source": "komensa",
+   "exact": false
+  },
+  {
+   "root": "hunu",
+   "code": 2474,
+   "meaning": "end",
+   "kind": "action",
+   "source": "end",
+   "exact": false
+  },
+  {
+   "root": "yate",
+   "code": 2006,
+   "meaning": "become",
+   "kind": "action",
+   "source": "jadi",
+   "exact": false
+  },
+  {
+   "root": "tuma",
+   "code": 465,
+   "meaning": "send",
+   "kind": "action",
+   "source": "tuma",
+   "exact": true
+  },
+  {
+   "root": "pati",
+   "code": 7,
+   "meaning": "find",
+   "kind": "action",
+   "source": "pata",
+   "exact": false
+  },
+  {
+   "root": "puke",
+   "code": 211,
+   "meaning": "open",
+   "kind": "action",
+   "source": "buka",
+   "exact": false
+  },
+  {
+   "root": "tutu",
+   "code": 459,
+   "meaning": "close",
+   "kind": "action",
+   "source": "tutup",
+   "exact": true
+  },
+  {
+   "root": "molu",
+   "code": 934,
+   "meaning": "stay",
+   "kind": "action",
+   "source": "mora",
+   "exact": false
+  },
+  {
+   "root": "liha",
+   "code": 1645,
+   "meaning": "write",
+   "kind": "action",
+   "source": "likha",
+   "exact": true
+  },
+  {
+   "root": "liye",
+   "code": 1641,
+   "meaning": "read",
+   "kind": "action",
+   "source": "lee",
+   "exact": false
+  },
+  {
+   "root": "menu",
+   "code": 824,
+   "meaning": "learn",
+   "kind": "action",
+   "source": "manabu",
+   "exact": false
+  },
+  {
+   "root": "keye",
+   "code": 591,
+   "meaning": "buy",
+   "kind": "action",
+   "source": "kau",
+   "exact": false
+  },
+  {
+   "root": "lase",
+   "code": 1526,
+   "meaning": "feel",
+   "kind": "action",
+   "source": "rasa",
+   "exact": false
+  },
+  {
+   "root": "tulo",
+   "code": 483,
+   "meaning": "hurt",
+   "kind": "action",
+   "source": "dolor",
+   "exact": false
+  },
+  {
+   "root": "kiyo",
+   "code": 643,
+   "meaning": "believe",
+   "kind": "action",
+   "source": "kree",
+   "exact": false
+  },
+  {
+   "root": "mosa",
+   "code": 925,
+   "meaning": "show",
+   "kind": "action",
+   "source": "mostra",
+   "exact": true
+  },
+  {
+   "root": "winu",
+   "code": 1874,
+   "meaning": "win",
+   "kind": "action",
+   "source": "vinse",
+   "exact": false
+  },
+  {
+   "root": "naso",
+   "code": 1028,
+   "meaning": "born",
+   "kind": "action",
+   "source": "nasce",
+   "exact": false
+  },
+  {
+   "root": "mowo",
+   "code": 938,
+   "meaning": "move",
+   "kind": "action",
+   "source": "move",
+   "exact": false
+  },
+  {
+   "root": "hesi",
+   "code": 2327,
+   "meaning": "wait",
+   "kind": "action",
+   "source": "espera",
+   "exact": false
+  },
+  {
+   "root": "yoki",
+   "code": 2162,
+   "meaning": "play",
+   "kind": "action",
+   "source": "yoki",
+   "exact": true
+  },
+  {
+   "root": "woku",
+   "code": 1914,
+   "meaning": "call",
+   "kind": "action",
+   "source": "voka",
+   "exact": false
+  },
+  {
+   "root": "sesu",
+   "code": 1329,
+   "meaning": "now",
+   "kind": "time",
+   "source": "sasa",
+   "exact": false
+  },
+  {
+   "root": "meyo",
+   "code": 843,
+   "meaning": "before",
+   "kind": "time",
+   "source": "mae",
+   "exact": false
+  },
+  {
+   "root": "pose",
+   "code": 176,
+   "meaning": "after",
+   "kind": "time",
+   "source": "post",
+   "exact": false
+  },
+  {
+   "root": "supo",
+   "code": 1453,
+   "meaning": "above",
+   "kind": "place",
+   "source": "supra",
+   "exact": false
+  },
+  {
+   "root": "piwu",
+   "code": 139,
+   "meaning": "below",
+   "kind": "place",
+   "source": "bawah",
+   "exact": false
+  },
+  {
+   "root": "naku",
+   "code": 1014,
+   "meaning": "inside",
+   "kind": "place",
+   "source": "naka",
+   "exact": false
+  },
+  {
+   "root": "loyu",
+   "code": 1694,
+   "meaning": "outside",
+   "kind": "place",
+   "source": "luar",
+   "exact": false
+  },
+  {
+   "root": "teki",
+   "code": 312,
+   "meaning": "near",
+   "kind": "place",
+   "source": "dekat",
+   "exact": false
+  },
+  {
+   "root": "yiyu",
+   "code": 2144,
+   "meaning": "far",
+   "kind": "place",
+   "source": "jauh",
+   "exact": false
+  },
+  {
+   "root": "kima",
+   "code": 615,
+   "meaning": "like",
+   "kind": "link",
+   "source": "kama",
+   "exact": false
+  },
+  {
+   "root": "muya",
+   "code": 990,
+   "meaning": "very",
+   "kind": "link",
+   "source": "muy",
+   "exact": false
+  },
+  {
+   "root": "husa",
+   "code": 2475,
+   "meaning": "only",
+   "kind": "link",
+   "source": "hana",
+   "exact": false
+  },
+  {
+   "root": "hito",
+   "code": 2358,
+   "meaning": "again",
+   "kind": "link",
+   "source": "otra",
+   "exact": false
+  },
+  {
+   "root": "yuko",
+   "code": 2213,
+   "meaning": "also",
+   "kind": "link",
+   "source": "juga",
+   "exact": false
+  },
+  {
+   "root": "kise",
+   "code": 626,
+   "meaning": "maybe",
+   "kind": "link",
+   "source": "kizas",
+   "exact": false
+  },
+  {
+   "root": "numo",
+   "code": 1218,
+   "meaning": "number",
+   "kind": "thing",
+   "source": "numero",
+   "exact": false
+  },
+  {
+   "root": "koya",
+   "code": 690,
+   "meaning": "cause",
+   "kind": "thing",
+   "source": "kausa",
+   "exact": false
+  },
+  {
+   "root": "kitu",
+   "code": 609,
+   "meaning": "book",
+   "kind": "thing",
+   "source": "kitab",
+   "exact": false
+  },
+  {
+   "root": "sike",
+   "code": 1361,
+   "meaning": "sign",
+   "kind": "thing",
+   "source": "signo",
+   "exact": false
+  },
+  {
+   "root": "wako",
+   "code": 1763,
+   "meaning": "voice",
+   "kind": "thing",
+   "source": "voce",
+   "exact": false
+  },
+  {
+   "root": "lopa",
+   "code": 1650,
+   "meaning": "king",
+   "kind": "thing",
+   "source": "raja",
+   "exact": false
+  },
+  {
+   "root": "wono",
+   "code": 1923,
+   "meaning": "wind",
+   "kind": "thing",
+   "source": "vento",
+   "exact": false
+  },
+  {
+   "root": "kuwo",
+   "code": 738,
+   "meaning": "color",
+   "kind": "thing",
+   "source": "kolor",
+   "exact": false
+  }
+ ]
+}

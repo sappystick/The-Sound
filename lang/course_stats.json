@@ -1,0 +1,12 @@
+{
+ "steps": 89,
+ "units": 104,
+ "one_new": 68,
+ "curve_end": {
+  "step": 89,
+  "lemmas": 111,
+  "tokens": 1.0,
+  "clauses": 104
+ },
+ "minutes": 5.3
+}

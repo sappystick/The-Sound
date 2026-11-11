@@ -1,0 +1,1209 @@
+{
+ "john": [
+  {
+   "sala": "loko sa ta yowu na kamu.",
+   "english": "In the beginning was the Word,",
+   "literal": "word [past] exist in begin.",
+   "call": [
+    "state(exist(who=word, in=begin, past=true))"
+   ],
+   "bytes": 12,
+   "hex": "84dc99c85cab9f2532293cb3",
+   "syllables": 9,
+   "en_syllables": 8
+  },
+  {
+   "sala": "ye loko sa ta yowu wi tewa.",
+   "english": "and the Word was with God,",
+   "literal": "and word [past] exist with god.",
+   "call": [
+    "state(exist(who=word, with=god, past=true))"
+   ],
+   "bytes": 14,
+   "hex": "a7284dc99c85cab9f29721a3cb30",
+   "syllables": 10,
+   "en_syllables": 6
+  },
+  {
+   "sala": "ye loko sa ta tewa.",
+   "english": "and the Word was God.",
+   "literal": "and word [past] god.",
+   "call": [
+    "state(god(who=word, past=true))"
+   ],
+   "bytes": 10,
+   "hex": "a7284dc99c85c868f2cc",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "si sa ta yowu wi tewa na kamu.",
+   "english": "He was in the beginning with God.",
+   "literal": "he/she/it [past] exist with god in begin.",
+   "call": [
+    "state(exist(who=it, with=god, in=begin, past=true))"
+   ],
+   "bytes": 15,
+   "hex": "6f2672172ae7ca5c868f2532293cb3",
+   "syllables": 11,
+   "en_syllables": 9
+  },
+  {
+   "sala": "kosi tote sa ta yate ho si.",
+   "english": "All things came to be through him,",
+   "literal": "all thing [past] become from he/she/it.",
+   "call": [
+    "state(become(who=thing[all], from=it, past=true))"
+   ],
+   "bytes": 14,
+   "hex": "35bc881b2672172a06cb0c9bcb30",
+   "syllables": 10,
+   "en_syllables": 7
+  },
+  {
+   "sala": "ye kosi sa ta mo yate wi mo si.",
+   "english": "and without him nothing came to be.",
+   "literal": "and thing [past not] become with not he/she/it.",
+   "call": [
+    "state(not(become(who=thing, with=not(it), past=true)))"
+   ],
+   "bytes": 16,
+   "hex": "a7235bc99c85c92ca81b29724b26f2cc",
+   "syllables": 11,
+   "en_syllables": 9
+  },
+  {
+   "sala": "haya sa ta yowu na si.",
+   "english": "In him was life,",
+   "literal": "life [past] exist in he/she/it.",
+   "call": [
+    "state(exist(who=life, in=it, past=true))"
+   ],
+   "bytes": 12,
+   "hex": "b68c99c85cab9f25326f2cc0",
+   "syllables": 8,
+   "en_syllables": 4
+  },
+  {
+   "sala": "ye haya sa ta lumi le homo lu.",
+   "english": "and the life was the light of people.",
+   "literal": "and life [past] light of persons.",
+   "call": [
+    "state(light[of=person[plural]](who=life, past=true))"
+   ],
+   "bytes": 15,
+   "hex": "a72b68c99c85ca24727f2c12ca2cb3",
+   "syllables": 11,
+   "en_syllables": 8
+  },
+  {
+   "sala": "ye lumi sa lumi na yami.",
+   "english": "The light shines in the darkness,",
+   "literal": "and light light in dark.",
+   "call": [
+    "state(light(who=light, in=dark))"
+   ],
+   "bytes": 12,
+   "hex": "a72891c99ca2472532a11cb3",
+   "syllables": 9,
+   "en_syllables": 8
+  },
+  {
+   "sala": "ye yami sa ta mo winu ke si.",
+   "english": "and the darkness did not overcome it.",
+   "literal": "and dark [past not] win he/she/it.",
+   "call": [
+    "state(not(win(who=dark, object=it, past=true)))"
+   ],
+   "bytes": 15,
+   "hex": "a72a11c99c85c92ca56322f26f2cc0",
+   "syllables": 10,
+   "en_syllables": 10
+  },
+  {
+   "sala": "ye loko sa ta yate kale.",
+   "english": "And the Word became flesh",
+   "literal": "and word [past] flesh become.",
+   "call": [
+    "state(become[flesh](who=word, past=true))"
+   ],
+   "bytes": 12,
+   "hex": "a7284dc99c85ca81b229fcb3",
+   "syllables": 9,
+   "en_syllables": 6
+  },
+  {
+   "sala": "ye si sa ta molu wi mi lu.",
+   "english": "and dwelt among us,",
+   "literal": "and he/she/it [past] stay with we.",
+   "call": [
+    "state(stay(who=it, with=speaker[plural], past=true))"
+   ],
+   "bytes": 14,
+   "hex": "a726f26721724a2ca5c91ca2cb30",
+   "syllables": 9,
+   "en_syllables": 5
+  },
+  {
+   "sala": "ye mi lu sa ta mila ke lumi mahi le si.",
+   "english": "and we saw his glory.",
+   "literal": "and we [past] see big light of he/she/it.",
+   "call": [
+    "state(see(who=speaker[plural], object=light[big, of=it], past=true))"
+   ],
+   "bytes": 20,
+   "hex": "a724728b267217245ec8bca24723efc9fc9bcb30",
+   "syllables": 14,
+   "en_syllables": 6
+  }
+ ],
+ "dialogue": [
+  {
+   "sala": "sala. name le yu sa nani ka",
+   "english": "A: Peace. What is your name?",
+   "literal": "peace. name of you what?",
+   "call": [
+    "state(peace)",
+    "ask(what(who=name[of=listener]))"
+   ],
+   "bytes": 14,
+   "hex": "65ecb3510c9fcacc99c945b22b20",
+   "syllables": 10,
+   "en_syllables": 5
+  },
+  {
+   "sala": "sala. name le mi sa ha Mira. ye yu ka",
+   "english": "B: Peace. My name is Mira. And you?",
+   "literal": "peace. name of I Mira. and you?",
+   "call": [
+    "state(peace)",
+    "state(\"Mira\"(who=name[of=speaker]))",
+    "ask(listener)"
+   ],
+   "bytes": 25,
+   "hex": "65ecb3510c9fc91c99cadcb4101341a41c81872ce9cacc8ac8",
+   "syllables": 13,
+   "en_syllables": 8
+  },
+  {
+   "sala": "mi sa ha Tomas. yu sa kome ho luka nani ka",
+   "english": "A: I am Tomas. Where do you come from?",
+   "literal": "I Tomas. you come from what place?",
+   "call": [
+    "state(\"Tomas\"(who=speaker))",
+    "ask(come(who=listener, from=place[what]))"
+   ],
+   "bytes": 28,
+   "hex": "472672b72d0505406f06d061073cb3b32672350cb0ca22b2516c8ac8",
+   "syllables": 15,
+   "en_syllables": 9
+  },
+  {
+   "sala": "mi sa kome ho ha Kenya. sa tona ke wata pe mi pu",
+   "english": "B: I come from Kenya. Please give me water.",
+   "literal": "I come from Kenya. give water to I, please.",
+   "call": [
+    "state(come(who=speaker, from=\"Kenya\"))",
+    "request(give(object=water, to=speaker))"
+   ],
+   "bytes": 31,
+   "hex": "472672350cb0cadcb41412c1941b81e41872cd9c885322f28c5c81c91c84c8",
+   "syllables": 17,
+   "en_syllables": 10
+  },
+  {
+   "sala": "yese. wata sa yowu na luka hini hi",
+   "english": "A: Yes. There is water here! (gladly)",
+   "literal": "yes. water exist in this place! (gladly)",
+   "call": [
+    "state(yes)",
+    "state.joy(exist(who=water, in=place[this]))"
+   ],
+   "bytes": 17,
+   "hex": "a5acb38c5c99cab9f253288acaf5b2bf20",
+   "syllables": 13,
+   "en_syllables": 6
+  },
+  {
+   "sala": "kaki. mi sa mo sape ke wiya pe kasa le lapi le mi he",
+   "english": "B: Thanks. I do not know the way to my friend's house. (sadly)",
+   "literal": "thanks. I [not] know way to house of friend of I. (sadly)",
+   "call": [
+    "state(thanks)",
+    "state.sorrow(not(know(who=speaker, object=way, to=house[of=friend[of=speaker]])))"
+   ],
+   "bytes": 26,
+   "hex": "28ccb34726724b2641c8bca5a32072299c9fc9e0b27f2472bb20",
+   "syllables": 19,
+   "en_syllables": 12
+  },
+  {
+   "sala": "mi sa so sayi ke yu. sa kome wi mi pu",
+   "english": "A: I can help you. Please come with me.",
+   "literal": "I [can] help you. come with I, please.",
+   "call": [
+    "state(help(who=speaker, object=listener, can=true))",
+    "request(come(with=speaker))"
+   ],
+   "bytes": 19,
+   "hex": "47267273266ac8bcaccb3672350ca5c91c84c8",
+   "syllables": 13,
+   "en_syllables": 8
+  },
+  {
+   "sala": "wena. mi lu sa hiku sesu hi",
+   "english": "B: Good. We go now! (gladly)",
+   "literal": "good. we now go! (gladly)",
+   "call": [
+    "state(good)",
+    "state.joy(go[now](who=speaker[plural]))"
+   ],
+   "bytes": 14,
+   "hex": "914cb34728b2672bcec9a772bf20",
+   "syllables": 10,
+   "en_syllables": 4
+  }
+ ],
+ "machine": [
+  {
+   "sala": "sa puke ke poli pu",
+   "english": "Please open the door.",
+   "literal": "open door, please.",
+   "call": [
+    "request(open(object=door))"
+   ],
+   "bytes": 9,
+   "hex": "67210bc8bc83832132",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "wata sa yowu na kasa ka",
+   "english": "Is there water in the house?",
+   "literal": "water exist in house?",
+   "call": [
+    "ask(exist(who=water, in=house))"
+   ],
+   "bytes": 12,
+   "hex": "8c5c99cab9f2532299c8ac80",
+   "syllables": 9,
+   "en_syllables": 7
+  },
+  {
+   "sala": "ku puyo sa yowu na kasa te sa tuma ke loko pe mi wa",
+   "english": "If there is fire in the house, send word to me! (warning)",
+   "literal": "if fire exist in house, then send word to I! (warning)",
+   "call": [
+    "alert(if(exist(who=fire, in=house), then=send(object=word, to=speaker)))"
+   ],
+   "bytes": 25,
+   "hex": "3b212bc99cab9f2532299c86c99c893f22f284dc81c91ca3c8",
+   "syllables": 19,
+   "en_syllables": 11
+  },
+  {
+   "sala": "sa mosa ke kitu noma pe mi pu",
+   "english": "Please show me book 3.",
+   "literal": "show book 3 to I, please.",
+   "call": [
+    "request(show(object=book[3], to=speaker))"
+   ],
+   "bytes": 15,
+   "hex": "672499c8bc8c2725cfc81c91c84c80",
+   "syllables": 11,
+   "en_syllables": 4
+  },
+  {
+   "sala": "sa pati ke homo ti si sa sape ke wiya tu pu",
+   "english": "Please find a person who knows the way.",
+   "literal": "find person which he/she/it know way, please.",
+   "call": [
+    "request(find(object=person[which=know(who=it, object=way)]))"
+   ],
+   "bytes": 21,
+   "hex": "672007c8bcb04b21f26f2672641c8bca5a32272132",
+   "syllables": 16,
+   "en_syllables": 9
+  },
+  {
+   "sala": "sa make ke lumi piko na yola pu",
+   "english": "Please make the light small at night.",
+   "literal": "make small light in night, please.",
+   "call": [
+    "request(make(object=light[small], in=night))"
+   ],
+   "bytes": 15,
+   "hex": "6723cbc8bca247208dc94cab7b2132",
+   "syllables": 12,
+   "en_syllables": 7
+  }
+ ],
+ "starter": [
+  {
+   "sala": "mi sa homo.",
+   "english": "I am a person.",
+   "literal": "I person.",
+   "call": [
+    "state(person(who=speaker))"
+   ],
+   "bytes": 6,
+   "hex": "472672c12cb3",
+   "syllables": 4,
+   "en_syllables": 5
+  },
+  {
+   "sala": "yu sa homo.",
+   "english": "You are a person.",
+   "literal": "you person.",
+   "call": [
+    "state(person(who=listener))"
+   ],
+   "bytes": 6,
+   "hex": "b32672c12cb3",
+   "syllables": 4,
+   "en_syllables": 5
+  },
+  {
+   "sala": "mi sa mila ke yu.",
+   "english": "I see you.",
+   "literal": "I see you.",
+   "call": [
+    "state(see(who=speaker, object=listener))"
+   ],
+   "bytes": 9,
+   "hex": "47267245ec8bcaccb3",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "yu sa mila ke mi.",
+   "english": "You see me.",
+   "literal": "you see I.",
+   "call": [
+    "state(see(who=listener, object=speaker))"
+   ],
+   "bytes": 9,
+   "hex": "b3267245ec8bc91cb3",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa mila ke wata.",
+   "english": "I see water.",
+   "literal": "I see water.",
+   "call": [
+    "state(see(who=speaker, object=water))"
+   ],
+   "bytes": 10,
+   "hex": "47267245ec8bca3172cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "si sa mila ke kasa.",
+   "english": "He or she sees the house.",
+   "literal": "he/she/it see house.",
+   "call": [
+    "state(see(who=it, object=house))"
+   ],
+   "bytes": 10,
+   "hex": "6f267245ec8bc8a672cc",
+   "syllables": 7,
+   "en_syllables": 6
+  },
+  {
+   "sala": "kasa sa mahi.",
+   "english": "The house is big.",
+   "literal": "house big.",
+   "call": [
+    "state(big(who=house))"
+   ],
+   "bytes": 7,
+   "hex": "299c99c8fbf2cc",
+   "syllables": 5,
+   "en_syllables": 4
+  },
+  {
+   "sala": "kasa sa mo mahi.",
+   "english": "The house is not big.",
+   "literal": "house [not] big.",
+   "call": [
+    "state(not(big(who=house)))"
+   ],
+   "bytes": 9,
+   "hex": "299c99c92c8fbf2cc0",
+   "syllables": 6,
+   "en_syllables": 5
+  },
+  {
+   "sala": "wata sa wena.",
+   "english": "Water is good.",
+   "literal": "water good.",
+   "call": [
+    "state(good(who=water))"
+   ],
+   "bytes": 7,
+   "hex": "8c5c99ca4532cc",
+   "syllables": 5,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa wole ke wata.",
+   "english": "I want water.",
+   "literal": "I want water.",
+   "call": [
+    "state(want(who=speaker, object=water))"
+   ],
+   "bytes": 10,
+   "hex": "47267299fc8bca3172cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "yu sa wole ke nani ka",
+   "english": "What do you want?",
+   "literal": "you want what?",
+   "call": [
+    "ask(want(who=listener, object=what))"
+   ],
+   "bytes": 11,
+   "hex": "b3267299fc8bc945b22b20",
+   "syllables": 8,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa wole ke hane.",
+   "english": "I want food.",
+   "literal": "I want food.",
+   "call": [
+    "state(want(who=speaker, object=food))"
+   ],
+   "bytes": 10,
+   "hex": "47267299fc8bcad572cc",
+   "syllables": 7,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa kula ke pine.",
+   "english": "I eat bread.",
+   "literal": "I eat bread.",
+   "call": [
+    "state(eat(who=speaker, object=bread))"
+   ],
+   "bytes": 10,
+   "hex": "47267239ec8bc82572cc",
+   "syllables": 7,
+   "en_syllables": 3
+  },
+  {
+   "sala": "si sa kula ke pesa.",
+   "english": "He or she eats fish.",
+   "literal": "he/she/it eat fish.",
+   "call": [
+    "state(eat(who=it, object=fish))"
+   ],
+   "bytes": 10,
+   "hex": "6f267239ec8bc81672cc",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "mi sa ta kula ke pine.",
+   "english": "I ate bread.",
+   "literal": "I [past] eat bread.",
+   "call": [
+    "state(eat(who=speaker, object=bread, past=true))"
+   ],
+   "bytes": 12,
+   "hex": "47267217239ec8bc82572cc0",
+   "syllables": 8,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa ya kula ke pesa.",
+   "english": "I will eat fish.",
+   "literal": "I [future] eat fish.",
+   "call": [
+    "state(eat(who=speaker, object=fish, future=true))"
+   ],
+   "bytes": 12,
+   "hex": "472672a3239ec8bc81672cc0",
+   "syllables": 8,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa hiku pe kasa.",
+   "english": "I go to the house.",
+   "literal": "I go to house.",
+   "call": [
+    "state(go(who=speaker, to=house))"
+   ],
+   "bytes": 10,
+   "hex": "472672bcec81c8a672cc",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "yu sa hiku pe kasa ka",
+   "english": "Do you go to the house?",
+   "literal": "you go to house?",
+   "call": [
+    "ask(go(who=listener, to=house))"
+   ],
+   "bytes": 11,
+   "hex": "b32672bcec81c8a6722b20",
+   "syllables": 8,
+   "en_syllables": 6
+  },
+  {
+   "sala": "si sa ta hiku pe kasa.",
+   "english": "He or she went to the house.",
+   "literal": "he/she/it [past] go to house.",
+   "call": [
+    "state(go(who=it, to=house, past=true))"
+   ],
+   "bytes": 12,
+   "hex": "6f2672172bcec81c8a672cc0",
+   "syllables": 8,
+   "en_syllables": 7
+  },
+  {
+   "sala": "mi lu sa hiku pe kasa mahi.",
+   "english": "We go to the big house.",
+   "literal": "we go to big house.",
+   "call": [
+    "state(go(who=speaker[plural], to=house[big]))"
+   ],
+   "bytes": 14,
+   "hex": "4728b2672bcec81c8a6723efcb30",
+   "syllables": 10,
+   "en_syllables": 6
+  },
+  {
+   "sala": "mi sa kome ho kasa.",
+   "english": "I come from the house.",
+   "literal": "I come from house.",
+   "call": [
+    "state(come(who=speaker, from=house))"
+   ],
+   "bytes": 10,
+   "hex": "472672350cb0c8a672cc",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "lapi le mi sa kome.",
+   "english": "My friend comes.",
+   "literal": "friend of I come.",
+   "call": [
+    "state(come(who=friend[of=speaker]))"
+   ],
+   "bytes": 10,
+   "hex": "782c9fc91c99c8d432cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "lapi le mi sa wena.",
+   "english": "My friend is good.",
+   "literal": "friend of I good.",
+   "call": [
+    "state(good(who=friend[of=speaker]))"
+   ],
+   "bytes": 10,
+   "hex": "782c9fc91c99ca4532cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "lapi le yu sa mila ke mi.",
+   "english": "Your friend sees me.",
+   "literal": "friend of you see I.",
+   "call": [
+    "state(see(who=friend[of=listener], object=speaker))"
+   ],
+   "bytes": 13,
+   "hex": "782c9fcacc99c917b22f2472cc",
+   "syllables": 9,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa sape ke yu.",
+   "english": "I know you.",
+   "literal": "I know you.",
+   "call": [
+    "state(know(who=speaker, object=listener))"
+   ],
+   "bytes": 9,
+   "hex": "472672641c8bcaccb3",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa mo sape ke si.",
+   "english": "I do not know him or her.",
+   "literal": "I [not] know he/she/it.",
+   "call": [
+    "state(not(know(who=speaker, object=it)))"
+   ],
+   "bytes": 11,
+   "hex": "4726724b2641c8bc9bcb30",
+   "syllables": 7,
+   "en_syllables": 7
+  },
+  {
+   "sala": "yu sa sape ke wiya ka",
+   "english": "Do you know the way?",
+   "literal": "you know way?",
+   "call": [
+    "ask(know(who=listener, object=way))"
+   ],
+   "bytes": 11,
+   "hex": "b32672641c8bca5a322b20",
+   "syllables": 8,
+   "en_syllables": 5
+  },
+  {
+   "sala": "mi sa sape ke wiya pe kasa.",
+   "english": "I know the way to the house.",
+   "literal": "I know way to house.",
+   "call": [
+    "state(know(who=speaker, object=way, to=house))"
+   ],
+   "bytes": 14,
+   "hex": "472672641c8bca5a32072299cb30",
+   "syllables": 10,
+   "en_syllables": 7
+  },
+  {
+   "sala": "mi sa tona ke wata pe yu.",
+   "english": "I give you water.",
+   "literal": "I give water to you.",
+   "call": [
+    "state(give(who=speaker, object=water, to=listener))"
+   ],
+   "bytes": 13,
+   "hex": "472672214c8bca3172072b32cc",
+   "syllables": 9,
+   "en_syllables": 5
+  },
+  {
+   "sala": "sa tona ke pine pe mi pu",
+   "english": "Please give me bread.",
+   "literal": "give bread to I, please.",
+   "call": [
+    "request(give(object=bread, to=speaker))"
+   ],
+   "bytes": 12,
+   "hex": "672214c8bc82572072472132",
+   "syllables": 9,
+   "en_syllables": 4
+  },
+  {
+   "sala": "si sa ta tona ke kitu pe mi.",
+   "english": "He or she gave me a book.",
+   "literal": "he/she/it [past] give book to I.",
+   "call": [
+    "state(give(who=it, object=book, to=speaker, past=true))"
+   ],
+   "bytes": 15,
+   "hex": "6f2672172214c8bc8c272072472cc0",
+   "syllables": 10,
+   "en_syllables": 7
+  },
+  {
+   "sala": "mi sa tene ke kitu.",
+   "english": "I have a book.",
+   "literal": "I have book.",
+   "call": [
+    "state(have(who=speaker, object=book))"
+   ],
+   "bytes": 10,
+   "hex": "472672195c8bc8c272cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa liye ke kitu.",
+   "english": "I read the book.",
+   "literal": "I read book.",
+   "call": [
+    "state(read(who=speaker, object=book))"
+   ],
+   "bytes": 10,
+   "hex": "472672829c8bc8c272cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "kitu sa wena hi",
+   "english": "The book is good! (gladly)",
+   "literal": "book good! (gladly)",
+   "call": [
+    "state.joy(good(who=book))"
+   ],
+   "bytes": 8,
+   "hex": "309c99ca4532bf20",
+   "syllables": 6,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa lowe ke yu hi",
+   "english": "I love you! (gladly)",
+   "literal": "I love you! (gladly)",
+   "call": [
+    "state.joy(love(who=speaker, object=listener))"
+   ],
+   "bytes": 10,
+   "hex": "472672864c8bcaccafc8",
+   "syllables": 7,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mama le mi sa lowe ke mi.",
+   "english": "My mother loves me.",
+   "literal": "mother of I love I.",
+   "call": [
+    "state(love(who=mother[of=speaker], object=speaker))"
+   ],
+   "bytes": 13,
+   "hex": "3cfc9fc91c99ca19322f2472cc",
+   "syllables": 9,
+   "en_syllables": 6
+  },
+  {
+   "sala": "papa le mi sa lepo na kasa.",
+   "english": "My father works at the house.",
+   "literal": "father of I work in house.",
+   "call": [
+    "state(work(who=father[of=speaker], in=house))"
+   ],
+   "bytes": 14,
+   "hex": "000c9fc91c99c9f0f2532299cb30",
+   "syllables": 10,
+   "en_syllables": 7
+  },
+  {
+   "sala": "nino sa lili na yola.",
+   "english": "The child sleeps at night.",
+   "literal": "child sleep in night.",
+   "call": [
+    "state(sleep(who=child, in=night))"
+   ],
+   "bytes": 11,
+   "hex": "597c99ca0832532adecb30",
+   "syllables": 8,
+   "en_syllables": 5
+  },
+  {
+   "sala": "suli sa lumi na hali.",
+   "english": "The sun shines in the day.",
+   "literal": "sun light in day.",
+   "call": [
+    "state(light(who=sun, in=day))"
+   ],
+   "bytes": 11,
+   "hex": "760c99ca2472532b60cb30",
+   "syllables": 8,
+   "en_syllables": 7
+  },
+  {
+   "sala": "lune sa lumi na yola.",
+   "english": "The moon shines at night.",
+   "literal": "moon light in night.",
+   "call": [
+    "state(light(who=moon, in=night))"
+   ],
+   "bytes": 11,
+   "hex": "895c99ca2472532adecb30",
+   "syllables": 8,
+   "en_syllables": 6
+  },
+  {
+   "sala": "mi sa so mila ke sita lu na yola.",
+   "english": "I can see the stars at night.",
+   "literal": "I [can] see stars in night.",
+   "call": [
+    "state(see(who=speaker, object=star[plural], in=night, can=true))"
+   ],
+   "bytes": 17,
+   "hex": "47267273245ec8bc9b1728b2532adecb30",
+   "syllables": 12,
+   "en_syllables": 7
+  },
+  {
+   "sala": "mi sa mu hiku sesu.",
+   "english": "I must go now.",
+   "literal": "I [must] now go.",
+   "call": [
+    "state(go[now](who=speaker, must=true))"
+   ],
+   "bytes": 10,
+   "hex": "4726724f2bcec9a772cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "yu sa mu kula.",
+   "english": "You must eat.",
+   "literal": "you [must] eat.",
+   "call": [
+    "state(eat(who=listener, must=true))"
+   ],
+   "bytes": 8,
+   "hex": "b326724f239ecb30",
+   "syllables": 5,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa so sayi ke yu.",
+   "english": "I can help you.",
+   "literal": "I [can] help you.",
+   "call": [
+    "state(help(who=speaker, object=listener, can=true))"
+   ],
+   "bytes": 11,
+   "hex": "47267273266ac8bcaccb30",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "sa sayi ke mi pu",
+   "english": "Please help me.",
+   "literal": "help I, please.",
+   "call": [
+    "request(help(object=speaker))"
+   ],
+   "bytes": 9,
+   "hex": "67266ac8bc91c84c80",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "sa kome pu",
+   "english": "Please come.",
+   "literal": "come, please.",
+   "call": [
+    "request(come())"
+   ],
+   "bytes": 6,
+   "hex": "672350c84c80",
+   "syllables": 4,
+   "en_syllables": 2
+  },
+  {
+   "sala": "sa hesi pu",
+   "english": "Please wait.",
+   "literal": "wait, please.",
+   "call": [
+    "request(wait())"
+   ],
+   "bytes": 6,
+   "hex": "672b9bc84c80",
+   "syllables": 4,
+   "en_syllables": 2
+  },
+  {
+   "sala": "sa puke ke poli pu",
+   "english": "Please open the door.",
+   "literal": "open door, please.",
+   "call": [
+    "request(open(object=door))"
+   ],
+   "bytes": 9,
+   "hex": "67210bc8bc83832132",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "poli sa puke.",
+   "english": "The door is open.",
+   "literal": "door open.",
+   "call": [
+    "state(open(who=door))"
+   ],
+   "bytes": 7,
+   "hex": "0e0c99c842f2cc",
+   "syllables": 5,
+   "en_syllables": 5
+  },
+  {
+   "sala": "sa tutu ke poli pu",
+   "english": "Please close the door.",
+   "literal": "close door, please.",
+   "call": [
+    "request(close(object=door))"
+   ],
+   "bytes": 9,
+   "hex": "672249c8bc83832132",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "puyo sa hota.",
+   "english": "Fire is hot.",
+   "literal": "fire hot.",
+   "call": [
+    "state(hot(who=fire))"
+   ],
+   "bytes": 7,
+   "hex": "12bc99cb0172cc",
+   "syllables": 5,
+   "en_syllables": 3
+  },
+  {
+   "sala": "wata sa simu.",
+   "english": "The water is cold.",
+   "literal": "water cold.",
+   "call": [
+    "state(cold(who=water))"
+   ],
+   "bytes": 7,
+   "hex": "8c5c99c9b4f2cc",
+   "syllables": 5,
+   "en_syllables": 5
+  },
+  {
+   "sala": "mi sa lase ke hapo.",
+   "english": "I feel joy.",
+   "literal": "I feel joy.",
+   "call": [
+    "state(feel(who=speaker, object=joy))"
+   ],
+   "bytes": 10,
+   "hex": "47267279ac8bcad0f2cc",
+   "syllables": 7,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa lase ke pawo he",
+   "english": "I feel fear. (sadly)",
+   "literal": "I feel fear. (sadly)",
+   "call": [
+    "state.sorrow(feel(who=speaker, object=fear))"
+   ],
+   "bytes": 11,
+   "hex": "47267279ac8bc809b2bb20",
+   "syllables": 8,
+   "en_syllables": 3
+  },
+  {
+   "sala": "yu sa wena ka",
+   "english": "Are you well?",
+   "literal": "you good?",
+   "call": [
+    "ask(good(who=listener))"
+   ],
+   "bytes": 7,
+   "hex": "b32672914c8ac8",
+   "syllables": 5,
+   "en_syllables": 3
+  },
+  {
+   "sala": "mi sa wena. ye yu ka",
+   "english": "I am well. And you?",
+   "literal": "I good. and you?",
+   "call": [
+    "state(good(who=speaker))",
+    "ask(listener)"
+   ],
+   "bytes": 11,
+   "hex": "472672914cb3a72b322b20",
+   "syllables": 7,
+   "en_syllables": 5
+  },
+  {
+   "sala": "hini sa nani ka",
+   "english": "What is this?",
+   "literal": "this what?",
+   "call": [
+    "ask(what(who=this))"
+   ],
+   "bytes": 8,
+   "hex": "bd6c99c945b22b20",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "hini sa pine.",
+   "english": "This is bread.",
+   "literal": "this bread.",
+   "call": [
+    "state(bread(who=this))"
+   ],
+   "bytes": 7,
+   "hex": "bd6c99c82572cc",
+   "syllables": 5,
+   "en_syllables": 3
+  },
+  {
+   "sala": "hute sa kasa le mi.",
+   "english": "That is my house.",
+   "literal": "that house of I.",
+   "call": [
+    "state(house[of=speaker](who=that))"
+   ],
+   "bytes": 10,
+   "hex": "c46c99c8a6727f2472cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "loko hini sa leya.",
+   "english": "This word is true.",
+   "literal": "this word true.",
+   "call": [
+    "state(true(who=word[this]))"
+   ],
+   "bytes": 9,
+   "hex": "84dcaf5b26727e8cb3",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa sema ke welo.",
+   "english": "I say the truth.",
+   "literal": "I say truth.",
+   "call": [
+    "state(say(who=speaker, object=truth))"
+   ],
+   "bytes": 10,
+   "hex": "47267268fc8bca4872cc",
+   "syllables": 7,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa suna ke wako le yu.",
+   "english": "I hear your voice.",
+   "literal": "I hear voice of you.",
+   "call": [
+    "state(hear(who=speaker, object=voice[of=listener]))"
+   ],
+   "bytes": 13,
+   "hex": "472672754c8bca33727f2b32cc",
+   "syllables": 9,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa kiyo ke yu.",
+   "english": "I believe you.",
+   "literal": "I believe you.",
+   "call": [
+    "state(believe(who=speaker, object=listener))"
+   ],
+   "bytes": 9,
+   "hex": "47267232bc8bcaccb3",
+   "syllables": 6,
+   "en_syllables": 4
+  },
+  {
+   "sala": "mi sa menu ke loko nuye.",
+   "english": "I learn a new word.",
+   "literal": "I learn new word.",
+   "call": [
+    "state(learn(who=speaker, object=word[new]))"
+   ],
+   "bytes": 12,
+   "hex": "472672418c8bca1372629cb3",
+   "syllables": 9,
+   "en_syllables": 5
+  },
+  {
+   "sala": "loko sa haya.",
+   "english": "The word is life.",
+   "literal": "word life.",
+   "call": [
+    "state(life(who=word))"
+   ],
+   "bytes": 7,
+   "hex": "84dc99cada32cc",
+   "syllables": 5,
+   "en_syllables": 4
+  },
+  {
+   "sala": "haya sa wena hi",
+   "english": "Life is good! (gladly)",
+   "literal": "life good! (gladly)",
+   "call": [
+    "state.joy(good(who=life))"
+   ],
+   "bytes": 8,
+   "hex": "b68c99ca4532bf20",
+   "syllables": 6,
+   "en_syllables": 3
+  },
+  {
+   "sala": "sala sa yowu na tuni ka",
+   "english": "Is there peace in the world?",
+   "literal": "peace exist in world?",
+   "call": [
+    "ask(exist(who=peace, in=world))"
+   ],
+   "bytes": 12,
+   "hex": "65ec99cab9f2532256c8ac80",
+   "syllables": 9,
+   "en_syllables": 6
+  },
+  {
+   "sala": "homo tote sa wole ke sala.",
+   "english": "All people want peace.",
+   "literal": "all person want peace.",
+   "call": [
+    "state(want(who=person[all], object=peace))"
+   ],
+   "bytes": 13,
+   "hex": "c12c881b267299fc8bc997b2cc",
+   "syllables": 10,
+   "en_syllables": 4
+  },
+  {
+   "sala": "ku yu sa kome te mi sa tona ke hane pe yu.",
+   "english": "If you come, I give you food.",
+   "literal": "if you come, then I give food to you.",
+   "call": [
+    "state(if(come(who=listener), then=give(who=speaker, object=food, to=listener)))"
+   ],
+   "bytes": 21,
+   "hex": "3b2b32672350c86c91c99c885322f2b55c81caccb3",
+   "syllables": 15,
+   "en_syllables": 7
+  },
+  {
+   "sala": "mi sa wole ke wata pa wata sa mo yowu.",
+   "english": "I want water, but there is no water.",
+   "literal": "I want water, but water [not] exist.",
+   "call": [
+    "state(but(want(who=speaker, object=water), not(exist(who=water))))"
+   ],
+   "bytes": 19,
+   "hex": "47267299fc8bca31720328c5c99c92cab9f2cc",
+   "syllables": 14,
+   "en_syllables": 10
+  },
+  {
+   "sala": "mi sa kula ye yu sa pipi.",
+   "english": "I eat and you drink.",
+   "literal": "I eat, and you drink.",
+   "call": [
+    "state(and(eat(who=speaker), drink(who=listener)))"
+   ],
+   "bytes": 13,
+   "hex": "47267239eca9cacc99c820b2cc",
+   "syllables": 9,
+   "en_syllables": 5
+  },
+  {
+   "sala": "kaki. sala.",
+   "english": "Thanks. Peace.",
+   "literal": "thanks. peace.",
+   "call": [
+    "state(thanks)",
+    "state(peace)"
+   ],
+   "bytes": 6,
+   "hex": "28ccb365ecb3",
+   "syllables": 4,
+   "en_syllables": 2
+  }
+ ]
+}

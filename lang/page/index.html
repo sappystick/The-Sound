@@ -1,0 +1,299 @@
+<title>Sala</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a field guide. A quiet header, six tabs, each a short page of cards; the script's glyphs are the ornament. */
+:root{
+  --bg:#eceee9; --panel:#f7f8f4; --ink:#18202c; --muted:#5d6672; --rule:#cfd4cc; --track:#e0e3dc;
+  --subject:#9a6a24; --verb:#2c58a0; --object:#b2445a; --of:#3f7d4c; --to:#6c4fa6; --link:#6b7480; --ok:#2f7a45; --bad:#b2445a; --accent:#2c58a0;
+  --display:"GFS Didot","Noto Serif",Georgia,serif; --body:"Noto Serif",Georgia,serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --subject:#d7a65a; --verb:#7ea4e6; --object:#e57d92; --of:#7cc28a; --to:#b39ae8; --link:#98a1ad; --ok:#7cc28a; --bad:#e57d92; --accent:#7ea4e6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10141b; --panel:#171c25; --ink:#e7e5de; --muted:#9aa1ab; --rule:#2b323e; --track:#1d232e;
+  --subject:#d7a65a; --verb:#7ea4e6; --object:#e57d92; --of:#7cc28a; --to:#b39ae8; --link:#98a1ad; --ok:#7cc28a; --bad:#e57d92; --accent:#7ea4e6; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding-block:26px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px;grid-template-columns:minmax(0,1fr)}
+section.view{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+section.view>*{min-width:0}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.4rem,7vw,3.8rem);line-height:1}
+h2{font-size:1.5rem} h3{font-size:1.15rem}
+.eyebrow{font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--subject)}
+header{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:end;border-bottom:1px solid var(--rule);padding-bottom:18px}
+.lede{color:var(--muted);max-width:62ch;margin:10px 0 0}
+.mast{display:flex;gap:2px}
+.mast svg{height:64px;width:auto;display:block;color:var(--accent)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font:500 .78rem/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:9px 12px;border-radius:3px;border:1px solid transparent}
+nav a[aria-current="page"]{color:var(--ink);border-color:var(--rule);background:var(--panel)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:20px;display:grid;gap:12px;align-content:start}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px}
+.note{color:var(--muted);font-size:.9rem;max-width:74ch;margin:0}
+.dims{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.dim{border:1px solid var(--rule);border-top:3px solid var(--c);border-radius:4px;padding:14px;background:var(--bg);display:grid;gap:6px}
+.dim b{font-family:var(--display);font-size:1.25rem;font-weight:400}
+.dim .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font:500 .7rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tablebox{overflow-x:auto}
+.syl{display:grid;grid-template-columns:auto repeat(5,minmax(52px,1fr));gap:4px;min-width:420px}
+.syl div{border:1px solid var(--rule);border-radius:4px;padding:4px;text-align:center;background:var(--bg);font:400 .78rem/1.2 var(--mono);color:var(--muted)}
+.syl div.hd{border:0;background:none;font-weight:500;color:var(--ink);align-self:center}
+.syl svg,.gl svg{height:34px;width:auto;display:block;margin:0 auto;color:var(--ink)}
+.syl b{display:block;color:var(--ink);font-weight:500}
+.sala{font-family:var(--display);font-size:1.3rem}
+.mono{font-family:var(--mono);font-size:.82rem}
+input[type=text],textarea{font:400 1.05rem/1.4 var(--body);padding:10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);width:100%}
+textarea{min-height:76px;resize:vertical}
+label{font:500 .74rem/1.3 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);display:grid;gap:5px}
+button.b{font:500 .8rem/1 var(--mono);padding:10px 12px;border-radius:4px;border:1px solid var(--rule);background:var(--bg);color:var(--ink);cursor:pointer}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.out{border:1px solid var(--rule);border-radius:4px;background:var(--bg);padding:12px;display:grid;gap:10px}
+.out h4{margin:0;font:500 .7rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.words{display:flex;flex-wrap:wrap;gap:10px 8px}
+.wd{text-align:center;border-bottom:3px solid var(--c,transparent);padding:2px 4px}
+.wd .t{font-family:var(--display);font-size:1.25rem;color:var(--c,var(--ink));display:block}
+.wd .m{font-size:.76rem;color:var(--muted);display:block}
+.wd .n{font:400 .66rem var(--mono);color:var(--muted);display:block}
+.gl{display:flex;flex-wrap:wrap;gap:12px 14px;align-items:center}
+.gl .gw{display:flex;gap:1px}
+pre{margin:0;white-space:pre-wrap;word-break:break-word;font:400 .82rem/1.5 var(--mono)}
+.err{color:var(--bad)}
+.item{border-bottom:1px solid var(--rule);padding:10px 0;display:grid;gap:4px}
+.item:last-child{border-bottom:0}
+.item audio{width:100%;max-width:340px;height:34px}
+.pill{display:inline-block;font:500 .68rem/1 var(--mono);padding:4px 7px;border-radius:999px;border:1px solid currentColor;color:var(--subject);margin-left:6px}
+.chart{overflow-x:auto} .chart svg{display:block;width:100%;min-width:520px;height:auto}
+svg text{fill:var(--muted);font:10px var(--mono)}
+ol.rules{padding-left:22px;display:grid;gap:6px;max-width:72ch;margin:0}
+.search{max-width:320px}
+@media (max-width:640px){header{grid-template-columns:1fr}}
+</style>
+
+<div class="wrap">
+<header>
+  <div>
+    <div class="eyebrow">A designed language · version 0.1 · untested on learners</div>
+    <h1>Sala</h1>
+    <p class="lede">A small, regular language built for the ear, the eye, the hand and the machine. Its name is its own word for peace, and its greeting.</p>
+  </div>
+  <div class="mast" id="mast" aria-hidden="true"></div>
+</header>
+<nav aria-label="Sections">
+  <a href="#overview" data-view="overview">Overview</a>
+  <a href="#sounds" data-view="sounds">Sounds &amp; script</a>
+  <a href="#words" data-view="words">Words</a>
+  <a href="#grammar" data-view="grammar">Grammar</a>
+  <a href="#machine" data-view="machine">Machine</a>
+  <a href="#texts" data-view="texts">Texts</a>
+  <a href="#limits" data-view="limits">Limits</a>
+</nav>
+
+<section class="view" id="v-overview">
+  <div class="card">
+    <h2>One language in four channels</h2>
+    <div class="dims" id="dims"></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>Hear it</h3><p class="note">The same sentence, “I see you”, in the six melodies. The last word names the stance; the melody carries it.</p><div id="melodies"></div></div>
+    <div class="card"><h3>In numbers</h3><div class="tablebox"><table id="numbers"></table></div></div>
+  </div>
+</section>
+
+<section class="view" id="v-sounds" hidden>
+  <div class="card">
+    <h2>Fifty syllables</h2>
+    <p class="note">Ten consonants and five vowels, chosen because most of the world's languages already have them. Each syllable has a sign and a number (consonant × 5 + vowel). In the sign, the stroke is the consonant and the dot's position is the vowel: below a, right e, above i, centre o, left u. Lip sounds are round, tongue-tip sounds are straight, back sounds are angled.</p>
+    <div class="tablebox"><div class="syl" id="syl"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h3>How common each sound is</h3><p class="note">Share of 3,020 language sound inventories (PHOIBLE) that have the sound.</p><div class="chart"><svg id="pho" viewBox="0 0 520 190" role="img" aria-label="Sound frequency"></svg></div></div>
+    <div class="card"><h3>The hand: a sign for every syllable</h3><p class="note">The handshape is the consonant; where it is held is the vowel. A root is two quick signs. This layer is a proposal and has not been tried with signers.</p><div class="tablebox"><table id="gest"></table></div></div>
+  </div>
+  <div class="card"><h3>The six melodies</h3><p class="note">Planned pitch for a six-syllable sentence in each stance. Measured medians of the recorded samples are in the legend.</p><div class="chart"><svg id="melchart" viewBox="0 0 720 240" role="img" aria-label="Melody contours"></svg></div></div>
+</section>
+
+<section class="view" id="v-words" hidden>
+  <div class="card">
+    <h2>The roots</h2>
+    <p class="note" id="wordsnote"></p>
+    <label class="search" for="q">Find a word<input type="text" id="q" placeholder="water, wata, 1803 …"></label>
+    <div class="tablebox"><table id="lex"></table></div>
+  </div>
+</section>
+
+<section class="view" id="v-grammar" hidden>
+  <div class="grid2">
+    <div class="card"><h2>Ten rules</h2><ol class="rules" id="rules"></ol></div>
+    <div class="card"><h2>The grammar words</h2><div class="tablebox"><table id="gram"></table></div></div>
+  </div>
+  <div class="card"><h3>Seen in a sentence</h3><div id="gramex"></div></div>
+</section>
+
+<section class="view" id="v-machine" hidden>
+  <div class="card">
+    <h2>One sentence, read by a person and by a program</h2>
+    <p class="note">Type Sala below. The page reads it with the same small parser a program would use, and shows the script, the meaning, the function-call form, the number of every word and the packed bytes.</p>
+    <label for="inp">Sala<textarea id="inp" spellcheck="false"></textarea></label>
+    <div class="row" id="examples"></div>
+    <div class="out" id="out"></div>
+  </div>
+  <div class="card"><h3>How the code works</h3><div class="tablebox"><table id="codehow"></table></div></div>
+</section>
+
+<section class="view" id="v-texts" hidden>
+  <div class="card"><h2>A meeting</h2><div id="t-dialogue"></div></div>
+  <div class="card"><h2>John 1:1–5, 14</h2><p class="note">A stress test of depth: the prologue with a 148-root vocabulary. “Glory” is rendered “great light”.</p><div id="t-john"></div></div>
+  <div class="card"><h2>Speaking to a machine</h2><div id="t-machine"></div></div>
+</section>
+
+<section class="view" id="v-limits" hidden>
+  <div class="card">
+    <h2>What this is and is not</h2>
+    <div class="tablebox"><table id="limits"></table></div>
+  </div>
+</section>
+</div>
+
+<script>
+const D = {"C":"ptkmnslwyh","V":"aeiou","roots":[{"root":"wata","code":1755,"meaning":"water","kind":"thing","source":"wata","exact":true},{"root":"wena","code":1820,"meaning":"good","kind":"quality","source":"wena","exact":true},{"root":"yowu","code":2189,"meaning":"exist","kind":"action","source":"yowu","exact":true},{"root":"mila","code":880,"meaning":"see","kind":"action","source":"mira","exact":true},{"root":"sema","code":1315,"meaning":"say","kind":"action","source":"sema","exact":true},{"root":"hiku","code":2364,"meaning":"go","kind":"action","source":"iku","exact":true},{"root":"kome","code":666,"meaning":"come","kind":"action","source":"come","exact":true},{"root":"tona","code":420,"meaning":"give","kind":"action","source":"dona","exact":true},{"root":"sape","code":1251,"meaning":"know","kind":"action","source":"sabe","exact":true},{"root":"wole","code":1931,"meaning":"want","kind":"action","source":"vole","exact":true},{"root":"make","code":761,"meaning":"make","kind":"action","source":"make","exact":true},{"root":"tene","code":321,"meaning":"have","kind":"action","source":"tene","exact":true},{"root":"homo","code":2418,"meaning":"person","kind":"thing","source":"homo","exact":true},{"root":"loko","code":1663,"meaning":"word","kind":"thing","source":"logo","exact":true},{"root":"haya","code":2290,"meaning":"life","kind":"thing","source":"hayat","exact":true},{"root":"lumi","code":1717,"meaning":"light","kind":"thing","source":"lumi","exact":true},{"root":"tewa","code":335,"meaning":"god","kind":"thing","source":"deva","exact":true},{"root":"lowe","code":1686,"meaning":"love","kind":"action","source":"lowe","exact":true},{"root":"kasa","code":525,"meaning":"house","kind":"thing","source":"kasa","exact":true},{"root":"kula","code":730,"meaning":"eat","kind":"action","source":"kula","exact":true},{"root":"hali","code":2282,"meaning":"day","kind":"thing","source":"hari","exact":true},{"root":"nani","code":1022,"meaning":"what","kind":"question","source":"nani","exact":true},{"root":"hini","code":2372,"meaning":"this","kind":"pointer","source":"ini","exact":true},{"root":"hute","code":2456,"meaning":"that","kind":"pointer","source":"itu","exact":false},{"root":"yese","code":2076,"meaning":"yes","kind":"link","source":"yes","exact":true},{"root":"sala","code":1280,"meaning":"peace","kind":"thing","source":"salam","exact":true},{"root":"kaki","code":512,"meaning":"thanks","kind":"link","source":"gracias","exact":true},{"root":"mama","code":765,"meaning":"mother","kind":"thing","source":"mama","exact":true},{"root":"papa","code":0,"meaning":"father","kind":"thing","source":"papa","exact":true},{"root":"nino","code":1123,"meaning":"child","kind":"thing","source":"nino","exact":true},{"root":"pemi","code":67,"meaning":"woman","kind":"thing","source":"femina","exact":true},{"root":"tato","code":258,"meaning":"man","kind":"thing","source":"tato","exact":true},{"root":"lapi","code":1502,"meaning":"friend","kind":"thing","source":"rafiki","exact":true},{"root":"name","code":1016,"meaning":"name","kind":"thing","source":"nama","exact":false},{"root":"kolo","code":683,"meaning":"body","kind":"thing","source":"korpo","exact":true},{"root":"kepa","code":550,"meaning":"head","kind":"thing","source":"kepala","exact":true},{"root":"mano","code":773,"meaning":"hand","kind":"thing","source":"mano","exact":true},{"root":"pete","code":56,"meaning":"foot","kind":"thing","source":"pede","exact":true},{"root":"moti","code":907,"meaning":"eye","kind":"thing","source":"mata","exact":false},{"root":"kupi","code":702,"meaning":"ear","kind":"thing","source":"kuping","exact":true},{"root":"poka","code":160,"meaning":"mouth","kind":"thing","source":"boka","exact":true},{"root":"hatu","code":2259,"meaning":"heart","kind":"thing","source":"hati","exact":false},{"root":"puyo","code":243,"meaning":"fire","kind":"thing","source":"paya","exact":false},{"root":"lana","code":1520,"meaning":"land","kind":"thing","source":"land","exact":true},{"root":"sele","code":1331,"meaning":"sky","kind":"thing","source":"sela","exact":false},{"root":"suli","code":1482,"meaning":"sun","kind":"thing","source":"surya","exact":true},{"root":"lune","code":1721,"meaning":"moon","kind":"thing","source":"luna","exact":false},{"root":"sita","code":1355,"meaning":"star","kind":"thing","source":"sitara","exact":true},{"root":"yola","code":2180,"meaning":"night","kind":"thing","source":"yoru","exact":false},{"root":"temo","code":318,"meaning":"time","kind":"thing","source":"tempo","exact":true},{"root":"sanu","code":1274,"meaning":"year","kind":"thing","source":"sana","exact":false},{"root":"luka","code":1710,"meaning":"place","kind":"thing","source":"lugar","exact":true},{"root":"wiya","code":1890,"meaning":"way","kind":"thing","source":"via","exact":true},{"root":"poli","code":182,"meaning":"door","kind":"thing","source":"porta","exact":false},{"root":"hane","code":2271,"meaning":"food","kind":"thing","source":"khana","exact":false},{"root":"pine","code":121,"meaning":"bread","kind":"thing","source":"pane","exact":false},{"root":"pesa","code":75,"meaning":"fish","kind":"thing","source":"peska","exact":true},{"root":"heno","code":2323,"meaning":"animal","kind":"thing","source":"animal","exact":false},{"root":"mite","code":856,"meaning":"tree","kind":"thing","source":"miti","exact":false},{"root":"kiwi","code":637,"meaning":"stone","kind":"thing","source":"kivi","exact":true},{"root":"kosi","code":677,"meaning":"thing","kind":"thing","source":"kosa","exact":false},{"root":"mayu","code":794,"meaning":"death","kind":"thing","source":"maut","exact":true},{"root":"yami","code":2017,"meaning":"dark","kind":"quality","source":"yami","exact":true},{"root":"peyu","code":94,"meaning":"spirit","kind":"thing","source":"pneuma","exact":true},{"root":"hapo","code":2253,"meaning":"joy","kind":"thing","source":"hapi","exact":false},{"root":"seti","code":1307,"meaning":"sorrow","kind":"thing","source":"sedih","exact":true},{"root":"pawo","code":38,"meaning":"fear","kind":"thing","source":"pavor","exact":true},{"root":"hile","code":2381,"meaning":"anger","kind":"thing","source":"ira","exact":false},{"root":"welo","code":1833,"meaning":"truth","kind":"thing","source":"vero","exact":true},{"root":"tuni","code":472,"meaning":"world","kind":"thing","source":"dunia","exact":true},{"root":"kale","code":531,"meaning":"flesh","kind":"thing","source":"karne","exact":true},{"root":"mone","code":921,"meaning":"money","kind":"thing","source":"money","exact":true},{"root":"leke","code":1561,"meaning":"law","kind":"thing","source":"lege","exact":true},{"root":"popo","code":153,"meaning":"people","kind":"thing","source":"popo","exact":true},{"root":"palu","code":34,"meaning":"part","kind":"thing","source":"parte","exact":false},{"root":"tipo","code":353,"meaning":"kind","kind":"thing","source":"tipo","exact":true},{"root":"nuwu","code":1239,"meaning":"power","kind":"thing","source":"nguvu","exact":true},{"root":"meli","code":832,"meaning":"bad","kind":"quality","source":"mala","exact":false},{"root":"mahi","code":797,"meaning":"big","kind":"quality","source":"maha","exact":false},{"root":"piko","code":113,"meaning":"small","kind":"quality","source":"piko","exact":true},{"root":"mule","code":981,"meaning":"many","kind":"quality","source":"multi","exact":false},{"root":"paye","code":41,"meaning":"few","kind":"quality","source":"pauci","exact":false},{"root":"tote","code":406,"meaning":"all","kind":"quality","source":"total","exact":false},{"root":"layo","code":1543,"meaning":"other","kind":"quality","source":"lain","exact":false},{"root":"samo","code":1268,"meaning":"same","kind":"quality","source":"same","exact":false},{"root":"nuye","code":1241,"meaning":"new","kind":"quality","source":"nueva","exact":true},{"root":"lawu","code":1539,"meaning":"old","kind":"quality","source":"lawo","exact":false},{"root":"loni","code":1672,"meaning":"long","kind":"quality","source":"longa","exact":false},{"root":"kelu","code":584,"meaning":"short","kind":"quality","source":"korta","exact":false},{"root":"hota","code":2405,"meaning":"hot","kind":"quality","source":"hot","exact":false},{"root":"simu","code":1369,"meaning":"cold","kind":"quality","source":"samui","exact":false},{"root":"kuyu","code":744,"meaning":"strong","kind":"quality","source":"kuat","exact":false},{"root":"puwa","code":235,"meaning":"beautiful","kind":"quality","source":"bela","exact":false},{"root":"ponu","code":174,"meaning":"full","kind":"quality","source":"plena","exact":false},{"root":"leya","code":1590,"meaning":"true","kind":"quality","source":"real","exact":true},{"root":"seko","code":1313,"meaning":"holy","kind":"quality","source":"sakra","exact":false},{"root":"taka","code":260,"meaning":"take","kind":"action","source":"take","exact":false},{"root":"suna","code":1470,"meaning":"hear","kind":"action","source":"suna","exact":true},{"root":"soso","code":1428,"meaning":"think","kind":"action","source":"soch","exact":true},{"root":"pipi","code":102,"meaning":"drink","kind":"action","source":"bibe","exact":false},{"root":"lili","code":1632,"meaning":"sleep","kind":"action","source":"lala","exact":false},{"root":"lepo","code":1553,"meaning":"work","kind":"action","source":"labor","exact":false},{"root":"sayi","code":1292,"meaning":"help","kind":"action","source":"saidia","exact":true},{"root":"kamu","code":519,"meaning":"begin","kind":"action","source":"komensa","exact":false},{"root":"hunu","code":2474,"meaning":"end","kind":"action","source":"end","exact":false},{"root":"yate","code":2006,"meaning":"become","kind":"action","source":"jadi","exact":false},{"root":"tuma","code":465,"meaning":"send","kind":"action","source":"tuma","exact":true},{"root":"pati","code":7,"meaning":"find","kind":"action","source":"pata","exact":false},{"root":"puke","code":211,"meaning":"open","kind":"action","source":"buka","exact":false},{"root":"tutu","code":459,"meaning":"close","kind":"action","source":"tutup","exact":true},{"root":"molu","code":934,"meaning":"stay","kind":"action","source":"mora","exact":false},{"root":"liha","code":1645,"meaning":"write","kind":"action","source":"likha","exact":true},{"root":"liye","code":1641,"meaning":"read","kind":"action","source":"lee","exact":false},{"root":"menu","code":824,"meaning":"learn","kind":"action","source":"manabu","exact":false},{"root":"keye","code":591,"meaning":"buy","kind":"action","source":"kau","exact":false},{"root":"lase","code":1526,"meaning":"feel","kind":"action","source":"rasa","exact":false},{"root":"tulo","code":483,"meaning":"hurt","kind":"action","source":"dolor","exact":false},{"root":"kiyo","code":643,"meaning":"believe","kind":"action","source":"kree","exact":false},{"root":"mosa","code":925,"meaning":"show","kind":"action","source":"mostra","exact":true},{"root":"winu","code":1874,"meaning":"win","kind":"action","source":"vinse","exact":false},{"root":"naso","code":1028,"meaning":"born","kind":"action","source":"nasce","exact":false},{"root":"mowo","code":938,"meaning":"move","kind":"action","source":"move","exact":false},{"root":"hesi","code":2327,"meaning":"wait","kind":"action","source":"espera","exact":false},{"root":"yoki","code":2162,"meaning":"play","kind":"action","source":"yoki","exact":true},{"root":"woku","code":1914,"meaning":"call","kind":"action","source":"voka","exact":false},{"root":"sesu","code":1329,"meaning":"now","kind":"time","source":"sasa","exact":false},{"root":"meyo","code":843,"meaning":"before","kind":"time","source":"mae","exact":false},{"root":"pose","code":176,"meaning":"after","kind":"time","source":"post","exact":false},{"root":"supo","code":1453,"meaning":"above","kind":"place","source":"supra","exact":false},{"root":"piwu","code":139,"meaning":"below","kind":"place","source":"bawah","exact":false},{"root":"naku","code":1014,"meaning":"inside","kind":"place","source":"naka","exact":false},{"root":"loyu","code":1694,"meaning":"outside","kind":"place","source":"luar","exact":false},{"root":"teki","code":312,"meaning":"near","kind":"place","source":"dekat","exact":false},{"root":"yiyu","code":2144,"meaning":"far","kind":"place","source":"jauh","exact":false},{"root":"kima","code":615,"meaning":"like","kind":"link","source":"kama","exact":false},{"root":"muya","code":990,"meaning":"very","kind":"link","source":"muy","exact":false},{"root":"husa","code":2475,"meaning":"only","kind":"link","source":"hana","exact":false},{"root":"hito","code":2358,"meaning":"again","kind":"link","source":"otra","exact":false},{"root":"yuko","code":2213,"meaning":"also","kind":"link","source":"juga","exact":false},{"root":"kise","code":626,"meaning":"maybe","kind":"link","source":"kizas","exact":false},{"root":"numo","code":1218,"meaning":"number","kind":"thing","source":"numero","exact":false},{"root":"koya","code":690,"meaning":"cause","kind":"thing","source":"kausa","exact":false},{"root":"kitu","code":609,"meaning":"book","kind":"thing","source":"kitab","exact":false},{"root":"sike","code":1361,"meaning":"sign","kind":"thing","source":"signo","exact":false},{"root":"wako","code":1763,"meaning":"voice","kind":"thing","source":"voce","exact":false},{"root":"lopa","code":1650,"meaning":"king","kind":"thing","source":"raja","exact":false},{"root":"wono","code":1923,"meaning":"wind","kind":"thing","source":"vento","exact":false},{"root":"kuwo","code":738,"meaning":"color","kind":"thing","source":"kolor","exact":false}],"pron":{"mi":"I","yu":"you","si":"he/she/it"},"role":{"ke":"object","pe":"to","na":"in","wi":"with","ho":"from"},"tense":{"ta":"past","ya":"future","so":"can","mu":"must"},"link":{"ye":"and","yo":"or","ku":"if","te":"then","pa":"but"},"stance":{"ka":"question","pu":"request","hi":"joy","he":"sorrow","wa":"urgent"},"grammar":[["mi · yu · si","I · you · he, she, it (add lu for we, you all, they)","pron"],["sa","the action or description follows","core"],["ke","what is acted on","role"],["pe","to, for","role"],["na","in, at, on (place or time)","role"],["wi","with, by means of","role"],["ho","from, because of","role"],["le","of: the word before belongs to what follows","core"],["mo","not","core"],["lu","more than one","core"],["ta · ya","before now · after now","time"],["so · mu","can · must","time"],["ye · yo · pa","and · or · but","link"],["ku … te","if … then","link"],["ti … tu","which … (a clause describing the word before)","core"],["ha","a name follows","core"],["no…","a number: no + one syllable per digit","core"],["ka · pu · hi · he · wa","question · request · joy · sorrow · warning (sentence-final; each has its own melody)","stance"]],"rules":["Every root is two syllables; every grammar word is one. You hear a word's class from its length.","Words never change shape. No endings, no genders, no irregular forms.","A sentence is: who or what, then sa, then the action or description.","Each further part of the sentence is introduced by its own word: ke, pe, na, wi, ho. They can come in any order.","A describing word follows the word it describes: kasa mahi, a big house.","Any root can be a thing, an action or a quality, by its place in the sentence.","Time is optional: ta for the past, ya for the future, nothing for now or always.","mo before a word means not.","The feeling of a sentence is said, not guessed: a final word and its melody mark question, request, joy, sorrow or warning.","Every sentence has exactly one structure, so a person and a program read it the same way."],"samples":{"john":[{"sala":"loko sa ta yowu na kamu.","english":"In the beginning was the Word,","literal":"word [past] exist in begin.","call":["state(exist(who=word, in=begin, past=true))"],"stance":[null],"hex":"84dc99c85cab9f2532293cb3","file":"john_01.mp3","dur":3.87},{"sala":"ye loko sa ta yowu wi tewa.","english":"and the Word was with God,","literal":"and word [past] exist with god.","call":["state(exist(who=word, with=god, past=true))"],"stance":[null],"hex":"a7284dc99c85cab9f29721a3cb30","file":"john_02.mp3","dur":4.22},{"sala":"ye loko sa ta tewa.","english":"and the Word was God.","literal":"and word [past] god.","call":["state(god(who=word, past=true))"],"stance":[null],"hex":"a7284dc99c85c868f2cc","file":"john_03.mp3","dur":3.26},{"sala":"si sa ta yowu wi tewa na kamu.","english":"He was in the beginning with God.","literal":"he/she/it [past] exist with god in begin.","call":["state(exist(who=it, with=god, in=begin, past=true))"],"stance":[null],"hex":"6f2672172ae7ca5c868f2532293cb3","file":"john_04.mp3","dur":4.7},{"sala":"kosi tote sa ta yate ho si.","english":"All things came to be through him,","literal":"all thing [past] become from he/she/it.","call":["state(become(who=thing[all], from=it, past=true))"],"stance":[null],"hex":"35bc881b2672172a06cb0c9bcb30","file":"john_05.mp3","dur":4.19},{"sala":"ye kosi sa ta mo yate wi mo si.","english":"and without him nothing came to be.","literal":"and thing [past not] become with not he/she/it.","call":["state(not(become(who=thing, with=not(it), past=true)))"],"stance":[null],"hex":"a7235bc99c85c92ca81b29724b26f2cc","file":"john_06.mp3","dur":4.4},{"sala":"haya sa ta yowu na si.","english":"In him was life,","literal":"life [past] exist in he/she/it.","call":["state(exist(who=life, in=it, past=true))"],"stance":[null],"hex":"b68c99c85cab9f25326f2cc0","file":"john_07.mp3","dur":3.65},{"sala":"ye haya sa ta lumi le homo lu.","english":"and the life was the light of people.","literal":"and life [past] light of persons.","call":["state(light[of=person[plural]](who=life, past=true))"],"stance":[null],"hex":"a72b68c99c85ca24727f2c12ca2cb3","file":"john_08.mp3","dur":4.39},{"sala":"ye lumi sa lumi na yami.","english":"The light shines in the darkness,","literal":"and light light in dark.","call":["state(light(who=light, in=dark))"],"stance":[null],"hex":"a72891c99ca2472532a11cb3","file":"john_09.mp3","dur":4.09},{"sala":"ye yami sa ta mo winu ke si.","english":"and the darkness did not overcome it.","literal":"and dark [past not] win he/she/it.","call":["state(not(win(who=dark, object=it, past=true)))"],"stance":[null],"hex":"a72a11c99c85c92ca56322f26f2cc0","file":"john_10.mp3","dur":4.35},{"sala":"ye loko sa ta yate kale.","english":"And the Word became flesh","literal":"and word [past] flesh become.","call":["state(become[flesh](who=word, past=true))"],"stance":[null],"hex":"a7284dc99c85ca81b229fcb3","file":"john_11.mp3","dur":3.97},{"sala":"ye si sa ta molu wi mi lu.","english":"and dwelt among us,","literal":"and he/she/it [past] stay with we.","call":["state(stay(who=it, with=speaker[plural], past=true))"],"stance":[null],"hex":"a726f26721724a2ca5c91ca2cb30","file":"john_12.mp3","dur":3.85},{"sala":"ye mi lu sa ta mila ke lumi mahi le si.","english":"and we saw his glory.","literal":"and we [past] see big light of he/she/it.","call":["state(see(who=speaker[plural], object=light[big, of=it], past=true))"],"stance":[null],"hex":"a724728b267217245ec8bca24723efc9fc9bcb30","file":"john_13.mp3","dur":5.46}],"dialogue":[{"sala":"sala. name le yu sa nani ka","english":"A: Peace. What is your name?","literal":"peace. name of you what?","call":["state(peace)","ask(what(who=name[of=listener]))"],"stance":[null,"ka"],"hex":"65ecb3510c9fcacc99c945b22b20","file":"dialogue_01.mp3","dur":4.68},{"sala":"sala. name le mi sa ha Mira. ye yu ka","english":"B: Peace. My name is Mira. And you?","literal":"peace. name of I Mira. and you?","call":["state(peace)","state(\"Mira\"(who=name[of=speaker]))","ask(listener)"],"stance":[null,null,"ka"],"hex":"65ecb3510c9fc91c99cadcb4101341a41c81872ce9cacc8ac8","file":"dialogue_02.mp3","dur":5.96},{"sala":"mi sa ha Tomas. yu sa kome ho luka nani ka","english":"A: I am Tomas. Where do you come from?","literal":"I Tomas. you come from what place?","call":["state(\"Tomas\"(who=speaker))","ask(come(who=listener, from=place[what]))"],"stance":[null,"ka"],"hex":"472672b72d0505406f06d061073cb3b32672350cb0ca22b2516c8ac8","file":"dialogue_03.mp3","dur":5.75},{"sala":"mi sa kome ho ha Kenya. sa tona ke wata pe mi pu","english":"B: I come from Kenya. Please give me water.","literal":"I come from Kenya. give water to I, please.","call":["state(come(who=speaker, from=\"Kenya\"))","request(give(object=water, to=speaker))"],"stance":[null,"pu"],"hex":"472672350cb0cadcb41412c1941b81e41872cd9c885322f28c5c81c91c84c8","file":"dialogue_04.mp3","dur":6.63},{"sala":"yese. wata sa yowu na luka hini hi","english":"A: Yes. There is water here! (gladly)","literal":"yes. water exist in this place! (gladly)","call":["state(yes)","state.joy(exist(who=water, in=place[this]))"],"stance":[null,"hi"],"hex":"a5acb38c5c99cab9f253288acaf5b2bf20","file":"dialogue_05.mp3","dur":5.37},{"sala":"kaki. mi sa mo sape ke wiya pe kasa le lapi le mi he","english":"B: Thanks. I do not know the way to my friend's house. (sadly)","literal":"thanks. I [not] know way to house of friend of I. (sadly)","call":["state(thanks)","state.sorrow(not(know(who=speaker, object=way, to=house[of=friend[of=speaker]])))"],"stance":[null,"he"],"hex":"28ccb34726724b2641c8bca5a32072299c9fc9e0b27f2472bb20","file":"dialogue_06.mp3","dur":7.55},{"sala":"mi sa so sayi ke yu. sa kome wi mi pu","english":"A: I can help you. Please come with me.","literal":"I [can] help you. come with I, please.","call":["state(help(who=speaker, object=listener, can=true))","request(come(with=speaker))"],"stance":[null,"pu"],"hex":"47267273266ac8bcaccb3672350ca5c91c84c8","file":"dialogue_07.mp3","dur":5.11},{"sala":"wena. mi lu sa hiku sesu hi","english":"B: Good. We go now! (gladly)","literal":"good. we now go! (gladly)","call":["state(good)","state.joy(go[now](who=speaker[plural]))"],"stance":[null,"hi"],"hex":"914cb34728b2672bcec9a772bf20","file":"dialogue_08.mp3","dur":4.7}],"machine":[{"sala":"sa puke ke poli pu","english":"Please open the door.","literal":"open door, please.","call":["request(open(object=door))"],"stance":["pu"],"hex":"67210bc8bc83832132","file":"machine_01.mp3","dur":3.63},{"sala":"wata sa yowu na kasa ka","english":"Is there water in the house?","literal":"water exist in house?","call":["ask(exist(who=water, in=house))"],"stance":["ka"],"hex":"8c5c99cab9f2532299c8ac80","file":"machine_02.mp3","dur":3.57},{"sala":"ku puyo sa yowu na kasa te sa tuma ke loko pe mi wa","english":"If there is fire in the house, send word to me! (warning)","literal":"if fire exist in house, then send word to I! (warning)","call":["alert(if(exist(who=fire, in=house), then=send(object=word, to=speaker)))"],"stance":["wa"],"hex":"3b212bc99cab9f2532299c86c99c893f22f284dc81c91ca3c8","file":"machine_03.mp3","dur":6.05},{"sala":"sa mosa ke kitu noma pe mi pu","english":"Please show me book 3.","literal":"show book 3 to I, please.","call":["request(show(object=book[3], to=speaker))"],"stance":["pu"],"hex":"672499c8bc8c2725cfc81c91c84c80","file":"machine_04.mp3","dur":4.25},{"sala":"sa pati ke homo ti si sa sape ke wiya tu pu","english":"Please find a person who knows the way.","literal":"find person which he/she/it know way, please.","call":["request(find(object=person[which=know(who=it, object=way)]))"],"stance":["pu"],"hex":"672007c8bcb04b21f26f2672641c8bca5a32272132","file":"machine_05.mp3","dur":5.96},{"sala":"sa make ke lumi piko na yola pu","english":"Please make the light small at night.","literal":"make small light in night, please.","call":["request(make(object=light[small], in=night))"],"stance":["pu"],"hex":"6723cbc8bca247208dc94cab7b2132","file":"machine_06.mp3","dur":5.08}]},"melody":{"plain":{"text":"mi sa mila ke yu","dur":2.3,"median_hz":107.4,"low":80.5,"high":119.1,"name":"statement","shape":"level, falling at the end","base":0,"rng":1.0,"rate":1.0,"gain":0,"final":[-1,-4]},"ka":{"text":"mi sa mila ke yu ka","dur":2.5,"median_hz":114.0,"low":107.4,"high":140.1,"name":"question","shape":"rising at the end","base":0.5,"rng":1.0,"rate":1.0,"gain":0,"final":[1,6]},"pu":{"text":"mi sa mila ke yu pu","dur":2.68,"median_hz":113.3,"low":96.2,"high":125.2,"name":"request","shape":"soft, dipping then lifting","base":1,"rng":0.9,"rate":0.97,"gain":-1,"final":[-2,2]},"hi":{"text":"mi sa mila ke yu hi","dur":2.4,"median_hz":133.5,"low":117.8,"high":149.6,"name":"joy","shape":"high and wide, a lift then a fall","base":2.5,"rng":1.6,"rate":1.03,"gain":1.5,"final":[4,0]},"he":{"text":"mi sa mila ke yu he","dur":2.62,"median_hz":90.6,"low":74.7,"high":94.9,"name":"sorrow","shape":"low, narrow and slow, sinking","base":-3,"rng":0.55,"rate":0.84,"gain":-3,"final":[-2,-5]},"wa":{"text":"mi sa mila ke yu wa","dur":2.28,"median_hz":136.5,"low":128.7,"high":146.1,"name":"urgent","shape":"high, fast and loud, staying high","base":3.5,"rng":0.8,"rate":1.14,"gain":4,"final":[3,3]}},"pho":{"m":97,"i":92,"k":90,"y":90,"u":88,"p":86,"a":86,"w":82,"n":78,"t":68,"l":68,"s":67,"e":61,"o":60,"h":56},"gest":{"cons":[["p","closed fist"],["t","flat hand, fingers together"],["k","hooked index finger"],["m","fingertips pinched together"],["n","two fingers together"],["s","open hand, fingers spread"],["l","thumb and index out (L)"],["w","three fingers up (W)"],["y","thumb and little finger out (Y)"],["h","cupped hand (C)"]],"vow":[["a","at the chest"],["e","at the chin"],["i","at the forehead"],["o","at the shoulder"],["u","at the waist"]]},"stats":{"steps":89,"units":104,"one_new":68,"curve_end":{"step":89,"lemmas":111,"tokens":1.0,"clauses":104},"minutes":5.3},"exact":70};
+const $ = s => document.querySelector(s), esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const C = D.C, V = D.V, ROOT = {}; D.roots.forEach(r => ROOT[r.root] = r);
+const PART = {...D.pron, ...D.role, ...D.tense, ...D.link, ...D.stance, sa: "does / is", mo: "not", lu: "many", le: "of", ti: "which", tu: "(end)", ha: "(name)"};
+const DIGIT = {}; [...C].forEach((c, i) => DIGIT[c + "a"] = i);
+// ---------------------------------------------------------------- script
+const SHAPE = {p: '<circle cx="18" cy="20" r="9"/>', m: '<circle cx="18" cy="20" r="9"/><path d="M9 20H27"/>', w: '<path d="M9 16A9 9 0 0 0 27 16"/>',
+  t: '<path d="M18 10V30"/>', n: '<path d="M18 10V30M11 10H25"/>', s: '<path d="M12 11L24 17L12 23L24 29"/>', l: '<path d="M11 30L25 10"/>',
+  k: '<path d="M25 10L11 20L25 30"/>', h: '<path d="M10 29L18 11L26 29"/>', y: '<path d="M10 11L18 29L26 11"/>'};
+const DOT = {a: [18, 37], e: [33, 20], i: [18, 3], o: [18, 20], u: [3, 20]};
+function glyph(s) { const [x, y] = DOT[s[1]]; return `<svg viewBox="0 0 36 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-label="${s}">${SHAPE[s[0]]}${s[1] === "o" ? `<circle cx="18" cy="20" r="3.4" fill="var(--panel)"/>` : `<circle cx="${x}" cy="${y}" r="2.3" fill="currentColor" stroke="none"/>`}</svg>`; }
+const syls = w => w.match(/.{2}/g) || [];
+const isCV = w => w.length % 2 === 0 && syls(w).every(s => C.includes(s[0]) && V.includes(s[1]));
+const script = w => `<span class="gw">${isCV(w.toLowerCase()) ? syls(w.toLowerCase()).map(glyph).join("") : `<span class="sala">${esc(w)}</span>`}</span>`;
+const sylCode = s => C.indexOf(s[0]) * 5 + V.indexOf(s[1]);
+// ---------------------------------------------------------------- parser (same grammar as lang/sala.py)
+function tokenize(text) { const toks = [];
+  for (const raw of text.match(/[A-Za-zÀ-ɏ']+|[.?!;]/g) || []) {
+    if (".?!;".includes(raw)) { toks.push(["end", raw]); continue; }
+    const last = toks[toks.length - 1]; if (last && last[0] === "part" && last[1] === "ha") { toks.push(["name", raw]); continue; }
+    const w = raw.toLowerCase();
+    if (w.startsWith("no") && w.length > 2 && isCV(w) && syls(w.slice(2)).every(s => s in DIGIT)) { toks.push(["num", +syls(w.slice(2)).map(s => DIGIT[s]).join(""), w]); continue; }
+    if (w in PART) { toks.push(["part", w]); continue; } if (w in ROOT) { toks.push(["root", w]); continue; }
+    throw new Error(`“${raw}” is not a Sala word.`); }
+  return toks; }
+function parseSentence(t) { let i = 0; const peek = () => t[i] || [null, null], part = (...ws) => peek()[0] === "part" && ws.includes(peek()[1]), take = () => t[i++];
+  const startsNP = () => ["root", "num"].includes(peek()[0]) || (peek()[0] === "part" && (peek()[1] in D.pron || ["ha", "mo"].includes(peek()[1])));
+  function np() { let neg = false; if (part("mo")) { take(); neg = true; } const [k, v] = peek(); let head;
+    if (k === "root" || k === "num") { take(); head = {type: k, value: v}; } else if (k === "part" && v in D.pron) { take(); head = {type: "pron", value: v}; }
+    else if (part("ha")) { take(); if (peek()[0] !== "name") throw new Error("A name must follow “ha”."); head = {type: "name", value: take()[1]}; }
+    else throw new Error(`A thing-word was expected at word ${i + 1}.`);
+    const n = {head, mods: [], neg, plural: false, of: null, rel: null};
+    while (["root", "num"].includes(peek()[0])) n.mods.push(take()[1]);
+    if (part("lu")) { take(); n.plural = true; } if (part("le")) { take(); n.of = np(); }
+    if (part("ti")) { take(); n.rel = clause(); if (!part("tu")) throw new Error("“ti” must be closed by “tu”."); take(); } return n; }
+  function clause() { const c = {subject: null, pred: null, roles: []}; if (startsNP()) c.subject = np();
+    if (part("sa")) { take(); const p = {tense: [], neg: false, head: null}; while (peek()[0] === "part" && peek()[1] in D.tense) p.tense.push(take()[1]);
+      if (part("mo")) { take(); p.neg = true; } if (startsNP()) p.head = np(); c.pred = p;
+      while (peek()[0] === "part" && peek()[1] in D.role) { const r = take()[1]; c.roles.push({role: r, np: np()}); } }
+    if (!c.subject && !c.pred) throw new Error(`A clause was expected at word ${i + 1}.`); return c; }
+  const first = peek()[0] === "part" && peek()[1] in D.link ? take()[1] : null, s = {clauses: [{link: first, ...clause()}], stance: null};
+  while (peek()[0] === "part" && peek()[1] in D.link) { const l = take()[1]; s.clauses.push({link: l, ...clause()}); }
+  if (peek()[0] === "part" && peek()[1] in D.stance) s.stance = take()[1];
+  if (i !== t.length) throw new Error(`“${t[i][2] || t[i][1]}” was not expected at word ${i + 1}.`); return s; }
+function parse(text) { const out = []; let cur = []; for (const t of tokenize(text)) { if (t[0] === "end") { if (cur.length) out.push(cur); cur = []; } else cur.push(t); } if (cur.length) out.push(cur); return out.map(t => ({toks: t, tree: parseSentence(t)})); }
+const mw = m => typeof m === "number" ? String(m) : ROOT[m].meaning;
+function npEn(n) { const h = n.head; let core = h.type === "root" ? ROOT[h.value].meaning : h.type === "pron" ? D.pron[h.value] : String(h.value);
+  if (h.type === "pron" && n.plural) core = {I: "we", you: "you all", "he/she/it": "they"}[core];
+  let o = (n.neg ? "not " : "") + [...n.mods.filter(m => typeof m !== "number").reverse().map(mw), core, ...n.mods.filter(m => typeof m === "number").map(String)].join(" ") + (n.plural && h.type === "root" ? "s" : "");
+  if (n.of) o += " of " + npEn(n.of); if (n.rel) o += " which " + clauseEn(n.rel); return o; }
+function clauseEn(c) { const o = []; if (c.link) o.push(D.link[c.link]); if (c.subject) o.push(npEn(c.subject));
+  if (c.pred) { const t = c.pred.tense.map(x => D.tense[x]).concat(c.pred.neg ? ["not"] : []); if (t.length) o.push("[" + t.join(" ") + "]"); if (c.pred.head) o.push(npEn(c.pred.head)); c.roles.forEach(r => o.push((r.role !== "ke" ? D.role[r.role] + " " : "") + npEn(r.np))); }
+  return o.join(" "); }
+const english = s => s.clauses.map(clauseEn).join(", ") + {null: ".", ka: "?", pu: ", please.", hi: "! (gladly)", he: ". (sadly)", wa: "! (warning)"}[s.stance];
+function npTerm(n) { const h = n.head, core = h.type === "root" ? ROOT[h.value].meaning : h.type === "pron" ? {mi: "speaker", yu: "listener", si: "it"}[h.value] : JSON.stringify(h.value);
+  const a = [...n.mods.map(mw), ...(n.plural ? ["plural"] : []), ...(n.of ? ["of=" + npTerm(n.of)] : []), ...(n.rel ? ["which=" + call(n.rel)] : [])], t = core + (a.length ? `[${a.join(", ")}]` : ""); return n.neg ? `not(${t})` : t; }
+function call(c) { if (!c.pred) return npTerm(c.subject); const p = c.pred, name = p.head ? npTerm(p.head) : "be";
+  const a = [...(c.subject ? ["who=" + npTerm(c.subject)] : []), ...c.roles.map(r => `${D.role[r.role]}=${npTerm(r.np)}`), ...p.tense.map(x => D.tense[x] + "=true")], t = `${name}(${a.join(", ")})`; return p.neg ? `not(${t})` : t; }
+function toCall(s) { const cs = s.clauses; let body, rest; if (cs[0].link === "ku" && cs[1]?.link === "te") { body = `if(${call(cs[0])}, then=${call(cs[1])})`; rest = cs.slice(2); } else { body = call(cs[0]); rest = cs.slice(1); }
+  rest.forEach(c => body = `${D.link[c.link]}(${body}, ${call(c)})`); return {null: "state", ka: "ask", pu: "request", hi: "state.joy", he: "state.sorrow", wa: "alert"}[s.stance] + `(${body})`; }
+function toBytes(text) { const sym = []; let prevHa = false;
+  for (const raw of text.match(/[A-Za-zÀ-ɏ']+|[.?!;]/g) || []) { if (".?!;".includes(raw)) { sym.push(51); prevHa = false; continue; }
+    if (prevHa) { const b = new TextEncoder().encode(raw); sym.push(52, b.length); b.forEach(x => sym.push(x >> 6, x & 63)); sym.push(50); prevHa = false; continue; }
+    syls(raw.toLowerCase()).forEach(s => sym.push(sylCode(s))); sym.push(50); prevHa = raw.toLowerCase() === "ha"; }
+  let bits = sym.map(s => s.toString(2).padStart(6, "0")).join(""); bits += "0".repeat((8 - bits.length % 8) % 8);
+  return (bits.match(/.{8}/g) || []).map(b => parseInt(b, 2).toString(16).padStart(2, "0")).join(""); }
+function roles(tree, n) { const r = [];
+  const NP = (x, role) => { if (x.neg) r.push("link"); if (x.head.type === "name") r.push("link"); r.push(role); x.mods.forEach(() => r.push(role)); if (x.plural) r.push("link"); if (x.of) { r.push("link"); NP(x.of, "of"); } if (x.rel) { r.push("link"); CL(x.rel); r.push("link"); } };
+  const CL = c => { if (c.link) r.push("link"); if (c.subject) NP(c.subject, "subject"); if (c.pred) { r.push("link"); c.pred.tense.forEach(() => r.push("link")); if (c.pred.neg) r.push("link"); if (c.pred.head) NP(c.pred.head, "verb"); c.roles.forEach(x => { r.push("link"); NP(x.np, x.role === "ke" ? "object" : "to"); }); } };
+  tree.clauses.forEach(CL); if (tree.stance) r.push("link"); return r; }
+function wordsHTML(p) { const rl = roles(p.tree); return `<div class="words">${p.toks.map(([k, v, w], i) => { const text = k === "num" ? w : v, m = k === "root" ? ROOT[v].meaning : k === "part" ? PART[v] : String(v), code = k === "root" ? ROOT[v].code : k === "part" ? sylCode(v) : k === "num" ? v : "name";
+  return `<span class="wd" style="--c:var(--${rl[i] || "link"})"><span class="t">${esc(text)}</span><span class="m">${esc(m)}</span><span class="n">${code}</span></span>`; }).join("")}</div>`; }
+// ---------------------------------------------------------------- overview
+$("#mast").innerHTML = syls("sala").map(glyph).join("");
+$("#dims").innerHTML = [["1 · sound", "The voice", "Fifty simple syllables that almost anyone can say. Roots are two syllables, grammar words one.", "--verb"], ["2 · shape", "The script", "Each syllable's sign is built from its sounds, so reading follows from hearing.", "--of"],
+  ["3 · gesture", "The hand", "A handshape for each consonant, a place for each vowel: the same words in silence.", "--to"], ["4 · melody", "Feeling in time", "Six melodies say how a sentence is meant: statement, question, request, joy, sorrow, warning.", "--object"],
+  ["+ · number", "The machine", "Every word is a number and every sentence has one structure, so a program reads what a person says.", "--subject"]].map(([k, a, b, c]) => `<div class="dim" style="--c:var(${c})"><span class="k">${k}</span><b>${a}</b><span class="note">${b}</span></div>`).join("");
+$("#melodies").innerHTML = Object.entries(D.melody).map(([k, m]) => `<div class="item"><div><span class="sala">${esc(m.text)}</span><span class="pill">${m.name}</span></div><div class="note">${m.shape} · measured ${m.low}–${m.high} Hz</div><audio controls preload="none" src="audio/melody_${k}.mp3"></audio></div>`).join("");
+$("#numbers").innerHTML = "<tr><th>Measure</th><th>Value</th></tr>" + [["Sounds", "10 consonants, 5 vowels, 50 syllables"], ["Roots", `${D.roots.length}, each at least two sounds apart from every other`], ["Roots unchanged from a familiar source word", `${D.exact} of ${D.roots.length}`],
+  ["Grammar words", "33 single syllables"], ["Rules", "10; no exceptions, no word endings"], ["Structures per sentence", "exactly 1"], ["Starter course", `${D.stats.steps} recorded steps teach ${D.stats.units} sentences in ${D.stats.minutes} minutes of audio`],
+  ["Length against English", "about 1.4 to 1.7 times as many syllables"], ["Packed size", "about half the bytes of its own text"]].map(([a, b]) => `<tr><td>${a}</td><td>${b}</td></tr>`).join("");
+// ---------------------------------------------------------------- sounds
+$("#syl").innerHTML = `<div class="hd"></div>` + [...V].map(v => `<div class="hd">${v}</div>`).join("") + [...C].map(c => `<div class="hd">${c}</div>` + [...V].map(v => `<div>${glyph(c + v)}<b>${c + v}</b>${sylCode(c + v)}</div>`).join("")).join("");
+{ const e = Object.entries(D.pho), bw = 500 / e.length; $("#pho").innerHTML = e.map(([s, p], i) => `<rect x="${10 + i * bw + 3}" y="${150 - p * 1.3}" width="${bw - 6}" height="${p * 1.3}" fill="var(--verb)" opacity=".8"/><text x="${10 + i * bw + bw / 2}" y="166" text-anchor="middle" style="fill:var(--ink);font-size:12px">${s}</text><text x="${10 + i * bw + bw / 2}" y="${144 - p * 1.3}" text-anchor="middle">${p}%</text>`).join(""); }
+$("#gest").innerHTML = "<tr><th>Sound</th><th>Hand</th><th>Sound</th><th>Where</th></tr>" + D.gest.cons.map((c, i) => `<tr><td class="sala">${c[0]}</td><td>${c[1]}</td><td class="sala">${D.gest.vow[i]?.[0] || ""}</td><td>${D.gest.vow[i]?.[1] || ""}</td></tr>`).join("");
+{ const cols = {plain: "--ink", ka: "--verb", pu: "--of", hi: "--subject", he: "--to", wa: "--object"}, L = 50, R = 560, T = 20, B = 200, Y = st => B - (st + 8) / 20 * (B - T), X = i => L + (R - L) * i / 5; let h = "";
+  [-6, -3, 0, 3, 6, 9].forEach(s => h += `<line x1="${L}" x2="${R}" y1="${Y(s)}" y2="${Y(s)}" stroke="var(--rule)"/><text x="${L - 6}" y="${Y(s) + 3}" text-anchor="end">${s > 0 ? "+" : ""}${s}</text>`);
+  h += `<text x="${L}" y="${B + 22}">syllable 1</text><text x="${R}" y="${B + 22}" text-anchor="end">last syllable</text><text x="14" y="${T - 6}">semitones</text>`;
+  Object.entries(D.melody).forEach(([k, m], j) => { const stress = [0, 0, 1, 0, 0, 0], pts = stress.map((s, i) => m.base - 1.5 * i / 5 + (s ? 2.5 * m.rng : 0) + (i === 4 ? m.final[0] : 0) + (i === 5 ? m.final[1] : 0));
+    h += `<path d="${pts.map((p, i) => (i ? "L" : "M") + X(i) + "," + Y(p).toFixed(1)).join("")}" fill="none" stroke="var(${cols[k]})" stroke-width="2.2"/><circle cx="${X(5)}" cy="${Y(pts[5])}" r="3.5" fill="var(${cols[k]})"/>`;
+    h += `<rect x="590" y="${28 + j * 30}" width="12" height="12" rx="2" fill="var(${cols[k]})"/><text x="608" y="${38 + j * 30}" style="fill:var(--ink);font-size:11px">${m.name}</text><text x="608" y="${50 + j * 30}">${m.median_hz} Hz median</text>`; });
+  $("#melchart").innerHTML = h; }
+// ---------------------------------------------------------------- words
+$("#wordsnote").textContent = `${D.roots.length} roots. Each was derived by one rule from a word many people already know, reduced to Sala's sounds; ${D.exact} are unchanged. Any root can be a thing, an action or a quality.`;
+function lex(q) { q = (q || "").toLowerCase().trim(); const rows = D.roots.filter(r => !q || r.root.includes(q) || r.meaning.includes(q) || String(r.code) === q || r.source.includes(q)).sort((a, b) => a.meaning.localeCompare(b.meaning));
+  $("#lex").innerHTML = "<tr><th>Meaning</th><th>Sala</th><th>Script</th><th>Number</th><th>From</th></tr>" + rows.map(r => `<tr><td>${esc(r.meaning)}</td><td class="sala">${r.root}</td><td><div class="gl">${script(r.root)}</div></td><td class="mono">${r.code}</td><td class="note">${esc(r.source)}</td></tr>`).join(""); }
+$("#q").addEventListener("input", e => lex(e.target.value)); lex("");
+// ---------------------------------------------------------------- grammar
+$("#rules").innerHTML = D.rules.map(r => `<li>${esc(r)}</li>`).join("");
+$("#gram").innerHTML = "<tr><th>Word</th><th>Meaning</th></tr>" + D.grammar.map(([w, m]) => `<tr><td class="sala">${esc(w)}</td><td>${esc(m)}</td></tr>`).join("");
+const GEX = ["mi sa mila ke yu", "kasa mahi sa wena", "lapi le mi sa ta kome ho kasa", "mi sa mo sape ke wiya pe kasa", "sa tona ke wata pe mi pu", "ku yu sa kome te mi sa tona ke hane pe yu"];
+$("#gramex").innerHTML = GEX.map(t => { try { const p = parse(t)[0]; return `<div class="item">${wordsHTML(p)}<div class="note">${esc(english(p.tree))}</div></div>`; } catch (e) { return ""; } }).join("") + `<p class="note">Colour shows each word's job: <span style="color:var(--subject)">who or what</span>, <span style="color:var(--verb)">the action or description</span>, <span style="color:var(--object)">what is acted on</span>, <span style="color:var(--to)">place, goal or means</span>, <span style="color:var(--of)">belonging</span>. The number under each word is its code.</p>`;
+// ---------------------------------------------------------------- machine
+const EX = D.samples.machine.map(m => m.sala).concat(["loko sa ta yowu na kamu.", "mi sa lowe ke yu hi"]);
+$("#examples").innerHTML = EX.map((t, i) => `<button class="b" data-i="${i}">${esc(t.length > 34 ? t.slice(0, 32) + "…" : t)}</button>`).join("");
+$("#examples").onclick = e => { const b = e.target.closest("button"); if (b) { $("#inp").value = EX[+b.dataset.i]; run(); } };
+function run() { const t = $("#inp").value; if (!t.trim()) { $("#out").innerHTML = `<p class="note">Type a sentence, or choose an example.</p>`; return; }
+  try { const ps = parse(t), hex = toBytes(t);
+    $("#out").innerHTML = `<h4>Script</h4><div class="gl">${ps.flatMap(p => p.toks.map(([k, v, w]) => script(k === "num" ? w : v))).join("")}</div>
+      <h4>Word by word, with each word's number</h4>${ps.map(wordsHTML).join("")}
+      <h4>Meaning</h4><div>${ps.map(p => esc(english(p.tree))).join(" ")}</div>
+      <h4>What a program receives</h4><pre>${ps.map(p => esc(toCall(p.tree))).join("\n")}</pre>
+      <h4>Packed for sending: ${hex.length / 2} bytes (the text is ${new TextEncoder().encode(t).length})</h4><pre>${hex.match(/.{1,2}/g).join(" ")}</pre>`;
+  } catch (e) { $("#out").innerHTML = `<p class="err">${esc(e.message)}</p><p class="note">Sala words use only p t k m n s l w y h and a e i o u. Look words up under Words.</p>`; } }
+$("#inp").value = EX[2]; $("#inp").addEventListener("input", run); run();
+$("#codehow").innerHTML = "<tr><th>Layer</th><th>Rule</th><th>Example</th></tr>" + [["Syllable", "consonant (p t k m n s l w y h = 0–9) × 5 + vowel (a e i o u = 0–4)", "wa = 7 × 5 + 0 = 35"], ["Root", "first syllable × 50 + second: a number from 0 to 2,499 (12 bits)", `wata = 35 × 50 + 5 = ${ROOT.wata ? ROOT.wata.code : 1755}`],
+  ["Number", "“no” + one syllable per digit (pa ta ka ma na sa la wa ya ha = 0–9)", "153 = notasama"], ["Sentence", "one parse, turned into a call: stance(action(who, object, to, in, with, from))", "request(open(object=door))"],
+  ["Bytes", "6 bits per syllable, with codes for word break, sentence end and names", "about half the size of the text"], ["Checking", "roots differ in at least two sounds, so one misheard or corrupted sound gives a non-word, not another word", "wata → wota is not a word"]].map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("");
+// ---------------------------------------------------------------- texts
+function textBlock(name) { return D.samples[name].map(m => `<div class="item"><div class="sala">${esc(m.sala)}${m.stance.filter(Boolean).map(s => `<span class="pill">${D.stance[s]}</span>`).join("")}</div><div>${esc(m.english)}</div><div class="note">word for word: ${esc(m.literal)}</div>${name === "machine" ? `<pre>${esc(m.call.join("\n"))}</pre>` : ""}<audio controls preload="none" src="audio/${m.file}"></audio></div>`).join(""); }
+["dialogue", "john", "machine"].forEach(n => $("#t-" + n).innerHTML = textBlock(n));
+// ---------------------------------------------------------------- limits
+$("#limits").innerHTML = "<tr><th>Point</th><th>Where it stands</th></tr>" + [["Learned quickly?", "Unknown. The design follows what is known to make languages easy (few sounds, no irregular forms, small core), but no one has yet learned Sala. Only a trial with learners can say."],
+  ["As deep as English?", "No, by design. 148 roots express anything, but more loosely: “glory” becomes “great light”. Depth comes from combining roots, the six melodies, and borrowing names and technical terms."],
+  ["Length", "Sala sentences take about 1.4 to 1.7 times as many syllables as English."], ["The roots", "Derived by rule from words in a dozen large languages. The choice of source words was mine and leans on languages I could draw on; speakers of others will find fewer familiar words."],
+  ["The hand layer", "A syllable-by-syllable code, like fingerspelling. Real sign languages have their own grammar; this is not one, and it has not been tried with signers."],
+  ["The melodies", "Six fixed contours. Languages that use pitch to tell words apart may hear them differently; that needs testing."], ["The machine layer", "The parser, the call form and the byte code are implemented and checked on every sample here. A program still has to decide what open(door) should do."],
+  ["Adoption", "No design decides this. Languages spread when people have someone to speak them with."], ["The voice", "Synthetic. It was checked by measurement, not by ear."]].map(([a, b]) => `<tr><td><b>${a}</b></td><td>${b}</td></tr>`).join("");
+// ---------------------------------------------------------------- routing
+const VIEWS = ["overview", "sounds", "words", "grammar", "machine", "texts", "limits"];
+function route() { const v = (location.hash || "#overview").slice(1), ok = VIEWS.includes(v) ? v : "overview"; VIEWS.forEach(k => { $("#v-" + k).hidden = k !== ok; document.querySelector(`nav a[data-view="${k}"]`).setAttribute("aria-current", k === ok ? "page" : "false"); }); }
+addEventListener("hashchange", route); route();
+</script>

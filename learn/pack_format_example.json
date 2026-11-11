@@ -1,0 +1,4617 @@
+{
+ "id": "john-koine",
+ "name": "The Gospel of John in first-century Greek",
+ "lang": "grc",
+ "langName": "the Greek of John's Gospel",
+ "dir": "ltr",
+ "audio": "files",
+ "audioBase": "audio/step_",
+ "refLabel": "John ",
+ "curve": [
+  {
+   "step": 1,
+   "lemmas": 2,
+   "tokens": 0.0833,
+   "clauses": 7,
+   "verses": 0
+  },
+  {
+   "step": 2,
+   "lemmas": 3,
+   "tokens": 0.1319,
+   "clauses": 36,
+   "verses": 0
+  },
+  {
+   "step": 3,
+   "lemmas": 4,
+   "tokens": 0.1582,
+   "clauses": 37,
+   "verses": 0
+  },
+  {
+   "step": 4,
+   "lemmas": 5,
+   "tokens": 0.1757,
+   "clauses": 38,
+   "verses": 0
+  },
+  {
+   "step": 5,
+   "lemmas": 6,
+   "tokens": 0.2044,
+   "clauses": 39,
+   "verses": 0
+  },
+  {
+   "step": 6,
+   "lemmas": 7,
+   "tokens": 0.2373,
+   "clauses": 44,
+   "verses": 0
+  },
+  {
+   "step": 7,
+   "lemmas": 8,
+   "tokens": 0.2528,
+   "clauses": 48,
+   "verses": 0
+  },
+  {
+   "step": 8,
+   "lemmas": 9,
+   "tokens": 0.3926,
+   "clauses": 79,
+   "verses": 0
+  },
+  {
+   "step": 9,
+   "lemmas": 10,
+   "tokens": 0.4107,
+   "clauses": 82,
+   "verses": 0
+  },
+  {
+   "step": 10,
+   "lemmas": 11,
+   "tokens": 0.426,
+   "clauses": 84,
+   "verses": 0
+  },
+  {
+   "step": 11,
+   "lemmas": 12,
+   "tokens": 0.4403,
+   "clauses": 85,
+   "verses": 0
+  },
+  {
+   "step": 12,
+   "lemmas": 13,
+   "tokens": 0.4533,
+   "clauses": 93,
+   "verses": 0
+  },
+  {
+   "step": 13,
+   "lemmas": 14,
+   "tokens": 0.4661,
+   "clauses": 110,
+   "verses": 0
+  },
+  {
+   "step": 14,
+   "lemmas": 15,
+   "tokens": 0.4764,
+   "clauses": 111,
+   "verses": 0
+  },
+  {
+   "step": 15,
+   "lemmas": 16,
+   "tokens": 0.4857,
+   "clauses": 112,
+   "verses": 0
+  },
+  {
+   "step": 16,
+   "lemmas": 17,
+   "tokens": 0.4928,
+   "clauses": 113,
+   "verses": 0
+  },
+  {
+   "step": 17,
+   "lemmas": 18,
+   "tokens": 0.4992,
+   "clauses": 119,
+   "verses": 0
+  },
+  {
+   "step": 18,
+   "lemmas": 19,
+   "tokens": 0.5109,
+   "clauses": 123,
+   "verses": 0
+  },
+  {
+   "step": 19,
+   "lemmas": 20,
+   "tokens": 0.5174,
+   "clauses": 126,
+   "verses": 0
+  },
+  {
+   "step": 20,
+   "lemmas": 21,
+   "tokens": 0.5275,
+   "clauses": 128,
+   "verses": 0
+  },
+  {
+   "step": 21,
+   "lemmas": 22,
+   "tokens": 0.5351,
+   "clauses": 131,
+   "verses": 0
+  },
+  {
+   "step": 22,
+   "lemmas": 23,
+   "tokens": 0.5405,
+   "clauses": 134,
+   "verses": 0
+  },
+  {
+   "step": 23,
+   "lemmas": 24,
+   "tokens": 0.5456,
+   "clauses": 147,
+   "verses": 0
+  },
+  {
+   "step": 24,
+   "lemmas": 25,
+   "tokens": 0.5522,
+   "clauses": 148,
+   "verses": 0
+  },
+  {
+   "step": 25,
+   "lemmas": 26,
+   "tokens": 0.5573,
+   "clauses": 198,
+   "verses": 0
+  },
+  {
+   "step": 26,
+   "lemmas": 27,
+   "tokens": 0.5623,
+   "clauses": 200,
+   "verses": 0
+  },
+  {
+   "step": 27,
+   "lemmas": 28,
+   "tokens": 0.573,
+   "clauses": 203,
+   "verses": 0
+  },
+  {
+   "step": 28,
+   "lemmas": 29,
+   "tokens": 0.5777,
+   "clauses": 209,
+   "verses": 1
+  },
+  {
+   "step": 29,
+   "lemmas": 30,
+   "tokens": 0.5865,
+   "clauses": 212,
+   "verses": 1
+  },
+  {
+   "step": 30,
+   "lemmas": 31,
+   "tokens": 0.591,
+   "clauses": 219,
+   "verses": 1
+  },
+  {
+   "step": 31,
+   "lemmas": 32,
+   "tokens": 0.5962,
+   "clauses": 224,
+   "verses": 1
+  },
+  {
+   "step": 32,
+   "lemmas": 33,
+   "tokens": 0.6012,
+   "clauses": 230,
+   "verses": 1
+  },
+  {
+   "step": 33,
+   "lemmas": 34,
+   "tokens": 0.6058,
+   "clauses": 243,
+   "verses": 1
+  },
+  {
+   "step": 34,
+   "lemmas": 35,
+   "tokens": 0.6107,
+   "clauses": 244,
+   "verses": 1
+  },
+  {
+   "step": 35,
+   "lemmas": 36,
+   "tokens": 0.6148,
+   "clauses": 245,
+   "verses": 1
+  },
+  {
+   "step": 36,
+   "lemmas": 37,
+   "tokens": 0.6187,
+   "clauses": 251,
+   "verses": 2
+  },
+  {
+   "step": 37,
+   "lemmas": 38,
+   "tokens": 0.623,
+   "clauses": 253,
+   "verses": 2
+  },
+  {
+   "step": 38,
+   "lemmas": 39,
+   "tokens": 0.6262,
+   "clauses": 261,
+   "verses": 2
+  },
+  {
+   "step": 39,
+   "lemmas": 40,
+   "tokens": 0.6303,
+   "clauses": 263,
+   "verses": 2
+  },
+  {
+   "step": 40,
+   "lemmas": 41,
+   "tokens": 0.6338,
+   "clauses": 265,
+   "verses": 2
+  },
+  {
+   "step": 41,
+   "lemmas": 42,
+   "tokens": 0.6371,
+   "clauses": 275,
+   "verses": 3
+  },
+  {
+   "step": 42,
+   "lemmas": 43,
+   "tokens": 0.6409,
+   "clauses": 280,
+   "verses": 3
+  },
+  {
+   "step": 43,
+   "lemmas": 44,
+   "tokens": 0.6447,
+   "clauses": 283,
+   "verses": 3
+  },
+  {
+   "step": 44,
+   "lemmas": 45,
+   "tokens": 0.648,
+   "clauses": 286,
+   "verses": 3
+  },
+  {
+   "step": 45,
+   "lemmas": 46,
+   "tokens": 0.6516,
+   "clauses": 295,
+   "verses": 5
+  },
+  {
+   "step": 46,
+   "lemmas": 47,
+   "tokens": 0.6546,
+   "clauses": 297,
+   "verses": 5
+  },
+  {
+   "step": 47,
+   "lemmas": 48,
+   "tokens": 0.6584,
+   "clauses": 306,
+   "verses": 5
+  },
+  {
+   "step": 48,
+   "lemmas": 49,
+   "tokens": 0.662,
+   "clauses": 308,
+   "verses": 5
+  },
+  {
+   "step": 49,
+   "lemmas": 50,
+   "tokens": 0.6658,
+   "clauses": 309,
+   "verses": 5
+  },
+  {
+   "step": 50,
+   "lemmas": 51,
+   "tokens": 0.6691,
+   "clauses": 311,
+   "verses": 5
+  },
+  {
+   "step": 51,
+   "lemmas": 52,
+   "tokens": 0.6747,
+   "clauses": 312,
+   "verses": 5
+  },
+  {
+   "step": 52,
+   "lemmas": 53,
+   "tokens": 0.6783,
+   "clauses": 318,
+   "verses": 6
+  },
+  {
+   "step": 53,
+   "lemmas": 54,
+   "tokens": 0.6809,
+   "clauses": 322,
+   "verses": 7
+  },
+  {
+   "step": 54,
+   "lemmas": 55,
+   "tokens": 0.6842,
+   "clauses": 340,
+   "verses": 7
+  },
+  {
+   "step": 55,
+   "lemmas": 56,
+   "tokens": 0.6869,
+   "clauses": 347,
+   "verses": 7
+  },
+  {
+   "step": 56,
+   "lemmas": 57,
+   "tokens": 0.6895,
+   "clauses": 354,
+   "verses": 8
+  },
+  {
+   "step": 57,
+   "lemmas": 58,
+   "tokens": 0.6917,
+   "clauses": 361,
+   "verses": 8
+  },
+  {
+   "step": 58,
+   "lemmas": 59,
+   "tokens": 0.6943,
+   "clauses": 364,
+   "verses": 8
+  },
+  {
+   "step": 59,
+   "lemmas": 60,
+   "tokens": 0.6967,
+   "clauses": 371,
+   "verses": 8
+  },
+  {
+   "step": 60,
+   "lemmas": 61,
+   "tokens": 0.6991,
+   "clauses": 375,
+   "verses": 9
+  },
+  {
+   "step": 61,
+   "lemmas": 62,
+   "tokens": 0.7011,
+   "clauses": 385,
+   "verses": 9
+  },
+  {
+   "step": 62,
+   "lemmas": 63,
+   "tokens": 0.7037,
+   "clauses": 389,
+   "verses": 9
+  },
+  {
+   "step": 63,
+   "lemmas": 64,
+   "tokens": 0.7062,
+   "clauses": 394,
+   "verses": 10
+  },
+  {
+   "step": 64,
+   "lemmas": 65,
+   "tokens": 0.7083,
+   "clauses": 402,
+   "verses": 10
+  },
+  {
+   "step": 65,
+   "lemmas": 66,
+   "tokens": 0.7105,
+   "clauses": 407,
+   "verses": 11
+  },
+  {
+   "step": 66,
+   "lemmas": 67,
+   "tokens": 0.7125,
+   "clauses": 416,
+   "verses": 12
+  },
+  {
+   "step": 67,
+   "lemmas": 68,
+   "tokens": 0.7147,
+   "clauses": 419,
+   "verses": 12
+  },
+  {
+   "step": 68,
+   "lemmas": 69,
+   "tokens": 0.7169,
+   "clauses": 427,
+   "verses": 16
+  },
+  {
+   "step": 69,
+   "lemmas": 70,
+   "tokens": 0.7189,
+   "clauses": 431,
+   "verses": 17
+  },
+  {
+   "step": 70,
+   "lemmas": 71,
+   "tokens": 0.7209,
+   "clauses": 435,
+   "verses": 18
+  },
+  {
+   "step": 71,
+   "lemmas": 72,
+   "tokens": 0.7235,
+   "clauses": 437,
+   "verses": 18
+  },
+  {
+   "step": 72,
+   "lemmas": 73,
+   "tokens": 0.7255,
+   "clauses": 446,
+   "verses": 18
+  },
+  {
+   "step": 73,
+   "lemmas": 74,
+   "tokens": 0.7276,
+   "clauses": 456,
+   "verses": 18
+  },
+  {
+   "step": 74,
+   "lemmas": 75,
+   "tokens": 0.73,
+   "clauses": 458,
+   "verses": 18
+  },
+  {
+   "step": 75,
+   "lemmas": 76,
+   "tokens": 0.7318,
+   "clauses": 460,
+   "verses": 18
+  },
+  {
+   "step": 76,
+   "lemmas": 77,
+   "tokens": 0.7336,
+   "clauses": 472,
+   "verses": 21
+  },
+  {
+   "step": 77,
+   "lemmas": 78,
+   "tokens": 0.7355,
+   "clauses": 478,
+   "verses": 22
+  },
+  {
+   "step": 78,
+   "lemmas": 79,
+   "tokens": 0.7369,
+   "clauses": 488,
+   "verses": 24
+  },
+  {
+   "step": 79,
+   "lemmas": 80,
+   "tokens": 0.7386,
+   "clauses": 494,
+   "verses": 24
+  },
+  {
+   "step": 80,
+   "lemmas": 81,
+   "tokens": 0.7401,
+   "clauses": 499,
+   "verses": 25
+  },
+  {
+   "step": 81,
+   "lemmas": 82,
+   "tokens": 0.7418,
+   "clauses": 506,
+   "verses": 28
+  },
+  {
+   "step": 82,
+   "lemmas": 83,
+   "tokens": 0.7435,
+   "clauses": 513,
+   "verses": 29
+  },
+  {
+   "step": 83,
+   "lemmas": 84,
+   "tokens": 0.7454,
+   "clauses": 519,
+   "verses": 29
+  },
+  {
+   "step": 84,
+   "lemmas": 85,
+   "tokens": 0.7474,
+   "clauses": 521,
+   "verses": 29
+  },
+  {
+   "step": 85,
+   "lemmas": 86,
+   "tokens": 0.7491,
+   "clauses": 535,
+   "verses": 30
+  },
+  {
+   "step": 86,
+   "lemmas": 87,
+   "tokens": 0.7505,
+   "clauses": 542,
+   "verses": 30
+  },
+  {
+   "step": 87,
+   "lemmas": 88,
+   "tokens": 0.7523,
+   "clauses": 544,
+   "verses": 30
+  },
+  {
+   "step": 88,
+   "lemmas": 89,
+   "tokens": 0.7543,
+   "clauses": 547,
+   "verses": 31
+  },
+  {
+   "step": 89,
+   "lemmas": 90,
+   "tokens": 0.7559,
+   "clauses": 556,
+   "verses": 32
+  },
+  {
+   "step": 90,
+   "lemmas": 91,
+   "tokens": 0.7576,
+   "clauses": 560,
+   "verses": 32
+  },
+  {
+   "step": 91,
+   "lemmas": 92,
+   "tokens": 0.7591,
+   "clauses": 568,
+   "verses": 33
+  },
+  {
+   "step": 92,
+   "lemmas": 93,
+   "tokens": 0.7605,
+   "clauses": 569,
+   "verses": 33
+  },
+  {
+   "step": 93,
+   "lemmas": 94,
+   "tokens": 0.7616,
+   "clauses": 573,
+   "verses": 33
+  },
+  {
+   "step": 94,
+   "lemmas": 95,
+   "tokens": 0.7633,
+   "clauses": 578,
+   "verses": 33
+  },
+  {
+   "step": 95,
+   "lemmas": 96,
+   "tokens": 0.7647,
+   "clauses": 581,
+   "verses": 34
+  },
+  {
+   "step": 96,
+   "lemmas": 97,
+   "tokens": 0.7663,
+   "clauses": 588,
+   "verses": 37
+  },
+  {
+   "step": 97,
+   "lemmas": 98,
+   "tokens": 0.7675,
+   "clauses": 596,
+   "verses": 37
+  },
+  {
+   "step": 98,
+   "lemmas": 99,
+   "tokens": 0.7691,
+   "clauses": 599,
+   "verses": 38
+  },
+  {
+   "step": 99,
+   "lemmas": 100,
+   "tokens": 0.7704,
+   "clauses": 601,
+   "verses": 38
+  },
+  {
+   "step": 100,
+   "lemmas": 101,
+   "tokens": 0.772,
+   "clauses": 604,
+   "verses": 38
+  },
+  {
+   "step": 101,
+   "lemmas": 102,
+   "tokens": 0.7734,
+   "clauses": 609,
+   "verses": 39
+  },
+  {
+   "step": 102,
+   "lemmas": 103,
+   "tokens": 0.7749,
+   "clauses": 623,
+   "verses": 41
+  },
+  {
+   "step": 103,
+   "lemmas": 104,
+   "tokens": 0.7762,
+   "clauses": 626,
+   "verses": 41
+  },
+  {
+   "step": 104,
+   "lemmas": 105,
+   "tokens": 0.7774,
+   "clauses": 634,
+   "verses": 43
+  },
+  {
+   "step": 105,
+   "lemmas": 106,
+   "tokens": 0.7786,
+   "clauses": 641,
+   "verses": 47
+  },
+  {
+   "step": 106,
+   "lemmas": 107,
+   "tokens": 0.7802,
+   "clauses": 644,
+   "verses": 48
+  },
+  {
+   "step": 107,
+   "lemmas": 108,
+   "tokens": 0.7813,
+   "clauses": 653,
+   "verses": 49
+  },
+  {
+   "step": 108,
+   "lemmas": 109,
+   "tokens": 0.7822,
+   "clauses": 656,
+   "verses": 49
+  },
+  {
+   "step": 109,
+   "lemmas": 110,
+   "tokens": 0.7833,
+   "clauses": 661,
+   "verses": 50
+  },
+  {
+   "step": 110,
+   "lemmas": 111,
+   "tokens": 0.7847,
+   "clauses": 663,
+   "verses": 50
+  },
+  {
+   "step": 111,
+   "lemmas": 112,
+   "tokens": 0.7859,
+   "clauses": 667,
+   "verses": 52
+  },
+  {
+   "step": 112,
+   "lemmas": 113,
+   "tokens": 0.787,
+   "clauses": 674,
+   "verses": 54
+  },
+  {
+   "step": 113,
+   "lemmas": 114,
+   "tokens": 0.7881,
+   "clauses": 678,
+   "verses": 54
+  },
+  {
+   "step": 114,
+   "lemmas": 115,
+   "tokens": 0.7894,
+   "clauses": 683,
+   "verses": 54
+  },
+  {
+   "step": 115,
+   "lemmas": 116,
+   "tokens": 0.7906,
+   "clauses": 691,
+   "verses": 54
+  },
+  {
+   "step": 116,
+   "lemmas": 117,
+   "tokens": 0.7917,
+   "clauses": 698,
+   "verses": 56
+  },
+  {
+   "step": 117,
+   "lemmas": 118,
+   "tokens": 0.7927,
+   "clauses": 701,
+   "verses": 56
+  },
+  {
+   "step": 118,
+   "lemmas": 119,
+   "tokens": 0.794,
+   "clauses": 711,
+   "verses": 57
+  },
+  {
+   "step": 119,
+   "lemmas": 120,
+   "tokens": 0.7951,
+   "clauses": 717,
+   "verses": 59
+  },
+  {
+   "step": 120,
+   "lemmas": 121,
+   "tokens": 0.7959,
+   "clauses": 720,
+   "verses": 59
+  },
+  {
+   "step": 121,
+   "lemmas": 122,
+   "tokens": 0.797,
+   "clauses": 727,
+   "verses": 60
+  },
+  {
+   "step": 122,
+   "lemmas": 123,
+   "tokens": 0.7982,
+   "clauses": 735,
+   "verses": 63
+  },
+  {
+   "step": 123,
+   "lemmas": 124,
+   "tokens": 0.7994,
+   "clauses": 741,
+   "verses": 64
+  },
+  {
+   "step": 124,
+   "lemmas": 125,
+   "tokens": 0.8005,
+   "clauses": 744,
+   "verses": 65
+  },
+  {
+   "step": 125,
+   "lemmas": 126,
+   "tokens": 0.8015,
+   "clauses": 750,
+   "verses": 65
+  },
+  {
+   "step": 126,
+   "lemmas": 127,
+   "tokens": 0.8024,
+   "clauses": 754,
+   "verses": 66
+  },
+  {
+   "step": 127,
+   "lemmas": 128,
+   "tokens": 0.8037,
+   "clauses": 756,
+   "verses": 66
+  },
+  {
+   "step": 128,
+   "lemmas": 129,
+   "tokens": 0.8048,
+   "clauses": 763,
+   "verses": 66
+  },
+  {
+   "step": 129,
+   "lemmas": 130,
+   "tokens": 0.8059,
+   "clauses": 769,
+   "verses": 68
+  },
+  {
+   "step": 130,
+   "lemmas": 131,
+   "tokens": 0.807,
+   "clauses": 773,
+   "verses": 69
+  },
+  {
+   "step": 131,
+   "lemmas": 132,
+   "tokens": 0.8077,
+   "clauses": 780,
+   "verses": 73
+  },
+  {
+   "step": 132,
+   "lemmas": 133,
+   "tokens": 0.8087,
+   "clauses": 787,
+   "verses": 75
+  },
+  {
+   "step": 133,
+   "lemmas": 134,
+   "tokens": 0.8095,
+   "clauses": 795,
+   "verses": 75
+  },
+  {
+   "step": 134,
+   "lemmas": 135,
+   "tokens": 0.8106,
+   "clauses": 800,
+   "verses": 76
+  },
+  {
+   "step": 135,
+   "lemmas": 136,
+   "tokens": 0.8118,
+   "clauses": 803,
+   "verses": 77
+  },
+  {
+   "step": 136,
+   "lemmas": 137,
+   "tokens": 0.8129,
+   "clauses": 807,
+   "verses": 77
+  },
+  {
+   "step": 137,
+   "lemmas": 138,
+   "tokens": 0.8142,
+   "clauses": 817,
+   "verses": 81
+  },
+  {
+   "step": 138,
+   "lemmas": 139,
+   "tokens": 0.8151,
+   "clauses": 824,
+   "verses": 82
+  },
+  {
+   "step": 139,
+   "lemmas": 140,
+   "tokens": 0.8163,
+   "clauses": 829,
+   "verses": 82
+  },
+  {
+   "step": 140,
+   "lemmas": 141,
+   "tokens": 0.8173,
+   "clauses": 830,
+   "verses": 82
+  },
+  {
+   "step": 141,
+   "lemmas": 142,
+   "tokens": 0.8182,
+   "clauses": 837,
+   "verses": 84
+  },
+  {
+   "step": 142,
+   "lemmas": 143,
+   "tokens": 0.8192,
+   "clauses": 839,
+   "verses": 85
+  },
+  {
+   "step": 143,
+   "lemmas": 144,
+   "tokens": 0.8201,
+   "clauses": 841,
+   "verses": 86
+  },
+  {
+   "step": 144,
+   "lemmas": 145,
+   "tokens": 0.821,
+   "clauses": 844,
+   "verses": 87
+  },
+  {
+   "step": 145,
+   "lemmas": 146,
+   "tokens": 0.822,
+   "clauses": 848,
+   "verses": 88
+  },
+  {
+   "step": 146,
+   "lemmas": 147,
+   "tokens": 0.823,
+   "clauses": 856,
+   "verses": 88
+  },
+  {
+   "step": 147,
+   "lemmas": 148,
+   "tokens": 0.8239,
+   "clauses": 857,
+   "verses": 88
+  },
+  {
+   "step": 148,
+   "lemmas": 149,
+   "tokens": 0.825,
+   "clauses": 859,
+   "verses": 89
+  },
+  {
+   "step": 149,
+   "lemmas": 150,
+   "tokens": 0.8259,
+   "clauses": 862,
+   "verses": 89
+  },
+  {
+   "step": 150,
+   "lemmas": 151,
+   "tokens": 0.8271,
+   "clauses": 864,
+   "verses": 90
+  },
+  {
+   "step": 151,
+   "lemmas": 152,
+   "tokens": 0.8281,
+   "clauses": 867,
+   "verses": 90
+  },
+  {
+   "step": 152,
+   "lemmas": 153,
+   "tokens": 0.8289,
+   "clauses": 875,
+   "verses": 93
+  },
+  {
+   "step": 153,
+   "lemmas": 154,
+   "tokens": 0.8299,
+   "clauses": 877,
+   "verses": 94
+  },
+  {
+   "step": 154,
+   "lemmas": 155,
+   "tokens": 0.8309,
+   "clauses": 881,
+   "verses": 95
+  },
+  {
+   "step": 155,
+   "lemmas": 156,
+   "tokens": 0.8317,
+   "clauses": 884,
+   "verses": 95
+  },
+  {
+   "step": 156,
+   "lemmas": 157,
+   "tokens": 0.8326,
+   "clauses": 893,
+   "verses": 97
+  },
+  {
+   "step": 157,
+   "lemmas": 158,
+   "tokens": 0.8333,
+   "clauses": 895,
+   "verses": 97
+  },
+  {
+   "step": 158,
+   "lemmas": 159,
+   "tokens": 0.8344,
+   "clauses": 903,
+   "verses": 100
+  },
+  {
+   "step": 159,
+   "lemmas": 160,
+   "tokens": 0.8351,
+   "clauses": 907,
+   "verses": 100
+  },
+  {
+   "step": 160,
+   "lemmas": 161,
+   "tokens": 0.8361,
+   "clauses": 915,
+   "verses": 103
+  },
+  {
+   "step": 161,
+   "lemmas": 162,
+   "tokens": 0.8369,
+   "clauses": 918,
+   "verses": 103
+  },
+  {
+   "step": 162,
+   "lemmas": 163,
+   "tokens": 0.8378,
+   "clauses": 923,
+   "verses": 106
+  },
+  {
+   "step": 163,
+   "lemmas": 164,
+   "tokens": 0.8386,
+   "clauses": 927,
+   "verses": 106
+  },
+  {
+   "step": 164,
+   "lemmas": 165,
+   "tokens": 0.8394,
+   "clauses": 933,
+   "verses": 108
+  },
+  {
+   "step": 165,
+   "lemmas": 166,
+   "tokens": 0.8403,
+   "clauses": 939,
+   "verses": 109
+  },
+  {
+   "step": 166,
+   "lemmas": 167,
+   "tokens": 0.8411,
+   "clauses": 944,
+   "verses": 109
+  },
+  {
+   "step": 167,
+   "lemmas": 168,
+   "tokens": 0.842,
+   "clauses": 952,
+   "verses": 113
+  },
+  {
+   "step": 168,
+   "lemmas": 169,
+   "tokens": 0.8427,
+   "clauses": 955,
+   "verses": 114
+  },
+  {
+   "step": 169,
+   "lemmas": 170,
+   "tokens": 0.8435,
+   "clauses": 961,
+   "verses": 115
+  },
+  {
+   "step": 170,
+   "lemmas": 171,
+   "tokens": 0.8442,
+   "clauses": 966,
+   "verses": 116
+  },
+  {
+   "step": 171,
+   "lemmas": 172,
+   "tokens": 0.8449,
+   "clauses": 968,
+   "verses": 116
+  },
+  {
+   "step": 172,
+   "lemmas": 173,
+   "tokens": 0.8458,
+   "clauses": 971,
+   "verses": 118
+  },
+  {
+   "step": 173,
+   "lemmas": 174,
+   "tokens": 0.8467,
+   "clauses": 976,
+   "verses": 119
+  },
+  {
+   "step": 174,
+   "lemmas": 175,
+   "tokens": 0.8474,
+   "clauses": 980,
+   "verses": 119
+  },
+  {
+   "step": 175,
+   "lemmas": 176,
+   "tokens": 0.8483,
+   "clauses": 982,
+   "verses": 120
+  },
+  {
+   "step": 176,
+   "lemmas": 177,
+   "tokens": 0.8491,
+   "clauses": 986,
+   "verses": 120
+  },
+  {
+   "step": 177,
+   "lemmas": 178,
+   "tokens": 0.8501,
+   "clauses": 988,
+   "verses": 120
+  },
+  {
+   "step": 178,
+   "lemmas": 179,
+   "tokens": 0.8508,
+   "clauses": 992,
+   "verses": 121
+  },
+  {
+   "step": 179,
+   "lemmas": 180,
+   "tokens": 0.8515,
+   "clauses": 997,
+   "verses": 122
+  },
+  {
+   "step": 180,
+   "lemmas": 181,
+   "tokens": 0.8522,
+   "clauses": 1000,
+   "verses": 123
+  },
+  {
+   "step": 181,
+   "lemmas": 182,
+   "tokens": 0.853,
+   "clauses": 1007,
+   "verses": 127
+  },
+  {
+   "step": 182,
+   "lemmas": 183,
+   "tokens": 0.8539,
+   "clauses": 1012,
+   "verses": 128
+  },
+  {
+   "step": 183,
+   "lemmas": 184,
+   "tokens": 0.8545,
+   "clauses": 1017,
+   "verses": 129
+  },
+  {
+   "step": 184,
+   "lemmas": 185,
+   "tokens": 0.8552,
+   "clauses": 1026,
+   "verses": 135
+  },
+  {
+   "step": 185,
+   "lemmas": 186,
+   "tokens": 0.8561,
+   "clauses": 1028,
+   "verses": 136
+  },
+  {
+   "step": 186,
+   "lemmas": 187,
+   "tokens": 0.8566,
+   "clauses": 1030,
+   "verses": 138
+  },
+  {
+   "step": 187,
+   "lemmas": 188,
+   "tokens": 0.8574,
+   "clauses": 1037,
+   "verses": 141
+  },
+  {
+   "step": 188,
+   "lemmas": 189,
+   "tokens": 0.8582,
+   "clauses": 1043,
+   "verses": 143
+  },
+  {
+   "step": 189,
+   "lemmas": 190,
+   "tokens": 0.859,
+   "clauses": 1045,
+   "verses": 143
+  },
+  {
+   "step": 190,
+   "lemmas": 191,
+   "tokens": 0.86,
+   "clauses": 1050,
+   "verses": 144
+  },
+  {
+   "step": 191,
+   "lemmas": 192,
+   "tokens": 0.8607,
+   "clauses": 1055,
+   "verses": 144
+  },
+  {
+   "step": 192,
+   "lemmas": 193,
+   "tokens": 0.8614,
+   "clauses": 1059,
+   "verses": 145
+  },
+  {
+   "step": 193,
+   "lemmas": 194,
+   "tokens": 0.862,
+   "clauses": 1062,
+   "verses": 146
+  },
+  {
+   "step": 194,
+   "lemmas": 195,
+   "tokens": 0.8627,
+   "clauses": 1065,
+   "verses": 146
+  },
+  {
+   "step": 195,
+   "lemmas": 196,
+   "tokens": 0.8633,
+   "clauses": 1071,
+   "verses": 148
+  },
+  {
+   "step": 196,
+   "lemmas": 197,
+   "tokens": 0.864,
+   "clauses": 1074,
+   "verses": 150
+  },
+  {
+   "step": 197,
+   "lemmas": 198,
+   "tokens": 0.8648,
+   "clauses": 1076,
+   "verses": 151
+  },
+  {
+   "step": 198,
+   "lemmas": 199,
+   "tokens": 0.8654,
+   "clauses": 1081,
+   "verses": 151
+  },
+  {
+   "step": 199,
+   "lemmas": 200,
+   "tokens": 0.866,
+   "clauses": 1087,
+   "verses": 153
+  },
+  {
+   "step": 200,
+   "lemmas": 201,
+   "tokens": 0.8665,
+   "clauses": 1089,
+   "verses": 153
+  },
+  {
+   "step": 201,
+   "lemmas": 202,
+   "tokens": 0.8671,
+   "clauses": 1094,
+   "verses": 155
+  },
+  {
+   "step": 202,
+   "lemmas": 203,
+   "tokens": 0.8682,
+   "clauses": 1095,
+   "verses": 155
+  },
+  {
+   "step": 203,
+   "lemmas": 204,
+   "tokens": 0.8688,
+   "clauses": 1102,
+   "verses": 159
+  },
+  {
+   "step": 204,
+   "lemmas": 205,
+   "tokens": 0.8695,
+   "clauses": 1105,
+   "verses": 159
+  },
+  {
+   "step": 205,
+   "lemmas": 206,
+   "tokens": 0.8703,
+   "clauses": 1106,
+   "verses": 159
+  },
+  {
+   "step": 206,
+   "lemmas": 207,
+   "tokens": 0.8708,
+   "clauses": 1108,
+   "verses": 160
+  },
+  {
+   "step": 207,
+   "lemmas": 208,
+   "tokens": 0.8715,
+   "clauses": 1111,
+   "verses": 160
+  },
+  {
+   "step": 208,
+   "lemmas": 209,
+   "tokens": 0.872,
+   "clauses": 1115,
+   "verses": 160
+  },
+  {
+   "step": 209,
+   "lemmas": 210,
+   "tokens": 0.8725,
+   "clauses": 1117,
+   "verses": 160
+  },
+  {
+   "step": 210,
+   "lemmas": 211,
+   "tokens": 0.8732,
+   "clauses": 1120,
+   "verses": 160
+  },
+  {
+   "step": 211,
+   "lemmas": 212,
+   "tokens": 0.8737,
+   "clauses": 1127,
+   "verses": 164
+  },
+  {
+   "step": 212,
+   "lemmas": 213,
+   "tokens": 0.8743,
+   "clauses": 1132,
+   "verses": 167
+  },
+  {
+   "step": 213,
+   "lemmas": 214,
+   "tokens": 0.8749,
+   "clauses": 1135,
+   "verses": 169
+  },
+  {
+   "step": 214,
+   "lemmas": 215,
+   "tokens": 0.8755,
+   "clauses": 1136,
+   "verses": 169
+  },
+  {
+   "step": 215,
+   "lemmas": 216,
+   "tokens": 0.8762,
+   "clauses": 1140,
+   "verses": 170
+  },
+  {
+   "step": 216,
+   "lemmas": 217,
+   "tokens": 0.8767,
+   "clauses": 1146,
+   "verses": 172
+  },
+  {
+   "step": 217,
+   "lemmas": 218,
+   "tokens": 0.8773,
+   "clauses": 1148,
+   "verses": 173
+  },
+  {
+   "step": 218,
+   "lemmas": 219,
+   "tokens": 0.8779,
+   "clauses": 1153,
+   "verses": 177
+  },
+  {
+   "step": 219,
+   "lemmas": 220,
+   "tokens": 0.8783,
+   "clauses": 1154,
+   "verses": 177
+  },
+  {
+   "step": 220,
+   "lemmas": 221,
+   "tokens": 0.8789,
+   "clauses": 1156,
+   "verses": 178
+  },
+  {
+   "step": 221,
+   "lemmas": 222,
+   "tokens": 0.8795,
+   "clauses": 1159,
+   "verses": 178
+  },
+  {
+   "step": 222,
+   "lemmas": 223,
+   "tokens": 0.88,
+   "clauses": 1163,
+   "verses": 182
+  },
+  {
+   "step": 223,
+   "lemmas": 224,
+   "tokens": 0.8805,
+   "clauses": 1165,
+   "verses": 183
+  },
+  {
+   "step": 224,
+   "lemmas": 225,
+   "tokens": 0.8811,
+   "clauses": 1170,
+   "verses": 186
+  },
+  {
+   "step": 225,
+   "lemmas": 226,
+   "tokens": 0.8816,
+   "clauses": 1174,
+   "verses": 189
+  },
+  {
+   "step": 226,
+   "lemmas": 227,
+   "tokens": 0.8822,
+   "clauses": 1178,
+   "verses": 192
+  },
+  {
+   "step": 227,
+   "lemmas": 228,
+   "tokens": 0.8828,
+   "clauses": 1180,
+   "verses": 192
+  },
+  {
+   "step": 228,
+   "lemmas": 229,
+   "tokens": 0.8833,
+   "clauses": 1185,
+   "verses": 193
+  },
+  {
+   "step": 229,
+   "lemmas": 230,
+   "tokens": 0.8838,
+   "clauses": 1190,
+   "verses": 194
+  },
+  {
+   "step": 230,
+   "lemmas": 231,
+   "tokens": 0.8844,
+   "clauses": 1192,
+   "verses": 194
+  },
+  {
+   "step": 231,
+   "lemmas": 232,
+   "tokens": 0.8848,
+   "clauses": 1194,
+   "verses": 194
+  },
+  {
+   "step": 232,
+   "lemmas": 233,
+   "tokens": 0.8857,
+   "clauses": 1195,
+   "verses": 194
+  },
+  {
+   "step": 233,
+   "lemmas": 234,
+   "tokens": 0.8862,
+   "clauses": 1201,
+   "verses": 199
+  },
+  {
+   "step": 234,
+   "lemmas": 235,
+   "tokens": 0.8866,
+   "clauses": 1203,
+   "verses": 199
+  },
+  {
+   "step": 235,
+   "lemmas": 236,
+   "tokens": 0.8871,
+   "clauses": 1206,
+   "verses": 200
+  },
+  {
+   "step": 236,
+   "lemmas": 237,
+   "tokens": 0.8874,
+   "clauses": 1211,
+   "verses": 203
+  },
+  {
+   "step": 237,
+   "lemmas": 238,
+   "tokens": 0.8879,
+   "clauses": 1213,
+   "verses": 204
+  },
+  {
+   "step": 238,
+   "lemmas": 239,
+   "tokens": 0.8883,
+   "clauses": 1217,
+   "verses": 205
+  },
+  {
+   "step": 239,
+   "lemmas": 240,
+   "tokens": 0.8888,
+   "clauses": 1221,
+   "verses": 207
+  },
+  {
+   "step": 240,
+   "lemmas": 241,
+   "tokens": 0.8893,
+   "clauses": 1225,
+   "verses": 209
+  },
+  {
+   "step": 241,
+   "lemmas": 242,
+   "tokens": 0.8897,
+   "clauses": 1231,
+   "verses": 209
+  },
+  {
+   "step": 242,
+   "lemmas": 243,
+   "tokens": 0.8901,
+   "clauses": 1237,
+   "verses": 210
+  },
+  {
+   "step": 243,
+   "lemmas": 244,
+   "tokens": 0.8906,
+   "clauses": 1238,
+   "verses": 210
+  },
+  {
+   "step": 244,
+   "lemmas": 245,
+   "tokens": 0.891,
+   "clauses": 1244,
+   "verses": 211
+  },
+  {
+   "step": 245,
+   "lemmas": 246,
+   "tokens": 0.8914,
+   "clauses": 1247,
+   "verses": 212
+  },
+  {
+   "step": 246,
+   "lemmas": 247,
+   "tokens": 0.892,
+   "clauses": 1248,
+   "verses": 213
+  },
+  {
+   "step": 247,
+   "lemmas": 248,
+   "tokens": 0.8925,
+   "clauses": 1249,
+   "verses": 214
+  },
+  {
+   "step": 248,
+   "lemmas": 249,
+   "tokens": 0.8929,
+   "clauses": 1253,
+   "verses": 218
+  },
+  {
+   "step": 249,
+   "lemmas": 250,
+   "tokens": 0.8933,
+   "clauses": 1255,
+   "verses": 218
+  },
+  {
+   "step": 250,
+   "lemmas": 251,
+   "tokens": 0.8937,
+   "clauses": 1256,
+   "verses": 219
+  },
+  {
+   "step": 251,
+   "lemmas": 252,
+   "tokens": 0.8942,
+   "clauses": 1262,
+   "verses": 221
+  },
+  {
+   "step": 252,
+   "lemmas": 253,
+   "tokens": 0.8945,
+   "clauses": 1267,
+   "verses": 222
+  },
+  {
+   "step": 253,
+   "lemmas": 254,
+   "tokens": 0.8949,
+   "clauses": 1268,
+   "verses": 222
+  },
+  {
+   "step": 254,
+   "lemmas": 255,
+   "tokens": 0.8954,
+   "clauses": 1271,
+   "verses": 223
+  },
+  {
+   "step": 255,
+   "lemmas": 256,
+   "tokens": 0.8958,
+   "clauses": 1276,
+   "verses": 226
+  },
+  {
+   "step": 256,
+   "lemmas": 257,
+   "tokens": 0.8962,
+   "clauses": 1281,
+   "verses": 231
+  },
+  {
+   "step": 257,
+   "lemmas": 258,
+   "tokens": 0.8966,
+   "clauses": 1284,
+   "verses": 232
+  },
+  {
+   "step": 258,
+   "lemmas": 259,
+   "tokens": 0.8969,
+   "clauses": 1286,
+   "verses": 233
+  },
+  {
+   "step": 259,
+   "lemmas": 260,
+   "tokens": 0.8973,
+   "clauses": 1290,
+   "verses": 233
+  },
+  {
+   "step": 260,
+   "lemmas": 261,
+   "tokens": 0.8977,
+   "clauses": 1293,
+   "verses": 235
+  },
+  {
+   "step": 261,
+   "lemmas": 262,
+   "tokens": 0.898,
+   "clauses": 1295,
+   "verses": 235
+  },
+  {
+   "step": 262,
+   "lemmas": 263,
+   "tokens": 0.8985,
+   "clauses": 1298,
+   "verses": 236
+  },
+  {
+   "step": 263,
+   "lemmas": 264,
+   "tokens": 0.899,
+   "clauses": 1304,
+   "verses": 239
+  },
+  {
+   "step": 264,
+   "lemmas": 265,
+   "tokens": 0.8993,
+   "clauses": 1306,
+   "verses": 240
+  },
+  {
+   "step": 265,
+   "lemmas": 266,
+   "tokens": 0.9002,
+   "clauses": 1310,
+   "verses": 243
+  },
+  {
+   "step": 266,
+   "lemmas": 267,
+   "tokens": 0.9006,
+   "clauses": 1313,
+   "verses": 244
+  },
+  {
+   "step": 267,
+   "lemmas": 268,
+   "tokens": 0.9009,
+   "clauses": 1315,
+   "verses": 245
+  },
+  {
+   "step": 268,
+   "lemmas": 269,
+   "tokens": 0.9013,
+   "clauses": 1316,
+   "verses": 245
+  },
+  {
+   "step": 269,
+   "lemmas": 270,
+   "tokens": 0.9016,
+   "clauses": 1317,
+   "verses": 246
+  },
+  {
+   "step": 270,
+   "lemmas": 271,
+   "tokens": 0.9021,
+   "clauses": 1318,
+   "verses": 246
+  },
+  {
+   "step": 271,
+   "lemmas": 272,
+   "tokens": 0.9024,
+   "clauses": 1320,
+   "verses": 246
+  },
+  {
+   "step": 272,
+   "lemmas": 273,
+   "tokens": 0.9033,
+   "clauses": 1321,
+   "verses": 246
+  },
+  {
+   "step": 273,
+   "lemmas": 274,
+   "tokens": 0.9038,
+   "clauses": 1326,
+   "verses": 249
+  },
+  {
+   "step": 274,
+   "lemmas": 275,
+   "tokens": 0.9043,
+   "clauses": 1327,
+   "verses": 249
+  },
+  {
+   "step": 275,
+   "lemmas": 276,
+   "tokens": 0.9046,
+   "clauses": 1331,
+   "verses": 252
+  },
+  {
+   "step": 276,
+   "lemmas": 277,
+   "tokens": 0.905,
+   "clauses": 1334,
+   "verses": 254
+  },
+  {
+   "step": 277,
+   "lemmas": 278,
+   "tokens": 0.9054,
+   "clauses": 1336,
+   "verses": 255
+  },
+  {
+   "step": 278,
+   "lemmas": 279,
+   "tokens": 0.9056,
+   "clauses": 1338,
+   "verses": 256
+  },
+  {
+   "step": 279,
+   "lemmas": 280,
+   "tokens": 0.9059,
+   "clauses": 1341,
+   "verses": 257
+  },
+  {
+   "step": 280,
+   "lemmas": 281,
+   "tokens": 0.9062,
+   "clauses": 1342,
+   "verses": 257
+  },
+  {
+   "step": 281,
+   "lemmas": 282,
+   "tokens": 0.9065,
+   "clauses": 1347,
+   "verses": 260
+  },
+  {
+   "step": 282,
+   "lemmas": 283,
+   "tokens": 0.9069,
+   "clauses": 1349,
+   "verses": 261
+  },
+  {
+   "step": 283,
+   "lemmas": 284,
+   "tokens": 0.9072,
+   "clauses": 1351,
+   "verses": 261
+  },
+  {
+   "step": 284,
+   "lemmas": 285,
+   "tokens": 0.9076,
+   "clauses": 1353,
+   "verses": 262
+  },
+  {
+   "step": 285,
+   "lemmas": 286,
+   "tokens": 0.908,
+   "clauses": 1357,
+   "verses": 263
+  },
+  {
+   "step": 286,
+   "lemmas": 287,
+   "tokens": 0.9084,
+   "clauses": 1362,
+   "verses": 263
+  },
+  {
+   "step": 287,
+   "lemmas": 288,
+   "tokens": 0.9087,
+   "clauses": 1365,
+   "verses": 264
+  },
+  {
+   "step": 288,
+   "lemmas": 289,
+   "tokens": 0.9091,
+   "clauses": 1369,
+   "verses": 267
+  },
+  {
+   "step": 289,
+   "lemmas": 290,
+   "tokens": 0.9094,
+   "clauses": 1374,
+   "verses": 269
+  },
+  {
+   "step": 290,
+   "lemmas": 291,
+   "tokens": 0.9097,
+   "clauses": 1375,
+   "verses": 269
+  },
+  {
+   "step": 291,
+   "lemmas": 292,
+   "tokens": 0.91,
+   "clauses": 1376,
+   "verses": 270
+  },
+  {
+   "step": 292,
+   "lemmas": 293,
+   "tokens": 0.9104,
+   "clauses": 1380,
+   "verses": 273
+  },
+  {
+   "step": 293,
+   "lemmas": 294,
+   "tokens": 0.9107,
+   "clauses": 1384,
+   "verses": 275
+  },
+  {
+   "step": 294,
+   "lemmas": 295,
+   "tokens": 0.911,
+   "clauses": 1388,
+   "verses": 278
+  },
+  {
+   "step": 295,
+   "lemmas": 296,
+   "tokens": 0.9113,
+   "clauses": 1392,
+   "verses": 281
+  },
+  {
+   "step": 296,
+   "lemmas": 297,
+   "tokens": 0.9116,
+   "clauses": 1395,
+   "verses": 282
+  },
+  {
+   "step": 297,
+   "lemmas": 298,
+   "tokens": 0.9119,
+   "clauses": 1398,
+   "verses": 284
+  },
+  {
+   "step": 298,
+   "lemmas": 299,
+   "tokens": 0.9122,
+   "clauses": 1400,
+   "verses": 284
+  },
+  {
+   "step": 299,
+   "lemmas": 300,
+   "tokens": 0.9126,
+   "clauses": 1401,
+   "verses": 284
+  },
+  {
+   "step": 300,
+   "lemmas": 301,
+   "tokens": 0.9127,
+   "clauses": 1402,
+   "verses": 284
+  },
+  {
+   "step": 301,
+   "lemmas": 302,
+   "tokens": 0.9131,
+   "clauses": 1404,
+   "verses": 284
+  },
+  {
+   "step": 302,
+   "lemmas": 303,
+   "tokens": 0.9135,
+   "clauses": 1406,
+   "verses": 286
+  },
+  {
+   "step": 303,
+   "lemmas": 304,
+   "tokens": 0.9138,
+   "clauses": 1409,
+   "verses": 287
+  },
+  {
+   "step": 304,
+   "lemmas": 305,
+   "tokens": 0.9142,
+   "clauses": 1410,
+   "verses": 288
+  },
+  {
+   "step": 305,
+   "lemmas": 306,
+   "tokens": 0.9146,
+   "clauses": 1411,
+   "verses": 288
+  },
+  {
+   "step": 306,
+   "lemmas": 307,
+   "tokens": 0.915,
+   "clauses": 1416,
+   "verses": 291
+  },
+  {
+   "step": 307,
+   "lemmas": 308,
+   "tokens": 0.9152,
+   "clauses": 1419,
+   "verses": 292
+  },
+  {
+   "step": 308,
+   "lemmas": 309,
+   "tokens": 0.9155,
+   "clauses": 1420,
+   "verses": 292
+  },
+  {
+   "step": 309,
+   "lemmas": 310,
+   "tokens": 0.9157,
+   "clauses": 1422,
+   "verses": 292
+  },
+  {
+   "step": 310,
+   "lemmas": 311,
+   "tokens": 0.9161,
+   "clauses": 1425,
+   "verses": 295
+  },
+  {
+   "step": 311,
+   "lemmas": 312,
+   "tokens": 0.9164,
+   "clauses": 1428,
+   "verses": 296
+  },
+  {
+   "step": 312,
+   "lemmas": 313,
+   "tokens": 0.9166,
+   "clauses": 1430,
+   "verses": 297
+  },
+  {
+   "step": 313,
+   "lemmas": 314,
+   "tokens": 0.917,
+   "clauses": 1431,
+   "verses": 297
+  },
+  {
+   "step": 314,
+   "lemmas": 315,
+   "tokens": 0.9176,
+   "clauses": 1432,
+   "verses": 298
+  },
+  {
+   "step": 315,
+   "lemmas": 316,
+   "tokens": 0.9179,
+   "clauses": 1434,
+   "verses": 298
+  },
+  {
+   "step": 316,
+   "lemmas": 317,
+   "tokens": 0.9182,
+   "clauses": 1439,
+   "verses": 300
+  },
+  {
+   "step": 317,
+   "lemmas": 318,
+   "tokens": 0.9185,
+   "clauses": 1442,
+   "verses": 302
+  },
+  {
+   "step": 318,
+   "lemmas": 319,
+   "tokens": 0.9188,
+   "clauses": 1445,
+   "verses": 304
+  },
+  {
+   "step": 319,
+   "lemmas": 320,
+   "tokens": 0.919,
+   "clauses": 1449,
+   "verses": 306
+  },
+  {
+   "step": 320,
+   "lemmas": 321,
+   "tokens": 0.9193,
+   "clauses": 1451,
+   "verses": 306
+  },
+  {
+   "step": 321,
+   "lemmas": 322,
+   "tokens": 0.9195,
+   "clauses": 1454,
+   "verses": 307
+  },
+  {
+   "step": 322,
+   "lemmas": 323,
+   "tokens": 0.9197,
+   "clauses": 1458,
+   "verses": 308
+  },
+  {
+   "step": 323,
+   "lemmas": 324,
+   "tokens": 0.92,
+   "clauses": 1460,
+   "verses": 309
+  },
+  {
+   "step": 324,
+   "lemmas": 325,
+   "tokens": 0.9202,
+   "clauses": 1462,
+   "verses": 311
+  },
+  {
+   "step": 325,
+   "lemmas": 326,
+   "tokens": 0.9205,
+   "clauses": 1466,
+   "verses": 314
+  },
+  {
+   "step": 326,
+   "lemmas": 327,
+   "tokens": 0.9208,
+   "clauses": 1469,
+   "verses": 317
+  },
+  {
+   "step": 327,
+   "lemmas": 328,
+   "tokens": 0.9211,
+   "clauses": 1472,
+   "verses": 318
+  },
+  {
+   "step": 328,
+   "lemmas": 329,
+   "tokens": 0.9213,
+   "clauses": 1475,
+   "verses": 320
+  },
+  {
+   "step": 329,
+   "lemmas": 330,
+   "tokens": 0.9216,
+   "clauses": 1476,
+   "verses": 320
+  },
+  {
+   "step": 330,
+   "lemmas": 331,
+   "tokens": 0.9219,
+   "clauses": 1479,
+   "verses": 323
+  },
+  {
+   "step": 331,
+   "lemmas": 332,
+   "tokens": 0.9221,
+   "clauses": 1482,
+   "verses": 326
+  },
+  {
+   "step": 332,
+   "lemmas": 333,
+   "tokens": 0.9224,
+   "clauses": 1484,
+   "verses": 328
+  },
+  {
+   "step": 333,
+   "lemmas": 334,
+   "tokens": 0.9227,
+   "clauses": 1486,
+   "verses": 328
+  },
+  {
+   "step": 334,
+   "lemmas": 335,
+   "tokens": 0.9229,
+   "clauses": 1488,
+   "verses": 328
+  },
+  {
+   "step": 335,
+   "lemmas": 336,
+   "tokens": 0.9231,
+   "clauses": 1489,
+   "verses": 328
+  },
+  {
+   "step": 336,
+   "lemmas": 337,
+   "tokens": 0.9234,
+   "clauses": 1491,
+   "verses": 330
+  },
+  {
+   "step": 337,
+   "lemmas": 338,
+   "tokens": 0.9237,
+   "clauses": 1494,
+   "verses": 331
+  },
+  {
+   "step": 338,
+   "lemmas": 339,
+   "tokens": 0.924,
+   "clauses": 1498,
+   "verses": 333
+  },
+  {
+   "step": 339,
+   "lemmas": 340,
+   "tokens": 0.9242,
+   "clauses": 1500,
+   "verses": 333
+  },
+  {
+   "step": 340,
+   "lemmas": 341,
+   "tokens": 0.9244,
+   "clauses": 1503,
+   "verses": 335
+  },
+  {
+   "step": 341,
+   "lemmas": 342,
+   "tokens": 0.9247,
+   "clauses": 1504,
+   "verses": 336
+  },
+  {
+   "step": 342,
+   "lemmas": 343,
+   "tokens": 0.9249,
+   "clauses": 1507,
+   "verses": 337
+  },
+  {
+   "step": 343,
+   "lemmas": 344,
+   "tokens": 0.9252,
+   "clauses": 1510,
+   "verses": 338
+  },
+  {
+   "step": 344,
+   "lemmas": 345,
+   "tokens": 0.9254,
+   "clauses": 1513,
+   "verses": 340
+  },
+  {
+   "step": 345,
+   "lemmas": 346,
+   "tokens": 0.9257,
+   "clauses": 1515,
+   "verses": 340
+  },
+  {
+   "step": 346,
+   "lemmas": 347,
+   "tokens": 0.926,
+   "clauses": 1518,
+   "verses": 340
+  },
+  {
+   "step": 347,
+   "lemmas": 348,
+   "tokens": 0.9262,
+   "clauses": 1520,
+   "verses": 342
+  },
+  {
+   "step": 348,
+   "lemmas": 349,
+   "tokens": 0.9265,
+   "clauses": 1521,
+   "verses": 343
+  },
+  {
+   "step": 349,
+   "lemmas": 350,
+   "tokens": 0.9267,
+   "clauses": 1524,
+   "verses": 345
+  },
+  {
+   "step": 350,
+   "lemmas": 351,
+   "tokens": 0.927,
+   "clauses": 1526,
+   "verses": 347
+  },
+  {
+   "step": 351,
+   "lemmas": 352,
+   "tokens": 0.9273,
+   "clauses": 1529,
+   "verses": 349
+  },
+  {
+   "step": 352,
+   "lemmas": 353,
+   "tokens": 0.9275,
+   "clauses": 1533,
+   "verses": 351
+  },
+  {
+   "step": 353,
+   "lemmas": 354,
+   "tokens": 0.9278,
+   "clauses": 1534,
+   "verses": 352
+  },
+  {
+   "step": 354,
+   "lemmas": 355,
+   "tokens": 0.928,
+   "clauses": 1537,
+   "verses": 352
+  },
+  {
+   "step": 355,
+   "lemmas": 356,
+   "tokens": 0.9282,
+   "clauses": 1540,
+   "verses": 355
+  },
+  {
+   "step": 356,
+   "lemmas": 357,
+   "tokens": 0.9284,
+   "clauses": 1543,
+   "verses": 357
+  },
+  {
+   "step": 357,
+   "lemmas": 358,
+   "tokens": 0.9287,
+   "clauses": 1546,
+   "verses": 359
+  },
+  {
+   "step": 358,
+   "lemmas": 359,
+   "tokens": 0.9289,
+   "clauses": 1549,
+   "verses": 362
+  },
+  {
+   "step": 359,
+   "lemmas": 360,
+   "tokens": 0.9291,
+   "clauses": 1550,
+   "verses": 362
+  },
+  {
+   "step": 360,
+   "lemmas": 361,
+   "tokens": 0.9293,
+   "clauses": 1551,
+   "verses": 363
+  },
+  {
+   "step": 361,
+   "lemmas": 362,
+   "tokens": 0.9295,
+   "clauses": 1553,
+   "verses": 365
+  },
+  {
+   "step": 362,
+   "lemmas": 363,
+   "tokens": 0.9297,
+   "clauses": 1554,
+   "verses": 365
+  },
+  {
+   "step": 363,
+   "lemmas": 364,
+   "tokens": 0.93,
+   "clauses": 1557,
+   "verses": 366
+  },
+  {
+   "step": 364,
+   "lemmas": 365,
+   "tokens": 0.9302,
+   "clauses": 1559,
+   "verses": 368
+  },
+  {
+   "step": 365,
+   "lemmas": 366,
+   "tokens": 0.9305,
+   "clauses": 1562,
+   "verses": 370
+  },
+  {
+   "step": 366,
+   "lemmas": 367,
+   "tokens": 0.9307,
+   "clauses": 1563,
+   "verses": 370
+  },
+  {
+   "step": 367,
+   "lemmas": 368,
+   "tokens": 0.9309,
+   "clauses": 1564,
+   "verses": 370
+  },
+  {
+   "step": 368,
+   "lemmas": 369,
+   "tokens": 0.9311,
+   "clauses": 1565,
+   "verses": 370
+  },
+  {
+   "step": 369,
+   "lemmas": 370,
+   "tokens": 0.9314,
+   "clauses": 1567,
+   "verses": 371
+  },
+  {
+   "step": 370,
+   "lemmas": 371,
+   "tokens": 0.9316,
+   "clauses": 1569,
+   "verses": 371
+  },
+  {
+   "step": 371,
+   "lemmas": 372,
+   "tokens": 0.9318,
+   "clauses": 1572,
+   "verses": 374
+  },
+  {
+   "step": 372,
+   "lemmas": 373,
+   "tokens": 0.932,
+   "clauses": 1575,
+   "verses": 376
+  },
+  {
+   "step": 373,
+   "lemmas": 374,
+   "tokens": 0.9321,
+   "clauses": 1576,
+   "verses": 377
+  },
+  {
+   "step": 374,
+   "lemmas": 375,
+   "tokens": 0.9324,
+   "clauses": 1577,
+   "verses": 377
+  },
+  {
+   "step": 375,
+   "lemmas": 376,
+   "tokens": 0.9326,
+   "clauses": 1578,
+   "verses": 378
+  },
+  {
+   "step": 376,
+   "lemmas": 377,
+   "tokens": 0.9328,
+   "clauses": 1579,
+   "verses": 379
+  },
+  {
+   "step": 377,
+   "lemmas": 378,
+   "tokens": 0.933,
+   "clauses": 1582,
+   "verses": 380
+  },
+  {
+   "step": 378,
+   "lemmas": 379,
+   "tokens": 0.9333,
+   "clauses": 1583,
+   "verses": 381
+  },
+  {
+   "step": 379,
+   "lemmas": 380,
+   "tokens": 0.9335,
+   "clauses": 1584,
+   "verses": 381
+  },
+  {
+   "step": 380,
+   "lemmas": 381,
+   "tokens": 0.9337,
+   "clauses": 1585,
+   "verses": 382
+  },
+  {
+   "step": 381,
+   "lemmas": 382,
+   "tokens": 0.9339,
+   "clauses": 1589,
+   "verses": 385
+  },
+  {
+   "step": 382,
+   "lemmas": 383,
+   "tokens": 0.9341,
+   "clauses": 1591,
+   "verses": 386
+  },
+  {
+   "step": 383,
+   "lemmas": 384,
+   "tokens": 0.9343,
+   "clauses": 1593,
+   "verses": 388
+  },
+  {
+   "step": 384,
+   "lemmas": 385,
+   "tokens": 0.9346,
+   "clauses": 1597,
+   "verses": 389
+  },
+  {
+   "step": 385,
+   "lemmas": 386,
+   "tokens": 0.9348,
+   "clauses": 1599,
+   "verses": 391
+  },
+  {
+   "step": 386,
+   "lemmas": 387,
+   "tokens": 0.935,
+   "clauses": 1602,
+   "verses": 394
+  },
+  {
+   "step": 387,
+   "lemmas": 388,
+   "tokens": 0.9352,
+   "clauses": 1604,
+   "verses": 395
+  },
+  {
+   "step": 388,
+   "lemmas": 389,
+   "tokens": 0.9354,
+   "clauses": 1606,
+   "verses": 396
+  },
+  {
+   "step": 389,
+   "lemmas": 390,
+   "tokens": 0.9356,
+   "clauses": 1608,
+   "verses": 397
+  },
+  {
+   "step": 390,
+   "lemmas": 391,
+   "tokens": 0.9358,
+   "clauses": 1609,
+   "verses": 397
+  },
+  {
+   "step": 391,
+   "lemmas": 392,
+   "tokens": 0.9361,
+   "clauses": 1613,
+   "verses": 398
+  },
+  {
+   "step": 392,
+   "lemmas": 393,
+   "tokens": 0.9363,
+   "clauses": 1616,
+   "verses": 400
+  },
+  {
+   "step": 393,
+   "lemmas": 394,
+   "tokens": 0.9365,
+   "clauses": 1619,
+   "verses": 401
+  },
+  {
+   "step": 394,
+   "lemmas": 395,
+   "tokens": 0.9366,
+   "clauses": 1620,
+   "verses": 401
+  },
+  {
+   "step": 395,
+   "lemmas": 396,
+   "tokens": 0.9368,
+   "clauses": 1621,
+   "verses": 401
+  },
+  {
+   "step": 396,
+   "lemmas": 397,
+   "tokens": 0.937,
+   "clauses": 1622,
+   "verses": 402
+  },
+  {
+   "step": 397,
+   "lemmas": 398,
+   "tokens": 0.9376,
+   "clauses": 1626,
+   "verses": 405
+  },
+  {
+   "step": 398,
+   "lemmas": 399,
+   "tokens": 0.9378,
+   "clauses": 1627,
+   "verses": 405
+  },
+  {
+   "step": 399,
+   "lemmas": 400,
+   "tokens": 0.9379,
+   "clauses": 1629,
+   "verses": 405
+  },
+  {
+   "step": 400,
+   "lemmas": 401,
+   "tokens": 0.9381,
+   "clauses": 1630,
+   "verses": 406
+  },
+  {
+   "step": 401,
+   "lemmas": 402,
+   "tokens": 0.9383,
+   "clauses": 1632,
+   "verses": 406
+  },
+  {
+   "step": 402,
+   "lemmas": 403,
+   "tokens": 0.9385,
+   "clauses": 1634,
+   "verses": 407
+  },
+  {
+   "step": 403,
+   "lemmas": 404,
+   "tokens": 0.9387,
+   "clauses": 1636,
+   "verses": 408
+  },
+  {
+   "step": 404,
+   "lemmas": 405,
+   "tokens": 0.939,
+   "clauses": 1638,
+   "verses": 409
+  },
+  {
+   "step": 405,
+   "lemmas": 406,
+   "tokens": 0.9392,
+   "clauses": 1640,
+   "verses": 411
+  },
+  {
+   "step": 406,
+   "lemmas": 407,
+   "tokens": 0.9394,
+   "clauses": 1641,
+   "verses": 412
+  },
+  {
+   "step": 407,
+   "lemmas": 408,
+   "tokens": 0.9396,
+   "clauses": 1643,
+   "verses": 413
+  },
+  {
+   "step": 408,
+   "lemmas": 409,
+   "tokens": 0.9398,
+   "clauses": 1645,
+   "verses": 414
+  },
+  {
+   "step": 409,
+   "lemmas": 410,
+   "tokens": 0.94,
+   "clauses": 1646,
+   "verses": 415
+  },
+  {
+   "step": 410,
+   "lemmas": 411,
+   "tokens": 0.9402,
+   "clauses": 1649,
+   "verses": 417
+  },
+  {
+   "step": 411,
+   "lemmas": 412,
+   "tokens": 0.9404,
+   "clauses": 1651,
+   "verses": 418
+  },
+  {
+   "step": 412,
+   "lemmas": 413,
+   "tokens": 0.9406,
+   "clauses": 1653,
+   "verses": 419
+  },
+  {
+   "step": 413,
+   "lemmas": 414,
+   "tokens": 0.9408,
+   "clauses": 1656,
+   "verses": 421
+  },
+  {
+   "step": 414,
+   "lemmas": 415,
+   "tokens": 0.941,
+   "clauses": 1659,
+   "verses": 423
+  },
+  {
+   "step": 415,
+   "lemmas": 416,
+   "tokens": 0.9412,
+   "clauses": 1660,
+   "verses": 424
+  },
+  {
+   "step": 416,
+   "lemmas": 417,
+   "tokens": 0.9416,
+   "clauses": 1665,
+   "verses": 428
+  },
+  {
+   "step": 417,
+   "lemmas": 418,
+   "tokens": 0.9418,
+   "clauses": 1666,
+   "verses": 429
+  },
+  {
+   "step": 418,
+   "lemmas": 419,
+   "tokens": 0.942,
+   "clauses": 1667,
+   "verses": 430
+  },
+  {
+   "step": 419,
+   "lemmas": 420,
+   "tokens": 0.9422,
+   "clauses": 1668,
+   "verses": 430
+  },
+  {
+   "step": 420,
+   "lemmas": 421,
+   "tokens": 0.9424,
+   "clauses": 1671,
+   "verses": 432
+  },
+  {
+   "step": 421,
+   "lemmas": 422,
+   "tokens": 0.9425,
+   "clauses": 1673,
+   "verses": 433
+  },
+  {
+   "step": 422,
+   "lemmas": 423,
+   "tokens": 0.9426,
+   "clauses": 1675,
+   "verses": 434
+  },
+  {
+   "step": 423,
+   "lemmas": 424,
+   "tokens": 0.9428,
+   "clauses": 1676,
+   "verses": 434
+  },
+  {
+   "step": 424,
+   "lemmas": 425,
+   "tokens": 0.9429,
+   "clauses": 1678,
+   "verses": 434
+  },
+  {
+   "step": 425,
+   "lemmas": 426,
+   "tokens": 0.9431,
+   "clauses": 1680,
+   "verses": 436
+  },
+  {
+   "step": 426,
+   "lemmas": 427,
+   "tokens": 0.9433,
+   "clauses": 1683,
+   "verses": 437
+  },
+  {
+   "step": 427,
+   "lemmas": 428,
+   "tokens": 0.9435,
+   "clauses": 1684,
+   "verses": 437
+  },
+  {
+   "step": 428,
+   "lemmas": 429,
+   "tokens": 0.9437,
+   "clauses": 1687,
+   "verses": 439
+  },
+  {
+   "step": 429,
+   "lemmas": 430,
+   "tokens": 0.9438,
+   "clauses": 1689,
+   "verses": 441
+  },
+  {
+   "step": 430,
+   "lemmas": 431,
+   "tokens": 0.944,
+   "clauses": 1692,
+   "verses": 442
+  },
+  {
+   "step": 431,
+   "lemmas": 432,
+   "tokens": 0.9442,
+   "clauses": 1694,
+   "verses": 442
+  },
+  {
+   "step": 432,
+   "lemmas": 433,
+   "tokens": 0.9444,
+   "clauses": 1697,
+   "verses": 445
+  },
+  {
+   "step": 433,
+   "lemmas": 434,
+   "tokens": 0.9446,
+   "clauses": 1699,
+   "verses": 447
+  },
+  {
+   "step": 434,
+   "lemmas": 435,
+   "tokens": 0.9447,
+   "clauses": 1700,
+   "verses": 447
+  },
+  {
+   "step": 435,
+   "lemmas": 436,
+   "tokens": 0.945,
+   "clauses": 1703,
+   "verses": 449
+  },
+  {
+   "step": 436,
+   "lemmas": 437,
+   "tokens": 0.9451,
+   "clauses": 1704,
+   "verses": 449
+  },
+  {
+   "step": 437,
+   "lemmas": 438,
+   "tokens": 0.9453,
+   "clauses": 1705,
+   "verses": 449
+  },
+  {
+   "step": 438,
+   "lemmas": 439,
+   "tokens": 0.9455,
+   "clauses": 1707,
+   "verses": 450
+  },
+  {
+   "step": 439,
+   "lemmas": 440,
+   "tokens": 0.9456,
+   "clauses": 1709,
+   "verses": 451
+  },
+  {
+   "step": 440,
+   "lemmas": 441,
+   "tokens": 0.9458,
+   "clauses": 1710,
+   "verses": 451
+  },
+  {
+   "step": 441,
+   "lemmas": 442,
+   "tokens": 0.946,
+   "clauses": 1711,
+   "verses": 451
+  },
+  {
+   "step": 442,
+   "lemmas": 443,
+   "tokens": 0.9461,
+   "clauses": 1713,
+   "verses": 453
+  },
+  {
+   "step": 443,
+   "lemmas": 444,
+   "tokens": 0.9462,
+   "clauses": 1714,
+   "verses": 453
+  },
+  {
+   "step": 444,
+   "lemmas": 445,
+   "tokens": 0.9464,
+   "clauses": 1716,
+   "verses": 455
+  },
+  {
+   "step": 445,
+   "lemmas": 446,
+   "tokens": 0.9465,
+   "clauses": 1718,
+   "verses": 456
+  },
+  {
+   "step": 446,
+   "lemmas": 447,
+   "tokens": 0.9466,
+   "clauses": 1720,
+   "verses": 457
+  },
+  {
+   "step": 447,
+   "lemmas": 448,
+   "tokens": 0.9468,
+   "clauses": 1722,
+   "verses": 458
+  },
+  {
+   "step": 448,
+   "lemmas": 449,
+   "tokens": 0.9469,
+   "clauses": 1724,
+   "verses": 460
+  },
+  {
+   "step": 449,
+   "lemmas": 450,
+   "tokens": 0.9471,
+   "clauses": 1726,
+   "verses": 462
+  },
+  {
+   "step": 450,
+   "lemmas": 451,
+   "tokens": 0.9473,
+   "clauses": 1727,
+   "verses": 462
+  },
+  {
+   "step": 451,
+   "lemmas": 452,
+   "tokens": 0.9484,
+   "clauses": 1728,
+   "verses": 463
+  },
+  {
+   "step": 452,
+   "lemmas": 453,
+   "tokens": 0.9492,
+   "clauses": 1737,
+   "verses": 470
+  },
+  {
+   "step": 453,
+   "lemmas": 454,
+   "tokens": 0.9494,
+   "clauses": 1739,
+   "verses": 472
+  },
+  {
+   "step": 454,
+   "lemmas": 455,
+   "tokens": 0.9495,
+   "clauses": 1741,
+   "verses": 473
+  },
+  {
+   "step": 455,
+   "lemmas": 456,
+   "tokens": 0.9497,
+   "clauses": 1742,
+   "verses": 473
+  },
+  {
+   "step": 456,
+   "lemmas": 457,
+   "tokens": 0.9499,
+   "clauses": 1744,
+   "verses": 475
+  },
+  {
+   "step": 457,
+   "lemmas": 458,
+   "tokens": 0.9501,
+   "clauses": 1746,
+   "verses": 477
+  },
+  {
+   "step": 458,
+   "lemmas": 459,
+   "tokens": 0.9503,
+   "clauses": 1747,
+   "verses": 477
+  },
+  {
+   "step": 459,
+   "lemmas": 460,
+   "tokens": 0.9504,
+   "clauses": 1748,
+   "verses": 477
+  },
+  {
+   "step": 460,
+   "lemmas": 461,
+   "tokens": 0.9506,
+   "clauses": 1750,
+   "verses": 479
+  },
+  {
+   "step": 461,
+   "lemmas": 462,
+   "tokens": 0.9508,
+   "clauses": 1752,
+   "verses": 481
+  },
+  {
+   "step": 462,
+   "lemmas": 463,
+   "tokens": 0.9509,
+   "clauses": 1754,
+   "verses": 482
+  },
+  {
+   "step": 463,
+   "lemmas": 464,
+   "tokens": 0.951,
+   "clauses": 1755,
+   "verses": 482
+  },
+  {
+   "step": 464,
+   "lemmas": 465,
+   "tokens": 0.9512,
+   "clauses": 1757,
+   "verses": 484
+  },
+  {
+   "step": 465,
+   "lemmas": 466,
+   "tokens": 0.9513,
+   "clauses": 1759,
+   "verses": 484
+  },
+  {
+   "step": 466,
+   "lemmas": 467,
+   "tokens": 0.9514,
+   "clauses": 1760,
+   "verses": 485
+  },
+  {
+   "step": 467,
+   "lemmas": 468,
+   "tokens": 0.9516,
+   "clauses": 1763,
+   "verses": 487
+  },
+  {
+   "step": 468,
+   "lemmas": 469,
+   "tokens": 0.9517,
+   "clauses": 1764,
+   "verses": 488
+  },
+  {
+   "step": 469,
+   "lemmas": 470,
+   "tokens": 0.9519,
+   "clauses": 1766,
+   "verses": 488
+  },
+  {
+   "step": 470,
+   "lemmas": 471,
+   "tokens": 0.952,
+   "clauses": 1768,
+   "verses": 489
+  },
+  {
+   "step": 471,
+   "lemmas": 472,
+   "tokens": 0.9521,
+   "clauses": 1770,
+   "verses": 491
+  },
+  {
+   "step": 472,
+   "lemmas": 473,
+   "tokens": 0.9523,
+   "clauses": 1772,
+   "verses": 492
+  },
+  {
+   "step": 473,
+   "lemmas": 474,
+   "tokens": 0.9524,
+   "clauses": 1774,
+   "verses": 494
+  },
+  {
+   "step": 474,
+   "lemmas": 475,
+   "tokens": 0.9525,
+   "clauses": 1776,
+   "verses": 495
+  },
+  {
+   "step": 475,
+   "lemmas": 476,
+   "tokens": 0.9526,
+   "clauses": 1778,
+   "verses": 496
+  },
+  {
+   "step": 476,
+   "lemmas": 477,
+   "tokens": 0.9528,
+   "clauses": 1779,
+   "verses": 497
+  },
+  {
+   "step": 477,
+   "lemmas": 478,
+   "tokens": 0.953,
+   "clauses": 1780,
+   "verses": 497
+  },
+  {
+   "step": 478,
+   "lemmas": 479,
+   "tokens": 0.9531,
+   "clauses": 1782,
+   "verses": 499
+  },
+  {
+   "step": 479,
+   "lemmas": 480,
+   "tokens": 0.9532,
+   "clauses": 1783,
+   "verses": 499
+  },
+  {
+   "step": 480,
+   "lemmas": 481,
+   "tokens": 0.9534,
+   "clauses": 1785,
+   "verses": 501
+  },
+  {
+   "step": 481,
+   "lemmas": 482,
+   "tokens": 0.9534,
+   "clauses": 1786,
+   "verses": 501
+  },
+  {
+   "step": 482,
+   "lemmas": 483,
+   "tokens": 0.9536,
+   "clauses": 1788,
+   "verses": 502
+  },
+  {
+   "step": 483,
+   "lemmas": 484,
+   "tokens": 0.9537,
+   "clauses": 1790,
+   "verses": 504
+  },
+  {
+   "step": 484,
+   "lemmas": 485,
+   "tokens": 0.9538,
+   "clauses": 1791,
+   "verses": 505
+  },
+  {
+   "step": 485,
+   "lemmas": 486,
+   "tokens": 0.9541,
+   "clauses": 1794,
+   "verses": 508
+  },
+  {
+   "step": 486,
+   "lemmas": 487,
+   "tokens": 0.9543,
+   "clauses": 1795,
+   "verses": 509
+  },
+  {
+   "step": 487,
+   "lemmas": 488,
+   "tokens": 0.9544,
+   "clauses": 1796,
+   "verses": 510
+  },
+  {
+   "step": 488,
+   "lemmas": 489,
+   "tokens": 0.9545,
+   "clauses": 1797,
+   "verses": 511
+  },
+  {
+   "step": 489,
+   "lemmas": 490,
+   "tokens": 0.9547,
+   "clauses": 1798,
+   "verses": 512
+  },
+  {
+   "step": 490,
+   "lemmas": 491,
+   "tokens": 0.9547,
+   "clauses": 1799,
+   "verses": 513
+  },
+  {
+   "step": 491,
+   "lemmas": 492,
+   "tokens": 0.9549,
+   "clauses": 1800,
+   "verses": 514
+  },
+  {
+   "step": 492,
+   "lemmas": 493,
+   "tokens": 0.955,
+   "clauses": 1802,
+   "verses": 514
+  },
+  {
+   "step": 493,
+   "lemmas": 494,
+   "tokens": 0.9551,
+   "clauses": 1804,
+   "verses": 516
+  },
+  {
+   "step": 494,
+   "lemmas": 495,
+   "tokens": 0.9552,
+   "clauses": 1806,
+   "verses": 518
+  },
+  {
+   "step": 495,
+   "lemmas": 496,
+   "tokens": 0.9554,
+   "clauses": 1807,
+   "verses": 518
+  },
+  {
+   "step": 496,
+   "lemmas": 497,
+   "tokens": 0.9555,
+   "clauses": 1808,
+   "verses": 519
+  },
+  {
+   "step": 497,
+   "lemmas": 498,
+   "tokens": 0.9556,
+   "clauses": 1809,
+   "verses": 519
+  },
+  {
+   "step": 498,
+   "lemmas": 499,
+   "tokens": 0.9558,
+   "clauses": 1810,
+   "verses": 520
+  },
+  {
+   "step": 499,
+   "lemmas": 500,
+   "tokens": 0.9559,
+   "clauses": 1812,
+   "verses": 522
+  },
+  {
+   "step": 500,
+   "lemmas": 501,
+   "tokens": 0.956,
+   "clauses": 1813,
+   "verses": 523
+  },
+  {
+   "step": 501,
+   "lemmas": 502,
+   "tokens": 0.9561,
+   "clauses": 1814,
+   "verses": 524
+  },
+  {
+   "step": 502,
+   "lemmas": 503,
+   "tokens": 0.9563,
+   "clauses": 1816,
+   "verses": 524
+  },
+  {
+   "step": 503,
+   "lemmas": 504,
+   "tokens": 0.9564,
+   "clauses": 1818,
+   "verses": 526
+  },
+  {
+   "step": 504,
+   "lemmas": 505,
+   "tokens": 0.9565,
+   "clauses": 1820,
+   "verses": 528
+  },
+  {
+   "step": 505,
+   "lemmas": 506,
+   "tokens": 0.9567,
+   "clauses": 1821,
+   "verses": 529
+  },
+  {
+   "step": 506,
+   "lemmas": 507,
+   "tokens": 0.9568,
+   "clauses": 1823,
+   "verses": 530
+  },
+  {
+   "step": 507,
+   "lemmas": 508,
+   "tokens": 0.9569,
+   "clauses": 1824,
+   "verses": 530
+  },
+  {
+   "step": 508,
+   "lemmas": 509,
+   "tokens": 0.9571,
+   "clauses": 1826,
+   "verses": 531
+  },
+  {
+   "step": 509,
+   "lemmas": 510,
+   "tokens": 0.9572,
+   "clauses": 1827,
+   "verses": 532
+  },
+  {
+   "step": 510,
+   "lemmas": 511,
+   "tokens": 0.9573,
+   "clauses": 1828,
+   "verses": 532
+  },
+  {
+   "step": 511,
+   "lemmas": 512,
+   "tokens": 0.9576,
+   "clauses": 1829,
+   "verses": 532
+  },
+  {
+   "step": 512,
+   "lemmas": 513,
+   "tokens": 0.9577,
+   "clauses": 1830,
+   "verses": 532
+  },
+  {
+   "step": 513,
+   "lemmas": 514,
+   "tokens": 0.9578,
+   "clauses": 1832,
+   "verses": 533
+  },
+  {
+   "step": 514,
+   "lemmas": 515,
+   "tokens": 0.958,
+   "clauses": 1834,
+   "verses": 535
+  },
+  {
+   "step": 515,
+   "lemmas": 516,
+   "tokens": 0.9581,
+   "clauses": 1836,
+   "verses": 537
+  },
+  {
+   "step": 516,
+   "lemmas": 517,
+   "tokens": 0.9582,
+   "clauses": 1838,
+   "verses": 538
+  },
+  {
+   "step": 517,
+   "lemmas": 518,
+   "tokens": 0.9583,
+   "clauses": 1839,
+   "verses": 538
+  },
+  {
+   "step": 518,
+   "lemmas": 519,
+   "tokens": 0.9584,
+   "clauses": 1841,
+   "verses": 540
+  },
+  {
+   "step": 519,
+   "lemmas": 520,
+   "tokens": 0.9585,
+   "clauses": 1843,
+   "verses": 541
+  },
+  {
+   "step": 520,
+   "lemmas": 521,
+   "tokens": 0.9587,
+   "clauses": 1844,
+   "verses": 541
+  },
+  {
+   "step": 521,
+   "lemmas": 522,
+   "tokens": 0.9588,
+   "clauses": 1845,
+   "verses": 542
+  },
+  {
+   "step": 522,
+   "lemmas": 523,
+   "tokens": 0.9589,
+   "clauses": 1846,
+   "verses": 543
+  },
+  {
+   "step": 523,
+   "lemmas": 524,
+   "tokens": 0.9591,
+   "clauses": 1847,
+   "verses": 544
+  },
+  {
+   "step": 524,
+   "lemmas": 525,
+   "tokens": 0.9592,
+   "clauses": 1848,
+   "verses": 544
+  },
+  {
+   "step": 525,
+   "lemmas": 526,
+   "tokens": 0.9593,
+   "clauses": 1849,
+   "verses": 545
+  },
+  {
+   "step": 526,
+   "lemmas": 527,
+   "tokens": 0.9594,
+   "clauses": 1850,
+   "verses": 545
+  },
+  {
+   "step": 527,
+   "lemmas": 528,
+   "tokens": 0.9595,
+   "clauses": 1852,
+   "verses": 545
+  },
+  {
+   "step": 528,
+   "lemmas": 529,
+   "tokens": 0.9596,
+   "clauses": 1853,
+   "verses": 546
+  },
+  {
+   "step": 529,
+   "lemmas": 530,
+   "tokens": 0.9598,
+   "clauses": 1855,
+   "verses": 548
+  },
+  {
+   "step": 530,
+   "lemmas": 531,
+   "tokens": 0.9599,
+   "clauses": 1857,
+   "verses": 549
+  },
+  {
+   "step": 531,
+   "lemmas": 532,
+   "tokens": 0.96,
+   "clauses": 1858,
+   "verses": 549
+  },
+  {
+   "step": 532,
+   "lemmas": 533,
+   "tokens": 0.9601,
+   "clauses": 1859,
+   "verses": 550
+  },
+  {
+   "step": 533,
+   "lemmas": 534,
+   "tokens": 0.9602,
+   "clauses": 1860,
+   "verses": 550
+  },
+  {
+   "step": 534,
+   "lemmas": 535,
+   "tokens": 0.9603,
+   "clauses": 1861,
+   "verses": 550
+  },
+  {
+   "step": 535,
+   "lemmas": 536,
+   "tokens": 0.9604,
+   "clauses": 1862,
+   "verses": 550
+  },
+  {
+   "step": 536,
+   "lemmas": 537,
+   "tokens": 0.9606,
+   "clauses": 1863,
+   "verses": 551
+  },
+  {
+   "step": 537,
+   "lemmas": 538,
+   "tokens": 0.9609,
+   "clauses": 1865,
+   "verses": 552
+  },
+  {
+   "step": 538,
+   "lemmas": 539,
+   "tokens": 0.9609,
+   "clauses": 1866,
+   "verses": 553
+  },
+  {
+   "step": 539,
+   "lemmas": 540,
+   "tokens": 0.961,
+   "clauses": 1867,
+   "verses": 553
+  },
+  {
+   "step": 540,
+   "lemmas": 541,
+   "tokens": 0.9611,
+   "clauses": 1868,
+   "verses": 553
+  },
+  {
+   "step": 541,
+   "lemmas": 542,
+   "tokens": 0.9612,
+   "clauses": 1869,
+   "verses": 554
+  },
+  {
+   "step": 542,
+   "lemmas": 543,
+   "tokens": 0.9613,
+   "clauses": 1870,
+   "verses": 554
+  },
+  {
+   "step": 543,
+   "lemmas": 544,
+   "tokens": 0.9613,
+   "clauses": 1871,
+   "verses": 555
+  },
+  {
+   "step": 544,
+   "lemmas": 545,
+   "tokens": 0.9615,
+   "clauses": 1872,
+   "verses": 555
+  },
+  {
+   "step": 545,
+   "lemmas": 546,
+   "tokens": 0.9615,
+   "clauses": 1873,
+   "verses": 555
+  },
+  {
+   "step": 546,
+   "lemmas": 547,
+   "tokens": 0.9616,
+   "clauses": 1874,
+   "verses": 555
+  },
+  {
+   "step": 547,
+   "lemmas": 548,
+   "tokens": 0.9617,
+   "clauses": 1875,
+   "verses": 556
+  },
+  {
+   "step": 548,
+   "lemmas": 549,
+   "tokens": 0.9617,
+   "clauses": 1876,
+   "verses": 557
+  },
+  {
+   "step": 549,
+   "lemmas": 550,
+   "tokens": 0.9618,
+   "clauses": 1877,
+   "verses": 558
+  },
+  {
+   "step": 550,
+   "lemmas": 551,
+   "tokens": 0.9618,
+   "clauses": 1878,
+   "verses": 558
+  },
+  {
+   "step": 551,
+   "lemmas": 552,
+   "tokens": 0.9619,
+   "clauses": 1879,
+   "verses": 558
+  },
+  {
+   "step": 552,
+   "lemmas": 553,
+   "tokens": 0.962,
+   "clauses": 1880,
+   "verses": 559
+  },
+  {
+   "step": 553,
+   "lemmas": 554,
+   "tokens": 0.962,
+   "clauses": 1881,
+   "verses": 559
+  },
+  {
+   "step": 554,
+   "lemmas": 555,
+   "tokens": 0.9621,
+   "clauses": 1882,
+   "verses": 559
+  },
+  {
+   "step": 555,
+   "lemmas": 556,
+   "tokens": 0.9622,
+   "clauses": 1883,
+   "verses": 559
+  },
+  {
+   "step": 556,
+   "lemmas": 557,
+   "tokens": 0.9622,
+   "clauses": 1884,
+   "verses": 560
+  },
+  {
+   "step": 557,
+   "lemmas": 558,
+   "tokens": 0.9623,
+   "clauses": 1885,
+   "verses": 560
+  },
+  {
+   "step": 558,
+   "lemmas": 559,
+   "tokens": 0.9624,
+   "clauses": 1886,
+   "verses": 561
+  },
+  {
+   "step": 559,
+   "lemmas": 560,
+   "tokens": 0.9624,
+   "clauses": 1887,
+   "verses": 562
+  },
+  {
+   "step": 560,
+   "lemmas": 561,
+   "tokens": 0.9625,
+   "clauses": 1888,
+   "verses": 563
+  },
+  {
+   "step": 561,
+   "lemmas": 562,
+   "tokens": 0.9626,
+   "clauses": 1889,
+   "verses": 563
+  },
+  {
+   "step": 562,
+   "lemmas": 563,
+   "tokens": 0.9626,
+   "clauses": 1890,
+   "verses": 564
+  },
+  {
+   "step": 563,
+   "lemmas": 564,
+   "tokens": 0.9627,
+   "clauses": 1891,
+   "verses": 564
+  },
+  {
+   "step": 564,
+   "lemmas": 565,
+   "tokens": 0.9628,
+   "clauses": 1892,
+   "verses": 565
+  },
+  {
+   "step": 565,
+   "lemmas": 566,
+   "tokens": 0.9628,
+   "clauses": 1893,
+   "verses": 565
+  },
+  {
+   "step": 566,
+   "lemmas": 567,
+   "tokens": 0.9629,
+   "clauses": 1894,
+   "verses": 566
+  },
+  {
+   "step": 567,
+   "lemmas": 568,
+   "tokens": 0.9629,
+   "clauses": 1895,
+   "verses": 567
+  },
+  {
+   "step": 568,
+   "lemmas": 569,
+   "tokens": 0.963,
+   "clauses": 1896,
+   "verses": 567
+  },
+  {
+   "step": 569,
+   "lemmas": 570,
+   "tokens": 0.9631,
+   "clauses": 1897,
+   "verses": 567
+  },
+  {
+   "step": 570,
+   "lemmas": 571,
+   "tokens": 0.9631,
+   "clauses": 1898,
+   "verses": 568
+  },
+  {
+   "step": 571,
+   "lemmas": 572,
+   "tokens": 0.9632,
+   "clauses": 1899,
+   "verses": 569
+  },
+  {
+   "step": 572,
+   "lemmas": 573,
+   "tokens": 0.9633,
+   "clauses": 1900,
+   "verses": 570
+  },
+  {
+   "step": 573,
+   "lemmas": 574,
+   "tokens": 0.9633,
+   "clauses": 1901,
+   "verses": 570
+  },
+  {
+   "step": 574,
+   "lemmas": 575,
+   "tokens": 0.9634,
+   "clauses": 1902,
+   "verses": 571
+  },
+  {
+   "step": 575,
+   "lemmas": 576,
+   "tokens": 0.9635,
+   "clauses": 1903,
+   "verses": 572
+  },
+  {
+   "step": 576,
+   "lemmas": 577,
+   "tokens": 0.9635,
+   "clauses": 1904,
+   "verses": 573
+  },
+  {
+   "step": 577,
+   "lemmas": 578,
+   "tokens": 0.9636,
+   "clauses": 1905,
+   "verses": 573
+  },
+  {
+   "step": 578,
+   "lemmas": 579,
+   "tokens": 0.9637,
+   "clauses": 1906,
+   "verses": 574
+  },
+  {
+   "step": 579,
+   "lemmas": 580,
+   "tokens": 0.9637,
+   "clauses": 1907,
+   "verses": 575
+  },
+  {
+   "step": 580,
+   "lemmas": 581,
+   "tokens": 0.9638,
+   "clauses": 1908,
+   "verses": 575
+  },
+  {
+   "step": 581,
+   "lemmas": 582,
+   "tokens": 0.9639,
+   "clauses": 1909,
+   "verses": 576
+  },
+  {
+   "step": 582,
+   "lemmas": 583,
+   "tokens": 0.9639,
+   "clauses": 1910,
+   "verses": 577
+  },
+  {
+   "step": 583,
+   "lemmas": 584,
+   "tokens": 0.964,
+   "clauses": 1911,
+   "verses": 577
+  },
+  {
+   "step": 584,
+   "lemmas": 585,
+   "tokens": 0.964,
+   "clauses": 1912,
+   "verses": 577
+  },
+  {
+   "step": 585,
+   "lemmas": 586,
+   "tokens": 0.9641,
+   "clauses": 1913,
+   "verses": 577
+  },
+  {
+   "step": 586,
+   "lemmas": 587,
+   "tokens": 0.9642,
+   "clauses": 1914,
+   "verses": 578
+  },
+  {
+   "step": 587,
+   "lemmas": 588,
+   "tokens": 0.9642,
+   "clauses": 1915,
+   "verses": 579
+  },
+  {
+   "step": 588,
+   "lemmas": 589,
+   "tokens": 0.9643,
+   "clauses": 1916,
+   "verses": 580
+  },
+  {
+   "step": 589,
+   "lemmas": 590,
+   "tokens": 0.9644,
+   "clauses": 1917,
+   "verses": 581
+  },
+  {
+   "step": 590,
+   "lemmas": 591,
+   "tokens": 0.9644,
+   "clauses": 1918,
+   "verses": 582
+  },
+  {
+   "step": 591,
+   "lemmas": 592,
+   "tokens": 0.9645,
+   "clauses": 1919,
+   "verses": 583
+  },
+  {
+   "step": 592,
+   "lemmas": 593,
+   "tokens": 0.9646,
+   "clauses": 1920,
+   "verses": 584
+  },
+  {
+   "step": 593,
+   "lemmas": 594,
+   "tokens": 0.9646,
+   "clauses": 1921,
+   "verses": 584
+  },
+  {
+   "step": 594,
+   "lemmas": 595,
+   "tokens": 0.9647,
+   "clauses": 1922,
+   "verses": 585
+  },
+  {
+   "step": 595,
+   "lemmas": 596,
+   "tokens": 0.9648,
+   "clauses": 1923,
+   "verses": 586
+  },
+  {
+   "step": 596,
+   "lemmas": 597,
+   "tokens": 0.9648,
+   "clauses": 1924,
+   "verses": 587
+  },
+  {
+   "step": 597,
+   "lemmas": 598,
+   "tokens": 0.9649,
+   "clauses": 1925,
+   "verses": 588
+  },
+  {
+   "step": 598,
+   "lemmas": 599,
+   "tokens": 0.965,
+   "clauses": 1926,
+   "verses": 589
+  },
+  {
+   "step": 599,
+   "lemmas": 600,
+   "tokens": 0.965,
+   "clauses": 1927,
+   "verses": 589
+  },
+  {
+   "step": 600,
+   "lemmas": 601,
+   "tokens": 0.9651,
+   "clauses": 1928,
+   "verses": 590
+  }
+ ],
+ "distractors": [
+  "Abraham",
+  "Andrew",
+  "Galilee",
+  "God",
+  "I",
+  "I agitate, stir up, trouble",
+  "I also, I too",
+  "I am about to",
+  "I am weak, sick",
+  "I announce, make known, report",
+  "I beget, bring forth, give birth to",
+  "I bind",
+  "I carry, bear, bring",
+  "I cast, throw, rush",
+  "I cause to stand, stand",
+  "I come or go away from, depart, return",
+  "I crow, shout, summon",
+  "I crucify",
+  "I cry aloud, shout",
+  "I destroy, lose, am perishing",
+  "I dip, submerge, baptize",
+  "I drink, imbibe",
+  "I eat",
+  "I fill, fulfill, complete",
+  "I gather together",
+  "I go in, come in, enter",
+  "I hand over, deliver, betray",
+  "I hate, detest",
+  "I lay hold of",
+  "I lead",
+  "I lie, recline, am laid",
+  "I lift up, exalt",
+  "I loose, untie, release",
+  "I make clear, visible, or manifest",
+  "I open",
+  "I point out, show",
+  "I put to death, kill",
+  "I put, place",
+  "I raise, lift up",
+  "I rejoice, am glad",
+  "I save, heal",
+  "I see, behold, contemplate",
+  "I send away, release, remit",
+  "I teach",
+  "I think, seem, appear",
+  "I thirst for, desire earnestly",
+  "I throw, cast, put out",
+  "I value at a price, honor",
+  "I walk, conduct my life",
+  "I wash",
+  "I weep, weep for, mourn",
+  "I wonder, admire",
+  "I word, trade, do",
+  "I worship",
+  "I write",
+  "Jerusalem",
+  "Jesus",
+  "Jewish",
+  "John",
+  "Judah, Judas, Jude",
+  "Judea",
+  "Lazarus, Eliezer",
+  "Martha",
+  "Mary, Miriam",
+  "Nathanael",
+  "Nicodemus",
+  "Peter",
+  "Philip",
+  "Pilate",
+  "Rabbi, my master, teacher",
+  "See! Lo! Behold! Look!",
+  "Simon",
+  "Thomas",
+  "a Pharisee",
+  "a brother",
+  "a city",
+  "a crowd",
+  "a day",
+  "a door, opportunity",
+  "a festival, feast",
+  "a hand",
+  "a king, ruler, emperor",
+  "a law, the Mosaic Law",
+  "a male human being, a man",
+  "a male slave",
+  "a mother",
+  "a parent",
+  "a place",
+  "a prophet, poet",
+  "a ruler, prince, leader",
+  "a servant, an attendant",
+  "a sheep",
+  "a shepherd",
+  "a ship, vessel",
+  "a sign, miracle, indication",
+  "a sin",
+  "a sister",
+  "a soldier",
+  "a sound, noise, voice",
+  "a stone",
+  "a teacher",
+  "a thing spoken",
+  "a tomb, sepulcher",
+  "a woman, wife, my lady",
+  "a word, speech, divine utterance",
+  "a writing, passage of scripture, the scriptures",
+  "about",
+  "again, further, on the other hand",
+  "all, every",
+  "all, the whole, entire",
+  "always, at all times",
+  "an age, a cycle of time",
+  "an evil-spirit, demon",
+  "an hour, season",
+  "an ordinance, injunction, command",
+  "and",
+  "and not, neither, nor",
+  "anointed, the Messiah, the Christ",
+  "as",
+  "beautiful, good, worthy",
+  "before",
+  "behind, after",
+  "blind",
+  "blood",
+  "body, flesh",
+  "bread, a loaf, food",
+  "but",
+  "but, and",
+  "darkness",
+  "dead, a corpse",
+  "death",
+  "deserted, desolate, a desert",
+  "disciple",
+  "down from, against, according to",
+  "eternal, unending",
+  "father",
+  "first, before",
+  "five",
+  "flesh, body",
+  "for",
+  "freedom, confidence",
+  "friendly, a friend",
+  "from",
+  "from above, from the beginning, again",
+  "from, in the presence of",
+  "fruit, result, gain",
+  "he, she, it; self",
+  "hence, from this place, on this side and on that",
+  "high priest, chief priest",
+  "himself, herself, itself",
+  "honor, renown, glory splendor",
+  "how much, how great, how many",
+  "how, in what manner",
+  "if",
+  "in",
+  "in behalf of, above",
+  "in front, before the face",
+  "indeed, yet, however",
+  "into",
+  "joy, gladness",
+  "judging, divine judgment",
+  "just as",
+  "kingship, sovereignty, authority",
+  "large, great",
+  "last, at the last, finally",
+  "life",
+  "light, a source of light",
+  "little, small",
+  "lord, Lord, master",
+  "love",
+  "mine",
+  "much, many, often",
+  "name, character, reputation",
+  "near",
+  "neither, nor, not even",
+  "no longer, no more",
+  "no one, none, nothing",
+  "not",
+  "not yet",
+  "now, already",
+  "now, already, at present",
+  "now, just now",
+  "of myself",
+  "of yourself",
+  "on, to, against",
+  "one",
+  "one another",
+  "one's own, private, personal",
+  "only, solitary, desolate",
+  "or",
+  "other, another, different",
+  "out of, from",
+  "outer garment",
+  "over, beyond",
+  "peace, peace of mind",
+  "person, man",
+  "power, authority, weight",
+  "ruler, beginning",
+  "sacred, holy",
+  "set apart, holy, sacred",
+  "so that",
+  "so, then",
+  "somewhere",
+  "son",
+  "sound, whole, wholesome",
+  "still, yet, even now",
+  "that one",
+  "that; because",
+  "the",
+  "the Sabbath, a week",
+  "the earth, soil, land",
+  "the eye",
+  "the feast of Passover, the Passover lamb",
+  "the foot",
+  "the heart, inner life, intention",
+  "the night, night-time",
+  "the sea, lake",
+  "the sky, the heaven",
+  "the soul, life, self",
+  "then",
+  "there, yonder, thither",
+  "this",
+  "through; because of",
+  "thus, so, in this manner",
+  "to answer",
+  "to ask",
+  "to ask for",
+  "to be",
+  "to be able",
+  "to become, happen",
+  "to believe",
+  "to come",
+  "to come down",
+  "to die",
+  "to do, make",
+  "to find",
+  "to follow",
+  "to give",
+  "to glorify",
+  "to go",
+  "to go away",
+  "to go out",
+  "to go up",
+  "to have",
+  "to hear",
+  "to judge",
+  "to keep",
+  "to know",
+  "to know, come to know",
+  "to live",
+  "to look at, behold",
+  "to love",
+  "to love (as a friend)",
+  "to raise",
+  "to raise up, rise",
+  "to remain",
+  "to say",
+  "to see",
+  "to see, look",
+  "to seek",
+  "to send",
+  "to send out",
+  "to speak",
+  "to take, receive",
+  "to testify",
+  "to want",
+  "to, towards",
+  "tomorrow",
+  "true, real, genuine",
+  "truly, indeed",
+  "truly, really, certainly",
+  "truth",
+  "twelve",
+  "two",
+  "unconcealed, true",
+  "until, as far as",
+  "verily, truly, amen",
+  "water",
+  "when",
+  "when, whensoever",
+  "whence",
+  "where, whither",
+  "who, which",
+  "who? what?; someone",
+  "will, wish, desire",
+  "wind, breath, spirit",
+  "wine",
+  "with, after",
+  "without, outside",
+  "witness, evidence, testimony",
+  "work, labor, action",
+  "world",
+  "would (marks possibility)",
+  "you"
+ ],
+ "measured": [
+  [
+   "Reading John in its own order",
+   "1.09 new words per clause over the first 400 clauses"
+  ],
+  [
+   "After 600 steps (beyond this course)",
+   "97% of all words in John"
+  ],
+  [
+   "Same algorithm on Hebrew Genesis, 150 steps",
+   "151 words → 70% of all words; 149 of 150 steps add exactly one new word"
+  ]
+ ],
+ "steps": [
+  {
+   "n": 1,
+   "ref": "1:21",
+   "new": [
+    "καί",
+    "λέγω"
+   ],
+   "mean": "and he says",
+   "toks": [
+    {
+     "w": "καὶ",
+     "lem": "καί",
+     "g": "and",
+     "role": "link",
+     "hint": "joining word",
+     "new": true
+    },
+    {
+     "w": "λέγει·",
+     "lem": "λέγω",
+     "g": "to say",
+     "role": "verb",
+     "hint": "he/she/it · now",
+     "new": true
+    }
+   ],
+   "hooks": {
+    "λέγω": "lexicon, dialogue"
+   },
+   "a": null
+  },
+  {
+   "n": 2,
+   "ref": "1:39",
+   "new": [
+    "αὐτός"
+   ],
+   "mean": "he says to them",
+   "toks": [
+    {
+     "w": "λέγει",
+     "lem": "λέγω",
+     "g": "to say",
+     "role": "verb",
+     "hint": "he/she/it · now",
+     "new": false
+    },
+    {
+     "w": "αὐτοῖς·",
+     "lem": "αὐτός",
+     "g": "he, she, it; self",
+     "role": "to",
+     "hint": "to / for / in, plural",
+     "new": true
+    }
+   ],
+   "a": null
+  },
+  {
+   "n": 3,
+   "ref": "8:52",
+   "new": [
+    "σύ"
+   ],
+   "mean": "and you say",
+   "toks": [
+    {
+     "w": "καὶ",
+     "lem": "καί",
+     "g": "and",
+     "role": "link",
+     "hint": "joining word",
+     "new": false
+    },
+    {
+     "w": "σὺ",
+     "lem": "σύ",
+     "g": "you",
+     "role": "subject",
+     "hint": "who does it",
+     "new": true
+    },
+    {
+     "w": "λέγεις·",
+     "lem": "λέγω",
+     "g": "to say",
+     "role": "verb",
+     "hint": "you · now",
+     "new": false
+    }
+   ],
+   "a": null
+  }
+ ]
+}

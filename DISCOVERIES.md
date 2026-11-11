@@ -388,3 +388,10 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **Control:** the same algorithm on Hebrew Genesis gives 70% after 150 steps, with 149 of 150 one-new-word steps.
 - **Engine:** a working sound-first course of 150 recorded steps: hear → see (meanings, grammar by colour) → recall, with spaced review inside the text.
 - **Not measured:** learner outcomes. The method is a hypothesis until it is tried on people; the trial design is in LEARNING_METHOD.md.
+
+## AH. Akouo version 2 (round 35, `learn/`)
+- **Course extended to 400 recorded steps** (30.7 minutes): 401 words → 94% of all words in John; 1,630 clauses and 406 whole verses fully readable; 399 of 400 steps add exactly one new word.
+- **Techniques added:** noticing; echo/shadowing with slow playback; word-for-word line; memory hooks from English derivatives; forms met; listening check; rebuild (dictation); memory hall; daily goal.
+- **Any language:** the engine is separated from the course pack. In-app builder: paste a text → analysis by Claude, or a plain word-list fallback → ladder built in the browser → spoken by the page's voice. An offline builder is also provided (`build_course.py`).
+- **Verified:** the browser ladder is identical to the Python ladder on John (60 steps); an automated run exercised every stage and review type; a Spanish course was built without analysis.
+- **Not verified here:** the Claude-analysis path and the Claude voice (they need a signed-in viewer). No learner outcomes.

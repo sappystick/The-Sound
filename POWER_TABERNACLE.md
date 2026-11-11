@@ -81,3 +81,78 @@
 **Does not prove:**
 - That any of this was built or played as an instrument.
 - That the harmonic relations are anything more than the result of using simple numbers: 2.5 divides 10 and 20 as any simple fraction would (round 55: simple ratios were a general building habit).
+
+---
+
+# Round 57: Ezekiel's temple and Noah's ark added, and the instrument made real
+**Files:**
+- script `power/round57_full_instrument.py`;
+- numbers `power/round57_results.json`;
+- audio **`power/audio/r57_ark_instrument.mp3`** (78 s).
+
+**Texts checked this round:**
+- Ezek 40:5 (the cubit "and a handbreadth"); 41:5–7; 43:2; 43:13–17; 47:3–5;
+- Gen 6:14–16;
+- Bavli Menachot 28b (the menorah 18 handbreadths high).
+
+## 1. Noah's ark (Gen 6:14–16; common cubit)
+| Calc | Value | Reading |
+|---|---|---|
+| Axes, 300 × 50 × 30 | 1.29 / 7.7 / 12.9 Hz = **harmonics 1, 6, 10** | one harmonic series, like the tabernacle |
+| Three decks of 10 cubits | **38.5 Hz**, the same note as the tabernacle's Holy of Holies | the ark's decks and the inner sanctuary share their height |
+| Sealed hull ("pitch inside and out") with one opening | a **Helmholtz resonator**, the bottle-mouth kind of resonance | a one-cubit square opening breathes at **0.14 Hz: one cycle every 7 s, the period of an ocean swell**; a one-cubit strip along the length breathes at 2.1 Hz |
+
+**The frame:** 27 of 30 stated lengths divide 300 cubits, so most of the tabernacle, Solomon's temple and Noah's ark sit on one harmonic series of 1.29 Hz. **Weak evidence:** 300 = 2² × 3 × 5² absorbs most small numbers.
+
+## 2. Ezekiel's temple (Ezek 40–47; long cubit 0.52 m)
+- **Above hearing:** of the architecture, only a few parts sound in the hearing range, among them the altar hearth (12 cubits, 27.5 Hz) and the 6-cubit wall (55 Hz).
+- **The halls are below hearing:** outer square 0.66 Hz; temple 3.3 Hz; nave 8.3 Hz; inner room 16.5 Hz.
+- **The side chambers form a chord (Calc, with an inference).** They are 4 cubits wide at ground level and grow wider at each of three levels (41:5–7). Commentators infer 5 and 6.
+  - Widths 4 : 5 : 6 resonate at **82.5, 66.0, 55.0 Hz = E2, C2, A1**: an **A-minor triad**, in tune to within 1, 15 and 1 cents.
+  - The minor triad follows from the 4 : 5 : 6 widths.
+  - The exact pitch of A depends on the 0.52 m cubit and is a coincidence.
+- **The altar's steps:** 2, 4, 4 cubits, giving an octave and a unison.
+- **The river:** its depth rises in four steps of 1,000 cubits (ankle, knee, waist, swimming), a four-stage crescendo.
+- **The voice:** "with a roar like the roar of mighty waters" (43:2). Round 42 found that 10–30 voices together sound like rushing water.
+
+## 3. Could it actually make an instrument? Yes: the furniture is already instrument-sized
+**The buildings mostly resonate below hearing:** 0.7–40 Hz, apart from Ezekiel's side chambers (55–83 Hz). As instruments they are halls, which reinforce the notes sung or played inside them. **The furniture sits in the voice range.** Here it is, specified as a real, buildable ensemble:
+
+| Part | Built as | Calculated specification |
+|---|---|---|
+| **Ark**, 1.11 × 0.67 × 0.67 m, acacia lined with gold | a **box zither**: seven gut strings over the lid (the mercy seat), on a 1.0 m speaking length | the box rings at **154, 257, 257, 300, 308, 363, 395, 401 Hz …** (46 modes below 1 kHz) |
+| The seven strings | the heptachord, mese = the ark's own note | **A♯2 115.6 · B2 121.8 · C♯3 137.0 · D♯3 154.2 · E3 162.4 · F♯3 182.7 · G♯3 205.5 Hz**. Gut strings of 0.8–1.4 mm at 87–110 N each: ordinary lyre tensions |
+| **Menorah**, 18 handbreadths (1.3–1.6 m) | **seven stopped pipes** on a wind chest | pipe lengths **0.73, 0.70, 0.62, 0.55, 0.52, 0.46, 0.41 m** (30 mm bore). They fit the lamp's height, centre pipe = mese |
+| **Incense altar**, 0.45 × 0.45 × 0.89 m | bellows box / wind chest for the pipes | a portative organ; the water organ (*hydraulis*) existed from the 3rd c. BC |
+| **Table**, 0.89 m | a monochord for tuning | open 154 Hz; stops at ½, ⅔, ¾ give 308, 231, 206 Hz (octave, fifth, fourth) |
+| **Cherubim** | a horn over the lid | mouth 1.1 m, efficient above ≈ 98 Hz |
+| Robe's 72 bells | a shaker worn by the player | 2–5 kHz |
+| Two silver trumpets | signals | partials 408–1,021 Hz |
+
+**What it would look like:** a gilded chest the size of a large cello case, strung across its lid, with two winged figures arching over it as a sound-horn. Beside it, a 1.5 m golden stand of seven pipes on a small bellows chest, and a long table with a single string for tuning. The player wears a bell-hemmed robe. The whole sits in a stone or curtained cube that reinforces the ark's note.
+
+**What it would sound like:**
+- a dark, resonant **box zither around D♯3 and a fourth either side**, with the box's own resonances (the octave above and the fifth above that) blooming under every pluck;
+- a soft, hollow **seven-pipe drone** (stopped pipes give odd harmonics: a flute-like, clarinet-like colour);
+- a shimmer of **bells**, and the bright trumpet calls.
+
+**The rendered performance** (`r57_ark_instrument.mp3`), in the Holy of Holies' acoustic:
+
+| Time | What plays |
+|---|---|
+| 0.5 s | **the table**: open string, octave, fifth, fourth (tuning by the canon) |
+| 7 s | **the ark zither**: the seven strings, Moon to Saturn |
+| 14 s | **the menorah pipes** hold the mese and the fourths. The strings play **"I am"** twice: Mercury – Mars – Sun – Sun |
+| 25 s | **Ezekiel's chambers**: the A-minor drone, an octave up so it can be heard, rising in four river steps |
+| 46 s | **"a roar like mighty waters"**: 60 voices through the vowel tubes, swelling with the breathing of Noah's ark |
+| 50 s | **the 72 bells** |
+| 66 s | **two silver trumpets** |
+
+## Status
+- **Calculated, and true of the texts' numbers:**
+  - the ark's tone and its octave relation to its room;
+  - Noah's ark as a single harmonic series, its decks sharing the inner sanctuary's height, and its 7-s Helmholtz breathing;
+  - Ezekiel's chambers as a minor triad (the 5 and 6 inferred);
+  - every string, pipe and box value above, which are physically realistic.
+- **Mapping:** the roles. No text describes these objects as instruments.
+- **What this shows:** read as a design, the instructions are physically buildable as a working ensemble, with realistic tensions and lengths, in the voice range. It does **not** show that they were meant or used that way.

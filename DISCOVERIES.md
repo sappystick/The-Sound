@@ -520,3 +520,7 @@ Write-ups:
 - **Calc:** the court, the Holy Place, the Holy of Holies and the ark are harmonics 1, 5, 10 and 40 of 3.85 Hz.
 - **Sources:** Josephus, *Ant.* 3.291 (silver trumpets under a cubit, with a bell); Bavli Zevachim 88b (72 bells).
 - **Mapping (speculative):** a nested resonator tuned to the ark's note, with the voice output "from between the cherubim".
+- **Round 57:**
+  - **Noah's ark:** axes are harmonics 1, 6, 10; its 10-cubit decks share the Holy of Holies' 38.5 Hz; as a sealed hull it breathes at about 0.14 Hz (a 7-s swell).
+  - **Ezekiel's side chambers:** widths 4:5:6 resonate as an A-minor triad (5 and 6 inferred).
+  - **The furniture as a buildable instrument:** an ark box zither (gut 0.8–1.4 mm, 87–110 N), menorah pipes 0.41–0.73 m, a table monochord. All realistic.

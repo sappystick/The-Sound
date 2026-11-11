@@ -21,3 +21,4 @@ echo "done: $(du -sh . | cut -f1)"
 clone https://github.com/ETCBC/dss.git dss                            # Dead Sea Scrolls (Abegg data, Text-Fabric), CC BY-NC
 clone https://github.com/scrollmapper/bible_databases.git versions    # Vulgate, Peshitta, Coptic Sahidic and others
 sparse https://github.com/OpenGreekAndLatin/First1KGreek.git f1k data/tlg1443 data/tlg1139 data/tlg0555   # Ignatius, Hermas, Clement of Alexandria
+mkdir -p heron && curl -sL -o heron/heron_vol1_schmidt1899.txt "https://archive.org/download/heronisalexandri01hero/heronisalexandri01hero_djvu.txt"   # Heron, Pneumatica (Schmidt 1899), public domain

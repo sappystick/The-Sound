@@ -1,0 +1,892 @@
+{
+ "A_purposes": {
+  "spells": 326,
+  "counts": [
+   [
+    "other or untitled",
+    143
+   ],
+   [
+    "revelation, dreams, visions",
+    52
+   ],
+   [
+    "love and attraction",
+    41
+   ],
+   [
+    "healing",
+    33
+   ],
+   [
+    "protection",
+    27
+   ],
+   [
+    "binding and restraint",
+    16
+   ],
+   [
+    "success and favour",
+    13
+   ],
+   [
+    "sleep and insomnia",
+    9
+   ],
+   [
+    "assistant spirit",
+    5
+   ],
+   [
+    "power over nature or objects",
+    5
+   ],
+   [
+    "immortality and ascent",
+    2
+   ]
+  ],
+  "healing": [
+   {
+    "ref": "PGM VII. 193-96",
+    "title": "For scorpion sting"
+   },
+   {
+    "ref": "PGM VII. 197-98",
+    "title": "For discharge of the eyes"
+   },
+   {
+    "ref": "PGM VII. 203-5",
+    "title": "For coughs"
+   },
+   {
+    "ref": "PGM VII. 206- 7",
+    "title": "Another (for coughs)"
+   },
+   {
+    "ref": "PGM VII. 208-9",
+    "title": "For hardening of the breast^"
+   },
+   {
+    "ref": "PDM xiv. 585-93",
+    "title": "(No title) Spell for dog bite"
+   },
+   {
+    "ref": "PDM xiv. 993-1002",
+    "title": "Another (prescription for gout)"
+   },
+   {
+    "ref": "PDM xiv. 1003-14",
+    "title": "(No tide) Amulet for gout"
+   },
+   {
+    "ref": "PDM xiv. 1110-29",
+    "title": "(No title) Spell to open eyes for divination"
+   },
+   {
+    "ref": "PDM riv. 1219-27",
+    "title": "(No title) Spell for fever"
+   },
+   {
+    "ref": "PGM XVIIIa. 1-4",
+    "title": "(No tidc) Amulet for headache"
+   },
+   {
+    "ref": "PGM XVIIIb. 1-7",
+    "title": "(No tidc) Fever amulet"
+   },
+   {
+    "ref": "PGM XX. 1-4",
+    "title": "[Spcll for] headache"
+   },
+   {
+    "ref": "PGM XXVIIla. 1-7",
+    "title": "(No tide) Spcll for scorpion sting"
+   },
+   {
+    "ref": "PGM XXVIIIb. 1-9",
+    "title": "(No title) Spcll for scorpion sting"
+   },
+   {
+    "ref": "PGM XXVIIIc. 1-11",
+    "title": "(No title) Spcll for scorpion sting"
+   },
+   {
+    "ref": "PGM XXXIII. 1-25",
+    "title": "(No tide) Fever amulet"
+   },
+   {
+    "ref": "PGM XLIV. 1- 18",
+    "title": "(No titlc) Amulet against fever ( ? )"
+   },
+   {
+    "ref": "PGM LXXXVII. 1-11",
+    "title": "(No titlc) Fever amulet"
+   },
+   {
+    "ref": "PGM LXXXVIII. 1-19",
+    "title": "(No ti&) Fever amulcr"
+   },
+   {
+    "ref": "PGM XC. 14- 18",
+    "title": "Salve for fever"
+   },
+   {
+    "ref": "PGM XCIV. 22-26",
+    "title": "For the eyes"
+   },
+   {
+    "ref": "PGM XCIV. 39-60",
+    "title": "Another, for migrainc headache"
+   },
+   {
+    "ref": "PGM XCVII. 1-6",
+    "title": "(No title) Spell against eye discase (?)"
+   },
+   {
+    "ref": "PGM XCVII. 15-17",
+    "title": "For every jdisease]"
+   },
+   {
+    "ref": "PGM CIV. 1-8",
+    "title": "(No title) Amulet for fever with shivering"
+   },
+   {
+    "ref": "PGM CVI. 1-10",
+    "title": "(No title) Amulet for fever with shivering"
+   },
+   {
+    "ref": "PGM CXII. 1- 15",
+    "title": "(No title) Amulet for scorpion sting"
+   },
+   {
+    "ref": "PGM CXIII. 1-4",
+    "title": "(No title) Amuler for scorpion sting"
+   },
+   {
+    "ref": "PGM CXX. 1-13",
+    "title": "(No title) Amulet (for inflammation of the"
+   },
+   {
+    "ref": "PGM CXXII. 51-55",
+    "title": "For headache"
+   },
+   {
+    "ref": "PGM CXXVIII. 1- 12",
+    "title": "Phylactery for fever"
+   },
+   {
+    "ref": "PGM CXXX. 1-13",
+    "title": "(No title) For a shivering fever"
+   }
+  ],
+  "nature": [
+   {
+    "ref": "PGM I. 247-62",
+    "title": "Spell for invisibility"
+   },
+   {
+    "ref": "PGM XII. 160-78",
+    "title": "(No titlc) Spcll to release from bonds"
+   },
+   {
+    "ref": "PDM xiv. 961-65",
+    "title": "A prescription (two prcscriptions to stop"
+   },
+   {
+    "ref": "PDM xiv. 970-77",
+    "title": "A prescription (two prescriptions to stop"
+   },
+   {
+    "ref": "PDM xiv. 978-80",
+    "title": "Another (prescription to stop liquid in a"
+   }
+  ]
+ },
+ "B_sound": {
+  "hiss": {
+   "count": 18,
+   "spells": [
+    "PGM IV. 2708",
+    "PGM IV. 475",
+    "PGM VII. 319",
+    "PGM VII. 756",
+    "PGM XIII. 1",
+    "PGM XIII. 343",
+    "PGM XIII. 734"
+   ]
+  },
+  "pop / smack": {
+   "count": 45,
+   "spells": [
+    "PGM CXVI. 1",
+    "PGM III. 440",
+    "PGM IV. 475",
+    "PGM VII. 756",
+    "PGM XIII. 1",
+    "PGM XIII. 343"
+   ]
+  },
+  "bellow / roar": {
+   "count": 9,
+   "spells": [
+    "PGM III. 4",
+    "PGM III. 542",
+    "PGM IV. 2785",
+    "PGM IV. 475",
+    "PGM VII. 756",
+    "PGM XIII. 734"
+   ]
+  },
+  "whistle": {
+   "count": 0,
+   "spells": []
+  },
+  "groan / moan": {
+   "count": 3,
+   "spells": [
+    "PGM LXX. 3",
+    "PGM VII. 756"
+   ]
+  },
+  "breathe in / out": {
+   "count": 7,
+   "spells": [
+    "PGM IV. 1716",
+    "PGM IV. 3007",
+    "PGM IV. 475",
+    "PGM XIII. 734"
+   ]
+  },
+  "shout / cry aloud": {
+   "count": 5,
+   "spells": [
+    "PGM LXXII. 1",
+    "PGM V. 213",
+    "PGM XII. 160",
+    "PGM XIII. 646",
+    "PGM XXXVII. 1"
+   ]
+  },
+  "whisper / silence": {
+   "count": 23,
+   "spells": [
+    "PGM I. 146",
+    "PGM I. 42",
+    "PGM I. 5",
+    "PGM III. 187",
+    "PGM IV. 1716",
+    "PGM IV. 475",
+    "PGM IX. 1",
+    "PGM VII. 1",
+    "PGM VII. 940",
+    "PGM XIII. 734",
+    "PGM XLVI. 4"
+   ]
+  },
+  "sing / chant / hymn": {
+   "count": 127,
+   "spells": [
+    "PGM CXXII. 1",
+    "PGM I. 11",
+    "PGM I. 147",
+    "PGM I. 193",
+    "PGM I. 262",
+    "PGM I. 306",
+    "PGM I. 342",
+    "PGM I. 42",
+    "PGM I. 5",
+    "PGM II. 1",
+    "PGM II. 56",
+    "PGM II. 64",
+    "PGM II. 81",
+    "PGM II. 83",
+    "PGM III. 187",
+    "PGM III. 45",
+    "PGM III. 612",
+    "PGM III. 67",
+    "PGM III. 694",
+    "PGM IV. 1006",
+    "PGM IV. 1390",
+    "PGM IV. 154",
+    "PGM IV. 1716",
+    "PGM IV. 2006",
+    "PGM IV. 2241",
+    "PGM IV. 2373",
+    "PGM IV. 2441",
+    "PGM IV. 2520",
+    "PGM IV. 2610",
+    "PGM IV. 2622",
+    "PGM IV. 2708",
+    "PGM IV. 2785",
+    "PGM IV. 286",
+    "PGM IV. 2910",
+    "PGM IV. 2943",
+    "PGM IV. 296",
+    "PGM IV. 3172",
+    "PGM IV. 930",
+    "PGM IX. 1",
+    "PGM LXX. 3"
+   ]
+  },
+  "the vowels": {
+   "count": 12,
+   "spells": [
+    "PGM CVI. 1",
+    "PGM I. 146",
+    "PGM IV. 2622",
+    "PGM IV. 3172",
+    "PGM LXIII. 26",
+    "PGM XIII. 1",
+    "PGM XIII. 343",
+    "PGM XIII. 734",
+    "PGM XXI. 1"
+   ]
+  },
+  "instrument": {
+   "count": 7,
+   "spells": [
+    "PGM III. 187",
+    "PGM IV. 2241",
+    "PGM IV. 475",
+    "PGM VII. 396",
+    "PGM XXXVI. 178"
+   ]
+  },
+  "facing a direction": {
+   "count": 24,
+   "spells": [
+    "PGM I. 277",
+    "PGM II. 104",
+    "PGM III. 410",
+    "PGM IV. 1",
+    "PGM IV. 3172",
+    "PGM IV. 52",
+    "PGM IV. 930",
+    "PGM IV. 94",
+    "PGM LXI. 39",
+    "PGM V. 213",
+    "PGM VII. 593",
+    "PGM XII. 201",
+    "PGM XII. 270",
+    "PGM XIII. 343",
+    "PGM XIII. 646",
+    "PGM XIII. 734"
+   ]
+  }
+ },
+ "C_make": {
+  "ring": 41,
+  "metal leaf (lamella)": 37,
+  "stone / gem": 72,
+  "figurine": 89,
+  "lamp": 162,
+  "ink (myrrh, blood)": 109,
+  "papyrus / writing": 393,
+  "bowl / cup / water": 111,
+  "herb / plant": 113,
+  "animal part": 313,
+  "string / thread / cord": 24,
+  "seven / number of times": 32
+ },
+ "D_names_top": [
+  [
+   "IAO",
+   89
+  ],
+  [
+   "SABAOTH",
+   55
+  ],
+  [
+   "ADONAI",
+   36
+  ],
+  [
+   "ABRASAX",
+   34
+  ],
+  [
+   "BOEL",
+   28
+  ],
+  [
+   "PHORBA",
+   20
+  ],
+  [
+   "IEOU",
+   20
+  ],
+  [
+   "MASKELLI",
+   18
+  ],
+  [
+   "IEO",
+   17
+  ],
+  [
+   "OYO",
+   17
+  ],
+  [
+   "ABLANATHANALBA",
+   16
+  ],
+  [
+   "AEEIOYO",
+   15
+  ],
+  [
+   "EEE",
+   14
+  ],
+  [
+   "AMOUN",
+   14
+  ],
+  [
+   "MICHAEL",
+   14
+  ],
+  [
+   "YOU",
+   14
+  ],
+  [
+   "AAA",
+   14
+  ],
+  [
+   "PHOR",
+   14
+  ],
+  [
+   "IAHO",
+   14
+  ],
+  [
+   "IAE",
+   13
+  ],
+  [
+   "SPHE",
+   13
+  ],
+  [
+   "THO",
+   13
+  ],
+  [
+   "IAEO",
+   13
+  ],
+  [
+   "OAI",
+   13
+  ],
+  [
+   "PHTHA",
+   12
+  ],
+  [
+   "MASKELLO",
+   11
+  ],
+  [
+   "ANOUTH",
+   11
+  ],
+  [
+   "GGR",
+   10
+  ],
+  [
+   "BIBIOU",
+   10
+  ],
+  [
+   "NOUSI",
+   10
+  ],
+  [
+   "YYY",
+   10
+  ],
+  [
+   "ERBETH",
+   10
+  ],
+  [
+   "AOTH",
+   10
+  ],
+  [
+   "LAILAM",
+   10
+  ],
+  [
+   "OMRM",
+   9
+  ],
+  [
+   "ABAOTH",
+   9
+  ],
+  [
+   "ANOCH",
+   9
+  ],
+  [
+   "BOLCHOSETH",
+   9
+  ],
+  [
+   "CHO",
+   9
+  ],
+  [
+   "PAKERBETH",
+   9
+  ],
+  [
+   "AIE",
+   9
+  ],
+  [
+   "BAI",
+   9
+  ],
+  [
+   "MOU",
+   9
+  ],
+  [
+   "GGA",
+   8
+  ],
+  [
+   "YYYYYY",
+   8
+  ],
+  [
+   "BEE",
+   8
+  ],
+  [
+   "APOMPS",
+   8
+  ],
+  [
+   "AEI",
+   8
+  ],
+  [
+   "OUSIRI",
+   8
+  ],
+  [
+   "ERESCHIGAL",
+   8
+  ],
+  [
+   "LEPETAN",
+   8
+  ],
+  [
+   "IOU",
+   8
+  ],
+  [
+   "ILILLOU",
+   8
+  ],
+  [
+   "HEY",
+   8
+  ],
+  [
+   "LTHARA",
+   8
+  ],
+  [
+   "AAAAAAA",
+   7
+  ],
+  [
+   "SETH",
+   7
+  ],
+  [
+   "DMP",
+   7
+  ],
+  [
+   "IOE",
+   7
+  ],
+  [
+   "PATATHNAX",
+   7
+  ]
+ ],
+ "D_vowel_strings": {
+  "count": 298,
+  "distinct": 187,
+  "lengths": [
+   [
+    4,
+    146
+   ],
+   [
+    5,
+    54
+   ],
+   [
+    7,
+    49
+   ],
+   [
+    6,
+    30
+   ],
+   [
+    8,
+    9
+   ],
+   [
+    10,
+    6
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    14,
+    1
+   ]
+  ],
+  "top": [
+   [
+    "AEEIOYO",
+    15
+   ],
+   [
+    "IAEO",
+    13
+   ],
+   [
+    "YYYYYY",
+    8
+   ],
+   [
+    "AAAAAAA",
+    7
+   ],
+   [
+    "EEEEEEE",
+    6
+   ],
+   [
+    "IAOAI",
+    6
+   ],
+   [
+    "IOYO",
+    6
+   ],
+   [
+    "AEEIOY",
+    5
+   ],
+   [
+    "AAAAAA",
+    4
+   ],
+   [
+    "IEOY",
+    4
+   ],
+   [
+    "IAIA",
+    4
+   ],
+   [
+    "AEEI",
+    4
+   ],
+   [
+    "EIOYO",
+    4
+   ],
+   [
+    "AAAA",
+    4
+   ],
+   [
+    "YYYYYYY",
+    3
+   ],
+   [
+    "EYIE",
+    3
+   ],
+   [
+    "EEEE",
+    3
+   ],
+   [
+    "EIOY",
+    3
+   ],
+   [
+    "AAAAA",
+    3
+   ],
+   [
+    "IEOA",
+    2
+   ],
+   [
+    "IEEA",
+    2
+   ],
+   [
+    "IOAI",
+    2
+   ],
+   [
+    "YIOE",
+    2
+   ],
+   [
+    "EEAO",
+    2
+   ],
+   [
+    "EIAY",
+    2
+   ]
+  ],
+  "seven_vowel_order": 21,
+  "reversed_order": 1
+ },
+ "D_palindromes": [
+  [
+   "BAINCHOOOCHOOOCHNIAB",
+   1
+  ],
+  [
+   "ABLANATHANALBA",
+   16
+  ],
+  [
+   "THATHABATHATH",
+   1
+  ],
+  [
+   "ARARACHARARA",
+   2
+  ],
+  [
+   "ZOTHAXATHOZ",
+   1
+  ],
+  [
+   "EIOYOOYOIE",
+   1
+  ],
+  [
+   "ANATHANA",
+   2
+  ],
+  [
+   "IOYOOYOI",
+   1
+  ]
+ ],
+ "D_long_palindromes": [],
+ "E_number_passages": {
+  "count": 18,
+  "spells": [
+   "PGM CXXIV. 1",
+   "PGM CXXVIII. 1",
+   "PGM I. 295",
+   "PGM II. 64",
+   "PGM III. 603",
+   "PGM IV. 1006",
+   "PGM IV. 1167",
+   "PGM IV. 930",
+   "PGM LXIII. 1",
+   "PGM VII. 167",
+   "PGM VII. 385",
+   "PGM XCIII. 7",
+   "PGM XII. 351",
+   "PGM XIII. 1"
+  ]
+ },
+ "E_isopsephy": {
+  "Abrasax": [
+   "αβρασαξ",
+   365
+  ],
+  "Abraxas (later spelling)": [
+   "αβραξας",
+   365
+  ],
+  "Meithras": [
+   "μειθρας",
+   365
+  ],
+  "Iaō": [
+   "ιαω",
+   811
+  ],
+  "Sabaōth": [
+   "σαβαωθ",
+   1013
+  ],
+  "Adōnai": [
+   "αδωναι",
+   866
+  ],
+  "Ablanathanalba": [
+   "αβλαναθαναλβα",
+   179
+  ],
+  "Akrammachamari": [
+   "ακραμμαχαμαρι",
+   955
+  ],
+  "Seven vowels αεηιουω": [
+   "αεηιουω",
+   1294
+  ],
+  "Iēsous (Jesus)": [
+   "ιησους",
+   888
+  ],
+  "Emmanouēl": [
+   "εμμανουηλ",
+   644
+  ],
+  "Chnoubis": [
+   "χνουβις",
+   1332
+  ],
+  "Neilos (the Nile)": [
+   "νειλος",
+   365
+  ],
+  "Phrē (Ra)": [
+   "φρη",
+   608
+  ]
+ },
+ "E_control_365": {
+  "rate": 0.000945
+ }
+}

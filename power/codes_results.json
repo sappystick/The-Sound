@@ -1,0 +1,367 @@
+{
+ "hebrew_forms": 39953,
+ "hebrew": [
+  {
+   "term": "serpent (nachash), Numbers 21:9",
+   "word": "נחש",
+   "value": 358,
+   "forms_sharing": 71
+  },
+  {
+   "term": "messiah (mashiach)",
+   "word": "משיח",
+   "value": 358,
+   "forms_sharing": 71
+  },
+  {
+   "term": "bronze (nechoshet)",
+   "word": "נחשת",
+   "value": 758,
+   "forms_sharing": 24
+  },
+  {
+   "term": "voice, sound, thunder (qol)",
+   "word": "קול",
+   "value": 136,
+   "forms_sharing": 118
+  },
+  {
+   "term": "breath, spirit, wind (ruach)",
+   "word": "רוח",
+   "value": 214,
+   "forms_sharing": 53
+  },
+  {
+   "term": "relief, breathing-space (revach), 1 Sam 16:23",
+   "word": "רוח",
+   "value": 214,
+   "forms_sharing": 53
+  },
+  {
+   "term": "lyre (kinnor)",
+   "word": "כנור",
+   "value": 276,
+   "forms_sharing": 62
+  },
+  {
+   "term": "ram's horn (shofar)",
+   "word": "שופר",
+   "value": 586,
+   "forms_sharing": 58
+  },
+  {
+   "term": "silver trumpet (chatsotsrah)",
+   "word": "חצצרה",
+   "value": 393,
+   "forms_sharing": 26
+  },
+  {
+   "term": "alarm blast / shout (teru'ah)",
+   "word": "תרועה",
+   "value": 681,
+   "forms_sharing": 28
+  },
+  {
+   "term": "ark (aron)",
+   "word": "ארון",
+   "value": 257,
+   "forms_sharing": 49
+  },
+  {
+   "term": "mercy seat (kapporet)",
+   "word": "כפרת",
+   "value": 700,
+   "forms_sharing": 42
+  },
+  {
+   "term": "cherubim (keruvim)",
+   "word": "כרבים",
+   "value": 272,
+   "forms_sharing": 55
+  },
+  {
+   "term": "Urim",
+   "word": "אורים",
+   "value": 257,
+   "forms_sharing": 49
+  },
+  {
+   "term": "Thummim",
+   "word": "תמים",
+   "value": 490,
+   "forms_sharing": 82
+  },
+  {
+   "term": "bells (pa'amonim)",
+   "word": "פעמנים",
+   "value": 290,
+   "forms_sharing": 69
+  },
+  {
+   "term": "Jericho",
+   "word": "יריחו",
+   "value": 234,
+   "forms_sharing": 35
+  },
+  {
+   "term": "wall (chomah)",
+   "word": "חומה",
+   "value": 59,
+   "forms_sharing": 62
+  },
+  {
+   "term": "word / thing (davar)",
+   "word": "דבר",
+   "value": 206,
+   "forms_sharing": 71
+  },
+  {
+   "term": "amen",
+   "word": "אמן",
+   "value": 91,
+   "forms_sharing": 102
+  },
+  {
+   "term": "YHWH",
+   "word": "יהוה",
+   "value": 26,
+   "forms_sharing": 39
+  },
+  {
+   "term": "Adonai",
+   "word": "אדני",
+   "value": 65,
+   "forms_sharing": 76
+  },
+  {
+   "term": "Elohim",
+   "word": "אלהים",
+   "value": 86,
+   "forms_sharing": 95
+  },
+  {
+   "term": "Sabaoth (tseva'ot)",
+   "word": "צבאות",
+   "value": 499,
+   "forms_sharing": 31
+  },
+  {
+   "term": "light (or)",
+   "word": "אור",
+   "value": 207,
+   "forms_sharing": 42
+  },
+  {
+   "term": "one (echad)",
+   "word": "אחד",
+   "value": 13,
+   "forms_sharing": 30
+  },
+  {
+   "term": "love (ahavah)",
+   "word": "אהבה",
+   "value": 13,
+   "forms_sharing": 30
+  },
+  {
+   "term": "life (chayyim)",
+   "word": "חיים",
+   "value": 68,
+   "forms_sharing": 80
+  },
+  {
+   "term": "water (mayim)",
+   "word": "מים",
+   "value": 90,
+   "forms_sharing": 103
+  },
+  {
+   "term": "living water (mayim chayyim)",
+   "word": "מיםחיים",
+   "value": 158,
+   "forms_sharing": 65
+  }
+ ],
+ "hebrew_equalities": {
+  "358": [
+   "serpent (nachash), Numbers 21:9",
+   "messiah (mashiach)"
+  ],
+  "214": [
+   "breath, spirit, wind (ruach)",
+   "relief, breathing-space (revach), 1 Sam 16:23"
+  ],
+  "257": [
+   "ark (aron)",
+   "Urim"
+  ],
+  "13": [
+   "one (echad)",
+   "love (ahavah)"
+  ]
+ },
+ "hebrew_sums": [
+  [
+   "breath, spirit, wind (ruach)",
+   "lyre (kinnor)",
+   "Thummim",
+   490
+  ],
+  [
+   "lyre (kinnor)",
+   "relief, breathing-space (revach), 1 Sam 16:23",
+   "Thummim",
+   490
+  ],
+  [
+   "ark (aron)",
+   "voice, sound, thunder (qol)",
+   "silver trumpet (chatsotsrah)",
+   393
+  ],
+  [
+   "Urim",
+   "voice, sound, thunder (qol)",
+   "silver trumpet (chatsotsrah)",
+   393
+  ],
+  [
+   "bells (pa'amonim)",
+   "life (chayyim)",
+   "serpent (nachash), Numbers 21:9",
+   358
+  ],
+  [
+   "bells (pa'amonim)",
+   "life (chayyim)",
+   "messiah (mashiach)",
+   358
+  ],
+  [
+   "Adonai",
+   "YHWH",
+   "amen",
+   91
+  ],
+  [
+   "Adonai",
+   "light (or)",
+   "cherubim (keruvim)",
+   272
+  ],
+  [
+   "Elohim",
+   "cherubim (keruvim)",
+   "serpent (nachash), Numbers 21:9",
+   358
+  ],
+  [
+   "Elohim",
+   "cherubim (keruvim)",
+   "messiah (mashiach)",
+   358
+  ],
+  [
+   "love (ahavah)",
+   "one (echad)",
+   "YHWH",
+   26
+  ],
+  [
+   "life (chayyim)",
+   "water (mayim)",
+   "living water (mayim chayyim)",
+   158
+  ]
+ ],
+ "greek": [
+  {
+   "term": "Abrasax",
+   "word": "αβρασαξ",
+   "value": 365
+  },
+  {
+   "term": "Meithras",
+   "word": "μειθρας",
+   "value": 365
+  },
+  {
+   "term": "Neilos (the Nile)",
+   "word": "νειλος",
+   "value": 365
+  },
+  {
+   "term": "Emmanouēl",
+   "word": "εμμανουηλ",
+   "value": 644
+  },
+  {
+   "term": "Raphaēl",
+   "word": "ραφαηλ",
+   "value": 640
+  },
+  {
+   "term": "Iēsous",
+   "word": "ιησους",
+   "value": 888
+  },
+  {
+   "term": "Christos",
+   "word": "χριστος",
+   "value": 1480
+  },
+  {
+   "term": "amēn",
+   "word": "αμην",
+   "value": 99
+  },
+  {
+   "term": "egō eimi (I am)",
+   "word": "εγωειμι",
+   "value": 873
+  },
+  {
+   "term": "phōnē (voice)",
+   "word": "φωνη",
+   "value": 1358
+  },
+  {
+   "term": "logos (word)",
+   "word": "λογος",
+   "value": 373
+  },
+  {
+   "term": "ichthys (fish)",
+   "word": "ιχθυς",
+   "value": 1219
+  },
+  {
+   "term": "the seven vowels",
+   "word": "αεηιουω",
+   "value": 1294
+  },
+  {
+   "term": "Iaō",
+   "word": "ιαω",
+   "value": 811
+  },
+  {
+   "term": "Sabaōth",
+   "word": "σαβαωθ",
+   "value": 1013
+  },
+  {
+   "term": "Bainchōōōch",
+   "word": "βαινχωωωχ",
+   "value": 3663
+  }
+ ],
+ "mean_forms_per_value": 33.5,
+ "control": {
+  "equal_pairs_mean": 0.62,
+  "equal_pairs_p_ge_4": 0.0045,
+  "sums_mean": 8.3,
+  "observed_equal_pairs": 4,
+  "observed_sums": 12
+ }
+}

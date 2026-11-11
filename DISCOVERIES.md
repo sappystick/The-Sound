@@ -432,3 +432,19 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
 - **E3, measured:** on a held 110 Hz note, the open vowels brighten exactly the predicted overtones.
 - **Catalogue:** 29 instruments, objects, recipes and procedures with original text.
 - **Measured:** 10 "God said" in Genesis 1; 7 "voice of the LORD" in Psalm 29; *Talitha*/*Tabitha* one sound apart; Bethesda's angel absent from the four earliest manuscripts.
+
+## AL. Codes in the instructions (round 38, `POWER_CODES.md`)
+- **Magical papyri (Betz, analysed only):**
+  - 33 healing spells;
+  - 127 instructions to sing or chant, 45 pops, 18 hisses, 7 breath instructions;
+  - Abrasax, Meithras and Neilos all = 365 (chance about 0.0009);
+  - Bainchōōōch = 3663, as the text states;
+  - palindromic names (ABLANATHANALBA ×16);
+  - the vowels of PGM XIII form a complete 7 × 7 rotation square over seven directions.
+- **Testament of Solomon (McCown's Greek, OCR'd here; Conybeare's English):**
+  - stated numbers verified: Emmanuel = 644 (Greek χμδ′), Raphael = 640;
+  - the ring is a pentalpha seal; a ring recipe of virgin wax and 12 names that are 78% vowels (against 55% in Greek prose);
+  - the 36 decans' cures run from spoken formula (the first ten), to written name, to material;
+  - the cornerstone episode quotes Psalm 118:22 and is lifted by a wind-spirit in a wineskin;
+  - cross-links to Tobit (fish liver and gall against Asmodeus) and to Exodus 28 (twelve stones).
+- **Gematria with control:** serpent = Messiah = 358; ark = Urim = 257; love = one = 13. Three equal pairs against 0.6 expected, but the terms were chosen with known pairs in mind. Sums are at chance.

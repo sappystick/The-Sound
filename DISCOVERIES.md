@@ -527,3 +527,8 @@ Write-ups:
 - **Round 58:**
   - The prologue played on the ark instrument (499 syllables, 3 min 54 s): 1:12, the syllable centre, begins at 50.2% of the performance.
   - **Added:** Solomon's side chambers 5/6/7 cubits (1 Kgs 6:6; the lowest is one octave below the ark's note); the centre bar, ringing at 131–187 Hz; Zechariah's seven pipes; *alamoth* and *sheminith* as registers; Herod's 100-cubit cube house (Middot 4:6) and Revelation's cube city.
+
+## AQ. Round 59 (`POWER_PLANETS.md`)
+- **The last construction pieces added**, among them: the anointing oil 2:1:1:2 and incense 1:1:1:1; Ezekiel's 36 gate cells at 55 Hz; Herod's 15 steps and the golden vine (John 15:1).
+- **Pliny, NH 2.84,** verified: the Pythagorean planetary intervals (tone, ½, ½, 1½, 1, ½, ½), with the Sun 4th of 7.
+- **The speaking planet organ:** vowels identified 97.8% through the tubes, against 0% without (machine test, not a human listening test). ἐγὼ εἰμι = Mercury, Mars, Sun, Sun.

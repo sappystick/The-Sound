@@ -4,6 +4,7 @@ A research model that reads the Gospel of John, and the scriptures it points to,
 symbol. Every claim is tested against chance before it counts.
 
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- `POWER_PLANETS.md`: round 59, the last construction pieces; the speaking planet organ (Nicomachus and Pliny tunings) with a vowel-recognition test
 - `POWER_TABERNACLE.md`: round 56, thought experiment: the tabernacle and temple as one instrument; every part mapped and calculated; schematic and render
 - `POWER_PERFORMANCE.md`: round 55, pre-registered performance timing (fails); sacred dimensions as resonator ratios; non-lexical passage detector
 - `POWER_CENTRE.md`: round 52, pre-registered: 10:11 at the centre of John 1:1-20:31 in Sinaiticus and Vaticanus (passes)

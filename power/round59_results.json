@@ -1,0 +1,390 @@
+{
+ "A_added": [
+  {
+   "piece": "Tabernacle bars (Exod 26:26-29)",
+   "text": "5 bars per side; the middle bar runs end to end",
+   "calc": "the long walls are 20 boards x 1.5 = 30 cubits; the middle bar rings at 131-187 Hz (round 58)",
+   "role": "the frame's tie-rods / sound-posts"
+  },
+  {
+   "piece": "Entrance screen on 5 pillars; veil on 4 pillars (Exod 26:32-37)",
+   "text": "gold hooks; bronze and silver sockets",
+   "calc": "5 and 4 supports: the two thresholds, outer and inner",
+   "role": "the outer and inner baffles"
+  },
+  {
+   "piece": "The court's 60 pillars (Exod 27:9-19)",
+   "text": "hangings 100 cubits north and south (20 pillars each), 50 west (10), east 15 + 15 + a 20-cubit screen (3 + 3 + 4)",
+   "calc": "pillar spacing 5 cubits: f = 77.1 Hz; the court rings as a picket of 60 posts",
+   "role": "the outer picket"
+  },
+  {
+   "piece": "Laver of bronze mirrors (Exod 38:8)",
+   "text": "made from the mirrors of the women who served at the entrance",
+   "calc": "polished bronze plates: thin bronze is a cymbal or bell material",
+   "role": "the bright metal voice"
+  },
+  {
+   "piece": "Anointing oil (Exod 30:23-24)",
+   "text": "myrrh 500, cinnamon 250, calamus 250, cassia 500 shekels",
+   "calc": "500 : 250 = 2 : 1, an octave; the recipe is octave-and-unison ratios 2:1:1:2",
+   "role": "the tuning of the anointing (Reading)"
+  },
+  {
+   "piece": "Incense (Exod 30:34)",
+   "text": "stacte, onycha, galbanum and frankincense, 'equal part of each'",
+   "calc": "1:1:1:1, unison",
+   "role": "the unison of the breath (Reading)"
+  },
+  {
+   "piece": "Ephod and shoulder stones (Exod 28:9-10)",
+   "text": "two onyx stones, six names on each, in order of birth",
+   "calc": "6 + 6 = 12",
+   "role": "the 12 notes split into two hexachords"
+  },
+  {
+   "piece": "Breastpiece (Exod 28:15-21)",
+   "text": "a span square, doubled; 4 rows of 3 stones",
+   "calc": "12 stones; 4 x 3",
+   "role": "the 12-note display"
+  },
+  {
+   "piece": "Gold plate, 'Holy to the LORD' (Exod 28:36-38)",
+   "text": "on the front of the turban",
+   "calc": "-",
+   "role": "the name written on the instrument's player (cf. the War Scroll's inscribed trumpets)"
+  },
+  {
+   "piece": "Solomon's ten stands and lavers (1 Kgs 7:27-39)",
+   "text": "each stand 4 x 4 x 3 cubits on four 1.5-cubit wheels; laver 4 cubits, 40 baths",
+   "calc": "stand axes 96 / 128 Hz; ten bronze basins of 4 cubits: a set of ten bowls",
+   "role": "ten tuned bowls (cf. the magrepha's ten holes, round 47)"
+  },
+  {
+   "piece": "Solomon's doors (1 Kgs 6:31-34)",
+   "text": "inner sanctuary: olive wood, lintel and posts 'a fifth' (hamishit); nave: posts 'a fourth' (revi'it)",
+   "calc": "Hebrew 'fifth' and 'fourth' (five- and four-sided frames, or fractions of the wall); the musical fifth (3:2) and fourth (4:3) share the ordinal by coincidence of naming",
+   "role": "Reading: the inner door 'a fifth', the outer 'a fourth'"
+  },
+  {
+   "piece": "Solomon's windows (1 Kgs 6:4)",
+   "text": "windows with recessed frames",
+   "calc": "-",
+   "role": "the sound holes"
+  },
+  {
+   "piece": "Ezekiel's six gates (40:6-37)",
+   "text": "each 50 x 25 cubits, with three chambers on each side, each chamber one rod (6 long cubits) square",
+   "calc": "36 chambers of 6 long cubits: 55.0 Hz each (A1-1c); gates 50 x 25: 6.6 / 13.2 Hz",
+   "role": "36 resonant cells on one note"
+  },
+  {
+   "piece": "Ezekiel's 30 chambers on the pavement (40:17); the kitchens (46:21-24)",
+   "text": "30 chambers; four courts 40 x 30",
+   "calc": "40:30 = 4:3, a fourth",
+   "role": "the outer cells"
+  },
+  {
+   "piece": "The east gate shut (44:1-2)",
+   "text": "'This gate shall be shut, it shall not be opened ... for the LORD has entered by it'",
+   "calc": "a closed pipe sounds an octave below an open one of the same length",
+   "role": "the stopped pipe"
+  },
+  {
+   "piece": "Joshua's seven shofars (Josh 6)",
+   "text": "7 priests, 7 shofars, 7 days; 13 circuits; a long blast, then the great shout",
+   "calc": "round 40: the shout cannot topple walls (about 250 x short in pressure)",
+   "role": "the horn section"
+  },
+  {
+   "piece": "Gideon's trumpets and jars (Judg 7:16-20)",
+   "text": "300 men, trumpets, empty jars with torches inside; they blew and smashed the jars",
+   "calc": "smashing pottery = broadband impulses (round 40: a pop excites every room mode)",
+   "role": "the percussion of breaking"
+  },
+  {
+   "piece": "Miriam's drum (Exod 15:20)",
+   "text": "a tof (frame drum), with the women dancing",
+   "calc": "-",
+   "role": "the frame drum"
+  },
+  {
+   "piece": "David's 4,000 (1 Chr 23:5)",
+   "text": "'4,000 praising the LORD with the instruments I made for praise'",
+   "calc": "-",
+   "role": "the full ensemble"
+  },
+  {
+   "piece": "Herod's temple (Mishnah Middot 2:5; 4:6-7; Josephus, War 5.210)",
+   "text": "house 100 x 100 x 100 cubits; 15 semicircular steps where the Levites sang; a golden vine over the entrance",
+   "calc": "the 15 steps = the 15 Songs of Ascents (Ps 120-134)",
+   "role": "the stage of 15 steps; the vine (John 15:1, 'I am the true vine', the 7th saying, round 54)"
+  }
+ ],
+ "B_tunings": {
+  "Nicomachus": {
+   "Saturn": {
+    "vowel": "ω",
+    "Hz": 115.6,
+    "note": "A#2-13c"
+   },
+   "Jupiter": {
+    "vowel": "υ",
+    "Hz": 121.8,
+    "note": "B2-23c"
+   },
+   "Mars": {
+    "vowel": "ο",
+    "Hz": 137.1,
+    "note": "C#3-19c"
+   },
+   "Sun": {
+    "vowel": "ι",
+    "Hz": 154.2,
+    "note": "D#3-15c"
+   },
+   "Venus": {
+    "vowel": "η",
+    "Hz": 162.4,
+    "note": "E3-25c"
+   },
+   "Mercury": {
+    "vowel": "ε",
+    "Hz": 182.8,
+    "note": "F#3-21c"
+   },
+   "Moon": {
+    "vowel": "α",
+    "Hz": 205.6,
+    "note": "G#3-17c"
+   }
+  },
+  "Pliny": {
+   "Moon": {
+    "vowel": "α",
+    "Hz": 115.5,
+    "note": "A#2-15c"
+   },
+   "Mercury": {
+    "vowel": "ε",
+    "Hz": 122.4,
+    "note": "B2-15c"
+   },
+   "Venus": {
+    "vowel": "η",
+    "Hz": 129.7,
+    "note": "C3-15c"
+   },
+   "Sun": {
+    "vowel": "ι",
+    "Hz": 154.2,
+    "note": "D#3-15c"
+   },
+   "Mars": {
+    "vowel": "ο",
+    "Hz": 173.1,
+    "note": "F3-15c"
+   },
+   "Jupiter": {
+    "vowel": "υ",
+    "Hz": 183.4,
+    "note": "F#3-15c"
+   },
+   "Saturn": {
+    "vowel": "ω",
+    "Hz": 194.3,
+    "note": "G3-15c"
+   }
+  }
+ },
+ "B_recogniser_positive_control_steady_vowels": {
+  "115 Hz": "6/7",
+  "154 Hz": "5/7",
+  "205 Hz": "7/7"
+ },
+ "B_speaking": {
+  "ego_eimi": {
+   "Nicomachus": {
+    "vowels": 4,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Mercury",
+     "Mars",
+     "Sun",
+     "Sun"
+    ]
+   },
+   "Pliny": {
+    "vowels": 4,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Mercury",
+     "Mars",
+     "Sun",
+     "Sun"
+    ]
+   }
+  },
+  "john_1_1": {
+   "Nicomachus": {
+    "vowels": 23,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Mercury",
+     "Moon",
+     "Venus",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mars",
+     "Mercury",
+     "Mars",
+     "Mars",
+     "Mars",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mercury",
+     "Mars",
+     "Mercury",
+     "Mercury",
+     "Mars",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mars"
+    ]
+   },
+   "Pliny": {
+    "vowels": 23,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Mercury",
+     "Moon",
+     "Venus",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mars",
+     "Mercury",
+     "Mars",
+     "Mars",
+     "Mars",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mercury",
+     "Mars",
+     "Mercury",
+     "Mercury",
+     "Mars",
+     "Venus",
+     "Mars",
+     "Mars",
+     "Mars"
+    ]
+   }
+  },
+  "seven_vowels": {
+   "Nicomachus": {
+    "vowels": 7,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Mercury",
+     "Venus",
+     "Sun",
+     "Mars",
+     "Jupiter",
+     "Mars"
+    ]
+   },
+   "Pliny": {
+    "vowels": 7,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Mercury",
+     "Venus",
+     "Sun",
+     "Mars",
+     "Jupiter",
+     "Mars"
+    ]
+   }
+  },
+  "talitha_koum": {
+   "Nicomachus": {
+    "vowels": 4,
+    "recognised_with_tubes": 0.75,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Sun",
+     "Moon",
+     "Mars"
+    ]
+   },
+   "Pliny": {
+    "vowels": 4,
+    "recognised_with_tubes": 0.75,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Sun",
+     "Moon",
+     "Mars"
+    ]
+   }
+  },
+  "lazarus": {
+   "Nicomachus": {
+    "vowels": 7,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Moon",
+     "Mercury",
+     "Mercury",
+     "Mars",
+     "Mercury",
+     "Mars"
+    ]
+   },
+   "Pliny": {
+    "vowels": 7,
+    "recognised_with_tubes": 1.0,
+    "control_without_tubes": 0.0,
+    "melody": [
+     "Moon",
+     "Moon",
+     "Mercury",
+     "Mercury",
+     "Mars",
+     "Mercury",
+     "Mars"
+    ]
+   }
+  }
+ },
+ "renders": [
+  "power/audio/r59_ego_eimi_nicomachus.mp3",
+  "power/audio/r59_ego_eimi_pliny.mp3",
+  "power/audio/r59_john_1_1_pliny.mp3",
+  "power/audio/r59_seven_vowels_pliny.mp3",
+  "power/audio/r59_talitha_koum_pliny.mp3",
+  "power/audio/r59_lazarus_pliny.mp3"
+ ],
+ "B_summary": {
+  "mean_recognised_with_tubes": 0.978,
+  "mean_control": 0.0,
+  "chance": 0.143
+ }
+}

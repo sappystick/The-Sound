@@ -4,6 +4,7 @@ A research model that reads the Gospel of John, and the scriptures it points to,
 symbol. Every claim is tested against chance before it counts.
 
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- `POWER_PERFORMANCE.md`: round 55, pre-registered performance timing (fails); sacred dimensions as resonator ratios; non-lexical passage detector
 - `POWER_CENTRE.md`: round 52, pre-registered: 10:11 at the centre of John 1:1-20:31 in Sinaiticus and Vaticanus (passes)
 - `POWER_MEASURES.md`: round 51, performed time, breath groups, story time, the 20:31 ending, mapping-free tests, the band layers
 - `POWER_RERUN.md`: round 50, pre-registered reruns (R2 replicates in Revelation), Psalm 24 with Second Temple vowels, other units of measure, the seven-with-a-middle mold (Philo, Josephus, Revelation)

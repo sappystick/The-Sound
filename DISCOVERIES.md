@@ -507,3 +507,10 @@ Write-ups:
   - The full Gospel: p 0.005. The seven signs (control): p 0.95.
   - Against 7 random "I" verses (post hoc): p 0.031.
   - The pattern is centred and balanced, not a strict mirror (shape-only p 0.06–0.09).
+
+## AO. Round 55 (`POWER_PERFORMANCE.md`)
+- **Pre-registered performance tests failed** (string-ratio timing p 0.88; Amen cues at joints p 0.39). John is not a timed score.
+- **Sacred dimensions:** 71% consonant ratios, against 28% for random pairs. Secular objects reach 57%, so this is a design habit.
+  - Solomon's house (6:2:3), the tabernacle (3:1:1) and the Holy of Holies (1:1:1) resonate as single harmonic series.
+  - The table of showbread holds the octave, fifth and fourth.
+- **Repetition detector:** Isaiah 28:10 ranks 12th of 18,766 Hebrew verses; the most repetitive verse is the menorah's construction (Exod 37:21). John has no non-lexical passage.

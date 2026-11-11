@@ -1,0 +1,488 @@
+{
+ "preregistration": "robustness/PREREG_R55.md (commit 6b18240)",
+ "T1": {
+  "cut_positions": {
+   "1:16": 0.0137,
+   "13:33": 0.7002,
+   "18:1": 0.8465
+  },
+  "nearest_ratio": [
+   "1/9",
+   "2/3",
+   "8/9"
+  ],
+  "D": 0.0578,
+  "p": 0.8808,
+  "performed_minutes": 197.5,
+  "movement_minutes": [
+   2.7,
+   135.6,
+   28.9,
+   30.0
+  ]
+ },
+ "T2": {
+  "cue_verses": 24,
+  "at_joints": 4,
+  "share": 0.167,
+  "base_rate": 0.131,
+  "p": 0.3858,
+  "joints": 110
+ },
+ "holm": {
+  "T2": 0.7716,
+  "T1": 0.8808
+ },
+ "pass": [],
+ "E1_sacred_dimensions": {
+  "sacred": "30/42",
+  "sacred_share": 0.714,
+  "secular": "4/7",
+  "null_pool_rate": 0.279,
+  "p_sacred_vs_pool": 0.0,
+  "detail": {
+   "ark (Exod 25:10)": [
+    "5/3",
+    "5/3",
+    "1"
+   ],
+   "mercy seat (25:17)": [
+    "5/3"
+   ],
+   "table (25:23)": [
+    "2",
+    "4/3",
+    "3/2"
+   ],
+   "altar of burnt offering (27:1)": [
+    "1",
+    "5/3",
+    "5/3"
+   ],
+   "incense altar (30:2)": [
+    "1",
+    "2",
+    "2"
+   ],
+   "tabernacle court (27:18)": [
+    "2",
+    "20",
+    "10"
+   ],
+   "tabernacle board (26:16)": [
+    "20/3"
+   ],
+   "linen curtain (26:2)": [
+    "7"
+   ],
+   "goat-hair curtain (26:8)": [
+    "15/2"
+   ],
+   "Solomon's house (1 Kgs 6:2)": [
+    "3",
+    "2",
+    "3/2"
+   ],
+   "holy of holies (6:20)": [
+    "1",
+    "1",
+    "1"
+   ],
+   "porch (6:3)": [
+    "2"
+   ],
+   "cherub (6:23-24)": [
+    "2"
+   ],
+   "bronze sea (7:23)": [
+    "2",
+    "3",
+    "6"
+   ],
+   "pillar (7:15-16)": [
+    "3/2",
+    "18/5",
+    "12/5"
+   ],
+   "stand (7:27)": [
+    "1",
+    "4/3",
+    "4/3"
+   ],
+   "Solomon's altar (2 Chr 4:1)": [
+    "1",
+    "2",
+    "2"
+   ],
+   "Noah's ark (Gen 6:15)": [
+    "6",
+    "10",
+    "5/3"
+   ]
+  }
+ },
+ "E2_nonlexical": {
+  "hebrew_verses": 18766,
+  "isa_28_10_rank": 12,
+  "isa_28_13_rank": 230,
+  "hebrew_top15": [
+   [
+    "Exod.37.21",
+    0.566
+   ],
+   [
+    "Exod.25.35",
+    0.512
+   ],
+   [
+    "Ezek.48.16",
+    0.452
+   ],
+   [
+    "Jer.25.25",
+    0.432
+   ],
+   [
+    "1Chr.28.14",
+    0.41
+   ],
+   [
+    "Exod.38.31",
+    0.39
+   ],
+   [
+    "Josh.7.17",
+    0.376
+   ],
+   [
+    "Lev.14.47",
+    0.367
+   ],
+   [
+    "Zech.12.12",
+    0.36
+   ],
+   [
+    "Exod.26.27",
+    0.359
+   ],
+   [
+    "Gen.31.8",
+    0.357
+   ],
+   [
+    "Isa.28.10",
+    0.356
+   ],
+   [
+    "1Kgs.7.21",
+    0.339
+   ],
+   [
+    "Ps.94.3",
+    0.33
+   ],
+   [
+    "Ps.142.2",
+    0.33
+   ]
+  ],
+  "greek_nt_top15": [
+   [
+    "Re 21:13",
+    0.484
+   ],
+   [
+    "Mk 12:30",
+    0.454
+   ],
+   [
+    "Re 7:7",
+    0.445
+   ],
+   [
+    "Re 7:6",
+    0.445
+   ],
+   [
+    "1Co 10:23",
+    0.432
+   ],
+   [
+    "Re 7:8",
+    0.417
+   ],
+   [
+    "Mt 1:9",
+    0.41
+   ],
+   [
+    "Mt 1:8",
+    0.41
+   ],
+   [
+    "Mt 1:7",
+    0.41
+   ],
+   [
+    "Mt 1:4",
+    0.41
+   ],
+   [
+    "Mt 1:15",
+    0.41
+   ],
+   [
+    "Mt 1:14",
+    0.41
+   ],
+   [
+    "Mt 1:13",
+    0.41
+   ],
+   [
+    "1Co 7:30",
+    0.395
+   ],
+   [
+    "Re 18:22",
+    0.39
+   ]
+  ],
+  "john_top5": [
+   [
+    "Jn 3:31",
+    0.38
+   ],
+   [
+    "Jn 13:32",
+    0.331
+   ],
+   [
+    "Jn 18:36",
+    0.325
+   ],
+   [
+    "Jn 1:1",
+    0.3
+   ],
+   [
+    "Jn 8:23",
+    0.292
+   ]
+  ]
+ },
+ "E3_rooms_as_harmonic_series": {
+  "Solomon's house 60x20x30 @ 0.445 m": {
+   "axial_fundamentals_Hz": [
+    6.42,
+    19.27,
+    12.85
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    3.0,
+    2.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 6.42,
+   "harmonics_in_85_180Hz": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ]
+  },
+  "Holy Place 40x20x30 @ 0.445 m": {
+   "axial_fundamentals_Hz": [
+    9.63,
+    19.27,
+    12.85
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    2.0,
+    1.333
+   ],
+   "all_harmonic": false,
+   "base_Hz": 9.63,
+   "harmonics_in_85_180Hz": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "Tabernacle 30x10x10 @ 0.445 m": {
+   "axial_fundamentals_Hz": [
+    12.85,
+    38.54,
+    38.54
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 12.85,
+   "harmonics_in_85_180Hz": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "Holy of Holies 20x20x20 @ 0.445 m": {
+   "axial_fundamentals_Hz": [
+    19.27,
+    19.27,
+    19.27
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 19.27,
+   "harmonics_in_85_180Hz": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  "Solomon's house 60x20x30 @ 0.525 m": {
+   "axial_fundamentals_Hz": [
+    5.44,
+    16.33,
+    10.89
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    3.0,
+    2.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 5.44,
+   "harmonics_in_85_180Hz": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  "Holy Place 40x20x30 @ 0.525 m": {
+   "axial_fundamentals_Hz": [
+    8.17,
+    16.33,
+    10.89
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    2.0,
+    1.333
+   ],
+   "all_harmonic": false,
+   "base_Hz": 8.17,
+   "harmonics_in_85_180Hz": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  "Tabernacle 30x10x10 @ 0.525 m": {
+   "axial_fundamentals_Hz": [
+    10.89,
+    32.67,
+    32.67
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    3.0,
+    3.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 10.89,
+   "harmonics_in_85_180Hz": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ]
+  },
+  "Holy of Holies 20x20x20 @ 0.525 m": {
+   "axial_fundamentals_Hz": [
+    16.33,
+    16.33,
+    16.33
+   ],
+   "as_harmonics_of_longest": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "all_harmonic": true,
+   "base_Hz": 16.33,
+   "harmonics_in_85_180Hz": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  }
+ }
+}

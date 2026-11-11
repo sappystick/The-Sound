@@ -537,3 +537,7 @@ Write-ups:
   - Only the King's Chamber = 20 × 10 royal cubits (tabernacle Holy Place; Solomon's porch) survives correction (local p 0.001).
   - The base against 500 × 500 (Ezekiel; Herod's Temple Mount) and the queens' pyramids against 100 × 100 need a foreign 18-inch cubit and do not survive correction.
   - The rest are functional parallels only.
+- **Round 62 (`POWER_CODE.md`):** no elemental, mathematical-constant, electrical or magnetic code beyond chance.
+  - **π in the bronze sea:** fails as written (with the conjunction it gives 3.134), and the same ratio recurs in non-circle *ketiv/qere* pairs.
+  - **The ark as capacitor:** 2–9 nF, a few joules at most.
+  - **What is real:** the sanctuary is non-ferrous and iron is excluded (1 Kgs 6:7); a cube / square / double-square geometry; and the 4 × 3 twelve of the camp and the breastpiece.

@@ -514,3 +514,9 @@ Write-ups:
   - Solomon's house (6:2:3), the tabernacle (3:1:1) and the Holy of Holies (1:1:1) resonate as single harmonic series.
   - The table of showbread holds the octave, fifth and fourth.
 - **Repetition detector:** Isaiah 28:10 ranks 12th of 18,766 Hebrew verses; the most repetitive verse is the menorah's construction (Exod 37:21). John has no non-lexical passage.
+
+## AP. Round 56 (`POWER_TABERNACLE.md`): thought experiment, the tabernacle as one instrument
+- **Calc:** the ark's length (2.5 cubits, 154.2 Hz) is exactly 2 octaves above the tabernacle's Holy of Holies and 3 above Solomon's.
+- **Calc:** the court, the Holy Place, the Holy of Holies and the ark are harmonics 1, 5, 10 and 40 of 3.85 Hz.
+- **Sources:** Josephus, *Ant.* 3.291 (silver trumpets under a cubit, with a bell); Bavli Zevachim 88b (72 bells).
+- **Mapping (speculative):** a nested resonator tuned to the ark's note, with the voice output "from between the cherubim".

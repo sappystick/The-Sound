@@ -134,5 +134,55 @@
   ],
   "train_pages": 103,
   "test_pages": 103
+ },
+ "replicates": {
+  "B3t short-rng tuned": {
+   "distance_mean": 2.53,
+   "distance_sd": 0.35,
+   "distances": [
+    3.12,
+    2.32,
+    2.96,
+    2.45,
+    2.63,
+    2.12,
+    2.56,
+    2.07
+   ],
+   "measure_means": {
+    "name_rate": 0.3508,
+    "repetition": 0.0093,
+    "repetition_ratio": 2.9037,
+    "near_repeat_ratio": 2.0675,
+    "line_MI": 0.2721,
+    "page_specific": 0.2124,
+    "words_per_line": 8.29,
+    "section_signal": 0.3606
+   }
+  },
+  "B4 word grammar": {
+   "distance_mean": 2.59,
+   "distance_sd": 0.41,
+   "distances": [
+    2.52,
+    2.53,
+    1.78,
+    2.96,
+    3.17,
+    2.94,
+    2.43,
+    2.43
+   ],
+   "measure_means": {
+    "name_rate": 0.3345,
+    "repetition": 0.0077,
+    "repetition_ratio": 3.1362,
+    "near_repeat_ratio": 2.21,
+    "line_MI": 0.2018,
+    "page_specific": 0.2814,
+    "words_per_line": 8.29,
+    "section_signal": 0.2999
+   }
+  }
  }
 }

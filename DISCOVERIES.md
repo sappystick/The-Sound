@@ -716,3 +716,10 @@ Write-ups:
 - **Copying needed:** only about 0.5% copies and 0.7% one-glyph changes per word.
 - **Still missed:** too many repeated page words (name rate 0.37 against 0.19), too strong a line-position signal, and too few one-off forms. The real text seems to coin new word forms on each page.
 - **Reading:** a simple mechanical process explains most of the measured structure. That does not exclude a suffixing natural language.
+
+## BH. Round 81 (`mysteries/ROUND81.md`): a word-grammar generator on held-out Voynich pages
+
+- **The grammar:** a prefix + root + suffix slot grammar learned from the even pages. It recovers the familiar Voynich affixes (qo-, ch-, ok-, ot- … -y, -dy, -iin, -edy, -ain) without being told them.
+- **What it fixed:** one-off word forms per page now match exactly (0.281). The line-position signal is closer.
+- **Overall fit:** over 8 seeded runs it ties with round 80's short-range generator (2.59 ± 0.41 against 2.53 ± 0.35). The shared affixes weaken the section signal.
+- **Still unmatched by any generator:** real pages almost never reuse a rare word (0.19 against 0.33).

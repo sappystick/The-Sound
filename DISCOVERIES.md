@@ -681,3 +681,15 @@ Write-ups:
 - **Immediate repetition:** 10–80× real Latin.
 - **Pharmaceutical labels:** only 7.8% appear in their own page's text, below the length-matched chance of 15.8% (p < 0.005). Real headings recur in their entries 41–95% of the time.
 - **Constraints any decipherment must reproduce:** a 17% name rate, labels below chance, and 0.83% repetition.
+
+## BE. Round 78 (`mysteries/ROUND78.md`): Voynich cipher test, repeated words, orphan labels
+
+- **No classic cipher on a real Latin herbal reproduces the Voynich profile** (no names + repetition 2–2.6× the frequency expectation + 7-word lines). Viable classes: a verbose cipher inside line units, or a slot generator.
+- **Repeated words:**
+  - 283, 2.6× the frequency expectation, almost never across line breaks;
+  - no spacing or length code (p = 0.18, 0.23);
+  - near-repeats 1.85× chance, so words are built by modifying the previous one.
+- **Labels:**
+  - 42% appear nowhere in the text; they are a distinct o-/ot-/ok- vocabulary;
+  - there are no section cross-references.
+- **The f57v ring** is a 17-glyph key repeated 4× (90% agreement at period 17), and **f49v** has line-index letters.

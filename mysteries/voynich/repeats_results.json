@@ -1,0 +1,466 @@
+{
+ "R1": {
+  "tokens": 33641,
+  "repeats": 283,
+  "rate": 0.0084,
+  "expected_from_word_frequencies": 0.0033,
+  "ratio": 2.58,
+  "within_line": 275,
+  "across_line_break": 8,
+  "most_repeated": [
+   [
+    "daiin",
+    20
+   ],
+   [
+    "chol",
+    19
+   ],
+   [
+    "qokeedy",
+    19
+   ],
+   [
+    "qokeey",
+    12
+   ],
+   [
+    "qokedy",
+    11
+   ],
+   [
+    "chedy",
+    10
+   ],
+   [
+    "ol",
+    9
+   ],
+   [
+    "shedy",
+    8
+   ],
+   [
+    "ar",
+    8
+   ],
+   [
+    "chor",
+    6
+   ],
+   [
+    "okaiin",
+    6
+   ],
+   [
+    "shol",
+    5
+   ],
+   [
+    "dar",
+    5
+   ],
+   [
+    "qol",
+    5
+   ],
+   [
+    "qotedy",
+    4
+   ]
+  ],
+  "by_section": {
+   "herbal": {
+    "rate": 0.0082,
+    "expected": 0.0041,
+    "ratio": 1.99
+   },
+   "astronomical": {
+    "rate": 0.0038,
+    "expected": 0.0058,
+    "ratio": 0.66
+   },
+   "biological": {
+    "rate": 0.0112,
+    "expected": 0.0086,
+    "ratio": 1.29
+   },
+   "cosmological": {
+    "rate": 0.0093,
+    "expected": 0.0058,
+    "ratio": 1.61
+   },
+   "pharmaceutical": {
+    "rate": 0.009,
+    "expected": 0.0058,
+    "ratio": 1.55
+   },
+   "stars/recipes": {
+    "rate": 0.0073,
+    "expected": 0.0034,
+    "ratio": 2.14
+   },
+   "text only": {
+    "rate": 0.0072,
+    "expected": 0.0042,
+    "ratio": 1.71
+   }
+  },
+  "mean_length_repeated": 4.82,
+  "mean_length_all": 5.18,
+  "share_of_repeats_that_are_top20_words": 0.516
+ },
+ "R2": {
+  "gap_cv": 1.041,
+  "gap_cv_random_positions": 0.99,
+  "p_gaps_more_clustered": 0.176,
+  "lengths_sequence_first_40": [
+   5,
+   4,
+   4,
+   5,
+   4,
+   4,
+   6,
+   3,
+   5,
+   4,
+   3,
+   5,
+   4,
+   4,
+   4,
+   2,
+   4,
+   2,
+   4,
+   4,
+   4,
+   6,
+   4,
+   3,
+   6,
+   4,
+   5,
+   4,
+   5,
+   2,
+   3,
+   5,
+   5,
+   4,
+   6,
+   3,
+   3,
+   6,
+   5,
+   4
+  ],
+  "lag1_autocorrelation": 0.186,
+  "p_autocorr": 0.0022,
+  "strongest_periodicity_peak": 6.28,
+  "p_periodicity": 0.2265,
+  "near_repeats_one_letter_apart": 456,
+  "near_repeats_if_words_shuffled": 247.2
+ },
+ "R3": {
+  "second_copy_position": {
+   "middle": 251,
+   "last": 24
+  },
+  "all_words_position": {
+   "first": 0.122,
+   "middle": 0.756,
+   "last": 0.122
+  },
+  "second_copy_share": {
+   "middle": 0.913,
+   "last": 0.087
+  }
+ },
+ "L": {
+  "labels": 1017,
+  "not_in_own_page": 952,
+  "in_text_nowhere": 423,
+  "nowhere_by_section": {
+   "herbal": 9,
+   "cosmological": 19,
+   "text only": 21,
+   "astronomical": 69,
+   "zodiac": 144,
+   "biological": 37,
+   "pharmaceutical": 124
+  },
+  "cross_reference_targets": {
+   "astronomical": {
+    "herbal": {
+     "observed": 0.443,
+     "text_share": 0.317,
+     "ratio": 1.4
+    },
+    "stars/recipes": {
+     "observed": 0.236,
+     "text_share": 0.339,
+     "ratio": 0.7
+    },
+    "pharmaceutical": {
+     "observed": 0.126,
+     "text_share": 0.066,
+     "ratio": 1.9
+    },
+    "biological": {
+     "observed": 0.103,
+     "text_share": 0.184,
+     "ratio": 0.56
+    },
+    "text only": {
+     "observed": 0.062,
+     "text_share": 0.066,
+     "ratio": 0.93
+    }
+   },
+   "biological": {
+    "herbal": {
+     "observed": 0.308,
+     "text_share": 0.317,
+     "ratio": 0.97
+    },
+    "biological": {
+     "observed": 0.19,
+     "text_share": 0.184,
+     "ratio": 1.03
+    },
+    "pharmaceutical": {
+     "observed": 0.052,
+     "text_share": 0.066,
+     "ratio": 0.78
+    },
+    "cosmological": {
+     "observed": 0.049,
+     "text_share": 0.019,
+     "ratio": 2.54
+    },
+    "stars/recipes": {
+     "observed": 0.329,
+     "text_share": 0.339,
+     "ratio": 0.97
+    },
+    "text only": {
+     "observed": 0.06,
+     "text_share": 0.066,
+     "ratio": 0.9
+    }
+   },
+   "cosmological": {
+    "biological": {
+     "observed": 0.118,
+     "text_share": 0.184,
+     "ratio": 0.65
+    },
+    "pharmaceutical": {
+     "observed": 0.064,
+     "text_share": 0.066,
+     "ratio": 0.96
+    },
+    "herbal": {
+     "observed": 0.444,
+     "text_share": 0.317,
+     "ratio": 1.4
+    },
+    "text only": {
+     "observed": 0.059,
+     "text_share": 0.066,
+     "ratio": 0.89
+    },
+    "stars/recipes": {
+     "observed": 0.291,
+     "text_share": 0.339,
+     "ratio": 0.86
+    }
+   },
+   "herbal": {
+    "herbal": {
+     "observed": 0.425,
+     "text_share": 0.317,
+     "ratio": 1.34
+    },
+    "stars/recipes": {
+     "observed": 0.401,
+     "text_share": 0.339,
+     "ratio": 1.18
+    },
+    "pharmaceutical": {
+     "observed": 0.053,
+     "text_share": 0.066,
+     "ratio": 0.79
+    },
+    "biological": {
+     "observed": 0.07,
+     "text_share": 0.184,
+     "ratio": 0.38
+    }
+   },
+   "pharmaceutical": {
+    "herbal": {
+     "observed": 0.377,
+     "text_share": 0.317,
+     "ratio": 1.19
+    },
+    "stars/recipes": {
+     "observed": 0.279,
+     "text_share": 0.339,
+     "ratio": 0.82
+    },
+    "biological": {
+     "observed": 0.137,
+     "text_share": 0.184,
+     "ratio": 0.75
+    },
+    "text only": {
+     "observed": 0.082,
+     "text_share": 0.066,
+     "ratio": 1.23
+    },
+    "pharmaceutical": {
+     "observed": 0.09,
+     "text_share": 0.066,
+     "ratio": 1.36
+    }
+   },
+   "text only": {
+    "biological": {
+     "observed": 0.112,
+     "text_share": 0.184,
+     "ratio": 0.61
+    },
+    "stars/recipes": {
+     "observed": 0.291,
+     "text_share": 0.339,
+     "ratio": 0.86
+    },
+    "herbal": {
+     "observed": 0.491,
+     "text_share": 0.317,
+     "ratio": 1.55
+    },
+    "pharmaceutical": {
+     "observed": 0.061,
+     "text_share": 0.066,
+     "ratio": 0.92
+    }
+   },
+   "zodiac": {
+    "herbal": {
+     "observed": 0.346,
+     "text_share": 0.317,
+     "ratio": 1.09
+    },
+    "text only": {
+     "observed": 0.068,
+     "text_share": 0.066,
+     "ratio": 1.02
+    },
+    "biological": {
+     "observed": 0.098,
+     "text_share": 0.184,
+     "ratio": 0.53
+    },
+    "stars/recipes": {
+     "observed": 0.357,
+     "text_share": 0.339,
+     "ratio": 1.05
+    },
+    "pharmaceutical": {
+     "observed": 0.086,
+     "text_share": 0.066,
+     "ratio": 1.3
+    },
+    "cosmological": {
+     "observed": 0.031,
+     "text_share": 0.019,
+     "ratio": 1.6
+    }
+   }
+  },
+  "nowhere_initial_letters": [
+   [
+    "o",
+    218
+   ],
+   [
+    "d",
+    45
+   ],
+   [
+    "y",
+    37
+   ],
+   [
+    "s",
+    30
+   ],
+   [
+    "c",
+    27
+   ],
+   [
+    "a",
+    13
+   ]
+  ],
+  "text_initial_letters": [
+   [
+    "o",
+    0.207
+   ],
+   [
+    "c",
+    0.187
+   ],
+   [
+    "q",
+    0.157
+   ],
+   [
+    "s",
+    0.122
+   ],
+   [
+    "d",
+    0.095
+   ],
+   [
+    "a",
+    0.049
+   ]
+  ],
+  "nowhere_examples": [
+   "f41v:keerodal",
+   "f49v:f",
+   "f49v:e",
+   "f49v:k",
+   "f49v:p",
+   "f49v:e",
+   "f49v:p",
+   "f49v:e",
+   "f49v:k",
+   "f57v:otodarod",
+   "f57v:oparairdly",
+   "f57v:olkchdal",
+   "f57v:otardaly",
+   "f66r:rals",
+   "f66r:dara",
+   "f66r:ykcol",
+   "f66r:syly",
+   "f66r:salf",
+   "f66r:fary",
+   "f66r:qotesy",
+   "f66r:daoly",
+   "f66r:qolsa",
+   "f66r:f",
+   "f66r:x",
+   "f66r:f"
+  ],
+  "nowhere_mean_length": 6.45
+ }
+}

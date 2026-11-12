@@ -1,0 +1,74 @@
+{
+ "T0 plaintext": {
+  "name_rate": 0.421,
+  "repetition": 0.0,
+  "repetition_vs_frequency_expectation": 0.05,
+  "line_MI": 0.3353,
+  "page_specific": 0.364,
+  "words_per_line": 6.1,
+  "distance_to_voynich": 3.04
+ },
+ "T1 letter substitution": {
+  "name_rate": 0.421,
+  "repetition": 0.0,
+  "repetition_vs_frequency_expectation": 0.05,
+  "line_MI": 0.3366,
+  "page_specific": 0.364,
+  "words_per_line": 6.1,
+  "distance_to_voynich": 3.04
+ },
+ "T2 homophonic word code x3": {
+  "name_rate": 0.403,
+  "repetition": 0.0,
+  "repetition_vs_frequency_expectation": 0.07,
+  "line_MI": 0.2698,
+  "page_specific": 0.52,
+  "words_per_line": 6.1,
+  "distance_to_voynich": 2.71
+ },
+ "T3 homophonic word code x6": {
+  "name_rate": 0.391,
+  "repetition": 0.0,
+  "repetition_vs_frequency_expectation": 0.0,
+  "line_MI": 0.2223,
+  "page_specific": 0.638,
+  "words_per_line": 6.1,
+  "distance_to_voynich": 2.57
+ },
+ "T4 verbose syllable cipher": {
+  "name_rate": 0.039,
+  "repetition": 0.0034,
+  "repetition_vs_frequency_expectation": 0.4,
+  "line_MI": 0.1421,
+  "page_specific": 0.01,
+  "words_per_line": 19.01,
+  "distance_to_voynich": 4.31
+ },
+ "T5 nulls (12%)": {
+  "name_rate": 0.395,
+  "repetition": 0.0,
+  "repetition_vs_frequency_expectation": 0.01,
+  "line_MI": 0.2898,
+  "page_specific": 0.337,
+  "words_per_line": 6.75,
+  "distance_to_voynich": 2.76
+ },
+ "T6 generator (resample each chapter)": {
+  "name_rate": 0.896,
+  "repetition": 0.0104,
+  "repetition_vs_frequency_expectation": 2.79,
+  "line_MI": 0.0104,
+  "page_specific": 0.415,
+  "words_per_line": 6.1,
+  "distance_to_voynich": 4.32
+ },
+ "VOYNICH herbal (target)": {
+  "name_rate": 0.11,
+  "repetition": 0.0084,
+  "repetition_vs_frequency_expectation": 2.01,
+  "line_MI": 0.182,
+  "page_specific": 0.343,
+  "words_per_line": 6.73,
+  "distance_to_voynich": 0.0
+ }
+}

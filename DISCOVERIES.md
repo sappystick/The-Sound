@@ -673,3 +673,11 @@ Write-ups:
   - The inexact number in each planet is always the remainder by subtraction from the synodic period (a working method, not a hidden message).
   - No real Mars cycle gives 349/349 (0 of 328). The closest are aphelic cycles with retrograde in Leo, recurring every 79 years, so there is no unique epoch.
   - The 8-day pause cannot be one observing threshold (3.1, 0.77 and 0.41′/day), so it is a convention.
+
+## BD. Round 77 (`mysteries/ROUND77.md`): Voynich against a prose herbal, a recipe book, and its own labels
+
+- **Name keyword per entry:** Voynich 17%; *Circa instans* 85%, Macer 42–58% (length-matched); Apicius recipes 28%.
+- **Line units:** Voynich 0.19, against prose wraps 0.05–0.06.
+- **Immediate repetition:** 10–80× real Latin.
+- **Pharmaceutical labels:** only 7.8% appear in their own page's text, below the length-matched chance of 15.8% (p < 0.005). Real headings recur in their entries 41–95% of the time.
+- **Constraints any decipherment must reproduce:** a 17% name rate, labels below chance, and 0.83% repetition.

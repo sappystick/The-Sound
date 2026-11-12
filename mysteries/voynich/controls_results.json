@@ -1,0 +1,120 @@
+{
+ "circa_instans_prose_herbal": {
+  "entries": 46,
+  "words": 52691,
+  "M1_words_per_entry_median": 727.5,
+  "M1_cv": 0.98,
+  "M1_words_per_line": 7.68,
+  "M2_types_in_one_entry_only": 0.784,
+  "M2_median_dispersion_D": 0.658,
+  "M2_share_of_tokens_entry_specific": 0.319,
+  "M3_entries_with_own_keyword": 0.717,
+  "M3_keyword_in_first_line": 0.022,
+  "M3_examples": [
+   "aloes",
+   "aloes",
+   "apium",
+   "agarici",
+   "amoniacum",
+   "anisi",
+   "absinthium",
+   "anacardi"
+  ],
+  "M4_line_position_excess_MI": 0.0467,
+  "M5_immediate_repetition_rate": 0.0015
+ },
+ "circa_first_79_words": {
+  "entries": 46,
+  "words": 3632,
+  "M1_words_per_entry_median": 79.0,
+  "M1_cv": 0.0,
+  "M1_words_per_line": 7.46,
+  "M2_types_in_one_entry_only": 0.819,
+  "M2_median_dispersion_D": 0.744,
+  "M2_share_of_tokens_entry_specific": 0.565,
+  "M3_entries_with_own_keyword": 0.848,
+  "M3_keyword_in_first_line": 0.065,
+  "M3_examples": [
+   "aloes",
+   "dicunt",
+   "agnuscastus",
+   "aurem",
+   "acorus",
+   "masticis",
+   "ponticum",
+   "anacardi"
+  ],
+  "M4_line_position_excess_MI": 0.0619,
+  "M5_immediate_repetition_rate": 0.0008
+ },
+ "apicius_recipes": {
+  "entries": 140,
+  "words": 6209,
+  "M1_words_per_entry_median": 38.0,
+  "M1_cv": 0.61,
+  "M1_words_per_line": 30.92,
+  "M2_types_in_one_entry_only": 0.599,
+  "M2_median_dispersion_D": 0.714,
+  "M2_share_of_tokens_entry_specific": 0.257,
+  "M3_entries_with_own_keyword": 0.275,
+  "M3_keyword_in_first_line": 0.939,
+  "M3_examples": [
+   "ac",
+   "aut",
+   "rosam",
+   "in",
+   "uolueris",
+   "nucleos",
+   "et",
+   "uuas"
+  ],
+  "M4_line_position_excess_MI": 0.4398,
+  "M5_immediate_repetition_rate": 0.0002
+ },
+ "voynich_herbal": {
+  "entries": 128,
+  "words": 10679,
+  "M1_words_per_entry_median": 79.0,
+  "M1_cv": 0.3,
+  "M1_words_per_line": 6.77,
+  "M2_types_in_one_entry_only": 0.737,
+  "M2_median_dispersion_D": 0.726,
+  "M2_share_of_tokens_entry_specific": 0.329,
+  "M3_entries_with_own_keyword": 0.173,
+  "M3_keyword_in_first_line": 0.11,
+  "M3_examples": [
+   "dol",
+   "dan",
+   "dor",
+   "cham",
+   "chom",
+   "chaiin",
+   "shokchy",
+   "qoaiin"
+  ],
+  "M4_line_position_excess_MI": 0.1925,
+  "M5_immediate_repetition_rate": 0.0083
+ },
+ "entries": {
+  "circa": 46,
+  "apicius": 140,
+  "voynich_herbal": 128,
+  "note": "Circa instans has about 270 chapters; the OCR splitter finds fewer, so some entries merge 2-3 simples (this LOWERS the own-keyword share: a conservative control). Apicius recipes are single paragraphs, so its line measures (M1 words per line, M4) do not apply."
+ },
+ "labels_and_headings": {
+  "voynich_pharmaceutical_labels": {
+   "labels": 244,
+   "distinct": 224,
+   "in_own_page_text": 0.078,
+   "in_any_text_of_the_manuscript": 0.492,
+   "label_used_once": 0.929,
+   "chance_random_text_word_in_page_text": 0.186,
+   "chance_length_matched": 0.158,
+   "p_labels_as_rare_or_rarer_than_length_matched_chance": 0.0,
+   "mean_label_length_letters": 5.72,
+   "mean_text_word_length": 5.18
+  },
+  "macer_title_named_in_own_chapter": 0.948,
+  "circa_entry_name_repeated_in_own_entry": 0.413
+ }
+}

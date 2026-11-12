@@ -1,0 +1,47 @@
+{
+ "note": "synthetic voices from the repo's formant engine (tract scale, pitch, speaking mode); not real human recordings",
+ "per_speaker": {
+  "large man 95 Hz": {
+   "error": "tuning failed: heard 38 syllables, expected 33 (speak the tuning verse, with clear pauses)"
+  },
+  "man 120 Hz": {
+   "error": "tuning failed: heard 36 syllables, expected 33 (speak the tuning verse, with clear pauses)"
+  },
+  "woman 210 Hz": {
+   "error": "tuning failed: heard 34 syllables, expected 33 (speak the tuning verse, with clear pauses)"
+  },
+  "child 300 Hz": {
+   "programs exact, clean": "0/5",
+   "programs exact, 25 dB": "0/5",
+   "programs exact, 15 dB": "0/5",
+   "random words exact (40, clean)": "1/40"
+  },
+  "man, fast 130 Hz": {
+   "error": "tuning failed: heard 57 syllables, expected 33 (speak the tuning verse, with clear pauses)"
+  }
+ },
+ "totals_clean": {
+  "programs": "0/5",
+  "random_words": "1/40"
+ },
+ "top_confusions": {
+  "vowels": {
+   "w->o": 5,
+   "a->k": 1,
+   "y->k": 1,
+   "a->r": 1,
+   "e->k": 1,
+   "w->r": 1
+  },
+  "consonants": {
+   "t->k": 7,
+   "g->k": 6,
+   "k->g": 5,
+   "b->k": 5,
+   "s->k": 4,
+   "r->k": 4,
+   "n->k": 3,
+   "d->k": 3
+  }
+ }
+}

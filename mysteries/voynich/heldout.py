@@ -241,7 +241,6 @@ for g in (0.0, 0.1, 0.2, 0.35, 0.5, 0.7):
         d = float(np.sum(((cheap4([dict(page=p["page"], sec=p["sec"], lines=gen_B4(p)) for p in train]) - TR4) / TS4) ** 2))
         if best4 is None or d < best4[0]: best4 = (d, g, soft)
 B4P[:] = [best4[1], best4[2]]
-_s0 = [w for w in V if split(w)[1] == ""]
 res = {"REAL odd pages": score(test)}
 for name, g in (("B0 baseline", gen_B0), ("B1 self-citation", gen_B1), ("B1t self-cit. tuned", gen_B1t), ("B2 verbose cipher", gen_B2), ("B3 short-range", gen_B3f), ("B3t short-rng tuned", gen_B3t), ("B4 word grammar", gen_B4)):
     res[name] = score([dict(page=p["page"], sec=p["sec"], lines=g(p)) for p in test])
@@ -254,3 +253,19 @@ print(f"{'':20s}" + "".join(f"{c[:11]:>12s}" for c in cols))
 for k, r in res.items():
     if k != "fitted": print(f"{k:20s}" + "".join(f"{r[c]:12.4f}" if isinstance(r[c], float) else f"{r[c]:>12}" for c in cols))
 print("fitted:", res["fitted"])
+
+# Replicates (round 81): one generated text per model is noisy, so the two best models are re-generated with
+# REPS different seeds and their distances compared as mean and spread.
+REPS = int(os.environ.get("REPS", "0"))
+if REPS:
+    rep = {}
+    for name, g in (("B3t short-rng tuned", gen_B3t), ("B4 word grammar", gen_B4)):
+        ds = []; per = collections.defaultdict(list)
+        for k in range(REPS):
+            R.seed(1000 + k); r = score([dict(page=p["page"], sec=p["sec"], lines=g(p)) for p in test])
+            ds.append(math.sqrt(sum(((r[m] - real[m]) / s_) ** 2 for m, s_ in SCALE.items())))
+            for m in SCALE: per[m].append(r[m])
+        rep[name] = dict(distance_mean=round(float(np.mean(ds)), 2), distance_sd=round(float(np.std(ds)), 2), distances=[round(x, 2) for x in ds],
+                         measure_means={m: round(float(np.mean(v)), 4) for m, v in per.items()})
+        print(f"{name:20s} distance {np.mean(ds):.2f} ± {np.std(ds):.2f}  ", rep[name]["measure_means"])
+    res["replicates"] = rep; json.dump(res, open(os.path.join(HERE, "heldout_results.json"), "w"), indent=1)

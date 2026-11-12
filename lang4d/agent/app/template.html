@@ -1,0 +1,205 @@
+<title>Approve What Runs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@500&display=swap">
+<style>
+/* Layout: two desks facing each other. The agent's proposal on the left, the person's approval on the right, the executor's log below. */
+:root{
+  --bg:#f3f4f2; --panel:#ffffff; --ink:#1c2126; --muted:#5b636b; --line:#d8dcdf; --accent:#2f5d8a; --ok:#25703f; --okbg:#e6f2ea; --bad:#a3322a; --badbg:#f8e6e3; --warn:#8a5a00; --warnbg:#fbf0d9; --code:#eef0f1;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace; --display:"IBM Plex Serif", Georgia, serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121518;--panel:#1a1f24;--ink:#e3e7ea;--muted:#9aa3ab;--line:#2c333a;--accent:#8db7e3;--ok:#7fd29a;--okbg:#17301f;--bad:#f0918a;--badbg:#3a1d1a;--warn:#f0c46b;--warnbg:#33290f;--code:#20262c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121518;--panel:#1a1f24;--ink:#e3e7ea;--muted:#9aa3ab;--line:#2c333a;--accent:#8db7e3;--ok:#7fd29a;--okbg:#17301f;--bad:#f0918a;--badbg:#3a1d1a;--warn:#f0c46b;--warnbg:#33290f;--code:#20262c;color-scheme:dark}
+*{box-sizing:border-box} [hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14.5px;line-height:1.55;margin:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 56px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(28px,4.5vw,40px);margin:0;line-height:1.1}
+.lede{color:var(--muted);max-width:70ch;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:18px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:600}
+label{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+select,textarea,input{font:inherit;color:var(--ink);background:var(--code);border:1px solid var(--line);border-radius:4px;padding:8px 10px;width:100%;min-width:0}
+textarea{font-family:var(--mono);font-size:13.5px;min-height:64px;resize:vertical}
+.btn{font:inherit;font-weight:600;font-size:13.5px;border-radius:4px;padding:8px 14px;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.btn.danger{border-color:var(--bad);color:var(--bad)}
+button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sentence{font-family:var(--display);font-size:clamp(22px,3vw,30px);line-height:1.25;margin:0;text-wrap:balance}
+.words{display:flex;gap:8px;flex-wrap:wrap}
+.word{font-family:var(--mono);font-size:20px;padding:6px 14px;border-radius:4px;background:var(--code);border:1px solid var(--line)}
+.state{border-radius:5px;padding:10px 12px;font-size:14px}
+.state.ok{background:var(--okbg);color:var(--ok)} .state.bad{background:var(--badbg);color:var(--bad)} .state.warn{background:var(--warnbg);color:var(--warn)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.mono{font-family:var(--mono);font-size:12.5px;word-break:break-word}
+.muted{color:var(--muted)}
+.log{display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+.log div{padding:8px 10px;border-radius:4px;border-left:3px solid var(--line);background:var(--code)}
+.log .ok{border-color:var(--ok)} .log .bad{border-color:var(--bad)}
+.scroll{overflow-x:auto}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Approve what runs</h1>
+    <p class="lede">An AI agent proposes an action as a KANON verse. You hear and read a sentence generated from the verse itself, not from anything the agent wrote. You approve with three words, and only that exact verse can run. Each tool name is a KANON syllable whose English word is the verb: <span class="mono">:py</span> pay, <span class="mono">:te</span> tell, <span class="mono">:mi</span> meet, <span class="mono">:ma</span> map, <span class="mono">:hi</span> heat, <span class="mono">:le</span> let, <span class="mono">:no</span> no.</p>
+  </header>
+
+  <div class="grid">
+    <section class="panel" aria-labelledby="h-agent">
+      <h2 id="h-agent">The agent proposes</h2>
+      <label for="scenario">Scenario<select id="scenario"></select></label>
+      <label for="verse">Action verse (what would run)<textarea id="verse" spellcheck="false"></textarea></label>
+      <label for="claim">The agent's own explanation (not trusted)<textarea id="claim" style="font-family:var(--body);min-height:48px"></textarea></label>
+      <div class="row"><button class="btn primary" id="propose" type="button">Send to the person</button></div>
+      <div class="scroll"><table id="args" aria-label="Arguments of the action"></table></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-you" style="gap:14px">
+      <h2 id="h-you">You approve</h2>
+      <div id="verdict" class="state warn">Choose a scenario, then send it to the person.</div>
+      <p class="sentence" id="sentence"></p>
+      <div id="flags"></div>
+      <div id="confirmBox" hidden style="display:flex;flex-direction:column;gap:10px">
+        <div class="muted" style="font-size:13px">To approve, say or type these three words. They are derived from the SHA-256 hash of the exact verse.</div>
+        <div class="words" id="words"></div>
+        <div class="row"><button class="btn" id="hear" type="button">Hear the readback</button><span class="muted mono" id="seal"></span></div>
+        <label for="heard">The words you say<input id="heard" autocomplete="off" placeholder="e.g. lay hope gate"></label>
+        <div class="row"><button class="btn primary" id="approve" type="button">Approve and sign</button><span id="approveMsg" class="muted"></span></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-exec">
+    <h2 id="h-exec">The executor</h2>
+    <div class="row">
+      <button class="btn primary" id="run" type="button">Run the approved verse</button>
+      <button class="btn danger" id="swap" type="button">Agent swaps the payee after approval</button>
+      <button class="btn danger" id="replay" type="button">Replay the approval</button>
+      <button class="btn danger" id="bump" type="button">Agent raises the amount after approval</button>
+    </div>
+    <div class="log" id="log"><div class="muted">Runs and refusals appear here.</div></div>
+  </section>
+
+  <section class="panel" style="gap:8px">
+    <h2>How it works</h2>
+    <p style="margin:0;max-width:75ch">The engine reads the verse and refuses it before you see it if it contains anything other than literal arguments and one approved tool call, or if any argument is outside the tool's limits. The sentence comes from fixed templates filled from the verse's own values, and it parses back to the identical verse. Any number, amount or name in the agent's explanation that the action doesn't contain is flagged. Your approval is a signature over the verse's hash and a one-time number. The executor checks both, so a verse changed after approval, or an approval used twice, cannot run. In this page signatures use ECDSA P-256 from the browser; the Python reference (<span class="mono">lang4d/agent/approve.py</span>) uses Ed25519 and also sends the verse over a GSM call.</p>
+  </section>
+</div>
+
+<script>
+/*__KANONJS__*/
+const D = /*__DATA__*/null;
+const K = window.KANON, $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const DEC = {}; for (const [c, w] of Object.entries(D.enc)) DEC[w] = c; for (const [a, t] of Object.entries(D.aliases)) if (!(a in DEC) && t in DEC) DEC[a] = DEC[t];
+const PLANE = {i:"sun",a:"moon",e:"mercury",y:"venus",o:"mars",u:"jupiter",w:"saturn"};
+// ---------------------------------------------------------------- the same rules as approve.py
+function to12(x){ x = Math.trunc(Math.abs(x)); let s = ""; do { s = K.DIGITS[x % 12] + s; x = Math.floor(x / 12); } while (x); return s; }
+function normText(src){ let s = src.replace(/\n/g, " ").split("|").map(p => p.trim()).join(" | ").split(/\s+/).filter(Boolean).join(" "); return s.replace(/(\S)#/g, "$1 #"); }
+const fmtMoney = v => "$" + Math.floor(v / 100).toLocaleString("en-US") + "." + String(v % 100).padStart(2, "0");
+const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+function fmtDate(v){ const d = new Date(Date.UTC(2026, 0, 1) + v * 86400000); return `${DAYS[d.getUTCDay()]} ${String(d.getUTCDate()).padStart(2, "0")} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`; }
+const KIND = {
+  money: fmtMoney, contact: v => { if (!D.contacts[v]) throw new Error("unknown contact " + v); return D.contacts[v]; },
+  message: v => { if (!D.messages[v]) throw new Error("unknown message " + v); return "“" + D.messages[v] + "”"; }, date: fmtDate, minutes: v => `${v} minutes`,
+  temperature: v => `${Math.floor(v / 10)}.${v % 10} °C`, place: v => { if (!D.places[String(v)]) throw new Error("place not in this page's list"); return D.places[String(v)]; },
+  metres: v => `${v} metres`, access: v => { if (!D.access[v]) throw new Error("unknown access level"); return D.access[v]; },
+  subscription: v => { if (!D.subscriptions[v]) throw new Error("unknown subscription"); return D.subscriptions[v]; } };
+function readAction(verse){
+  const [main, defs] = K.parse(verse);
+  if (Object.keys(defs).length) throw new Error("an action may not define names");
+  const vals = {}; let tool = null;
+  for (const v of main) {
+    if (v.length !== 1) throw new Error("each verse of an action holds one step");
+    const it = v[0];
+    if (it.urgent || it.guard || it.sandbox) throw new Error("marks are not allowed in an action");
+    if (it.kind === "call") { if (!D.tools[it.word]) throw new Error(`:${it.word} is not an approved tool`); if (tool) throw new Error("one tool call per action"); tool = it.word; }
+    else if (/^k[aeyiouw]$/.test(it.word) && it.num !== null && !tool) vals[it.word[1]] = it.num;
+    else throw new Error(`'${it.word}' is not a literal argument: arguments must be stated, not computed`);
+  }
+  if (!tool) throw new Error("no tool call");
+  const T = D.tools[tool], need = T.args.map(a => a[0]);
+  if (JSON.stringify(Object.keys(vals).sort()) !== JSON.stringify([...need].sort())) throw new Error(`:${tool} needs arguments in [${need.map(x => "'" + x + "'").join(", ")}], got [${Object.keys(vals).sort().map(x => "'" + x + "'").join(", ")}]`);
+  const kindOf = Object.fromEntries(T.args);
+  for (const [p, [lo, hi]] of Object.entries(T.limits)) if (!(lo <= vals[p] && vals[p] <= hi)) throw new Error(`${KIND[kindOf[p]](vals[p])} is outside the allowed range ${KIND[kindOf[p]](lo)} to ${KIND[kindOf[p]](hi)}`);
+  for (const [p, k] of T.args) KIND[k](vals[p]);
+  return [tool, vals];
+}
+function sentence(verse){ const [tool, vals] = readAction(verse), T = D.tools[tool]; let s = T.say; for (const [p, k] of T.args) s = s.replace("{" + p + "}", KIND[k](vals[p])); return s; }
+async function confirmation(verse){
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(normText(verse)));
+  let h = BigInt("0x" + [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("")); const n = BigInt(D.conf.length), w = [];
+  for (let k = 0; k < 3; k++) { w.push(D.conf[Number(h % n)]); h /= n; } return w;
+}
+function seal(src){ const toks = src.replace(/::/g, ": :").match(/#[0-9te]+|[!?~:]|[a-z]+/g) || []; let v = 0, j = 0;
+  const push = c => { j++; v = (v + j * c) % 7039; };
+  for (const t of toks) { if (t[0] === "#") for (const c of t.slice(1)) push(91 + K.DIGITS.indexOf(c)); else if ("!?~:".includes(t)) push(103 + "!?~:".indexOf(t));
+    else { for (let i = 0; i < t.length - t.length % 2; i += 2) push(K.CONS.indexOf(t[i]) * 7 + K.VOWELS.indexOf(t[i + 1])); if (t.length % 2) push(84 + K.VOWELS.indexOf(t[t.length - 1])); } push(109); }
+  const a = Math.floor(v / 84), b = v % 84; return K.CONS[Math.floor(a / 7)] + K.VOWELS[a % 7] + K.CONS[Math.floor(b / 7)] + K.VOWELS[b % 7]; }
+async function heardMatches(heard, verse){
+  const want = await confirmation(verse);
+  const got = (heard.toLowerCase().match(/[a-z]+/g) || []).filter(w => !["approve","approved","yes"].includes(w)).map(w => DEC[w] ? D.enc[DEC[w]] : "?");
+  if (JSON.stringify(got) === JSON.stringify(want)) return [true, "confirmed"];
+  const diffs = want.map((w, k) => [k, got[k] || "(nothing)", w]).filter(([k, g, w]) => g !== w).map(([k, g, w]) => `word ${k + 1}: heard “${g}”, expected “${w}”`);
+  return [false, "not confirmed - " + diffs.join("; ") + ". Please repeat the three words."];
+}
+function claimCheck(claim, verse){
+  const s = sentence(verse), flags = [];
+  for (const amt of claim.match(/\$[\d,]+(?:\.\d\d)?/g) || []) { const norm = amt.includes(".") ? amt : amt + ".00"; if (!s.includes(norm)) flags.push(`the agent says ${amt}, the action says ${s.includes("$") ? s.match(/\$[\d,.]+/)[0].replace(/\.$/, "") : "no amount"}`); }
+  for (const name of Object.values(D.contacts)) if (claim.includes(name.split(" ")[0]) && !s.includes(name)) flags.push(`the agent mentions ${name}, the action is for someone else`);
+  return flags;
+}
+const ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" "), TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+function words(n){ if (n < 20) return ONES[n]; if (n < 100) return TENS[Math.floor(n / 10)] + (n % 10 ? "-" + ONES[n % 10] : ""); if (n < 1000) return ONES[Math.floor(n / 100)] + " hundred" + (n % 100 ? " and " + words(n % 100) : ""); return words(Math.floor(n / 1000)) + " thousand" + (n % 1000 ? " " + words(n % 1000) : ""); }
+function speakable(t){ return t.replace(/\$([\d,]+)\.(\d\d)/g, (_, d, c) => words(+d.replace(/,/g, "")) + " dollars" + (+c ? " and " + words(+c) + " cents" : ""))
+  .replace(/(\d+)\.(\d) °C/g, (_, a, b) => words(+a) + " point " + words(+b) + " degrees Celsius").replace(/\b(\d{4})\b/g, (_, y) => words(+y.slice(0, 2)) + " " + words(+y.slice(2))).replace(/\b(\d+)\b/g, (_, n) => words(+n)).replace(/[“”]/g, ""); }
+// ---------------------------------------------------------------- signing and the executor
+let keys = null, approval = null, approvedVerse = null; const used = new Set();
+async function msgFor(verse, nonce){ const h = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(normText(verse))); return new TextEncoder().encode(JSON.stringify({hash: [...new Uint8Array(h)].map(b => b.toString(16).padStart(2, "0")).join(""), nonce})); }
+async function sign(verse){ keys = keys || await crypto.subtle.generateKey({name: "ECDSA", namedCurve: "P-256"}, false, ["sign", "verify"]);
+  const nonce = crypto.getRandomValues(new Uint32Array(2)).join("-"); const sig = await crypto.subtle.sign({name: "ECDSA", hash: "SHA-256"}, keys.privateKey, await msgFor(verse, nonce)); return {nonce, sig}; }
+async function execute(verse, token){
+  try { readAction(verse); } catch (e) { return [false, "refused: " + e.message]; }
+  if (!token) return [false, "refused: no approval"];
+  const ok = await crypto.subtle.verify({name: "ECDSA", hash: "SHA-256"}, keys.publicKey, token.sig, await msgFor(verse, token.nonce));
+  if (!ok) return [false, "refused: the approval does not match this action (it was changed after approval)"];
+  if (used.has(token.nonce)) return [false, "refused: this approval was already used"];
+  used.add(token.nonce); return [true, "executed: " + sentence(verse)];
+}
+function log(ok, text){ const L = $("log"); if (L.firstElementChild && L.firstElementChild.classList.contains("muted")) L.innerHTML = ""; const d = document.createElement("div"); d.className = ok ? "ok" : "bad"; d.textContent = text; L.prepend(d); }
+// ---------------------------------------------------------------- the page
+$("scenario").innerHTML = D.scenarios.map((s, k) => `<option value="${k}">${esc(s.label)}</option>`).join("");
+function loadScenario(){ const s = D.scenarios[+$("scenario").value]; $("verse").value = s.verse; $("claim").value = s.claim; propose(); }
+let current = null;
+async function propose(){
+  const verse = $("verse").value.trim(); current = verse; $("approveMsg").textContent = ""; $("heard").value = "";
+  try {
+    const [tool, vals] = readAction(verse), T = D.tools[tool], s = sentence(verse), w = await confirmation(verse), flags = claimCheck($("claim").value, verse);
+    $("args").innerHTML = `<thead><tr><th>Plane</th><th>Argument</th><th>Value in the verse</th><th>Shown to you as</th></tr></thead><tbody>` +
+      T.args.map(([p, k]) => `<tr><td class="mono">${p} (${PLANE[p]})</td><td>${k}</td><td class="mono">#${to12(vals[p])} = ${vals[p]}</td><td>${esc(KIND[k](vals[p]))}</td></tr>`).join("") +
+      `<tr><td class="mono">:${tool}</td><td>tool</td><td class="mono">${tool}</td><td>${esc(D.enc[tool])}</td></tr></tbody>`;
+    $("sentence").textContent = s; $("words").innerHTML = w.map(x => `<span class="word">${esc(x)}</span>`).join(""); $("seal").textContent = "seal =" + seal(normText(verse));
+    $("flags").innerHTML = flags.length ? `<div class="state bad"><b>The agent's explanation does not match the action:</b> ${flags.map(esc).join("; ")}.</div>` : `<div class="muted" style="font-size:13px">The agent's explanation is consistent with the action.</div>`;
+    $("verdict").className = "state ok"; $("verdict").textContent = "Passed the static checks: literal arguments, one approved tool, within limits."; $("confirmBox").hidden = false;
+  } catch (e) {
+    $("args").innerHTML = ""; $("sentence").textContent = ""; $("flags").innerHTML = ""; $("confirmBox").hidden = true;
+    $("verdict").className = "state bad"; $("verdict").textContent = "Rejected before reaching you: " + e.message;
+  }
+}
+$("scenario").addEventListener("change", loadScenario); $("propose").addEventListener("click", propose);
+$("hear").addEventListener("click", async () => { try { const s = sentence(current), w = await confirmation(current); const u = new SpeechSynthesisUtterance(speakable(s) + " To approve, say: " + w.join(", ") + "."); u.rate = 0.95; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (_) { $("approveMsg").textContent = "This browser cannot speak here; the words above are the readback."; } });
+$("approve").addEventListener("click", async () => {
+  const [ok, why] = await heardMatches($("heard").value, current); $("approveMsg").textContent = why; $("approveMsg").style.color = ok ? "var(--ok)" : "var(--bad)";
+  if (ok) { approval = await sign(current); approvedVerse = current; log(true, "approved and signed: " + sentence(current)); } });
+$("run").addEventListener("click", async () => { const [ok, t] = await execute(approvedVerse || current, approval); log(ok, t); });
+$("replay").addEventListener("click", async () => { const [ok, t] = await execute(approvedVerse || current, approval); log(ok, "replay: " + t); });
+$("swap").addEventListener("click", async () => { if (!approvedVerse) { log(false, "approve something first"); return; } const v = approvedVerse.replace(/ke #\w+/, m => m === "ke #1" ? "ke #2" : "ke #1"); const [ok, t] = await execute(v, approval); log(ok, `agent submits ${v}: ${t}`); });
+$("bump").addEventListener("click", async () => { if (!approvedVerse) { log(false, "approve something first"); return; } const v = approvedVerse.replace(/ka #(\w+)/, (m, n) => "ka #" + to12(parseInt([...n].reduce((a, c) => a * 12 + K.DIGITS.indexOf(c), 0)) + 1)); const [ok, t] = await execute(v, approval); log(ok, `agent submits ${v}: ${t}`); });
+window.AGENT = {readAction, sentence, confirmation, seal, claimCheck, normText};
+loadScenario();
+</script>

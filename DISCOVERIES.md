@@ -619,3 +619,13 @@ Write-ups:
 - **Standout.** A human-verifiable instruction format, shipped first as AI-agent action approval: needed now, no incumbent, and it uses every proven KANON property.
 - **Built: KLIMATA place codes** (`fields/geocode.py`). Consonant and vowel split each cell 12 × 7, alternating longitude and latitude, with Ptolemy's seven klimata as the vowels. 7 syllables give ≈ 4.8 m. The worst error on 5,000 places is 2.8 m, and 2 misheard syllables were repaired in 5,000 of 5,000. Nearby places share prefixes (the Temple Mount and the Western Wall share 5 syllables).
 - **Designed:** one-cell braille and haptics, a colour-plus-shape camera channel, a featural glyph script, audible type errors, polyphony as deterministic concurrency, 2-D verse squares, sky-keyed scheduling, geofenced verses, and physical seal tokens.
+
+## AY. Round 72 (`lang4d/agent/AGENT.md`, `lang4d/plain.py`): approve exactly what runs
+
+- **The plain skin.** Any KANON program read in English, in execution order. Behaviour round-trips identically on 1,110 of 1,110 well-formed random programs, and the text is exact apart from leading zeros and urgent placement. New rule: a loop word must have a body.
+- **Agent approval.**
+  - Tool names are skin cells whose word is the verb (`:py` pay, `:te` tell, `:mi` meet, `:ma` map …).
+  - The sentence is generated from the verse and parses back to it (2,000 of 2,000).
+  - Three SHA-256 confirmation words come from the 76 non-verb words.
+  - The approval is signed and single-use, and the explanation is claim-checked.
+- **Every attack failed:** payee swap, amount bump, replay, over-limit, computed argument. A lying explanation was flagged. The action survived a GSM call with an identical hash. Browser and Python agree on 11 of 11 cases.

@@ -1,0 +1,17 @@
+{
+ "A": "executed Pay $250.00 to Maria Lopez.",
+ "B": [
+  "the agent says $25, the action says $250.00"
+ ],
+ "C": "refused: the approval does not match this action (it was changed after approval)",
+ "D": "rejected: $5,000.00 is outside the allowed range $0.01 to $1,000.00",
+ "E": "rejected: 'pa' is not a literal argument: arguments must be stated, not computed",
+ "F": {
+  "homophones": true,
+  "wrong_word": false,
+  "explanation": "not confirmed - word 3: heard “raw”, expected “gate”. Please repeat the three words."
+ },
+ "G": "refused: this approval was already used",
+ "H": true,
+ "sentence_round_trip": "2000/2000"
+}

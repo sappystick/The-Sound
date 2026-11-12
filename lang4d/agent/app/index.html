@@ -1,0 +1,409 @@
+<title>Approve What Runs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@500&display=swap">
+<style>
+/* Layout: two desks facing each other. The agent's proposal on the left, the person's approval on the right, the executor's log below. */
+:root{
+  --bg:#f3f4f2; --panel:#ffffff; --ink:#1c2126; --muted:#5b636b; --line:#d8dcdf; --accent:#2f5d8a; --ok:#25703f; --okbg:#e6f2ea; --bad:#a3322a; --badbg:#f8e6e3; --warn:#8a5a00; --warnbg:#fbf0d9; --code:#eef0f1;
+  --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace; --display:"IBM Plex Serif", Georgia, serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121518;--panel:#1a1f24;--ink:#e3e7ea;--muted:#9aa3ab;--line:#2c333a;--accent:#8db7e3;--ok:#7fd29a;--okbg:#17301f;--bad:#f0918a;--badbg:#3a1d1a;--warn:#f0c46b;--warnbg:#33290f;--code:#20262c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121518;--panel:#1a1f24;--ink:#e3e7ea;--muted:#9aa3ab;--line:#2c333a;--accent:#8db7e3;--ok:#7fd29a;--okbg:#17301f;--bad:#f0918a;--badbg:#3a1d1a;--warn:#f0c46b;--warnbg:#33290f;--code:#20262c;color-scheme:dark}
+*{box-sizing:border-box} [hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14.5px;line-height:1.55;margin:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 56px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(28px,4.5vw,40px);margin:0;line-height:1.1}
+.lede{color:var(--muted);max-width:70ch;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:18px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+h2{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:600}
+label{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+select,textarea,input{font:inherit;color:var(--ink);background:var(--code);border:1px solid var(--line);border-radius:4px;padding:8px 10px;width:100%;min-width:0}
+textarea{font-family:var(--mono);font-size:13.5px;min-height:64px;resize:vertical}
+.btn{font:inherit;font-weight:600;font-size:13.5px;border-radius:4px;padding:8px 14px;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--panel)}
+.btn.danger{border-color:var(--bad);color:var(--bad)}
+button:focus-visible,select:focus-visible,textarea:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.sentence{font-family:var(--display);font-size:clamp(22px,3vw,30px);line-height:1.25;margin:0;text-wrap:balance}
+.words{display:flex;gap:8px;flex-wrap:wrap}
+.word{font-family:var(--mono);font-size:20px;padding:6px 14px;border-radius:4px;background:var(--code);border:1px solid var(--line)}
+.state{border-radius:5px;padding:10px 12px;font-size:14px}
+.state.ok{background:var(--okbg);color:var(--ok)} .state.bad{background:var(--badbg);color:var(--bad)} .state.warn{background:var(--warnbg);color:var(--warn)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.mono{font-family:var(--mono);font-size:12.5px;word-break:break-word}
+.muted{color:var(--muted)}
+.log{display:flex;flex-direction:column;gap:6px;font-size:13.5px}
+.log div{padding:8px 10px;border-radius:4px;border-left:3px solid var(--line);background:var(--code)}
+.log .ok{border-color:var(--ok)} .log .bad{border-color:var(--bad)}
+.scroll{overflow-x:auto}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Approve what runs</h1>
+    <p class="lede">An AI agent proposes an action as a KANON verse. You hear and read a sentence generated from the verse itself, not from anything the agent wrote. You approve with three words, and only that exact verse can run. Each tool name is a KANON syllable whose English word is the verb: <span class="mono">:py</span> pay, <span class="mono">:te</span> tell, <span class="mono">:mi</span> meet, <span class="mono">:ma</span> map, <span class="mono">:hi</span> heat, <span class="mono">:le</span> let, <span class="mono">:no</span> no.</p>
+  </header>
+
+  <div class="grid">
+    <section class="panel" aria-labelledby="h-agent">
+      <h2 id="h-agent">The agent proposes</h2>
+      <label for="scenario">Scenario<select id="scenario"></select></label>
+      <label for="verse">Action verse (what would run)<textarea id="verse" spellcheck="false"></textarea></label>
+      <label for="claim">The agent's own explanation (not trusted)<textarea id="claim" style="font-family:var(--body);min-height:48px"></textarea></label>
+      <div class="row"><button class="btn primary" id="propose" type="button">Send to the person</button></div>
+      <div class="scroll"><table id="args" aria-label="Arguments of the action"></table></div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-you" style="gap:14px">
+      <h2 id="h-you">You approve</h2>
+      <div id="verdict" class="state warn">Choose a scenario, then send it to the person.</div>
+      <p class="sentence" id="sentence"></p>
+      <div id="flags"></div>
+      <div id="confirmBox" hidden style="display:flex;flex-direction:column;gap:10px">
+        <div class="muted" style="font-size:13px">To approve, say or type these three words. They are derived from the SHA-256 hash of the exact verse.</div>
+        <div class="words" id="words"></div>
+        <div class="row"><button class="btn" id="hear" type="button">Hear the readback</button><span class="muted mono" id="seal"></span></div>
+        <label for="heard">The words you say<input id="heard" autocomplete="off" placeholder="e.g. lay hope gate"></label>
+        <div class="row"><button class="btn primary" id="approve" type="button">Approve and sign</button><span id="approveMsg" class="muted"></span></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-exec">
+    <h2 id="h-exec">The executor</h2>
+    <div class="row">
+      <button class="btn primary" id="run" type="button">Run the approved verse</button>
+      <button class="btn danger" id="swap" type="button">Agent swaps the payee after approval</button>
+      <button class="btn danger" id="replay" type="button">Replay the approval</button>
+      <button class="btn danger" id="bump" type="button">Agent raises the amount after approval</button>
+    </div>
+    <div class="log" id="log"><div class="muted">Runs and refusals appear here.</div></div>
+  </section>
+
+  <section class="panel" style="gap:8px">
+    <h2>How it works</h2>
+    <p style="margin:0;max-width:75ch">The engine reads the verse and refuses it before you see it if it contains anything other than literal arguments and one approved tool call, or if any argument is outside the tool's limits. The sentence comes from fixed templates filled from the verse's own values, and it parses back to the identical verse. Any number, amount or name in the agent's explanation that the action doesn't contain is flagged. Your approval is a signature over the verse's hash and a one-time number. The executor checks both, so a verse changed after approval, or an approval used twice, cannot run. In this page signatures use ECDSA P-256 from the browser; the Python reference (<span class="mono">lang4d/agent/approve.py</span>) uses Ed25519 and also sends the verse over a GSM call.</p>
+  </section>
+</div>
+
+<script>
+// KANON v0.2 interpreter in JavaScript: the same language as kanon.py (parity-tested by course.py).
+// Runs in a browser or in node. No dependencies.
+(function (root) {
+  const VOWELS = "aeyiouw", CONS = "ktpbdglmnrsh", DIGITS = "0123456789te";
+  const RATIO = {a: 4/3, e: 32/27, y: 256/243, i: 1, o: 8/9, u: 64/81, w: 0.75};
+  const F0 = 154.2, FUEL = 200000, MAXLEN = 65536;
+  const isWord = w => {
+    if (w.length < 2) return false;
+    for (let j = 0; j < w.length - w.length % 2; j++) if (j % 2 ? !VOWELS.includes(w[j]) : !CONS.includes(w[j])) return false;
+    return w.length % 2 === 0 || VOWELS.includes(w[w.length - 1]);
+  };
+  const TOKEN = /\s*(\|)|\s*(=[a-z]+)|\s*(::?)([a-z]*)([!?]*)|\s*(~?)([a-z]+)([!?]*)|\s*(#[0-9te]+)/y;
+  function lex(src) {
+    const out = []; src = src.replace(/\n/g, " "); let pos = 0;
+    while (pos < src.length) {
+      if (!src.slice(pos).trim()) break;
+      TOKEN.lastIndex = pos; const m = TOKEN.exec(src);
+      if (!m || TOKEN.lastIndex === pos) throw new SyntaxError(`cannot read "${src.slice(pos, pos + 12)}"`);
+      pos = TOKEN.lastIndex;
+      if (m[1]) out.push(["bar"]);
+      else if (m[2]) out.push(["sum", m[2].slice(1)]);
+      else if (m[3]) {
+        if (m[3] === "::") out.push(m[4] ? ["def", m[4]] : ["end"]);
+        else { if (!isWord(m[4])) throw new SyntaxError(`bad name "${m[4]}"`); out.push(["call", m[4], {urgent: m[5].includes("!"), guard: m[5].includes("?"), sandbox: false}]); }
+      } else if (m[7]) {
+        if (!isWord(m[7])) throw new SyntaxError(`bad word "${m[7]}": syllables are consonant + vowel, with an optional final vowel`);
+        out.push(["word", m[7], {urgent: m[8].includes("!"), guard: m[8].includes("?"), sandbox: m[6] === "~"}]);
+      } else { let v = 0; for (const ch of m[9].slice(1)) v = v * 12 + DIGITS.indexOf(ch); out.push(["num", v]); }
+    }
+    return out;
+  }
+  function parse(src) {
+    src = src.replace(/=[^|]*/g, "");   // checksum and error-correction tails are for the channel, not the machine
+    const main = [], defs = {}; let cur = null, verse = [];
+    const close = () => { if (verse.length) (cur ? defs[cur] : main).push(verse); verse = []; };
+    for (const t of lex(src)) {
+      if (t[0] === "bar") close();
+      else if (t[0] === "def") { close(); cur = t[1]; defs[cur] = []; }
+      else if (t[0] === "end") { close(); cur = null; }
+      else if (t[0] === "num") { if (verse.length) verse[verse.length - 1].num = t[1]; else verse.push({kind: "word", word: "ki", num: t[1], urgent: false, guard: false, sandbox: false}); }
+      else if (t[0] === "sum") {}
+      else verse.push(Object.assign({kind: t[0], word: t[1], num: null}, t[2]));
+    }
+    close(); return [main, defs];
+  }
+  function bindLoops(items) {
+    const out = []; let i = 0;
+    while (i < items.length) { const it = items[i];
+      if (it.kind === "word" && it.word[0] === "l" && i + 1 < items.length) { out.push(Object.assign({}, it, {body: items[i + 1]})); i += 2; }
+      else { out.push(it); i++; } }
+    return out;
+  }
+  function schedule(items) {
+    const out = [], rest = []; for (const it of items) (it.urgent ? out : rest).push(it);
+    const n = rest.length; for (let k = 0; k < Math.floor(n / 2); k++) out.push(rest[k], rest[n - 1 - k]);
+    if (n % 2) out.push(rest[(n - 1) / 2]); return out;
+  }
+  function ring(seq) { const n = seq.length, order = [], pos = new Array(n);
+    for (let k = 0; k < Math.floor(n / 2); k++) order.push(k, n - 1 - k); if (n % 2) order.push((n - 1) / 2);
+    order.forEach((slot, j) => pos[slot] = seq[j]); return pos; }
+  const fold = x => { x = Math.abs(x) || 1; while (x >= 2.5) x /= 2; while (x < 0.625) x *= 2; return x; };
+  const toint = x => Math.trunc(Math.round(x * 1e9) / 1e9);
+  const truthy = p => p.length > 0 && p[p.length - 1] > 0;
+  const fmod = (a, b) => a % b;   // same sign rule as Python's math.fmod
+  const last = p => { if (!p.length) throw new RangeError("list index out of range"); return p[p.length - 1]; };
+  const sum = p => {   // Neumaier compensated summation, as Python 3.12+ sum() does for floats
+    let s = 0, c = 0; for (const x of p) { const t = s + x; c += Math.abs(s) >= Math.abs(x) ? (s - t) + x : (x - t) + s; s = t; } return s + c; };
+  const g = n => { const out = []; for (let k = 1; k <= n; k++) out.push(k); return out; };
+  const gcd = (a, b) => { a = Math.abs(a); b = Math.abs(b); while (b) [a, b] = [b, a % b]; return a; };
+  const primes = n => { const s = new Array(n + 1).fill(true); s[0] = false; if (n >= 1) s[1] = false;
+    for (let p = 2; p * p <= n; p++) if (s[p]) for (let q = p * p; q <= n; q += p) s[q] = false; return s.map((v, k) => v ? k : -1).filter(k => k >= 0); };
+  const GREEK = [[900,"ϡ"],[800,"ω"],[700,"ψ"],[600,"χ"],[500,"φ"],[400,"υ"],[300,"τ"],[200,"σ"],[100,"ρ"],[90,"ϙ"],[80,"π"],[70,"ο"],[60,"ξ"],[50,"ν"],[40,"μ"],[30,"λ"],[20,"κ"],[10,"ι"],[9,"θ"],[8,"η"],[7,"ζ"],[6,"ϛ"],[5,"ε"],[4,"δ"],[3,"γ"],[2,"β"],[1,"α"]];
+  const HEB = [[400,"ת"],[300,"ש"],[200,"ר"],[100,"ק"],[90,"צ"],[80,"פ"],[70,"ע"],[60,"ס"],[50,"נ"],[40,"מ"],[30,"ל"],[20,"כ"],[10,"י"],[9,"ט"],[8,"ח"],[7,"ז"],[6,"ו"],[5,"ה"],[4,"ד"],[3,"ג"],[2,"ב"],[1,"א"]];
+  function numeral(n, table) { n = Math.trunc(n); let s = "";
+    if (table === HEB) { while (n >= 400) { s += "ת"; n -= 400; }
+      if (n % 100 === 15 || n % 100 === 16) { if (n >= 100) s += numeral(n - n % 100, table); return s + (n % 100 === 15 ? "טו" : "טז"); } }
+    for (const [v, ch] of table) while (n >= v) { s += ch; n -= v; } return s + (table === GREEK ? "ʹ" : ""); }
+  const fmt = x => { if (Number.isInteger(x)) return String(x); const s = x.toPrecision(6); return String(parseFloat(s)); };
+  const modes = side => { const c = 343, set = new Set();
+    for (let a = 0; a < 4; a++) for (let b = 0; b < 4; b++) for (let d = 0; d < 4; d++) if (a + b + d) set.add(Math.round(c / 2 * Math.sqrt(a*a + b*b + d*d) / side * 100) / 100);
+    return [...set].sort((x, y) => x - y).slice(0, 7); };
+  const CANON = {
+    kamu: ["multiply: i ← i × a", vm => vm.set(vm.P.a.length === vm.P.i.length ? vm.P.i.map((x, k) => x * vm.P.a[k]) : vm.P.i.map(x => x * (vm.P.a.length ? last(vm.P.a) : 1)))],
+    kade: ["divide: i ← i ÷ a", vm => vm.set(vm.P.i.map(x => x / (last(vm.P.a) || NaN)))],
+    kagi: ["greatest common divisor of i", vm => vm.set(vm.P.i.length ? [vm.P.i.map(Math.trunc).reduce(gcd)] : [])],
+    kapi: ["primes up to i's last value", (vm, v) => { const n = Math.trunc(vm.P.i.length ? last(vm.P.i) : (v || 0)); if (n > 1e6) throw new RangeError("primes are listed up to 1,000,000"); vm.set(primes(n)); }],
+    kasu: ["square root", vm => vm.set(vm.P.i.map(Math.sqrt))],
+    kapo: ["power: i ^ a", vm => vm.set(vm.P.i.map(x => Math.pow(x, vm.P.a.length ? last(vm.P.a) : 2)))],
+    kaha: ["factorial", vm => { let f = 1; for (let k = 2; k <= Math.trunc(last(vm.P.i)); k++) f *= k; vm.set([f]); }],
+    kamo: ["product of all values", vm => vm.set([vm.P.i.reduce((p, x) => p * x, 1)])],
+    tame: ["mean", vm => vm.set([sum(vm.P.i) / vm.P.i.length])],
+    tado: ["median", vm => { const s = [...vm.P.i].sort((a, b) => a - b), n = s.length; vm.set([n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2]); }],
+    tasi: ["standard deviation", vm => { const m = sum(vm.P.i) / vm.P.i.length; vm.set([Math.sqrt(sum(vm.P.i.map(x => (x - m) ** 2)) / vm.P.i.length)]); }],
+    tami: ["minimum", vm => vm.set([Math.min(...vm.P.i)])],
+    tamo: ["maximum", vm => vm.set([Math.max(...vm.P.i)])],
+    taso: ["sort ascending", vm => vm.set([...vm.P.i].sort((a, b) => a - b))],
+    papi: ["π", vm => vm.set([Math.PI])],
+    pagu: ["the golden ratio", vm => vm.set([(1 + Math.sqrt(5)) / 2])],
+    pari: ["interior angle of a regular polygon with i sides", vm => vm.set(vm.P.i.map(x => 180 * (x - 2) / x))],
+    paso: ["star polygon {n/k}: visiting order (i = n, a = k)", vm => { const n = Math.trunc(last(vm.P.i)), k = Math.trunc(vm.P.a.length ? last(vm.P.a) : 2); vm.set(g(Math.min(n, MAXLEN + 1)).map(j => ((j - 1) * k) % n)); }],
+    pamo: ["first seven resonances of a cube room of side i metres", vm => vm.set(modes(last(vm.P.i)))],
+    pake: ["cubits to metres", vm => vm.set(vm.P.i.map(x => x * 0.5236))],
+    bari: ["Fibonacci numbers up to i", vm => { const n = last(vm.P.i), s = [1, 1]; while (s[s.length - 1] + s[s.length - 2] <= n) s.push(s[s.length - 1] + s[s.length - 2]); vm.set(s.filter(x => x <= n)); }],
+    basa: ["triangular numbers", vm => vm.set(g(Math.min(Math.trunc(last(vm.P.i)), MAXLEN + 1)).map(k => k * (k + 1) / 2))],
+    bake: ["running sum", vm => { let s = 0; vm.set(vm.P.i.map(x => s += x)); }],
+    bada: ["differences between neighbours", vm => vm.set(vm.P.i.slice(1).map((x, k) => x - vm.P.i[k]))],
+    baro: ["distinct values", vm => vm.set([...new Set(vm.P.i)])],
+    bato: ["take the first n values", (vm, v) => vm.set(vm.P.i.slice(0, Math.trunc(v || 3)))],
+    baka: ["count of values", vm => vm.set([vm.P.i.length])],
+    dasa: ["say i as numbers", vm => vm.say(vm.P.i.map(fmt).join(" "))],
+    dagi: ["say i as Greek numerals", vm => vm.say(vm.P.i.map(x => numeral(x, GREEK)).join(" "))],
+    dahe: ["say i as Hebrew numerals", vm => vm.say(vm.P.i.map(x => numeral(x, HEB)).join(" "))],
+    dami: ["sing i as a melody", vm => vm.events.push(["melody", vm.P.i.map(fold)])],
+    lane: ["not", vm => vm.set(vm.P.i.map(x => x ? 0 : 1))],
+    lake: ["equal: i == a", vm => vm.set([JSON.stringify(vm.P.i) === JSON.stringify(vm.P.a) ? 1 : 0])],
+    lame: ["less: i < a", vm => vm.set([last(vm.P.i) < last(vm.P.a) ? 1 : 0])],
+    lamo: ["more: i > a", vm => vm.set([last(vm.P.i) > last(vm.P.a) ? 1 : 0])],
+    maro: ["the seven string ratios", vm => vm.set([...VOWELS].map(c => RATIO[c]))],
+    mahe: ["ratios → Hz on the carrier", vm => vm.set(vm.P.i.map(x => x * F0))],
+    maki: ["interval in cents from i[0]", vm => vm.set(vm.P.i.map(x => 1200 * Math.log2(x / vm.P.i[0])))],
+    mapu: ["the Pythagorean comma in cents", vm => vm.set([1200 * Math.log2(Math.pow(3, 12) / Math.pow(2, 19))])],
+    rado: ["planetary weekday of J2000 + i days (0 = Sunday)", vm => vm.set([((Math.trunc(2451545 + (vm.P.i.length ? last(vm.P.i) : 0) + 1.5) % 7) + 7) % 7])],
+  };
+  const PRELUDE = `
+::kemu kua | kw #0 | lu :keso | kiw ::
+::keso bwi nu #1 gw ::
+::kegi la :keto ::
+::keto kei kia kae mea ::
+::kehi kyi | ko #1 | ly :keho | kio ::
+::keho kio :kemu ny #1 koi kay ::`;
+  class VM {
+    constructor() { this.P = {}; for (const v of VOWELS) this.P[v] = []; this.events = []; this.out = []; this.trace = []; this.defs = {}; this.fuel = FUEL;
+      Object.assign(this.defs, parse(PRELUDE)[1]); }
+    set(xs) { if (xs.length > MAXLEN) throw new RangeError(`result of ${xs.length} values exceeds ${MAXLEN}`); xs = xs.map(Number); if (!xs.every(Number.isFinite)) throw new RangeError("not a finite number (division by zero or an empty input)"); this.P.i = xs; }
+    say(t) { this.out.push(t); }
+    run(src) { const [main, defs] = parse(src); Object.assign(this.defs, defs); for (const v of main) this.verse(v); return this; }
+    verse(items) { for (const it of schedule(bindLoops(items))) this.item(it); }
+    tick() { if (--this.fuel < 0) throw new Error("out of fuel (a loop that never ends?)"); }
+    item(it) {
+      this.tick();
+      if (it.guard && !truthy(this.P.i)) { this.trace.push("skip " + it.word); return; }
+      try {
+        if (it.kind === "call") this.call(it.word, it.num);
+        else if (it.body) this.loop(it);
+        else this.word(it.word, it.num);
+      } catch (e) { if (it.sandbox) this.trace.push(`~${it.word}: skipped (${e.message})`); else throw e; }
+    }
+    loop(it) { const plane = it.word[1];
+      if (it.num !== null) for (let k = 0; k < toint(it.num); k++) this.item(it.body);
+      else while (truthy(this.P[plane])) this.item(it.body); }
+    call(name, val) { this.trace.push(":" + name);
+      if (this.defs[name]) { for (const v of this.defs[name]) this.verse(v); }
+      else if (CANON[name]) CANON[name][1](this, val);
+      else throw new Error(`unknown name :${name}`); }
+    word(w, val) {
+      const syl = []; for (let j = 0; j < w.length - w.length % 2; j += 2) syl.push(w.slice(j, j + 2));
+      const cad = w.length % 2 ? w[w.length - 1] : null, op = syl[0][0], head = syl[0][1];
+      if (op === "d" && syl.length >= 2) { this.events.push(["melody", [...w].filter(c => VOWELS.includes(c)).map(c => RATIO[c])]); this.trace.push(w + " (song)"); return; }
+      this.op(op, head, cad, val, cad !== null);
+      for (const s of syl.slice(1)) { this.tick(); this.op(s[0], head, s[1], null, true); }
+      this.trace.push(`${w}${val === null ? "" : " #" + val} → ${head} = [${this.P[head].slice(0, 8).map(fmt).join(", ")}]`);
+    }
+    op(op, head, src, val, explicit) {
+      const P = this.P, H = P[head], S = src ? P[src] : H;
+      switch (op) {
+        case "s": { const n = val !== null ? toint(val) : (explicit && S.length ? toint(last(S)) : 7); if (n > MAXLEN) throw new RangeError(`stream of ${n} values exceeds ${MAXLEN}`); P[head] = g(n); break; }
+        case "k": P[head] = val !== null ? [val] : (explicit ? [...S] : []); break;
+        case "b": P[head] = H.concat(S); break;
+        case "p": P[head] = H.map(x => x * (val !== null ? val : RATIO[src || "i"])); break;
+        case "g": P[head] = [sum(S) + (val || 0)]; break;
+        case "t": { const thr = val !== null ? val : (explicit && src !== head && S.length ? last(S) : (H.length ? sum(H) / H.length : 0)); P[head] = H.filter(x => x > thr); break; }
+        case "n": if (val !== null) P[head] = H.map(x => x - val); else if (explicit && src !== head) { const d = S.length ? last(S) : 0; P[head] = H.map(x => x - d); } else P[head] = H.map(x => -x); break;
+        case "r": if (val !== null && H.length) { const k = toint(val) % H.length; P[head] = H.slice(k).concat(H.slice(0, k)); } else P[head] = [...H].reverse(); break;
+        case "m": if (val !== null) P[head] = H.map(x => val ? fmod(x, val) : x);
+          else if (explicit && src !== head && S.length && last(S)) P[head] = H.map(x => fmod(x, last(S)));
+          else { const t = RATIO[src || "i"], n = Math.max(1, H.length); P[head] = H.map((x, j) => x * Math.pow(t, (j + 1) / n)); } break;
+        case "d": this.events.push(["melody", H.map(fold)]); this.out.push(H.map(fmt).join(" ")); break;
+        case "h": if (explicit) P[head] = [S.length]; else this.events.push(["rest", (val || 2) * 0.1]); break;
+      }
+      if (P[head].length > MAXLEN) throw new RangeError(`plane ${head} would hold ${P[head].length} values (limit ${MAXLEN})`);
+      if (!P[head].every(Number.isFinite)) throw new RangeError("not a finite number");
+    }
+  }
+  // Reed-Solomon parity over GF(113), identical to kanon.py: five parity symbols per block of up to 100 symbols
+  const GF = 113, ALPHA = 3, NSYM = 5, BLOCK = 100;
+  const pmod = a => ((a % GF) + GF) % GF;
+  const ppow = (b, e) => { let r = 1; b = pmod(b); while (e > 0) { if (e & 1) r = r * b % GF; b = b * b % GF; e >>= 1; } return r; };
+  function rsGen(n) { let g = [1]; for (let j = 1; j <= n; j++) { const a = pmod(-ppow(ALPHA, j)), r = new Array(g.length + 1).fill(0);
+    g.forEach((x, i) => { r[i] = pmod(r[i] + x * a); r[i + 1] = pmod(r[i + 1] + x); }); g = r; } return g; }
+  function rsParity(data, n = NSYM) { const g = rsGen(n), rem = new Array(n).fill(0).concat(data);
+    for (let i = rem.length - 1; i >= n; i--) { const c = rem[i]; if (c) for (let j = 0; j < g.length; j++) rem[i - n + j] = pmod(rem[i - n + j] - c * g[j]); }
+    return rem.slice(0, n).map(x => pmod(-x)); }
+  function symbols(src) { const codes = [], toks = src.replace(/::/g, ": :").match(/#[0-9te]+|[!?~:]|[a-z]+/g) || [];
+    for (const t of toks) { if (t[0] === "#") for (const c of t.slice(1)) codes.push(91 + DIGITS.indexOf(c));
+      else if ("!?~:".includes(t)) codes.push(103 + "!?~:".indexOf(t));
+      else { for (let j = 0; j < t.length - t.length % 2; j += 2) codes.push(CONS.indexOf(t[j]) * 7 + VOWELS.indexOf(t[j + 1])); if (t.length % 2) codes.push(84 + VOWELS.indexOf(t[t.length - 1])); }
+      codes.push(109); } return codes; }
+  const pword = v => v < 84 ? CONS[Math.floor(v / 7)] + VOWELS[v % 7] : CONS[Math.floor((v - 84) / 7)] + VOWELS[(v - 84) % 7] + "a";
+  function eccTail(body) { const c = symbols(body), par = []; for (let k = 0; k < Math.max(1, c.length); k += BLOCK) par.push(...rsParity(c.slice(k, k + BLOCK)));
+    return "=" + par.map(pword).join("-"); }
+  const addEcc = src => src.split("|").map(v => v.trim()).filter(Boolean).map(v => v + " " + eccTail(v)).join(" | ");
+  const api = {VM, parse, addEcc, eccTail, symbols, lex, ring, schedule, bindLoops, CANON, RATIO, VOWELS, CONS, DIGITS, isWord, fmt};
+  if (typeof module !== "undefined") module.exports = api; else root.KANON = api;
+})(this);
+
+const D = {"tools": {"py": {"args": [["a", "money"], ["e", "contact"]], "say": "Pay {a} to {e}.", "limits": {"a": [1, 100000]}}, "te": {"args": [["e", "contact"], ["y", "message"]], "say": "Tell {e}: {y}", "limits": {}}, "mi": {"args": [["e", "contact"], ["y", "date"], ["o", "minutes"]], "say": "Meet {e} on {y} for {o}.", "limits": {"o": [5, 240]}}, "kw": {"args": [["e", "contact"]], "say": "Call {e}.", "limits": {}}, "hi": {"args": [["a", "temperature"]], "say": "Heat the room to {a}.", "limits": {"a": [160, 260]}}, "ma": {"args": [["a", "place"], ["e", "metres"]], "say": "Map a drone flight to {a} at {e}.", "limits": {"e": [10, 120]}}, "le": {"args": [["e", "contact"], ["a", "access"]], "say": "Let {e} have {a} access.", "limits": {"a": [1, 2]}}, "no": {"args": [["a", "subscription"]], "say": "No: cancel {a}.", "limits": {}}}, "contacts": {"1": "Maria Lopez", "2": "Daniel Cohen", "3": "Ground Station Svalbard", "4": "Dr Amara Okafor"}, "messages": {"1": "The launch window moved to Thursday.", "2": "Invoice 4471 is paid.", "3": "Please send the telemetry from pass 12."}, "subscriptions": {"1": "the cloud backup plan", "2": "the satellite imagery feed"}, "access": {"1": "read", "2": "edit", "3": "admin"}, "places": {"18858162529632": "place “mow net pool row mow say law”", "8996557476930": "place “boat may pay gate tea tall day”"}, "conf": ["cat", "keg", "cake", "key", "coat", "cool", "tap", "tape", "tea", "toe", "tune", "tall", "pat", "pet", "pea", "pole", "pool", "paw", "bat", "bed", "bay", "bee", "boat", "boot", "ball", "dad", "deck", "day", "deep", "dough", "dew", "dawn", "gap", "get", "gate", "geese", "goat", "goose", "gall", "lab", "lay", "leaf", "low", "loop", "law", "men", "may", "mow", "moon", "mall", "nap", "net", "name", "need", "new", "gnaw", "rat", "red", "ray", "reed", "row", "room", "raw", "sat", "set", "say", "seed", "so", "soup", "saw", "hat", "hen", "hay", "hope", "hoop", "hawk"], "enc": {"ka": "cat", "ke": "keg", "ky": "cake", "ki": "key", "ko": "coat", "ku": "cool", "kw": "call", "ta": "tap", "te": "tell", "ty": "tape", "ti": "tea", "to": "toe", "tu": "tune", "tw": "tall", "pa": "pat", "pe": "pet", "py": "pay", "pi": "pea", "po": "pole", "pu": "pool", "pw": "paw", "ba": "bat", "be": "bed", "by": "bay", "bi": "bee", "bo": "boat", "bu": "boot", "bw": "ball", "da": "dad", "de": "deck", "dy": "day", "di": "deep", "do": "dough", "du": "dew", "dw": "dawn", "ga": "gap", "ge": "get", "gy": "gate", "gi": "geese", "go": "goat", "gu": "goose", "gw": "gall", "la": "lab", "le": "let", "ly": "lay", "li": "leaf", "lo": "low", "lu": "loop", "lw": "law", "ma": "map", "me": "men", "my": "may", "mi": "meet", "mo": "mow", "mu": "moon", "mw": "mall", "na": "nap", "ne": "net", "ny": "name", "ni": "need", "no": "no", "nu": "new", "nw": "gnaw", "ra": "rat", "re": "red", "ry": "ray", "ri": "reed", "ro": "row", "ru": "room", "rw": "raw", "sa": "sat", "se": "set", "sy": "say", "si": "seed", "so": "so", "su": "soup", "sw": "saw", "ha": "hat", "he": "hen", "hy": "hay", "hi": "heat", "ho": "hope", "hu": "hoop", "hw": "hawk", "_a": "at", "_e": "egg", "_y": "aim", "_i": "eat", "_o": "oak", "_u": "ooze", "_w": "awe", "#0": "zero", "#1": "one", "#2": "two", "#3": "three", "#4": "four", "#5": "five", "#6": "six", "#7": "seven", "#8": "eight", "#9": "nine", "#t": "ten", "#e": "eleven", "!|": "stop", "!!": "now", "!?": "if", "!~": "try", "!:": "use", "!::": "define", "!::end": "done", "!=": "check"}, "aliases": {"kay": "cake", "tee": "tea", "pee": "pea", "be": "bee", "poll": "pole", "dew": "dew", "due": "dew", "do": "dew", "doe": "dough", "meat": "meet", "mo": "mow", "knew": "new", "gnu": "new", "know": "no", "nor": "gnaw", "read": "reed", "roe": "row", "rue": "room", "sew": "so", "sow": "so", "hey": "hay", "tow": "toe", "kale": "cake", "bae": "bay", "lei": "lay", "lo": "low", "lee": "leaf", "eat": "eat", "ate": "eight", "for": "four", "to": "two", "too": "two", "won": "one", "awe": "awe", "aw": "awe", "oh": "oak", "owe": "oak"}, "scenarios": [{"id": "pay", "label": "Honest payment", "verse": "ka #12574 | ke #1 | :py", "claim": "I will pay Maria $250.00 for the translation work."}, {"id": "lie", "label": "Explanation disagrees with the action", "verse": "ka #12574 | ke #1 | :py", "claim": "Just sending Maria $25 for lunch."}, {"id": "drone", "label": "Drone flight to a place code", "verse": "ka #2146t08584e40 | ke #84 | :ma", "claim": "Flying the survey drone over the site at 100 metres."}, {"id": "meet", "label": "Book a meeting", "verse": "ke #4 | ky #227 | ko #39 | :mi", "claim": "Booked 45 minutes with Dr Okafor on 16 November."}, {"id": "tell", "label": "Send a message", "verse": "ke #3 | ky #3 | :te", "claim": "Asking Svalbard for the pass 12 telemetry."}, {"id": "heat", "label": "Thermostat", "verse": "ka #15e | :hi", "claim": "Setting the room to 21.5 degrees."}, {"id": "let", "label": "Grant access", "verse": "ke #2 | ka #1 | :le", "claim": "Giving Daniel read access."}, {"id": "no", "label": "Cancel a subscription", "verse": "ka #2 | :no", "claim": "Cancelling the imagery feed."}, {"id": "over", "label": "Over the limit ($5,000)", "verse": "ka #201428 | ke #1 | :py", "claim": "Paying Maria's invoice."}, {"id": "computed", "label": "Amount computed, not stated", "verse": "ka #100 | pa #e | ke #1 | :py", "claim": "Paying Maria the usual amount."}, {"id": "high", "label": "Drone at 300 m (limit 120)", "verse": "ka #2146t08584e40 | ke #210 | :ma", "claim": "Climbing higher for a better view."}], "day0": "2026-01-01"};
+const K = window.KANON, $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const DEC = {}; for (const [c, w] of Object.entries(D.enc)) DEC[w] = c; for (const [a, t] of Object.entries(D.aliases)) if (!(a in DEC) && t in DEC) DEC[a] = DEC[t];
+const PLANE = {i:"sun",a:"moon",e:"mercury",y:"venus",o:"mars",u:"jupiter",w:"saturn"};
+// ---------------------------------------------------------------- the same rules as approve.py
+function to12(x){ x = Math.trunc(Math.abs(x)); let s = ""; do { s = K.DIGITS[x % 12] + s; x = Math.floor(x / 12); } while (x); return s; }
+function normText(src){ let s = src.replace(/\n/g, " ").split("|").map(p => p.trim()).join(" | ").split(/\s+/).filter(Boolean).join(" "); return s.replace(/(\S)#/g, "$1 #"); }
+const fmtMoney = v => "$" + Math.floor(v / 100).toLocaleString("en-US") + "." + String(v % 100).padStart(2, "0");
+const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+function fmtDate(v){ const d = new Date(Date.UTC(2026, 0, 1) + v * 86400000); return `${DAYS[d.getUTCDay()]} ${String(d.getUTCDate()).padStart(2, "0")} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`; }
+const KIND = {
+  money: fmtMoney, contact: v => { if (!D.contacts[v]) throw new Error("unknown contact " + v); return D.contacts[v]; },
+  message: v => { if (!D.messages[v]) throw new Error("unknown message " + v); return "“" + D.messages[v] + "”"; }, date: fmtDate, minutes: v => `${v} minutes`,
+  temperature: v => `${Math.floor(v / 10)}.${v % 10} °C`, place: v => { if (!D.places[String(v)]) throw new Error("place not in this page's list"); return D.places[String(v)]; },
+  metres: v => `${v} metres`, access: v => { if (!D.access[v]) throw new Error("unknown access level"); return D.access[v]; },
+  subscription: v => { if (!D.subscriptions[v]) throw new Error("unknown subscription"); return D.subscriptions[v]; } };
+function readAction(verse){
+  const [main, defs] = K.parse(verse);
+  if (Object.keys(defs).length) throw new Error("an action may not define names");
+  const vals = {}; let tool = null;
+  for (const v of main) {
+    if (v.length !== 1) throw new Error("each verse of an action holds one step");
+    const it = v[0];
+    if (it.urgent || it.guard || it.sandbox) throw new Error("marks are not allowed in an action");
+    if (it.kind === "call") { if (!D.tools[it.word]) throw new Error(`:${it.word} is not an approved tool`); if (tool) throw new Error("one tool call per action"); tool = it.word; }
+    else if (/^k[aeyiouw]$/.test(it.word) && it.num !== null && !tool) vals[it.word[1]] = it.num;
+    else throw new Error(`'${it.word}' is not a literal argument: arguments must be stated, not computed`);
+  }
+  if (!tool) throw new Error("no tool call");
+  const T = D.tools[tool], need = T.args.map(a => a[0]);
+  if (JSON.stringify(Object.keys(vals).sort()) !== JSON.stringify([...need].sort())) throw new Error(`:${tool} needs arguments in [${need.map(x => "'" + x + "'").join(", ")}], got [${Object.keys(vals).sort().map(x => "'" + x + "'").join(", ")}]`);
+  const kindOf = Object.fromEntries(T.args);
+  for (const [p, [lo, hi]] of Object.entries(T.limits)) if (!(lo <= vals[p] && vals[p] <= hi)) throw new Error(`${KIND[kindOf[p]](vals[p])} is outside the allowed range ${KIND[kindOf[p]](lo)} to ${KIND[kindOf[p]](hi)}`);
+  for (const [p, k] of T.args) KIND[k](vals[p]);
+  return [tool, vals];
+}
+function sentence(verse){ const [tool, vals] = readAction(verse), T = D.tools[tool]; let s = T.say; for (const [p, k] of T.args) s = s.replace("{" + p + "}", KIND[k](vals[p])); return s; }
+async function confirmation(verse){
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(normText(verse)));
+  let h = BigInt("0x" + [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, "0")).join("")); const n = BigInt(D.conf.length), w = [];
+  for (let k = 0; k < 3; k++) { w.push(D.conf[Number(h % n)]); h /= n; } return w;
+}
+function seal(src){ const toks = src.replace(/::/g, ": :").match(/#[0-9te]+|[!?~:]|[a-z]+/g) || []; let v = 0, j = 0;
+  const push = c => { j++; v = (v + j * c) % 7039; };
+  for (const t of toks) { if (t[0] === "#") for (const c of t.slice(1)) push(91 + K.DIGITS.indexOf(c)); else if ("!?~:".includes(t)) push(103 + "!?~:".indexOf(t));
+    else { for (let i = 0; i < t.length - t.length % 2; i += 2) push(K.CONS.indexOf(t[i]) * 7 + K.VOWELS.indexOf(t[i + 1])); if (t.length % 2) push(84 + K.VOWELS.indexOf(t[t.length - 1])); } push(109); }
+  const a = Math.floor(v / 84), b = v % 84; return K.CONS[Math.floor(a / 7)] + K.VOWELS[a % 7] + K.CONS[Math.floor(b / 7)] + K.VOWELS[b % 7]; }
+async function heardMatches(heard, verse){
+  const want = await confirmation(verse);
+  const got = (heard.toLowerCase().match(/[a-z]+/g) || []).filter(w => !["approve","approved","yes"].includes(w)).map(w => DEC[w] ? D.enc[DEC[w]] : "?");
+  if (JSON.stringify(got) === JSON.stringify(want)) return [true, "confirmed"];
+  const diffs = want.map((w, k) => [k, got[k] || "(nothing)", w]).filter(([k, g, w]) => g !== w).map(([k, g, w]) => `word ${k + 1}: heard “${g}”, expected “${w}”`);
+  return [false, "not confirmed - " + diffs.join("; ") + ". Please repeat the three words."];
+}
+function claimCheck(claim, verse){
+  const s = sentence(verse), flags = [];
+  for (const amt of claim.match(/\$[\d,]+(?:\.\d\d)?/g) || []) { const norm = amt.includes(".") ? amt : amt + ".00"; if (!s.includes(norm)) flags.push(`the agent says ${amt}, the action says ${s.includes("$") ? s.match(/\$[\d,.]+/)[0].replace(/\.$/, "") : "no amount"}`); }
+  for (const name of Object.values(D.contacts)) if (claim.includes(name.split(" ")[0]) && !s.includes(name)) flags.push(`the agent mentions ${name}, the action is for someone else`);
+  return flags;
+}
+const ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" "), TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+function words(n){ if (n < 20) return ONES[n]; if (n < 100) return TENS[Math.floor(n / 10)] + (n % 10 ? "-" + ONES[n % 10] : ""); if (n < 1000) return ONES[Math.floor(n / 100)] + " hundred" + (n % 100 ? " and " + words(n % 100) : ""); return words(Math.floor(n / 1000)) + " thousand" + (n % 1000 ? " " + words(n % 1000) : ""); }
+function speakable(t){ return t.replace(/\$([\d,]+)\.(\d\d)/g, (_, d, c) => words(+d.replace(/,/g, "")) + " dollars" + (+c ? " and " + words(+c) + " cents" : ""))
+  .replace(/(\d+)\.(\d) °C/g, (_, a, b) => words(+a) + " point " + words(+b) + " degrees Celsius").replace(/\b(\d{4})\b/g, (_, y) => words(+y.slice(0, 2)) + " " + words(+y.slice(2))).replace(/\b(\d+)\b/g, (_, n) => words(+n)).replace(/[“”]/g, ""); }
+// ---------------------------------------------------------------- signing and the executor
+let keys = null, approval = null, approvedVerse = null; const used = new Set();
+async function msgFor(verse, nonce){ const h = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(normText(verse))); return new TextEncoder().encode(JSON.stringify({hash: [...new Uint8Array(h)].map(b => b.toString(16).padStart(2, "0")).join(""), nonce})); }
+async function sign(verse){ keys = keys || await crypto.subtle.generateKey({name: "ECDSA", namedCurve: "P-256"}, false, ["sign", "verify"]);
+  const nonce = crypto.getRandomValues(new Uint32Array(2)).join("-"); const sig = await crypto.subtle.sign({name: "ECDSA", hash: "SHA-256"}, keys.privateKey, await msgFor(verse, nonce)); return {nonce, sig}; }
+async function execute(verse, token){
+  try { readAction(verse); } catch (e) { return [false, "refused: " + e.message]; }
+  if (!token) return [false, "refused: no approval"];
+  const ok = await crypto.subtle.verify({name: "ECDSA", hash: "SHA-256"}, keys.publicKey, token.sig, await msgFor(verse, token.nonce));
+  if (!ok) return [false, "refused: the approval does not match this action (it was changed after approval)"];
+  if (used.has(token.nonce)) return [false, "refused: this approval was already used"];
+  used.add(token.nonce); return [true, "executed: " + sentence(verse)];
+}
+function log(ok, text){ const L = $("log"); if (L.firstElementChild && L.firstElementChild.classList.contains("muted")) L.innerHTML = ""; const d = document.createElement("div"); d.className = ok ? "ok" : "bad"; d.textContent = text; L.prepend(d); }
+// ---------------------------------------------------------------- the page
+$("scenario").innerHTML = D.scenarios.map((s, k) => `<option value="${k}">${esc(s.label)}</option>`).join("");
+function loadScenario(){ const s = D.scenarios[+$("scenario").value]; $("verse").value = s.verse; $("claim").value = s.claim; propose(); }
+let current = null;
+async function propose(){
+  const verse = $("verse").value.trim(); current = verse; $("approveMsg").textContent = ""; $("heard").value = "";
+  try {
+    const [tool, vals] = readAction(verse), T = D.tools[tool], s = sentence(verse), w = await confirmation(verse), flags = claimCheck($("claim").value, verse);
+    $("args").innerHTML = `<thead><tr><th>Plane</th><th>Argument</th><th>Value in the verse</th><th>Shown to you as</th></tr></thead><tbody>` +
+      T.args.map(([p, k]) => `<tr><td class="mono">${p} (${PLANE[p]})</td><td>${k}</td><td class="mono">#${to12(vals[p])} = ${vals[p]}</td><td>${esc(KIND[k](vals[p]))}</td></tr>`).join("") +
+      `<tr><td class="mono">:${tool}</td><td>tool</td><td class="mono">${tool}</td><td>${esc(D.enc[tool])}</td></tr></tbody>`;
+    $("sentence").textContent = s; $("words").innerHTML = w.map(x => `<span class="word">${esc(x)}</span>`).join(""); $("seal").textContent = "seal =" + seal(normText(verse));
+    $("flags").innerHTML = flags.length ? `<div class="state bad"><b>The agent's explanation does not match the action:</b> ${flags.map(esc).join("; ")}.</div>` : `<div class="muted" style="font-size:13px">The agent's explanation is consistent with the action.</div>`;
+    $("verdict").className = "state ok"; $("verdict").textContent = "Passed the static checks: literal arguments, one approved tool, within limits."; $("confirmBox").hidden = false;
+  } catch (e) {
+    $("args").innerHTML = ""; $("sentence").textContent = ""; $("flags").innerHTML = ""; $("confirmBox").hidden = true;
+    $("verdict").className = "state bad"; $("verdict").textContent = "Rejected before reaching you: " + e.message;
+  }
+}
+$("scenario").addEventListener("change", loadScenario); $("propose").addEventListener("click", propose);
+$("hear").addEventListener("click", async () => { try { const s = sentence(current), w = await confirmation(current); const u = new SpeechSynthesisUtterance(speakable(s) + " To approve, say: " + w.join(", ") + "."); u.rate = 0.95; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (_) { $("approveMsg").textContent = "This browser cannot speak here; the words above are the readback."; } });
+$("approve").addEventListener("click", async () => {
+  const [ok, why] = await heardMatches($("heard").value, current); $("approveMsg").textContent = why; $("approveMsg").style.color = ok ? "var(--ok)" : "var(--bad)";
+  if (ok) { approval = await sign(current); approvedVerse = current; log(true, "approved and signed: " + sentence(current)); } });
+$("run").addEventListener("click", async () => { const [ok, t] = await execute(approvedVerse || current, approval); log(ok, t); });
+$("replay").addEventListener("click", async () => { const [ok, t] = await execute(approvedVerse || current, approval); log(ok, "replay: " + t); });
+$("swap").addEventListener("click", async () => { if (!approvedVerse) { log(false, "approve something first"); return; } const v = approvedVerse.replace(/ke #\w+/, m => m === "ke #1" ? "ke #2" : "ke #1"); const [ok, t] = await execute(v, approval); log(ok, `agent submits ${v}: ${t}`); });
+$("bump").addEventListener("click", async () => { if (!approvedVerse) { log(false, "approve something first"); return; } const v = approvedVerse.replace(/ka #(\w+)/, (m, n) => "ka #" + to12(parseInt([...n].reduce((a, c) => a * 12 + K.DIGITS.indexOf(c), 0)) + 1)); const [ok, t] = await execute(v, approval); log(ok, `agent submits ${v}: ${t}`); });
+window.AGENT = {readAction, sentence, confirmation, seal, claimCheck, normText};
+loadScenario();
+</script>

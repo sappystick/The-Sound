@@ -1,0 +1,104 @@
+[
+ {
+  "verse": "ka #12574 | ke #1 | :py",
+  "sentence": "Pay $250.00 to Maria Lopez.",
+  "words": [
+   "lay",
+   "hope",
+   "gate"
+  ],
+  "seal": "naga",
+  "flags": []
+ },
+ {
+  "verse": "ka #12574 | ke #1 | :py",
+  "sentence": "Pay $250.00 to Maria Lopez.",
+  "words": [
+   "lay",
+   "hope",
+   "gate"
+  ],
+  "seal": "naga",
+  "flags": [
+   "the agent says $25, the action says $250.00"
+  ]
+ },
+ {
+  "verse": "ka #2146t08584e40 | ke #84 | :ma",
+  "sentence": "Map a drone flight to place “mow net pool row mow say law” at 100 metres.",
+  "words": [
+   "gall",
+   "pool",
+   "seed"
+  ],
+  "seal": "base",
+  "flags": []
+ },
+ {
+  "verse": "ke #4 | ky #227 | ko #39 | :mi",
+  "sentence": "Meet Dr Amara Okafor on Monday 16 November 2026 for 45 minutes.",
+  "words": [
+   "loop",
+   "so",
+   "say"
+  ],
+  "seal": "gedw",
+  "flags": []
+ },
+ {
+  "verse": "ke #3 | ky #3 | :te",
+  "sentence": "Tell Ground Station Svalbard: “Please send the telemetry from pass 12.”",
+  "words": [
+   "hat",
+   "deep",
+   "moon"
+  ],
+  "seal": "hepu",
+  "flags": []
+ },
+ {
+  "verse": "ka #15e | :hi",
+  "sentence": "Heat the room to 21.5 °C.",
+  "words": [
+   "law",
+   "row",
+   "hawk"
+  ],
+  "seal": "rykw",
+  "flags": []
+ },
+ {
+  "verse": "ke #2 | ka #1 | :le",
+  "sentence": "Let Daniel Cohen have read access.",
+  "words": [
+   "ray",
+   "hawk",
+   "gnaw"
+  ],
+  "seal": "hugw",
+  "flags": []
+ },
+ {
+  "verse": "ka #2 | :no",
+  "sentence": "No: cancel the satellite imagery feed.",
+  "words": [
+   "saw",
+   "lab",
+   "pool"
+  ],
+  "seal": "guma",
+  "flags": []
+ },
+ {
+  "verse": "ka #201428 | ke #1 | :py",
+  "error": "$5,000.00 is outside the allowed range $0.01 to $1,000.00"
+ },
+ {
+  "verse": "ka #100 | pa #e | ke #1 | :py",
+  "error": "'pa' is not a literal argument: arguments must be stated, not computed"
+ },
+ {
+  "verse": "ka #2146t08584e40 | ke #210 | :ma",
+  "error": "300 metres is outside the allowed range 10 metres to 120 metres"
+ }
+]

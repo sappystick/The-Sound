@@ -613,3 +613,9 @@ Write-ups:
   - a tiny integer VM that is cheap to prove.
 - **Prototype** (`chain/kanonchain.py`). Ed25519 accounts, speakable addresses (200 of 200 repaired with 2 misheard words), signed verse transactions, gas from the static checker before execution, an exact-integer VM profile, works registered and paid by their own contract (5,000 → 2,500 / 1,500 / 1,000), oracle-only statistics, ownership transfer, and replay validation with tamper detection.
 - **Problems found:** floats cannot be on a chain; library words need cost models; the while-loop prelude is not chain-legal; base-twelve money is unusable; skin words collide with canonical spellings; voice is not authentication.
+
+## AX. Round 71 (`lang4d/DIMENSIONS.md`): the standout use, and the dimensions
+
+- **Standout.** A human-verifiable instruction format, shipped first as AI-agent action approval: needed now, no incumbent, and it uses every proven KANON property.
+- **Built: KLIMATA place codes** (`fields/geocode.py`). Consonant and vowel split each cell 12 × 7, alternating longitude and latitude, with Ptolemy's seven klimata as the vowels. 7 syllables give ≈ 4.8 m. The worst error on 5,000 places is 2.8 m, and 2 misheard syllables were repaired in 5,000 of 5,000. Nearby places share prefixes (the Temple Mount and the Western Wall share 5 syllables).
+- **Designed:** one-cell braille and haptics, a colour-plus-shape camera channel, a featural glyph script, audible type errors, polyphony as deterministic concurrency, 2-D verse squares, sky-keyed scheduling, geofenced verses, and physical seal tokens.

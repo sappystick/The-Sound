@@ -1,0 +1,364 @@
+{
+ "Mercury": {
+  "superior conj -> greatest evening elongation": {
+   "n": 945,
+   "min": 25.2,
+   "median": 37.1,
+   "max": 46.5
+  },
+  "greatest evening elongation -> inferior conj": {
+   "n": 946,
+   "min": 15.4,
+   "median": 21.7,
+   "max": 28.0
+  },
+  "inferior conj -> greatest morning elongation": {
+   "n": 946,
+   "min": 15.4,
+   "median": 21.5,
+   "max": 28.0
+  },
+  "morning station (direct start) -> greatest morning elongation": {
+   "n": 946,
+   "min": 6.3,
+   "median": 10.7,
+   "max": 14.2
+  },
+  "evening station (retro start) -> inferior conj": {
+   "n": 946,
+   "min": 8.8,
+   "median": 10.9,
+   "max": 13.9
+  },
+  "inferior conj -> morning station": {
+   "n": 946,
+   "min": 8.9,
+   "median": 10.9,
+   "max": 13.7
+  },
+  "superior conj -> evening station": {
+   "n": 945,
+   "min": 33.4,
+   "median": 48.4,
+   "max": 57.6
+  },
+  "retrograde (station to station)": {
+   "n": 946,
+   "min": 19.8,
+   "median": 22.5,
+   "max": 24.2
+  },
+  "greatest morning elongation -> superior conj": {
+   "n": 945,
+   "min": 24.9,
+   "median": 36.7,
+   "max": 46.8
+  }
+ },
+ "Venus": {
+  "superior conj -> greatest evening elongation": {
+   "n": 187,
+   "min": 217.4,
+   "median": 221.4,
+   "max": 224.8
+  },
+  "greatest evening elongation -> inferior conj": {
+   "n": 188,
+   "min": 69.8,
+   "median": 70.8,
+   "max": 72.0
+  },
+  "inferior conj -> greatest morning elongation": {
+   "n": 188,
+   "min": 69.9,
+   "median": 70.9,
+   "max": 71.8
+  },
+  "morning station (direct start) -> greatest morning elongation": {
+   "n": 188,
+   "min": 48.8,
+   "median": 49.7,
+   "max": 50.8
+  },
+  "evening station (retro start) -> inferior conj": {
+   "n": 188,
+   "min": 20.6,
+   "median": 21.1,
+   "max": 21.6
+  },
+  "inferior conj -> morning station": {
+   "n": 188,
+   "min": 20.4,
+   "median": 21.2,
+   "max": 21.8
+  },
+  "superior conj -> evening station": {
+   "n": 187,
+   "min": 267.9,
+   "median": 271.1,
+   "max": 273.5
+  },
+  "retrograde (station to station)": {
+   "n": 188,
+   "min": 41.0,
+   "median": 42.2,
+   "max": 43.2
+  },
+  "greatest morning elongation -> superior conj": {
+   "n": 187,
+   "min": 216.3,
+   "median": 221.5,
+   "max": 225.7
+  }
+ },
+ "Mars": {
+  "evening station (direct start) -> conj": {
+   "n": 140,
+   "min": 309.1,
+   "median": 356.8,
+   "max": 393.9
+  },
+  "conj -> morning station (retro start)": {
+   "n": 140,
+   "min": 307.0,
+   "median": 359.2,
+   "max": 388.2
+  },
+  "retrograde (station to station)": {
+   "n": 140,
+   "min": 59.9,
+   "median": 76.1,
+   "max": 81.1
+  },
+  "morning station -> opposition": {
+   "n": 140,
+   "min": 30.1,
+   "median": 38.0,
+   "max": 40.2
+  },
+  "direct motion (station to station)": {
+   "n": 139,
+   "min": 684.2,
+   "median": 698.4,
+   "max": 745.2
+  }
+ },
+ "Jupiter": {
+  "evening station (direct start) -> conj": {
+   "n": 275,
+   "min": 138.0,
+   "median": 139.2,
+   "max": 140.5
+  },
+  "conj -> morning station (retro start)": {
+   "n": 274,
+   "min": 132.9,
+   "median": 138.6,
+   "max": 145.8
+  },
+  "retrograde (station to station)": {
+   "n": 274,
+   "min": 117.5,
+   "median": 120.8,
+   "max": 123.6
+  },
+  "morning station -> opposition": {
+   "n": 274,
+   "min": 59.5,
+   "median": 60.2,
+   "max": 61.0
+  },
+  "direct motion (station to station)": {
+   "n": 274,
+   "min": 272.4,
+   "median": 277.9,
+   "max": 284.6
+  }
+ },
+ "Saturn": {
+  "evening station (direct start) -> conj": {
+   "n": 289,
+   "min": 116.5,
+   "median": 120.1,
+   "max": 124.2
+  },
+  "conj -> morning station (retro start)": {
+   "n": 290,
+   "min": 116.1,
+   "median": 120.0,
+   "max": 124.7
+  },
+  "retrograde (station to station)": {
+   "n": 289,
+   "min": 133.6,
+   "median": 137.8,
+   "max": 141.5
+  },
+  "morning station -> opposition": {
+   "n": 290,
+   "min": 66.6,
+   "median": 68.9,
+   "max": 71.0
+  },
+  "direct motion (station to station)": {
+   "n": 289,
+   "min": 235.4,
+   "median": 240.2,
+   "max": 245.8
+  }
+ },
+ "FCI_check": [
+  {
+   "planet": "Venus",
+   "interval": "superior conj -> greatest evening elongation",
+   "inscribed": 224,
+   "real": {
+    "n": 187,
+    "min": 217.4,
+    "median": 221.4,
+    "max": 224.8
+   },
+   "within_real_range": true,
+   "minus_median": 2.6
+  },
+  {
+   "planet": "Venus",
+   "interval": "greatest evening elongation -> inferior conj",
+   "inscribed": 68,
+   "real": {
+    "n": 188,
+    "min": 69.8,
+    "median": 70.8,
+    "max": 72.0
+   },
+   "within_real_range": false,
+   "minus_median": -2.8
+  },
+  {
+   "planet": "Venus",
+   "interval": "inferior conj -> greatest morning elongation",
+   "inscribed": 68,
+   "real": {
+    "n": 188,
+    "min": 69.9,
+    "median": 70.9,
+    "max": 71.8
+   },
+   "within_real_range": false,
+   "minus_median": -2.9
+  },
+  {
+   "planet": "Venus",
+   "interval": "morning station (direct start) -> greatest morning elongation",
+   "inscribed": 49,
+   "real": {
+    "n": 188,
+    "min": 48.8,
+    "median": 49.7,
+    "max": 50.8
+   },
+   "within_real_range": true,
+   "minus_median": -0.7
+  },
+  {
+   "planet": "Mars",
+   "interval": "evening station (direct start) -> conj",
+   "inscribed": 349,
+   "real": {
+    "n": 140,
+    "min": 309.1,
+    "median": 356.8,
+    "max": 393.9
+   },
+   "within_real_range": true,
+   "minus_median": -7.8
+  },
+  {
+   "planet": "Mars",
+   "interval": "conj -> morning station (retro start)",
+   "inscribed": 349,
+   "real": {
+    "n": 140,
+    "min": 307.0,
+    "median": 359.2,
+    "max": 388.2
+   },
+   "within_real_range": true,
+   "minus_median": -10.2
+  },
+  {
+   "planet": "Mars",
+   "interval": "retrograde (station to station)",
+   "inscribed": 82,
+   "real": {
+    "n": 140,
+    "min": 59.9,
+    "median": 76.1,
+    "max": 81.1
+   },
+   "within_real_range": false,
+   "minus_median": 5.9
+  },
+  {
+   "planet": "Jupiter",
+   "interval": "evening station (direct start) -> conj",
+   "inscribed": 139,
+   "real": {
+    "n": 275,
+    "min": 138.0,
+    "median": 139.2,
+    "max": 140.5
+   },
+   "within_real_range": true,
+   "minus_median": -0.2
+  },
+  {
+   "planet": "Jupiter",
+   "interval": "conj -> morning station (retro start)",
+   "inscribed": 139,
+   "real": {
+    "n": 274,
+    "min": 132.9,
+    "median": 138.6,
+    "max": 145.8
+   },
+   "within_real_range": true,
+   "minus_median": 0.4
+  },
+  {
+   "planet": "Jupiter",
+   "interval": "retrograde (station to station)",
+   "inscribed": 120,
+   "real": {
+    "n": 274,
+    "min": 117.5,
+    "median": 120.8,
+    "max": 123.6
+   },
+   "within_real_range": true,
+   "minus_median": -0.8
+  }
+ ],
+ "Saturn_prediction": {
+  "real_retrograde_median": 137.8,
+  "real_direct_half_median": 120.1,
+  "inscription_scheme": "2 x 120 + 2 x 8 + 122 = 378",
+  "predicted_direct_halves": 120,
+  "predicted_retrograde_motion_days": 122
+ },
+ "unplaced_numerals": {
+  "64": [
+   "Mars: retrograde (station to station) (median 76.1, range 59.9-81.1)",
+   "Jupiter: morning station -> opposition (median 60.2, range 59.5-61.0)",
+   "Saturn: morning station -> opposition (median 68.9, range 66.6-71.0)"
+  ],
+  "224": [
+   "Venus: superior conj -> greatest evening elongation (median 221.4, range 217.4-224.8)",
+   "Venus: greatest morning elongation -> superior conj (median 221.5, range 216.3-225.7)"
+  ],
+  "324": [
+   "Mars: evening station (direct start) -> conj (median 356.8, range 309.1-393.9)",
+   "Mars: conj -> morning station (retro start) (median 359.2, range 307.0-388.2)"
+  ]
+ }
+}

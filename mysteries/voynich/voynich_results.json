@@ -1,0 +1,135 @@
+{
+ "V1_robustness_neighbours_excluded": [
+  {
+   "gap_pages": 5,
+   "pooled_accuracy": 0.864,
+   "null_mean": 0.683,
+   "p": 0.0033
+  },
+  {
+   "gap_pages": 10,
+   "pooled_accuracy": 0.859,
+   "null_mean": 0.678,
+   "p": 0.0033
+  }
+ ],
+ "V1_words_follow_pictures_within_hand_and_language": {
+  "groups": [
+   {
+    "language": "A",
+    "hand": "1",
+    "pages": 110,
+    "types": {
+     "H": 94,
+     "P": 16
+    },
+    "accuracy": 0.918,
+    "null_mean": 0.8,
+    "p": 0.001
+   },
+   {
+    "language": "B",
+    "hand": "2",
+    "pages": 46,
+    "types": {
+     "H": 20,
+     "B": 19,
+     "T": 4,
+     "C": 3
+    },
+    "accuracy": 0.87,
+    "null_mean": 0.379,
+    "p": 0.001
+   },
+   {
+    "language": "B",
+    "hand": "3",
+    "pages": 28,
+    "types": {
+     "H": 6,
+     "S": 22
+    },
+    "accuracy": 0.929,
+    "null_mean": 0.717,
+    "p": 0.002
+   }
+  ],
+  "pooled_accuracy": 0.908,
+  "pooled_null_mean": 0.682,
+  "pooled_p": 0.001
+ },
+ "V2_line_position": {
+  "voynich_paragraph_lines": {
+   "normalized_MI": 0.2857,
+   "shuffled_mean": 0.0546,
+   "excess": 0.2311,
+   "lines": 4028
+  },
+  "john_reflowed_same_line_lengths": {
+   "normalized_MI": 0.0548,
+   "shuffled_mean": 0.052,
+   "excess": 0.0028,
+   "lines": 2081
+  },
+  "kjv_one_verse_per_line": {
+   "normalized_MI": 0.2892,
+   "shuffled_mean": 0.0403,
+   "excess": 0.2489,
+   "lines": 6122
+  }
+ },
+ "V2_first_and_last_words": {
+  "voynich_line_initial_top": [
+   [
+    "daiin",
+    151
+   ],
+   [
+    "saiin",
+    54
+   ],
+   [
+    "dain",
+    47
+   ],
+   [
+    "sol",
+    38
+   ],
+   [
+    "sor",
+    37
+   ],
+   [
+    "sain",
+    35
+   ]
+  ],
+  "voynich_line_final_top": [
+   [
+    "daiin",
+    122
+   ],
+   [
+    "dy",
+    95
+   ],
+   [
+    "dam",
+    58
+   ],
+   [
+    "am",
+    57
+   ],
+   [
+    "dal",
+    49
+   ],
+   [
+    "ol",
+    47
+   ]
+  ]
+ }
+}

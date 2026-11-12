@@ -649,3 +649,15 @@ Write-ups:
 - **Signs Gospel** (pre-registered): SOURCE DETECTED, p = 0.0004, and the power check on Mark passes.
   - The genre control in Mark shows that only the historic present is a genre feature.
   - The core signal is ὁ Ἰησοῦς plus δέ; p = 0.011 without the doubtful features.
+
+## BB. Round 75 (`mysteries/ROUND75.md`): Antikythera intervals and Voynich structure
+
+- **Antikythera, against Keplerian orbits.**
+  - Jupiter's intervals are exact: 139/139 and 120 against real 139/139/121.
+  - Venus "49 (?)" is supported by the real sky (48.8–50.8).
+  - Venus 68 is forced so that 224 + 68 = 292 (half of 584).
+  - Mars's 82-day retrograde is just above the real maximum.
+  - **Predictions:** Saturn 2×120 + 2×8 + 122 = 378. The unplaced "224" fits Venus's closing interval (224 + 68 + 68 + 224 = 584).
+- **Voynich.**
+  - Within the same hand and language, page vocabulary predicts the illustration type: 91% against 68%, and 86% with ±10 neighbours excluded (p = 0.003).
+  - Lines are units like KJV verses (excess MI 0.231 against 0.249), unlike Greek John re-flowed into arbitrary lines (0.003).

@@ -746,3 +746,9 @@ Write-ups:
 - **Mislabeling idea (user), tested two ways:** (M1) labels match their OWN section slightly more than chance (diagonal 0.22 vs null 0.15, p 0.003) - weakly correct, NO systematic displacement to another section; (M2) 34-63% of label words never occur in the running text, so labels are NOT recycled/transposed text. The transposition-via-mislabeling code is not supported; only a vision-dependent picture<->label permutation remains open.
 - **Image anchor (Stage C probe 2):** within the herbal section, crude ink-shape features vs text give Mantel r 0.10, p 0.078 - a weak, non-significant hint that plant appearance tracks text; feature-limited.
 - **Gate C unmet** (no anchor at p<0.01) but not declared empty: probe 2 is a feature-limited hint. The deciding instrument is a real vision model on the plant drawings - the true bottleneck.
+
+## AX. Round 86 (`mysteries/ROUND86.md`): plant morphometry - the decisive image anchor
+- **Method:** recreated each herbal drawing as 39 precise morphometric features (Hu moments, Zhang-Suen skeleton branch/endpoints, vertical/radial layering, stroke-angle histogram, box-counting fractal dimension) from scipy.ndimage+numpy - no deep model. Reconstruction overlay (morph_sample.png) demonstrates it.
+- **N (decisive, robust):** across 74-118 herbal plants, morphometric distance vs text distance gives Mantel r approximately 0 (p 0.53); round-85's marginal r 0.10 was a crude-feature/segmentation artifact. The herbal text does NOT track the specific plant's geometry.
+- **Stage C: both probes now null** (position round 84; geometry round 86) -> pre-registered rule -> herbal section carries no object-level reference.
+- **Synthesis:** the Voynich is topical but not referential - vocabulary shifts by section (S6, 90.8%) but names no individual thing. Fits a section-conditioned generative system: meaningful about categories, empty about individuals.

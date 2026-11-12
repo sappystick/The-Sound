@@ -1,0 +1,66 @@
+{
+ "page_size_for_controls": 91,
+ "Voynich (all paragraph text)": {
+  "tokens": 16472,
+  "bits_per_word_unigram": 12.239,
+  "bits_per_word_bigram": 12.692,
+  "context_gain": -0.452,
+  "mean_tokens_per_page": 161.5,
+  "bits_per_page": 2049.6,
+  "oov_rate": 0.184
+ },
+ "Voynich roots only": {
+  "tokens": 16472,
+  "bits_per_word_unigram": 7.777,
+  "bits_per_word_bigram": 8.077,
+  "context_gain": -0.299,
+  "mean_tokens_per_page": 161.5,
+  "bits_per_page": 1304.3,
+  "oov_rate": 0.079
+ },
+ "Voynich language A": {
+  "tokens": 5113,
+  "bits_per_word_unigram": 13.01,
+  "bits_per_word_bigram": 13.51,
+  "context_gain": -0.501,
+  "mean_tokens_per_page": 89.7,
+  "bits_per_page": 1211.9,
+  "oov_rate": 0.264
+ },
+ "Voynich language B": {
+  "tokens": 11250,
+  "bits_per_word_unigram": 11.654,
+  "bits_per_word_bigram": 12.123,
+  "context_gain": -0.469,
+  "mean_tokens_per_page": 281.2,
+  "bits_per_page": 3409.6,
+  "oov_rate": 0.18
+ },
+ "Latin herbal (Macer)": {
+  "tokens": 7280,
+  "bits_per_word_unigram": 13.91,
+  "bits_per_word_bigram": 13.693,
+  "context_gain": 0.217,
+  "mean_tokens_per_page": 91.0,
+  "bits_per_page": 1246.0,
+  "oov_rate": 0.226
+ },
+ "Greek John": {
+  "tokens": 7644,
+  "bits_per_word_unigram": 11.195,
+  "bits_per_word_bigram": 10.255,
+  "context_gain": 0.94,
+  "mean_tokens_per_page": 91.0,
+  "bits_per_page": 933.2,
+  "oov_rate": 0.13
+ },
+ "English John": {
+  "tokens": 9191,
+  "bits_per_word_unigram": 9.395,
+  "bits_per_word_bigram": 8.378,
+  "context_gain": 1.016,
+  "mean_tokens_per_page": 91.0,
+  "bits_per_page": 762.4,
+  "oov_rate": 0.063
+ }
+}

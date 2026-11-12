@@ -1,0 +1,85 @@
+{
+ "first glyph of each line": {
+  "pages": 204,
+  "symbols": 3957,
+  "cond_entropy": 2.9991,
+  "null_mean": 3.1455,
+  "null_1pct": 3.1319,
+  "p_more_ordered": 0.001,
+  "carries_order_after_holm": true,
+  "EXPLORATORY_keep_paragraph_openings": {
+   "null_mean": 3.1023,
+   "p": 0.001
+  }
+ },
+ "last glyph of each line": {
+  "pages": 204,
+  "symbols": 3957,
+  "cond_entropy": 2.5698,
+  "null_mean": 2.5692,
+  "null_1pct": 2.5537,
+  "p_more_ordered": 0.5345,
+  "carries_order_after_holm": false
+ },
+ "first word of each paragraph": {
+  "pages": 18,
+  "symbols": 45,
+  "cond_entropy": -0.0,
+  "null_mean": 0.0256,
+  "null_1pct": -0.0,
+  "p_more_ordered": 0.6553,
+  "carries_order_after_holm": false
+ },
+ "gallows glyph of each line (first, or '-')": {
+  "pages": 204,
+  "symbols": 3957,
+  "cond_entropy": 1.4936,
+  "null_mean": 1.5623,
+  "null_1pct": 1.5515,
+  "p_more_ordered": 0.001,
+  "carries_order_after_holm": true,
+  "EXPLORATORY_keep_paragraph_openings": {
+   "null_mean": 1.5008,
+   "p": 0.001
+  }
+ },
+ "every 7th word": {
+  "pages": 204,
+  "symbols": 4675,
+  "cond_entropy": 2.6334,
+  "null_mean": 2.6371,
+  "null_1pct": 2.6149,
+  "p_more_ordered": 0.3457,
+  "carries_order_after_holm": false
+ },
+ "acrostic: line-initial 4-grams on >= 3 pages": {
+  "observed": 287,
+  "null_mean": 200.9,
+  "p": 0.0033
+ },
+ "decision": {
+  "first glyph of each line": "CARRIES ORDER",
+  "last glyph of each line": "NO HIDDEN CHANNEL",
+  "first word of each paragraph": "NO HIDDEN CHANNEL",
+  "gallows glyph of each line (first, or '-')": "CARRIES ORDER",
+  "every 7th word": "NO HIDDEN CHANNEL"
+ },
+ "line_initial_glyph_opening_vs_other": {
+  "opening": {
+   "p": 89,
+   "t": 47,
+   "k": 40,
+   "f": 14,
+   "o": 14,
+   "q": 8
+  },
+  "other": {
+   "d": 609,
+   "s": 584,
+   "y": 570,
+   "o": 510,
+   "q": 510,
+   "t": 329
+  }
+ }
+}

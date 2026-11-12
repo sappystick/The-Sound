@@ -27,6 +27,7 @@ The Voynich is treated as a **self-contained, one-of-a-kind system**.
 | **88** | **Reference-free long-range information** | **The text carries about 2× the long-range information of its null-content generator, and about 13× its shuffle.** There is real mid-range organisation | **B (pivotal)** |
 | 89 | Hidden-state model; content words | Eight drifting states do **not** reproduce it. The organisation lives in **bursty content words** (73% of frequent words clustered; each concentrated in one section) | B |
 | 90 | Concept clusters | The content words form 2 real communities that **re-derive the Currier A/B split** from co-occurrence alone. The association goes beyond morphology. Finer sub-topics are weak, in the herbal section only | B |
+| 92 | Phrase anchors, budget, channels (pre-registered) | No A/B phrase anchors under any of 7 formulas; **no adjacent-word predictability** (−0.45 bits, against +0.2 to +1.0 in languages); consecutive lines alternate their initial glyph | N / B |
 | **91** | **A/B internal Rosetta (pre-registered)** | **INCONCLUSIVE:** word alignment from co-occurrence fails its own positive control, and even matches herbal-A with itself only 3% of the time. Exploratory: **38%** of the A/B difference is a systematic ending shift (-or → -edy, -ol → -dy); the rest is word choice | Pre-registered: inconclusive; exploratory: B |
 
 ## The current model (each layer measured)
@@ -49,9 +50,10 @@ The Voynich is treated as a **self-contained, one-of-a-kind system**.
 - **Methodological finding (round 91):** at this corpus size, word distributions cannot align two vocabularies. Any statistics-only "translation" of the Voynich, by us or anyone else, must first pass this control.
 
 ## Next moves (in order)
-1. **Phrase anchors** (from round 91): find multi-word sequences that recur in both A and B after the ending rules are applied. These would be aligned units that need no statistical matching. This is the only remaining route to an internal Rosetta.
-2. **Information budget** (PLAN move 6): how many bits per page remain after the generator is removed. This sets the ceiling on any hidden content.
-3. **Low-rate channels** (move 3): line-initial glyphs, gallows positions, every-nth word, corrections. These would show whether a sparse message hides inside the filler.
+**Done in round 92:** phrase anchors (none), information budget (about 12 bits/word, no word-to-word syntax), low-rate channels (a line alternation rule, no message).
+1. **Line alternation in the generator:** add it, then re-score on held-out pages.
+2. **Content-word order:** does it follow the illustrations, a cycle or a list?
+3. **Corrections** (a channel not yet tested).
 4. **Unique-system controls** (move 4): run the same measures on other one-off systems (Rohonc Codex; a known asemic work, used qualitatively) so the verdict is calibrated against things like it, not against languages.
 5. **Numeric content** (move 5): the zodiac, rosette and star pages under the project's calendar and period engines.
 6. **Influences:** which contemporary practices could have produced a directional slot system. Abbreviation systems and nomenclators remain; letter-combination mysticism is ruled out (round 83).
@@ -69,6 +71,8 @@ The Voynich is treated as a **self-contained, one-of-a-kind system**.
 | `section_gen.py`, `longrange.py`, `hmm.py` | Section-conditioned generator, long-range information, hidden-state model |
 | `concepts.py` | Content-word co-occurrence communities with four controls |
 | `rosetta.py` | The A/B Rosetta test (pre-registered), refinement and rewrite rules |
+| `zl.py` | Shared loader for ZL3b-n (pages, metadata, lines, paragraph openings, affix split) |
+| `anchors.py`, `budget.py`, `channels.py` | Round 92: phrase anchors under 7 formulas; information budget; low-rate channels |
 
 ## Data
 Run `sources/fetch_sources.sh`. The Voynich data:

@@ -1,0 +1,1265 @@
+{
+ "rules": [
+  "s:or->edy",
+  "s:ol->dy",
+  "s:chy->ar",
+  "s:ody->ol",
+  "s:ain->or",
+  "s:dy->",
+  "s:ar->y"
+ ],
+ "tokens": {
+  "A_odd": 3775,
+  "B_odd": 1646,
+  "ceiling_A_even": 1722,
+  "floor_stars_B": 1710
+ },
+ "results": {
+  "F0 identity | 2-grams": {
+   "AB": {
+    "observed": 26,
+    "null_mean": 17.5,
+    "excess": 1.489,
+    "z": 2.15,
+    "p": 0.015803841456991433
+   },
+   "ceiling": {
+    "observed": 107,
+    "null_mean": 67.3,
+    "excess": 1.59,
+    "z": 5.78,
+    "p": 3.78380037018275e-09
+   },
+   "floor": {
+    "observed": 34,
+    "null_mean": 20.6,
+    "excess": 1.654,
+    "z": 3.28,
+    "p": 0.0005109034643024696
+   },
+   "AB_anchors": [
+    {
+     "phrase": "o l",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "y kshy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "y char",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d aiin",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ckhy or",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dain al",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qokchy dar",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "daiin chcthy",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dol or",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "y chy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "s ar",
+     "in_A": 1,
+     "in_B": 3,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "shey daiin",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.025
+    },
+    {
+     "phrase": "ol s",
+     "in_A": 2,
+     "in_B": 2,
+     "null_share_prob": 0.035
+    },
+    {
+     "phrase": "daiin chor",
+     "in_A": 3,
+     "in_B": 1,
+     "null_share_prob": 0.04
+    },
+    {
+     "phrase": "s aiin",
+     "in_A": 2,
+     "in_B": 6,
+     "null_share_prob": 0.045
+    }
+   ]
+  },
+  "F0 identity | 3-grams": {
+   "AB": {
+    "observed": 0,
+    "null_mean": 0.0,
+    "excess": 0.0,
+    "z": -0.19,
+    "p": 0.5755199164086038
+   },
+   "ceiling": {
+    "observed": 4,
+    "null_mean": 0.4,
+    "excess": 9.756,
+    "z": 5.28,
+    "p": 6.379703201538194e-08
+   },
+   "floor": {
+    "observed": 1,
+    "null_mean": 0.1,
+    "excess": 20.0,
+    "z": 4.36,
+    "p": 6.535923280612707e-06
+   },
+   "AB_anchors": []
+  },
+  "F1 rewrite | 2-grams": {
+   "AB": {
+    "observed": 44,
+    "null_mean": 34.7,
+    "excess": 1.268,
+    "z": 1.88,
+    "p": 0.029837937941019074
+   },
+   "ceiling": {
+    "observed": 124,
+    "null_mean": 82.4,
+    "excess": 1.504,
+    "z": 5.94,
+    "p": 1.4257022005179309e-09
+   },
+   "floor": {
+    "observed": 34,
+    "null_mean": 20.6,
+    "excess": 1.653,
+    "z": 3.24,
+    "p": 0.0005963773442507935
+   },
+   "AB_anchors": [
+    {
+     "phrase": "o l",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "kedy qokchdy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "y kshy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chey keedy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dy ty",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d aiin",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ckhy or",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "otchdy ol",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "keedy chy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "okedy okchedy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chedy okeedy",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "qotar chdy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "y kedy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "daiin chor",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "s ar",
+     "in_A": 1,
+     "in_B": 3,
+     "null_share_prob": 0.01
+    }
+   ]
+  },
+  "F1 rewrite | 3-grams": {
+   "AB": {
+    "observed": 0,
+    "null_mean": 0.1,
+    "excess": 0.0,
+    "z": -0.29,
+    "p": 0.6135850033388919
+   },
+   "ceiling": {
+    "observed": 5,
+    "null_mean": 0.6,
+    "excess": 8.621,
+    "z": 5.64,
+    "p": 8.374851562023555e-09
+   },
+   "floor": {
+    "observed": 1,
+    "null_mean": 0.1,
+    "excess": 18.182,
+    "z": 4.15,
+    "p": 1.6983593937493053e-05
+   },
+   "AB_anchors": []
+  },
+  "F2 root | 2-grams": {
+   "AB": {
+    "observed": 200,
+    "null_mean": 231.6,
+    "excess": 0.864,
+    "z": -3.55,
+    "p": 0.9998093198028131
+   },
+   "ceiling": {
+    "observed": 263,
+    "null_mean": 279.8,
+    "excess": 0.94,
+    "z": -1.68,
+    "p": 0.9531151803552882
+   },
+   "floor": {
+    "observed": 204,
+    "null_mean": 200.7,
+    "excess": 1.017,
+    "z": 0.37,
+    "p": 0.3565978987288077
+   },
+   "AB_anchors": [
+    {
+     "phrase": "pch f",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "a h",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dch t",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "am am",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "y ks",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "ks ch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "e ykee",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "kch m",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "ok l",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "ykch i",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "e as",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "a lch",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "ees l",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "r eek",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "e kee",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.025
+    }
+   ]
+  },
+  "F2 root | 3-grams": {
+   "AB": {
+    "observed": 58,
+    "null_mean": 42.3,
+    "excess": 1.371,
+    "z": 2.89,
+    "p": 0.0018993705348329122
+   },
+   "ceiling": {
+    "observed": 102,
+    "null_mean": 69.8,
+    "excess": 1.462,
+    "z": 4.25,
+    "p": 1.0525923990337529e-05
+   },
+   "floor": {
+    "observed": 61,
+    "null_mean": 53.6,
+    "excess": 1.138,
+    "z": 1.13,
+    "p": 0.1299117971353586
+   },
+   "AB_anchors": [
+    {
+     "phrase": "t a d",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d e d",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d y ks",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "c t y",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "th a r",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "y a a",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "tch k y",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "k l o",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "k t t",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "s i i",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "kch e k",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "t kch e",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "a r l",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "r l a",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "s i o",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.015
+    }
+   ]
+  },
+  "F3 suffix-class | 2-grams": {
+   "AB": {
+    "observed": 131,
+    "null_mean": 107.0,
+    "excess": 1.224,
+    "z": 3.06,
+    "p": 0.0011157361881905812
+   },
+   "ceiling": {
+    "observed": 192,
+    "null_mean": 177.4,
+    "excess": 1.082,
+    "z": 1.43,
+    "p": 0.07583636663204218
+   },
+   "floor": {
+    "observed": 141,
+    "null_mean": 113.7,
+    "excess": 1.24,
+    "z": 3.2,
+    "p": 0.0006856921990198701
+   },
+   "AB_anchors": [
+    {
+     "phrase": "o l",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dai· shed·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ote· sa·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "yke· she·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ck· or",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "oka· olch·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d ai·",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qokch· qod·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "otch· ol",
+     "in_A": 3,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "y ks·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ai· oko·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "cho· kee·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "chok· dal",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "ai· o",
+     "in_A": 1,
+     "in_B": 3,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "otc· t·",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    }
+   ]
+  },
+  "F3 suffix-class | 3-grams": {
+   "AB": {
+    "observed": 3,
+    "null_mean": 1.1,
+    "excess": 2.609,
+    "z": 1.72,
+    "p": 0.04275842518408379
+   },
+   "ceiling": {
+    "observed": 17,
+    "null_mean": 4.0,
+    "excess": 4.25,
+    "z": 6.34,
+    "p": 1.1241058940108564e-10
+   },
+   "floor": {
+    "observed": 9,
+    "null_mean": 2.2,
+    "excess": 4.036,
+    "z": 4.54,
+    "p": 2.8600726186909023e-06
+   },
+   "AB_anchors": [
+    {
+     "phrase": "k· dai· y",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "che· che· k·",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chy k· dy",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    }
+   ]
+  },
+  "F4 skeleton | 2-grams": {
+   "AB": {
+    "observed": 171,
+    "null_mean": 158.5,
+    "excess": 1.079,
+    "z": 1.35,
+    "p": 0.0888621543526546
+   },
+   "ceiling": {
+    "observed": 304,
+    "null_mean": 276.5,
+    "excess": 1.099,
+    "z": 2.37,
+    "p": 0.008970751726336471
+   },
+   "floor": {
+    "observed": 176,
+    "null_mean": 170.1,
+    "excess": 1.035,
+    "z": 0.64,
+    "p": 0.26022792981033716
+   },
+   "AB_anchors": [
+    {
+     "phrase": "pr r",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qt chcth",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ckhd kd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "kch kd",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qkn chn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "tk sh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chtl dr",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dr cthd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "kd chdl",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "sr chs",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qk kd",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chs rn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qtd tn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dl chkl",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "sh ksh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    }
+   ]
+  },
+  "F4 skeleton | 3-grams": {
+   "AB": {
+    "observed": 2,
+    "null_mean": 1.9,
+    "excess": 1.044,
+    "z": 0.06,
+    "p": 0.47608275988141685
+   },
+   "ceiling": {
+    "observed": 22,
+    "null_mean": 7.0,
+    "excess": 3.138,
+    "z": 5.56,
+    "p": 1.3824929468131372e-08
+   },
+   "floor": {
+    "observed": 10,
+    "null_mean": 2.9,
+    "excess": 3.396,
+    "z": 4.37,
+    "p": 6.108907191736191e-06
+   },
+   "AB_anchors": [
+    {
+     "phrase": "chr _ r",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "dr chd cth",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    }
+   ]
+  },
+  "F5 rewrite+skeleton | 2-grams": {
+   "AB": {
+    "observed": 227,
+    "null_mean": 229.7,
+    "excess": 0.988,
+    "z": -0.26,
+    "p": 0.6023815417060375
+   },
+   "ceiling": {
+    "observed": 302,
+    "null_mean": 296.2,
+    "excess": 1.02,
+    "z": 0.51,
+    "p": 0.3064858782806223
+   },
+   "floor": {
+    "observed": 176,
+    "null_mean": 169.2,
+    "excess": 1.04,
+    "z": 0.67,
+    "p": 0.2529483479247848
+   },
+   "AB_anchors": [
+    {
+     "phrase": "qt chcth",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "sh ksh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "tk sh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chs rn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "shk kd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qtd tn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "l ckhd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "pchd fch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "qkn chn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "chk qkch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "qt kchd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "kchn sh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "s chkn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "sn tn",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "chckhd chd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    }
+   ]
+  },
+  "F5 rewrite+skeleton | 3-grams": {
+   "AB": {
+    "observed": 9,
+    "null_mean": 5.4,
+    "excess": 1.653,
+    "z": 1.5,
+    "p": 0.06663550242235385
+   },
+   "ceiling": {
+    "observed": 28,
+    "null_mean": 11.1,
+    "excess": 2.532,
+    "z": 5.08,
+    "p": 1.8568382221659358e-07
+   },
+   "floor": {
+    "observed": 10,
+    "null_mean": 3.2,
+    "excess": 3.091,
+    "z": 3.97,
+    "p": 3.553142721181555e-05
+   },
+   "AB_anchors": [
+    {
+     "phrase": "kd sh pchd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ch kd ch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "k chd kd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "kd ch k",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "_ tr chd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chd td chd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "_ k chd",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "shd dn ch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "chd chd dn",
+     "in_A": 3,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    }
+   ]
+  },
+  "F6 root+skeleton | 2-grams": {
+   "AB": {
+    "observed": 209,
+    "null_mean": 234.0,
+    "excess": 0.893,
+    "z": -2.98,
+    "p": 0.9985533902221554
+   },
+   "ceiling": {
+    "observed": 227,
+    "null_mean": 240.6,
+    "excess": 0.943,
+    "z": -1.57,
+    "p": 0.9419580641492562
+   },
+   "floor": {
+    "observed": 167,
+    "null_mean": 189.3,
+    "excess": 0.882,
+    "z": -2.82,
+    "p": 0.997563303100509
+   },
+   "AB_anchors": [
+    {
+     "phrase": "d cfh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "kch lk",
+     "in_A": 1,
+     "in_B": 3,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "pchd pch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "p pm",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "sh tsh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "shs d",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "chs r",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.01
+    },
+    {
+     "phrase": "pch f",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.015
+    },
+    {
+     "phrase": "pch fch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "lch kch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "dch t",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.02
+    },
+    {
+     "phrase": "ch c",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.03
+    },
+    {
+     "phrase": "pd d",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.035
+    },
+    {
+     "phrase": "pch pch",
+     "in_A": 5,
+     "in_B": 3,
+     "null_share_prob": 0.04
+    },
+    {
+     "phrase": "tch th",
+     "in_A": 2,
+     "in_B": 1,
+     "null_share_prob": 0.045
+    }
+   ]
+  },
+  "F6 root+skeleton | 3-grams": {
+   "AB": {
+    "observed": 201,
+    "null_mean": 195.8,
+    "excess": 1.027,
+    "z": 0.53,
+    "p": 0.29953732390835097
+   },
+   "ceiling": {
+    "observed": 221,
+    "null_mean": 199.0,
+    "excess": 1.111,
+    "z": 2.26,
+    "p": 0.011774264336443806
+   },
+   "floor": {
+    "observed": 172,
+    "null_mean": 169.6,
+    "excess": 1.014,
+    "z": 0.24,
+    "p": 0.4033400857965335
+   },
+   "AB_anchors": [
+    {
+     "phrase": "lch kch _",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "_ ksh l",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "d _ ks",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "tch k ckh",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "tch s s",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "pch pch k",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "tch th _",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "shs d s",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "k ls k",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "t t ct",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "ckh _ s",
+     "in_A": 1,
+     "in_B": 2,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "t pch pch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.0
+    },
+    {
+     "phrase": "t s pch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "_ pch pch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    },
+    {
+     "phrase": "d t kch",
+     "in_A": 1,
+     "in_B": 1,
+     "null_share_prob": 0.005
+    }
+   ]
+  }
+ },
+ "holm_significant": [],
+ "significant_and_beats_floor": [],
+ "decision": "NO PHRASE ANCHORS: A and B share only what two texts of the system share",
+ "closest_to_ceiling": "F3 suffix-class | 2-grams"
+}

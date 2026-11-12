@@ -785,3 +785,10 @@ Write-ups:
 - **The pre-registered decision is INCONCLUSIVE.** Co-occurrence-based word alignment fails its positive control (Greek John against English John, p 0.28). It even fails to align herbal-A with itself (3% identity recovery). At this corpus size, no A ↔ B dictionary can be supported by word statistics, and neither can any statistics-only Voynich "translation".
 - **Exploratory:** nine affix rewrite rules learned on even pages (-or → -edy, -ol → -dy …) close 38% of the herbal-A/B gap on held-out pages. Random rules make it worse. A and B are partly the same words with shifted endings; the rest is different word choice.
 - **Next:** phrase anchors, meaning repeated multi-word sequences shared by A and B after rewriting, or plants drawn in both.
+
+## BS. Round 92 (`mysteries/ROUND92.md`): phrase anchors, information budget, low-rate channels (pre-registered)
+
+- **Phrase anchors:** NO ANCHORS under any of 7 normalisation formulas. The method has power: two parts of the same dialect share phrases at z 3–6, whether on the same or a different topic. Herbal-A and herbal-B share zero three-word phrases, even after ending rewrites, root stripping or consonant skeletons. Phrases belong to the dialect, not the subject. The A/B Rosetta route is closed at this data scale.
+- **Information budget:** about 12 bits per word, language-sized, but **the previous word does not help predict the next** (−0.45 bits, against +0.2 to +1.0 in Latin, Greek and English). That is no transferable word-to-word syntax: the clearest signature of a pool-writing constructed system.
+- **Low-rate channels:** the line-initial and gallows sequences carry order (p 0.001, surviving fixed paragraph openings). It is an **alternation**: consecutive lines avoid starting with the same glyph (7.6% against 14.4%). It is a layout rule, not a message. Paragraph-first words and every-7th words carry nothing.
+- **Unique-system control:** not done; no public Rohonc transcription was reachable.

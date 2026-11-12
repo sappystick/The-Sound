@@ -1,0 +1,393 @@
+{
+ "signs_source": {
+  "omnibus_Q": 43.44,
+  "omnibus_p": 0.0004,
+  "z": {
+   "oun": 0.24,
+   "de": 2.51,
+   "kai": -0.38,
+   "asyndeton": -0.1,
+   "hist_present_legei": 2.86,
+   "ekeinos": -0.91,
+   "hina": -0.14,
+   "ho_iesous": 3.75,
+   "meta_touto": 2.78,
+   "palin": 0.81,
+   "ioudaioi": -1.36,
+   "words_per_verse": -1.88
+  },
+  "feature_p": {
+   "oun": 0.8164,
+   "de": 0.0098,
+   "kai": 0.6998,
+   "asyndeton": 0.9396,
+   "hist_present_legei": 0.0026,
+   "ekeinos": 0.3778,
+   "hina": 0.8948,
+   "ho_iesous": 0.0,
+   "meta_touto": 0.0046,
+   "palin": 0.4484,
+   "ioudaioi": 0.1822,
+   "words_per_verse": 0.0508
+  },
+  "significant_after_BH": [
+   "de",
+   "hist_present_legei",
+   "ho_iesous",
+   "meta_touto"
+  ],
+  "source_rates": {
+   "oun": 1.77,
+   "de": 2.14,
+   "kai": 4.99,
+   "asyndeton": 31.25,
+   "hist_present_legei": 1.72,
+   "ekeinos": 0.32,
+   "hina": 0.8,
+   "ho_iesous": 2.09,
+   "meta_touto": 0.21,
+   "palin": 0.32,
+   "ioudaioi": 0.38,
+   "words_per_verse": 16.65
+  },
+  "null_mean": {
+   "oun": 1.69,
+   "de": 1.56,
+   "kai": 5.18,
+   "asyndeton": 31.8,
+   "hist_present_legei": 0.78,
+   "ekeinos": 0.46,
+   "hina": 0.84,
+   "ho_iesous": 1.12,
+   "meta_touto": 0.07,
+   "palin": 0.22,
+   "ioudaioi": 0.72,
+   "words_per_verse": 17.93
+  },
+  "source_narrative_share": 0.6
+ },
+ "signs_source_without_21": {
+  "omnibus_Q": 32.72,
+  "omnibus_p": 0.0036,
+  "z": {
+   "oun": -0.01,
+   "de": 2.73,
+   "kai": -0.83,
+   "asyndeton": -0.57,
+   "hist_present_legei": 1.69,
+   "ekeinos": -1.29,
+   "hina": 0.53,
+   "ho_iesous": 2.89,
+   "meta_touto": 2.07,
+   "palin": 0.42,
+   "ioudaioi": -0.83,
+   "words_per_verse": -2.44
+  },
+  "feature_p": {
+   "oun": 0.9916,
+   "de": 0.005,
+   "kai": 0.4038,
+   "asyndeton": 0.6236,
+   "hist_present_legei": 0.0706,
+   "ekeinos": 0.219,
+   "hina": 0.6176,
+   "ho_iesous": 0.0014,
+   "meta_touto": 0.022,
+   "palin": 0.7256,
+   "ioudaioi": 0.4194,
+   "words_per_verse": 0.0046
+  },
+  "significant_after_BH": [
+   "de",
+   "ho_iesous",
+   "words_per_verse"
+  ],
+  "source_rates": {
+   "oun": 1.7,
+   "de": 2.21,
+   "kai": 4.79,
+   "asyndeton": 28.57,
+   "hist_present_legei": 1.64,
+   "ekeinos": 0.25,
+   "hina": 0.95,
+   "ho_iesous": 2.02,
+   "meta_touto": 0.19,
+   "palin": 0.32,
+   "ioudaioi": 0.44,
+   "words_per_verse": 16.17
+  },
+  "null_mean": {
+   "oun": 1.71,
+   "de": 1.55,
+   "kai": 5.31,
+   "asyndeton": 32.09,
+   "hist_present_legei": 0.92,
+   "ekeinos": 0.47,
+   "hina": 0.8,
+   "ho_iesous": 1.18,
+   "meta_touto": 0.08,
+   "palin": 0.26,
+   "ioudaioi": 0.67,
+   "words_per_verse": 18.11
+  },
+  "source_narrative_share": 0.59
+ },
+ "power_check_mark": {
+  "omnibus_Q": 152.27,
+  "omnibus_p": 0.0002,
+  "z": {
+   "oun": -4.17,
+   "de": -2.13,
+   "kai": 9.58,
+   "asyndeton": -3.75,
+   "hist_present_legei": 1.32,
+   "ekeinos": -1.94,
+   "hina": -0.9,
+   "ho_iesous": -2.22,
+   "meta_touto": -1.11,
+   "palin": 0.2,
+   "ioudaioi": -2.54,
+   "words_per_verse": -2.36
+  },
+  "feature_p": {
+   "oun": 0.0,
+   "de": 0.0322,
+   "kai": 0.0,
+   "asyndeton": 0.0,
+   "hist_present_legei": 0.1698,
+   "ekeinos": 0.0572,
+   "hina": 0.3796,
+   "ho_iesous": 0.0216,
+   "meta_touto": 0.4834,
+   "palin": 0.7928,
+   "ioudaioi": 0.012,
+   "words_per_verse": 0.0182
+  },
+  "significant_after_BH": [
+   "oun",
+   "kai",
+   "asyndeton",
+   "ho_iesous",
+   "ioudaioi",
+   "words_per_verse"
+  ],
+  "source_rates": {
+   "oun": 0.0,
+   "de": 0.97,
+   "kai": 11.5,
+   "asyndeton": 7.79,
+   "hist_present_legei": 1.21,
+   "ekeinos": 0.08,
+   "hina": 0.56,
+   "ho_iesous": 0.4,
+   "meta_touto": 0.0,
+   "palin": 0.24,
+   "ioudaioi": 0.0,
+   "words_per_verse": 16.14
+  },
+  "null_mean": {
+   "oun": 1.62,
+   "de": 1.59,
+   "kai": 5.31,
+   "asyndeton": 31.53,
+   "hist_present_legei": 0.74,
+   "ekeinos": 0.46,
+   "hina": 0.83,
+   "ho_iesous": 1.09,
+   "meta_touto": 0.07,
+   "palin": 0.22,
+   "ioudaioi": 0.65,
+   "words_per_verse": 17.77
+  },
+  "source_narrative_share": 0.62
+ },
+ "exploratory_genre_control_mark_miracles_vs_mark": {
+  "omnibus_Q": 20.23,
+  "omnibus_p": 0.075,
+  "z": {
+   "oun": -0.91,
+   "de": -1.33,
+   "kai": 2.5,
+   "asyndeton": -1.06,
+   "hist_present_legei": 2.87,
+   "ekeinos": -0.79,
+   "hina": -0.12,
+   "ho_iesous": -0.38,
+   "meta_touto": 0.0,
+   "palin": -0.31,
+   "ioudaioi": -0.69,
+   "words_per_verse": -0.85
+  },
+  "feature_p": {
+   "oun": 0.6096,
+   "de": 0.178,
+   "kai": 0.0092,
+   "asyndeton": 0.3432,
+   "hist_present_legei": 0.0032,
+   "ekeinos": 0.4918,
+   "hina": 0.9144,
+   "ho_iesous": 0.732,
+   "meta_touto": 1.0,
+   "palin": 0.807,
+   "ioudaioi": 0.7608,
+   "words_per_verse": 0.3946
+  },
+  "significant_after_BH": [
+   "hist_present_legei"
+  ],
+  "source_rates": {
+   "oun": 0.0,
+   "de": 0.97,
+   "kai": 11.5,
+   "asyndeton": 7.79,
+   "hist_present_legei": 1.21,
+   "ekeinos": 0.08,
+   "hina": 0.56,
+   "ho_iesous": 0.4,
+   "meta_touto": 0.0,
+   "palin": 0.24,
+   "ioudaioi": 0.0,
+   "words_per_verse": 16.14
+  },
+  "null_mean": {
+   "oun": 0.06,
+   "de": 1.54,
+   "kai": 9.2,
+   "asyndeton": 12.79,
+   "hist_present_legei": 0.59,
+   "ekeinos": 0.21,
+   "hina": 0.59,
+   "ho_iesous": 0.49,
+   "meta_touto": 0.0,
+   "palin": 0.3,
+   "ioudaioi": 0.07,
+   "words_per_verse": 16.77
+  },
+  "source_narrative_share": 0.62
+ },
+ "exploratory_same_direction": {
+  "de": false,
+  "hist_present_legei": true,
+  "ho_iesous": false,
+  "meta_touto": false
+ },
+ "exploratory_without_genre_and_boundary_features": {
+  "omnibus_Q": 26.7,
+  "omnibus_p": 0.0114,
+  "z": {
+   "oun": 0.22,
+   "de": 2.43,
+   "kai": -0.38,
+   "asyndeton": -0.12,
+   "ekeinos": -0.87,
+   "hina": -0.13,
+   "ho_iesous": 3.71,
+   "palin": 0.78,
+   "ioudaioi": -1.34,
+   "words_per_verse": -1.91
+  },
+  "feature_p": {
+   "oun": 0.8546,
+   "de": 0.0106,
+   "kai": 0.7088,
+   "asyndeton": 0.9354,
+   "ekeinos": 0.4,
+   "hina": 0.9082,
+   "ho_iesous": 0.0002,
+   "palin": 0.4436,
+   "ioudaioi": 0.185,
+   "words_per_verse": 0.047
+  },
+  "significant_after_BH": [
+   "ho_iesous"
+  ],
+  "source_rates": {
+   "oun": 1.77,
+   "de": 2.14,
+   "kai": 4.99,
+   "asyndeton": 31.25,
+   "ekeinos": 0.32,
+   "hina": 0.8,
+   "ho_iesous": 2.09,
+   "palin": 0.32,
+   "ioudaioi": 0.38,
+   "words_per_verse": 16.65
+  },
+  "null_mean": {
+   "oun": 1.69,
+   "de": 1.56,
+   "kai": 5.18,
+   "asyndeton": 31.95,
+   "ekeinos": 0.46,
+   "hina": 0.84,
+   "ho_iesous": 1.13,
+   "palin": 0.23,
+   "ioudaioi": 0.73,
+   "words_per_verse": 17.95
+  },
+  "source_narrative_share": 0.6
+ },
+ "exploratory_power_check_same_features": {
+  "omnibus_Q": 150.7,
+  "omnibus_p": 0.0002,
+  "z": {
+   "oun": -4.22,
+   "de": -2.15,
+   "kai": 9.59,
+   "asyndeton": -3.73,
+   "ekeinos": -1.99,
+   "hina": -0.91,
+   "ho_iesous": -2.27,
+   "palin": 0.19,
+   "ioudaioi": -2.6,
+   "words_per_verse": -2.35
+  },
+  "feature_p": {
+   "oun": 0.0,
+   "de": 0.029,
+   "kai": 0.0,
+   "asyndeton": 0.0002,
+   "ekeinos": 0.0518,
+   "hina": 0.3746,
+   "ho_iesous": 0.0208,
+   "palin": 0.7788,
+   "ioudaioi": 0.0072,
+   "words_per_verse": 0.0164
+  },
+  "significant_after_BH": [
+   "oun",
+   "de",
+   "kai",
+   "asyndeton",
+   "ho_iesous",
+   "ioudaioi",
+   "words_per_verse"
+  ],
+  "source_rates": {
+   "oun": 0.0,
+   "de": 0.97,
+   "kai": 11.5,
+   "asyndeton": 7.79,
+   "ekeinos": 0.08,
+   "hina": 0.56,
+   "ho_iesous": 0.4,
+   "palin": 0.24,
+   "ioudaioi": 0.0,
+   "words_per_verse": 16.14
+  },
+  "null_mean": {
+   "oun": 1.63,
+   "de": 1.59,
+   "kai": 5.3,
+   "asyndeton": 31.5,
+   "ekeinos": 0.46,
+   "hina": 0.84,
+   "ho_iesous": 1.1,
+   "palin": 0.22,
+   "ioudaioi": 0.66,
+   "words_per_verse": 17.79
+  },
+  "source_narrative_share": 0.62
+ },
+ "decision": "SOURCE DETECTED | power check passed"
+}

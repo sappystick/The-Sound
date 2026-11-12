@@ -635,3 +635,17 @@ Write-ups:
 - **Beale ciphers.** The pipeline is validated on cipher 2: the Declaration key scores −5.40, against wrong keys at −7.37 (best −6.73). Gillogly's alphabet run reproduced ("defghiijklmmno", 0.2% in shuffles). **New: every KJV chapter start ruled out as the key for ciphers 1 and 3** (best −6.96 and −6.85, inside the wrong-key range).
 - **Copper Scroll.** Greek groups and letter values listed (ΚΕΝ 75, ΧΑΓ 604 …). The only testable pairing, ΚΕΝ after 17 talents, does not support "letters = amounts". The full test needs an edition's transcription.
 - **Ranked map of real mysteries:** Antikythera, the Signs Gospel and Voynich are next.
+
+## BA. Round 74 (`mysteries/ROUND74.md`): Copper Scroll, Antikythera, Signs Gospel
+
+- **Copper Scroll** (Milik 1960, as data):
+  - The 7 Greek groups all fall in entries 1–17 of 64 (p = 3.1e-5).
+  - Only 3 of 7 are in Greek-numeral order (chance gives 2.8), so they are very probably not numbers.
+  - No group equals its own entry's amount.
+  - Amounts repeat stock values far above chance (p = 0.0002).
+- **Antikythera** (FCI readings confirmed in *Almagest* 7.1):
+  - The chosen period relations are not the most accurate buildable ones, but each is a very simple Babylonian combination. For the two relations read on the Mechanism, chance ≈ 0.03.
+  - The economy criterion is not distinctive (p = 0.80).
+- **Signs Gospel** (pre-registered): SOURCE DETECTED, p = 0.0004, and the power check on Mark passes.
+  - The genre control in Mark shows that only the historic present is a genre feature.
+  - The core signal is ὁ Ἰησοῦς plus δέ; p = 0.011 without the doubtful features.

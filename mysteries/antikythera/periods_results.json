@@ -1,0 +1,275 @@
+{
+ "Mercury": {
+  "relation": [
+   1513,
+   480
+  ],
+  "source": "reconstructed",
+  "factors": [
+   [
+    17,
+    89
+   ],
+   [
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    5
+   ]
+  ],
+  "modern_synodic_days": 115.8791,
+  "relation_synodic_days": 115.8733,
+  "error_days_per_cycle": -0.0058,
+  "error_deg_per_century": -5.681,
+  "coprime_relations_y_le_500_more_accurate": 24,
+  "rank_among_factorizable_y_le_500": 6,
+  "factorizable_candidates": 105,
+  "best_factorizable": [
+   [
+    249,
+    79,
+    0.965125
+   ],
+   [
+    1037,
+    329,
+    1.805124
+   ],
+   [
+    851,
+    270,
+    2.652924
+   ]
+  ],
+  "babylonian_combination": {
+   "(145, 46)": -8,
+   "(2673, 848)": 1
+  }
+ },
+ "Venus": {
+  "relation": [
+   289,
+   462
+  ],
+  "source": "read in the FCI",
+  "factors": [
+   [
+    17,
+    17
+   ],
+   [
+    2,
+    3,
+    7,
+    11
+   ]
+  ],
+  "modern_synodic_days": 583.9577,
+  "relation_synodic_days": 583.882,
+  "error_days_per_cycle": -0.0757,
+  "error_deg_per_century": -2.921,
+  "coprime_relations_y_le_500_more_accurate": 14,
+  "rank_among_factorizable_y_le_500": 7,
+  "factorizable_candidates": 160,
+  "best_factorizable": [
+   [
+    172,
+    275,
+    0.195718
+   ],
+   [
+    162,
+    259,
+    0.815184
+   ],
+   [
+    182,
+    291,
+    1.095456
+   ]
+  ],
+  "babylonian_combination": {
+   "(5, 8)": 1,
+   "(720, 1151)": 2
+  }
+ },
+ "Mars": {
+  "relation": [
+   133,
+   284
+  ],
+  "source": "reconstructed",
+  "factors": [
+   [
+    7,
+    19
+   ],
+   [
+    2,
+    2,
+    71
+   ]
+  ],
+  "modern_synodic_days": 779.8509,
+  "relation_synodic_days": 779.9157,
+  "error_days_per_cycle": 0.0647,
+  "error_deg_per_century": 1.399,
+  "coprime_relations_y_le_500_more_accurate": 4,
+  "rank_among_factorizable_y_le_500": 5,
+  "factorizable_candidates": 171,
+  "best_factorizable": [
+   [
+    37,
+    79,
+    0.205557
+   ],
+   [
+    207,
+    442,
+    0.825452
+   ],
+   [
+    170,
+    363,
+    1.049831
+   ]
+  ],
+  "babylonian_combination": {
+   "(22, 47)": 0,
+   "(37, 79)": 0,
+   "(133, 284)": 1
+  }
+ },
+ "Jupiter": {
+  "relation": [
+   315,
+   344
+  ],
+  "source": "reconstructed",
+  "factors": [
+   [
+    3,
+    3,
+    5,
+    7
+   ],
+   [
+    2,
+    2,
+    2,
+    43
+   ]
+  ],
+  "modern_synodic_days": 398.8645,
+  "relation_synodic_days": 398.8677,
+  "error_days_per_cycle": 0.0031,
+  "error_deg_per_century": 0.258,
+  "coprime_relations_y_le_500_more_accurate": 1,
+  "rank_among_factorizable_y_le_500": 1,
+  "factorizable_candidates": 143,
+  "best_factorizable": [
+   [
+    315,
+    344,
+    0.258402
+   ],
+   [
+    391,
+    427,
+    0.503492
+   ],
+   [
+    413,
+    451,
+    1.365931
+   ]
+  ],
+  "babylonian_combination": {
+   "(65, 71)": 0,
+   "(76, 83)": -1,
+   "(391, 427)": 1
+  }
+ },
+ "Saturn": {
+  "relation": [
+   427,
+   442
+  ],
+  "source": "read in the FCI",
+  "factors": [
+   [
+    7,
+    61
+   ],
+   [
+    2,
+    13,
+    17
+   ]
+  ],
+  "modern_synodic_days": 378.0919,
+  "relation_synodic_days": 378.0727,
+  "error_days_per_cycle": -0.0192,
+  "error_deg_per_century": -1.766,
+  "coprime_relations_y_le_500_more_accurate": 9,
+  "rank_among_factorizable_y_le_500": 4,
+  "factorizable_candidates": 144,
+  "best_factorizable": [
+   [
+    483,
+    500,
+    0.515011
+   ],
+   [
+    256,
+    265,
+    0.843508
+   ],
+   [
+    142,
+    147,
+    1.004818
+   ]
+  ],
+  "babylonian_combination": {
+   "(57, 59)": 3,
+   "(256, 265)": 1
+  }
+ },
+ "economy": {
+  "planet_pairs_sharing_a_prime_in_synodic_count": 4,
+  "null_mean": 5.58,
+  "p_at_least_as_many": 0.7989,
+  "pools": "factorizable relations with 100 <= y <= 500 and error under 5 deg/century"
+ },
+ "babylonian_control": {
+  "Mercury": {
+   "combination_weight": 9,
+   "comparable_relations": 5,
+   "share_that_are_as_simple_combinations": 0.2
+  },
+  "Venus": {
+   "combination_weight": 3,
+   "comparable_relations": 13,
+   "share_that_are_as_simple_combinations": 0.077
+  },
+  "Mars": {
+   "combination_weight": 1,
+   "comparable_relations": 13,
+   "share_that_are_as_simple_combinations": 0.077
+  },
+  "Jupiter": {
+   "combination_weight": 2,
+   "comparable_relations": 9,
+   "share_that_are_as_simple_combinations": 0.333
+  },
+  "Saturn": {
+   "combination_weight": 4,
+   "comparable_relations": 8,
+   "share_that_are_as_simple_combinations": 0.375
+  }
+ }
+}

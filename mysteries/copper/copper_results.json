@@ -1,0 +1,195 @@
+{
+ "T1_position": {
+  "entries": [
+   1,
+   4,
+   6,
+   7,
+   10,
+   14,
+   17
+  ],
+  "all_within_first": 17,
+  "p_exact": 3.1306331435739525e-05,
+  "note": "probability that 7 of 64 entries chosen at random all fall within the first 17"
+ },
+ "T2_numeral_order": {
+  "groups": [
+   "ΚΕΝ",
+   "ΧΑΓ",
+   "ΗΝ",
+   "ΘΕ",
+   "ΔΙ",
+   "ΤΡ",
+   "ΣΚ"
+  ],
+  "in_descending_numeral_order": [
+   "ΘΕ",
+   "ΤΡ",
+   "ΣΚ"
+  ],
+  "count": 3,
+  "expected_if_random_order": 2.83,
+  "p_as_many_or_fewer": 0.706,
+  "note": "standard numerals would be ALL descending (7 of 7)"
+ },
+ "T3_values": {
+  "values": {
+   "ΚΕΝ": 75,
+   "ΧΑΓ": 604,
+   "ΗΝ": 58,
+   "ΘΕ": 14,
+   "ΔΙ": 14,
+   "ΤΡ": 400,
+   "ΣΚ": 220
+  },
+  "own_entry_amounts": {
+   "ΚΕΝ": 17,
+   "ΧΑΓ": 7.1,
+   "ΗΝ": 42,
+   "ΘΕ": null,
+   "ΔΙ": 10,
+   "ΤΡ": 40,
+   "ΣΚ": 14
+  },
+  "equal_to_own_amount": [],
+  "equal_to_some_amount_in_scroll": [
+   [
+    "ΘΕ",
+    14
+   ],
+   [
+    "ΔΙ",
+    14
+   ],
+   [
+    "ΤΡ",
+    400
+   ]
+  ],
+  "p_this_many_hits_by_chance": 0.078
+ },
+ "T4_numbers": {
+  "entries_with_talents": 44,
+  "total_talents": 4332.93,
+  "largest": [
+   200,
+   400,
+   600,
+   900,
+   900
+  ],
+  "repeated_values": {
+   "17": 3,
+   "900": 2,
+   "40": 3,
+   "42": 3,
+   "70": 3,
+   "22": 4,
+   "12": 2,
+   "60": 3,
+   "9": 2
+  },
+  "repeats": 16,
+  "null_mean_repeats": 5.87,
+  "p_repeats": 0.0002,
+  "multiples_of_10": "16/44",
+  "depths": {
+   "40": 1,
+   "3": 7,
+   "4": 1,
+   "9": 3,
+   "16": 2,
+   "7": 3,
+   "12": 2,
+   "6": 1,
+   "17": 1,
+   "24": 1,
+   "11": 1,
+   "2": 1,
+   "8": 1
+  }
+ },
+ "T5_places": {
+  "Mount Garizin (entry 61)": {
+   "latlon": [
+    32.1997,
+    35.273
+   ],
+   "code": "morepapudemege =sw-li-kea-po-ry",
+   "spoken": "mow red pat pool deck men get check saw leaf keg-at pole ray"
+  },
+  "Bet-Shan, fountain (62)": {
+   "latlon": [
+    32.5005,
+    35.4983
+   ],
+   "code": "morebepyratedo =me-tea-go-bya-poa",
+   "spoken": "mow red bed pay rat tell dough check men tell-at goat bay-at pole-at"
+  },
+  "Pool of Siloah (51)": {
+   "latlon": [
+    31.7706,
+    35.2353
+   ],
+   "code": "monepuromysyde =li-bi-tia-su-ne",
+   "spoken": "mow net pool row may say deck check leaf bee tea-at soup net"
+  },
+  "Hand of Absalom (50)": {
+   "latlon": [
+    31.7766,
+    35.2388
+   ],
+   "code": "monepuronogetw =ky-tu-baa-pa-bia",
+   "spoken": "mow net pool row no get tall check cake tune bat-at pat bee-at"
+  },
+  "Gorge of ha-Qedron (37)": {
+   "latlon": [
+    31.772,
+    35.24
+   ],
+   "code": "monepuronipitu =du-ke-ti-koa-be",
+   "spoken": "mow net pool row need pea tune check dew keg tea coat-at bed"
+  },
+  "Kephar Nebo, Mount Nebo (44)": {
+   "latlon": [
+    31.7676,
+    35.7253
+   ],
+   "code": "monedurapykoty =ne-kia-so-ku-my",
+   "spoken": "mow net dew rat pay coat tape check net key-at so cool may"
+  },
+  "Bet Horon (42)": {
+   "latlon": [
+    31.886,
+    35.13
+   ],
+   "code": "monepwtylwloke =rw-tu-ry-toa-pu",
+   "spoken": "mow net paw tape law low keg check raw tune ray toe-at pool"
+  },
+  "Jericho, road to Sekaka (26)": {
+   "latlon": [
+    31.871,
+    35.444
+   ],
+   "code": "monebwtenydiku =mo-no-hi-ma-pya",
+   "spoken": "mow net ball tell name deep cool check mow no heat map pay-at"
+  },
+  "Valley of Achor, el-Buqeia (1, proposed)": {
+   "latlon": [
+    31.725,
+    35.415
+   ],
+   "code": "monebumetodoba =ko-mi-ku-du-ni",
+   "spoken": "mow net boot men toe dough bat check coat meet cool dew need"
+  },
+  "Khirbet Qumran, where the scroll was found": {
+   "latlon": [
+    31.741,
+    35.459
+   ],
+   "code": "monebunehenwnu =be-ke-poa-bi-pia",
+   "spoken": "mow net boot net hen gnaw new check bed keg pole-at bee pea-at"
+  }
+ }
+}

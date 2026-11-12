@@ -1,0 +1,87 @@
+{
+ "address": {
+  "canonical": "ke-gu-mo-mw-lo-ta-ma-py-tw-ke-gy-le-mi =re-gy-me-kwa-koa",
+  "english": "keg goose mow mall low tap map pay tall keg gate let meet check red gate men call-at coat-at",
+  "two_words_misheard": "keg goose moon mall low tap map tea tall keg gate let meet check red gate men call-at coat-at",
+  "recovered": true,
+  "words_repaired": 2
+ },
+ "block1": {
+  "register the work": {
+   "ok": true,
+   "work": "df160cdd5d7318e034119d1c6f3cd63912c634e76fad6a0ee396e2a2b30a289d",
+   "seal": "goma",
+   "gas": 27
+  },
+  "fan pays 5000 into the work": {
+   "ok": true,
+   "payout": [
+    2500,
+    1500,
+    1000
+   ],
+   "gas": 32
+  },
+  "fan pays 1001 (the payout would need fractions)": {
+   "ok": false,
+   "error": "plane i holds 500.5: the chain allows exact integers only"
+  },
+  "oracle reports 1000 plays": {
+   "ok": true
+  },
+  "fan pretends to be the oracle": {
+   "ok": false,
+   "error": "only the oracle reports plays"
+  },
+  "pure computation: gcd(84, 36) with the built-in :kagi": {
+   "ok": true,
+   "gas": 15,
+   "i": [
+    12.0
+   ],
+   "out": [
+    "12"
+   ]
+  },
+  "the same gcd with the KANON-written :kegi (a while-loop)": {
+   "ok": false,
+   "error": "rejected before execution: while-loop la has no bound"
+  },
+  "unbounded loop": {
+   "ok": false,
+   "error": "rejected before execution: while-loop li has no bound"
+  },
+  "fan transfers 250 to the artist": {
+   "ok": true
+  }
+ },
+ "block2": {
+  "artist sells the work to the label": {
+   "ok": true
+  }
+ },
+ "work_state": {
+  "seal": "goma",
+  "owner_is_label": true,
+  "plays": 1000,
+  "revenue": 5000,
+  "shares": [
+   50,
+   30,
+   20
+  ]
+ },
+ "balances": {
+  "artist": 2850,
+  "producer": 1500,
+  "label": 1000,
+  "fan": 4750
+ },
+ "readback_examples": [
+  "pay two five zero (250) to keg tap cat get row reed pole row may hawk gate rat goose check gate dad-at pet hat hope",
+  "pay five zero zero zero (5000) into the work sealed goma",
+  "run key seven zero stop cat three zero stop bee-at stop use cat-geese stop use dad-sat"
+ ],
+ "replay_clean": true,
+ "replay_after_tampering_detected_at_height": 1
+}

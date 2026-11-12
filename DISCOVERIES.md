@@ -604,3 +604,12 @@ Write-ups:
 
   All of it hangs on one source hash, and re-rendering reproduces the audio, frame, contract and id hashes exactly.
 - **Crypto.** Self-repairing seed phrases (leakage of about 6.8 bits per parity word noted), speak-to-confirm transactions, and anchoring a work's hash on a chain. Oracle and legal limits are stated.
+
+## AW. Round 70 (`lang4d/CHAIN.md`): a KANON blockchain, prototype and verdict
+
+- **Verdict.** It is not worth building as a new layer-1; consensus is solved elsewhere and KANON adds nothing there. It is worth building as a KANON execution layer (an app rollup) on an established chain. The novelty is human-side:
+  - voice-native, error-corrected, readback-signed transactions (they survive GSM);
+  - works as single-source multi-channel objects;
+  - a tiny integer VM that is cheap to prove.
+- **Prototype** (`chain/kanonchain.py`). Ed25519 accounts, speakable addresses (200 of 200 repaired with 2 misheard words), signed verse transactions, gas from the static checker before execution, an exact-integer VM profile, works registered and paid by their own contract (5,000 → 2,500 / 1,500 / 1,000), oracle-only statistics, ownership transfer, and replay validation with tamper detection.
+- **Problems found:** floats cannot be on a chain; library words need cost models; the while-loop prelude is not chain-legal; base-twelve money is unusable; skin words collide with canonical spellings; voice is not authentication.

@@ -1,0 +1,118 @@
+{
+ "sections": [
+  "H",
+  "P",
+  "B",
+  "A",
+  "S",
+  "C"
+ ],
+ "section_text_words": {
+  "H": 9983,
+  "P": 2140,
+  "B": 5775,
+  "A": 268,
+  "S": 10789,
+  "C": 620
+ },
+ "section_label_words": {
+  "H": 30,
+  "P": 245,
+  "B": 83,
+  "A": 144,
+  "S": 0,
+  "C": 55
+ },
+ "M1_label_matches_own_section": {
+  "confusion_rows_label_section_to_text_section": {
+   "H": {
+    "H": 0.633,
+    "P": 0.033,
+    "B": 0.133,
+    "A": 0.133,
+    "S": 0.067,
+    "C": 0.0
+   },
+   "P": {
+    "H": 0.571,
+    "P": 0.086,
+    "B": 0.061,
+    "A": 0.131,
+    "S": 0.09,
+    "C": 0.061
+   },
+   "B": {
+    "H": 0.53,
+    "P": 0.06,
+    "B": 0.072,
+    "A": 0.072,
+    "S": 0.169,
+    "C": 0.096
+   },
+   "A": {
+    "H": 0.556,
+    "P": 0.09,
+    "B": 0.021,
+    "A": 0.181,
+    "S": 0.083,
+    "C": 0.069
+   },
+   "S": {
+    "H": 0.0,
+    "P": 0.0,
+    "B": 0.0,
+    "A": 0.0,
+    "S": 0.0,
+    "C": 0.0
+   },
+   "C": {
+    "H": 0.491,
+    "P": 0.109,
+    "B": 0.0,
+    "A": 0.164,
+    "S": 0.109,
+    "C": 0.127
+   }
+  },
+  "mean_diagonal": 0.22,
+  "null_mean": 0.15,
+  "p": 0.003,
+  "reading": "diagonal high = labels sit in the right section (correct labeling). Strong off-diagonal = systematic displacement."
+ },
+ "M2_transposition_viability": {
+  "H": {
+   "label_types": 19,
+   "share_in_running_text": 0.421
+  },
+  "P": {
+   "label_types": 231,
+   "share_in_running_text": 0.372
+  },
+  "B": {
+   "label_types": 77,
+   "share_in_running_text": 0.662
+  },
+  "A": {
+   "label_types": 138,
+   "share_in_running_text": 0.486
+  },
+  "S": {
+   "label_types": 0,
+   "share_in_running_text": 0.0
+  },
+  "C": {
+   "label_types": 54,
+   "share_in_running_text": 0.537
+  }
+ },
+ "M2_note": "If labels were displaced pieces of the running text (a transposition code), ~100% of label types would occur in the text. Types exclusive to labels cannot come from transposing the text.",
+ "IMAGE_ANCHOR_stageC_probe2": {
+  "status": "ok",
+  "herbal_folios": 70,
+  "mantel_r_visual_vs_text": 0.098,
+  "null_mean": 0.0,
+  "p": 0.078,
+  "caveat": "crude ink-shape features; a null may mean weak features, not absence of an anchor",
+  "reading": "r>0 and p<0.05 = visually similar plants get similar text (an image anchor exists)"
+ }
+}

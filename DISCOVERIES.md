@@ -741,3 +741,8 @@ Write-ups:
 - **Weak counter-signal:** labels within one diagram form a slightly tighter family than random (p 0.002, effect +0.015) - structured, possibly section style rather than meaning.
 - **Gate C NOT met:** 0 of a required 5 label->referent anchors found via the only externally measurable referent (position). Anchor-probe failure #1; the remaining probe is image/picture identity (Beinecke IIIF), the decider between a pictorially-anchored content system and an empty topic-imitator.
 - **Frontier:** the Voynich carries coarse page-topic meaning but resists fine label anchoring - the wall mapped precisely.
+
+## AW. Round 85 (`mysteries/ROUND85.md`): image-anchor + mislabeling/displacement tests
+- **Mislabeling idea (user), tested two ways:** (M1) labels match their OWN section slightly more than chance (diagonal 0.22 vs null 0.15, p 0.003) - weakly correct, NO systematic displacement to another section; (M2) 34-63% of label words never occur in the running text, so labels are NOT recycled/transposed text. The transposition-via-mislabeling code is not supported; only a vision-dependent picture<->label permutation remains open.
+- **Image anchor (Stage C probe 2):** within the herbal section, crude ink-shape features vs text give Mantel r 0.10, p 0.078 - a weak, non-significant hint that plant appearance tracks text; feature-limited.
+- **Gate C unmet** (no anchor at p<0.01) but not declared empty: probe 2 is a feature-limited hint. The deciding instrument is a real vision model on the plant drawings - the true bottleneck.

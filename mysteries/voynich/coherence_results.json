@@ -1,0 +1,159 @@
+{
+ "C_body_consecutive_pages": {
+  "consecutive": 0.3628,
+  "random_same_section": 0.288,
+  "p": 0.002
+ },
+ "C_page_Voynich": {
+  "pages": 197,
+  "own_halves_jsd": 0.7757,
+  "cross_page_jsd": 0.8383,
+  "p": 0.005
+ },
+ "C_page_Greek John": {
+  "pages": 169,
+  "own_halves_jsd": 0.7146,
+  "cross_page_jsd": 0.7887,
+  "p": 0.005
+ },
+ "C_page_English John": {
+  "pages": 203,
+  "own_halves_jsd": 0.6551,
+  "cross_page_jsd": 0.7409,
+  "p": 0.005
+ },
+ "C_page_Latin Macer": {
+  "pages": 160,
+  "own_halves_jsd": 0.8942,
+  "cross_page_jsd": 0.914,
+  "p": 0.005
+ },
+ "C_line_root_sharing": {
+  "within_line": 0.0563,
+  "across_adjacent_lines": 0.0562,
+  "identical_within": 0.0092,
+  "identical_across": 0.0082,
+  "z": 0.26
+ },
+ "D1_glyph_direction": {
+  "Voynich": {
+   "forward_bits_per_glyph": 1.9662,
+   "backward_bits_per_glyph": 1.9659,
+   "asymmetry_backward_minus_forward": -0.0003
+  },
+  "Greek John": {
+   "forward_bits_per_glyph": 2.202,
+   "backward_bits_per_glyph": 2.2049,
+   "asymmetry_backward_minus_forward": 0.0029
+  },
+  "English John": {
+   "forward_bits_per_glyph": 2.0558,
+   "backward_bits_per_glyph": 2.0589,
+   "asymmetry_backward_minus_forward": 0.0031
+  },
+  "Latin Macer": {
+   "forward_bits_per_glyph": 2.349,
+   "backward_bits_per_glyph": 2.3552,
+   "asymmetry_backward_minus_forward": 0.0062
+  }
+ },
+ "C_word_internal": {
+  "real_bits_per_glyph": 2.116,
+  "glyph_shuffled": 7.916
+ },
+ "D2_word_direction": {
+  "Voynich": {
+   "forward_gain": -0.4151,
+   "backward_gain": -0.417
+  },
+  "Greek John": {
+   "forward_gain": 0.9902,
+   "backward_gain": 1.0096
+  },
+  "English John": {
+   "forward_gain": 1.0619,
+   "backward_gain": 1.0736
+  },
+  "Latin Macer": {
+   "forward_gain": 0.2405,
+   "backward_gain": 0.251
+  }
+ },
+ "D3_vertical": {
+  "identical_above": 0.01,
+  "null": 0.0083,
+  "p_identical": 0.0066,
+  "near_above": 0.0152,
+  "null_near": 0.0128,
+  "p_near": 0.0033
+ },
+ "O1_recto_verso": {
+  "pairs": 83,
+  "same_leaf": 0.4093,
+  "random_same_section": 0.2882,
+  "p": 0.002
+ },
+ "O2_bifolia": {
+  "conjugate_pairs": 49,
+  "conjugate_sim": 0.5294,
+  "adjacent_sim": 0.44,
+  "other_same_quire": 0.4622,
+  "p_conjugate_above_same_quire": 0.0055
+ },
+ "P1_offset": {
+  "agreement_by_offset": {
+   "-6": 0.348,
+   "-5": 0.372,
+   "-4": 0.385,
+   "-3": 0.388,
+   "-2": 0.421,
+   "-1": 0.443,
+   "0": 0.441,
+   "1": 0.433,
+   "2": 0.421,
+   "3": 0.413,
+   "4": 0.385,
+   "5": 0.367,
+   "6": 0.338
+  },
+  "best_nonzero": -1,
+  "p_best_beats_zero": 0.496
+ },
+ "P2_misfits": {
+  "misfit_pages": 114,
+  "of": 204,
+  "at_quire_boundaries": 23,
+  "null_mean": 17.96,
+  "p": 0.039,
+  "examples": [
+   "f1r picture T text reads as P",
+   "f1v picture H text reads as P",
+   "f2v picture H text reads as P",
+   "f3r picture H text reads as P",
+   "f3v picture H text reads as P",
+   "f4v picture H text reads as P",
+   "f5r picture H text reads as P",
+   "f5v picture H text reads as P",
+   "f6r picture H text reads as P",
+   "f6v picture H text reads as P",
+   "f7r picture H text reads as P",
+   "f7v picture H text reads as P",
+   "f8v picture H text reads as P",
+   "f10v picture H text reads as P",
+   "f14r picture H text reads as P",
+   "f15v picture H text reads as P",
+   "f17v picture H text reads as P",
+   "f18r picture H text reads as T",
+   "f19r picture H text reads as P",
+   "f19v picture H text reads as P"
+  ]
+ },
+ "O2_EXPLORATORY_same_hand_language_section": {
+  "conjugate_pairs": 47,
+  "conjugate_sim": 0.5362,
+  "other_pairs": 206,
+  "other_sim": 0.5347,
+  "p": 0.4698
+ },
+ "P_classifier_accuracy": 0.441
+}

@@ -792,3 +792,11 @@ Write-ups:
 - **Information budget:** about 12 bits per word, language-sized, but **the previous word does not help predict the next** (−0.45 bits, against +0.2 to +1.0 in Latin, Greek and English). That is no transferable word-to-word syntax: the clearest signature of a pool-writing constructed system.
 - **Low-rate channels:** the line-initial and gallows sequences carry order (p 0.001, surviving fixed paragraph openings). It is an **alternation**: consecutive lines avoid starting with the same glyph (7.6% against 14.4%). It is a layout rule, not a message. Paragraph-first words and every-7th words carry nothing.
 - **Unique-system control:** not done; no public Rohonc transcription was reachable.
+
+## BT. Round 93 (`mysteries/ROUND93.md`): coherence, reading direction, page order, pointers (pre-registered)
+
+- **Coherent body and pages:** consecutive pages share vocabulary (p 0.002). Page halves cohere like Greek, English and Latin controls (p 0.005). **Lines are not internally bound** (root sharing within a line equals that across lines). Words are highly structured (2.1 against 7.9 bits/glyph).
+- **No reading direction:** glyph and word predictability are identical forwards and backwards (−0.0003; every language prefers forward by +0.003 to +0.006). Weak vertical copying: a word repeats the one directly above it about 20% more than chance.
+- **Order:** the two sides of a leaf are alike. Bifolium conjugates look alike, but the effect vanishes within the same hand (p 0.47): it is the scribe, not a hidden order.
+- **Pointers:** text–picture agreement peaks at the page's own picture (no offset, p 0.50). No sign the pictures point elsewhere.
+- **Profile:** a topic-organised constructed system writing from subject word pools. Any meaning is in which words a page uses, not in sentences.

@@ -14,7 +14,7 @@ def load():
         h = re.match(r"<(f\d+[rv]\d*)>\s*<!([^>]*)>", ln)
         if h:
             d = dict(re.findall(r"\$([A-Z])=([A-Za-z0-9])", h.group(2))); cur = h.group(1)
-            pages[cur] = dict(I=d.get("I"), L=d.get("L"), H=d.get("H"), lines=[], paras=[], starts=[]); continue
+            pages[cur] = dict(I=d.get("I"), L=d.get("L"), H=d.get("H"), Q=d.get("Q"), B=d.get("B"), F=d.get("F"), lines=[], paras=[], starts=[]); continue
         m = re.match(r"<(f\d+[rv]\d*)\.\d+,([@&+*=])P\d*>\s*(.*)", ln)
         if not m or m.group(1) not in pages: continue
         ws = [c for c in (clean(w) for w in re.split(r"[.\s,]+", m.group(3))) if c and re.fullmatch(r"[a-z]+", c)]

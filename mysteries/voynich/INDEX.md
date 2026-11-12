@@ -27,6 +27,7 @@ The Voynich is treated as a **self-contained, one-of-a-kind system**.
 | **88** | **Reference-free long-range information** | **The text carries about 2× the long-range information of its null-content generator, and about 13× its shuffle.** There is real mid-range organisation | **B (pivotal)** |
 | 89 | Hidden-state model; content words | Eight drifting states do **not** reproduce it. The organisation lives in **bursty content words** (73% of frequent words clustered; each concentrated in one section) | B |
 | 90 | Concept clusters | The content words form 2 real communities that **re-derive the Currier A/B split** from co-occurrence alone. The association goes beyond morphology. Finer sub-topics are weak, in the herbal section only | B |
+| 93 | Coherence, direction, order, pointers (pre-registered) | Pages and page runs coherent like real texts; lines not bound; **no reading direction**; text sits with its own picture; sheet likeness = scribe | B / N |
 | 92 | Phrase anchors, budget, channels (pre-registered) | No A/B phrase anchors under any of 7 formulas; **no adjacent-word predictability** (−0.45 bits, against +0.2 to +1.0 in languages); consecutive lines alternate their initial glyph | N / B |
 | **91** | **A/B internal Rosetta (pre-registered)** | **INCONCLUSIVE:** word alignment from co-occurrence fails its own positive control, and even matches herbal-A with itself only 3% of the time. Exploratory: **38%** of the A/B difference is a systematic ending shift (-or → -edy, -ol → -dy); the rest is word choice | Pre-registered: inconclusive; exploratory: B |
 
@@ -72,6 +73,7 @@ The Voynich is treated as a **self-contained, one-of-a-kind system**.
 | `concepts.py` | Content-word co-occurrence communities with four controls |
 | `rosetta.py` | The A/B Rosetta test (pre-registered), refinement and rewrite rules |
 | `zl.py` | Shared loader for ZL3b-n (pages, metadata, lines, paragraph openings, affix split) |
+| `coherence.py` | Round 93: coherence by level, direction, page order, pointers |
 | `anchors.py`, `budget.py`, `channels.py` | Round 92: phrase anchors under 7 formulas; information budget; low-rate channels |
 
 ## Data

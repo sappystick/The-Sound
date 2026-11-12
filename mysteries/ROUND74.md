@@ -65,3 +65,16 @@ This is a real, specific, replicable signal worth a focused pre-registered follo
 - **Period-relation finder** (`antikythera/periods.py`): exhaustive search, buildability, Babylonian decomposition with chance controls.
 - **Matched-block style test with a power check and a genre control** (`signs/signs.py`): reusable for any source-criticism question.
 - **The Copper Scroll as data** (`copper/entries.py`): positional, numeral-order and repetition tests, and place codes.
+
+## Follow-up (pre-registered, `signs/PREREGISTRATION_2.md`, `signs/ho_iesous.py`): is ὁ Ἰησοῦς a source marker?
+| Test | Result |
+|---|---|
+| T1, refined measure on the core passages (share of Ἰησοῦς with the article) | 80% against 65% in the rest of John, p = 0.077: much weaker than the round-74 rate measure |
+| **T2, the wider Signs Source (1:19-49, 2:14-19, 4:4-42, 12:1-15, 18-19, 20:1-20)** | 69% against 62%, **p = 0.25: not significant** |
+| T3, genre in the Synoptics | No Gospel shows a significant rise in its miracle stories (Matthew p = 0.29, Luke p = 0.31; Mark leans the other way) |
+
+**Pre-registered decision: NOT SUPPORTED.** The round-74 "ὁ Ἰησοῦς" signal came mostly from Jesus being *named more often* in the miracle stories (a rate per 100 words), not from a source spelling his name differently. The direction is the same in the wider source passages (69% against 62%), but it is too weak to count.
+
+**What remains of round 74:** the overall stylistic difference of the core miracle stories (p = 0.0004) stands as measured. Its most specific feature did not extend to the rest of the proposed source. Status: **a half-finding**. The core sign stories differ, but no marker has been shown to carry over to the wider source.
+
+Descriptive by-product: Jesus appears without the article in 76 verses of John, most often in the formula ἀπεκρίθη Ἰησοῦς ("Jesus answered") and in chapters 18-20.

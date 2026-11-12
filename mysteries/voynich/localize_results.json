@@ -1,0 +1,122 @@
+{
+ "modes": {},
+ "groups": [
+  {
+   "language": "A",
+   "hand": "1",
+   "pages": 112,
+   "types": {
+    "T": 1,
+    "H": 95,
+    "P": 16
+   },
+   "full": {
+    "accuracy": 0.268,
+    "null_mean": 0.307,
+    "p": 0.638
+   },
+   "root": {
+    "accuracy": 0.17,
+    "null_mean": 0.304,
+    "p": 0.831
+   },
+   "affix": {
+    "accuracy": 0.25,
+    "null_mean": 0.292,
+    "p": 0.645
+   }
+  },
+  {
+   "language": "B",
+   "hand": "2",
+   "pages": 46,
+   "types": {
+    "H": 20,
+    "B": 19,
+    "T": 4,
+    "C": 3
+   },
+   "full": {
+    "accuracy": 0.522,
+    "null_mean": 0.22,
+    "p": 0.003
+   },
+   "root": {
+    "accuracy": 0.522,
+    "null_mean": 0.21,
+    "p": 0.003
+   },
+   "affix": {
+    "accuracy": 0.5,
+    "null_mean": 0.225,
+    "p": 0.02
+   }
+  },
+  {
+   "language": "B",
+   "hand": "3",
+   "pages": 28,
+   "types": {
+    "H": 6,
+    "S": 22
+   },
+   "full": {
+    "accuracy": 0.821,
+    "null_mean": 0.502,
+    "p": 0.043
+   },
+   "root": {
+    "accuracy": 0.857,
+    "null_mean": 0.492,
+    "p": 0.007
+   },
+   "affix": {
+    "accuracy": 0.786,
+    "null_mean": 0.497,
+    "p": 0.08
+   }
+  },
+  {
+   "language": "B",
+   "hand": "5",
+   "pages": 7,
+   "types": {
+    "H": 6,
+    "T": 1
+   },
+   "full": {
+    "accuracy": 0.0,
+    "null_mean": 0.446,
+    "p": 1.0
+   },
+   "root": {
+    "accuracy": 0.0,
+    "null_mean": 0.48,
+    "p": 1.0
+   },
+   "affix": {
+    "accuracy": 0.0,
+    "null_mean": 0.445,
+    "p": 1.0
+   }
+  }
+ ],
+ "pooled": {
+  "full": {
+   "accuracy": 0.399,
+   "null_mean": 0.32,
+   "p": 0.156
+  },
+  "root": {
+   "accuracy": 0.347,
+   "null_mean": 0.315,
+   "p": 0.346
+  },
+  "affix": {
+   "accuracy": 0.378,
+   "null_mean": 0.311,
+   "p": 0.189
+  }
+ },
+ "interpretation": "If ROOT accuracy >> null and AFFIX accuracy approx null, the topic signal lives in the root slot and the prefix/suffix machinery is content-free - so a decipherment should target roots, not whole words."
+}

@@ -723,3 +723,9 @@ Write-ups:
 - **What it fixed:** one-off word forms per page now match exactly (0.281). The line-position signal is closer.
 - **Overall fit:** over 8 seeded runs it ties with round 80's short-range generator (2.59 ± 0.41 against 2.53 ± 0.35). The shared affixes weaken the section signal.
 - **Still unmatched by any generator:** real pages almost never reuse a rare word (0.19 against 0.33).
+
+## AT. Round 82 (`mysteries/voynich/PLAN.md`, `localize.py`): the unified Voynich plan + meaning-localization pilot
+- **Synthesis:** the Voynich is a constrained generative writing system (slots + self-citation) that still carries topic-level meaning (words track pictures, 90.8%). Central question reframed as meaning-bearing vs empty vs hybrid, with pre-registered decision gates.
+- **New data:** the ZL3b-n reference transliteration with page metadata ($I illustration, $L language, $H hand, $Q quire).
+- **Pilot (V, partial):** in Currier-B sections the word ROOT carries >= the topic signal of the whole word (hand 3: root 0.86 vs full 0.82, p 0.007); affixes are not pure noise; the herbal section needs anchor-level (not page-topic) targets.
+- **Plan:** a 10-angle matrix, a 5-stage gated decipherment pipeline, a provenance dossier, and the key tie-in - the Voynich generation method, Llull's wheels, Sefer Yetzirah's 231 gates (our round 39) and KANON are the same combinatorial idea, three of whose engines we already built.

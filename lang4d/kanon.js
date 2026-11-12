@@ -30,6 +30,7 @@
     return out;
   }
   function parse(src) {
+    src = src.replace(/=[^|]*/g, "");   // checksum and error-correction tails are for the channel, not the machine
     const main = [], defs = {}; let cur = null, verse = [];
     const close = () => { if (verse.length) (cur ? defs[cur] : main).push(verse); verse = []; };
     for (const t of lex(src)) {
@@ -180,6 +181,24 @@
       if (!P[head].every(Number.isFinite)) throw new RangeError("not a finite number");
     }
   }
-  const api = {VM, parse, lex, ring, schedule, bindLoops, CANON, RATIO, VOWELS, CONS, DIGITS, isWord, fmt};
+  // Reed-Solomon parity over GF(113), identical to kanon.py: five parity symbols per block of up to 100 symbols
+  const GF = 113, ALPHA = 3, NSYM = 5, BLOCK = 100;
+  const pmod = a => ((a % GF) + GF) % GF;
+  const ppow = (b, e) => { let r = 1; b = pmod(b); while (e > 0) { if (e & 1) r = r * b % GF; b = b * b % GF; e >>= 1; } return r; };
+  function rsGen(n) { let g = [1]; for (let j = 1; j <= n; j++) { const a = pmod(-ppow(ALPHA, j)), r = new Array(g.length + 1).fill(0);
+    g.forEach((x, i) => { r[i] = pmod(r[i] + x * a); r[i + 1] = pmod(r[i + 1] + x); }); g = r; } return g; }
+  function rsParity(data, n = NSYM) { const g = rsGen(n), rem = new Array(n).fill(0).concat(data);
+    for (let i = rem.length - 1; i >= n; i--) { const c = rem[i]; if (c) for (let j = 0; j < g.length; j++) rem[i - n + j] = pmod(rem[i - n + j] - c * g[j]); }
+    return rem.slice(0, n).map(x => pmod(-x)); }
+  function symbols(src) { const codes = [], toks = src.replace(/::/g, ": :").match(/#[0-9te]+|[!?~:]|[a-z]+/g) || [];
+    for (const t of toks) { if (t[0] === "#") for (const c of t.slice(1)) codes.push(91 + DIGITS.indexOf(c));
+      else if ("!?~:".includes(t)) codes.push(103 + "!?~:".indexOf(t));
+      else { for (let j = 0; j < t.length - t.length % 2; j += 2) codes.push(CONS.indexOf(t[j]) * 7 + VOWELS.indexOf(t[j + 1])); if (t.length % 2) codes.push(84 + VOWELS.indexOf(t[t.length - 1])); }
+      codes.push(109); } return codes; }
+  const pword = v => v < 84 ? CONS[Math.floor(v / 7)] + VOWELS[v % 7] : CONS[Math.floor((v - 84) / 7)] + VOWELS[(v - 84) % 7] + "a";
+  function eccTail(body) { const c = symbols(body), par = []; for (let k = 0; k < Math.max(1, c.length); k += BLOCK) par.push(...rsParity(c.slice(k, k + BLOCK)));
+    return "=" + par.map(pword).join("-"); }
+  const addEcc = src => src.split("|").map(v => v.trim()).filter(Boolean).map(v => v + " " + eccTail(v)).join(" | ");
+  const api = {VM, parse, addEcc, eccTail, symbols, lex, ring, schedule, bindLoops, CANON, RATIO, VOWELS, CONS, DIGITS, isWord, fmt};
   if (typeof module !== "undefined") module.exports = api; else root.KANON = api;
 })(this);

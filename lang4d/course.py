@@ -87,8 +87,8 @@ STEPS = [
   "ki #8 | ka #3 | :paso | :dasa", "The star {8/3}: visit every third of eight points: 0 3 6 1 4 7 2 5.", "List the first seven resonances of a cube room 10 metres on a side.", "ki #t | :pamo", ("i", [17.15, 24.25, 29.7, 34.3, 38.35, 42.01, 48.51])),
  (W3, "Time", "(Canon: r)", "Days count from 1 January 2000. :rado gives the planetary weekday (0 Sunday ... 6 Saturday); :raso the seven planetary longitudes.",
   "ki #0 | :rado | :dasa", "1 January 2000 was a Saturday: 6, Saturn's day, the plane w.", "Which weekday was day 1?", "ki #1 | :rado", ("i", [0.0])),
- (W3, "Speaking a program", "=", "= (zzz) carries a checksum: two syllables that change if any sound is misheard or two neighbours are swapped.",
-  "sa #7 gia ta #3 =" , "Every verse can end with its checksum; the decoder checks it. In tests, every corrupted program it decoded was caught.", "Run the ring program again.", "sa #7 gia ta #3", ("i", [22.0])),
+ (W3, "Speaking a program", "=", "= (zzz) carries error correction: five short parity words that repair any two misheard sounds in the verse and flag three or four.",
+  "sa #7 gia ta #3 =" , "Every verse can end with its parity words; the decoder repairs small mistakes and flags larger ones. In tests on spoken programs, none came back wrong without a flag.", "Run the ring program again.", "sa #7 gia ta #3", ("i", [22.0])),
  (W3, "Your own Euclid", "(all)", "Write the algorithm yourself: while a is positive, e = i mod a, i = a, a = e. Spell the body in ring order.",
   "::kebo kei kia kae mea :: | ki #70 | ka #30 | la :kebo | :dasa", "kei kia kae mea runs as kei, mea, kia, kae (ring order). gcd(84, 36) = 12.", "Find gcd(105, 45) with your own name.", "::kebo kei kia kae mea :: | ki #89 | ka #39 | la :kebo", ("i", [15.0])),
 ]
@@ -136,7 +136,7 @@ def main():
         if kind == "i": ok = len(got) == len(want) and all(abs(a - b) < 0.01 for a, b in zip(got, want))
         else: ok = got == want
         assert ok, (n, title, got, want)
-        shown = exs + (" =" + K.checksum_word(exs) if ex.endswith("=") else "")
+        shown = exs + (" " + K.ecc_tail(exs) if ex.endswith("=") else "")
         steps.append(dict(n=n, watch=watch, title=title, new=new, aid=aid, example=shown, say=pronounce(shown), explain=expl, task=task, answer=ans, check=dict(kind=kind, want=want),
                           result=dict(i=vm.P["i"], out=[o if isinstance(o, str) else " ".join(f"{x:g}" for x in o) for o in vm.out], song=len(vm.events)), audio=f"{n:02d}.mp3"))
         progs += [exs, ans]

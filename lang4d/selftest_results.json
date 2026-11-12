@@ -85,6 +85,33 @@
    "checks": true
   }
  ],
+ "ecc": {
+  "roundtrip": [
+   {
+    "src": "sa #7 gia ta #3 | di",
+    "tail": "pe-te-bi-bya-pua",
+    "exact": true
+   },
+   {
+    "src": "ki #7 | ka #6 | :kemu | :dasa",
+    "tail": "poa-hy-ti-no-hu",
+    "exact": true
+   },
+   {
+    "src": "~kia? sa! #5 | ::kesa gia di :: | :kesa",
+    "tail": "lw-pe-pea-ry-no",
+    "exact": true
+   },
+   {
+    "src": "demorini | sa #7 gia ta #3 | lu #3 pia | ka #e bwi da",
+    "tail": "ku-tya-gy-me-pa",
+    "exact": true
+   }
+  ],
+  "damaged": "sa #7 gea to #3 =pe-te-bi-bya-pua",
+  "repaired": "sa #7 gia ta #3",
+  "status": "fixed 2"
+ },
  "codec_fuzz": {
   "clean": {
    "exact": "120/120",
@@ -102,14 +129,51 @@
    "errors_missed": 0
   },
   "4 dB": {
-   "exact": "113/120",
-   "errors_caught_by_checksum": 7,
+   "exact": "120/120",
+   "errors_caught_by_checksum": 0,
    "errors_missed": 0
   },
   "2 dB": {
-   "exact": "3/120",
-   "errors_caught_by_checksum": 117,
+   "exact": "10/120",
+   "errors_caught_by_checksum": 110,
    "errors_missed": 0
+  }
+ },
+ "ecc_fuzz": {
+  "8 dB": {
+   "exact_as_heard": "120/120",
+   "exact_after_correction": "120/120",
+   "flagged": 0,
+   "silently_wrong": 0,
+   "verses_repaired": 0
+  },
+  "4 dB": {
+   "exact_as_heard": "120/120",
+   "exact_after_correction": "120/120",
+   "flagged": 0,
+   "silently_wrong": 0,
+   "verses_repaired": 0
+  },
+  "3 dB": {
+   "exact_as_heard": "117/120",
+   "exact_after_correction": "117/120",
+   "flagged": 3,
+   "silently_wrong": 0,
+   "verses_repaired": 0
+  },
+  "2 dB": {
+   "exact_as_heard": "12/120",
+   "exact_after_correction": "17/120",
+   "flagged": 103,
+   "silently_wrong": 0,
+   "verses_repaired": 29
+  },
+  "1 dB": {
+   "exact_as_heard": "1/120",
+   "exact_after_correction": "1/120",
+   "flagged": 119,
+   "silently_wrong": 0,
+   "verses_repaired": 1
   }
  },
  "order_study": {

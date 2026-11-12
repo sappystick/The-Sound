@@ -47,7 +47,7 @@ FUEL = 200000
 MAXLEN = 65536                 # no plane may hold more values than this (a guard against runaway growth)
 
 # ================================================================ lexing and parsing
-TOKEN = re.compile(r"\s*(\|)|\s*(=[a-z]+)|\s*(::?)([a-z]*)([!?]*)|\s*(~?)([a-z]+)([!?]*)|\s*(#[0-9te]+)")
+TOKEN = re.compile(r"\s*(\|)|\s*(=\s*#?[a-z0-9]+)|\s*(::?)([a-z]*)([!?]*)|\s*(~?)([a-z]+)([!?]*)|\s*(#[0-9te]+)")
 def is_word(w):
     if len(w) < 2: return False
     body = w[: len(w) // 2 * 2]
@@ -81,6 +81,7 @@ def lex(src):
 
 def parse(src):
     """-> (main: list of verses, defs: {name: list of verses}). A verse is a list of items."""
+    src = re.sub(r"=[^|]*", "", src)                     # checksum / ECC tails are for the channel, not the machine
     main, defs, cur_def, verse, sums = [], {}, None, [], []
     def close():
         nonlocal verse
@@ -351,14 +352,140 @@ def verify(text):
         except (ValueError, IndexError): ok = False      # a garbled word cannot be checksummed: flag it
         res.append((body, ok))
     return res
-def strip_checksums(text): return " | ".join(re.sub(r"\s*=[a-z]{4}\s*$", "", v.strip()) for v in text.split("|"))
+def strip_checksums(text): return " | ".join(re.sub(r"\s*=.*$", "", v.strip()) for v in text.split("|"))
+
+# ================================================================ error correction: Reed-Solomon over GF(113)
+# Every spoken symbol (84 syllables, 7 lone vowels, 12 digits, 4 marks, the word boundary) has a code below 110, so
+# one symbol = one element of the prime field GF(113). A verse is split into blocks of up to 100 symbols; each block gets
+# NSYM parity symbols, spoken after the = mark as short words: a value v < 84 is the syllable number v (ka, ke ...),
+# 84-112 the syllable number v - 84 followed by a lone a (kaa ...). Syllables are the codec's most robust unit. NSYM = 5 gives minimum distance 6: any 2 wrong
+# symbols in a block are corrected, and any 3 are always detected (the decoder refuses to correct more than 2). Field arithmetic is plain modular arithmetic: 113 is prime and 3 is a primitive root.
+GF, ALPHA, NSYM, BLOCK, BAD = 113, 3, 5, 100, 110
+def _inv(a): return pow(a % GF, GF - 2, GF)
+def _peval(p, x):
+    y = 0
+    for c in reversed(p): y = (y * x + c) % GF
+    return y
+def _pmul(a, b):
+    r = [0] * (len(a) + len(b) - 1)
+    for i, x in enumerate(a):
+        for j, y in enumerate(b): r[i + j] = (r[i + j] + x * y) % GF
+    return r
+def _gen(nsym):
+    g = [1]
+    for j in range(1, nsym + 1): g = _pmul(g, [(-pow(ALPHA, j, GF)) % GF, 1])
+    return g
+def rs_parity(data, nsym=NSYM):
+    """Systematic encoding: codeword c(x) = parity(x) + x^nsym * data(x), divisible by the generator."""
+    g = _gen(nsym); rem = [0] * nsym + list(data)          # x^nsym * data(x), coefficients low -> high
+    for i in range(len(rem) - 1, nsym - 1, -1):            # long division by the monic generator, high degree first
+        coef = rem[i]
+        if coef:
+            for j, gj in enumerate(g): rem[i - nsym + j] = (rem[i - nsym + j] - coef * gj) % GF
+    return [(-x) % GF for x in rem[:nsym]]
+def rs_correct(parity, data, nsym=NSYM):
+    """-> (corrected data, number of symbols fixed) or (None, -1) if the block cannot be corrected."""
+    r = list(parity) + list(data); S = [_peval(r, pow(ALPHA, j, GF)) for j in range(1, nsym + 1)]
+    if not any(S): return list(data), 0
+    C, B, L, m, b = [1], [1], 0, 1, 1                      # Berlekamp-Massey over GF(113)
+    for n in range(nsym):
+        d = S[n]
+        for i in range(1, L + 1):
+            if i < len(C): d = (d + C[i] * S[n - i]) % GF
+        if d == 0: m += 1; continue
+        coef = d * _inv(b) % GF; T = list(C); shifted = [0] * m + [coef * x % GF for x in B]
+        C = [((C[i] if i < len(C) else 0) - (shifted[i] if i < len(shifted) else 0)) % GF for i in range(max(len(C), len(shifted)))]
+        if 2 * L <= n: L, B, b, m = n + 1 - L, T, d, 1
+        else: m += 1
+    if L > (nsym - 1) // 2: return None, -1             # correct at most floor((nsym-1)/2); keep the rest for detection
+    pos = [i for i in range(len(r)) if _peval(C, _inv(pow(ALPHA, i, GF))) == 0]
+    if len(pos) != L: return None, -1
+    Sx = S[:]; Om = _pmul(Sx, C)[:nsym]; dC = [(k * C[k]) % GF for k in range(1, len(C))]
+    for i in pos:
+        Xi = _inv(pow(ALPHA, i, GF)); den = _peval(dC, Xi)
+        if den == 0: return None, -1
+        r[i] = (r[i] + _peval(Om, Xi) * _inv(den)) % GF       # Forney (first root alpha^1): e = -Omega/Lambda'
+    if any(_peval(r, pow(ALPHA, j, GF)) for j in range(1, nsym + 1)): return None, -1
+    out = r[nsym:]
+    if any(x >= BAD for x in out): return None, -1
+    return out, L
+def tolerant_symbols(src):
+    """Like symbols(), but a garbled character becomes the code BAD instead of an error, so it can be corrected."""
+    codes = []
+    for t in re.findall(r"#[0-9te]+|[!?~:]|[a-z]+", src.replace("::", ": :")):
+        if t.startswith("#"): codes += [91 + DIGITS.index(c) for c in t[1:]]
+        elif t in "!?~:": codes.append(103 + "!?~:".index(t))
+        else:
+            j = 0
+            while j < len(t):
+                if t[j] in CONS and j + 1 < len(t) and t[j + 1] in VOWELS: codes.append(CONS.index(t[j]) * 7 + VOWELS.index(t[j + 1])); j += 2
+                elif t[j] in VOWELS: codes.append(84 + VOWELS.index(t[j])); j += 1
+                else: codes.append(BAD); j += 1
+        codes.append(109)
+    return codes
+def codes_to_text(codes):
+    """The canonical text of a symbol sequence (inverse of symbols() on well-formed verses)."""
+    groups, cur = [], []
+    for c in codes:
+        if c == 109: groups.append(cur); cur = []
+        else: cur.append(c)
+    if cur: groups.append(cur)
+    out, prefix = [], ""
+    for g in groups:
+        if not g: continue
+        if all(91 <= c <= 102 for c in g): tok = "#" + "".join(DIGITS[c - 91] for c in g)
+        elif len(g) == 1 and 103 <= g[0] <= 106:
+            ch = "!?~:"[g[0] - 103]
+            if ch in "!?" and out: out[-1] += ch; continue
+            prefix += ch; continue
+        else:
+            tok = ""
+            for c in g:
+                if c < 84: tok += CONS[c // 7] + VOWELS[c % 7]
+                elif c < 91: tok += VOWELS[c - 84]
+                else: raise ValueError("mixed symbol group")
+        out.append(prefix + tok); prefix = ""
+    if prefix: out.append(prefix)
+    return " ".join(out)
+def _pword(v): return (CONS[v // 7] + VOWELS[v % 7]) if v < 84 else (CONS[(v - 84) // 7] + VOWELS[(v - 84) % 7] + "a")
+def _pval(w):
+    if len(w) == 2 and w[0] in CONS and w[1] in VOWELS: return CONS.index(w[0]) * 7 + VOWELS.index(w[1])
+    if len(w) == 3 and w[0] in CONS and w[1] in VOWELS and w[2] == "a" and CONS.index(w[0]) * 7 + VOWELS.index(w[1]) < 29: return 84 + CONS.index(w[0]) * 7 + VOWELS.index(w[1])
+    return None
+def ecc_tail(body, nsym=NSYM):
+    codes = symbols(body); par = []
+    for k in range(0, max(1, len(codes)), BLOCK): par += rs_parity(codes[k:k + BLOCK], nsym)
+    return "=" + "-".join(_pword(v) for v in par)
+def add_ecc(src, nsym=NSYM): return " | ".join(f"{v.strip()} {ecc_tail(v.strip(), nsym)}" for v in src.split("|") if v.strip())
+def correct(text, nsym=NSYM):
+    """Repair a decoded program that carries =ECC tails. -> (repaired text, report per verse).
+    Status per verse: clean, fixed n symbols, or uncorrectable (left as heard and flagged)."""
+    verses, report = [], []
+    for v in text.split("|"):
+        v = v.strip()
+        if "=" not in v: verses.append(v); report.append(dict(verse=v, status="no tail")); continue
+        body, tail = v.split("=", 1); body = body.strip(); words = re.split(r"[\s\-]+", tail.strip())
+        codes = tolerant_symbols(body); nblk = max(1, -(-len(codes) // BLOCK))
+        par = [_pval(w) for w in words if w]
+        if len(par) != nsym * nblk: verses.append(body); report.append(dict(verse=body, status="uncorrectable (tail length)")); continue
+        par = [x if x is not None else 0 for x in par]     # an unreadable parity word counts as one wrong symbol
+        fixed, data, ok = 0, [], True
+        for k in range(nblk):
+            blk, n = rs_correct([p % GF for p in par[k * nsym:(k + 1) * nsym]], codes[k * BLOCK:(k + 1) * BLOCK], nsym)
+            if blk is None: ok = False; break
+            data += blk; fixed += n
+        try: rep = codes_to_text(data) if ok else body
+        except ValueError: ok, rep = False, body
+        verses.append(rep); report.append(dict(verse=rep, status=("clean" if fixed == 0 else f"fixed {fixed}") if ok else "uncorrectable"))
+    return " | ".join(verses), report
 
 # ================================================================ audio codec
 def _tone(freqs, dur, amp=0.8):
     t = np.arange(int(dur * FS)) / FS; y = sum(np.sin(2 * np.pi * f * t) for f in freqs)
     return amp * y / max(1, len(freqs)) * np.minimum(1, t / 0.008) * np.minimum(1, (dur - t) / 0.015)
+NUMRATIO = 1.6     # the number pitch: a digit is its consonant chord followed by this tone (outside the seven vowels)
 def _vowel(v, dur=0.18, f0=F0):
-    f = RATIO[v] * f0; t = np.arange(int(dur * FS)) / FS
+    f = (NUMRATIO if v == "#" else RATIO[v]) * f0; t = np.arange(int(dur * FS)) / FS
     y = np.sin(2 * np.pi * f * t) + 0.45 * np.sin(2 * np.pi * 2 * f * t) + 0.2 * np.sin(2 * np.pi * 3 * f * t)
     return 0.8 * y / 1.65 * np.minimum(1, t / 0.012) * np.minimum(1, (dur - t) / 0.025)
 def encode(src, f0=F0):
@@ -373,9 +500,14 @@ def encode(src, f0=F0):
     for vtext in src.replace("\n", " ").split("|"):
         for tk in vtext.split():
             m = re.fullmatch(r"(~?)(::?|=)?([a-z]*)(#[0-9te]+)?([!?]*)", tk)
-            if tk.startswith("#"):
+            if re.fullmatch(r"=[a-z]+(-[a-z]+)+", tk):
+                out += mark("=")
+                for k, w in enumerate(tk[1:].split("-")):  # parity words
+                    if k: out.append(sil(GW - GS))
+                    out += syl(w)
+            elif tk.startswith("#"):
                 for ch in tk[1:]:
-                    i = DIGITS.index(ch); out += [_tone([ROWMUL[i // 3] * f0, COLMUL[i % 3] * f0, MARKMUL * f0], 0.07), _vowel("i", 0.12, f0), sil(GS)]
+                    i = DIGITS.index(ch); out += [_tone([ROWMUL[i // 3] * f0, COLMUL[i % 3] * f0], 0.07), _vowel("#", 0.18, f0), sil(GS)]
             else:
                 pre, colons, w, _, post = m.groups()
                 if pre: out += mark("~")
@@ -410,23 +542,25 @@ def decode(y, f0=F0):
         prev = b; seg = y[a:b]; nb = min(len(seg), int(0.06 * FS))
         spec = np.abs(np.fft.rfft(seg[:nb] * np.hanning(nb), 1 << 14)); fr = np.fft.rfftfreq(1 << 14, 1 / FS)
         best = lambda mults: (lambda es: (int(np.argmax(es)), max(es)))([_peak(spec, fr, m * f0 * 0.97, m * f0 * 1.03)[1] for m in mults])
-        r, er = best(ROWMUL); c, ec = best(COLMUL); mk = _peak(spec, fr, MARKMUL * f0 * 0.93, MARKMUL * f0 * 1.07)[1]
+        r, er = best(ROWMUL); c, ec = best(COLMUL)
         mi, em = best(list(MARKS.values()))
-        if em > 2.0 * max(er, ec, mk) and (b - a) < int(0.12 * FS):
+        if em > 2.0 * max(er, ec) and (b - a) < int(0.12 * FS):
             ch = list(MARKS)[mi]; toks.append(ch); num = False; continue
         has_burst = max(er, ec) > 0.12 * spec.max(); vpart = seg[nb:] if has_burst else seg; vowel = None
         if len(vpart) > (int(0.05 * FS) if has_burst else int(0.09 * FS)):
             vs = np.abs(np.fft.rfft(vpart * np.hanning(len(vpart)), 1 << 15)); vf = np.fft.rfftfreq(1 << 15, 1 / FS)
-            fpk, _ = _peak(vs, vf, f0 * 0.70, f0 * 1.40); vowel = min(VOWELS, key=lambda v: abs(math.log(fpk / (RATIO[v] * f0))))
-        if has_burst and mk > 0.5 * max(er, ec):
+            fpk, _ = _peak(vs, vf, f0 * 0.70, f0 * 1.75); vowel = min(VOWELS + "#", key=lambda v: abs(math.log(fpk / ((NUMRATIO if v == "#" else RATIO[v]) * f0))))
+        if vowel == "#" and not has_burst: vowel = None
+        if has_burst and vowel == "#":
             if not num: toks.append("#"); num = True
             toks.append(DIGITS[r * 3 + c])
         else:
             num = False
-            if has_burst: toks.append(CONS[r * 3 + c] + (vowel or "i"))
+            if has_burst: toks.append(CONS[r * 3 + c] + (vowel or ""))   # a burst heard alone waits for its vowel
             elif vowel and toks and toks[-1] and toks[-1][-1] in CONS: toks.append(vowel)
             elif vowel and toks and toks[-1] and toks[-1][-1] in VOWELS + "| #!?~:=" and len(vpart) > int(0.12 * FS): toks.append(vowel)
     s = " ".join("".join(toks).split())
+    s = " ".join(t if t.startswith("#") else re.sub(r"([ktpbdglmnrsh])(?![aeyiouw])", r"\1i", t) for t in s.split(" "))   # a consonant that never found its vowel defaults to i (numbers untouched)
     s = re.sub(r"(\S)#", r"\1 #", s)       # a number always stands apart from its word
     return s
 def norm_text(src):
@@ -543,8 +677,14 @@ def selftest(quick=False):
     for p in progs:
         sp = add_checksums(p); d = decode(encode(sp)); rt.append(dict(src=p, exact=d == norm_text(sp), checks=all(ok for _, ok in verify(d))))
     out["codec_roundtrip"] = rt; assert all(r["exact"] and r["checks"] for r in rt), rt
+    ecc = []
+    for p in progs:
+        t = add_ecc(p); d = decode(encode(t)); fixed, rep = correct(d); ecc.append(dict(src=p, tail=t.split("=", 1)[1].split("|")[0].strip(), exact=fixed == norm_text(p)))
+    # deliberate damage: change two symbols in a verse, then repair it
+    t = add_ecc("sa #7 gia ta #3"); dam = t.replace("gia", "gea").replace("ta ", "to ", 1); fixed, rep = correct(dam)
+    out["ecc"] = dict(roundtrip=ecc, damaged=dam, repaired=fixed, status=rep[0]["status"]); assert all(e["exact"] for e in ecc) and fixed == "sa #7 gia ta #3", out["ecc"]
     if not quick:
-        out["codec_fuzz"] = fuzz(120); out["order_study"] = order_study(150)
+        out["codec_fuzz"] = fuzz(120); out["ecc_fuzz"] = fuzz_ecc(120); out["order_study"] = order_study(150)
     out["namespace"] = dict(syllables=84, behaviours_per_one_syllable_word="12 ops x 7 heads x 8 cadences = 672 (+ number)",
         note="v0.2: every syllable acts, so distinct words of k syllables can behave distinctly; the order study measures how often they do")
     out["phase_stamp_J2000+9800d"] = phase_stamp(2451545.0 + 9800)
@@ -566,6 +706,23 @@ def random_program(R):
             if R.random() < 0.3: ws.append("#" + "".join(R.choice(DIGITS) for _ in range(R.randint(1, 2))))
         vs.append(" ".join(ws))
     return " | ".join(vs)
+
+def fuzz_ecc(n=120, seed=67, snrs=(8.0, 4.0, 3.0, 2.0, 1.0)):
+    """Spoken programs with Reed-Solomon tails, through noise: how many come back exact as heard, and after correction."""
+    import random
+    R = random.Random(seed); nr = np.random.default_rng(seed); progs = [random_program(R) for _ in range(n)]; res = {}
+    for snr in snrs:
+        heard = repaired = flagged = wrong = verses = vfixed = 0
+        for p in progs:
+            y = encode(add_ecc(p)); y = y + nr.standard_normal(len(y)) * y.std() / 10 ** (snr / 20)
+            d = decode(y); fixed, rep = correct(d); want = norm_text(p)
+            heard += strip_checksums(d) == want; ok = fixed == want; repaired += ok
+            unc = any(r["status"].startswith("uncorrectable") or r["status"] == "no tail" for r in rep) or fixed.count("|") != want.count("|")
+            if not ok and unc: flagged += 1
+            if not ok and not unc: wrong += 1
+            vfixed += sum(r["status"].startswith("fixed") for r in rep)
+        res[f"{snr:g} dB"] = dict(exact_as_heard=f"{heard}/{n}", exact_after_correction=f"{repaired}/{n}", flagged=flagged, silently_wrong=wrong, verses_repaired=vfixed)
+    return res
 
 def fuzz(n=120, seed=66):
     import random
@@ -617,11 +774,15 @@ def main():
         vm = VM().run(open(sys.argv[2]).read()); print("\n".join(vm.log)); print("output:", vm.out); print("events:", vm.events)
     elif cmd == "speak":
         src = open(sys.argv[2]).read().strip(); vm = VM().run(src)
-        y = np.concatenate([encode(add_checksums(src)), np.zeros(FS), render_events(vm.events)]); save_wav(sys.argv[3], y)
-        print("wrote", sys.argv[3], f"{len(y) / FS:.1f} s (spoken code with checksums, silence, then the program's own output)")
+        y = np.concatenate([encode(add_ecc(src)), np.zeros(FS), render_events(vm.events)]); save_wav(sys.argv[3], y)
+        print("wrote", sys.argv[3], f"{len(y) / FS:.1f} s (spoken code with error-correction words, silence, then the program's own output)")
     elif cmd == "decode":
-        d = decode(load_wav(sys.argv[2])); print(d)
-        for v, ok in verify(d): print(("ok   " if ok else "CHECK") + " " + v)
+        d = decode(load_wav(sys.argv[2])); print("heard:   ", d)
+        if re.search(r"=[a-z]{4}\s*(\||$)", d):
+            for v, ok in verify(d): print(("ok   " if ok else "CHECK") + " " + v)
+        else:
+            fixed, rep = correct(d); print("program: ", fixed)
+            for r in rep: print(f"   {r['status']:28s} {r['verse']}")
     elif cmd == "seal": program_seal(open(sys.argv[2]).read(), sys.argv[3]); print("wrote", sys.argv[3])
     elif cmd == "chart": glyph_chart(sys.argv[2]); print("wrote", sys.argv[2])
     elif cmd == "ring": print(" ".join(ring(sys.argv[2].split())))

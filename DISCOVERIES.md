@@ -569,3 +569,15 @@ Write-ups:
   - The JavaScript interpreter matches Python on 1,000 of 1,000 programs.
   - A 30-step one-night course (Echo Ladder rule checked; planetary-week and calendar-palace memory aids).
 - **Order study.** Execution order is always unique. The outcome differs in 13% of word orderings and 53% of syllable orderings of random code, as commutation requires.
+
+## AT. Round 67 (`lang4d/ROADMAP.md`): error correction, merged branches, where KANON matters
+
+- **Branches merged.** The two lines of work (rounds 39–66, and main's 39M/40M) are now one.
+- **Reed–Solomon over GF(113).** One spoken symbol is one field element, with five parity words per block. It corrects any 2 wrong symbols and always flags 3–4.
+- **Codec redesign.** Digits are now a consonant chord plus a number pitch, and split bursts are re-joined.
+- **Spoken-program test.** 120 random programs:
+  - exact at 4 dB (v0.2: 113 of 120);
+  - 117 exact and 3 flagged at 3 dB;
+  - at 2 dB, correction raises the exact count from 12 to 17;
+  - none came back wrong without a flag.
+- **Impact map.** Ranked: verifiable spoken commands for AI agents and automation, eyes-free programming, device setup over sound, culture-neutral teaching, digital humanities, performance, memory research.

@@ -1,4 +1,4 @@
-# What The Sound has established: an evidence-graded synthesis (rounds 1–59)
+# What The Sound has established: an evidence-graded synthesis (rounds 1–75; addendum at the end)
 
 **Grades:**
 - **A**: pre-registered and passed, or survives correction across the whole project.
@@ -86,3 +86,21 @@ No hidden number codes, no letter skip-codes, no Sefer Yetzirah letter power, no
 - 59 rounds: many paths were explored before pre-registration began, so even the A results should be read with that history in mind.
 - The pronunciation, the reconstructed Aramaic and Egyptian vowels, and the synthetic voices are models.
 - No outside expert has reviewed the work yet.
+
+---
+
+# Addendum: rounds 39M–40M and 60–75 (same grading)
+
+| Grade | Finding | Evidence | Where |
+|---|---|---|---|
+| A− | **John's farewell begins at 13:31–33, not 13:1:** two independent speech signals agree (translators' quotation marks with no Greek; Greek person morphology), at every resolution | the location replicates; single p 0.014 | ROUND40.md |
+| B | **Revelation and Job have outlines drawn by their voices** (Revelation hits 4:1 and 22:6 exactly) | p < 0.0001 each, outlines fixed beforehand, not yet in a pre-registered audit | ROUND40.md |
+| B | **88% of the Hebrew Bible's ketiv/qere pairs are sound-alikes:** the Hebrew parallel of B5 | 1,245 pairs | ROUND40.md |
+| B | **"Life" (chayyim) at the letter-centres of 5 of 39 Hebrew books**; does not replicate in Greek (NT p 0.63, LXX p 0.27) | exact p 0.00082; Holm-significant, just above the project threshold | VERIFIED.md |
+| B | **Copper Scroll: the Greek groups belong to entries 1–17 of 64, and are not numerals**; the amounts repeat stock values | position p 3.1e-5; numeral order 3 of 7 (chance 2.8); repeats p 0.0002 | mysteries/ROUND74.md |
+| B− | **Antikythera: the inscribed period relations are simple Babylonian combinations, not the most accurate buildable ones**; "economy" is not distinctive | the two read relations, chance ≈ 0.03; economy p 0.80 | mysteries/ROUND74.md |
+| D (half-finding) | **The core Signs miracle stories are stylistically distinct** (pre-registered p 0.0004, power check passed). But the candidate marker ὁ Ἰησοῦς did **not** extend to the wider source (pre-registered follow-up p 0.25) | | mysteries/ROUND74.md |
+| C | **Talmud midpoints of the Torah** (Kiddushin 30a) are 61–93 verses from the computed ones; the verse midpoint matches the Masorah. 666/616 are both Nero Caesar (Hebrew and Latin spellings) | computed | ROUND40.md |
+| N | **Beale ciphers:** no KJV chapter start is the key for ciphers 1 or 3. Gillogly's alphabet run is reproduced (shuffles 0.2%) | | mysteries/MYSTERIES.md |
+| N | **Pyramid against biblical measurements** (round 60): negative with shape-preserving baselines; a shared cubit system only | | POWER_PYRAMID.md |
+| Engineering | **KANON:** spoken programs exact to 4 dB; Reed–Solomon with no unflagged errors in any test; phone channel 40 of 40 through GSM and G.726; Python and JS agree on 1,000 of 1,000 programs; agent approval refused every attack; place codes 4.8 m in 7 syllables | measured | lang4d/ |

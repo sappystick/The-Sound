@@ -708,3 +708,11 @@ Write-ups:
 - **Copper Scroll:** all seven Greek groups are attached to the entry's closing quantity, and ΗΝ and ΤΡ sit between the unit and the number. Read with round 74, they look like amount qualifiers or check marks (C).
 - **Signs Gospel, pre-registered test 3:** the sign stories carry 82% of the evangelist's characteristics (p 0.051; Mark 15%). Decision: the evangelist's style is present. Any source has been thoroughly rewritten.
 - **Antikythera:** no newer Front Cover Inscription readings were found beyond *Almagest* 7.1; the predictions stay open.
+
+## BG. Round 80 (`mysteries/ROUND80.md`): a short-range generator on held-out Voynich pages
+
+- **The generator:** each word is a copy of the previous word, a one-glyph change of it, or a fresh draw by line position. It never reaches further back.
+- **Result:** fitted and tuned on the even pages, it comes within distance **2.7** of the real odd pages. Earlier models: self-citation 4.8, section frequencies 5.4, Latin cipher 7.7.
+- **Copying needed:** only about 0.5% copies and 0.7% one-glyph changes per word.
+- **Still missed:** too many repeated page words (name rate 0.37 against 0.19), too strong a line-position signal, and too few one-off forms. The real text seems to coin new word forms on each page.
+- **Reading:** a simple mechanical process explains most of the measured structure. That does not exclude a suffixing natural language.

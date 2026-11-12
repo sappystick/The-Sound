@@ -1,0 +1,55 @@
+{
+ "name": "Psalm of descent: Hebrew vowels, theta to delta, for sleep",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "headphones",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "binaural beat, path [[0, 7.0], [0.5, 4.0], [1, 2.0]] Hz, carrier 438.92 Hz",
+   "evidence": "MIXED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "[[0, 6.0], [1, 4.5]] per minute, in:out [4, 7]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Biblical Hebrew (Tiberian vocalisation): vowels i e ɛ a ɔ o u, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Seven qualities of the Tiberian Masoretes (c. 900 CE), the vowel points in the WLC. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+  },
+  {
+   "layer": "root",
+   "setting": "115.6 Hz: strongest mode of Tabernacle most holy place, 10-cubit cube (Exodus 26) between 90 and 140 Hz (6 modes coincide at 115.6 Hz)",
+   "evidence": "MEASURED",
+   "basis": "Room modes computed from the stated dimensions (cubit 0.445 m)."
+  },
+  {
+   "layer": "room",
+   "setting": "tabernacle (wet 0.35, RT 3.0 s)",
+   "evidence": "MEASURED",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "sleep_onset",
+   "evidence": "-",
+   "basis": "breath: ESTABLISHED: slow breathing calms autonomic arousal; beat: MIXED: theta-to-delta glide"
+  }
+ ],
+ "warnings": [],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

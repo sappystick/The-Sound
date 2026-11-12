@@ -1,0 +1,478 @@
+<title>Resonance</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an instrument panel. Settings on the left, the breathing circle and its evidence card on the right; stacks on phones. */
+:root{
+  --bg:#eef0ee; --panel:#f8f9f8; --ink:#1b2224; --muted:#56625f; --line:#d1d7d4;
+  --bronze:#8a5a2b; --verd:#2b7a6a; --good:#2d7a3e; --warn:#a05a00; --bad:#b03030; --chip:#e3e7e5;
+  --display:"Instrument Serif", Georgia, "Times New Roman", serif;
+  --body:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111517; --panel:#182024; --ink:#e4eae8; --muted:#93a29e; --line:#2a353a;
+  --bronze:#d39557; --verd:#5fbaa5; --good:#6cc27f; --warn:#e2a13d; --bad:#ef7b7b; --chip:#222c31; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111517; --panel:#182024; --ink:#e4eae8; --muted:#93a29e; --line:#2a353a;
+  --bronze:#d39557; --verd:#5fbaa5; --good:#6cc27f; --warn:#e2a13d; --bad:#ef7b7b; --chip:#222c31; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,6vw,52px);line-height:1;margin:0;letter-spacing:.01em}
+h1 i{color:var(--bronze)}
+.sub{color:var(--muted);max-width:62ch;margin:6px 0 0}
+h2{font-family:var(--display);font-weight:400;font-size:24px;margin:0;text-wrap:balance}
+h3{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:600}
+nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+nav button{background:none;border:0;border-bottom:2px solid transparent;padding:8px 12px;font:inherit;color:var(--muted);cursor:pointer}
+nav button[aria-selected="true"]{color:var(--ink);border-color:var(--bronze);font-weight:600}
+nav button:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--verd);outline-offset:2px}
+.safety{font-size:12.5px;color:var(--muted);border-left:3px solid var(--warn);padding:6px 10px;background:var(--panel)}
+.grid{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)} .grid > .panel:last-child{order:-1}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+fieldset{border:0;border-top:1px solid var(--line);margin:0;padding:10px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:8px 10px}
+fieldset:first-of-type{border-top:0;padding-top:0}
+legend{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--bronze);font-weight:600;padding:0 0 4px}
+label{display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--muted);min-width:0}
+label.full{grid-column:1/-1}
+label.check{flex-direction:row;align-items:center;gap:6px;color:var(--ink)}
+select,input[type=number],input[type=text],textarea{font:inherit;font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:6px 7px;width:100%;min-width:0}
+input[type=range]{width:100%;accent-color:var(--bronze)}
+textarea{font-family:var(--mono);font-size:11.5px;min-height:150px;resize:vertical}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:inherit;font-weight:600;border-radius:4px;padding:8px 14px;cursor:pointer;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.btn.primary{background:var(--bronze);border-color:var(--bronze);color:var(--panel)}
+.btn.small{padding:5px 10px;font-weight:500;font-size:12.5px}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,240px);gap:14px;align-items:center}
+@media (max-width:560px){.stage{grid-template-columns:minmax(0,1fr)}}
+canvas{width:100%;max-width:100%;aspect-ratio:1/1;display:block}
+.readout{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-family:var(--mono);font-size:12.5px;font-variant-numeric:tabular-nums}
+.readout dt{color:var(--muted)}
+.readout dd{margin:0;text-align:right}
+.warn{font-size:12.5px;color:var(--warn);margin:0;padding-left:16px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.scroll{overflow-x:auto}
+.chip{display:inline-block;font-family:var(--mono);font-size:10.5px;padding:1px 6px;border-radius:3px;background:var(--chip);white-space:nowrap}
+.lv-MEASURED{color:var(--verd)} .lv-ESTABLISHED{color:var(--good)} .lv-MIXED{color:var(--warn)} .lv-PRELIMINARY{color:var(--warn)} .lv-RECONSTRUCTED{color:var(--bronze)} .lv-SYMBOLIC{color:var(--muted)}
+.mono{font-family:var(--mono);font-size:12px}
+.samples{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:12px}
+.sample{display:flex;flex-direction:column;gap:8px}
+.sample audio{width:100%}
+.pass{color:var(--good);font-weight:600} .fail{color:var(--bad);font-weight:600}
+details summary{cursor:pointer;color:var(--muted);font-size:12.5px}
+.prose{max-width:72ch;display:flex;flex-direction:column;gap:10px}
+.prose p{margin:0}
+.muted{color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Resonance <i>engine</i></h1>
+      <p class="sub">Build a listening session from the project's data points: ancient vowels, breath pacing, tunings, room resonances and a beat. Every setting carries its level of evidence.</p>
+    </div>
+  </header>
+  <p class="safety">An experimental listening tool, not a medical device. Keep the volume moderate and stop if you feel discomfort. Do not use it while driving. The screen never flashes at the beat rate.</p>
+  <nav role="tablist">
+    <button role="tab" id="t-build" aria-selected="true" data-tab="build">Build</button>
+    <button role="tab" id="t-samples" aria-selected="false" data-tab="samples">Verified samples</button>
+    <button role="tab" id="t-data" aria-selected="false" data-tab="data">Data points</button>
+    <button role="tab" id="t-method" aria-selected="false" data-tab="method">How it works</button>
+  </nav>
+
+  <section id="build" class="grid">
+    <form class="panel" id="form" autocomplete="off">
+      <fieldset>
+        <legend>Start from</legend>
+        <label class="full">Preset<select id="preset"></select></label>
+        <label>Target state<select id="d_target"></select></label>
+        <label>Language<select id="d_lang"></select></label>
+        <label>Room<select id="d_room"></select></label>
+        <label>Tuning<select id="d_tuning"></select></label>
+        <div class="row full" style="grid-column:1/-1"><button type="button" class="btn small" id="designBtn">Design from target</button></div>
+      </fieldset>
+      <fieldset>
+        <legend>Device</legend>
+        <label class="full">Listening on<select id="device"><option value="headphones">Studio headphones</option><option value="bone_conduction">Bone-conduction headphones</option><option value="speakers">Speakers</option></select></label>
+        <label>Minutes<input type="number" id="minutes" min="1" max="90" step="1"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Beat</legend>
+        <label class="full">Mode<select id="e_mode"><option value="binaural">Binaural (one tone per ear)</option><option value="monaural">Monaural (beat in the sound)</option><option value="isochronic">Isochronic (pulses)</option><option value="none">None</option></select></label>
+        <label>Start, Hz<input type="number" id="e_start" min="0" max="45" step="0.1"></label>
+        <label>End, Hz<input type="number" id="e_end" min="0" max="45" step="0.1"></label>
+        <label>Carrier, Hz (0 = auto)<input type="number" id="e_carrier" min="0" max="1200" step="0.01"></label>
+        <label>Level, dB<input type="number" id="e_level" min="-40" max="-6" step="1"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Breath</legend>
+        <label class="check full"><input type="checkbox" id="b_guide"> Pace my breathing</label>
+        <label>Start, per min<input type="number" id="b_start" min="2" max="20" step="0.1"></label>
+        <label>End, per min<input type="number" id="b_end" min="2" max="20" step="0.1"></label>
+        <label>Inhale parts<input type="number" id="b_in" min="1" max="12" step="0.5"></label>
+        <label>Exhale parts<input type="number" id="b_out" min="1" max="14" step="0.5"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Voice</legend>
+        <label class="check full"><input type="checkbox" id="v_on"> Chant a vowel on each out-breath</label>
+        <label>Language<select id="v_lang"></select></label>
+        <label>Vowel order<select id="v_order"></select></label>
+        <label class="check"><input type="checkbox" id="v_hum"> Close on a hum</label>
+        <label>Level, dB<input type="number" id="v_level" min="-30" max="0" step="1"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Drone and room</legend>
+        <label class="check full"><input type="checkbox" id="dr_on"> Drone chord</label>
+        <label>Tuning<select id="dr_tuning"></select></label>
+        <label>Rotation<input type="number" id="dr_rot" min="1" max="7" step="1"></label>
+        <label>Drone level, dB<input type="number" id="dr_level" min="-30" max="0" step="1"></label>
+        <label>Root from<select id="r_src"></select></label>
+        <label>Root, Hz<input type="number" id="r_hz" min="55" max="300" step="0.1"></label>
+        <label>Reverb room<select id="room"></select></label>
+        <label>Reverb mix<input type="range" id="wet" min="0" max="0.8" step="0.05"></label>
+      </fieldset>
+    </form>
+
+    <div class="panel" style="gap:16px">
+      <div class="stage">
+        <canvas id="cv" width="560" height="560" aria-label="Breathing guide: the circle grows on the in-breath and shrinks on the out-breath"></canvas>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="row"><button class="btn primary" id="play" type="button">Play</button><button class="btn" id="stop" type="button">Stop</button></div>
+          <label>Volume<input type="range" id="vol" min="0" max="1" step="0.01" value="0.5"></label>
+          <dl class="readout" id="readout"></dl>
+          <ul class="warn" id="warns"></ul>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <h3>Evidence card</h3>
+        <div class="scroll"><table id="card"><thead><tr><th>Layer</th><th>Setting</th><th>Evidence</th><th>Basis</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <details>
+        <summary>Configuration for the Python engine (copy, or paste one in)</summary>
+        <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+          <textarea id="json" spellcheck="false" aria-label="Configuration JSON"></textarea>
+          <div class="row"><button class="btn small" type="button" id="copy">Copy</button><button class="btn small" type="button" id="load">Load pasted configuration</button><span class="muted" id="jsonMsg"></span></div>
+          <p class="muted mono" style="margin:0">python3 resonance/resonance.py config.json out.wav<br>python3 resonance/verify.py list.json 90</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section id="samples" hidden>
+    <div class="panel" style="gap:14px">
+      <p class="muted" style="margin:0;max-width:72ch">Ninety-second renders of each preset from the Python engine. After rendering, each one was measured: the beat taken from the audio, the breath pace from its loudness swell, and the voice pitch, levels and fades. MP3s are stored as true stereo, so the binaural difference between the ears survives.</p>
+      <div class="samples" id="sampleList"></div>
+    </div>
+  </section>
+
+  <section id="data" hidden>
+    <div class="panel" style="gap:18px" id="dataPanel"></div>
+  </section>
+
+  <section id="method" hidden>
+    <div class="panel prose">
+      <h2>How a session is made</h2>
+      <p><b>Beat.</b> Binaural mode sends a slightly different tone to each ear, and the brainstem hears the difference as a beat. Monaural mode puts the beat into the sound itself, and isochronic mode pulses one tone. The carrier is a degree of the drone's own scale, moved by octaves into the device's best band, so the beat tone belongs to the chord.</p>
+      <p><b>Breath.</b> The drone swells as you breathe in and falls as you breathe out. A faint air sound marks each in-breath. The rate can glide from start to end; about six breaths a minute is the rate with the strongest evidence.</p>
+      <p><b>Voice.</b> On every out-breath, a voice sings one vowel at the root pitch and closes on a hum. The vowels come from the chosen language: Sumerian, Akkadian, Middle Egyptian, Coptic, Tiberian Hebrew, Galilean Aramaic, Koine or Attic Greek, or the seven vowels of the magical papyri. The PGM XIII orders follow the seven directions of the vowel square.</p>
+      <p><b>Root and room.</b> The root can come from a described building: the strongest resonance of Solomon's 20-cubit cube (123.4 Hz, where 15 room modes coincide), the Tabernacle, the temple hall, the King's Chamber, or the 111 Hz reported for the Ħal Saflieni Hypogeum. Reverberation is synthesised from that room's computed modes.</p>
+      <p><b>Device rules.</b> Bone conduction reaches both inner ears almost equally, so binaural is switched to monaural and nothing is played below 250 Hz. Speakers mix the two channels in the air, so binaural becomes isochronic.</p>
+      <p><b>Verification.</b> <span class="mono">verify.py</span> renders each configuration in a list and measures the result. Subtracting the left channel from the right cancels every shared layer and leaves only the two beat tones, whose spacing is read off the spectrum. Monaural and isochronic beats are read from the envelope, and breath from the slow loudness swell. All 10 presets pass. On its first run the check caught a real bug: the temple-hall root had fallen to 9.6 Hz.</p>
+      <p><b>What is and is not claimed.</b> A 40 Hz beat reliably drives the auditory cortex, and slow breathing reliably raises heart-rate variability. That slower beats entrain other brain rhythms, or change mood, is a mixed literature. The ancient vowel and room values are reconstructions or computations from the texts. Any wider effect is a hypothesis for the experiment protocols (E1, E2, E5) to test with listeners. This page plays audio; it does not measure you.</p>
+      <p class="muted">In this page, isochronic pulses are raised-sine shaped and the voice uses three band filters. The Python engine uses a glottal pulse through a formant cascade. The settings are shared, and the sound is close but not sample-identical.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const DP = DATA.dp, PRESETS = DATA.presets, REPORT = DATA.report;
+const $ = id => document.getElementById(id);
+const GREEK = {a:"α",e:"ε","ɛ":"η",i:"ι",o:"ο",y:"υ","ɔ":"ω",u:"ου"};
+const DIRS = {dawn:0,earth:1,west:2,south:3,cosmos:4,sky:5,north:6};
+const TARGETS = {
+  resonance_breathing:{label:"Resonance breathing (6 per min)",breath:6,ratio:[4,6],beat:[[0,10],[1,10]],mode:"isochronic",ent:-22,ev:{breath:"ESTABLISHED: 6 breaths a minute raises heart-rate variability",beat:"MIXED: a faint 10 Hz (alpha) pulse"}},
+  deep_relaxation:{label:"Deep relaxation (alpha to theta)",breath:6,breathEnd:5,ratio:[4,6],beat:[[0,10],[0.6,7],[1,6]],mode:"binaural",ent:-14,ev:{breath:"ESTABLISHED: slow, exhale-weighted breathing",beat:"MIXED: alpha-to-theta glide"}},
+  sleep_onset:{label:"Sleep onset (theta to delta)",breath:6,breathEnd:4.5,ratio:[4,7],beat:[[0,7],[0.5,4],[1,2]],mode:"binaural",ent:-15,ev:{breath:"ESTABLISHED",beat:"MIXED: theta-to-delta glide"}},
+  meditation_theta:{label:"Meditation (6 Hz theta)",breath:6,ratio:[4,6],beat:[[0,8],[0.3,6],[1,6]],mode:"binaural",ent:-14,ev:{breath:"ESTABLISHED",beat:"MIXED: 6 Hz theta"}},
+  focus_gamma40:{label:"Focus (40 Hz)",breath:null,ratio:[2,3],beat:[[0,40],[1,40]],mode:"monaural",ent:-12,ev:{breath:"(no breath guide)",beat:"ESTABLISHED: the auditory cortex follows 40 Hz; PRELIMINARY: any effect on focus or memory"}},
+  alert_beta:{label:"Alert (beta)",breath:10,ratio:[2,3],beat:[[0,14],[1,18]],mode:"isochronic",ent:-15,ev:{breath:"ESTABLISHED: close to a normal pace",beat:"MIXED: beta"}},
+  chant_only:{label:"Chant only (no beat)",breath:6,ratio:[4,6],beat:null,mode:"none",ent:-60,ev:{breath:"ESTABLISHED",beat:"(no beat)"}}
+};
+const clone = o => JSON.parse(JSON.stringify(o));
+function opt(sel, items){ sel.innerHTML = items.map(([v,l]) => `<option value="${v}">${l}</option>`).join(""); }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// ---------------------------------------------------------------- setup selects
+opt($("preset"), [["","(choose a preset)"], ...PRESETS.map((p,i) => [i, p.name])]);
+opt($("d_target"), Object.entries(TARGETS).map(([k,t]) => [k, t.label]));
+const langs = Object.entries(DP.languages).map(([k,l]) => [k, l.name]);
+opt($("d_lang"), langs); opt($("v_lang"), langs);
+const rooms = Object.entries(DP.rooms).map(([k,r]) => [k, r.name]);
+opt($("d_room"), rooms); opt($("room"), [["none","No reverb"], ...rooms]);
+opt($("r_src"), [["hz","Set by hand"], ...rooms.map(([k,n]) => ["room:"+k, n])]);
+const tunings = Object.keys(DP.tunings).map(k => [k, k.replace(/_/g," ")]);
+opt($("d_tuning"), tunings); opt($("dr_tuning"), tunings);
+opt($("v_order"), [["cycle","Cycle through the vowels"], ...Object.keys(DIRS).map(d => ["pgm_square:"+d, "PGM XIII square: "+d])]);
+
+// ---------------------------------------------------------------- config <-> form
+const DEFAULT = {name:"untitled",minutes:10,device:"headphones",seed:1,
+  entrainment:{mode:"binaural",path:[[0,10],[1,8]],carrier:"auto",level_db:-14},
+  breath:{per_min:6,inhale_exhale:[4,6],path:null,guide:true},
+  voice:{language:"koine",vowels:"auto",order:"cycle",hum_end:true,level_db:-7,on:true},
+  drone:{tuning:"pythagorean",rotation:1,level_db:-10,on:true},
+  root:{source:"room:debir",hz:110}, room:{name:"debir",wet:0.35,rt:3.0}, safety:{target_rms_db:-20,fade_s:8}};
+function merge(a,b){ const o = clone(a); for (const k in (b||{})) o[k] = (b[k] && typeof b[k]==="object" && !Array.isArray(b[k]) && o[k] && typeof o[k]==="object") ? merge(o[k], b[k]) : b[k]; return o; }
+function design(target, device, lang, minutes, room, tuning){
+  const T = TARGETS[target]; const c = merge(DEFAULT, {name:`${target} / ${lang} / ${room} / ${device}`, minutes, device});
+  c.breath = {per_min:T.breath||12, inhale_exhale:T.ratio, guide:T.breath!==null, path:T.breath ? [[0,T.breath],[1,T.breathEnd||T.breath]] : null};
+  Object.assign(c.entrainment, {mode:T.mode, path:T.beat||[[0,0],[1,0]], level_db:T.ent});
+  Object.assign(c.voice, {language:lang, on:T.breath!==null}); c.drone.tuning = tuning; c.room.name = room;
+  c.root.source = DP.rooms[room] ? "room:"+room : "hz"; c.target = target; c.target_evidence = T.ev; return c;
+}
+let cfg = clone(PRESETS[0]);
+function toForm(c){
+  const e = c.entrainment, b = c.breath, p = b.path || [[0,b.per_min],[1,b.per_min]];
+  $("device").value = c.device; $("minutes").value = c.minutes;
+  $("e_mode").value = e.mode; $("e_start").value = e.path[0][1]; $("e_end").value = e.path[e.path.length-1][1];
+  $("e_carrier").value = e.carrier === "auto" ? 0 : e.carrier; $("e_level").value = e.level_db;
+  $("b_guide").checked = b.guide; $("b_start").value = p[0][1]; $("b_end").value = p[p.length-1][1]; $("b_in").value = b.inhale_exhale[0]; $("b_out").value = b.inhale_exhale[1];
+  $("v_on").checked = c.voice.on; $("v_lang").value = c.voice.language; $("v_order").value = c.voice.order; $("v_hum").checked = c.voice.hum_end; $("v_level").value = c.voice.level_db;
+  $("dr_on").checked = c.drone.on; $("dr_tuning").value = c.drone.tuning; $("dr_rot").value = c.drone.rotation||1; $("dr_level").value = c.drone.level_db;
+  $("r_src").value = c.root.source; $("r_hz").value = c.root.hz; $("room").value = DP.rooms[c.room.name] ? c.room.name : "none"; $("wet").value = c.room.wet;
+}
+function fromForm(){
+  const c = clone(cfg); const n = id => parseFloat($(id).value);
+  c.device = $("device").value; c.minutes = n("minutes") || 10;
+  const e = c.entrainment; e.mode = $("e_mode").value;
+  const s = n("e_start"), en = n("e_end"), mid = e.path.length === 3 ? e.path[1] : null;
+  const oldS = e.path[0][1], oldE = e.path[e.path.length-1][1];
+  e.path = (mid && s === oldS && en === oldE) ? e.path : [[0,s],[1,en]];
+  e.carrier = n("e_carrier") > 0 ? n("e_carrier") : "auto"; e.level_db = n("e_level");
+  c.breath.guide = $("b_guide").checked; c.breath.path = [[0,n("b_start")],[1,n("b_end")]]; c.breath.per_min = n("b_start"); c.breath.inhale_exhale = [n("b_in"), n("b_out")];
+  Object.assign(c.voice, {on:$("v_on").checked, language:$("v_lang").value, order:$("v_order").value, hum_end:$("v_hum").checked, level_db:n("v_level")});
+  Object.assign(c.drone, {on:$("dr_on").checked, tuning:$("dr_tuning").value, rotation:n("dr_rot")||1, level_db:n("dr_level")});
+  c.root.source = $("r_src").value; c.root.hz = n("r_hz"); c.room.name = $("room").value; c.room.wet = n("wet");
+  return c;
+}
+
+// ---------------------------------------------------------------- resolve (mirror of resonance.py)
+function scale(tuning, rot){
+  const t = DP.tunings[tuning], r = t.ratios; if (t.as_partials) return [r, true];
+  const k = ((rot||1)-1) % r.length; const rr = r.slice(k).concat(r.slice(0,k)).map(x => x >= r[k] ? x/r[k] : 2*x/r[k]); return [rr.sort((a,b)=>a-b), false];
+}
+function resolve(c0){
+  const c = merge(DEFAULT, c0), W = [], e = c.entrainment, dev = c.device;
+  if (c.root.source.startsWith("room:")){
+    const rm = DP.rooms[c.root.source.slice(5)];
+    if (rm.reported_hz){ c.root.hz = rm.reported_hz; c.root.why = "reported resonance of " + rm.name; }
+    else { const cand = (rm.modes_voice||[]).filter(m => m[0]>=90 && m[0]<=140); const best = cand.length ? cand.reduce((a,b) => (b[1]>a[1] || (b[1]===a[1] && Math.abs(b[0]-115)<Math.abs(a[0]-115))) ? b : a) : [110,0];
+      c.root.hz = best[0]; c.root.why = `strongest mode of ${rm.name} between 90 and 140 Hz (${best[1]} modes coincide)`; }
+  } else c.root.why = "set by hand";
+  while (c.root.hz < 55){ c.root.hz *= 2; W.push("root moved up an octave into the voice range"); }
+  const [sc, partials] = scale(c.drone.tuning, c.drone.rotation); c._scale = sc; c._partials = partials;
+  if (dev === "bone_conduction" && e.mode === "binaural"){ e.mode = "monaural"; W.push("Bone conduction: both ears hear both channels (interaural attenuation about 0-10 dB), so binaural was switched to monaural."); }
+  if (dev === "speakers" && e.mode === "binaural"){ e.mode = "isochronic"; W.push("Speakers: binaural beats need one tone per ear, so binaural was switched to isochronic pulses."); }
+  const beats = e.path.map(p => p[1]);
+  if (Math.max(...beats) > 45){ e.path = e.path.map(([t,b]) => [t, Math.min(45,b)]); W.push("Beat limited to 45 Hz."); }
+  if (e.mode === "binaural" && Math.max(...beats) > 30) W.push("Binaural beats above about 30 Hz are not heard as beats. Monaural is the stronger choice for 40 Hz.");
+  const [lo, hi] = dev === "bone_conduction" ? [300,650] : e.mode === "binaural" ? [200,900] : [200,1200];
+  if (e.carrier === "auto"){
+    const root = c.root.hz, cands = [];
+    for (const r of (partials ? [1,1.5,4/3] : sc)) for (let o=1;o<6;o++){ const f = root*r*2**o; if (f>=lo && f<=hi) cands.push(f); }
+    const tgt = dev === "bone_conduction" ? 450 : 420; e.carrier = cands.length ? +cands.reduce((a,b) => Math.abs(b-tgt)<Math.abs(a-tgt) ? b : a).toFixed(2) : 420;
+  } else if (e.carrier < lo || e.carrier > hi) W.push(`Carrier ${e.carrier} Hz is outside the best band for this device (${lo}-${hi} Hz).`);
+  c._min = dev === "bone_conduction" ? 250 : 40;
+  if (dev === "bone_conduction" && c.voice.on && c.root.hz < 250) W.push(`Bone conduction: the voice's fundamental (${c.root.hz.toFixed(0)} Hz) is felt weakly; its vowel formants carry.`);
+  const L = DP.languages[c.voice.language]; c._vowels = c.voice.vowels === "auto" ? L.vowels : c.voice.vowels;
+  return [c, W];
+}
+const interp = (path, x) => { for (let i=1;i<path.length;i++) if (x <= path[i][0]){ const [a,va]=path[i-1],[b,vb]=path[i]; return va + (vb-va)*(x-a)/((b-a)||1); } return path[path.length-1][1]; };
+function cycles(c){
+  const T = c.minutes*60, b = c.breath, p = b.path || [[0,b.per_min],[1,b.per_min]], [ri,re] = b.inhale_exhale, out = []; let s = c.safety.fade_s*0.5;
+  while (s < T){ const rate = interp(p, s/T), per = 60/rate, li = per*ri/(ri+re); out.push([s, li, per-li]); s += per; }
+  return out;
+}
+function vowelSeq(c, k){
+  const vs = c._vowels, o = c.voice.order;
+  if (o.startsWith("pgm_square:")){ const s = DIRS[o.split(":")[1]], seq = []; for (let i=0;i<vs.length;i++) for (let j=0;j<=i;j++) seq.push(vs[(s+i)%vs.length]); return Array.from({length:k}, (_,i) => seq[i%seq.length]); }
+  return Array.from({length:k}, (_,i) => vs[i%vs.length]);
+}
+function card(c, W){
+  const e = c.entrainment, L = DP.languages[c.voice.language], rm = DP.rooms[c.room.name], tu = DP.tunings[c.drone.tuning];
+  const rows = [
+    ["Device", {headphones:"Studio headphones",bone_conduction:"Bone conduction",speakers:"Speakers"}[c.device], "ESTABLISHED", "Binaural needs isolated ears; bone conduction carries little bass."],
+    ["Beat", e.mode === "none" ? "none" : `${e.mode}, ${e.path.map(p=>p[1]).join(" → ")} Hz on a ${e.carrier} Hz carrier`, e.mode === "none" ? "-" : (Math.max(...e.path.map(p=>p[1])) >= 38 ? "ESTABLISHED" : "MIXED"), "The 40 Hz cortical response is established; effects of slower beats on mind and body are mixed."],
+    ["Breath", c.breath.guide ? `${(c.breath.path||[[0,c.breath.per_min]]).map(p=>p[1]).join(" → ")} per min, in:out ${c.breath.inhale_exhale.join(":")}` : "no guide", c.breath.guide ? "ESTABLISHED" : "-", DP.breath.resonance_6.note],
+    ["Voice", c.voice.on ? `${L.name}: ${c._vowels.join(" ")}, ${c.voice.order.replace("pgm_square:","PGM square ")}${c.voice.hum_end ? ", closing hum" : ""}` : "off", c.voice.on ? L.evidence : "-", L.note + (c.voice.hum_end ? " Humming raises nasal nitric oxide (ESTABLISHED)." : "")],
+    ["Drone", c.drone.on ? `${c.drone.tuning.replace(/_/g," ")}${tu.as_partials ? " partials" : ", rotation "+(c.drone.rotation||1)}: ${c._scale.map(x=>+x.toFixed(4)).join(", ")}` : "off", c.drone.on ? tu.evidence : "-", tu.note],
+    ["Root", `${(+c.root.hz).toFixed(1)} Hz: ${c.root.why}`, c.root.source.startsWith("room:") ? DP.rooms[c.root.source.slice(5)].evidence : "-", c.root.source.startsWith("room:") ? DP.rooms[c.root.source.slice(5)].note : ""],
+    ["Room", rm ? `${rm.name}, mix ${c.room.wet}` : "no reverb", rm ? rm.evidence : "-", rm ? "Reverberation built from the room's computed modes." : ""]];
+  if (c.target_evidence) rows.push(["Target", TARGETS[c.target] ? TARGETS[c.target].label : c.target, "-", Object.entries(c.target_evidence).map(([k,v]) => k+": "+v).join("; ")]);
+  $("card").tBodies[0].innerHTML = rows.map(r => `<tr><td>${r[0]}</td><td>${esc(r[1])}</td><td><span class="chip lv-${r[2].split(" ")[0]}">${r[2]}</span></td><td class="muted">${esc(r[3])}</td></tr>`).join("");
+  $("warns").innerHTML = W.map(w => `<li>${esc(w)}</li>`).join("");
+}
+let R = null, WARN = [], CYC = [], SEQ = [];
+function refresh(){
+  [R, WARN] = resolve(cfg); CYC = cycles(R); SEQ = vowelSeq(R, CYC.length); card(R, WARN);
+  const out = clone(cfg); delete out._scale; $("json").value = JSON.stringify(out, null, 1);
+  if (!audio) draw(0);
+}
+
+// ---------------------------------------------------------------- audio
+let audio = null;
+function wave(ctx, amps){ const re = new Float32Array(amps.length+1), im = new Float32Array(amps.length+1); amps.forEach((a,i) => im[i+1] = a); return ctx.createPeriodicWave(re, im); }
+function roomIR(ctx, dims, rt){
+  const sr = ctx.sampleRate, n = Math.floor(rt*1.2*sr), c = 343, fmax = 260, low = new Float32Array(n), src = [0.31,0.43,0.37], mic = [0.68,0.59,0.44];
+  const nm = dims.map(d => Math.floor(2*fmax*d/c)+1);
+  for (let x=0;x<=nm[0];x++) for (let y=0;y<=nm[1];y++) for (let z=0;z<=nm[2];z++){
+    if (!x && !y && !z) continue; const f = c/2*Math.hypot(x/dims[0], y/dims[1], z/dims[2]); if (f > fmax) continue;
+    let a = 1; [x,y,z].forEach((k,i) => a *= Math.cos(k*Math.PI*src[i])*Math.cos(k*Math.PI*mic[i]));
+    const w = 2*Math.PI*f/sr, d = 6.91/rt/sr; for (let i=0;i<n;i++) low[i] += a*Math.exp(-i*d)*Math.cos(w*i);
+  }
+  let m = 0; for (let i=0;i<n;i++) m = Math.max(m, Math.abs(low[i]));
+  const buf = ctx.createBuffer(2, n, sr);
+  for (let ch=0; ch<2; ch++){ const o = buf.getChannelData(ch); let lp = 0;
+    for (let i=0;i<n;i++){ const w = (Math.random()*2-1)*Math.exp(-i*6.91/rt/sr); lp += 0.25*(w-lp); o[i] = 0.7*low[i]/(m||1) + 0.3*(w-lp); } }
+  return buf;
+}
+const dbg = x => Math.pow(10, x/20);
+function start(){
+  stop(); const c = R; const ctx = new (window.AudioContext || window.webkitAudioContext)(); const T = c.minutes*60, t0 = ctx.currentTime + 0.15, end = t0 + T;
+  const master = ctx.createGain(); master.gain.value = 0; const out = ctx.createGain(); out.gain.value = +$("vol").value * 0.5;
+  master.connect(out); out.connect(ctx.destination);
+  master.gain.setValueAtTime(0, t0); master.gain.linearRampToValueAtTime(1, t0 + c.safety.fade_s); master.gain.setValueAtTime(1, end - c.safety.fade_s); master.gain.linearRampToValueAtTime(0, end);
+  const nodes = [];
+  const osc = (f, type) => { const o = ctx.createOscillator(); if (type) o.setPeriodicWave(type); o.frequency.value = f; o.start(t0); o.stop(end + 0.2); nodes.push(o); return o; };
+  // music bus (mono): drone, air, voice -> highpass -> dry + room
+  const bus = ctx.createGain(); const hp = ctx.createBiquadFilter(); hp.type = "highpass"; hp.frequency.value = c._min; bus.connect(hp);
+  const dry = ctx.createGain(); hp.connect(dry); dry.connect(master);
+  if (DP.rooms[c.room.name] && c.room.wet > 0){ const cv = ctx.createConvolver(); cv.buffer = roomIR(ctx, DP.rooms[c.room.name].dims_m, c.room.rt || 3); const wg = ctx.createGain(); wg.gain.value = c.room.wet * 1.4; dry.gain.value = 1 - c.room.wet; hp.connect(cv); cv.connect(wg); wg.connect(master); }
+  const root = c.root.hz;
+  // drone
+  if (c.drone.on){
+    const dg = ctx.createGain(); dg.connect(bus); const lvl = dbg(c.drone.level_db) * 0.5;
+    let fr, am, harm;
+    if (c._partials){ fr = c._scale.map(r => root*r).filter(f => f < 2200); am = fr.map((_,i) => 1/(1+0.35*i)); harm = 1; }
+    else { const s = c._scale; fr = [root/2, root, root*s[4%s.length], root*2, root*2*s[2%s.length]]; am = [0.6,1,0.7,0.45,0.25]; harm = 6; }
+    const pw = wave(ctx, Array.from({length:harm}, (_,h) => 1/Math.pow(h+1,1.6)));
+    fr.forEach((f,i) => { while (f < c._min) f *= 2; const o = osc(f, harm > 1 ? pw : null); const g = ctx.createGain(); g.gain.value = am[i]*0.75/fr.length*2; const l = osc(1/(23+7*i)); const lg = ctx.createGain(); lg.gain.value = am[i]*0.25/fr.length*2; l.connect(lg); lg.connect(g.gain); o.connect(g); g.connect(dg); });
+    dg.gain.setValueAtTime(lvl*(c.breath.guide ? 0.55 : 0.8), t0);
+    if (c.breath.guide) for (const [s,li,le] of CYC){ dg.gain.linearRampToValueAtTime(lvl, t0+s+li); dg.gain.linearRampToValueAtTime(lvl*0.55, t0+s+li+le); }
+    if (c.breath.guide){ // air on the in-breath
+      const nb = ctx.createBuffer(1, ctx.sampleRate*2, ctx.sampleRate), d = nb.getChannelData(0); for (let i=0;i<d.length;i++) d[i] = Math.random()*2-1;
+      const ns = ctx.createBufferSource(); ns.buffer = nb; ns.loop = true; const bp = ctx.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = 900; bp.Q.value = 0.6;
+      const ag = ctx.createGain(); ag.gain.value = 0; ns.connect(bp); bp.connect(ag); ag.connect(bus); ns.start(t0); ns.stop(end); nodes.push(ns);
+      for (const [s,li] of CYC){ ag.gain.setValueAtTime(0, t0+s); ag.gain.linearRampToValueAtTime(lvl*0.12, t0+s+li/2); ag.gain.linearRampToValueAtTime(0, t0+s+li); }
+    }
+  }
+  // voice
+  if (c.voice.on){
+    let f0 = root; while (f0 < c._min*0.5) f0 *= 2;
+    const harmN = Math.floor(5000/f0); const v = osc(f0, wave(ctx, Array.from({length:harmN}, (_,h) => 1/(h+1))));
+    const vib = osc(5.3), vg = ctx.createGain(); vg.gain.value = 6; vib.connect(vg); vg.connect(v.detune);
+    const env = ctx.createGain(); env.gain.value = 0; const lv = ctx.createGain(); lv.gain.value = dbg(c.voice.level_db) * 1.6; env.connect(lv); lv.connect(bus);
+    const F = [0,1,2].map(j => { const f = ctx.createBiquadFilter(); f.type = "bandpass"; f.Q.value = [9,14,18][j]; f.frequency.value = DP.formants["ə"][j]; const g = ctx.createGain(); g.gain.value = [1,0.7,0.4][j]; v.connect(f); f.connect(g); g.connect(env); return f; });
+    const fm = DP.formants.m;
+    CYC.forEach(([s,li,le], k) => {
+      const a = t0+s+li, fv = DP.formants[SEQ[k]]; if (a > end) return;
+      F.forEach((f,j) => { f.frequency.setTargetAtTime(fv[j], a - 0.06, 0.025); if (c.voice.hum_end) f.frequency.setTargetAtTime(fm[j], a + 0.75*le, 0.05); });
+      env.gain.setValueAtTime(0, a); env.gain.linearRampToValueAtTime(1, a + 0.08*le);
+      if (c.voice.hum_end){ env.gain.linearRampToValueAtTime(0.9, a + 0.74*le); env.gain.linearRampToValueAtTime(0.5, a + 0.8*le); }
+      env.gain.linearRampToValueAtTime(0, a + le*0.98);
+    });
+  }
+  // beat (dry, stereo)
+  const e = c.entrainment;
+  if (e.mode !== "none"){
+    const merger = ctx.createChannelMerger(2); const eg = ctx.createGain(); eg.gain.value = dbg(e.level_db) * 1.2; merger.connect(eg); eg.connect(master);
+    const fc = e.carrier, sched = (param, fn) => { param.setValueAtTime(fn(e.path[0][1]), t0); for (const [x,b] of e.path) param.linearRampToValueAtTime(fn(b), t0 + x*T); };
+    if (e.mode === "binaural" || e.mode === "monaural"){
+      const L = osc(fc), Rr = osc(fc); sched(L.frequency, b => fc - b/2); sched(Rr.frequency, b => fc + b/2);
+      const gl = ctx.createGain(), gr = ctx.createGain(); gl.gain.value = gr.gain.value = e.mode === "monaural" ? 0.5 : 1; L.connect(gl); Rr.connect(gr);
+      if (e.mode === "binaural"){ gl.connect(merger, 0, 0); gr.connect(merger, 0, 1); }
+      else { gl.connect(merger, 0, 0); gl.connect(merger, 0, 1); gr.connect(merger, 0, 0); gr.connect(merger, 0, 1); }
+    } else {
+      const car = osc(fc), g = ctx.createGain(); g.gain.value = 0.5; const l = osc(e.path[0][1]); sched(l.frequency, b => b); const lg = ctx.createGain(); lg.gain.value = 0.5; l.connect(lg); lg.connect(g.gain);
+      car.connect(g); g.connect(merger, 0, 0); g.connect(merger, 0, 1);
+    }
+  }
+  audio = {ctx, t0, end, out, nodes};
+  setTimeout(() => { if (audio && audio.ctx === ctx) stop(); }, (T + 1) * 1000);
+  loop();
+}
+function stop(){ if (!audio) return; try { audio.out.gain.setTargetAtTime(0, audio.ctx.currentTime, 0.1); const c = audio.ctx; setTimeout(() => c.close(), 400); } catch(_){} audio = null; draw(0); }
+$("vol").addEventListener("input", () => { if (audio) audio.out.gain.setTargetAtTime(+$("vol").value * 0.5, audio.ctx.currentTime, 0.05); });
+
+// ---------------------------------------------------------------- visual
+const cv = $("cv"), g2 = cv.getContext("2d");
+function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function state(t){
+  let k = 0; while (k+1 < CYC.length && CYC[k+1][0] <= t) k++;
+  const [s,li,le] = CYC[k] || [0,4,6]; const u = t - s;
+  if (!R.breath.guide) return {k, B:0.6, phase:"steady", left:0};
+  if (u < 0) return {k, B:0, phase:"settle", left:-u};
+  if (u < li) return {k, B:Math.sin(Math.PI/2*u/li)**2, phase:"breathe in", left:li-u};
+  return {k, B:Math.cos(Math.PI/2*Math.min(1,(u-li)/le))**2, phase:"breathe out", left:Math.max(0, li+le-u)};
+}
+function draw(t){
+  const W = cv.width, H = cv.height, cx = W/2, cy = H/2; g2.clearRect(0,0,W,H);
+  const st = state(t), ink = css("--ink"), muted = css("--muted"), br = css("--bronze"), vd = css("--verd"), line = css("--line");
+  const rMin = W*0.16, rMax = W*0.42, r = rMin + (rMax - rMin)*st.B;
+  g2.strokeStyle = line; g2.lineWidth = 1.5; [rMin, rMax].forEach(rr => { g2.beginPath(); g2.arc(cx,cy,rr,0,Math.PI*2); g2.stroke(); });
+  // seven direction ticks (PGM XIII square)
+  for (let i=0;i<7;i++){ const a = -Math.PI/2 + i*2*Math.PI/7; g2.beginPath(); g2.moveTo(cx+Math.cos(a)*(rMax+6), cy+Math.sin(a)*(rMax+6)); g2.lineTo(cx+Math.cos(a)*(rMax+16), cy+Math.sin(a)*(rMax+16)); g2.stroke(); }
+  g2.fillStyle = st.phase === "breathe in" ? vd : br; g2.globalAlpha = 0.16; g2.beginPath(); g2.arc(cx,cy,r,0,Math.PI*2); g2.fill(); g2.globalAlpha = 1;
+  g2.strokeStyle = st.phase === "breathe in" ? vd : br; g2.lineWidth = 3; g2.beginPath(); g2.arc(cx,cy,r,0,Math.PI*2); g2.stroke();
+  const v = SEQ[st.k] || "a"; const glyph = R.voice.language === "pgm_seven" || R.voice.language === "attic" || R.voice.language === "koine" ? (GREEK[v]||v) : v;
+  g2.fillStyle = ink; g2.textAlign = "center"; g2.textBaseline = "middle";
+  g2.font = `${Math.round(W*0.16)}px ${css("--display")}`; g2.fillText(R.voice.on ? glyph : "·", cx, cy - W*0.02);
+  g2.font = `500 ${Math.round(W*0.036)}px ${css("--body")}`; g2.fillStyle = muted; g2.fillText(audio ? st.phase : "press play", cx, cy + W*0.11);
+  const T = R.minutes*60, beat = interp(R.entrainment.path, Math.min(1, t/T)), bp = R.breath.path || [[0,R.breath.per_min]], rate = interp(bp, Math.min(1,t/T));
+  const mm = s => `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,"0")}`;
+  $("readout").innerHTML = [["time", `${mm(t)} / ${mm(T)}`], ["beat", R.entrainment.mode === "none" ? "off" : `${beat.toFixed(2)} Hz`], ["mode", R.entrainment.mode], ["carrier", `${R.entrainment.carrier} Hz`],
+    ["breath", R.breath.guide ? `${rate.toFixed(1)} / min` : "off"], ["root", `${(+R.root.hz).toFixed(1)} Hz`], ["vowel", R.voice.on ? `${v}${glyph !== v ? " (" + glyph + ")" : ""}` : "off"]]
+    .map(([a,b]) => `<dt>${a}</dt><dd>${esc(b)}</dd>`).join("");
+}
+function loop(){ if (!audio) return; const t = Math.max(0, audio.ctx.currentTime - audio.t0); draw(t); requestAnimationFrame(loop); }
+
+// ---------------------------------------------------------------- events
+$("form").addEventListener("input", e => { if (["preset","d_target","d_lang","d_room","d_tuning"].includes(e.target.id)) return; cfg = fromForm(); refresh(); });
+$("form").addEventListener("submit", e => e.preventDefault());
+$("preset").addEventListener("change", e => { if (e.target.value === "") return; cfg = clone(PRESETS[+e.target.value]); toForm(cfg); refresh(); if (audio) start(); });
+$("designBtn").addEventListener("click", () => { cfg = design($("d_target").value, $("device").value, $("d_lang").value, +$("minutes").value || 10, $("d_room").value, $("d_tuning").value); $("preset").value = ""; toForm(cfg); refresh(); if (audio) start(); });
+$("play").addEventListener("click", () => { cfg = fromForm(); refresh(); start(); });
+$("stop").addEventListener("click", stop);
+$("copy").addEventListener("click", () => { const t = $("json").value; navigator.clipboard.writeText(t).then(() => $("jsonMsg").textContent = "Copied", () => { $("json").select(); $("jsonMsg").textContent = "Selected: press Ctrl+C or Cmd+C"; }); });
+$("load").addEventListener("click", () => { try { cfg = merge(DEFAULT, JSON.parse($("json").value)); toForm(cfg); refresh(); $("jsonMsg").textContent = "Loaded"; } catch(err){ $("jsonMsg").textContent = "That is not valid JSON: " + err.message; } });
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
+  ["build","samples","data","method"].forEach(id => $(id).hidden = id !== b.dataset.tab);
+}));
+
+// ---------------------------------------------------------------- samples and data tabs
+$("sampleList").innerHTML = PRESETS.map((p,i) => { const r = REPORT[i] || {checks:[]}; const n = String(i+1).padStart(2,"0");
+  return `<div class="sample panel"><div style="display:flex;justify-content:space-between;gap:8px;align-items:baseline"><b>${esc(p.name)}</b><span class="${r.passed ? "pass" : "fail"}">${r.passed ? "passed" : "failed"} ${r.checks.filter(x=>x.ok).length}/${r.checks.length}</span></div>
+  <audio controls preload="none" src="samples/${n}.mp3"></audio>
+  <div class="row"><button class="btn small" type="button" data-p="${i}">Open in Build</button><span class="muted mono">${esc(p.device.replace("_"," "))} · ${esc(p.entrainment.mode)}</span></div>
+  <details><summary>Measured checks</summary><div class="scroll"><table><thead><tr><th>Check</th><th>Expected</th><th>Measured</th></tr></thead><tbody>${r.checks.map(x => `<tr><td>${x.ok ? "✓" : "✗"} ${esc(x.c)}</td><td class="mono">${esc(x.want)}</td><td class="mono">${esc(x.got)}</td></tr>`).join("")}</tbody></table></div></details></div>`; }).join("");
+$("sampleList").addEventListener("click", e => { const b = e.target.closest("button[data-p]"); if (!b) return; cfg = clone(PRESETS[+b.dataset.p]); $("preset").value = b.dataset.p; toForm(cfg); refresh(); $("t-build").click(); });
+const chip = l => `<span class="chip lv-${l.split(" ")[0]}">${esc(l)}</span>`;
+$("dataPanel").innerHTML = `
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Established facts the engine follows</h2><div class="scroll"><table><tbody>${DP.facts.map(f => `<tr><td>${chip(f.evidence)}</td><td>${esc(f.fact)}${f.source ? ` <span class="muted">(${esc(f.source)})</span>` : ""}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Ancient vowel inventories</h2><div class="scroll"><table><thead><tr><th>Language</th><th>Vowels</th><th>Evidence</th><th>Note</th></tr></thead><tbody>${Object.values(DP.languages).map(l => `<tr><td>${esc(l.name)}</td><td class="mono">${esc(l.vowels.join(" "))}</td><td>${chip(l.evidence)}</td><td class="muted">${esc(l.note)}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Tunings and ratios</h2><div class="scroll"><table><thead><tr><th>Tuning</th><th>Ratios</th><th>Evidence</th><th>Note</th></tr></thead><tbody>${Object.entries(DP.tunings).map(([k,t]) => `<tr><td>${esc(k.replace(/_/g," "))}</td><td class="mono">${esc(t.ratios.map(x => +(+x).toFixed(4)).join(", "))}</td><td>${chip(t.evidence)}</td><td class="muted">${esc(t.note)}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Rooms</h2><div class="scroll"><table><thead><tr><th>Room</th><th>Size, m</th><th>Strongest modes 90-140 Hz (modes coinciding)</th><th>Evidence</th></tr></thead><tbody>${Object.values(DP.rooms).map(r => `<tr><td>${esc(r.name)}</td><td class="mono">${r.dims_m.join(" × ")}</td><td class="mono">${r.reported_hz ? "reported " + r.reported_hz + " Hz" : (r.modes_voice||[]).filter(m=>m[0]>=90&&m[0]<=140).sort((a,b)=>b[1]-a[1]).slice(0,3).map(m => `${m[0]} (×${m[1]})`).join(", ")}</td><td>${chip(r.evidence)}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Breath paces</h2><div class="scroll"><table><thead><tr><th>Pace</th><th>Per minute</th><th>In : out</th><th>Evidence</th><th>Note</th></tr></thead><tbody>${Object.entries(DP.breath).map(([k,b]) => `<tr><td>${esc(k.replace(/_/g," "))}</td><td class="mono">${b.per_min}</td><td class="mono">${b.inhale_exhale.join(" : ")}</td><td>${chip(b.evidence)}</td><td class="muted">${esc(b.note)}</td></tr>`).join("")}</tbody></table></div></div>`;
+
+toForm(cfg); $("preset").value = "0"; $("d_target").value = "resonance_breathing"; $("d_lang").value = "koine"; $("d_room").value = "debir"; $("d_tuning").value = "pythagorean"; refresh();
+if (document.fonts) document.fonts.ready.then(() => { if (!audio) draw(0); });
+</script>

@@ -1,0 +1,789 @@
+{
+ "outlines": [
+  {
+   "book": "John",
+   "outline": "Brown's four parts (prologue | signs | farewell | passion)",
+   "quotes_BSB": {
+    "cuts": [
+     "3:2",
+     "13:33",
+     "17:26"
+    ],
+    "ref": [
+     "1:19",
+     "13:1",
+     "18:1"
+    ],
+    "mean_dist": 30.7,
+    "p": 0.014299285035748212
+   },
+   "person_greek": {
+    "cuts": [
+     "4:8",
+     "13:33",
+     "18:1"
+    ],
+    "ref": [
+     "1:19",
+     "13:1",
+     "18:1"
+    ],
+    "mean_dist": 44.3,
+    "p": 0.05674716264186791
+   }
+  },
+  {
+   "book": "Job",
+   "outline": "prologue | dialogues | Elihu | the LORD speaks | epilogue",
+   "quotes_BSB": {
+    "cuts": [
+     "3:8",
+     "31:38",
+     "33:18",
+     "41:10"
+    ],
+    "ref": [
+     "3:1",
+     "32:1",
+     "38:1",
+     "42:7"
+    ],
+    "mean_dist": 20.0,
+    "p": 0.00014999250037498125
+   },
+   "person_hebrew": {
+    "cuts": [
+     "5:21",
+     "20:5",
+     "29:3",
+     "33:13"
+    ],
+    "ref": [
+     "3:1",
+     "32:1",
+     "38:1",
+     "42:7"
+    ],
+    "mean_dist": 123.2,
+    "p": 0.35538223088845555
+   }
+  },
+  {
+   "book": "Deuteronomy",
+   "outline": "Moses' three speeches | the death of Moses",
+   "quotes_BSB": {
+    "cuts": [
+     "5:33",
+     "26:5",
+     "31:22"
+    ],
+    "ref": [
+     "4:44",
+     "29:1",
+     "31:1"
+    ],
+    "mean_dist": 56.0,
+    "p": 0.0863956802159892
+   },
+   "person_hebrew": {
+    "cuts": [
+     "17:3",
+     "28:2",
+     "28:47"
+    ],
+    "ref": [
+     "4:44",
+     "28:69",
+     "31:1"
+    ],
+    "mean_dist": 134.0,
+    "p": 0.5802709864506774
+   }
+  },
+  {
+   "book": "Revelation",
+   "outline": "opening | letters | visions | close (exploratory)",
+   "quotes_BSB": {
+    "cuts": [
+     "1:18",
+     "4:1",
+     "17:6"
+    ],
+    "ref": [
+     "1:9",
+     "4:1",
+     "22:6"
+    ],
+    "mean_dist": 38.0,
+    "p": 0.11304434778261087
+   },
+   "person_greek": {
+    "cuts": [
+     "2:1",
+     "4:1",
+     "22:6"
+    ],
+    "ref": [
+     "1:9",
+     "4:1",
+     "22:6"
+    ],
+    "mean_dist": 4.0,
+    "p": 4.999750012499375e-05
+   }
+  },
+  {
+   "book": "Hebrews",
+   "outline": "exposition | high priest | exhortation (exploratory)",
+   "quotes_BSB": {
+    "cuts": [
+     "1:14",
+     "3:14"
+    ],
+    "ref": [
+     "4:14",
+     "10:19"
+    ],
+    "mean_dist": 35.0,
+    "p": 0.4863756812159392
+   },
+   "person_greek": {
+    "cuts": [
+     "4:4",
+     "13:14"
+    ],
+    "ref": [
+     "4:14",
+     "10:19"
+    ],
+    "mean_dist": 56.5,
+    "p": 0.8590070496475176
+   }
+  },
+  {
+   "book": "Acts",
+   "outline": "Peter | Paul (exploratory control)",
+   "quotes_BSB": {
+    "cuts": [
+     "7:55"
+    ],
+    "ref": [
+     "13:1"
+    ],
+    "mean_dist": 192.0,
+    "p": 0.40697965101744915
+   },
+   "person_greek": {
+    "cuts": [
+     "20:13"
+    ],
+    "ref": [
+     "13:1"
+    ],
+    "mean_dist": 274.0,
+    "p": 0.5965701714914254
+   }
+  }
+ ],
+ "john_farewell": {
+  "4": [
+   "1:20",
+   "13:33",
+   "17:26"
+  ],
+  "5": [
+   "3:2",
+   "10:40",
+   "13:32",
+   "17:26"
+  ],
+  "6": [
+   "1:20",
+   "5:19",
+   "10:39",
+   "13:32",
+   "17:26"
+  ]
+ },
+ "ketiv_qere": {
+  "pairs": 1245,
+  "kinds": {
+   "differ only in vowel letters (sound alike)": 1077,
+   "same letters (vowels differ)": 7,
+   "different sound": 128,
+   "letters swapped (seen, not heard)": 7,
+   "lo / lo (not / to him): pure homophone": 15,
+   "word split, added or dropped": 11
+  },
+  "sound_alike_share": 0.883
+ },
+ "masorah": [
+  {
+   "claim": "Torah middle letter: the vav of gachon, Lev 11:42",
+   "found": "Lev 8:29",
+   "verses_away": 93,
+   "detail": "('Lev', (8, 29), 'ויקח', 2)"
+  },
+  {
+   "claim": "Torah middle words: darosh darash, Lev 10:16",
+   "found": "Lev 8:15",
+   "verses_away": 61,
+   "detail": "(('Lev', (8, 15), 'יסוד'), ('Lev', (8, 15), 'המזבח'))"
+  },
+  {
+   "claim": "Torah middle verse: ve-hitgalach, Lev 13:33",
+   "found": "Lev 8:9",
+   "verses_away": 159,
+   "detail": "('Lev', (8, 9))"
+  },
+  {
+   "claim": "Psalms middle letter: the ayin of mi-ya'ar, Ps 80:14",
+   "found": "Ps 77:1",
+   "verses_away": 119,
+   "detail": "('Ps', (77, 1), 'למנצח', 0)"
+  },
+  {
+   "claim": "Psalms middle verse: Ps 78:38",
+   "found": "Ps 78:36",
+   "verses_away": 2,
+   "detail": "('Ps', (78, 36))"
+  }
+ ],
+ "life_greek": {
+  "NT": {
+   "books": 25,
+   "hit": 2,
+   "expected": 2.07,
+   "p": 0.6347045555127503,
+   "which": [
+    "1Ti",
+    "1Jn"
+   ]
+  },
+  "LXX": {
+   "books": 55,
+   "hit": 3,
+   "expected": 1.82,
+   "p": 0.27163587268446987,
+   "which": [
+    "Regnorum_III",
+    "Psalmi_Salomonis",
+    "Jonas"
+   ]
+  }
+ },
+ "semitic": {
+  "Heb": {
+   "words": 4935,
+   "per_1000": 0.2,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "2Pe": {
+   "words": 1098,
+   "per_1000": 0.91,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "1Ti": {
+   "words": 1591,
+   "per_1000": 1.26,
+   "terms": {
+    "amen": 2
+   }
+  },
+  "2Jn": {
+   "words": 245,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "Mt": {
+   "words": 18329,
+   "per_1000": 2.4,
+   "terms": {
+    "amen": 31,
+    "rabbi": 4,
+    "hosanna": 3,
+    "eli": 2,
+    "raka": 1,
+    "mammon": 1,
+    "lema": 1,
+    "sabachthani": 1
+   }
+  },
+  "1Jn": {
+   "words": 2137,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "Ro": {
+   "words": 7055,
+   "per_1000": 0.99,
+   "terms": {
+    "amen": 5,
+    "abba": 1,
+    "sabaoth": 1
+   }
+  },
+  "Tit": {
+   "words": 659,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "3Jn": {
+   "words": 219,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "Lk": {
+   "words": 19446,
+   "per_1000": 0.51,
+   "terms": {
+    "amen": 6,
+    "mammon": 3,
+    "eli": 1
+   }
+  },
+  "Eph": {
+   "words": 2416,
+   "per_1000": 0.41,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "Ga": {
+   "words": 2226,
+   "per_1000": 1.35,
+   "terms": {
+    "amen": 2,
+    "abba": 1
+   }
+  },
+  "Jud": {
+   "words": 459,
+   "per_1000": 2.18,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "Php": {
+   "words": 1626,
+   "per_1000": 0.62,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "2Th": {
+   "words": 820,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "1Th": {
+   "words": 1473,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "2Co": {
+   "words": 4473,
+   "per_1000": 0.22,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "Col": {
+   "words": 1580,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "Ac": {
+   "words": 18412,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "Jn": {
+   "words": 15438,
+   "per_1000": 4.21,
+   "terms": {
+    "amen": 50,
+    "rabbi": 8,
+    "(in Hebrew/Aramaic)": 5,
+    "hosanna": 1,
+    "rabbouni": 1
+   }
+  },
+  "Phm": {
+   "words": 334,
+   "per_1000": 0.0,
+   "terms": {}
+  },
+  "1Co": {
+   "words": 6812,
+   "per_1000": 0.29,
+   "terms": {
+    "amen": 1,
+    "maranatha": 1
+   }
+  },
+  "1Pe": {
+   "words": 1678,
+   "per_1000": 1.19,
+   "terms": {
+    "amen": 2
+   }
+  },
+  "Re": {
+   "words": 9833,
+   "per_1000": 1.42,
+   "terms": {
+    "amen": 8,
+    "hallelujah": 4,
+    "(in Hebrew/Aramaic)": 2
+   }
+  },
+  "Jas": {
+   "words": 1739,
+   "per_1000": 0.58,
+   "terms": {
+    "sabaoth": 1
+   }
+  },
+  "2Ti": {
+   "words": 1235,
+   "per_1000": 0.81,
+   "terms": {
+    "amen": 1
+   }
+  },
+  "Mk": {
+   "words": 11286,
+   "per_1000": 2.57,
+   "terms": {
+    "amen": 14,
+    "rabbi": 3,
+    "hosanna": 2,
+    "eloi": 2,
+    "talitha": 1,
+    "koum": 1,
+    "korban": 1,
+    "ephphatha": 1,
+    "rabbouni": 1,
+    "abba": 1,
+    "lema": 1,
+    "sabachthani": 1
+   }
+  }
+ },
+ "amen": {
+  "Heb closes or responds": 1,
+  "2Pe closes or responds": 1,
+  "1Ti closes or responds": 2,
+  "Mt closes or responds": 4,
+  "Mt opens a saying": 27,
+  "Ro closes or responds": 5,
+  "Lk opens a saying": 5,
+  "Lk closes or responds": 1,
+  "Eph closes or responds": 1,
+  "Ga closes or responds": 2,
+  "Jud closes or responds": 1,
+  "Php closes or responds": 1,
+  "2Co closes or responds": 1,
+  "Jn opens a saying": 50,
+  "1Co closes or responds": 1,
+  "1Pe closes or responds": 2,
+  "Re closes or responds": 8,
+  "2Ti closes or responds": 1,
+  "Mk opens a saying": 12,
+  "Mk closes or responds": 2
+ },
+ "numbers": [
+  {
+   "claim": "Eliezer (Gen 15:2) and the 318 men of Gen 14:14",
+   "word": "אליעזר",
+   "value": 318,
+   "matches": true,
+   "bible_forms_with_value": 66,
+   "share": 0.00167
+  },
+  {
+   "claim": "Nero Caesar, Hebrew spelling with final nun (Rev 13:18, 666)",
+   "word": "נרונקסר",
+   "value": 666,
+   "matches": true,
+   "bible_forms_with_value": 38,
+   "share": 0.00096
+  },
+  {
+   "claim": "Nero Caesar, Latin-style spelling without it (variant 616, P115 and Codex C)",
+   "word": "נרוקסר",
+   "value": 616,
+   "matches": true,
+   "bible_forms_with_value": 59,
+   "share": 0.00149
+  },
+  {
+   "claim": "'sons of God' (bene ha-Elohim), John 21:11 153 fish",
+   "word": "בניהאלהים",
+   "value": 153,
+   "matches": true,
+   "bible_forms_with_value": 54,
+   "share": 0.00136
+  },
+  {
+   "claim": "153 = 1+2+...+17 (triangular)",
+   "matches": true
+  },
+  {
+   "claim": "ichthys, fish (singular) vs 8 x 153 = 1224",
+   "value": 1219,
+   "matches": false
+  },
+  {
+   "claim": "ichthyes, fishes (plural) vs 8 x 153 = 1224",
+   "value": 1224,
+   "matches": true
+  },
+  {
+   "claim": "to diktyon, the net (John 21:11) vs 8 x 153 = 1224",
+   "value": 1224,
+   "matches": true
+  }
+ ],
+ "breath": {
+  "Gen": {
+   "median_syllables": 13.0,
+   "breaths_per_min": 16.3,
+   "cv": 0.5
+  },
+  "Exod": {
+   "median_syllables": 14.0,
+   "breaths_per_min": 15.3,
+   "cv": 0.5
+  },
+  "Ps": {
+   "median_syllables": 8.0,
+   "breaths_per_min": 23.3,
+   "cv": 0.42
+  },
+  "Lam": {
+   "median_syllables": 13.0,
+   "breaths_per_min": 16.3,
+   "cv": 0.35
+  },
+  "Song": {
+   "median_syllables": 13.0,
+   "breaths_per_min": 16.3,
+   "cv": 0.38
+  },
+  "Prov": {
+   "median_syllables": 7.0,
+   "breaths_per_min": 25.5,
+   "cv": 0.28
+  },
+  "Job": {
+   "median_syllables": 8.0,
+   "breaths_per_min": 23.3,
+   "cv": 0.44
+  },
+  "Isa": {
+   "median_syllables": 13.0,
+   "breaths_per_min": 16.3,
+   "cv": 0.46
+  }
+ },
+ "rooms": [
+  {
+   "room": "Tabernacle most holy (10 cubit cube)",
+   "dims_m": [
+    4.45,
+    4.45,
+    4.45
+   ],
+   "fundamental": 38.5,
+   "modes_to_120": 28,
+   "distinct_freqs": 8,
+   "freqs": [
+    38,
+    54,
+    67,
+    77,
+    86,
+    94,
+    109,
+    116
+   ]
+  },
+  {
+   "room": "Solomon's debir (20 cubit cube)",
+   "dims_m": [
+    8.9,
+    8.9,
+    8.9
+   ],
+   "fundamental": 19.3,
+   "modes_to_120": 177,
+   "distinct_freqs": 33,
+   "freqs": [
+    19,
+    27,
+    33,
+    38,
+    43,
+    47,
+    54,
+    58,
+    61,
+    64,
+    67,
+    70,
+    72,
+    77,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90
+   ]
+  },
+  {
+   "room": "Solomon's hekal (40 x 20 x 30)",
+   "dims_m": [
+    17.8,
+    8.9,
+    13.35
+   ],
+   "fundamental": 9.6,
+   "modes_to_120": 492,
+   "distinct_freqs": 95,
+   "freqs": [
+    10,
+    13,
+    16,
+    19,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    32,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42
+   ]
+  },
+  {
+   "room": "Ezekiel's most holy (20 x 20, height taken as 20)",
+   "dims_m": [
+    8.9,
+    8.9,
+    8.9
+   ],
+   "fundamental": 19.3,
+   "modes_to_120": 177,
+   "distinct_freqs": 33,
+   "freqs": [
+    19,
+    27,
+    33,
+    38,
+    43,
+    47,
+    54,
+    58,
+    61,
+    64,
+    67,
+    70,
+    72,
+    77,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90
+   ]
+  },
+  {
+   "room": "Ezekiel's nave (40 x 20, height 20 assumed)",
+   "dims_m": [
+    17.8,
+    8.9,
+    8.9
+   ],
+   "fundamental": 9.6,
+   "modes_to_120": 337,
+   "distinct_freqs": 60,
+   "freqs": [
+    10,
+    19,
+    22,
+    27,
+    29,
+    33,
+    35,
+    38,
+    40,
+    43,
+    44,
+    47,
+    48,
+    52,
+    54,
+    55,
+    58,
+    59,
+    61,
+    62
+   ]
+  },
+  {
+   "room": "Ordinary room, same volume as the debir (golden-ish 1 : 1.26 : 1.59)",
+   "dims_m": [
+    7.06,
+    8.9,
+    11.21
+   ],
+   "fundamental": 15.3,
+   "modes_to_120": 175,
+   "distinct_freqs": 79,
+   "freqs": [
+    15,
+    19,
+    24,
+    25,
+    29,
+    31,
+    35,
+    36,
+    38,
+    39,
+    42,
+    44,
+    46,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55
+   ]
+  },
+  {
+   "room": "New Jerusalem (12,000 stadia cube, Rev 21:16)",
+   "side_m": 2220000.0,
+   "fundamental_hz": 7.725225225225225e-05,
+   "period_s": 12944.60641399417
+  }
+ ]
+}

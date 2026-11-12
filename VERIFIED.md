@@ -16,6 +16,22 @@ This file pulls together every result from rounds 1–39. Each one is filed by t
 
 ---
 
+## 1b. Round 40 (see `ROUND40.md`; sound engine in `RESONANCE.md`)
+
+- **John 13:31–33, not 13:1.** Two independent speech signals both cut John's farewell at 13:32–33: the BSB translators' quotation marks (knowing no Greek) and Greek person morphology.
+- **Two more voice-drawn outlines.**
+  - Revelation: 4:1 and 22:6 hit exactly, p < 0.0001.
+  - Job: the dialogue and Job's speeches, p = 0.0001.
+  - Deuteronomy, Hebrews and Acts give the expected nulls.
+- **Ketiv and qere.** 88% of the 1,245 written/read pairs are sound-alikes: the Hebrew parallel of C11.
+- **Masoretic midpoints.** The Talmud's letter and word midpoints for the Torah are 61–93 verses from the computed ones. The verse midpoint matches the Masorah (Lev 8:8–9). The Psalms verse midpoint is within 2 verses.
+- **"Life" at the centre does not replicate in Greek** (NT p 0.63, LXX p 0.27). It is a Hebrew letter-text effect only.
+- **666 and 616.** Both are Nero Caesar, spelled the Hebrew way and the Latin way. 153 = *bene ha-Elohim* = T17. *Ichthyes* and *to diktyon* both = 1224 = 8 × 153.
+- **Holy-of-holies cubes.** The debir puts 177 modes on 33 frequencies, against 79 for an ordinary room. Its strongest voice-range mode is 123.4 Hz.
+- **Breath units.** Psalm and Proverbs half-verses are short and even (7–8 syllables). Chanted, they imply about 6–7 breaths a minute.
+
+---
+
 ## 2. Verified discoveries
 
 ### Tier A: passed the strictest test

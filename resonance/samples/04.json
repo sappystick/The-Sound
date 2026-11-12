@@ -1,0 +1,55 @@
+{
+ "name": "Abba: Aramaic vowels, theta meditation",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "headphones",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "binaural beat, path [[0, 8.0], [0.3, 6.0], [1, 6.0]] Hz, carrier 394.88 Hz",
+   "evidence": "MIXED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Galilean / Western Aramaic (Jesus' language): vowels a e i o u, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "As in the project's Aramaic shadow layer; Mark's four retained sayings. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "greek_enharmonic rotation 1: ratios [1.0, 1.037, 1.0667, 1.3333, 1.5, 1.5556, 1.6]",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Archytas' enharmonic tetrachord (28:27, 36:35, 5:4), twice, a fifth apart."
+  },
+  {
+   "layer": "root",
+   "setting": "123.4 Hz: strongest mode of Solomon's temple hall, 40 x 20 x 30 cubits between 90 and 140 Hz (11 modes coincide at 123.4 Hz)",
+   "evidence": "MEASURED",
+   "basis": ""
+  },
+  {
+   "layer": "room",
+   "setting": "hekal (wet 0.35, RT 3.0 s)",
+   "evidence": "MEASURED",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "meditation_theta",
+   "evidence": "-",
+   "basis": "breath: ESTABLISHED; beat: MIXED: 6 Hz theta"
+  }
+ ],
+ "warnings": [],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

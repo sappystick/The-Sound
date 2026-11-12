@@ -1,0 +1,77 @@
+1-2. VOICE-DRAWN OUTLINES (blind cuts from a speech signal, scored against an agreed outline, 20,000 random cut sets)
+   John         quotes_BSB     cuts 3:2 13:33 17:26          outline 1:19 13:1 18:1         mean distance  30.7  p 0.0143
+   John         person_greek   cuts 4:8 13:33 18:1           outline 1:19 13:1 18:1         mean distance  44.3  p 0.0567
+   Job          quotes_BSB     cuts 3:8 31:38 33:18 41:10    outline 3:1 32:1 38:1 42:7     mean distance  20.0  p 0.0001
+   Job          person_hebrew  cuts 5:21 20:5 29:3 33:13     outline 3:1 32:1 38:1 42:7     mean distance 123.2  p 0.3554
+   Deuteronomy  quotes_BSB     cuts 5:33 26:5 31:22          outline 4:44 29:1 31:1         mean distance  56.0  p 0.0864
+   Deuteronomy  person_hebrew  cuts 17:3 28:2 28:47          outline 4:44 28:69 31:1        mean distance 134.0  p 0.5803
+   Revelation   quotes_BSB     cuts 1:18 4:1 17:6            outline 1:9 4:1 22:6           mean distance  38.0  p 0.1130
+   Revelation   person_greek   cuts 2:1 4:1 22:6             outline 1:9 4:1 22:6           mean distance   4.0  p 0.0000
+   Hebrews      quotes_BSB     cuts 1:14 3:14                outline 4:14 10:19             mean distance  35.0  p 0.4864
+   Hebrews      person_greek   cuts 4:4 13:14                outline 4:14 10:19             mean distance  56.5  p 0.8590
+   Acts         quotes_BSB     cuts 7:55                     outline 13:1                   mean distance 192.0  p 0.4070
+   Acts         person_greek   cuts 20:13                    outline 13:1                   mean distance 274.0  p 0.5966
+   John, translators' quotes, blind cuts at k = 4, 5, 6: {4: ['1:20', '13:33', '17:26'], 5: ['3:2', '10:40', '13:32', '17:26'], 6: ['1:20', '5:19', '10:39', '13:32', '17:26']}
+
+3. KETIV AND QERE
+    1077  86.5%  differ only in vowel letters (sound alike)
+     128  10.3%  different sound
+      15   1.2%  lo / lo (not / to him): pure homophone
+      11   0.9%  word split, added or dropped
+       7   0.6%  same letters (vowels differ)
+       7   0.6%  letters swapped (seen, not heard)
+   1245 pairs; sound-alike share 88%
+
+4. MASORETIC MIDPOINTS (Kiddushin 30a) against the Leningrad text
+   Torah middle letter: the vav of gachon, Lev 11:42          computed Lev 8:29       (93 verses away)
+   Torah middle words: darosh darash, Lev 10:16               computed Lev 8:15       (61 verses away)
+   Torah middle verse: ve-hitgalach, Lev 13:33                computed Lev 8:9        (159 verses away)
+   Psalms middle letter: the ayin of mi-ya'ar, Ps 80:14       computed Ps 77:1        (119 verses away)
+   Psalms middle verse: Ps 78:38                              computed Ps 78:36       (2 verses away)
+   (Torah: 304,835 letters, 79,978 words, 5,853 verses)
+
+5. LIFE AT THE CENTRE, IN GREEK (exact Poisson-binomial, as round 39)
+   NT: 2 of 25 centres (expected 2.07), exact p 0.6347  ['1Ti', '1Jn']
+   LXX: 3 of 55 centres (expected 1.82), exact p 0.2716  ['Regnorum_III', 'Psalmi_Salomonis', 'Jonas']
+
+6. SEMITIC SOUNDS LEFT UNTRANSLATED IN THE NEW TESTAMENT
+   Jn    4.21 per 1,000 words  {'amen': 50, 'rabbi': 8, '(in Hebrew/Aramaic)': 5, 'hosanna': 1, 'rabbouni': 1}
+   Mk    2.57 per 1,000 words  {'amen': 14, 'rabbi': 3, 'hosanna': 2, 'eloi': 2, 'talitha': 1, 'koum': 1, 'korban': 1, 'ephphatha': 1, 'rabbouni': 1, 'abba': 1, 'lema': 1, 'sabachthani': 1}
+   Mt    2.40 per 1,000 words  {'amen': 31, 'rabbi': 4, 'hosanna': 3, 'eli': 2, 'raka': 1, 'mammon': 1, 'lema': 1, 'sabachthani': 1}
+   Jud   2.18 per 1,000 words  {'amen': 1}
+   Re    1.42 per 1,000 words  {'amen': 8, 'hallelujah': 4, '(in Hebrew/Aramaic)': 2}
+   Ga    1.35 per 1,000 words  {'amen': 2, 'abba': 1}
+   1Ti   1.26 per 1,000 words  {'amen': 2}
+   1Pe   1.19 per 1,000 words  {'amen': 2}
+   Ro    0.99 per 1,000 words  {'amen': 5, 'abba': 1, 'sabaoth': 1}
+   2Pe   0.91 per 1,000 words  {'amen': 1}
+   'amen' opening a saying (amen, I say to you): {'Mt': 27, 'Lk': 5, 'Jn': 50, 'Mk': 12}
+
+7. STATED NUMBERS, CHECKED
+   Eliezer (Gen 15:2) and the 318 men of Gen 14:14                                אליעזר     =  318  MATCHES   (66 of 39,611 Bible forms share it)
+   Nero Caesar, Hebrew spelling with final nun (Rev 13:18, 666)                   נרונקסר    =  666  MATCHES   (38 of 39,611 Bible forms share it)
+   Nero Caesar, Latin-style spelling without it (variant 616, P115 and Codex C)   נרוקסר     =  616  MATCHES   (59 of 39,611 Bible forms share it)
+   'sons of God' (bene ha-Elohim), John 21:11 153 fish                            בניהאלהים  =  153  MATCHES   (54 of 39,611 Bible forms share it)
+   ichthys, fish (singular)                 = 1219  
+   ichthyes, fishes (plural)                = 1224  = 8 x 153
+   to diktyon, the net (John 21:11)         = 1224  = 8 x 153
+   153 is triangular (1+...+17): True
+
+8. BREATH UNITS (syllables per half-verse, split at the atnach)
+   Gen   median   13 syllables per half-verse ->  16.3 breaths/min at 4.5 syll/s; evenness (CV) 0.5
+   Exod  median   14 syllables per half-verse ->  15.3 breaths/min at 4.5 syll/s; evenness (CV) 0.5
+   Ps    median    8 syllables per half-verse ->  23.3 breaths/min at 4.5 syll/s; evenness (CV) 0.42
+   Lam   median   13 syllables per half-verse ->  16.3 breaths/min at 4.5 syll/s; evenness (CV) 0.35
+   Song  median   13 syllables per half-verse ->  16.3 breaths/min at 4.5 syll/s; evenness (CV) 0.38
+   Prov  median    7 syllables per half-verse ->  25.5 breaths/min at 4.5 syll/s; evenness (CV) 0.28
+   Job   median    8 syllables per half-verse ->  23.3 breaths/min at 4.5 syll/s; evenness (CV) 0.44
+   Isa   median   13 syllables per half-verse ->  16.3 breaths/min at 4.5 syll/s; evenness (CV) 0.46
+
+9. ROOM MODES
+   Tabernacle most holy (10 cubit cube)                           fundamental  38.5 Hz;  28 modes to 120 Hz on   8 distinct frequencies
+   Solomon's debir (20 cubit cube)                                fundamental  19.3 Hz; 177 modes to 120 Hz on  33 distinct frequencies
+   Solomon's hekal (40 x 20 x 30)                                 fundamental   9.6 Hz; 492 modes to 120 Hz on  95 distinct frequencies
+   Ezekiel's most holy (20 x 20, height taken as 20)              fundamental  19.3 Hz; 177 modes to 120 Hz on  33 distinct frequencies
+   Ezekiel's nave (40 x 20, height 20 assumed)                    fundamental   9.6 Hz; 337 modes to 120 Hz on  60 distinct frequencies
+   Ordinary room, same volume as the debir (golden-ish 1 : 1.26 : 1.59) fundamental  15.3 Hz; 175 modes to 120 Hz on  79 distinct frequencies
+   New Jerusalem cube: side 2220 km; fundamental 7.73e-05 Hz = one cycle every 3.6 hours

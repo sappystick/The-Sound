@@ -1,0 +1,55 @@
+{
+ "name": "World soul: Timaeus partials, alert beta",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "speakers",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "isochronic beat, path [[0, 14.0], [1, 18.0]] Hz, carrier 370.2 Hz",
+   "evidence": "MIXED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "[[0, 10.0], [1, 10.0]] per minute, in:out [2, 3]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Classical Attic Greek (5th c. BCE): vowels a e ɛ i o ɔ u y, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Before the mergers: eta /ɛː/, omega /ɔː/. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "timaeus_world_soul rotation 1: ratios [1, 2, 3, 4, 8, 9, 27]",
+   "evidence": "SYMBOLIC",
+   "basis": "Plato's two series 1-2-4-8 and 1-3-9-27, used directly as partial numbers of a drone (power/audio/timaeus_scale.mp3)."
+  },
+  {
+   "layer": "root",
+   "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+   "evidence": "MEASURED",
+   "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+  },
+  {
+   "layer": "room",
+   "setting": "debir (wet 0.35, RT 3.0 s)",
+   "evidence": "MEASURED",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "alert_beta",
+   "evidence": "-",
+   "basis": "breath: ESTABLISHED: a 10-per-minute pace is close to normal; beat: MIXED: beta"
+  }
+ ],
+ "warnings": [],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

@@ -1,0 +1,55 @@
+{
+ "name": "Ankh: Egyptian three vowels in the King's Chamber, 6 breaths a minute",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "headphones",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "isochronic beat, path [[0, 10.0], [1, 10.0]] Hz, carrier 439.2 Hz",
+   "evidence": "MIXED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Middle Egyptian (reconstructed): vowels a i u, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Hieroglyphs write no vowels; a three-vowel system is reconstructed from Coptic, Akkadian transcriptions and Greek renderings. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "harmonic_series rotation 1: ratios [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+   "evidence": "MEASURED",
+   "basis": "Natural overtones. E3 found that α, ε and η on a held note place their formants on exact harmonics."
+  },
+  {
+   "layer": "root",
+   "setting": "109.8 Hz: strongest mode of King's Chamber, Great Pyramid between 90 and 140 Hz (3 modes coincide at 109.8 Hz)",
+   "evidence": "MEASURED",
+   "basis": "Granite room; dimensions as surveyed."
+  },
+  {
+   "layer": "room",
+   "setting": "kings_chamber (wet 0.35, RT 3.0 s)",
+   "evidence": "MEASURED",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "resonance_breathing",
+   "evidence": "-",
+   "basis": "breath: ESTABLISHED: 6 breaths a minute raises heart-rate variability; beat: MIXED: a faint 10 Hz (alpha) pulse"
+  }
+ ],
+ "warnings": [],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

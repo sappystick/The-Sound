@@ -1,0 +1,721 @@
+{
+ "presets": [
+  {
+   "name": "Prologue breath: Koine vowels in Solomon's cube, 6 breaths a minute",
+   "minutes": 12,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "isochronic",
+    "path": [
+     [
+      0,
+      10.0
+     ],
+     [
+      1,
+      10.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -22
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "koine",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "resonance_breathing",
+   "target_evidence": {
+    "breath": "ESTABLISHED: 6 breaths a minute raises heart-rate variability",
+    "beat": "MIXED: a faint 10 Hz (alpha) pulse"
+   }
+  },
+  {
+   "name": "Seven-vowel square, dawn (PGM XIII), alpha to theta",
+   "minutes": 14,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "binaural",
+    "path": [
+     [
+      0,
+      10.0
+     ],
+     [
+      0.6,
+      7.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -14
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      5.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "pgm_seven",
+    "vowels": "auto",
+    "order": "pgm_square:dawn",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "deep_relaxation",
+   "target_evidence": {
+    "breath": "ESTABLISHED: slow, exhale-weighted breathing",
+    "beat": "MIXED: alpha-to-theta glide; brain entrainment by beats is inconsistent"
+   }
+  },
+  {
+   "name": "Psalm of descent: Hebrew vowels, theta to delta, for sleep",
+   "minutes": 20,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "binaural",
+    "path": [
+     [
+      0,
+      7.0
+     ],
+     [
+      0.5,
+      4.0
+     ],
+     [
+      1,
+      2.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -15
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     7
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      4.5
+     ]
+    ]
+   },
+   "voice": {
+    "language": "hebrew",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:tabernacle",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "tabernacle",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "sleep_onset",
+   "target_evidence": {
+    "breath": "ESTABLISHED: slow breathing calms autonomic arousal",
+    "beat": "MIXED: theta-to-delta glide"
+   }
+  },
+  {
+   "name": "Abba: Aramaic vowels, theta meditation",
+   "minutes": 15,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "binaural",
+    "path": [
+     [
+      0,
+      8.0
+     ],
+     [
+      0.3,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -14
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "aramaic",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "greek_enharmonic",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:hekal",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "hekal",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "meditation_theta",
+   "target_evidence": {
+    "breath": "ESTABLISHED",
+    "beat": "MIXED: 6 Hz theta"
+   }
+  },
+  {
+   "name": "Ankh: Egyptian three vowels in the King's Chamber, 6 breaths a minute",
+   "minutes": 12,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "isochronic",
+    "path": [
+     [
+      0,
+      10.0
+     ],
+     [
+      1,
+      10.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -22
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "egyptian",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "harmonic_series",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:kings_chamber",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "kings_chamber",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "resonance_breathing",
+   "target_evidence": {
+    "breath": "ESTABLISHED: 6 breaths a minute raises heart-rate variability",
+    "beat": "MIXED: a faint 10 Hz (alpha) pulse"
+   }
+  },
+  {
+   "name": "Me of Sumer: four vowels, Babylonian tuning rotation 5, hypogeum 111 Hz",
+   "minutes": 15,
+   "device": "headphones",
+   "seed": 1,
+   "entrainment": {
+    "mode": "binaural",
+    "path": [
+     [
+      0,
+      8.0
+     ],
+     [
+      0.3,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -14
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "sumerian",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "babylonian_heptatonic",
+    "rotation": 5,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:hypogeum",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "hypogeum",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "meditation_theta",
+   "target_evidence": {
+    "breath": "ESTABLISHED",
+    "beat": "MIXED: 6 Hz theta"
+   }
+  },
+  {
+   "name": "World soul: Timaeus partials, alert beta",
+   "minutes": 8,
+   "device": "speakers",
+   "seed": 1,
+   "entrainment": {
+    "mode": "isochronic",
+    "path": [
+     [
+      0,
+      14.0
+     ],
+     [
+      1,
+      18.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -15
+   },
+   "breath": {
+    "per_min": 10.0,
+    "inhale_exhale": [
+     2,
+     3
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      10.0
+     ],
+     [
+      1,
+      10.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "attic",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "timaeus_world_soul",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "alert_beta",
+   "target_evidence": {
+    "breath": "ESTABLISHED: a 10-per-minute pace is close to normal",
+    "beat": "MIXED: beta"
+   }
+  },
+  {
+   "name": "Forty: 40 Hz monaural pulse for bone conduction (Coptic vowels)",
+   "minutes": 10,
+   "device": "bone_conduction",
+   "seed": 1,
+   "entrainment": {
+    "mode": "monaural",
+    "path": [
+     [
+      0,
+      40.0
+     ],
+     [
+      1,
+      40.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -12
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": null
+   },
+   "voice": {
+    "language": "coptic",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "focus_gamma40",
+   "target_evidence": {
+    "breath": "(no breath guide)",
+    "beat": "ESTABLISHED: the auditory cortex follows 40 Hz modulation; PRELIMINARY: any effect on focus or memory"
+   }
+  },
+  {
+   "name": "Bone-conduction calm: Hebrew vowels, isochronic alpha",
+   "minutes": 12,
+   "device": "bone_conduction",
+   "seed": 1,
+   "entrainment": {
+    "mode": "isochronic",
+    "path": [
+     [
+      0,
+      10.0
+     ],
+     [
+      1,
+      10.0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -22
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "hebrew",
+    "vowels": "auto",
+    "order": "cycle",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "resonance_breathing",
+   "target_evidence": {
+    "breath": "ESTABLISHED: 6 breaths a minute raises heart-rate variability",
+    "beat": "MIXED: a faint 10 Hz (alpha) pulse"
+   }
+  },
+  {
+   "name": "Chant only: Koine seven vowels, no beat",
+   "minutes": 10,
+   "device": "speakers",
+   "seed": 1,
+   "entrainment": {
+    "mode": "none",
+    "path": [
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "carrier": "auto",
+    "level_db": -60
+   },
+   "breath": {
+    "per_min": 6.0,
+    "inhale_exhale": [
+     4,
+     6
+    ],
+    "guide": true,
+    "path": [
+     [
+      0,
+      6.0
+     ],
+     [
+      1,
+      6.0
+     ]
+    ]
+   },
+   "voice": {
+    "language": "pgm_seven",
+    "vowels": "auto",
+    "order": "pgm_square:north",
+    "hum_end": true,
+    "level_db": -7.0,
+    "on": true
+   },
+   "drone": {
+    "tuning": "pythagorean",
+    "rotation": 1,
+    "level_db": -10.0,
+    "on": true
+   },
+   "root": {
+    "source": "room:debir",
+    "hz": 110.0
+   },
+   "room": {
+    "name": "debir",
+    "wet": 0.35,
+    "rt": 3.0
+   },
+   "safety": {
+    "target_rms_db": -20.0,
+    "fade_s": 8.0
+   },
+   "target": "chant_only",
+   "target_evidence": {
+    "breath": "ESTABLISHED",
+    "beat": "(no beat: voice, drone and room only)"
+   }
+  }
+ ]
+}

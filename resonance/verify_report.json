@@ -1,0 +1,1273 @@
+[
+ {
+  "name": "Prologue breath: Koine vowels in Solomon's cube, 6 breaths a minute",
+  "device": "headphones",
+  "mode": "isochronic",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "isochronic beat (envelope rate)",
+    "expected": "10.00 -> 10.00 Hz",
+    "measured": "10.01 -> 10.01 Hz",
+    "passed": true,
+    "note": "median error 0.01 Hz"
+   },
+   {
+    "check": "identical ears",
+    "expected": "L = R",
+    "measured": "max |L-R| 0.0e+00",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "6.02 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "123.5 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-5.80 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-79.3 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-1200 Hz",
+    "measured": "416.48 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Prologue breath: Koine vowels in Solomon's cube, 6 breaths a minute",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "isochronic beat, path [[0, 10.0], [1, 10.0]] Hz, carrier 416.48 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Koine Greek (1st century, the Gospels): vowels a e i y o u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "After the vowel mergers: eta and iota both /i/, omicron and omega both /o/; this project's voice engine. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "resonance_breathing",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: 6 breaths a minute raises heart-rate variability; beat: MIXED: a faint 10 Hz (alpha) pulse"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Seven-vowel square, dawn (PGM XIII), alpha to theta",
+  "device": "headphones",
+  "mode": "binaural",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "binaural beat (R-L spacing)",
+    "expected": "9.47 -> 6.27 Hz",
+    "measured": "9.19 -> 6.50 Hz",
+    "passed": true,
+    "note": "max error 0.02 Hz over 7 windows"
+   },
+   {
+    "check": "bone-conduction simulation",
+    "expected": "interaural difference shrinks as crosstalk rises",
+    "measured": "68% left at 10 dB, 44% left at 5 dB, 0% left at 0 dB",
+    "passed": true,
+    "note": "why binaural is switched to monaural on bone-conduction devices"
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "5.50 per min (mean of path)",
+    "measured": "5.57 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "123.5 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-7.70 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-75.5 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-900 Hz",
+    "measured": "416.48 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Seven-vowel square, dawn (PGM XIII), alpha to theta",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "binaural beat, path [[0, 10.0], [0.6, 7.0], [1, 6.0]] Hz, carrier 416.48 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 5.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "The seven Greek vowels of the magical papyri (α ε η ι ο υ ω): vowels a e ɛ i o y ɔ, order pgm_square:dawn, hum at the end of each out-breath",
+     "evidence": "MEASURED",
+     "basis": "Order of PGM XIII and Demetrius' report of Egyptian priests hymning with the seven vowels. Rendered and measured in experiments E3 and E7. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "deep_relaxation",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: slow, exhale-weighted breathing; beat: MIXED: alpha-to-theta glide; brain entrainment by beats is inconsistent"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Psalm of descent: Hebrew vowels, theta to delta, for sleep",
+  "device": "headphones",
+  "mode": "binaural",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "binaural beat (R-L spacing)",
+    "expected": "6.36 -> 2.43 Hz",
+    "measured": "6.04 -> 2.80 Hz",
+    "passed": true,
+    "note": "max error 0.02 Hz over 7 windows"
+   },
+   {
+    "check": "bone-conduction simulation",
+    "expected": "interaural difference shrinks as crosstalk rises",
+    "measured": "68% left at 10 dB, 44% left at 5 dB, 0% left at 0 dB",
+    "passed": true,
+    "note": "why binaural is switched to monaural on bone-conduction devices"
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "5.25 per min (mean of path)",
+    "measured": "5.31 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "115.6 Hz (or an octave)",
+    "measured": "116.1 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-7.58 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-75.4 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-900 Hz",
+    "measured": "438.92 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Psalm of descent: Hebrew vowels, theta to delta, for sleep",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "binaural beat, path [[0, 7.0], [0.5, 4.0], [1, 2.0]] Hz, carrier 438.92 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 4.5]] per minute, in:out [4, 7]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Biblical Hebrew (Tiberian vocalisation): vowels i e ɛ a ɔ o u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Seven qualities of the Tiberian Masoretes (c. 900 CE), the vowel points in the WLC. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "115.6 Hz: strongest mode of Tabernacle most holy place, 10-cubit cube (Exodus 26) between 90 and 140 Hz (6 modes coincide at 115.6 Hz)",
+     "evidence": "MEASURED",
+     "basis": "Room modes computed from the stated dimensions (cubit 0.445 m)."
+    },
+    {
+     "layer": "room",
+     "setting": "tabernacle (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "sleep_onset",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: slow breathing calms autonomic arousal; beat: MIXED: theta-to-delta glide"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Abba: Aramaic vowels, theta meditation",
+  "device": "headphones",
+  "mode": "binaural",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "binaural beat (R-L spacing)",
+    "expected": "7.29 -> 6.00 Hz",
+    "measured": "6.94 -> 5.99 Hz",
+    "passed": true,
+    "note": "max error 0.01 Hz over 7 windows"
+   },
+   {
+    "check": "bone-conduction simulation",
+    "expected": "interaural difference shrinks as crosstalk rises",
+    "measured": "68% left at 10 dB, 44% left at 5 dB, 0% left at 0 dB",
+    "passed": true,
+    "note": "why binaural is switched to monaural on bone-conduction devices"
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "5.97 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "123.2 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-7.45 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-75.6 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-900 Hz",
+    "measured": "394.88 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Abba: Aramaic vowels, theta meditation",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "binaural beat, path [[0, 8.0], [0.3, 6.0], [1, 6.0]] Hz, carrier 394.88 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Galilean / Western Aramaic (Jesus' language): vowels a e i o u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "As in the project's Aramaic shadow layer; Mark's four retained sayings. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "greek_enharmonic rotation 1: ratios [1.0, 1.037, 1.0667, 1.3333, 1.5, 1.5556, 1.6]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Archytas' enharmonic tetrachord (28:27, 36:35, 5:4), twice, a fifth apart."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's temple hall, 40 x 20 x 30 cubits between 90 and 140 Hz (11 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": ""
+    },
+    {
+     "layer": "room",
+     "setting": "hekal (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "meditation_theta",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED; beat: MIXED: 6 Hz theta"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Ankh: Egyptian three vowels in the King's Chamber, 6 breaths a minute",
+  "device": "headphones",
+  "mode": "isochronic",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "isochronic beat (envelope rate)",
+    "expected": "10.00 -> 10.00 Hz",
+    "measured": "10.01 -> 10.01 Hz",
+    "passed": true,
+    "note": "median error 0.01 Hz"
+   },
+   {
+    "check": "identical ears",
+    "expected": "L = R",
+    "measured": "max |L-R| 0.0e+00",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "6.04 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "109.8 Hz (or an octave)",
+    "measured": "109.2 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-5.53 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-79.7 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-1200 Hz",
+    "measured": "439.2 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Ankh: Egyptian three vowels in the King's Chamber, 6 breaths a minute",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "isochronic beat, path [[0, 10.0], [1, 10.0]] Hz, carrier 439.2 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Middle Egyptian (reconstructed): vowels a i u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Hieroglyphs write no vowels; a three-vowel system is reconstructed from Coptic, Akkadian transcriptions and Greek renderings. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "harmonic_series rotation 1: ratios [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",
+     "evidence": "MEASURED",
+     "basis": "Natural overtones. E3 found that α, ε and η on a held note place their formants on exact harmonics."
+    },
+    {
+     "layer": "root",
+     "setting": "109.8 Hz: strongest mode of King's Chamber, Great Pyramid between 90 and 140 Hz (3 modes coincide at 109.8 Hz)",
+     "evidence": "MEASURED",
+     "basis": "Granite room; dimensions as surveyed."
+    },
+    {
+     "layer": "room",
+     "setting": "kings_chamber (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "resonance_breathing",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: 6 breaths a minute raises heart-rate variability; beat: MIXED: a faint 10 Hz (alpha) pulse"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Me of Sumer: four vowels, Babylonian tuning rotation 5, hypogeum 111 Hz",
+  "device": "headphones",
+  "mode": "binaural",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "binaural beat (R-L spacing)",
+    "expected": "7.29 -> 6.00 Hz",
+    "measured": "6.94 -> 5.99 Hz",
+    "passed": true,
+    "note": "max error 0.01 Hz over 7 windows"
+   },
+   {
+    "check": "bone-conduction simulation",
+    "expected": "interaural difference shrinks as crosstalk rises",
+    "measured": "68% left at 10 dB, 44% left at 5 dB, 0% left at 0 dB",
+    "passed": true,
+    "note": "why binaural is switched to monaural on bone-conduction devices"
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "6.02 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "111.0 Hz (or an octave)",
+    "measured": "110.8 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-7.16 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-75.4 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-900 Hz",
+    "measured": "444.0 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Me of Sumer: four vowels, Babylonian tuning rotation 5, hypogeum 111 Hz",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "headphones",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "binaural beat, path [[0, 8.0], [0.3, 6.0], [1, 6.0]] Hz, carrier 444.0 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Sumerian (c. 3000-2000 BCE): vowels a e i u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Four vowels inferred from cuneiform spelling; an /o/ and vowel length are debated. Sound values are not recoverable beyond vowel quality. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "babylonian_heptatonic rotation 5: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.7778]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Cuneiform tablets CBS 10996 and UET VII 74 name seven tunings of a nine-string instrument, obtained by retuning fifths and fourths. The seve"
+    },
+    {
+     "layer": "root",
+     "setting": "111.0 Hz: reported resonance of Ħal Saflieni Hypogeum 'Oracle Room' (Malta)",
+     "evidence": "PRELIMINARY",
+     "basis": "Approximate dimensions; acoustic studies report a strong resonance near 110-114 Hz (Cook, Pajot & Leuchter 2008, a small study that also rep"
+    },
+    {
+     "layer": "room",
+     "setting": "hypogeum (wet 0.35, RT 3.0 s)",
+     "evidence": "PRELIMINARY",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "meditation_theta",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED; beat: MIXED: 6 Hz theta"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "World soul: Timaeus partials, alert beta",
+  "device": "speakers",
+  "mode": "isochronic",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "isochronic beat (envelope rate)",
+    "expected": "14.43 -> 17.57 Hz",
+    "measured": "14.64 -> 17.20 Hz",
+    "passed": true,
+    "note": "median error 0.01 Hz"
+   },
+   {
+    "check": "identical ears",
+    "expected": "L = R",
+    "measured": "max |L-R| 0.0e+00",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "10.00 per min (mean of path)",
+    "measured": "9.96 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "123.2 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-6.21 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-77.4 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "200-1200 Hz",
+    "measured": "370.2 Hz",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "World soul: Timaeus partials, alert beta",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "speakers",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "isochronic beat, path [[0, 14.0], [1, 18.0]] Hz, carrier 370.2 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 10.0], [1, 10.0]] per minute, in:out [2, 3]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Classical Attic Greek (5th c. BCE): vowels a e ɛ i o ɔ u y, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Before the mergers: eta /ɛː/, omega /ɔː/. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "timaeus_world_soul rotation 1: ratios [1, 2, 3, 4, 8, 9, 27]",
+     "evidence": "SYMBOLIC",
+     "basis": "Plato's two series 1-2-4-8 and 1-3-9-27, used directly as partial numbers of a drone (power/audio/timaeus_scale.mp3)."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "alert_beta",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: a 10-per-minute pace is close to normal; beat: MIXED: beta"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Forty: 40 Hz monaural pulse for bone conduction (Coptic vowels)",
+  "device": "bone_conduction",
+  "mode": "monaural",
+  "warnings": [
+   "bone conduction: the voice's fundamental (123 Hz) is felt weakly; its vowel formants (300-2,500 Hz) carry"
+  ],
+  "checks": [
+   {
+    "check": "monaural beat (envelope rate)",
+    "expected": "40.00 -> 40.00 Hz",
+    "measured": "40.00 -> 40.00 Hz",
+    "passed": true,
+    "note": "median error 0.00 Hz"
+   },
+   {
+    "check": "identical ears",
+    "expected": "L = R",
+    "measured": "max |L-R| 0.0e+00",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "6.02 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "247.8 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-5.27 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-75.3 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "300-650 Hz",
+    "measured": "468.53 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "little energy below 200 Hz (bone conduction)",
+    "expected": "< 5%",
+    "measured": "0.0%",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Forty: 40 Hz monaural pulse for bone conduction (Coptic vowels)",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "bone_conduction",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "monaural beat, path [[0, 40.0], [1, 40.0]] Hz, carrier 468.53 Hz",
+     "evidence": "ESTABLISHED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "6.0 per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Sahidic Coptic (latest Egyptian): vowels a e ɛ i o ɔ u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Alphabet from Greek: alpha, epsilon, eta, iota, omicron, omega, ou. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "focus_gamma40",
+     "evidence": "-",
+     "basis": "breath: (no breath guide); beat: ESTABLISHED: the auditory cortex follows 40 Hz modulation; PRELIMINARY: any effect on focus or memory"
+    }
+   ],
+   "warnings": [
+    "bone conduction: the voice's fundamental (123 Hz) is felt weakly; its vowel formants (300-2,500 Hz) carry"
+   ],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Bone-conduction calm: Hebrew vowels, isochronic alpha",
+  "device": "bone_conduction",
+  "mode": "isochronic",
+  "warnings": [
+   "bone conduction: the voice's fundamental (123 Hz) is felt weakly; its vowel formants (300-2,500 Hz) carry"
+  ],
+  "checks": [
+   {
+    "check": "isochronic beat (envelope rate)",
+    "expected": "10.00 -> 10.00 Hz",
+    "measured": "10.01 -> 10.01 Hz",
+    "passed": true,
+    "note": "median error 0.01 Hz"
+   },
+   {
+    "check": "identical ears",
+    "expected": "L = R",
+    "measured": "max |L-R| 0.0e+00",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "5.84 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "245.0 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-3.23 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-78.6 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "carrier in device band",
+    "expected": "300-650 Hz",
+    "measured": "468.53 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "little energy below 200 Hz (bone conduction)",
+    "expected": "< 5%",
+    "measured": "0.0%",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Bone-conduction calm: Hebrew vowels, isochronic alpha",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "bone_conduction",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "isochronic beat, path [[0, 10.0], [1, 10.0]] Hz, carrier 468.53 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "Biblical Hebrew (Tiberian vocalisation): vowels i e ɛ a ɔ o u, order cycle, hum at the end of each out-breath",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Seven qualities of the Tiberian Masoretes (c. 900 CE), the vowel points in the WLC. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "resonance_breathing",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED: 6 breaths a minute raises heart-rate variability; beat: MIXED: a faint 10 Hz (alpha) pulse"
+    }
+   ],
+   "warnings": [
+    "bone conduction: the voice's fundamental (123 Hz) is felt weakly; its vowel formants (300-2,500 Hz) carry"
+   ],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ },
+ {
+  "name": "Chant only: Koine seven vowels, no beat",
+  "device": "speakers",
+  "mode": "none",
+  "warnings": [],
+  "checks": [
+   {
+    "check": "breath pace (loudness swell)",
+    "expected": "6.00 per min (mean of path)",
+    "measured": "6.06 per min",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice pitch = root",
+    "expected": "123.4 Hz (or an octave)",
+    "measured": "123.9 Hz",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "voice on out-breaths",
+    "expected": "> 95% of voice energy",
+    "measured": "100.0%",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "average level",
+    "expected": "-20.0 dBFS (or lower after limiting)",
+    "measured": "-20.0 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "peak / clipping",
+    "expected": "< -1 dBFS",
+    "measured": "-5.91 dBFS",
+    "passed": true,
+    "note": ""
+   },
+   {
+    "check": "fade-in",
+    "expected": "first 0.5 s quiet (< -45 dBFS)",
+    "measured": "-79.6 dBFS",
+    "passed": true,
+    "note": ""
+   }
+  ],
+  "card": {
+   "name": "Chant only: Koine seven vowels, no beat",
+   "rows": [
+    {
+     "layer": "device",
+     "setting": "speakers",
+     "evidence": "ESTABLISHED",
+     "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+    },
+    {
+     "layer": "entrainment",
+     "setting": "none beat, path [[0, 0], [1, 0]] Hz, carrier 416.48 Hz",
+     "evidence": "MIXED",
+     "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+    },
+    {
+     "layer": "breath",
+     "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+     "evidence": "ESTABLISHED",
+     "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+    },
+    {
+     "layer": "voice",
+     "setting": "The seven Greek vowels of the magical papyri (α ε η ι ο υ ω): vowels a e ɛ i o y ɔ, order pgm_square:north, hum at the end of each out-breath",
+     "evidence": "MEASURED",
+     "basis": "Order of PGM XIII and Demetrius' report of Egyptian priests hymning with the seven vowels. Rendered and measured in experiments E3 and E7. Humming raises nasal nitric oxide (ESTABLISHED)."
+    },
+    {
+     "layer": "drone",
+     "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+     "evidence": "RECONSTRUCTED",
+     "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+    },
+    {
+     "layer": "root",
+     "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+     "evidence": "MEASURED",
+     "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+    },
+    {
+     "layer": "room",
+     "setting": "debir (wet 0.35, RT 3.0 s)",
+     "evidence": "MEASURED",
+     "basis": "reverberation from the room's computed modes"
+    },
+    {
+     "layer": "target",
+     "setting": "chant_only",
+     "evidence": "-",
+     "basis": "breath: ESTABLISHED; beat: (no beat: voice, drone and room only)"
+    }
+   ],
+   "warnings": [],
+   "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+  },
+  "passed": true
+ }
+]

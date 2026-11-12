@@ -1,0 +1,55 @@
+{
+ "name": "Me of Sumer: four vowels, Babylonian tuning rotation 5, hypogeum 111 Hz",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "headphones",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "binaural beat, path [[0, 8.0], [0.3, 6.0], [1, 6.0]] Hz, carrier 444.0 Hz",
+   "evidence": "MIXED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "[[0, 6.0], [1, 6.0]] per minute, in:out [4, 6]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Sumerian (c. 3000-2000 BCE): vowels a e i u, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Four vowels inferred from cuneiform spelling; an /o/ and vowel length are debated. Sound values are not recoverable beyond vowel quality. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "babylonian_heptatonic rotation 5: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.7778]",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Cuneiform tablets CBS 10996 and UET VII 74 name seven tunings of a nine-string instrument, obtained by retuning fifths and fourths. The seve"
+  },
+  {
+   "layer": "root",
+   "setting": "111.0 Hz: reported resonance of Ħal Saflieni Hypogeum 'Oracle Room' (Malta)",
+   "evidence": "PRELIMINARY",
+   "basis": "Approximate dimensions; acoustic studies report a strong resonance near 110-114 Hz (Cook, Pajot & Leuchter 2008, a small study that also rep"
+  },
+  {
+   "layer": "room",
+   "setting": "hypogeum (wet 0.35, RT 3.0 s)",
+   "evidence": "PRELIMINARY",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "meditation_theta",
+   "evidence": "-",
+   "basis": "breath: ESTABLISHED; beat: MIXED: 6 Hz theta"
+  }
+ ],
+ "warnings": [],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

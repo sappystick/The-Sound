@@ -1,0 +1,57 @@
+{
+ "name": "Forty: 40 Hz monaural pulse for bone conduction (Coptic vowels)",
+ "rows": [
+  {
+   "layer": "device",
+   "setting": "bone_conduction",
+   "evidence": "ESTABLISHED",
+   "basis": "device rules (binaural needs isolated ears; bone conduction has little bass)"
+  },
+  {
+   "layer": "entrainment",
+   "setting": "monaural beat, path [[0, 40.0], [1, 40.0]] Hz, carrier 468.53 Hz",
+   "evidence": "ESTABLISHED",
+   "basis": "a 40 Hz response in the auditory cortex is established; effects of slower beats on mind and body are mixed"
+  },
+  {
+   "layer": "breath",
+   "setting": "6.0 per minute, in:out [4, 6]",
+   "evidence": "ESTABLISHED",
+   "basis": "About 6 breaths a minute (0.1 Hz) maximises heart-rate variability: resonance-frequency breathing (Lehrer & Vaschillo; m"
+  },
+  {
+   "layer": "voice",
+   "setting": "Sahidic Coptic (latest Egyptian): vowels a e ɛ i o ɔ u, order cycle, hum at the end of each out-breath",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Alphabet from Greek: alpha, epsilon, eta, iota, omicron, omega, ou. Humming raises nasal nitric oxide (ESTABLISHED)."
+  },
+  {
+   "layer": "drone",
+   "setting": "pythagorean rotation 1: ratios [1.0, 1.125, 1.2656, 1.3333, 1.5, 1.6875, 1.8984]",
+   "evidence": "RECONSTRUCTED",
+   "basis": "Chain of 3:2 fifths; the tuning described in the Timaeus and in Greek harmonic theory."
+  },
+  {
+   "layer": "root",
+   "setting": "123.4 Hz: strongest mode of Solomon's inner sanctuary, 20-cubit cube (1 Kings 6:20) between 90 and 140 Hz (15 modes coincide at 123.4 Hz)",
+   "evidence": "MEASURED",
+   "basis": "A cube packs its modes onto few frequencies (round 37: 15 against 56 for an ordinary room)."
+  },
+  {
+   "layer": "room",
+   "setting": "debir (wet 0.35, RT 3.0 s)",
+   "evidence": "MEASURED",
+   "basis": "reverberation from the room's computed modes"
+  },
+  {
+   "layer": "target",
+   "setting": "focus_gamma40",
+   "evidence": "-",
+   "basis": "breath: (no breath guide); beat: ESTABLISHED: the auditory cortex follows 40 Hz modulation; PRELIMINARY: any effect on focus or memory"
+  }
+ ],
+ "warnings": [
+  "bone conduction: the voice's fundamental (123 Hz) is felt weakly; its vowel formants (300-2,500 Hz) carry"
+ ],
+ "disclaimer": "An experimental listening tool, not a medical device. No claim is made that it activates any brain area beyond what the 'evidence' column states. Listen at a moderate level; stop if you feel discomfort. Not for use while driving."
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Held-out test (rounds 79-80) of the explanations still standing after round 78. Every model is fitted on the EVEN pages and generates
+"""Held-out test (rounds 79-81) of the explanations still standing after round 78. Every model is fitted on the EVEN pages and generates
 text with the exact shape of the ODD pages (same sections, same lines, same words per line). Each output is scored against
 the real odd pages on all the measures of rounds 75-78.
   B0 baseline         words drawn independently from each section's word frequencies
@@ -177,12 +177,77 @@ for fq in (0.5, 0.75, 1.0, 1.25, 1.5):
 B3_TUNED = [Q_FIT * best[1], E_FIT * best[2]]
 def gen_B3f(p): B3P[:] = [Q_FIT, E_FIT]; return gen_B3(p)
 def gen_B3t(p): B3P[:] = B3_TUNED; return gen_B3(p)
+# ---- B4: the word-grammar generator (round 81). Like B3, but a share g of the fresh words is BUILT from slots:
+# prefix + root + suffix, learned from the training pages (prefixes: the 12 commonest word-initial strings of 1-2
+# glyphs; suffixes: the 16 commonest word-final strings of 1-3 glyphs; root: what is left). Prefix and root are drawn
+# from the section's slot distributions, the suffix given the root's last glyph, so new word forms appear on every page.
+# The line-position draws are softened: with probability 1 - s a first or last word comes from the middle-word list.
+ini = collections.Counter(); fin = collections.Counter()
+for w, c in vocab.items():
+    for k in (1, 2):
+        if len(w) > k: ini[w[:k]] += c
+    for k in (1, 2, 3):
+        if len(w) > k: fin[w[-k:]] += c
+PRE = [a for a, _ in ini.most_common(12)]; SUF = [a for a, _ in fin.most_common(16)]
+def split(w):
+    p = max((a for a in PRE if w.startswith(a) and len(w) > len(a)), key=len, default="")
+    r = w[len(p):]; x = max((a for a in SUF if r.endswith(a) and len(r) > len(a)), key=len, default="")
+    return p, r[:len(r) - len(x)] if x else r, x
+sP = collections.defaultdict(collections.Counter); sR = collections.defaultdict(collections.Counter); sX = collections.defaultdict(collections.Counter)
+for p in train:
+    for ln in p["lines"]:
+        for w in ln:
+            a, r, x = split(w); sP[p["sec"]][a] += 1; sR[p["sec"]][r] += 1; sX[r[-1:] if r else a[-1:]][x] += 1
+def build(sec):
+    a = draw(sP[sec]); r = draw(sR[sec]); key = r[-1:] if r else a[-1:]
+    return a + r + (draw(sX[key]) if sX[key] else "")
+B4P = [0.3, 0.7]   # g, s
+def gen_B4(p):
+    q, e = B3_TUNED; g, soft = B4P; out = []
+    for ln in p["lines"]:
+        new = []
+        for k in range(len(ln)):
+            w = None
+            if k > 0:
+                r = R.random()
+                if r < q: w = new[-1]
+                elif r < q + e: w = mutate(new[-1])
+            if w is None:
+                if R.random() < g: w = build(p["sec"])
+                else:
+                    edge = k == 0 or k == len(ln) - 1
+                    src = (sec_first if k == 0 else sec_last) if edge and R.random() < soft else sec_mid
+                    w = draw(src[p["sec"]] or sec_uni[p["sec"]])
+            new.append(w)
+        out.append(new)
+    return out
+def raw_mi(P):
+    c = collections.Counter(); wc = collections.Counter(); pc = collections.Counter()
+    for pg in P:
+        for ws in pg["lines"]:
+            if len(ws) < 3: continue
+            for i, w in enumerate(ws):
+                q_ = 0 if i == 0 else (2 if i == len(ws) - 1 else 1); c[(w, q_)] += 1; wc[w] += 1
+    keep = {w for w, m_ in wc.items() if m_ >= 5}; T = sum(m_ for (w, q_), m_ in c.items() if w in keep); pk = collections.Counter()
+    for (w, q_), m_ in c.items():
+        if w in keep: pk[q_] += m_
+    Hp = -sum(m_ / T * math.log2(m_ / T) for m_ in pk.values())
+    return sum(m_ / T * math.log2((m_ / T) / ((wc[w] / T) * (pk[q_] / T))) for (w, q_), m_ in c.items() if w in keep) / Hp
+def cheap4(P): return np.append(cheap(P), raw_mi(P))
+TR4 = cheap4(train); TS4 = np.array([0.1, 0.5, 0.3, 0.1, 0.05]); best4 = None
+for g in (0.0, 0.1, 0.2, 0.35, 0.5, 0.7):
+    for soft in (0.4, 0.6, 0.8, 1.0):
+        B4P[:] = [g, soft]; R.seed(13)
+        d = float(np.sum(((cheap4([dict(page=p["page"], sec=p["sec"], lines=gen_B4(p)) for p in train]) - TR4) / TS4) ** 2))
+        if best4 is None or d < best4[0]: best4 = (d, g, soft)
+B4P[:] = [best4[1], best4[2]]
+_s0 = [w for w in V if split(w)[1] == ""]
 res = {"REAL odd pages": score(test)}
-for name, g in (("B0 baseline", gen_B0), ("B1 self-citation", gen_B1), ("B1t self-cit. tuned", gen_B1t), ("B2 verbose cipher", gen_B2), ("B3 short-range", gen_B3f), ("B3t short-rng tuned", gen_B3t)):
+for name, g in (("B0 baseline", gen_B0), ("B1 self-citation", gen_B1), ("B1t self-cit. tuned", gen_B1t), ("B2 verbose cipher", gen_B2), ("B3 short-range", gen_B3f), ("B3t short-rng tuned", gen_B3t), ("B4 word grammar", gen_B4)):
     res[name] = score([dict(page=p["page"], sec=p["sec"], lines=g(p)) for p in test])
 real = res["REAL odd pages"]; SCALE = dict(name_rate=0.1, repetition=0.003, repetition_ratio=0.5, near_repeat_ratio=0.3, line_MI=0.05, page_specific=0.1, words_per_line=1, section_signal=0.1)
 for k, r in res.items(): r["distance"] = round(math.sqrt(sum(((r[m] - real[m]) / s) ** 2 for m, s in SCALE.items())), 2)
-res["fitted"] = dict(copy_prob=round(pc, 3), edit_prob=round(pe, 3), tuned_copy=round(TUNED[0], 4), tuned_edit=round(TUNED[1], 4), B3_copy_fit=round(Q_FIT, 4), B3_edit_fit=round(E_FIT, 4), B3_tuned=[round(x, 4) for x in B3_TUNED], train_pages=len(train), test_pages=len(test))
+res["fitted"] = dict(copy_prob=round(pc, 3), edit_prob=round(pe, 3), tuned_copy=round(TUNED[0], 4), tuned_edit=round(TUNED[1], 4), B3_copy_fit=round(Q_FIT, 4), B3_edit_fit=round(E_FIT, 4), B3_tuned=[round(x, 4) for x in B3_TUNED], B4_grammar_share=best4[1], B4_position_softness=best4[2], B4_prefixes=PRE, B4_suffixes=SUF, train_pages=len(train), test_pages=len(test))
 json.dump(res, open(os.path.join(HERE, "heldout_results.json"), "w"), indent=1)
 cols = list(SCALE) + ["distance"]
 print(f"{'':20s}" + "".join(f"{c[:11]:>12s}" for c in cols))

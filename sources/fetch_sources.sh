@@ -29,3 +29,7 @@ mkdir -p amherst && curl -sL -o amherst/pamh1.txt "https://archive.org/download/
 mkdir -p sefaria/r47 && for ref in Mishnah_Arakhin.2 Mishnah_Tamid.3 Mishnah_Tamid.5 Mishnah_Tamid.7 Mishnah_Sukkah.5 Mishnah_Middot.2 Mishnah_Rosh_Hashanah.4 Berakhot.62a Arakhin.10b Arakhin.11a; do curl -s -o "sefaria/r47/$ref.json" "https://www.sefaria.org/api/v3/texts/$ref?version=english&version=hebrew"; done
 for t in Berakhot Shabbat Taanit Sanhedrin; do for c in 1 2 3 4 5; do curl -s -o "sefaria/r47/Y_${t}_$c.json" "https://www.sefaria.org/api/v3/texts/Jerusalem_Talmud_${t}.$c?version=hebrew"; done; done   # Galilean Aramaic sample
 mkdir -p petrie && curl -sL -o petrie/petrie1883.txt "https://archive.org/download/cu31924012038927/cu31924012038927_djvu.txt"   # Petrie, Pyramids and Temples of Gizeh (1883)
+# ---- Voynich (round 66) and contemporary alchemy ----
+mkdir -p voynich && (cd voynich && for r in musyoku/voynich-transcription alephmembeth/voynich; do git clone -q --depth 1 https://github.com/$r $(echo $r|tr / _); done)   # EVA (Takahashi) + v101 transcriptions
+mkdir -p alchemy && curl -sL -o alchemy/geberisphilosoph00gebe.txt "https://archive.org/download/geberisphilosoph00gebe/geberisphilosoph00gebe_djvu.txt"   # pseudo-Geber, Summa Perfectionis
+curl -sL -o alchemy/mappae_clavicula.txt "https://archive.org/download/thomas_phillipps_mappae_clavicula_1847_latin/phillipps_mappae_1847_latin_djvu.txt"   # Mappae Clavicula recipes

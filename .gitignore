@@ -3,3 +3,5 @@ __pycache__/
 video/out/john_full.mp4
 audio_model/v2/*.wav
 video/samples/_frames_*
+sources/texts/voynich/
+sources/texts/alchemy/

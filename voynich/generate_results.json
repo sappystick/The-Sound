@@ -1,0 +1,77 @@
+{
+ "learned_prefixes": [
+  "ch",
+  "qo",
+  "Sh",
+  "ok",
+  "ot",
+  "da",
+  "ol",
+  "ai",
+  "cT",
+  "yk",
+  "yt",
+  "lk"
+ ],
+ "learned_suffixes": [
+  "edy",
+  "iin",
+  "eey",
+  "ain",
+  "hey",
+  "ody",
+  "eol",
+  "chy",
+  "hdy",
+  "hol",
+  "Khy",
+  "hor",
+  "eor",
+  "dar",
+  "kal",
+  "Thy"
+ ],
+ "models": {
+  "VOY-P": {
+   "h2": 2.088,
+   "h2_within": 1.846,
+   "branching": 11.64,
+   "top8_suffix": 0.809,
+   "adj_repeat": 8.32,
+   "triples": 8,
+   "edit1": 31.08
+  },
+  "VULG": {
+   "h2": 3.327,
+   "h2_within": 3.196,
+   "branching": 14.61,
+   "top8_suffix": 0.427,
+   "adj_repeat": 0.3,
+   "triples": 0,
+   "edit1": 2.88
+  },
+  "SLOT": {
+   "h2": 2.715,
+   "h2_within": 2.552,
+   "branching": 16.14,
+   "top8_suffix": 0.676,
+   "adj_repeat": 1.53,
+   "triples": 0,
+   "edit1": 10.35
+  },
+  "AUTOCOPY(0.42)": {
+   "h2": 2.948,
+   "h2_within": 2.837,
+   "branching": 18.18,
+   "top8_suffix": 0.624,
+   "adj_repeat": 21.14,
+   "triples": 23,
+   "edit1": 36.73
+  }
+ },
+ "verdict": {
+  "low_h2": "SLOT reproduces Voynich's low h2 (word-internal rigidity); Latin cannot",
+  "repetition": "AUTOCOPY reproduces the adjacent-repeat + edit-1 anomaly; SLOT alone and Latin cannot",
+  "conclusion": "the full Voynich signature = a weighted slot grammar (word shape) + self-citation (token sequence). Both are GENERATIVE mechanisms, not properties of ciphered natural language."
+ }
+}

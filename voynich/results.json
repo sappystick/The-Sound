@@ -1,0 +1,367 @@
+{
+ "corpus_sizes": {
+  "VOY-P": {
+   "words": 32074,
+   "types": 7266,
+   "chars": 167155
+  },
+  "VOY-L": {
+   "words": 328,
+   "types": 272,
+   "chars": 1607
+  },
+  "GEBER": {
+   "words": 36665,
+   "types": 18514,
+   "chars": 246434
+  },
+  "MAPPAE": {
+   "words": 24873,
+   "types": 6295,
+   "chars": 132631
+  },
+  "VULG": {
+   "words": 40000,
+   "types": 8049,
+   "chars": 214011
+  },
+  "GRK": {
+   "words": 40000,
+   "types": 6267,
+   "chars": 197759
+  },
+  "HEB": {
+   "words": 40000,
+   "types": 8600,
+   "chars": 158148
+  },
+  "KANON": {
+   "words": 6000,
+   "types": 4370,
+   "chars": 25837
+  },
+  "RAND": {
+   "words": 6000,
+   "types": 5700,
+   "chars": 31508
+  }
+ },
+ "A1_entropy": {
+  "VOY-P": {
+   "h1": 3.975,
+   "h2": 2.088,
+   "h2_within_word": 1.846,
+   "alphabet": 28
+  },
+  "VOY-L": {
+   "h1": 3.794,
+   "h2": 2.404,
+   "h2_within_word": 2.29,
+   "alphabet": 24
+  },
+  "GEBER": {
+   "h1": 4.107,
+   "h2": 3.578,
+   "h2_within_word": 3.487,
+   "alphabet": 26
+  },
+  "MAPPAE": {
+   "h1": 4.037,
+   "h2": 3.36,
+   "h2_within_word": 3.214,
+   "alphabet": 26
+  },
+  "VULG": {
+   "h1": 4.004,
+   "h2": 3.327,
+   "h2_within_word": 3.196,
+   "alphabet": 23
+  },
+  "GRK": {
+   "h1": 4.08,
+   "h2": 3.131,
+   "h2_within_word": 3.069,
+   "alphabet": 25
+  },
+  "HEB": {
+   "h1": 4.063,
+   "h2": 3.468,
+   "h2_within_word": 3.663,
+   "alphabet": 27
+  },
+  "KANON": {
+   "h1": 4.079,
+   "h2": 3.186,
+   "h2_within_word": 3.284,
+   "alphabet": 19
+  },
+  "RAND": {
+   "h1": 3.982,
+   "h2": 3.925,
+   "h2_within_word": 3.966,
+   "alphabet": 28
+  }
+ },
+ "A2_slot_rigidity": {
+  "VOY-P": {
+   "mean_within_word_branching": 11.64,
+   "top8_prefix_mass": 0.651,
+   "top8_suffix_mass": 0.809
+  },
+  "VOY-L": {
+   "mean_within_word_branching": 6.04,
+   "top8_prefix_mass": 0.65,
+   "top8_suffix_mass": 0.595
+  },
+  "GEBER": {
+   "mean_within_word_branching": 23.92,
+   "top8_prefix_mass": 0.262,
+   "top8_suffix_mass": 0.36
+  },
+  "MAPPAE": {
+   "mean_within_word_branching": 18.15,
+   "top8_prefix_mass": 0.294,
+   "top8_suffix_mass": 0.402
+  },
+  "VULG": {
+   "mean_within_word_branching": 14.61,
+   "top8_prefix_mass": 0.286,
+   "top8_suffix_mass": 0.427
+  },
+  "GRK": {
+   "mean_within_word_branching": 16.17,
+   "top8_prefix_mass": 0.356,
+   "top8_suffix_mass": 0.493
+  },
+  "HEB": {
+   "mean_within_word_branching": 24.14,
+   "top8_prefix_mass": 0.247,
+   "top8_suffix_mass": 0.254
+  },
+  "KANON": {
+   "mean_within_word_branching": 11.42,
+   "top8_prefix_mass": 0.116,
+   "top8_suffix_mass": 0.088
+  },
+  "RAND": {
+   "mean_within_word_branching": 19.11,
+   "top8_prefix_mass": 0.099,
+   "top8_suffix_mass": 0.104
+  }
+ },
+ "A3_repetition": {
+  "VOY-P": {
+   "adjacent_equal_per_1000": 8.32,
+   "triple_runs": 8,
+   "adjacent_edit1_per_1000": 31.08
+  },
+  "VOY-L": {
+   "adjacent_equal_per_1000": 0.0,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 112.8
+  },
+  "GEBER": {
+   "adjacent_equal_per_1000": 1.01,
+   "triple_runs": 1,
+   "adjacent_edit1_per_1000": 3.38
+  },
+  "MAPPAE": {
+   "adjacent_equal_per_1000": 1.13,
+   "triple_runs": 4,
+   "adjacent_edit1_per_1000": 5.59
+  },
+  "VULG": {
+   "adjacent_equal_per_1000": 0.3,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 2.88
+  },
+  "GRK": {
+   "adjacent_equal_per_1000": 1.23,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 5.6
+  },
+  "HEB": {
+   "adjacent_equal_per_1000": 0.62,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 11.43
+  },
+  "KANON": {
+   "adjacent_equal_per_1000": 0.83,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 11.17
+  },
+  "RAND": {
+   "adjacent_equal_per_1000": 0.0,
+   "triple_runs": 0,
+   "adjacent_edit1_per_1000": 1.0
+  }
+ },
+ "A4_labels_vs_text": {
+  "n_labels": 328,
+  "n_label_types": 272,
+  "label_initial_KL_from_text_bits": 0.663,
+  "label_exclusive_vocab_share": 0.415,
+  "label_exclusive_types_share": 0.478,
+  "mean_len_text": 5.21,
+  "mean_len_label": 4.9,
+  "top_label_initials": [
+   [
+    "o",
+    152
+   ],
+   [
+    "d",
+    44
+   ],
+   [
+    "s",
+    34
+   ],
+   [
+    "y",
+    25
+   ],
+   [
+    "c",
+    17
+   ],
+   [
+    "r",
+    11
+   ]
+  ],
+  "top_text_initials": [
+   [
+    "o",
+    6618
+   ],
+   [
+    "c",
+    6029
+   ],
+   [
+    "q",
+    5055
+   ],
+   [
+    "d",
+    3027
+   ],
+   [
+    "S",
+    2811
+   ],
+   [
+    "a",
+    1558
+   ]
+  ],
+  "note": "labels = words written next to pictures (loci type L); text = running paragraphs (type P)"
+ },
+ "A5_line_as_unit": {
+  "line_first_initial_KL_from_mid_bits": 1.002,
+  "line_last_final_glyph_top": [
+   [
+    "y",
+    1492
+   ],
+   [
+    "m",
+    650
+   ],
+   [
+    "n",
+    606
+   ],
+   [
+    "l",
+    423
+   ],
+   [
+    "r",
+    311
+   ]
+  ],
+  "line_first_initial_top": [
+   [
+    "d",
+    588
+   ],
+   [
+    "y",
+    567
+   ],
+   [
+    "o",
+    508
+   ],
+   [
+    "q",
+    506
+   ],
+   [
+    "t",
+    385
+   ]
+  ],
+  "mid_word_initial_top": [
+   [
+    "o",
+    5236
+   ],
+   [
+    "c",
+    5225
+   ],
+   [
+    "q",
+    4216
+   ],
+   [
+    "S",
+    2476
+   ],
+   [
+    "d",
+    1765
+   ]
+  ],
+  "note": "Currier's LAAFU: if line-position changes glyph distributions, the line is a structural unit - abnormal for prose"
+ },
+ "A6_recipe_profile": {
+  "VOY-P": {
+   "top20_token_share": 0.197,
+   "burstiness_cv": 0.418
+  },
+  "GEBER": {
+   "top20_token_share": 0.157,
+   "burstiness_cv": 0.333
+  },
+  "MAPPAE": {
+   "top20_token_share": 0.226,
+   "burstiness_cv": 0.349
+  },
+  "VULG": {
+   "top20_token_share": 0.235,
+   "burstiness_cv": 0.265
+  }
+ },
+ "A7_which_model_fits": {
+  "voynich_signature": {
+   "h2": 2.088,
+   "within_word_branching": 11.64,
+   "adj_repeat_per_1000": 8.32
+  },
+  "distance_to_voynich": {
+   "VOY-L": 6.28,
+   "GEBER": 12.87,
+   "MAPPAE": 7.39,
+   "VULG": 4.7,
+   "GRK": 5.52,
+   "HEB": 13.06,
+   "KANON": 3.33,
+   "RAND": 8.77
+  },
+  "note": "z-scaled distance of (h2, within-word branching, adjacent-repeat rate) to Voynich-P; smallest = best model of the anomaly cluster"
+ }
+}

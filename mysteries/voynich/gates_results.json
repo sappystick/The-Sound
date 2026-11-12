@@ -1,0 +1,84 @@
+{
+ "metrics": {
+  "VOY": {
+   "n": 40,
+   "occupancy": 0.403,
+   "directed_density": 0.289,
+   "reciprocity": 0.838,
+   "layering": 0.708,
+   "branch_H": 2.262
+  },
+  "HEB": {
+   "n": 27,
+   "occupancy": 0.88,
+   "directed_density": 0.705,
+   "reciprocity": 0.915,
+   "layering": 0.622,
+   "branch_H": 3.641
+  },
+  "SY": {
+   "n": 27,
+   "occupancy": 0.672,
+   "directed_density": 0.498,
+   "reciprocity": 0.838,
+   "layering": 0.654,
+   "branch_H": 3.18
+  },
+  "LAT": {
+   "n": 26,
+   "occupancy": 0.966,
+   "directed_density": 0.891,
+   "reciprocity": 0.999,
+   "layering": 0.556,
+   "branch_H": 3.24
+  },
+  "GRK": {
+   "n": 25,
+   "occupancy": 0.72,
+   "directed_density": 0.595,
+   "reciprocity": 0.931,
+   "layering": 0.682,
+   "branch_H": 2.941
+  },
+  "KANON": {
+   "n": 19,
+   "occupancy": 0.614,
+   "directed_density": 0.582,
+   "reciprocity": 1.0,
+   "layering": 0.653,
+   "branch_H": 3.282
+  },
+  "FREE": {
+   "n": 12,
+   "occupancy": 1.0,
+   "directed_density": 0.917,
+   "reciprocity": 1.0,
+   "layering": 0.502,
+   "branch_H": 3.456
+  },
+  "SLOT": {
+   "n": 14,
+   "occupancy": 0.363,
+   "directed_density": 0.199,
+   "reciprocity": 0.295,
+   "layering": 0.797,
+   "branch_H": 1.346
+  }
+ },
+ "sizes": {
+  "VOY": 34986,
+  "HEB": 40001,
+  "SY": 2349,
+  "LAT": 36665,
+  "GRK": 40001,
+  "KANON": 8000,
+  "FREE": 8000,
+  "SLOT": 8000
+ },
+ "voynich_vs_models": {
+  "distance_to_FREE_combination": 0.652,
+  "distance_to_SLOT_directional": 0.552,
+  "verdict": "directional slot"
+ },
+ "interpretation": "Sefer Yetzirah's 231 gates are a FREE, bi-directional letter-combination (high occupancy + high reciprocity, no layering). A directional SLOT grammar is the opposite (high layering, low reciprocity). Whichever the Voynich is nearer tells us which combinatorial idea generated it."
+}

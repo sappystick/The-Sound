@@ -34,3 +34,4 @@ mkdir -p voynich && (cd voynich && for r in musyoku/voynich-transcription alephm
 mkdir -p alchemy && curl -sL -o alchemy/geberisphilosoph00gebe.txt "https://archive.org/download/geberisphilosoph00gebe/geberisphilosoph00gebe_djvu.txt"   # pseudo-Geber, Summa Perfectionis
 curl -sL -o alchemy/mappae_clavicula.txt "https://archive.org/download/thomas_phillipps_mappae_clavicula_1847_latin/phillipps_mappae_1847_latin_djvu.txt"   # Mappae Clavicula recipes
 curl -sL -o voynich/ZL3b-n.txt "https://www.voynich.nu/data/ZL3b-n.txt"   # Zandbergen-Landini reference transliteration with page metadata (round 82)
+(cd voynich && git clone -q --depth 1 https://github.com/alessandroplaca-uro/voynich-spatial-data spatial)   # per-token coordinates/angles for Stage C anchoring (round 83)

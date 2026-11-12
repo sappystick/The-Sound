@@ -729,3 +729,9 @@ Write-ups:
 - **New data:** the ZL3b-n reference transliteration with page metadata ($I illustration, $L language, $H hand, $Q quire).
 - **Pilot (V, partial):** in Currier-B sections the word ROOT carries >= the topic signal of the whole word (hand 3: root 0.86 vs full 0.82, p 0.007); affixes are not pure noise; the herbal section needs anchor-level (not page-topic) targets.
 - **Plan:** a 10-angle matrix, a 5-stage gated decipherment pipeline, a provenance dossier, and the key tie-in - the Voynich generation method, Llull's wheels, Sefer Yetzirah's 231 gates (our round 39) and KANON are the same combinatorial idea, three of whose engines we already built.
+
+## AU. Round 83 (`mysteries/ROUND83.md`): the 231-gates test + pipeline Stages A-B executed
+- **231-gates (N for free combination):** the Voynich uses only 40% of possible glyph-pairs, is positionally layered (0.71), and has the lowest next-glyph entropy of any real text (2.26 bits) - a directional SLOT system, not Sefer Yetzirah's free bi-directional gates. Rules out Kabbalistic tzeruf / Llull wheels / 231-gates as the generation mechanism; keeps slot/nomenclator/abbreviation devices.
+- **Stage A PASS (V):** a slot grammar learned on even folios generates 86.5% of held-out odd-folio word-mass (shuffled null 30%). The prefix-root-suffix layer is real and generalises.
+- **Stage B:** ~58% of tokens are machinery (copies + top-20-root fillers); ~42% is the candidate content stream; the round-82 pilot localises its signal to the root.
+- **Gathered:** per-token coordinate/angle dataset (Placა spatial corpus) + Beinecke IIIF for Stage C anchoring.

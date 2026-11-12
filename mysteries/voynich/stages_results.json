@@ -1,0 +1,53 @@
+{
+ "split": {
+  "folios": 226,
+  "even_pages": 113,
+  "odd_pages": 113,
+  "train_words": 18207,
+  "test_words": 16779
+ },
+ "stageA_slot_coverage": {
+  "learned_prefixes": [
+   "sh",
+   "ol",
+   "lk",
+   "ok",
+   "ot",
+   "yk",
+   "qo",
+   "da",
+   "ai",
+   "ct",
+   "ch",
+   "yt",
+   "y",
+   "s"
+  ],
+  "learned_suffixes": [
+   "eol",
+   "hdy",
+   "hey",
+   "edy",
+   "iin",
+   "eey",
+   "hol",
+   "ody",
+   "chy",
+   "ain",
+   "al",
+   "ol",
+   "ar",
+   "hy"
+  ],
+  "coverage_heldout": 0.865,
+  "null_shuffled_mean": 0.302,
+  "gate_0_85": true,
+  "verdict": "PASS"
+ },
+ "stageB_machinery": {
+  "adjacent_copy_share": 0.007,
+  "machinery_share_copy_or_top20_root": 0.576,
+  "content_share_remainder": 0.424,
+  "note": "machinery = exact adjacent copies + words built on one of the 20 commonest roots (grammatical fillers); the remainder is the candidate content stream for Stage C anchoring"
+ }
+}

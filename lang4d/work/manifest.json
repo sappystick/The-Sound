@@ -1,0 +1,36 @@
+{
+ "id": "df160cdd5d7318e034119d1c6f3cd63912c634e76fad6a0ee396e2a2b30a289d",
+ "seal": "goma",
+ "canonical_source": "demorini | sa #7 gia ta #3 | di | ::tako ko #42 | ku #26 | bou | ku #18 | bou | gio :: | ::paga :tako | kio | :kamu | ka #84 | :kade :: | :tako | dio? | daka",
+ "lyrics": "deck-mow-reed-need stop sat seven geese-at tap three stop deep stop define tap-coat coat four two stop cool two six stop boat-ooze stop cool one eight stop boat-ooze stop geese-oak done stop define pat-gap use tap-coat stop key-oak stop use cat-moon stop cat eight four stop use cat-deck done stop use tap-coat stop deep-oak if stop dad-cat",
+ "spoken_with_error_correction": "demorini =ku-tya-gy-me-pa | sa #7 gia ta #3 =pe-te-bi-bya-pua | di =ta-ka-ta-bya-go | ::tako ko #42 =pwa-ra-tea-ko-ti | ku #26 =mw-pwa-mo-ka-pia | bou =mw-mo-gu-ma-bya | ku #18 =pe-bea-tya-taa-ka | bou =mw-mo-gu-ma-bya | gio :: =tea-di-tw-sa-bw | ::paga :tako =daa-ry-tea-bia-bw | kio =mo-koa-koa-da-ru | :kamu =li-ru-boa-do-nu | ka #84 =ke-so-nu-ki-da | :kade :: =dy-kia-hu-gw-pua | :tako =ku-pu-to-pya-my | dio? =ga-mi-daa-go-lw | daka =kwa-me-pua-na-hw",
+ "statistics": {
+  "words": 29,
+  "syllables": 31,
+  "verses": 17,
+  "duration_s": 73.46,
+  "plays": 1000,
+  "melodies": 4,
+  "lyric_words": 56
+ },
+ "contract": {
+  "shares": [
+   50,
+   30,
+   20
+  ],
+  "sum": 100,
+  "revenue": 5000,
+  "payout": [
+   2500.0,
+   1500.0,
+   1000.0
+  ],
+  "valid": true,
+  "rule_source": "::tako (shares) and ::paga (payout) inside the work itself"
+ },
+ "song_pcm_sha256": "f9c148b847ac35634c45fb17952ee5c64f94a032bfb33ba61939259afce1ff39",
+ "song_seconds": 77.23,
+ "song_decodes_to_source": true,
+ "video_frames_sha256": "546e905f890c5ee038b832424051f7cfc0a5f97fa277161123b56e7005967023"
+}

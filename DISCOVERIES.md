@@ -591,3 +591,16 @@ Write-ups:
   - The Mars Climate Orbiter case is a scale error, not a dimension error, and is stated as such.
 - **Built: `fields/profile.py`.** The KANON-FLIGHT static checker (bounded loops, no recursion, approved library, memory bound, guarded commands, ECC on every verse). It gives worst-case steps and a memory bound.
 - **Built: a phone channel.** The original codec scored **0 of 40** through a phone band and through GSM, which corrects the earlier phone-line claims. The phone channel scores 40 of 40 through a phone band, noise, GSM and G.726. Opus scores 35 of 40 at 16 kbit/s and 16 of 40 at 8 kbit/s. In every channel, no error went unflagged.
+
+## AV. Round 69 (`lang4d/UNIFIED.md`): everyday-word skins, and one program as the whole work
+
+- **English skin.** Each of the 84 cells is an everyday word with the same opening consonant and vowel (cat, tea, moon …). It avoids the cot/caught merger. 2,000 random programs round-trip exactly. Spellings that sound alike share a cell, so off-the-shelf speech recognition can take KANON dictation now. Other languages get their own skins over the same cells.
+- **One work** (`work/`). A 5-line program renders as:
+  - the song (which decodes back to the exact source);
+  - the lyrics (the program in English words);
+  - the music video (seals and ring per frame);
+  - the contract (50/30/20 shares and payout, run inside the program);
+  - the statistics.
+
+  All of it hangs on one source hash, and re-rendering reproduces the audio, frame, contract and id hashes exactly.
+- **Crypto.** Self-repairing seed phrases (leakage of about 6.8 bits per parity word noted), speak-to-confirm transactions, and anchoring a work's hash on a chain. Oracle and legal limits are stated.

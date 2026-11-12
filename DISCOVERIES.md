@@ -758,3 +758,8 @@ Write-ups:
 - **Plant geometry (f3v + 74 plants):** f3v is NOT unusually regular (64% of plants more regular); the "2 vs 4 uniform" impression doesn't survive measurement. A DNA/molecule/compound reading is ruled out by chronology (molecular structure post-1800, DNA 1953, vs vellum 1404-1438); regular leaf pairs are ordinary botany/medieval stylisation.
 - **N (drawing-as-code):** leaf-count sequence is near-maximal entropy (0.96) and uncorrelated with page text (r approximately 0) - the geometry carries no code linked to the text.
 - **Plant ID not claimable** (century of botanist disagreement) and would not unlock the text (round 86: shape does not track words).
+
+## AZ. Round 88 (`mysteries/ROUND88.md`): reference-free test - is there latent content?
+- **V (pivotal):** the Voynich carries long-range information (0.041 bits, d>=21) ~2x its section-conditioned generator (0.020) and ~13x its shuffle floor (0.003). The null-content model does NOT reproduce it - there IS mid-range organisation to characterise (reproduces Montemurro-Zanette 2013).
+- **Reframe:** pivot from "match to known systems" to reference-free internal methods (latent-state extraction, Currier A/B Rosetta, steganographic low-rate channels, information budget) + comparison to UNIQUE systems (Codex Seraphinianus as asemic control, Rohonc) rather than languages + numeric/astronomical engines on the diagram sections.
+- **Reconciliation:** the anchor failures (rounds 84-87) ruled out object-level reference; round 88 finds mid-range organisation. Both true: content, if any, lives in the organisation, not word-to-picture naming.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Held-out test of the explanations still standing after round 78. Every model is fitted on the EVEN pages and generates
+"""Held-out test (rounds 79-80) of the explanations still standing after round 78. Every model is fitted on the EVEN pages and generates
 text with the exact shape of the ODD pages (same sections, same lines, same words per line). Each output is scored against
 the real odd pages on all the measures of rounds 75-78.
   B0 baseline         words drawn independently from each section's word frequencies
@@ -122,12 +122,67 @@ TUNED = (pc0 * best[1], pe0 * best[2]); pc, pe = pc0, pe0
 def gen_B1t(p):
     global pc, pe
     pc, pe = TUNED; out = gen_B1(p); pc, pe = pc0, pe0; return out
+# ---- B3: the short-range generator (round 80). Each word, from the 2nd in a line on, is
+#   an immediate copy of the previous word (prob q), or a one-glyph substitution of the previous word using the
+#   substitution pairs seen between neighbouring words in the training pages (prob e; it may create a new word),
+#   or a fresh draw from the section's distribution for that line position (first / middle / last).
+# No copying from further back, and never across a line break.
+sec_mid = collections.defaultdict(collections.Counter)
+for p in train:
+    for ln in p["lines"]: sec_mid[p["sec"]].update(ln[1:-1])
+SUB = collections.Counter(); nq = ne = nall = 0
+for p in train:
+    for ln in p["lines"]:
+        for a, b in zip(ln, ln[1:]):
+            nall += 1
+            if a == b: nq += 1
+            elif len(a) == len(b) and sum(x != y for x, y in zip(a, b)) == 1:
+                ne += 1; i = next(i for i in range(len(a)) if a[i] != b[i]); SUB[(a[i], b[i])] += 1
+Q_FIT, E_FIT = nq / nall, ne / nall
+SUBS = collections.defaultdict(list)
+for (x, y), c in SUB.items(): SUBS[x].append((y, c))
+def mutate(w):
+    opts = [(i, y, c) for i, x in enumerate(w) for y, c in SUBS.get(x, [])]
+    if not opts: return None
+    i, y, _ = R.choices(opts, [c for _, _, c in opts])[0]; return w[:i] + y + w[i + 1:]
+B3P = [Q_FIT, E_FIT]
+def gen_B3(p):
+    q, e = B3P; out = []
+    for ln in p["lines"]:
+        new = []
+        for k in range(len(ln)):
+            src = sec_first if k == 0 else (sec_last if k == len(ln) - 1 else sec_mid)
+            w = None
+            if k > 0:
+                r = R.random()
+                if r < q: w = new[-1]
+                elif r < q + e: w = mutate(new[-1])
+            if w is None: w = draw(src[p["sec"]] or sec_uni[p["sec"]])
+            new.append(w)
+        out.append(new)
+    return out
+def cheap(P):   # the measures that do not need shuffles of the line-position MI, for tuning on the training half
+    ent = [[w for ln in p["lines"] for w in ln] for p in P]; df = collections.Counter(w for x in ent for w in set(x)); k = len(ent); own = top = 0
+    for x in ent:
+        c = collections.Counter(x); sc = {w: c[w] * math.log(k / df[w]) for w in c if c[w] >= 2}
+        if sc: top += 1; own += df[max(sc, key=sc.get)] <= 3
+    spec = float(np.mean([sum(1 for w in x if df[w] <= 2) / len(x) for x in ent]))
+    return np.array([own / max(1, top), rep_ratio(P), near_ratio(P), spec])
+TR = cheap(train); TS = np.array([0.1, 0.5, 0.3, 0.1]); best = None
+for fq in (0.5, 0.75, 1.0, 1.25, 1.5):
+    for fe in (0.5, 1.0, 1.5, 2.0, 3.0):
+        B3P[:] = [Q_FIT * fq, E_FIT * fe]; R.seed(11)
+        d = float(np.sum(((cheap([dict(page=p["page"], sec=p["sec"], lines=gen_B3(p)) for p in train]) - TR) / TS) ** 2))
+        if best is None or d < best[0]: best = (d, fq, fe)
+B3_TUNED = [Q_FIT * best[1], E_FIT * best[2]]
+def gen_B3f(p): B3P[:] = [Q_FIT, E_FIT]; return gen_B3(p)
+def gen_B3t(p): B3P[:] = B3_TUNED; return gen_B3(p)
 res = {"REAL odd pages": score(test)}
-for name, g in (("B0 baseline", gen_B0), ("B1 self-citation", gen_B1), ("B1t self-cit. tuned", gen_B1t), ("B2 verbose cipher", gen_B2)):
+for name, g in (("B0 baseline", gen_B0), ("B1 self-citation", gen_B1), ("B1t self-cit. tuned", gen_B1t), ("B2 verbose cipher", gen_B2), ("B3 short-range", gen_B3f), ("B3t short-rng tuned", gen_B3t)):
     res[name] = score([dict(page=p["page"], sec=p["sec"], lines=g(p)) for p in test])
 real = res["REAL odd pages"]; SCALE = dict(name_rate=0.1, repetition=0.003, repetition_ratio=0.5, near_repeat_ratio=0.3, line_MI=0.05, page_specific=0.1, words_per_line=1, section_signal=0.1)
 for k, r in res.items(): r["distance"] = round(math.sqrt(sum(((r[m] - real[m]) / s) ** 2 for m, s in SCALE.items())), 2)
-res["fitted"] = dict(copy_prob=round(pc, 3), edit_prob=round(pe, 3), tuned_copy=round(TUNED[0], 4), tuned_edit=round(TUNED[1], 4), train_pages=len(train), test_pages=len(test))
+res["fitted"] = dict(copy_prob=round(pc, 3), edit_prob=round(pe, 3), tuned_copy=round(TUNED[0], 4), tuned_edit=round(TUNED[1], 4), B3_copy_fit=round(Q_FIT, 4), B3_edit_fit=round(E_FIT, 4), B3_tuned=[round(x, 4) for x in B3_TUNED], train_pages=len(train), test_pages=len(test))
 json.dump(res, open(os.path.join(HERE, "heldout_results.json"), "w"), indent=1)
 cols = list(SCALE) + ["distance"]
 print(f"{'':20s}" + "".join(f"{c[:11]:>12s}" for c in cols))

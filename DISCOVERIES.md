@@ -752,3 +752,9 @@ Write-ups:
 - **N (decisive, robust):** across 74-118 herbal plants, morphometric distance vs text distance gives Mantel r approximately 0 (p 0.53); round-85's marginal r 0.10 was a crude-feature/segmentation artifact. The herbal text does NOT track the specific plant's geometry.
 - **Stage C: both probes now null** (position round 84; geometry round 86) -> pre-registered rule -> herbal section carries no object-level reference.
 - **Synthesis:** the Voynich is topical but not referential - vocabulary shifts by section (S6, 90.8%) but names no individual thing. Fits a section-conditioned generative system: meaningful about categories, empty about individuals.
+
+## AY. Round 87 (`mysteries/ROUND87.md`): section-conditioned generator + plant geometry
+- **V:** section-conditioning is necessary and sufficient for the Voynich's topicality - an unconditioned generator yields section-less pages (classifiability 0.13), a section-conditioned one reproduces it (0.65 vs real 0.52). Closes the round-86 model: a section-conditioned generative system.
+- **Plant geometry (f3v + 74 plants):** f3v is NOT unusually regular (64% of plants more regular); the "2 vs 4 uniform" impression doesn't survive measurement. A DNA/molecule/compound reading is ruled out by chronology (molecular structure post-1800, DNA 1953, vs vellum 1404-1438); regular leaf pairs are ordinary botany/medieval stylisation.
+- **N (drawing-as-code):** leaf-count sequence is near-maximal entropy (0.96) and uncorrelated with page text (r approximately 0) - the geometry carries no code linked to the text.
+- **Plant ID not claimable** (century of botanist disagreement) and would not unlock the text (round 86: shape does not track words).

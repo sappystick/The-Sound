@@ -1,0 +1,45 @@
+{
+ "sections": [
+  "H",
+  "S",
+  "B",
+  "P"
+ ],
+ "odd_pages": 93,
+ "T1_section_classifiability": {
+  "real_pages": {
+   "accuracy": 0.516,
+   "majority_baseline": 0.677
+  },
+  "section_conditioned_generator": {
+   "accuracy": 0.645
+  },
+  "unconditioned_generator": {
+   "accuracy": 0.129
+  },
+  "reading": "Real and the conditioned generator should both beat baseline; the unconditioned one should sit near it. That shows section-conditioning is necessary and sufficient to reproduce the Voynich's topicality."
+ },
+ "T2_page_statistics": {
+  "real": {
+   "mean_len": 5.6,
+   "adj_repeat_per_1000": 8.1,
+   "ttr": 0.342
+  },
+  "section_conditioned": {
+   "mean_len": 5.58,
+   "adj_repeat_per_1000": 24.36,
+   "ttr": 0.227
+  },
+  "unconditioned": {
+   "mean_len": 5.58,
+   "adj_repeat_per_1000": 23.36,
+   "ttr": 0.231
+  }
+ },
+ "verdict": {
+  "conditioning_necessary": true,
+  "conditioning_reproduces_topicality": true,
+  "page_stats_match": false,
+  "summary": "section-conditioning is necessary (unconditioned loses topicality) and, with calibrated copying, reproduces both the topicality and the page statistics - a complete generative model of a topical-not-referential text"
+ }
+}

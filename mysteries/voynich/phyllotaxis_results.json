@@ -1,0 +1,29 @@
+{
+ "plants_analyzed": 74,
+ "P1_population_arrangement": {
+  "mean_nodes": 36.53,
+  "mean_alternation": 0.22,
+  "mean_spacing_cv": 0.79,
+  "opposite_like": 2,
+  "alternate_like": 1
+ },
+ "P2_f3v": {
+  "measured": {
+   "nodes": 21,
+   "left": 8,
+   "right": 13,
+   "alternation": 0.15,
+   "spacing_cv": 0.44
+  },
+  "interpretation": "f3v shows 8 nodes left / 13 right, alternation 0.15, spacing CV 0.44. Its spacing is more regular than 36% of plants.",
+  "honest_note": "Regular opposite/decussate leaf pairs are a common real botanical arrangement and a common stylisation in medieval herbals. A DNA/molecule/compound reading is not possible: those are post-1800 (molecular structure) and post-1950 (DNA) concepts, centuries after this vellum (1404-1438). We report the geometry; the molecular interpretation is ruled out by chronology, not by the drawing."
+ },
+ "P3_drawing_as_code": {
+  "leaf_count_entropy_bits": 5.38,
+  "max_entropy": 5.58,
+  "entropy_ratio": 0.96,
+  "leafcount_vs_text_words_r": -0.031,
+  "leafcount_vs_text_lines_r": 0.008,
+  "reading": "If the drawing were a code, leaf-counts should be structured (low-entropy sequence) and/or linked to the text. High entropy + near-zero text correlation = the leaf geometry does not carry a recoverable message tied to the page."
+ }
+}

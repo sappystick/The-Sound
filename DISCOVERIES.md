@@ -553,3 +553,19 @@ Write-ups:
 - **S (design) + measured:** 7 vowels = planet-strings (data planes, ι the accumulator/mese, ω the silent archive), 12 consonants = the 4×3 breastpiece grid (operations and the audio keypad), ring-order execution (outer pairs first, centre commits last), base-12 digits, celestial phase stamps.
 - **Measured:** audio round-trip of full programs is exact on clean audio and at 25/15/8 dB SNR; the same verse reordered computes 22 vs 28 (the centre rule); ≈1.2×10⁹ context-distinct instructions from 19 glyphs.
 - Honest-claims table separates real results from the source sketch's physics errors (`lang4d/WHITEPAPER.md` §9).
+
+## AS. Round 66 (`lang4d/REVIEW_v02.md`): KANON v0.2
+
+- **Review of v0.1.**
+  - Middle syllables were inert, so the 1.2 × 10⁹ figure is withdrawn.
+  - Spoken marks were lost.
+  - There were no names, branches or while-loops.
+  - Loops were split by the ring, and there were no resource limits.
+- **v0.2.**
+  - Word-internal composition, names, guards and while-loops make it Turing complete. The prelude in KANON computes ×, gcd and factorial.
+  - The 44-name Canon is laid out on the 12 × 7 grid.
+  - Every mark is spoken, with mod-7039 verse checksums. On 120 random programs, every corrupted decode at 4 dB and 2 dB was flagged and none was missed.
+  - Seals.
+  - The JavaScript interpreter matches Python on 1,000 of 1,000 programs.
+  - A 30-step one-night course (Echo Ladder rule checked; planetary-week and calendar-palace memory aids).
+- **Order study.** Execution order is always unique. The outcome differs in 13% of word orderings and 53% of syllable orderings of random code, as commutation requires.

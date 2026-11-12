@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 670" font-family="Georgia,serif">
+<rect width="900" height="670" fill="#f6f4ef"/>
+<text x="16" y="28" font-size="16" fill="#222">::kebo kei kia kae mea :: | ki #89 | ka #39 | la :kebo | :dasa
+</text>
+<text x="16" y="48" font-size="11" fill="#777">checksum =kymo =kyme =tiru =kusu</text>
+<circle cx="150.0" cy="110.0" r="20.0" fill="none" stroke="#2a2a2a" stroke-opacity=".18"/>
+<circle cx="150.0" cy="110.0" r="24.4" fill="none" stroke="#2a2a2a" stroke-opacity=".10"/>
+<line x1="150.0" y1="85.6" x2="150.0" y2="90.0" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="147.5" y="83.1" width="5" height="5" fill="#2a2a2a"/>
+<circle cx="150.0" cy="90.0" r="3.6" fill="#b07a2a"/>
+<text x="150.0" y="150.0" font-size="11" text-anchor="middle" fill="#222">ki #89</text>
+<text x="174.0" y="90.0" font-size="10" fill="#3d6f8a">1</text>
+<circle cx="150.0" cy="220.0" r="3" fill="#3d6f8a"/>
+<circle cx="450.0" cy="110.0" r="20.0" fill="none" stroke="#2a2a2a" stroke-opacity=".18"/>
+<circle cx="450.0" cy="110.0" r="24.4" fill="none" stroke="#2a2a2a" stroke-opacity=".10"/>
+<line x1="450.0" y1="85.6" x2="465.6" y2="97.5" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="447.5" y="83.1" width="5" height="5" fill="#2a2a2a"/>
+<circle cx="465.6" cy="97.5" r="3.6" fill="#b07a2a"/>
+<text x="450.0" y="150.0" font-size="11" text-anchor="middle" fill="#222">ka #39</text>
+<text x="474.0" y="90.0" font-size="10" fill="#3d6f8a">1</text>
+<circle cx="450.0" cy="220.0" r="3" fill="#3d6f8a"/>
+<path d="M750.0,110.0 Q750.0,220.0 750.0,330.0" fill="none" stroke="#3d6f8a" stroke-opacity=".55" stroke-width="1.6"/>
+<circle cx="750.0" cy="110.0" r="20.0" fill="none" stroke="#2a2a2a" stroke-opacity=".18"/>
+<circle cx="750.0" cy="110.0" r="24.4" fill="none" stroke="#2a2a2a" stroke-opacity=".10"/>
+<line x1="750.0" y1="134.4" x2="765.6" y2="97.5" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="747.5" y="131.9" width="5" height="5" fill="#2a2a2a"/>
+<circle cx="765.6" cy="97.5" r="3.6" fill="#b07a2a"/>
+<text x="750.0" y="150.0" font-size="11" text-anchor="middle" fill="#222">la</text>
+<circle cx="750.0" cy="330.0" r="20.0" fill="none" stroke="#2a2a2a" stroke-opacity=".18"/>
+<circle cx="750.0" cy="330.0" r="24.4" fill="none" stroke="#2a2a2a" stroke-opacity=".10"/>
+<polyline points="758.7,348.0 769.5,334.5" fill="none" stroke="#b07a2a" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="750.0" y1="305.6" x2="758.7" y2="348.0" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="747.5" y="303.1" width="5" height="5" fill="#2a2a2a"/>
+<line x1="774.4" y1="330.0" x2="769.5" y2="334.5" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="771.9" y="327.5" width="5" height="5" fill="#2a2a2a"/>
+<circle cx="758.7" cy="348.0" r="3.6" fill="#b07a2a"/>
+<circle cx="769.5" cy="334.5" r="2.6" fill="#2a2a2a"/>
+<text x="750.0" y="370.0" font-size="11" text-anchor="middle" fill="#222">:kebo</text>
+<circle cx="150.0" cy="410.0" r="20.0" fill="none" stroke="#2a2a2a" stroke-opacity=".18"/>
+<circle cx="150.0" cy="410.0" r="24.4" fill="none" stroke="#2a2a2a" stroke-opacity=".10"/>
+<polyline points="165.6,397.5 165.6,397.5" fill="none" stroke="#b07a2a" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="171.1" y1="422.2" x2="165.6" y2="397.5" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="168.6" y="419.7" width="5" height="5" fill="#2a2a2a"/>
+<line x1="128.9" y1="397.8" x2="165.6" y2="397.5" stroke="#2a2a2a" stroke-opacity=".45" stroke-width="1"/>
+<rect x="126.4" y="395.3" width="5" height="5" fill="#2a2a2a"/>
+<circle cx="165.6" cy="397.5" r="3.6" fill="#b07a2a"/>
+<circle cx="165.6" cy="397.5" r="2.6" fill="#2a2a2a"/>
+<text x="150.0" y="450.0" font-size="11" text-anchor="middle" fill="#222">:dasa</text>
+<text x="174.0" y="390.0" font-size="10" fill="#3d6f8a">1</text>
+<circle cx="150.0" cy="520.0" r="3" fill="#3d6f8a"/>
+</svg>

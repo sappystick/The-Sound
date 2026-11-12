@@ -1,6 +1,8 @@
 # KANON: a spoken, typed and played programming language
 ### White paper v0.1 · The Sound project, round 65
 
+> **v0.2 (round 66) is in `REVIEW_v02.md`.** It adds composition inside words, names, guards and while-loops (Turing complete), the 44-name Canon, a prelude written in KANON, spoken marks, checksums that missed no errors in testing, seals, a JavaScript interpreter matching the Python on 1,000 of 1,000 programs, and the one-night course. It **withdraws** the namespace figure in §3 below: v0.1's middle syllables did nothing, so the figure counted spellings, not behaviours.
+
 **KANON** (κανών: the measuring rod, the monochord of the *Sectio Canonis*, and the canon of scripture) is a programming language in which **the same program is a text, an utterance, a melody and a machine process** — four readings of one lattice. It is the engineering descendant of this project's 64 research rounds, and the honest rebuild of the "Aether-4D" sketch (see §9: what survives from that document and what does not).
 
 Reference implementation: `lang4d/kanon.py` (self-contained: Python standard library + NumPy; the synthesiser, codec, ephemeris and VM are built into the runtime — no external services or libraries).

@@ -548,3 +548,8 @@ Write-ups:
 - **Round 64 (`POWER_MANUAL.md`), thought experiment, the Bible as the pyramid's manual (the Day of Atonement):**
   - **Calc:** the King's Chamber makes a shout felt (94 dB); with its shafts it "breathes" at 0.11 Hz (9 s); the inner voice is audible outside within about 50 m of the shaft mouths.
   - **Ritual counts against pyramid counts:** chance level (p 0.49). The orientation (north against east) and purpose (tomb against no-dead) do not fit.
+
+## AR. Round 65 (`lang4d/`): KANON, the spoken-typed-played language
+- **S (design) + measured:** 7 vowels = planet-strings (data planes, ι the accumulator/mese, ω the silent archive), 12 consonants = the 4×3 breastpiece grid (operations and the audio keypad), ring-order execution (outer pairs first, centre commits last), base-12 digits, celestial phase stamps.
+- **Measured:** audio round-trip of full programs is exact on clean audio and at 25/15/8 dB SNR; the same verse reordered computes 22 vs 28 (the centre rule); ≈1.2×10⁹ context-distinct instructions from 19 glyphs.
+- Honest-claims table separates real results from the source sketch's physics errors (`lang4d/WHITEPAPER.md` §9).

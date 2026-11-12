@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 730" font-family="Georgia,serif">
+<rect width="980" height="730" fill="#f7f4ec"/>
+<text x="24" y="40" font-size="26" font-weight="bold" fill="#222">KANON glyphs: one lattice, four readings</text>
+<text x="24" y="62" font-size="13" fill="#666">speak it, type it, play it, run it - vowels are the seven planet-strings, consonants the 4x3 breastpiece grid</text>
+<text x="24" y="100" font-size="16" font-weight="bold" fill="#333">7 vowels = strings (data planes)</text>
+<line x1="40" y1="120" x2="276" y2="120" stroke="#555" stroke-width="2.5"/>
+<circle cx="276" cy="120" r="5" fill="#777"/>
+<text x="480" y="125" font-size="14" fill="#222"><tspan font-weight="bold">a</tspan>  Moon  4:3  205.6 Hz  - input stream</text>
+<line x1="40" y1="166" x2="306" y2="166" stroke="#555" stroke-width="2.5"/>
+<circle cx="306" cy="166" r="5" fill="#777"/>
+<text x="480" y="171" font-size="14" fill="#222"><tspan font-weight="bold">e</tspan>  Mercury  32:27  182.8 Hz  - fast scratch</text>
+<line x1="40" y1="212" x2="339" y2="212" stroke="#555" stroke-width="2.5"/>
+<circle cx="339" cy="212" r="5" fill="#777"/>
+<text x="480" y="217" font-size="14" fill="#222"><tspan font-weight="bold">y</tspan>  Venus  256:243  162.4 Hz  - pair register</text>
+<line x1="40" y1="258" x2="355" y2="258" stroke="#b8860b" stroke-width="4"/>
+<circle cx="355" cy="258" r="5" fill="#b8860b"/>
+<text x="480" y="263" font-size="14" fill="#222"><tspan font-weight="bold">i</tspan>  Sun  1:1 (mese)  154.2 Hz  - accumulator (the mese)</text>
+<line x1="40" y1="304" x2="394" y2="304" stroke="#555" stroke-width="2.5"/>
+<circle cx="394" cy="304" r="5" fill="#777"/>
+<text x="480" y="309" font-size="14" fill="#222"><tspan font-weight="bold">o</tspan>  Mars  8:9  137.1 Hz  - output stage</text>
+<line x1="40" y1="350" x2="439" y2="350" stroke="#555" stroke-width="2.5"/>
+<circle cx="439" cy="350" r="5" fill="#777"/>
+<text x="480" y="355" font-size="14" fill="#222"><tspan font-weight="bold">u</tspan>  Jupiter  64:81  121.8 Hz  - deep store</text>
+<line x1="40" y1="396" x2="460" y2="396" stroke="#555" stroke-width="2.5"/>
+<circle cx="460" cy="396" r="5" fill="#777"/>
+<text x="480" y="401" font-size="14" fill="#222"><tspan font-weight="bold">w</tspan>  Saturn  3:4  115.6 Hz  - archive (the silent string)</text>
+<text x="24" y="470" font-size="16" font-weight="bold" fill="#333">12 consonants = operations (the 4x3 grid is also the audio keypad)</text>
+<rect x="40" y="490" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="50" y="514" font-size="15" fill="#222"><tspan font-weight="bold">k</tspan> commit</text>
+<rect x="190" y="490" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="200" y="514" font-size="15" fill="#222"><tspan font-weight="bold">t</tspan> test</text>
+<rect x="340" y="490" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="350" y="514" font-size="15" fill="#222"><tspan font-weight="bold">p</tspan> project</text>
+<rect x="40" y="534" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="50" y="558" font-size="15" fill="#222"><tspan font-weight="bold">b</tspan> bind</text>
+<rect x="190" y="534" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="200" y="558" font-size="15" fill="#222"><tspan font-weight="bold">d</tspan> door</text>
+<rect x="340" y="534" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="350" y="558" font-size="15" fill="#222"><tspan font-weight="bold">g</tspan> gather</text>
+<rect x="40" y="578" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="50" y="602" font-size="15" fill="#222"><tspan font-weight="bold">l</tspan> loop</text>
+<rect x="190" y="578" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="200" y="602" font-size="15" fill="#222"><tspan font-weight="bold">m</tspan> morph</text>
+<rect x="340" y="578" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="350" y="602" font-size="15" fill="#222"><tspan font-weight="bold">n</tspan> negate</text>
+<rect x="40" y="622" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="50" y="646" font-size="15" fill="#222"><tspan font-weight="bold">r</tspan> retro</text>
+<rect x="190" y="622" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="200" y="646" font-size="15" fill="#222"><tspan font-weight="bold">s</tspan> stream</text>
+<rect x="340" y="622" width="142" height="36" rx="7" fill="#fff" stroke="#999"/>
+<text x="350" y="646" font-size="15" fill="#222"><tspan font-weight="bold">h</tspan> breath</text>
+<text x="494" y="514" font-size="12" fill="#888">row tone x9</text>
+<text x="494" y="558" font-size="12" fill="#888">row tone x11</text>
+<text x="494" y="602" font-size="12" fill="#888">row tone x13</text>
+<text x="494" y="646" font-size="12" fill="#888">row tone x15</text>
+<text x="50" y="678" font-size="12" fill="#888">col x17</text>
+<text x="200" y="678" font-size="12" fill="#888">col x20</text>
+<text x="350" y="678" font-size="12" fill="#888">col x23</text>
+<text x="560" y="500" font-size="15" font-weight="bold" fill="#333">a word is a melody</text>
+<text x="560" y="522" font-size="13" fill="#444">demorini = d(e,o,i,i): "speak: Mercury-Mars-Sun-Sun"</text>
+<text x="560" y="540" font-size="13" fill="#444">- the vowel line of EGO EIMI (rounds 44-59)</text>
+<text x="560" y="575" font-size="13" fill="#444">verse order: outer pairs first, the centre word commits last</text>
+<text x="560" y="593" font-size="13" fill="#444">(ring composition: the mese governs - rounds 52-54)</text>
+<text x="560" y="628" font-size="13" fill="#444">digits #0-#e: same grid + marker tone x6 (base 12)</text>
+<text x="560" y="646" font-size="13" fill="#444">carrier f0 free; default 154.2 Hz, the ark note (round 56)</text>
+<text x="24" y="714" font-size="11" fill="#999">The Sound - KANON v0.1. All claims computable; see WHITEPAPER.md honest-claims table.</text></svg>

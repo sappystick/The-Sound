@@ -1,0 +1,96 @@
+{
+ "program1": {
+  "src": "sa #7 gia ta #3 | di",
+  "iota": [
+   22.0
+  ],
+  "alpha": [
+   4.0,
+   5.0,
+   6.0,
+   7.0
+  ],
+  "note": "ring order: s and t (outer pair) run first, centre g commits: sum(4..7)=22; linear order would give 28"
+ },
+ "program1_reordered": {
+  "iota": [
+   28.0
+  ],
+  "note": "now g is outer, t is centre: gather runs before filter"
+ },
+ "program3_events": [
+  [
+   "melody",
+   [
+    1.185,
+    0.889,
+    1.0,
+    1.0
+   ]
+  ],
+  [
+   "rest",
+   0.30000000000000004
+  ],
+  [
+   "melody",
+   [
+    1.0,
+    2.0,
+    1.5,
+    2.0,
+    1.25
+   ]
+  ]
+ ],
+ "codec_clean": {
+  "encoded_seconds": 3.66,
+  "decoded": "sa #7 gia ta #3 | di",
+  "exact": true
+ },
+ "codec_noise": {
+  "25 dB SNR": {
+   "exact": true,
+   "char_accuracy": 1.0
+  },
+  "15 dB SNR": {
+   "exact": true,
+   "char_accuracy": 1.0
+  },
+  "8 dB SNR": {
+   "exact": true,
+   "char_accuracy": 1.0
+  }
+ },
+ "codec_long": {
+  "decoded": "demorini | sa #7 gia ta #3 | lu #3 pia | ka #e bwi da",
+  "exact": true
+ },
+ "namespace": {
+  "per_syllable": 84,
+  "words_up_to_4_syllables": 403095840,
+  "with_3_verse_roles": 1209287520,
+  "note": "each word also means differently as head/pair/centre of its verse (ring grammar)"
+ },
+ "phase_stamp_J2000+9800d": {
+  "Sun": 219.8101,
+  "Moon": 106.9968,
+  "Mercury": 37.1286,
+  "Venus": 42.8573,
+  "Mars": 90.8357,
+  "Jupiter": 128.5868,
+  "Saturn": 18.3565
+ },
+ "constants": {
+  "f0_default": 154.2,
+  "ratios": {
+   "a": 1.33333,
+   "e": 1.18519,
+   "y": 1.0535,
+   "i": 1.0,
+   "o": 0.88889,
+   "u": 0.79012,
+   "w": 0.75
+  }
+ }
+}

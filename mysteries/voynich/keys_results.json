@@ -1,0 +1,71 @@
+{
+ "K1_f49v": {
+  "pairs": 20,
+  "letters": "foryekspoyepoyedysky",
+  "letter_equals_first_glyph": 0.05,
+  "null_first": 0.065,
+  "p_first": 0.7748,
+  "letter_in_line": 0.6,
+  "null_in_line": 0.676,
+  "p_in_line": 0.8998
+ },
+ "K2_f57v": {
+  "sequence": "o l d r v x k k f ? t r ? ? y c ?",
+  "glyph_text_frequency": {
+   "o": 22577,
+   "l": 9478,
+   "d": 11891,
+   "r": 6557,
+   "v": 0,
+   "x": 25,
+   "k": 10055,
+   "f": 436,
+   "t": 6069,
+   "y": 16081,
+   "c": 12324
+  },
+  "neighbour_bigram_score": 26.06,
+  "null_mean": 28.4,
+  "p_neighbours_more_text_like": 0.6301,
+  "kendall_concordance_order_vs_frequency": -2,
+  "note": "positive = earlier glyphs more frequent"
+ },
+ "K3_zodiac": {
+  "labels_per_page": {
+   "f70v2": 30,
+   "f70v1": 15,
+   "f71r": 15,
+   "f71v": 15,
+   "f72r1": 15,
+   "f72r2": 29,
+   "f72r3": 30,
+   "f72v3": 30,
+   "f72v2": 30,
+   "f72v1": 30,
+   "f73r": 30,
+   "f73v": 30
+  },
+  "total": 299,
+  "neighbour_similarity": 0.153,
+  "null": 0.149,
+  "p_neighbours": 0.323,
+  "same_position_across_months": 0.142,
+  "null_cross": 0.131,
+  "p_same_position": 0.063,
+  "first_labels_each_page": [
+   "otalalg",
+   "otalchy",
+   "oteos",
+   "char",
+   "oshodody",
+   "ofchdady",
+   "olkalaiin",
+   "ogeom",
+   "oeedey",
+   "oeeoty",
+   "otoly",
+   "okol"
+  ],
+  "prefix_ot_or_ok": 0.522
+ }
+}

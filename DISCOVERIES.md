@@ -693,3 +693,18 @@ Write-ups:
   - 42% appear nowhere in the text; they are a distinct o-/ot-/ok- vocabulary;
   - there are no section cross-references.
 - **The f57v ring** is a 17-glyph key repeated 4× (90% agreement at period 17), and **f49v** has line-index letters.
+
+## BF. Round 79 (`mysteries/ROUND79.md`): Voynich keys and held-out models; Copper Scroll positions; Signs test 3
+
+- **Voynich "keys":**
+  - The f49v letters do not index their lines (p 0.77).
+  - The f57v ring order is not drawn from the text and uses glyphs the text almost never has ('v' 0, 'x' 25).
+  - The zodiac pages hold 30 labels each, but not a shared day-name list (p 0.063).
+- **Voynich held-out test** (fitted on even pages, scored on odd):
+  - No model reproduces the manuscript.
+  - The best, a tuned self-citation model, gets the line units and repetition but reuses page words 3× too often.
+  - A verbose cipher of real Latin fails on every measure.
+  - New constraint: repetition is immediate (2.4×) but there is no reuse across a page.
+- **Copper Scroll:** all seven Greek groups are attached to the entry's closing quantity, and ΗΝ and ΤΡ sit between the unit and the number. Read with round 74, they look like amount qualifiers or check marks (C).
+- **Signs Gospel, pre-registered test 3:** the sign stories carry 82% of the evangelist's characteristics (p 0.051; Mark 15%). Decision: the evangelist's style is present. Any source has been thoroughly rewritten.
+- **Antikythera:** no newer Front Cover Inscription readings were found beyond *Almagest* 7.1; the predictions stay open.

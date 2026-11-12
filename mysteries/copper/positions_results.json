@@ -1,0 +1,57 @@
+{
+ "entries": {
+  "KEN (Milik 1)": {
+   "position": "end of entry",
+   "word": 17,
+   "of": 17,
+   "boundaries": 17,
+   "amount_slot_boundaries": 2
+  },
+  "XAG (Milik 4)": {
+   "position": "end of entry",
+   "word": 27,
+   "of": 27,
+   "boundaries": 27,
+   "amount_slot_boundaries": 1
+  },
+  "HN (Milik 6)": {
+   "position": "inside the amount (after the unit, before the number)",
+   "word": 6,
+   "of": 7,
+   "boundaries": 7,
+   "amount_slot_boundaries": 2
+  },
+  "ThE (Milik 7)": {
+   "position": "end of entry",
+   "word": 11,
+   "of": 11,
+   "boundaries": 11,
+   "amount_slot_boundaries": 3
+  },
+  "DI (Milik 10)": {
+   "position": "end of entry",
+   "word": 14,
+   "of": 14,
+   "boundaries": 14,
+   "amount_slot_boundaries": 2
+  },
+  "TP (Milik 14)": {
+   "position": "inside the amount (after the unit, before the number)",
+   "word": 11,
+   "of": 12,
+   "boundaries": 12,
+   "amount_slot_boundaries": 2
+  },
+  "SK (Milik 17)": {
+   "position": "end of entry",
+   "word": 8,
+   "of": 8,
+   "boundaries": 8,
+   "amount_slot_boundaries": 2
+  }
+ },
+ "all_seven_in_closing_amount_clause_or_end": true,
+ "p_all_in_amount_slot_by_chance": 2.021010424371768e-06,
+ "n_at_very_end": 5,
+ "reading": "Every group is attached to the entry's closing quantity: five after it (or, with no quantity, at the end), two between the unit word and the numeral. None sits in the place description."
+}

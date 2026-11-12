@@ -1,0 +1,65 @@
+{
+ "REAL odd pages": {
+  "name_rate": 0.188,
+  "repetition": 0.0081,
+  "repetition_ratio": 2.44,
+  "near_repeat_ratio": 1.77,
+  "line_MI": 0.2254,
+  "page_specific": 0.281,
+  "words_per_line": 8.29,
+  "section_signal": 0.361,
+  "distance": 0.0
+ },
+ "B0 baseline": {
+  "name_rate": 0.291,
+  "repetition": 0.0049,
+  "repetition_ratio": 1.49,
+  "near_repeat_ratio": 1.31,
+  "line_MI": 0.0041,
+  "page_specific": 0.208,
+  "words_per_line": 8.29,
+  "section_signal": 0.317,
+  "distance": 5.34
+ },
+ "B1 self-citation": {
+  "name_rate": 0.602,
+  "repetition": 0.0113,
+  "repetition_ratio": 3.8,
+  "near_repeat_ratio": 4.26,
+  "line_MI": 0.2006,
+  "page_specific": 0.203,
+  "words_per_line": 8.29,
+  "section_signal": 0.394,
+  "distance": 9.77
+ },
+ "B1t self-cit. tuned": {
+  "name_rate": 0.592,
+  "repetition": 0.01,
+  "repetition_ratio": 3.36,
+  "near_repeat_ratio": 2.14,
+  "line_MI": 0.1943,
+  "page_specific": 0.203,
+  "words_per_line": 8.29,
+  "section_signal": 0.316,
+  "distance": 4.78
+ },
+ "B2 verbose cipher": {
+  "name_rate": 0.078,
+  "repetition": 0.0044,
+  "repetition_ratio": 0.45,
+  "near_repeat_ratio": 1.05,
+  "line_MI": 0.0009,
+  "page_specific": 0.004,
+  "words_per_line": 8.29,
+  "section_signal": 0.056,
+  "distance": 7.84
+ },
+ "fitted": {
+  "copy_prob": 0.071,
+  "edit_prob": 0.032,
+  "tuned_copy": 0.0536,
+  "tuned_edit": 0.0079,
+  "train_pages": 103,
+  "test_pages": 103
+ }
+}

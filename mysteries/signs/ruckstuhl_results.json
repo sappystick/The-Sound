@@ -1,0 +1,159 @@
+{
+ "signs": {
+  "composite_per_100": 3.43,
+  "null_mean": 4.19,
+  "null_5pct": 3.42,
+  "p_one_sided_lower": 0.0514,
+  "per_characteristic": {
+   "ekeinos": [
+    0.32,
+    0.46
+   ],
+   "hina": [
+    0.8,
+    0.83
+   ],
+   "oun": [
+    1.77,
+    1.7
+   ],
+   "emos": [
+    0.0,
+    0.2
+   ],
+   "ide": [
+    0.11,
+    0.16
+   ],
+   "amen_amen": [
+    0.0,
+    0.12
+   ],
+   "kathos": [
+    0.0,
+    0.13
+   ],
+   "apekrithe_kai_eipen": [
+    0.0,
+    0.16
+   ],
+   "all_hina": [
+    0.11,
+    0.06
+   ],
+   "tote_oun": [
+    0.05,
+    0.05
+   ],
+   "partitive_ek": [
+    0.27,
+    0.31
+   ]
+  }
+ },
+ "power_mark": {
+  "composite_per_100": 0.64,
+  "null_mean": 4.13,
+  "null_5pct": 3.36,
+  "p_one_sided_lower": 0.0002,
+  "per_characteristic": {
+   "ekeinos": [
+    0.08,
+    0.46
+   ],
+   "hina": [
+    0.56,
+    0.83
+   ],
+   "oun": [
+    0.0,
+    1.63
+   ],
+   "emos": [
+    0.0,
+    0.17
+   ],
+   "ide": [
+    0.0,
+    0.15
+   ],
+   "amen_amen": [
+    0.0,
+    0.13
+   ],
+   "kathos": [
+    0.0,
+    0.14
+   ],
+   "apekrithe_kai_eipen": [
+    0.0,
+    0.17
+   ],
+   "all_hina": [
+    0.0,
+    0.08
+   ],
+   "tote_oun": [
+    0.0,
+    0.05
+   ],
+   "partitive_ek": [
+    0.0,
+    0.32
+   ]
+  }
+ },
+ "signs_without_21": {
+  "composite_per_100": 3.47,
+  "null_mean": 4.16,
+  "null_5pct": 3.36,
+  "p_one_sided_lower": 0.09,
+  "per_characteristic": {
+   "ekeinos": [
+    0.25,
+    0.44
+   ],
+   "hina": [
+    0.95,
+    0.84
+   ],
+   "oun": [
+    1.7,
+    1.69
+   ],
+   "emos": [
+    0.0,
+    0.21
+   ],
+   "ide": [
+    0.13,
+    0.16
+   ],
+   "amen_amen": [
+    0.0,
+    0.11
+   ],
+   "kathos": [
+    0.0,
+    0.13
+   ],
+   "apekrithe_kai_eipen": [
+    0.0,
+    0.16
+   ],
+   "all_hina": [
+    0.13,
+    0.06
+   ],
+   "tote_oun": [
+    0.06,
+    0.05
+   ],
+   "partitive_ek": [
+    0.25,
+    0.31
+   ]
+  }
+ },
+ "decision": "EVANGELIST'S STYLE PRESENT"
+}

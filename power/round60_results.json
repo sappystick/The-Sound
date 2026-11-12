@@ -1,0 +1,123 @@
+{
+ "T1_lengths": {
+  "pyramid_dimensions": 23,
+  "matched": 10,
+  "null_mean": 6.14,
+  "p": 0.0624,
+  "matches": [
+   {
+    "room": "King's Chamber",
+    "metres": 10.475,
+    "biblical_cubits_and_unit": [
+     "20 cubits x long 0.52",
+     "20 cubits x Egyptian royal 0.5236"
+    ]
+   },
+   {
+    "room": "King's Chamber",
+    "metres": 5.24,
+    "biblical_cubits_and_unit": [
+     "10 cubits x long 0.52",
+     "10 cubits x Egyptian royal 0.5236"
+    ]
+   },
+   {
+    "room": "Queen's Chamber",
+    "metres": 5.225,
+    "biblical_cubits_and_unit": [
+     "10 cubits x long 0.52",
+     "10 cubits x Egyptian royal 0.5236"
+    ]
+   },
+   {
+    "room": "Antechamber",
+    "metres": 3.795,
+    "biblical_cubits_and_unit": [
+     "6 cubits x Smyth sacred 0.635"
+    ]
+   },
+   {
+    "room": "Coffer outside",
+    "metres": 2.276,
+    "biblical_cubits_and_unit": [
+     "5 cubits x 18-inch 0.457"
+    ]
+   },
+   {
+    "room": "Coffer outside",
+    "metres": 1.049,
+    "biblical_cubits_and_unit": [
+     "2 cubits x long 0.52",
+     "2 cubits x Egyptian royal 0.5236"
+    ]
+   },
+   {
+    "room": "Coffer inside",
+    "metres": 0.681,
+    "biblical_cubits_and_unit": [
+     "1.5 cubits x 18-inch 0.457"
+    ]
+   },
+   {
+    "room": "Grand Gallery (approx)",
+    "metres": 46.101,
+    "biblical_cubits_and_unit": [
+     "100 cubits x 18-inch 0.457"
+    ]
+   },
+   {
+    "room": "Grand Gallery (approx)",
+    "metres": 2.093,
+    "biblical_cubits_and_unit": [
+     "4 cubits x long 0.52",
+     "4 cubits x Egyptian royal 0.5236"
+    ]
+   },
+   {
+    "room": "Subterranean chamber (approx)",
+    "metres": 8.255,
+    "biblical_cubits_and_unit": [
+     "18 cubits x 18-inch 0.457"
+    ]
+   }
+  ]
+ },
+ "T2_shapes": {
+  "pyramid_ratios": 20,
+  "matched": 1,
+  "null_mean": 2.15,
+  "p": 0.8992,
+  "matches": [
+   {
+    "room": "King's Chamber",
+    "ratio": 1.999,
+    "biblical": [
+     2.0
+    ]
+   }
+  ]
+ },
+ "T3_famous_claims": {
+  "kings_chamber_in_royal_cubits": [
+   20.0,
+   10.0,
+   11.16
+  ],
+  "kings_note": "20.00 x 10.00 x 11.16: the plan is exactly 20 x 10 royal cubits (K: Petrie), the numbers of the tabernacle's Holy Place (20 x 10); its height is not 10",
+  "queens_chamber_in_royal_cubits": [
+   10.98,
+   9.98,
+   8.94
+  ],
+  "coffer_inside_volume_m3": 1.18,
+  "ark_outside_volume_m3_by_unit": {
+   "common 0.445": 0.496,
+   "18-inch 0.457": 0.538,
+   "long 0.52": 0.791,
+   "Egyptian royal 0.5236": 0.807,
+   "Smyth sacred 0.635": 1.44
+  },
+  "coffer_outside_volume_m3": 2.336,
+  "coffer_note": "Smyth's equality needs his own 'sacred cubit' and an ark interior; with any attested cubit the ark is 0.37-0.81 m3 against the coffer's 1.18 m3 inside"
+ }
+}

@@ -1,0 +1,728 @@
+{
+ "A_speaking_machine": {
+  "vowels": {
+   "a": {
+    "greek": "α",
+    "target": [
+     730,
+     1250,
+     2500
+    ],
+    "machine": [
+     736,
+     1264,
+     2988
+    ],
+    "fit_error_pct": 1.0,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 8.3,
+      "area_cm2": 1.2
+     },
+     {
+      "length_cm": 1.8,
+      "area_cm2": 11.48
+     },
+     {
+      "length_cm": 6.1,
+      "area_cm2": 5.66
+     }
+    ]
+   },
+   "ɛ": {
+    "greek": "ε",
+    "target": [
+     550,
+     1850,
+     2600
+    ],
+    "machine": [
+     550,
+     1852,
+     2884
+    ],
+    "fit_error_pct": 0.1,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 2.2,
+      "area_cm2": 0.9
+     },
+     {
+      "length_cm": 6.4,
+      "area_cm2": 2.37
+     },
+     {
+      "length_cm": 7.2,
+      "area_cm2": 1.78
+     }
+    ]
+   },
+   "e": {
+    "greek": "η",
+    "target": [
+     400,
+     2100,
+     2700
+    ],
+    "machine": [
+     406,
+     2080,
+     3188
+    ],
+    "fit_error_pct": 1.2,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 8.0,
+      "area_cm2": 1.4
+     },
+     {
+      "length_cm": 5.3,
+      "area_cm2": 0.39
+     },
+     {
+      "length_cm": 2.1,
+      "area_cm2": 7.52
+     }
+    ]
+   },
+   "i": {
+    "greek": "ι",
+    "target": [
+     270,
+     2290,
+     3010
+    ],
+    "machine": [
+     266,
+     2204,
+     2788
+    ],
+    "fit_error_pct": 2.7,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 6.2,
+      "area_cm2": 11.33
+     },
+     {
+      "length_cm": 5.7,
+      "area_cm2": 1.13
+     },
+     {
+      "length_cm": 3.4,
+      "area_cm2": 5.03
+     }
+    ]
+   },
+   "o": {
+    "greek": "ο",
+    "target": [
+     450,
+     800,
+     2400
+    ],
+    "machine": [
+     464,
+     838,
+     2032
+    ],
+    "fit_error_pct": 3.9,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 13.0,
+      "area_cm2": 1.1
+     },
+     {
+      "length_cm": 3.5,
+      "area_cm2": 10.59
+     },
+     {
+      "length_cm": 1.9,
+      "area_cm2": 0.9
+     }
+    ]
+   },
+   "y": {
+    "greek": "υ",
+    "target": [
+     270,
+     1850,
+     2250
+    ],
+    "machine": [
+     270,
+     1822,
+     2980
+    ],
+    "fit_error_pct": 0.8,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 9.6,
+      "area_cm2": 6.86
+     },
+     {
+      "length_cm": 2.9,
+      "area_cm2": 0.71
+     },
+     {
+      "length_cm": 2.9,
+      "area_cm2": 1.72
+     }
+    ]
+   },
+   "ɔ": {
+    "greek": "ω",
+    "target": [
+     570,
+     840,
+     2410
+    ],
+    "machine": [
+     562,
+     830,
+     2034
+    ],
+    "fit_error_pct": 1.3,
+    "sections_glottis_to_lips": [
+     {
+      "length_cm": 12.9,
+      "area_cm2": 0.48
+     },
+     {
+      "length_cm": 4.8,
+      "area_cm2": 7.24
+     },
+     {
+      "length_cm": 0.9,
+      "area_cm2": 0.57
+     }
+    ]
+   }
+  },
+  "source": "free reed (brass tongue) driven by bellows; pitch set by tongue length",
+  "consonants": {
+   "m, n": "nasal side tube opened by a valve (von Kempelen)",
+   "l": "tongue-like flap partly closing the front tube",
+   "b, p": "leather lips closed then opened over the front tube",
+   "s, θ, f": "separate hiss whistles",
+   "k, t": "short burst valves"
+  },
+  "precedent": "Kratzenstein 1779 (vowel resonators, St Petersburg prize); von Kempelen 1791 (bellows, reed, leather mouth: spoke short sentences)"
+ },
+ "B_texts_as_scores": {
+  "all chapters": {
+   "chapters": 126,
+   "mean_abs_tau": 0.283,
+   "null_mean": 0.264,
+   "p": 0.114,
+   "mean_signed_tau": 0.018,
+   "crescendos": 32,
+   "decrescendos": 34
+  },
+  "vision chapters": {
+   "chapters": 14,
+   "mean_abs_tau": 0.26,
+   "null_mean": 0.244,
+   "p": 0.362,
+   "mean_signed_tau": 0.234,
+   "crescendos": 5,
+   "decrescendos": 0
+  },
+  "vision_crescendo_test": {
+   "mean_signed_tau": 0.234,
+   "null_mean": -0.002,
+   "p_one_sided": 0.0014,
+   "note": "post hoc: suggested by the 5 crescendos / 0 decrescendos seen in the first run; treat as exploratory"
+  },
+  "kings_book_names_seen": [
+   "Regnorum_I",
+   "Regnorum_II",
+   "Regnorum_III",
+   "Regnorum_IV"
+  ],
+  "most_shaped": [
+   {
+    "chapter": "OT Isaias 65",
+    "tau": 0.83,
+    "events": [
+     "silence",
+     "voice",
+     "voice",
+     "cry"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 92",
+    "tau": 0.83,
+    "events": [
+     "song",
+     "voice",
+     "voice",
+     "many waters"
+    ]
+   },
+   {
+    "chapter": "OT Ezechiel 17",
+    "tau": -0.67,
+    "events": [
+     "many waters",
+     "many waters",
+     "wind",
+     "wind"
+    ]
+   },
+   {
+    "chapter": "OT Ezechiel 27",
+    "tau": -0.67,
+    "events": [
+     "many waters",
+     "cry",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Jeremias 32",
+    "tau": 0.67,
+    "events": [
+     "voice",
+     "voice",
+     "cry",
+     "cry"
+    ]
+   },
+   {
+    "chapter": "OT Machabaeorum_ii 15",
+    "tau": -0.67,
+    "events": [
+     "trumpet",
+     "cry",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "NT Mk 15",
+    "tau": -0.6,
+    "events": [
+     "cry",
+     "cry",
+     "voice",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "NT Re 16",
+    "tau": 0.6,
+    "events": [
+     "voice",
+     "voice",
+     "voice",
+     "thunder",
+     "earthquake",
+     "earthquake"
+    ]
+   },
+   {
+    "chapter": "OT Machabaeorum_i 13",
+    "tau": -0.6,
+    "events": [
+     "voice",
+     "voice",
+     "song",
+     "song",
+     "song"
+    ]
+   },
+   {
+    "chapter": "OT Judith 14",
+    "tau": 0.57,
+    "events": [
+     "voice",
+     "voice",
+     "voice",
+     "cry",
+     "cry",
+     "cry",
+     "cry"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 65",
+    "tau": 0.54,
+    "events": [
+     "song",
+     "song",
+     "song",
+     "song",
+     "song",
+     "voice",
+     "cry",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 97",
+    "tau": 0.53,
+    "events": [
+     "song",
+     "song",
+     "song",
+     "song",
+     "song",
+     "voice",
+     "song",
+     "trumpet",
+     "voice",
+     "trumpet"
+    ]
+   },
+   {
+    "chapter": "OT Regnorum_III 18",
+    "tau": -0.53,
+    "events": [
+     "cry",
+     "cry",
+     "voice",
+     "voice",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 76",
+    "tau": 0.52,
+    "events": [
+     "song",
+     "voice",
+     "voice",
+     "roar",
+     "voice",
+     "voice",
+     "thunder"
+    ]
+   },
+   {
+    "chapter": "NT 1Co 14",
+    "tau": -0.5,
+    "events": [
+     "voice",
+     "song",
+     "song",
+     "voice",
+     "trumpet",
+     "voice",
+     "voice",
+     "song",
+     "song",
+     "song",
+     "silence",
+     "silence",
+     "silence"
+    ]
+   }
+  ],
+  "vision_detail": [
+   {
+    "chapter": "NT Re 1",
+    "tau": 0.13,
+    "events": [
+     "voice",
+     "trumpet",
+     "voice",
+     "voice",
+     "voice",
+     "many waters"
+    ]
+   },
+   {
+    "chapter": "NT Re 10",
+    "tau": -0.09,
+    "events": [
+     "cry",
+     "voice",
+     "cry",
+     "thunder",
+     "voice",
+     "thunder",
+     "voice",
+     "thunder",
+     "voice",
+     "trumpet",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "NT Re 11",
+    "tau": 0.11,
+    "events": [
+     "voice",
+     "earthquake",
+     "earthquake",
+     "trumpet",
+     "voice",
+     "voice",
+     "thunder",
+     "earthquake"
+    ]
+   },
+   {
+    "chapter": "NT Re 14",
+    "tau": -0.02,
+    "events": [
+     "voice",
+     "voice",
+     "many waters",
+     "voice",
+     "thunder",
+     "voice",
+     "song",
+     "song",
+     "song",
+     "song",
+     "song",
+     "voice",
+     "voice",
+     "voice",
+     "cry",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "NT Re 16",
+    "tau": 0.6,
+    "events": [
+     "voice",
+     "voice",
+     "voice",
+     "thunder",
+     "earthquake",
+     "earthquake"
+    ]
+   },
+   {
+    "chapter": "NT Re 19",
+    "tau": 0.28,
+    "events": [
+     "voice",
+     "voice",
+     "voice",
+     "voice",
+     "many waters",
+     "voice",
+     "thunder",
+     "cry",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "NT Re 4",
+    "tau": 0.5,
+    "events": [
+     "voice",
+     "trumpet",
+     "voice",
+     "thunder"
+    ]
+   },
+   {
+    "chapter": "NT Re 8",
+    "tau": -0.07,
+    "events": [
+     "silence",
+     "trumpet",
+     "thunder",
+     "voice",
+     "earthquake",
+     "trumpet",
+     "trumpet",
+     "trumpet",
+     "trumpet",
+     "trumpet",
+     "trumpet",
+     "voice",
+     "voice",
+     "trumpet",
+     "trumpet"
+    ]
+   },
+   {
+    "chapter": "OT Exodus 19",
+    "tau": 0.06,
+    "events": [
+     "voice",
+     "voice",
+     "trumpet",
+     "voice",
+     "trumpet",
+     "roar",
+     "voice",
+     "trumpet",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Ezechiel 1",
+    "tau": 0.17,
+    "events": [
+     "voice",
+     "voice",
+     "many waters",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Ezechiel 3",
+    "tau": 0.2,
+    "events": [
+     "voice",
+     "earthquake",
+     "voice",
+     "voice",
+     "earthquake"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 28",
+    "tau": 0.08,
+    "events": [
+     "song",
+     "voice",
+     "many waters",
+     "voice",
+     "voice",
+     "voice",
+     "voice",
+     "voice",
+     "voice"
+    ]
+   },
+   {
+    "chapter": "OT Psalmi 92",
+    "tau": 0.83,
+    "events": [
+     "song",
+     "voice",
+     "voice",
+     "many waters"
+    ]
+   },
+   {
+    "chapter": "OT Regnorum_III 19",
+    "tau": 0.5,
+    "events": [
+     "voice",
+     "breeze",
+     "voice",
+     "cry"
+    ]
+   }
+  ],
+  "class_counts": {
+   "voice": 298,
+   "cry": 114,
+   "song": 177,
+   "wind": 34,
+   "trumpet": 116,
+   "roar": 22,
+   "many waters": 15,
+   "breeze": 1,
+   "silence": 15,
+   "thunder": 17,
+   "earthquake": 15
+  }
+ },
+ "C_many_waters": {
+  "flatness_by_voices": {
+   "1": 0.0,
+   "3": 0.059,
+   "10": 0.39,
+   "30": 0.699,
+   "100": 0.869,
+   "300": 0.942,
+   "1000": 0.964
+  },
+  "pink_noise": 0.559,
+  "water_like_noise": 0.559,
+  "note": "spectral flatness 100-4000 Hz: 1 = white noise; a single voice is a comb of harmonics (low); many incoherent voices fill the gaps"
+ },
+ "D_renders": [
+  {
+   "file": "power/audio/r42_sinai_exod19.mp3",
+   "score": "Exod 19:16-19: thunders, a very loud trumpet, the trumpet growing louder, God answering by a voice"
+  },
+  {
+   "file": "power/audio/r42_elijah_1kgs19.mp3",
+   "score": "1 Kgs 19:11-12: a great wind, an earthquake, a fire, then 'a sound of thin silence'"
+  },
+  {
+   "file": "power/audio/r42_pentecost_acts2.mp3",
+   "score": "Acts 2:2-4: a sound from heaven as of a rushing mighty wind, then speaking in other tongues"
+  },
+  {
+   "file": "power/audio/r42_patmos_rev1.mp3",
+   "score": "Rev 1:10-15: a great voice as of a trumpet; his voice as the sound of many waters"
+  },
+  {
+   "file": "power/audio/r42_machine_ablanathanalba.mp3",
+   "score": "the speaking machine: ABLANATHANALBA"
+  },
+  {
+   "file": "power/audio/r42_machine_ego_eimi.mp3",
+   "score": "the speaking machine: EGO EIMI"
+  }
+ ],
+ "E_ancient_sound_machines": [
+  {
+   "device": "Door-opening temple trumpet",
+   "source": "Heron, Pneumatica 1.17 (Schmidt 1899, p. 96-99)",
+   "how": "the opening door releases an inverted vessel into water; displaced air blows the trumpet"
+  },
+  {
+   "device": "Singing birds and turning owl",
+   "source": "Heron, Pneumatica 1.15-16",
+   "how": "water fills a vessel and drives air through small pipes; pitch set by pipe width, length and depth in water"
+  },
+  {
+   "device": "Altar fire, libations and a hissing serpent",
+   "source": "Heron, Pneumatica 2.21",
+   "how": "fire heats air in a hollow base; expanding air drives liquid and a hiss"
+  },
+  {
+   "device": "Figure that sounds a trumpet when blown",
+   "source": "Heron, Pneumatica (ch. X of the Schmidt numbering)",
+   "how": "breath into a base passes through a trumpet in the figure's mouth"
+  },
+  {
+   "device": "Water organ (hydraulis)",
+   "source": "Ktesibios; Heron, Pneumatica 1.42; Vitruvius 10.8",
+   "how": "water-regulated air pressure through tuned pipes"
+  },
+  {
+   "device": "Talking serpent Glycon",
+   "source": "Lucian, Alexander 26",
+   "how": "a tube of cranes' windpipes carried a hidden speaker's voice into the serpent's head"
+  },
+  {
+   "device": "Talking skull",
+   "source": "Hippolytus, Refutation 4.41",
+   "how": "a crane's windpipe hidden behind it carried an accomplice's voice"
+  },
+  {
+   "device": "Singing colossus of Memnon",
+   "source": "Strabo 17.1.46; Pausanias 1.42.3; 107 visitor inscriptions on the statue",
+   "how": "a sound at sunrise from the cracked statue, ending after a Roman repair (about AD 199); probably dawn heating of damp stone"
+  },
+  {
+   "device": "Theatre thunder machine (bronteion)",
+   "source": "Pollux, Onomasticon 4.130; Hero of Alexandria on automata theatre",
+   "how": "stones poured on stretched hides or bronze vessels"
+  },
+  {
+   "device": "Bull-roarer (rhombos)",
+   "source": "Clement, Protrepticus 2.17-18 (toys of the Dionysian mysteries)",
+   "how": "a whirled blade: a roaring, wind-like sound"
+  }
+ ]
+}

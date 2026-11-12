@@ -1,0 +1,1027 @@
+{
+ "meta": {
+  "steps": 30,
+  "watches": [
+   "Evening watch: the sounds",
+   "Midnight watch: order",
+   "Morning watch: names and the Canon"
+  ],
+  "ladder_problems": [],
+  "js_parity": "60/60",
+  "glyphs": {
+   "vowels": 7,
+   "consonants": 12,
+   "marks": 7,
+   "digits": 12
+  },
+  "pronounce": {
+   "vowels": {
+    "a": "ah",
+    "e": "eh",
+    "y": "ay",
+    "i": "ee",
+    "o": "oh",
+    "u": "oo",
+    "w": "aw"
+   },
+   "digits": {
+    "0": "km",
+    "1": "tm",
+    "2": "pm",
+    "3": "bm",
+    "4": "dm",
+    "5": "gm",
+    "6": "lm",
+    "7": "mm",
+    "8": "nm",
+    "9": "rm",
+    "t": "sm",
+    "e": "hm"
+   },
+   "marks": {
+    "|": "(breathe)",
+    "!": "tsk",
+    "~": "fff",
+    "?": "vvv",
+    ":": "shh",
+    "=": "zzz"
+   }
+  },
+  "canon": {
+   "kamu": "multiply: i <- i x a (pairwise, or by a's last value)",
+   "kade": "divide: i <- i / a",
+   "kagi": "greatest common divisor of the values of i",
+   "kapi": "primes up to i's last value",
+   "kasu": "square root of each value",
+   "kapo": "power: i <- i ^ a's last value",
+   "kaha": "factorial of i's last value",
+   "kamo": "product of all values of i",
+   "tame": "mean",
+   "tado": "median",
+   "tasi": "standard deviation",
+   "taku": "correlation of i with a",
+   "tami": "minimum",
+   "tamo": "maximum",
+   "taso": "sort ascending",
+   "papi": "pi",
+   "pagu": "the golden ratio",
+   "pari": "interior angle of a regular polygon with i sides (degrees)",
+   "paso": "star polygon {n/k}: the visiting order of its points (i = n, a = k)",
+   "pamo": "first seven resonant frequencies of a cube room of side i metres (Hz)",
+   "pake": "cubits to metres (royal cubit 0.5236 m)",
+   "pahe": "Heron: area of a triangle with sides i[0], i[1], i[2]",
+   "bari": "Fibonacci numbers up to i's last value",
+   "basa": "triangular numbers T1..Tn, n = i's last value",
+   "bake": "running sum",
+   "bada": "differences between neighbours",
+   "baro": "distinct values, in order of first appearance",
+   "bato": "take the first n values (n = #number, default 3)",
+   "baka": "count of values",
+   "dasa": "say i as plain numbers",
+   "dagi": "say i as Greek numerals (isopsephy)",
+   "dahe": "say i as Hebrew numerals (gematria)",
+   "dami": "sing i as a melody (folded to the octave)",
+   "lane": "not",
+   "lake": "equal: i == a",
+   "lame": "less: i's last < a's last",
+   "lamo": "more: i's last > a's last",
+   "maro": "the seven string ratios (a e y i o u w)",
+   "mahe": "ratios -> Hz on the carrier",
+   "maki": "interval in cents from i[0] to each value",
+   "mapu": "the Pythagorean comma (cents)",
+   "raso": "celestial phase stamp: seven mean longitudes for J2000 + i days",
+   "rado": "planetary weekday of J2000 + i days (0 = Sunday ... 6 = Saturday)",
+   "haso": "checksum of i's values (mod 7039)"
+  },
+  "prelude": "::kemu kua | kw #0 | lu :keso | kiw ::\n::keso bwi nu #1 gw ::\n::kegi la :keto ::\n::keto kei kia kae mea ::\n::kehi kyi | ko #1 | ly :keho | kio ::\n::keho kio :kemu ny #1 koi kay ::"
+ },
+ "steps": [
+  {
+   "n": 1,
+   "watch": "Evening watch: the sounds",
+   "title": "The middle string",
+   "new": "k i # 0-9",
+   "aid": "i is Sunday, the Sun, the middle string: the accumulator where results gather. k is the first month (Nisan) and means keep.",
+   "example": "ki #5",
+   "say": "kee gm",
+   "explain": "Keep the number 5 in plane i. A number always follows its word after #.",
+   "task": "Keep 7 in i.",
+   "answer": "ki #7",
+   "check": {
+    "kind": "i",
+    "want": [
+     7.0
+    ]
+   },
+   "result": {
+    "i": [
+     5.0
+    ],
+    "out": [],
+    "song": 0
+   },
+   "audio": "01.mp3"
+  },
+  {
+   "n": 2,
+   "watch": "Evening watch: the sounds",
+   "title": "The door",
+   "new": "d",
+   "aid": "d is Av, the month of the door: what is in a plane goes out through d.",
+   "example": "ki #5 di",
+   "say": "kee gm dee",
+   "explain": "Two words in a verse run in the order written. di sends i out.",
+   "task": "Send 9 out of the door.",
+   "answer": "ki #9 di",
+   "check": {
+    "kind": "out",
+    "want": [
+     "9"
+    ]
+   },
+   "result": {
+    "i": [
+     5.0
+    ],
+    "out": [
+     "5"
+    ],
+    "song": 1
+   },
+   "audio": "02.mp3"
+  },
+  {
+   "n": 3,
+   "watch": "Evening watch: the sounds",
+   "title": "Stream and breath",
+   "new": "s |",
+   "aid": "s is Shevat, the stream: count from one. | is a breath, the end of a verse.",
+   "example": "si #7 | di",
+   "say": "see mm (breathe) dee",
+   "explain": "si #7 fills i with 1 to 7. The breath ends the verse; the next verse sends i out.",
+   "task": "Count 1 to 4 and send it out.",
+   "answer": "si #4 | di",
+   "check": {
+    "kind": "out",
+    "want": [
+     "1 2 3 4"
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0,
+     6.0,
+     7.0
+    ],
+    "out": [
+     "1 2 3 4 5 6 7"
+    ],
+    "song": 1
+   },
+   "audio": "03.mp3"
+  },
+  {
+   "n": 4,
+   "watch": "Evening watch: the sounds",
+   "title": "Counting in twelves",
+   "new": "# t e",
+   "aid": "Numbers are base twelve: t is ten, e is eleven, #10 is twelve. Twelve stones, twelve months, twelve digits.",
+   "example": "ki #10 | di",
+   "say": "kee tm-km (breathe) dee",
+   "explain": "#10 means one twelve and no units: 12.",
+   "task": "Keep 23 (one twelve and eleven).",
+   "answer": "ki #1e",
+   "check": {
+    "kind": "i",
+    "want": [
+     23.0
+    ]
+   },
+   "result": {
+    "i": [
+     12.0
+    ],
+    "out": [
+     "12"
+    ],
+    "song": 1
+   },
+   "audio": "04.mp3"
+  },
+  {
+   "n": 5,
+   "watch": "Evening watch: the sounds",
+   "title": "The Moon plane, and the closing vowel",
+   "new": "a",
+   "aid": "a is Monday, the Moon: the input plane. A lone vowel at the end of a word names the plane it draws from.",
+   "example": "sa #5 | kia | di",
+   "say": "sah gm (breathe) kee-ah (breathe) dee",
+   "explain": "sa #5 fills a; kia keeps into i a copy of a (the closing a is the source).",
+   "task": "Fill a with 1 to 3 and copy it into i.",
+   "answer": "sa #3 | kia",
+   "check": {
+    "kind": "i",
+    "want": [
+     1.0,
+     2.0,
+     3.0
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     5.0
+    ],
+    "out": [
+     "1 2 3 4 5"
+    ],
+    "song": 1
+   },
+   "audio": "05.mp3"
+  },
+  {
+   "n": 6,
+   "watch": "Evening watch: the sounds",
+   "title": "Gather",
+   "new": "g",
+   "aid": "g is Elul, the month of gathering the harvest: g adds a plane up.",
+   "example": "sa #5 | gia | di",
+   "say": "sah gm (breathe) gee-ah (breathe) dee",
+   "explain": "gia gathers a into i: 1+2+3+4+5 = 15.",
+   "task": "Gather 1 to 10 into i.",
+   "answer": "sa #t | gia",
+   "check": {
+    "kind": "i",
+    "want": [
+     55.0
+    ]
+   },
+   "result": {
+    "i": [
+     15.0
+    ],
+    "out": [
+     "15"
+    ],
+    "song": 1
+   },
+   "audio": "06.mp3"
+  },
+  {
+   "n": 7,
+   "watch": "Evening watch: the sounds",
+   "title": "Test",
+   "new": "t",
+   "aid": "t is Iyyar, the test: keep only what is above a number.",
+   "example": "si #7 | ti #3 | di",
+   "say": "see mm (breathe) tee bm (breathe) dee",
+   "explain": "ti #3 keeps the values of i above 3.",
+   "task": "Keep the values of 1 to 9 that are above 6.",
+   "answer": "si #9 | ti #6",
+   "check": {
+    "kind": "i",
+    "want": [
+     7.0,
+     8.0,
+     9.0
+    ]
+   },
+   "result": {
+    "i": [
+     4.0,
+     5.0,
+     6.0,
+     7.0
+    ],
+    "out": [
+     "4 5 6 7"
+    ],
+    "song": 1
+   },
+   "audio": "07.mp3"
+  },
+  {
+   "n": 8,
+   "watch": "Evening watch: the sounds",
+   "title": "Negate",
+   "new": "n",
+   "aid": "n is Kislev, the month of the longest nights: it subtracts, or with no number turns a value to its negative.",
+   "example": "si #5 | ni #1 | di",
+   "say": "see gm (breathe) nee tm (breathe) dee",
+   "explain": "ni #1 takes 1 from every value of i.",
+   "task": "Take 2 from each of 1 to 4.",
+   "answer": "si #4 | ni #2",
+   "check": {
+    "kind": "i",
+    "want": [
+     -1.0,
+     0.0,
+     1.0,
+     2.0
+    ]
+   },
+   "result": {
+    "i": [
+     0.0,
+     1.0,
+     2.0,
+     3.0,
+     4.0
+    ],
+    "out": [
+     "0 1 2 3 4"
+    ],
+    "song": 1
+   },
+   "audio": "08.mp3"
+  },
+  {
+   "n": 9,
+   "watch": "Evening watch: the sounds",
+   "title": "Project",
+   "new": "p",
+   "aid": "p is Sivan, the projection: multiply by a number, or by a string's ratio (pia = by 4:3, the fourth).",
+   "example": "si #3 | pi #2 | di",
+   "say": "see bm (breathe) pee pm (breathe) dee",
+   "explain": "pi #2 doubles every value of i.",
+   "task": "Triple 1 to 3.",
+   "answer": "si #3 | pi #3",
+   "check": {
+    "kind": "i",
+    "want": [
+     3.0,
+     6.0,
+     9.0
+    ]
+   },
+   "result": {
+    "i": [
+     2.0,
+     4.0,
+     6.0
+    ],
+    "out": [
+     "2 4 6"
+    ],
+    "song": 1
+   },
+   "audio": "09.mp3"
+  },
+  {
+   "n": 10,
+   "watch": "Evening watch: the sounds",
+   "title": "Retro",
+   "new": "r",
+   "aid": "r is Tevet, turning back: reverse the order.",
+   "example": "si #5 | ri | di",
+   "say": "see gm (breathe) ree (breathe) dee",
+   "explain": "ri reverses i.",
+   "task": "Make 4 3 2 1.",
+   "answer": "si #4 | ri",
+   "check": {
+    "kind": "i",
+    "want": [
+     4.0,
+     3.0,
+     2.0,
+     1.0
+    ]
+   },
+   "result": {
+    "i": [
+     5.0,
+     4.0,
+     3.0,
+     2.0,
+     1.0
+    ],
+    "out": [
+     "5 4 3 2 1"
+    ],
+    "song": 1
+   },
+   "audio": "10.mp3"
+  },
+  {
+   "n": 11,
+   "watch": "Evening watch: the sounds",
+   "title": "Bind",
+   "new": "b",
+   "aid": "b is Tammuz, binding: join another plane onto the end.",
+   "example": "si #3 | sa #2 | bia | di",
+   "say": "see bm (breathe) sah pm (breathe) bee-ah (breathe) dee",
+   "explain": "bia binds a onto the end of i: 1 2 3 1 2.",
+   "task": "Join 1 to 2 (in a) onto 1 to 3 (in i).",
+   "answer": "si #3 | sa #2 | bia",
+   "check": {
+    "kind": "i",
+    "want": [
+     1.0,
+     2.0,
+     3.0,
+     1.0,
+     2.0
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0,
+     1.0,
+     2.0
+    ],
+    "out": [
+     "1 2 3 1 2"
+    ],
+    "song": 1
+   },
+   "audio": "11.mp3"
+  },
+  {
+   "n": 12,
+   "watch": "Evening watch: the sounds",
+   "title": "Morph",
+   "new": "m",
+   "aid": "m is Cheshvan: morph. With a number it wraps values round like a clock (the remainder).",
+   "example": "si #9 | mi #4 | di",
+   "say": "see rm (breathe) mee dm (breathe) dee",
+   "explain": "mi #4 replaces each value by its remainder after dividing by 4.",
+   "task": "Show 1 to 7 on a clock of 3.",
+   "answer": "si #7 | mi #3",
+   "check": {
+    "kind": "i",
+    "want": [
+     1.0,
+     2.0,
+     0.0,
+     1.0,
+     2.0,
+     0.0,
+     1.0
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0,
+     0.0,
+     1.0,
+     2.0,
+     3.0,
+     0.0,
+     1.0
+    ],
+    "out": [
+     "1 2 3 0 1 2 3 0 1"
+    ],
+    "song": 1
+   },
+   "audio": "12.mp3"
+  },
+  {
+   "n": 13,
+   "watch": "Evening watch: the sounds",
+   "title": "Hold",
+   "new": "h",
+   "aid": "h is Adar, the last month: hold your breath and count. hia counts the values of a.",
+   "example": "sa #9 | hia | di",
+   "say": "sah rm (breathe) hee-ah (breathe) dee",
+   "explain": "hia puts the number of values in a into i.",
+   "task": "Count the values of 1 to 11 in a.",
+   "answer": "sa #e | hia",
+   "check": {
+    "kind": "i",
+    "want": [
+     11.0
+    ]
+   },
+   "result": {
+    "i": [
+     9.0
+    ],
+    "out": [
+     "9"
+    ],
+    "song": 1
+   },
+   "audio": "13.mp3"
+  },
+  {
+   "n": 14,
+   "watch": "Evening watch: the sounds",
+   "title": "The other five days",
+   "new": "e y o u w",
+   "aid": "e Wednesday (Mercury, scratch) · y Friday (Venus, pair) · o Tuesday (Mars, output) · u Thursday (Jupiter, store) · w Saturday (Saturn, archive).",
+   "example": "so #4 | sw #2 | kio | biw | di",
+   "say": "soh dm (breathe) saw pm (breathe) kee-oh (breathe) bee-aw (breathe) dee",
+   "explain": "Seven planes now: fill o and w, copy o into i, bind w on.",
+   "task": "Fill u with 1 to 6 and gather it into i.",
+   "answer": "su #6 | giu",
+   "check": {
+    "kind": "i",
+    "want": [
+     21.0
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0,
+     4.0,
+     1.0,
+     2.0
+    ],
+    "out": [
+     "1 2 3 4 1 2"
+    ],
+    "song": 1
+   },
+   "audio": "14.mp3"
+  },
+  {
+   "n": 15,
+   "watch": "Midnight watch: order",
+   "title": "The ring",
+   "new": "(ring rule)",
+   "aid": "A verse is read like a chiasm: first with last, second with second-last, and the centre word last of all.",
+   "example": "sa #7 gia ta #3 | di",
+   "say": "sah mm gee-ah tah bm (breathe) dee",
+   "explain": "Ring order runs sa, then ta (the outer pair), then gia (the centre): 4+5+6+7 = 22. Written sa #7 ta #3 gia, the same words give 28.",
+   "task": "Make the centre gather run before the test: get 28.",
+   "answer": "sa #7 ta #3 gia",
+   "check": {
+    "kind": "i",
+    "want": [
+     28.0
+    ]
+   },
+   "result": {
+    "i": [
+     22.0
+    ],
+    "out": [
+     "22"
+    ],
+    "song": 1
+   },
+   "audio": "15.mp3"
+  },
+  {
+   "n": 16,
+   "watch": "Midnight watch: order",
+   "title": "Spelling a sequence",
+   "new": "(ring spelling)",
+   "aid": "To run A B C D in that order, write A C D B: begin and end together, then the middle.",
+   "example": "si #4 ri di pi #2",
+   "say": "see dm ree dee pee pm",
+   "explain": "Written si ri di pi, it runs si, pi, ri, di: 1 to 4, doubled, reversed, out: 8 6 4 2.",
+   "task": "Run: stream 1 to 3, then reverse, then double.",
+   "answer": "si #3 pi #2 ri",
+   "check": {
+    "kind": "i",
+    "want": [
+     6.0,
+     4.0,
+     2.0
+    ]
+   },
+   "result": {
+    "i": [
+     8.0,
+     6.0,
+     4.0,
+     2.0
+    ],
+    "out": [
+     "8 6 4 2"
+    ],
+    "song": 1
+   },
+   "audio": "16.mp3"
+  },
+  {
+   "n": 17,
+   "watch": "Midnight watch: order",
+   "title": "A word is a pipeline",
+   "new": "(syllable order)",
+   "aid": "Inside a word, the syllables act one after another on the word's own plane. Change their order and the pipeline changes.",
+   "example": "si #7 | ka #3 | pinata | di",
+   "say": "see mm (breathe) kah bm (breathe) pee-nah-tah (breathe) dee",
+   "explain": "pi (×1), na (subtract a's 3), ta (keep above 3): only 4 is left. pitana keeps first, then subtracts: 1 2 3 4.",
+   "task": "Get 1 2 3 4 from the same start.",
+   "answer": "si #7 | ka #3 | pitana",
+   "check": {
+    "kind": "i",
+    "want": [
+     1.0,
+     2.0,
+     3.0,
+     4.0
+    ]
+   },
+   "result": {
+    "i": [
+     4.0
+    ],
+    "out": [
+     "4"
+    ],
+    "song": 1
+   },
+   "audio": "17.mp3"
+  },
+  {
+   "n": 18,
+   "watch": "Midnight watch: order",
+   "title": "Songs",
+   "new": "(d-words)",
+   "aid": "A d-word of two or more syllables sings its own vowel line. demorini is e-o-i-i, the vowels of ego eimi, 'I am'.",
+   "example": "demorini",
+   "say": "deh-moh-ree-nee",
+   "explain": "No plane changes: the word is a melody, Mercury, Mars, Sun, Sun.",
+   "task": "Sing a word whose vowels are a-i-a.",
+   "answer": "daka",
+   "check": {
+    "kind": "events",
+    "want": 1
+   },
+   "result": {
+    "i": [],
+    "out": [],
+    "song": 1
+   },
+   "audio": "18.mp3"
+  },
+  {
+   "n": 19,
+   "watch": "Midnight watch: order",
+   "title": "Urgent",
+   "new": "!",
+   "aid": "! (tsk) puts a word ahead of the ring.",
+   "example": "si #3 di ki! #9",
+   "say": "see bm dee kee tsk rm",
+   "explain": "Without !, ring order would run si, ki, di and say 9. With ki! first, si then di say 1 2 3.",
+   "task": "Make 9 come out instead.",
+   "answer": "si #3 di ki #9",
+   "check": {
+    "kind": "out",
+    "want": [
+     "9"
+    ]
+   },
+   "result": {
+    "i": [
+     1.0,
+     2.0,
+     3.0
+    ],
+    "out": [
+     "1 2 3"
+    ],
+    "song": 1
+   },
+   "audio": "19.mp3"
+  },
+  {
+   "n": 20,
+   "watch": "Midnight watch: order",
+   "title": "Guard",
+   "new": "?",
+   "aid": "? (vvv) makes a word ask first: it runs only if i is positive.",
+   "example": "ki #0 | ka #3 | kia? | di",
+   "say": "kee km (breathe) kah bm (breathe) kee-ah vvv (breathe) dee",
+   "explain": "i is 0, so kia? is skipped and 0 goes out.",
+   "task": "Change one number so that 3 comes out.",
+   "answer": "ki #1 | ka #3 | kia? | di",
+   "check": {
+    "kind": "out",
+    "want": [
+     "3"
+    ]
+   },
+   "result": {
+    "i": [
+     0.0
+    ],
+    "out": [
+     "0"
+    ],
+    "song": 1
+   },
+   "audio": "20.mp3"
+  },
+  {
+   "n": 21,
+   "watch": "Midnight watch: order",
+   "title": "Loops",
+   "new": "l",
+   "aid": "l is Tishri, the turning of the year: repeat the next word.",
+   "example": "si #2 | li #3 pi #2 | di",
+   "say": "see pm (breathe) lee bm pee pm (breathe) dee",
+   "explain": "li #3 repeats pi #2 three times: 1 2 becomes 8 16.",
+   "task": "Double 1 to 2 five times.",
+   "answer": "si #2 | li #5 pi #2",
+   "check": {
+    "kind": "i",
+    "want": [
+     32.0,
+     64.0
+    ]
+   },
+   "result": {
+    "i": [
+     8.0,
+     16.0
+    ],
+    "out": [
+     "8 16"
+    ],
+    "song": 1
+   },
+   "audio": "21.mp3"
+  },
+  {
+   "n": 22,
+   "watch": "Midnight watch: order",
+   "title": "Sandbox",
+   "new": "~",
+   "aid": "~ (fff) wraps a word: if it fails, it is skipped and noted, and the program carries on.",
+   "example": "ki #4 | ~si #100000 | di",
+   "say": "kee dm (breathe) fff see tm-km-km-km-km-km (breathe) dee",
+   "explain": "A stream of 248,832 values (#100000 is twelve to the fifth power) is over the limit; the sandbox skips it, so 4 goes out.",
+   "task": "Remove the sandbox and see the error, then put it back.",
+   "answer": "ki #4 | ~si #100000 | di",
+   "check": {
+    "kind": "out",
+    "want": [
+     "4"
+    ]
+   },
+   "result": {
+    "i": [
+     4.0
+    ],
+    "out": [
+     "4"
+    ],
+    "song": 1
+   },
+   "audio": "22.mp3"
+  },
+  {
+   "n": 23,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Calling a name",
+   "new": ":",
+   "aid": ": (shh) calls a name. The Canon is the built-in library; :tame is the mean, :dasa says i.",
+   "example": "si #5 | :tame | :dasa",
+   "say": "see gm (breathe) shh tah-meh (breathe) shh dah-sah",
+   "explain": "The mean of 1 to 5 is 3.",
+   "task": "Say the maximum of 1 to 8.",
+   "answer": "si #8 | :tamo | :dasa",
+   "check": {
+    "kind": "out",
+    "want": [
+     "8"
+    ]
+   },
+   "result": {
+    "i": [
+     3.0
+    ],
+    "out": [
+     "3"
+    ],
+    "song": 0
+   },
+   "audio": "23.mp3"
+  },
+  {
+   "n": 24,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Defining a name, and while",
+   "new": "::",
+   "aid": "::name ... :: defines a word of your own. l with no number repeats while its plane is positive.",
+   "example": "::kosu bogou nu #1 :: | ku #5 | ko #0 | lu :kosu | kio | di",
+   "say": "shh-shh koh-soo boh-goh-oo noo tm shh-shh (breathe) koo gm (breathe) koh km (breathe) loo shh koh-soo (breathe) kee-oh (breathe) dee",
+   "explain": "While u is positive: add u to o, take 1 from u. 5+4+3+2+1 = 15.",
+   "task": "Sum 7 down to 1 the same way.",
+   "answer": "::kosu bogou nu #1 :: | ku #7 | ko #0 | lu :kosu | kio",
+   "check": {
+    "kind": "i",
+    "want": [
+     28.0
+    ]
+   },
+   "result": {
+    "i": [
+     15.0
+    ],
+    "out": [
+     "15"
+    ],
+    "song": 1
+   },
+   "audio": "24.mp3"
+  },
+  {
+   "n": 25,
+   "watch": "Morning watch: names and the Canon",
+   "title": "The prelude",
+   "new": "(prelude)",
+   "aid": "Some names are written in KANON itself: :kemu multiplies by repeated addition, :kegi is Euclid's algorithm, :kehi the factorial.",
+   "example": "ki #7 | ka #6 | :kemu | :dasa",
+   "say": "kee mm (breathe) kah lm (breathe) shh keh-moo (breathe) shh dah-sah",
+   "explain": "7 × 6 = 42, using only bind, gather, negate and a while-loop.",
+   "task": "Find the greatest common divisor of 84 and 36.",
+   "answer": "ki #70 | ka #30 | :kegi",
+   "check": {
+    "kind": "i",
+    "want": [
+     12.0
+    ]
+   },
+   "result": {
+    "i": [
+     42.0
+    ],
+    "out": [
+     "42"
+    ],
+    "song": 0
+   },
+   "audio": "25.mp3"
+  },
+  {
+   "n": 26,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Number and letters",
+   "new": "(Canon: k n d)",
+   "aid": "The Canon is laid out on the grid: k-names are number, t statistics, p geometry, b sequences, d doors, l logic, m music, r time, h seals.",
+   "example": "ki #29 | :kapi | :dasa",
+   "say": "kee pm-rm (breathe) shh kah-pee (breathe) shh dah-sah",
+   "explain": "The primes up to 33. :dagi says numbers as Greek numerals, :dahe as Hebrew numerals.",
+   "task": "Say 23 as a Greek numeral.",
+   "answer": "ki #1e | :dagi",
+   "check": {
+    "kind": "out",
+    "want": [
+     "κγʹ"
+    ]
+   },
+   "result": {
+    "i": [
+     2.0,
+     3.0,
+     5.0,
+     7.0,
+     11.0,
+     13.0,
+     17.0,
+     19.0,
+     23.0,
+     29.0,
+     31.0
+    ],
+    "out": [
+     "2 3 5 7 11 13 17 19 23 29 31"
+    ],
+    "song": 0
+   },
+   "audio": "26.mp3"
+  },
+  {
+   "n": 27,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Geometry and music",
+   "new": "(Canon: p m)",
+   "aid": "Star polygons, room resonances and string ratios are words of the language.",
+   "example": "ki #8 | ka #3 | :paso | :dasa",
+   "say": "kee nm (breathe) kah bm (breathe) shh pah-soh (breathe) shh dah-sah",
+   "explain": "The star {8/3}: visit every third of eight points: 0 3 6 1 4 7 2 5.",
+   "task": "List the first seven resonances of a cube room 10 metres on a side.",
+   "answer": "ki #t | :pamo",
+   "check": {
+    "kind": "i",
+    "want": [
+     17.15,
+     24.25,
+     29.7,
+     34.3,
+     38.35,
+     42.01,
+     48.51
+    ]
+   },
+   "result": {
+    "i": [
+     0.0,
+     3.0,
+     6.0,
+     1.0,
+     4.0,
+     7.0,
+     2.0,
+     5.0
+    ],
+    "out": [
+     "0 3 6 1 4 7 2 5"
+    ],
+    "song": 0
+   },
+   "audio": "27.mp3"
+  },
+  {
+   "n": 28,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Time",
+   "new": "(Canon: r)",
+   "aid": "Days count from 1 January 2000. :rado gives the planetary weekday (0 Sunday ... 6 Saturday); :raso the seven planetary longitudes.",
+   "example": "ki #0 | :rado | :dasa",
+   "say": "kee km (breathe) shh rah-doh (breathe) shh dah-sah",
+   "explain": "1 January 2000 was a Saturday: 6, Saturn's day, the plane w.",
+   "task": "Which weekday was day 1?",
+   "answer": "ki #1 | :rado",
+   "check": {
+    "kind": "i",
+    "want": [
+     0.0
+    ]
+   },
+   "result": {
+    "i": [
+     6.0
+    ],
+    "out": [
+     "6"
+    ],
+    "song": 0
+   },
+   "audio": "28.mp3"
+  },
+  {
+   "n": 29,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Speaking a program",
+   "new": "=",
+   "aid": "= (zzz) carries a checksum: two syllables that change if any sound is misheard or two neighbours are swapped.",
+   "example": "sa #7 gia ta #3 =roby",
+   "say": "sah mm gee-ah tah bm zzz roh-bay",
+   "explain": "Every verse can end with its checksum; the decoder checks it. In tests, every corrupted program it decoded was caught.",
+   "task": "Run the ring program again.",
+   "answer": "sa #7 gia ta #3",
+   "check": {
+    "kind": "i",
+    "want": [
+     22.0
+    ]
+   },
+   "result": {
+    "i": [
+     22.0
+    ],
+    "out": [],
+    "song": 0
+   },
+   "audio": "29.mp3"
+  },
+  {
+   "n": 30,
+   "watch": "Morning watch: names and the Canon",
+   "title": "Your own Euclid",
+   "new": "(all)",
+   "aid": "Write the algorithm yourself: while a is positive, e = i mod a, i = a, a = e. Spell the body in ring order.",
+   "example": "::kebo kei kia kae mea :: | ki #70 | ka #30 | la :kebo | :dasa",
+   "say": "shh-shh keh-boh keh-ee kee-ah kah-eh meh-ah shh-shh (breathe) kee mm-km (breathe) kah bm-km (breathe) lah shh keh-boh (breathe) shh dah-sah",
+   "explain": "kei kia kae mea runs as kei, mea, kia, kae (ring order). gcd(84, 36) = 12.",
+   "task": "Find gcd(105, 45) with your own name.",
+   "answer": "::kebo kei kia kae mea :: | ki #89 | ka #39 | la :kebo",
+   "check": {
+    "kind": "i",
+    "want": [
+     15.0
+    ]
+   },
+   "result": {
+    "i": [
+     12.0
+    ],
+    "out": [
+     "12"
+    ],
+    "song": 0
+   },
+   "audio": "30.mp3"
+  }
+ ]
+}

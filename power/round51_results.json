@@ -1,0 +1,100 @@
+{
+ "A_positions": {
+  "as transmitted (1:1-21:25)": {
+   "sec": {
+    "position": 0.4866,
+    "p": 0.0587,
+    "total": 12300.6
+   },
+   "groups": {
+    "position": 0.4732,
+    "p": 0.1165,
+    "total": 2443.0
+   },
+   "words": {
+    "position": 0.486,
+    "p": 0.0614,
+    "total": 15438.0
+   }
+  },
+  "ending at 20:31": {
+   "sec": {
+    "position": 0.5051,
+    "p": 0.0221,
+    "total": 11850.3
+   },
+   "groups": {
+    "position": 0.4947,
+    "p": 0.0233,
+    "total": 2337.0
+   },
+   "words": {
+    "position": 0.5039,
+    "p": 0.0171,
+    "total": 14889.0
+   }
+  },
+  "story time (days, model)": {
+   "day_of_10_11": 608.1,
+   "position_full": 0.811,
+   "position_to_20_31": 0.827,
+   "share_of_book_on_last_week": 0.419,
+   "middle_of_the_feast": "7:14: 'when the feast was already at its middle (μεσούσης), Jesus went up into the temple and taught'"
+  }
+ },
+ "B_relabelling_invariance": {
+  "chi2_under_3_random_assignments": [
+   27.5444,
+   27.5444,
+   27.5444
+  ],
+  "note": "identical: no vowel-to-string assignment can change the mode test"
+ },
+ "B_iam_cadence_mapping_free": {
+  "chi2": 6.14,
+  "p": 0.3991,
+  "i_am_verses": 24,
+  "note": "p >= 0.05 means no assignment of vowels to strings can make the 'I am' verses cadence differently"
+ },
+ "C_band_layers": {
+  "drum (final-word accent)": {
+   "stat": 6.834,
+   "p": 0.9893
+  },
+  "aulos (breath groups per verse)": {
+   "stat": 78.767,
+   "p": 0.1193
+  },
+  "time (performed seconds per verse)": {
+   "stat": 963.181,
+   "p": 0.006
+  },
+  "lyre (final vowel)": {
+   "stat": 27.544,
+   "p": 0.1663
+  }
+ },
+ "C_movement_means": [
+  {
+   "movement": "prologue",
+   "seconds_per_verse": 10.85,
+   "breath_groups": 2.47
+  },
+  {
+   "movement": "signs",
+   "seconds_per_verse": 13.79,
+   "breath_groups": 2.65
+  },
+  {
+   "movement": "farewell",
+   "seconds_per_verse": 14.09,
+   "breath_groups": 2.94
+  },
+  {
+   "movement": "passion",
+   "seconds_per_verse": 16.44,
+   "breath_groups": 3.47
+  }
+ ],
+ "D_render": "power/audio/r51_band_john_10_11.mp3"
+}

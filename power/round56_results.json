@@ -1,0 +1,246 @@
+{
+ "parts": [
+  {
+   "part": "Court",
+   "ref": "Exod 27:9-18",
+   "text": "100 x 50 cubits, linen hangings 5 cubits high",
+   "mapping": "the outer baffle and listening space",
+   "calc": {
+    "axial_Hz": [
+     3.85,
+     7.71
+    ],
+    "note": "the base of the whole harmonic frame: every dimension that divides 100 cubits is a harmonic of 3.85 Hz"
+   }
+  },
+  {
+   "part": "Tabernacle tent (Holy Place)",
+   "ref": "Exod 26 (20 x 10 x 10 cubits, inferred from the boards)",
+   "text": "48 acacia boards 10 x 1.5 cubits, gold-overlaid, on 96 silver sockets",
+   "mapping": "the tuning chamber: the outer resonator",
+   "calc": {
+    "axial_Hz": [
+     19.27,
+     38.54,
+     38.54
+    ],
+    "harmonics_of_court": [
+     5.0,
+     10.0
+    ]
+   }
+  },
+  {
+   "part": "Silver sockets",
+   "ref": "Exod 26:19-25; 38:27",
+   "text": "96 + 4 sockets from 100 talents of silver",
+   "mapping": "the feet: isolation of the resonator from the ground (like a bridge's feet)",
+   "calc": {}
+  },
+  {
+   "part": "Coverings",
+   "ref": "Exod 26:1-14",
+   "text": "4 layers: twined linen (10 curtains 28 x 4), goat hair (11 curtains 30 x 4), rams' skins, tachash skins",
+   "mapping": "the skin: damping and sealing layers that set how long the chamber rings",
+   "calc": {}
+  },
+  {
+   "part": "Veil",
+   "ref": "Exod 26:31-33",
+   "text": "woven linen, blue, purple, scarlet, cherubim; 10 x 10 cubits",
+   "mapping": "the diaphragm between the two chambers: couples and filters them",
+   "calc": {}
+  },
+  {
+   "part": "Holy of Holies",
+   "ref": "Exod 26 (10-cubit cube, inferred); 1 Kgs 6:20 (20-cubit cube)",
+   "text": "a cube",
+   "mapping": "the inner resonator",
+   "calc": {
+    "tabernacle_axial_Hz": [
+     38.54,
+     38.54,
+     38.54
+    ],
+    "solomon_axial_Hz": [
+     19.27,
+     19.27,
+     19.27
+    ],
+    "note": "one note on all three axes; modes stack (round 38)"
+   }
+  },
+  {
+   "part": "Ark",
+   "ref": "Exod 25:10-16",
+   "text": "acacia box 2.5 x 1.5 x 1.5 cubits, gold inside and out",
+   "mapping": "the soundbox at the centre",
+   "calc": {
+    "axial_Hz": [
+     154.2,
+     256.9,
+     256.9
+    ],
+    "long_axis_as_harmonic_of_room": {
+     "tabernacle": 4.0,
+     "solomon": 8.0
+    },
+    "note": "2.5 cubits is 1/4 of the tabernacle's 10 and 1/8 of Solomon's 20: the ark's tone is 2 and 3 octaves above its room"
+   }
+  },
+  {
+   "part": "Mercy seat and two cherubim",
+   "ref": "Exod 25:17-22; Num 7:89",
+   "text": "gold slab 2.5 x 1.5; two cherubim of beaten gold, wings spread over it, faces toward each other; 'from between the two cherubim I will speak with you'",
+   "mapping": "the mouth: two wings forming a horn over the soundbox, the point the voice comes from",
+   "calc": {
+    "horn_mouth_m": 1.11,
+    "lowest_efficient_Hz": 98.0
+   }
+  },
+  {
+   "part": "Menorah",
+   "ref": "Exod 25:31-40; 37:17-24",
+   "text": "beaten gold, one shaft, six branches (3 each side), seven lamps; cups, knobs, flowers",
+   "mapping": "the seven voices: a heptachord with the central shaft as the mese (Philo: the middle lamp is the Sun)",
+   "calc": {
+    "strings_Hz": {
+     "hypate": 115.6,
+     "parhypate": 121.8,
+     "lichanos": 137.0,
+     "mese": 154.2,
+     "trite": 162.4,
+     "paranete": 182.7,
+     "nete": 205.5
+    },
+    "note": "mese tuned to the ark's note, 154.2 Hz"
+   }
+  },
+  {
+   "part": "Table of showbread",
+   "ref": "Exod 25:23-30",
+   "text": "acacia 2 x 1 x 1.5 cubits, gold; 12 loaves",
+   "mapping": "the tuning standard (monochord): octave 2:1, fifth 3:2, fourth 4:3 in one object; 12 loaves = 12 notes (Josephus' 12-note nabla)",
+   "calc": {
+    "ratios": [
+     "2:1",
+     "4:3",
+     "3:2"
+    ],
+    "twelve_notes_Hz": [
+     154.2,
+     231.2,
+     173.4,
+     260.1,
+     195.1,
+     292.7,
+     219.5,
+     164.6,
+     246.9,
+     185.2,
+     277.8,
+     208.3
+    ]
+   }
+  },
+  {
+   "part": "Altar of incense",
+   "ref": "Exod 30:1-10",
+   "text": "acacia 1 x 1 x 2 cubits, gold; incense morning and evening",
+   "mapping": "the breath: the air supply (smoke = moving air)",
+   "calc": {
+    "axial_Hz": [
+     385.4,
+     192.7
+    ]
+   }
+  },
+  {
+   "part": "Altar of burnt offering",
+   "ref": "Exod 27:1-8",
+   "text": "acacia 5 x 5 x 3 cubits, bronze-overlaid, 'hollow with boards', a bronze grating halfway down",
+   "mapping": "the drum: a large hollow bronze body",
+   "calc": {
+    "axial_Hz": [
+     77.1,
+     77.1,
+     128.5
+    ],
+    "singing_tube_check": "a heated hollow with a grating is a Rijke tube, but a grating at mid-height sits where the fundamental is not driven: it would not sing (N)"
+   }
+  },
+  {
+   "part": "Laver / bronze sea",
+   "ref": "Exod 30:18; 1 Kgs 7:23-26",
+   "text": "Solomon's sea: 10 cubits across, 5 high, a handbreadth thick, on 12 bronze oxen",
+   "mapping": "the gong",
+   "calc": {
+    "lowest_mode_Hz_rough": 23.5,
+    "note": "bell scaling f ~ t/D^2 from a 1 m, 7 cm bell at 440 Hz: an order-of-magnitude estimate only"
+   }
+  },
+  {
+   "part": "Pillars Jachin and Boaz",
+   "ref": "1 Kgs 7:15-22; Jer 52:21",
+   "text": "bronze, 18 cubits high, 12 in circumference, hollow, four fingers thick; capitals with lily-work and 200 pomegranates",
+   "mapping": "the bass: two hollow bronze tubes flanking the entrance",
+   "calc": {
+    "air_column_open_Hz": 21.4,
+    "struck_free_free_Hz": 118.1,
+    "standing_cantilever_Hz": 18.6,
+    "ring_mode_Hz": 662.0
+   }
+  },
+  {
+   "part": "Silver trumpets",
+   "ref": "Num 10:1-10; Josephus, Ant. 3.291",
+   "text": "two, beaten silver; 'a little less than a cubit long, a narrow tube a little thicker than an aulos, ending in a bell'",
+   "mapping": "the signal voices",
+   "calc": {
+    "length_m": 0.42,
+    "closed_pipe_fundamental_Hz": 204.0,
+    "playable_partials_Hz": [
+     408.0,
+     612.0,
+     817.0,
+     1021.0,
+     1225.0
+    ]
+   }
+  },
+  {
+   "part": "Robe of the ephod",
+   "ref": "Exod 28:31-35; Bavli Zevachim 88b",
+   "text": "blue robe; golden bells and pomegranates alternating on the hem (72 bells, 72 clappers); 'its sound shall be heard when he goes into the holy place'",
+   "mapping": "the shaker: percussion sounded by the player's own movement",
+   "calc": {
+    "bells": 72,
+    "typical_small_bell_Hz": "2,000-5,000"
+   }
+  },
+  {
+   "part": "Breastpiece with Urim and Thummim",
+   "ref": "Exod 28:15-30",
+   "text": "12 stones in 4 rows of 3, names of the 12 tribes; Urim and Thummim inside",
+   "mapping": "the display: 12 outputs, one for each of the 12 notes",
+   "calc": {}
+  }
+ ],
+ "frame": {
+  "court_base_Hz": 3.854,
+  "mese_Hz": 154.2,
+  "note": "Every length that divides 100 cubits (100, 50, 20, 10, 5, 2.5, 2, 1) is a harmonic of the court's 3.85 Hz: the ark is harmonic 40, the Holy of Holies 10, the Holy Place 5. Lengths of 1.5, 3, 28 and 30 cubits are not."
+ },
+ "render": {
+  "file": "power/audio/r56_tabernacle_instrument.mp3",
+  "sequence": [
+   "0 s two silver trumpets",
+   "7.5 s the 72 bells (the priest walking)",
+   "15 s Jachin and Boaz struck",
+   "21 s the bronze sea",
+   "25 s the menorah's seven voices, Moon to Saturn",
+   "34 s the voice from between the cherubim: 'ehyeh asher ehyeh' (vowel line) on the ark note",
+   "throughout: the building's harmonic series (harmonics 20-80 of 3.85 Hz)"
+  ]
+ }
+}

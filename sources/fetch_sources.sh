@@ -21,3 +21,11 @@ echo "done: $(du -sh . | cut -f1)"
 clone https://github.com/ETCBC/dss.git dss                            # Dead Sea Scrolls (Abegg data, Text-Fabric), CC BY-NC
 clone https://github.com/scrollmapper/bible_databases.git versions    # Vulgate, Peshitta, Coptic Sahidic and others
 sparse https://github.com/OpenGreekAndLatin/First1KGreek.git f1k data/tlg1443 data/tlg1139 data/tlg0555   # Ignatius, Hermas, Clement of Alexandria
+mkdir -p heron && curl -sL -o heron/heron_vol1_schmidt1899.txt "https://archive.org/download/heronisalexandri01hero/heronisalexandri01hero_djvu.txt"   # Heron, Pneumatica (Schmidt 1899), public domain
+mkdir -p oxyrhynchus && curl -sL -o oxyrhynchus/poxy15.txt "https://archive.org/download/oxyrhynchuspapyr0015gren/oxyrhynchuspapyr0015gren_djvu.txt"   # P.Oxy. XV (1922), incl. 1786 Christian hymn with notes
+curl -sS -o sefaria/berakhot_3b.json "https://www.sefaria.org/api/v3/texts/Berakhot.3b?version=english&version=hebrew"   # David's wind-played lyre
+mkdir -p odes_solomon && curl -sL -o odes_solomon/harris1909.txt "https://archive.org/download/bwb_KU-773-127/bwb_KU-773-127_djvu.txt" && curl -sL -o odes_solomon/harris1916.txt "https://archive.org/download/odespsalmsofsolo01harruoft/odespsalmsofsolo01harruoft_djvu.txt"
+mkdir -p amherst && curl -sL -o amherst/pamh1.txt "https://archive.org/download/amherstpapyribei01grenuoft/amherstpapyribei01grenuoft_djvu.txt"   # Amherst Papyri I (1900), P.Amh. 2 Christian acrostic hymn
+mkdir -p sefaria/r47 && for ref in Mishnah_Arakhin.2 Mishnah_Tamid.3 Mishnah_Tamid.5 Mishnah_Tamid.7 Mishnah_Sukkah.5 Mishnah_Middot.2 Mishnah_Rosh_Hashanah.4 Berakhot.62a Arakhin.10b Arakhin.11a; do curl -s -o "sefaria/r47/$ref.json" "https://www.sefaria.org/api/v3/texts/$ref?version=english&version=hebrew"; done
+for t in Berakhot Shabbat Taanit Sanhedrin; do for c in 1 2 3 4 5; do curl -s -o "sefaria/r47/Y_${t}_$c.json" "https://www.sefaria.org/api/v3/texts/Jerusalem_Talmud_${t}.$c?version=hebrew"; done; done   # Galilean Aramaic sample
+mkdir -p petrie && curl -sL -o petrie/petrie1883.txt "https://archive.org/download/cu31924012038927/cu31924012038927_djvu.txt"   # Petrie, Pyramids and Temples of Gizeh (1883)

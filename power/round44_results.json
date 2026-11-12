@@ -1,0 +1,413 @@
+{
+ "A_ego_eimi_position": {
+  "n": 24,
+  "mean_distance_from_centre": 0.278,
+  "null_mean": 0.25,
+  "p_central": 0.8258,
+  "p_peripheral": 0.1741,
+  "in_first_quarter": 10,
+  "in_middle_half": 11,
+  "in_last_quarter": 3,
+  "positions": [
+   [
+    "040426",
+    0.56
+   ],
+   [
+    "040620",
+    0.5
+   ],
+   [
+    "040635",
+    0.19
+   ],
+   [
+    "040641",
+    0.56
+   ],
+   [
+    "040648",
+    0.1
+   ],
+   [
+    "040651",
+    0.02
+   ],
+   [
+    "040812",
+    0.31
+   ],
+   [
+    "040818",
+    0.04
+   ],
+   [
+    "040824",
+    0.66
+   ],
+   [
+    "040828",
+    0.5
+   ],
+   [
+    "040858",
+    0.88
+   ],
+   [
+    "040909",
+    0.92
+   ],
+   [
+    "041007",
+    0.69
+   ],
+   [
+    "041009",
+    0.03
+   ],
+   [
+    "041011",
+    0.03
+   ],
+   [
+    "041014",
+    0.04
+   ],
+   [
+    "041125",
+    0.25
+   ],
+   [
+    "041319",
+    0.9
+   ],
+   [
+    "041406",
+    0.23
+   ],
+   [
+    "041501",
+    0.04
+   ],
+   [
+    "041505",
+    0.02
+   ],
+   [
+    "041805",
+    0.49
+   ],
+   [
+    "041806",
+    0.29
+   ],
+   [
+    "041808",
+    0.44
+   ]
+  ]
+ },
+ "B_in_the_middle": {
+  "Mt": {
+   "mesos": 7,
+   "per_10k": 3.82,
+   "refs": [
+    "10:16",
+    "13:25",
+    "13:49",
+    "14:6",
+    "18:2",
+    "18:20",
+    "25:6"
+   ]
+  },
+  "Mk": {
+   "mesos": 5,
+   "per_10k": 4.43,
+   "refs": [
+    "3:3",
+    "6:47",
+    "7:31",
+    "9:36",
+    "14:60"
+   ]
+  },
+  "Lk": {
+   "mesos": 14,
+   "per_10k": 7.2,
+   "refs": [
+    "2:46",
+    "4:30",
+    "4:35",
+    "5:19",
+    "6:8",
+    "8:7",
+    "10:3",
+    "17:11",
+    "21:21",
+    "22:27",
+    "22:55",
+    "22:55",
+    "23:45",
+    "24:36"
+   ]
+  },
+  "Jn": {
+   "mesos": 4,
+   "per_10k": 2.59,
+   "refs": [
+    "1:26",
+    "19:18",
+    "20:19",
+    "20:26"
+   ]
+  },
+  "jesus_in_the_middle": {
+   "John": "4/4",
+   "Synoptics": "5/26",
+   "fisher_p_one_sided": 0.0046,
+   "labels": {
+    "Mt": "{'18:20'}",
+    "Mk": "set()",
+    "Lk": "{'2:46', '4:30', '22:27', '24:36'}",
+    "Jn": "{'1:26', '20:26', '20:19', '19:18'}"
+   },
+   "note": "post hoc: the pattern was noticed in the output, then tested"
+  }
+ },
+ "C_technical_words_per_10k": {
+  "rates": {
+   "λογοσ": {
+    "Mt": 18.0,
+    "Mk": 21.3,
+    "Lk": 17.0,
+    "Jn": 25.9
+   },
+   "αρχη": {
+    "Mt": 2.2,
+    "Mk": 3.5,
+    "Lk": 1.5,
+    "Jn": 5.2
+   },
+   "φωνη": {
+    "Mt": 3.8,
+    "Mk": 6.2,
+    "Lk": 7.2,
+    "Jn": 9.7
+   },
+   "πνευμα": {
+    "Mt": 10.4,
+    "Mk": 20.4,
+    "Lk": 18.5,
+    "Jn": 15.5
+   },
+   "μεσοσ": {
+    "Mt": 3.8,
+    "Mk": 4.4,
+    "Lk": 7.2,
+    "Jn": 2.6
+   },
+   "φωσ": {
+    "Mt": 3.8,
+    "Mk": 0.9,
+    "Lk": 3.1,
+    "Jn": 14.9
+   },
+   "ζωη": {
+    "Mt": 3.8,
+    "Mk": 3.5,
+    "Lk": 2.6,
+    "Jn": 23.3
+   },
+   "δοξα": {
+    "Mt": 3.8,
+    "Mk": 2.7,
+    "Lk": 6.7,
+    "Jn": 12.3
+   },
+   "αληθεια": {
+    "Mt": 0.5,
+    "Mk": 2.7,
+    "Lk": 1.5,
+    "Jn": 16.2
+   },
+   "μαρτυρια": {
+    "Mt": 0.0,
+    "Mk": 2.7,
+    "Lk": 0.5,
+    "Jn": 9.1
+   }
+  },
+  "senses": {
+   "λογοσ": [
+    "word, account",
+    "ratio, proportion",
+    "Euclid, Elements V def. 3; Sectio Canonis; Plato, Timaeus 31c-32c"
+   ],
+   "αρχη": [
+    "beginning",
+    "first principle, source",
+    "Aristotle, Metaphysics 5.1"
+   ],
+   "φωνη": [
+    "voice",
+    "sound, pitched sound",
+    "Aristoxenus, Elements of Harmonics 1.3; Plato, Timaeus 67b"
+   ],
+   "πνευμα": [
+    "spirit",
+    "breath, wind (the aulos' air)",
+    "Clement, Protrepticus 1.5; Aristotle, On the Soul 2.8"
+   ],
+   "μεσοσ": [
+    "middle",
+    "the mese, the central and governing string",
+    "[Aristotle], Problems 19.20; Nicomachus, Manual 3"
+   ],
+   "φωσ": [
+    "light",
+    "light",
+    "-"
+   ],
+   "ζωη": [
+    "life",
+    "life",
+    "-"
+   ],
+   "δοξα": [
+    "glory",
+    "opinion, appearance (no harmonic sense)",
+    "-"
+   ],
+   "αληθεια": [
+    "truth",
+    "truth",
+    "-"
+   ],
+   "μαρτυρια": [
+    "testimony",
+    "testimony",
+    "-"
+   ]
+  },
+  "second_reading_John_1_1_5": "In the first principle was the Ratio, and the Ratio was toward God, and God was the Ratio. This was in the first principle toward God. All things came to be through it, and apart from it not one thing came to be. What came to be in it was life, and the life was the light of men; and the light sounds in the darkness, and the darkness did not seize it.",
+  "note": "READING. Each technical sense is attested in Greek usage of the period (column 'attestation'); this is a second register heard by an educated Alexandrian reader, as Clement hears it, not a correction of the standard translation. 'Sounds' for phainei is NOT attested (phainei = shines); it is shown in brackets in the write-up as an example of what a mistranslation would look like."
+ },
+ "D_instrument": {
+  "design": "seven gut strings (round 41 lengths, mese 220 Hz = A3) over a soundbox whose mouth opens into one of seven vowel tubes (round 42 three-section resonators) chosen by a lever, or a tube held in the player's mouth (a talk-box). Strings = Clement's lyre; tube = aulos; soundbox and room = temple.",
+  "ego_eimi": [
+   {
+    "syllable": "ɛ",
+    "vowel": "ε",
+    "string": "paranete",
+    "planet": "Mercury",
+    "Hz": 260.7,
+    "beats": 1.0
+   },
+   {
+    "syllable": "ɣo",
+    "vowel": "ο",
+    "string": "lichanos",
+    "planet": "Mars",
+    "Hz": 195.6,
+    "beats": 1.0
+   },
+   {
+    "syllable": "iː",
+    "vowel": "ι",
+    "string": "mese",
+    "planet": "Sun",
+    "Hz": 220.0,
+    "beats": 2.0
+   },
+   {
+    "syllable": "mi",
+    "vowel": "ι",
+    "string": "mese",
+    "planet": "Sun",
+    "Hz": 220.0,
+    "beats": 1.0
+   }
+  ],
+  "john_1_1a": [
+   {
+    "syllable": "ɛn",
+    "vowel": "ε",
+    "string": "paranete",
+    "planet": "Mercury",
+    "Hz": 260.7,
+    "beats": 1.0
+   },
+   {
+    "syllable": "ar",
+    "vowel": "α",
+    "string": "nete",
+    "planet": "Moon",
+    "Hz": 293.3,
+    "beats": 1.0
+   },
+   {
+    "syllable": "kʰe",
+    "vowel": "η",
+    "string": "trite",
+    "planet": "Venus",
+    "Hz": 231.8,
+    "beats": 2.0
+   },
+   {
+    "syllable": "en",
+    "vowel": "η",
+    "string": "trite",
+    "planet": "Venus",
+    "Hz": 231.8,
+    "beats": 2.0
+   },
+   {
+    "syllable": "o",
+    "vowel": "ο",
+    "string": "lichanos",
+    "planet": "Mars",
+    "Hz": 195.6,
+    "beats": 1.0
+   },
+   {
+    "syllable": "lo",
+    "vowel": "ο",
+    "string": "lichanos",
+    "planet": "Mars",
+    "Hz": 195.6,
+    "beats": 1.0
+   },
+   {
+    "syllable": "ɣos",
+    "vowel": "ο",
+    "string": "lichanos",
+    "planet": "Mars",
+    "Hz": 195.6,
+    "beats": 1.0
+   }
+  ],
+  "resolves_on_mese": true,
+  "note": "With Koine pronunciation ει = i, so EGO EIMI is e-ɣo-i-mi: Mercury - Mars - Sun - Sun, ending on the mese twice. The mese is the Sun string in Nicomachus by the source, not by our tuning choice."
+ },
+ "renders": [
+  "power/audio/r44_lyre_tubes_ego_eimi.mp3",
+  "power/audio/r44_lyre_tubes_john_1_1a.mp3"
+ ],
+ "E_hymn_papyri_and_ekphonetic": {
+  "p_oxy_1786": {
+   "sacred_names": "written in full in the editors' transcription: θεοῦ (l. 1), πατέρα, υἱόν, ἅγιον πνεῦμα (l. 4); no overlined contraction reported",
+   "opening": "lost; preserved part calls on creation (stars, rivers, all the powers) to sing",
+   "notation": "vocal notes above every line"
+  },
+  "p_amh_2": {
+   "date": "4th c. (Grenfell & Hunt 1900)",
+   "form": "alphabetic acrostic, 25 lines, three cola per line marked by double dots",
+   "metre": "accentual: every colon ends on an accented penultimate (the 'tonic principle already on the path of victory')",
+   "subject": "baptism and life ('washed in the Jordan', 'that thou mayst receive life'); opening mutilated",
+   "notation": "none"
+  },
+  "berlin_bkt_vi_6_8": "not openly available here",
+  "ekphonetic": "no open digital corpus found (Hoeg 1935, Engberg, Wellesz 1966 are in copyright / borrow-only); test designed, not run"
+ }
+}

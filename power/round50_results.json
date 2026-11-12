@@ -1,0 +1,287 @@
+{
+ "R1": {
+  "01": {
+   "lines_in_John": 5180,
+   "verses": 879,
+   "position": 0.4897,
+   "p": 0.0448
+  },
+  "03": {
+   "lines_in_John": 4081,
+   "verses": 879,
+   "position": 0.4876,
+   "p": 0.0538
+  },
+  "words (secondary)": {
+   "position": 0.486,
+   "p": 0.0611
+  },
+  "letters (secondary)": {
+   "position": 0.4881,
+   "p": 0.0519
+  },
+  "verses (secondary)": {
+   "position": 0.5017,
+   "p": 0.0075
+  },
+  "morae / spoken time (secondary)": {
+   "position": 0.4874,
+   "p": 0.0549
+  },
+  "pass": false
+ },
+ "R2": {
+  "occurrences": 8,
+  "yes": 5,
+  "base_rate": 0.192,
+  "p": 0.0087,
+  "unlabelled": [],
+  "labels": [
+   [
+    "1:13",
+    1,
+    "one like a son of man in the middle of the lampstands"
+   ],
+   [
+    "2:1",
+    1,
+    "he who walks in the middle of the seven lampstands"
+   ],
+   [
+    "4:6",
+    0,
+    "four living creatures in the middle of the throne"
+   ],
+   [
+    "5:6",
+    1,
+    "a Lamb standing in the middle of the throne"
+   ],
+   [
+    "5:6",
+    1,
+    "a Lamb standing in the middle of the throne"
+   ],
+   [
+    "6:6",
+    0,
+    "a voice in the middle of the four living creatures"
+   ],
+   [
+    "7:17",
+    1,
+    "the Lamb in the middle of the throne"
+   ],
+   [
+    "22:2",
+    0,
+    "the tree of life in the middle of the street"
+   ]
+  ],
+  "pass": true
+ },
+ "R3": {
+  "chapters_included": 10,
+  "mean_signed_tau": 0.054,
+  "null_mean": -0.0,
+  "p_one_sided": 0.3146,
+  "detail": [
+   [
+    "OT Joel 2",
+    0.0,
+    [
+     "trumpet",
+     "trumpet",
+     "voice",
+     "voice",
+     "voice",
+     "trumpet",
+     "trumpet"
+    ]
+   ],
+   [
+    "OT Habacuc 3",
+    0.0,
+    [
+     "song",
+     "voice",
+     "voice",
+     "song"
+    ]
+   ],
+   [
+    "OT Isaias 24",
+    0.5,
+    [
+     "voice",
+     "song",
+     "voice",
+     "cry"
+    ]
+   ],
+   [
+    "OT Isaias 29",
+    0.3,
+    [
+     "voice",
+     "voice",
+     "cry",
+     "earthquake",
+     "voice"
+    ]
+   ],
+   [
+    "OT Isaias 66",
+    -0.5,
+    [
+     "voice",
+     "cry",
+     "voice",
+     "voice",
+     "song"
+    ]
+   ],
+   [
+    "NT Re 5",
+    0.2,
+    [
+     "voice",
+     "song",
+     "song",
+     "voice",
+     "voice"
+    ]
+   ],
+   [
+    "NT Re 6",
+    0.04,
+    [
+     "voice",
+     "thunder",
+     "voice",
+     "voice",
+     "cry",
+     "voice",
+     "earthquake",
+     "wind"
+    ]
+   ],
+   [
+    "NT Re 7",
+    0.13,
+    [
+     "wind",
+     "wind",
+     "cry",
+     "voice",
+     "cry",
+     "voice"
+    ]
+   ],
+   [
+    "NT Re 9",
+    0.07,
+    [
+     "trumpet",
+     "voice",
+     "voice",
+     "trumpet",
+     "voice",
+     "trumpet"
+    ]
+   ],
+   [
+    "NT Re 18",
+    -0.2,
+    [
+     "cry",
+     "voice",
+     "voice",
+     "cry",
+     "cry",
+     "voice",
+     "song",
+     "trumpet",
+     "voice",
+     "voice"
+    ]
+   ]
+  ],
+  "pass": false
+ },
+ "R4": {
+  "i_am_verses": 168,
+  "on_mese": 73,
+  "rate": 0.435,
+  "base_rate": 0.309,
+  "p": 0.0004,
+  "pass": true
+ },
+ "holm": {
+  "raw": {
+   "R1": 0.0538,
+   "R2": 0.0087,
+   "R3": 0.3146,
+   "R4": 0.0004
+  },
+  "adjusted": {
+   "R4": 0.0016,
+   "R2": 0.0261,
+   "R1": 0.1076,
+   "R3": 0.3146
+  },
+  "survive": [
+   "R4",
+   "R2"
+  ]
+ },
+ "S5_secondary": {
+  "Mt": {
+   "power_verses": 26,
+   "greek_minus_syriac_power": -0.487,
+   "greek_minus_syriac_other": 0.082,
+   "difference": -0.569,
+   "p_two_sided": 0.0436
+  },
+  "Lk": {
+   "power_verses": 5,
+   "greek_minus_syriac_power": -0.386,
+   "greek_minus_syriac_other": 0.114,
+   "difference": -0.5,
+   "p_two_sided": 0.4112
+  }
+ },
+ "psalm24_second_temple": {
+  "file": "power/audio/r50_tamid_psalm24_lyre_second_temple.mp3",
+  "string_shares": {
+   "hypate": 0.0,
+   "parhypate": 0.046,
+   "lichanos": 0.133,
+   "mese": 0.128,
+   "trite": 0.066,
+   "paranete": 0.265,
+   "nete": 0.362
+  },
+  "rule": "qamets = long a (Moon string); shewa = short e; other vowels as Tiberian (sources: Origen's Secunda and LXX transcriptions, which write qamets as alpha)"
+ },
+ "mold": {
+  "Josephus, Antiquities 3 (the menorah)": [
+   [
+    "των πλανητων",
+    "ημαίνει τάλαντον. πεποίηται δὲ σφαιρία καὶ κρίνα σὺν ῥοΐσκοις καὶ κρατηριδίοις, ἑβδομήκοντα δʼ ἦν τὰ πάντα, ἐξ ὧν ἀπὸ μιᾶς βάσεως συνετέθη πρὸς ὕψος, ποιήσαντος αὐτὴν συγκειμένην εἰς μοίρας εἰς ὅσας τοὺς πλανήτας καὶ τὸν ἥλιον κατανέμουσιν. ἀπαρτίζεται δὲ εἰς ἑπτὰ κεφαλὰς καταλλήλας ἐν στίχῳ διακειμένας. λύχνοι δʼ ἐπιφέρονται αὐταῖς ἑπτὰ κατὰ μίαν τῶν πλανητῶν τὸν ἀριθμὸν μεμιμημένοι, ὁρῶσι δὲ εἴς τε τὴν ἀνατολὴν καὶ τὴν μεσημβρίαν λοξῶς αὐτῆς κειμένης. Μεταξὺ δὲ αὐτῆς καὶ τῆς τραπέζης ἔνδον, ὡς προεῖπον, θυμιατήριον ξύλινον μέν, ἐξ οὗ καὶ τὰ πρότερα ἦν σκεύη μὴ σηπόμενα, στερεὰ δὲ περιελήλατʼ αὐτῷ λεπίς, πηχυαῖον μὲν κατὰ πλευρὰν ἑκάστην τὸ πλάτος ὕψος δὲ διπλάσιον. ἐπῆν τε ἐσχάρα χρυσεία ὑ"
+   ]
+  ],
+  "Josephus, War 5.217": [
+   [
+    "επτα λυχνοι",
+    "ἴσον, εἴκοσι δὲ πηχῶν τὸ πλάτος ἦν. τὸ δʼ ἑξηκοντάπηχυ πάλιν διῄρητο, καὶ τὸ μὲν πρῶτον μέρος ἀποτετμημένον ἐπὶ τεσσαράκοντα πήχεις εἶχεν ἐν αὑτῷ τρία θαυμασιώτατα καὶ περιβόητα πᾶσιν ἀνθρώποις ἔργα, λυχνίαν τράπεζαν θυμιατήριον. ἐνέφαινον δʼ οἱ μὲν ἑπτὰ λύχνοι τοὺς πλανήτας· τοσοῦτοι γὰρ ἀπʼ αὐτῆς διῄρηντο τῆς λυχνίας· οἱ δὲ ἐπὶ τῆς τραπέζης ἄρτοι δώδεκα τὸν ζῳδιακὸν κύκλον καὶ τὸν ἐνιαυτόν. τὸ θυμιατήριον δὲ διὰ τῶν τρισκαίδεκα θυμιαμάτων, οἷς ἐκ θαλάσσης ἀνεπίμπλατο καὶ τῆς τε ἀοικήτου καὶ οἰ"
+   ]
+  ],
+  "Philo (sun in the middle of the seven)": [],
+  "Genesis 1:1-2:3, day 4 (sun, moon, stars) by words": {
+   "position": 0.413,
+   "p": 0.371
+  },
+  "Chaldean planetary order": "Saturn, Jupiter, Mars, SUN, Venus, Mercury, Moon: the Sun is 4th of 7, the middle (Ptolemy, Almagest 9.1; the order behind Nicomachus' strings)"
+ }
+}

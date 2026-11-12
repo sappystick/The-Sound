@@ -1,0 +1,59 @@
+{
+ "preregistration": "robustness/PREREG_R53.md (commit abfcfd8)",
+ "H2_syriac_words": {
+  "position": 0.5141,
+  "p": 0.0619,
+  "total": 11919,
+  "centre_verse": "9:40"
+ },
+ "syriac_letters (secondary)": {
+  "position": 0.5136,
+  "p": 0.0597,
+  "total": 46666,
+  "centre_verse": "9:40"
+ },
+ "H2_sahidic_tokens": {
+  "position": 0.5087,
+  "p": 0.0382,
+  "total": 25447,
+  "centre_verse": "10:4"
+ },
+ "sahidic_letters (secondary)": {
+  "position": 0.505,
+  "p": 0.0221,
+  "total": 65325,
+  "centre_verse": "10:7"
+ },
+ "H2_pass": false,
+ "H3_P66": {
+  "position": 0.5077,
+  "p": 0.034,
+  "total": 65511.3,
+  "centre_verse": "10:4",
+  "preserved_verses": 552,
+  "coverage": 0.637,
+  "letter_ratio": 0.965,
+  "last_preserved": "16:15"
+ },
+ "H3_P75": {
+  "position": 0.506,
+  "p": 0.0265,
+  "total": 65242.6,
+  "centre_verse": "10:6",
+  "preserved_verses": 268,
+  "coverage": 0.305,
+  "letter_ratio": 0.961,
+  "last_preserved": "14:20"
+ },
+ "H3_pass": true,
+ "holm": {
+  "raw": {
+   "H2": 0.0619,
+   "H3": 0.034
+  },
+  "adjusted": {
+   "H3": 0.068,
+   "H2": 0.068
+  }
+ }
+}

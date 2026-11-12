@@ -1,0 +1,153 @@
+{
+ "T1_elements": {
+  "hits": 1,
+  "which": [
+   "bronze clasps: 50 = Sn"
+  ],
+  "null_mean": 0.83,
+  "p": 0.6137
+ },
+ "T2_constants": {
+  "pi": {
+   "observed": 0,
+   "values": [],
+   "null_mean": 0.0,
+   "p": 1.0
+  },
+  "phi": {
+   "observed": 0,
+   "values": [],
+   "null_mean": 0.0,
+   "p": 1.0
+  },
+  "sqrt2": {
+   "observed": 0,
+   "values": [],
+   "null_mean": 0.0,
+   "p": 1.0
+  },
+  "sqrt3": {
+   "observed": 0,
+   "values": [],
+   "null_mean": 0.0,
+   "p": 1.0
+  },
+  "e": {
+   "observed": 0,
+   "values": [],
+   "null_mean": 0.0,
+   "p": 1.0
+  },
+  "ark_note": "the ark's 2.5:1.5 = 5:3 = 1.667, 3.0% from phi: consecutive Fibonacci numbers, as small integers often are"
+ },
+ "T3_pi": {
+  "ketiv_qere_pairs": 1238,
+  "bronze_sea": {
+   "ketiv": "קוה 111",
+   "qere": "קו 106",
+   "value": 3.141509,
+   "pi": 3.141593,
+   "relative_error": "2.65e-05"
+  },
+  "pairs_as_close_with_multiplier_3": 10,
+  "close_pairs": [
+   "Jer: קוה (111) / קו (106) -> 3.14151",
+   "Ps: דברו (212) / דבריו (222) -> 2.86486",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: עליא (111) / עלאה (106) -> 3.14151",
+   "Dan: דבריו (222) / דברו (212) -> 3.14151"
+  ],
+  "distinct_close_pairs": [
+   [
+    "דברו",
+    "דבריו"
+   ],
+   [
+    "דבריו",
+    "דברו"
+   ],
+   [
+    "עליא",
+    "עלאה"
+   ],
+   [
+    "קוה",
+    "קו"
+   ]
+  ],
+  "pairs_as_close_with_any_multiplier_1_to_10": 10,
+  "expected_with_any_multiplier": 2.19,
+  "note": "the expected count assumes ratios spread over roughly 0.6 of a unit around each target; the bronze sea is the one case in a verse about a circle",
+  "bronze_sea_as_written": {
+   "ketiv": "וקוה 117 (with the conjunction 'and')",
+   "qere": "וקו 112",
+   "value": 3.13393,
+   "note": "the pi value needs the conjunction removed; the same 111/106 ratio also occurs in Daniel's Aramaic 'Most High' (x7) and in 'his words' (222/212), none about circles"
+  }
+ },
+ "T4_electrical": {
+  "surface_m2": 3.86,
+  "dielectric": "dry acacia, relative permittivity about 2.5",
+  "capacitance": {
+   "1 cm acacia": {
+    "nF": 8.55,
+    "J_at_10kV": 0.427,
+    "J_at_50kV": 10.68
+   },
+   "2 cm acacia": {
+    "nF": 4.27,
+    "J_at_10kV": 0.214,
+    "J_at_50kV": 5.34
+   },
+   "5 cm acacia": {
+    "nF": 1.71,
+    "J_at_10kV": 0.085,
+    "J_at_50kV": 2.14
+   }
+  },
+  "comparison": "a static shock is about 0.001 J; an electric fence pulse up to about 5 J; a defibrillator 150-360 J",
+  "note": "no charging source is described; with 2 cm of wood, 50 kV stores about 5 J, painful to dangerous but not the 'device' of popular claims"
+ },
+ "T5_magnetic": {
+  "metals": [
+   "gold (diamagnetic)",
+   "silver (diamagnetic)",
+   "bronze = copper + tin (diamagnetic / weakly paramagnetic)"
+  ],
+  "iron": "absent from the tabernacle's furnishings; excluded from altar stones ('if you wield your tool on it you profane it', Exod 20:25; Deut 27:5) and from the temple site: 'no hammer or axe or any iron tool was heard in the House while it was being built' (1 Kgs 6:7)",
+  "calc": "every named metal has magnetic susceptibility below 1e-5 in magnitude: the sanctuary is magnetically inert"
+ },
+ "T6_geometric": {
+  "cubes": [
+   "tabernacle Holy of Holies 10",
+   "Solomon's Holy of Holies 20",
+   "Herod's house 100",
+   "New Jerusalem 12,000 stadia"
+  ],
+  "squares": [
+   "altars",
+   "breastpiece (a span, doubled)",
+   "Ezekiel's temple 100 and 500",
+   "Herod's Temple Mount 500",
+   "Ezekiel's hearth 12"
+  ],
+  "double_squares": [
+   "Holy Place 20 x 10",
+   "porch 20 x 10",
+   "court 100 x 50",
+   "table 2 x 1"
+  ],
+  "plato": "Timaeus 55d-56a gives each element a solid: earth = the cube, fire = tetrahedron, air = octahedron, water = icosahedron",
+  "timaeus_text": "ς ὀκτὼ στερεὰς ἀπετέλεσεν, κατὰ τρεῖς ἐπιπέδους ὀρθὰς συναρμοσθείσης ἑκάστης· τὸ δὲ σχῆμα τοῦ συστάντος σώματος γέγονεν κυβικόν, ἓξ ἐπιπέδους τετραγώνους ἰσοπλεύρους βάσεις ἔχον. ἔτι δὲ οὔσης συστάσεως μιᾶς πέμπτης, ἐπὶ τὸ πᾶν ὁ θεὸς αὐτῇ κατεχρήσατο ἐκεῖνο διαζωγραφῶν. ἃ δή τις εἰ πάντα λογιζόμενος ἐμμελῶς ἀποροῖ πότε"
+ },
+ "T7_geographic": {
+  "orientation": "the tabernacle's entrance faces east (Exod 27:13); the glory enters Ezekiel's temple from the east (Ezek 43:2)",
+  "camp": "Num 2: twelve tribes, three on each side of the tabernacle; the breastpiece: twelve stones in four rows of three (Exod 28:17-21)",
+  "note": "the breastpiece is a 4 x 3 grid of the twelve tribes; the camp is a 4 x 3 arrangement of the same twelve around the centre"
+ }
+}

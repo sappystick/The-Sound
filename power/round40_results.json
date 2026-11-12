@@ -1,0 +1,2577 @@
+{
+ "spaces": {
+  "holy_of_holies_solomon": {
+   "dims_m": [
+    8.9,
+    8.9,
+    8.9
+   ],
+   "rt_s": 3.0,
+   "basis": "1 Kgs 6:20, 20-cubit cube @0.445 m; cedar overlaid with gold, veil",
+   "modes_below_320": 2739,
+   "bandwidth_Hz": 0.73,
+   "preferred_note_Hz": 155.0,
+   "modes_stacked": 18,
+   "mean_absorption": 0.08,
+   "sung_note_excites_share": 0.011,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 71.4,
+    "loud voice (1 mW)": 81.4,
+    "shout (5 mW)": 88.4,
+    "shofar (0.3 W)": 106.4,
+    "120 trumpets + singers (2 Chr 5:12)": 127.4
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ]
+   },
+   "preferred_note": "D#3-6c"
+  },
+  "holy_place_solomon": {
+   "dims_m": [
+    17.8,
+    8.9,
+    13.35
+   ],
+   "rt_s": 4.5,
+   "basis": "1 Kgs 6:2,17 (40 x 20 x 30 cubits)",
+   "modes_below_320": 7902,
+   "bandwidth_Hz": 0.49,
+   "preferred_note_Hz": 155.5,
+   "modes_stacked": 21,
+   "mean_absorption": 0.073,
+   "sung_note_excites_share": 0.008,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 69.5,
+    "loud voice (1 mW)": 79.5,
+    "shout (5 mW)": 86.5,
+    "shofar (0.3 W)": 104.5,
+    "120 trumpets + singers (2 Chr 5:12)": 125.5
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ]
+   },
+   "preferred_note": "D#3-1c"
+  },
+  "tabernacle_holy_of_holies": {
+   "dims_m": [
+    4.45,
+    4.45,
+    4.45
+   ],
+   "rt_s": 1.2,
+   "basis": "10-cubit cube inferred from Exod 26; curtains (absorptive)",
+   "modes_below_320": 385,
+   "bandwidth_Hz": 1.83,
+   "preferred_note_Hz": 158.0,
+   "modes_stacked": 9,
+   "mean_absorption": 0.1,
+   "sung_note_excites_share": 0.031,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 75.4,
+    "loud voice (1 mW)": 85.4,
+    "shout (5 mW)": 92.4,
+    "shofar (0.3 W)": 110.4,
+    "120 trumpets + singers (2 Chr 5:12)": 131.4
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [
+     "vestibular (saccule) response, loud low tones"
+    ],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned",
+     "pain"
+    ]
+   },
+   "preferred_note": "D#3+27c"
+  },
+  "kings_chamber": {
+   "dims_m": [
+    10.47,
+    5.24,
+    5.84
+   ],
+   "rt_s": 6.0,
+   "basis": "Great Pyramid, red granite; Petrie survey",
+   "modes_below_320": 1299,
+   "bandwidth_Hz": 0.37,
+   "preferred_note_Hz": 132.0,
+   "modes_stacked": 6,
+   "mean_absorption": 0.029,
+   "sung_note_excites_share": 0.011,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 76.9,
+    "loud voice (1 mW)": 86.9,
+    "shout (5 mW)": 93.9,
+    "shofar (0.3 W)": 111.9,
+    "120 trumpets + singers (2 Chr 5:12)": 132.9
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [
+     "vestibular (saccule) response, loud low tones"
+    ],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned",
+     "pain"
+    ]
+   },
+   "preferred_note": "C3+16c"
+  },
+  "queens_chamber": {
+   "dims_m": [
+    5.75,
+    5.23,
+    5.46
+   ],
+   "rt_s": 4.0,
+   "basis": "Great Pyramid, limestone; gabled roof 4.69-6.23 m, mean height used",
+   "modes_below_320": 689,
+   "bandwidth_Hz": 0.55,
+   "preferred_note_Hz": 163.0,
+   "modes_stacked": 3,
+   "mean_absorption": 0.037,
+   "sung_note_excites_share": 0.004,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 77.9,
+    "loud voice (1 mW)": 87.9,
+    "shout (5 mW)": 94.9,
+    "shofar (0.3 W)": 112.9,
+    "120 trumpets + singers (2 Chr 5:12)": 133.9
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [
+     "vestibular (saccule) response, loud low tones"
+    ],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned",
+     "pain"
+    ]
+   },
+   "preferred_note": "E3-19c"
+  },
+  "rock_tomb_bethany_type": {
+   "dims_m": [
+    3.0,
+    3.0,
+    2.0
+   ],
+   "rt_s": 1.5,
+   "basis": "typical Judean kokhim burial chamber (Hachlili 2005); Lazarus' tomb dimensions unknown",
+   "modes_below_320": 94,
+   "bandwidth_Hz": 1.47,
+   "preferred_note_Hz": 171.0,
+   "modes_stacked": 3,
+   "mean_absorption": 0.046,
+   "sung_note_excites_share": 0.032,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 83.0,
+    "loud voice (1 mW)": 93.0,
+    "shout (5 mW)": 100.0,
+    "shofar (0.3 W)": 118.0,
+    "120 trumpets + singers (2 Chr 5:12)": 139.0
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [
+     "vestibular (saccule) response, loud low tones"
+    ],
+    "shout (5 mW)": [
+     "vestibular (saccule) response, loud low tones",
+     "wine glass shatters, exactly tuned"
+    ],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned",
+     "pain"
+    ]
+   },
+   "preferred_note": "F3-36c"
+  },
+  "galilee_synagogue_hall": {
+   "dims_m": [
+    20.0,
+    15.0,
+    7.0
+   ],
+   "rt_s": 1.7,
+   "basis": "Gamla/Capernaum-size hall, approximate",
+   "modes_below_320": 7899,
+   "bandwidth_Hz": 1.29,
+   "preferred_note_Hz": 173.5,
+   "modes_stacked": 41,
+   "mean_absorption": 0.182,
+   "sung_note_excites_share": 0.005,
+   "pop_or_hiss_excites_share": 1.0,
+   "levels_dB_at_2m": {
+    "chant (0.1 mW)": 67.5,
+    "loud voice (1 mW)": 77.5,
+    "shout (5 mW)": 84.5,
+    "shofar (0.3 W)": 102.5,
+    "120 trumpets + singers (2 Chr 5:12)": 123.5
+   },
+   "thresholds_crossed": {
+    "chant (0.1 mW)": [],
+    "loud voice (1 mW)": [],
+    "shout (5 mW)": [],
+    "shofar (0.3 W)": [
+     "vestibular (saccule) response, loud low tones",
+     "wine glass shatters, exactly tuned"
+    ],
+    "120 trumpets + singers (2 Chr 5:12)": [
+     "vestibular (saccule) response, loud low tones",
+     "discomfort",
+     "wine glass shatters, exactly tuned"
+    ]
+   },
+   "preferred_note": "F3-11c"
+  }
+ },
+ "reported_resonances": {
+  "Newgrange passage tomb": "110 Hz (Jahn, Devereux & Ibison 1996, J. Acoust. Soc. Am. 99:649)",
+  "Six British/Irish megalithic chambers": "95-120 Hz, clustered at 110-112 Hz (same study)",
+  "Hal Saflieni Hypogeum, Oracle Room (Malta)": "about 110-114 Hz reported (Debertolis et al. 2015); 110 Hz tones shift frontal EEG asymmetry (Cook, Pajot & Leuchter 2008, Time and Mind 1:95)"
+ },
+ "thresholds": [
+  [
+   "vestibular (saccule) response, loud low tones",
+   90,
+   "Todd & Cody 2000; Todd et al. 2008"
+  ],
+  [
+   "discomfort",
+   110,
+   "standard audiology"
+  ],
+  [
+   "wine glass shatters, exactly tuned",
+   100,
+   "demonstrations, sustained"
+  ],
+  [
+   "pain",
+   130,
+   "standard"
+  ],
+  [
+   "masonry damage (blast-type overpressure ~3.5 kPa)",
+   165,
+   "blast engineering order of magnitude"
+  ]
+ ],
+ "sources_Lw_dB": {
+  "chant (0.1 mW)": 80,
+  "loud voice (1 mW)": 90,
+  "shout (5 mW)": 97,
+  "shofar (0.3 W)": 115,
+  "120 trumpets + singers (2 Chr 5:12)": 136
+ },
+ "jericho_outdoor_dB_at_30m": {
+  "shouts": {
+   "1": 59.5,
+   "1000": 89.5,
+   "40000": 105.5,
+   "600000": 117.2
+  },
+  "seven_shofars": 85.9,
+  "note": "Josh 6:20; 40,000 (Josh 4:13) and 600,000 (Exod 12:37) as the text's own numbers; incoherent sources add in power"
+ },
+ "utterances": {
+  "talitha_koum": {
+   "phonemes": "tˤ a l i θ a q u m",
+   "syllables": 4,
+   "vowels": "a i a u",
+   "voiced_share": 0.667,
+   "noise_share": 0.111,
+   "stop_share": 0.222,
+   "mean_F2": 1415.0,
+   "chant_seconds": 2.4,
+   "ref": "Mark 5:41",
+   "original": "ταλιθα κουμ",
+   "basis": "Aramaic ṭəlīṯā qūm; Western Aramaic vowels (Dalman)",
+   "context": "raising the dead girl",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 7
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 6
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.947
+  },
+  "ephphatha": {
+   "phonemes": "ʔ ɛ f f a θ a",
+   "syllables": 3,
+   "vowels": "ɛ a a",
+   "voiced_share": 0.429,
+   "noise_share": 0.429,
+   "stop_share": 0.143,
+   "mean_F2": 1450.0,
+   "chant_seconds": 1.6,
+   "ref": "Mark 7:34",
+   "original": "εφφαθα",
+   "basis": "as transliterated in Greek; Aramaic ʾeppattaḥ/ʾetpəṯaḥ debated",
+   "context": "opening deaf ears, with a sigh",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 1.0
+  },
+  "abba": {
+   "phonemes": "a b b a",
+   "syllables": 2,
+   "vowels": "a a",
+   "voiced_share": 1.0,
+   "noise_share": 0.0,
+   "stop_share": 0.5,
+   "mean_F2": 1250.0,
+   "chant_seconds": 1.2,
+   "ref": "Mark 14:36",
+   "original": "αββα",
+   "basis": "Aramaic ʾabbā",
+   "context": "prayer in Gethsemane",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "eloi": {
+   "phonemes": "ʔ e l o i ʔ e l o i l ə m a ʃ ə v a q t a n i",
+   "syllables": 12,
+   "vowels": "e o i e o i ə a ə a a i",
+   "voiced_share": 0.783,
+   "noise_share": 0.087,
+   "stop_share": 0.174,
+   "mean_F2": 1618.0,
+   "chant_seconds": 6.4,
+   "ref": "Mark 15:34",
+   "original": "ελωι ελωι λεμα σαβαχθανι",
+   "basis": "Aramaic ʾĕlāhî ... šəḇaqtanî",
+   "context": "cry at death, 'with a loud voice'",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.133
+  },
+  "lazarus": {
+   "phonemes": "l a z a r ɛ ð ɛ v r o ɛ k s o",
+   "syllables": 7,
+   "vowels": "a a ɛ ɛ o ɛ o",
+   "voiced_share": 0.867,
+   "noise_share": 0.267,
+   "stop_share": 0.067,
+   "mean_F2": 1379.0,
+   "chant_seconds": 4.0,
+   "ref": "John 11:43",
+   "original": "Λάζαρε, δεῦρο ἔξω.",
+   "basis": "Koine (engine)",
+   "context": "raising Lazarus, 'cried with a loud voice'",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.003
+  },
+  "ego_eimi": {
+   "phonemes": "ɛ ɣ o iː m i",
+   "syllables": 4,
+   "vowels": "ɛ o i i",
+   "voiced_share": 1.0,
+   "noise_share": 0.167,
+   "stop_share": 0.0,
+   "mean_F2": 1808.0,
+   "chant_seconds": 2.4,
+   "ref": "John 18:6",
+   "original": "ἐγώ εἰμι.",
+   "basis": "Koine (engine)",
+   "context": "soldiers 'went backward and fell to the ground'",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "tetelestai": {
+   "phonemes": "t ɛ t ɛ l ɛ s t ɛ",
+   "syllables": 4,
+   "vowels": "ɛ ɛ ɛ ɛ",
+   "voiced_share": 0.556,
+   "noise_share": 0.111,
+   "stop_share": 0.333,
+   "mean_F2": 1850.0,
+   "chant_seconds": 2.0,
+   "ref": "John 19:30",
+   "original": "τετέλεσται.",
+   "basis": "Koine (engine)",
+   "context": "last word; 'gave up the spirit'",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 1.0
+  },
+  "amen_amen": {
+   "phonemes": "a m e n a m e n l ɛ ɣ o y m i n",
+   "syllables": 8,
+   "vowels": "a e a e ɛ o y i",
+   "voiced_share": 1.0,
+   "noise_share": 0.062,
+   "stop_share": 0.0,
+   "mean_F2": 1686.0,
+   "chant_seconds": 4.8,
+   "ref": "John 1:51 etc.",
+   "original": "ἀμὴν ἀμὴν λέγω ὑμῖν",
+   "basis": "Koine (engine)",
+   "context": "John's solemn opening (25 times)",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 14
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 11
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "yehi_or": {
+   "phonemes": "j ə h iː ʔ oː r",
+   "syllables": 3,
+   "vowels": "ə i o",
+   "voiced_share": 0.714,
+   "noise_share": 0.143,
+   "stop_share": 0.143,
+   "mean_F2": 1530.0,
+   "chant_seconds": 2.0,
+   "ref": "Genesis 1:3",
+   "original": "יְהִי אוֹר",
+   "basis": "Tiberian-type (engine)",
+   "context": "creation by speech",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.65
+  },
+  "ehyeh": {
+   "phonemes": "ʔ ɛ h j ɛ ʔ a ʃ ɛ r ʔ ɛ h j ɛ",
+   "syllables": 6,
+   "vowels": "ɛ ɛ a ɛ ɛ ɛ",
+   "voiced_share": 0.6,
+   "noise_share": 0.2,
+   "stop_share": 0.2,
+   "mean_F2": 1750.0,
+   "chant_seconds": 3.6,
+   "ref": "Exodus 3:14",
+   "original": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+   "basis": "Tiberian-type (engine)",
+   "context": "the name at the bush",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 1.0
+  },
+  "shema": {
+   "phonemes": "ʃ ə m a ʕ j i s r ɔː ʔ eː l j ə h w ɔː ʔ ɛ l oː h eː n uː j ə h w ɔː ʔ ɛ ħ ɔː ð",
+   "syllables": 15,
+   "vowels": "ə a i ɔ e ə ɔ ɛ o e u ə ɔ ɛ ɔ",
+   "voiced_share": 0.75,
+   "noise_share": 0.194,
+   "stop_share": 0.083,
+   "mean_F2": 1398.0,
+   "chant_seconds": 8.4,
+   "ref": "Deuteronomy 6:4",
+   "original": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָד",
+   "basis": "Tiberian-type (engine)",
+   "context": "the confession",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 7
+     },
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 6
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 5
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.36
+  },
+  "qadosh": {
+   "phonemes": "q ɔː ð oː ʃ q ɔː ð oː ʃ q ɔː ð oː ʃ",
+   "syllables": 6,
+   "vowels": "ɔ o ɔ o ɔ o",
+   "voiced_share": 0.6,
+   "noise_share": 0.4,
+   "stop_share": 0.2,
+   "mean_F2": 820.0,
+   "chant_seconds": 3.6,
+   "ref": "Isaiah 6:3",
+   "original": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ",
+   "basis": "Tiberian-type (engine)",
+   "context": "seraphim; 'the posts of the door moved at the voice'",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 1.0
+  },
+  "terua": {
+   "phonemes": "t ə r uː ʕ ɔː ɣ ə ð oː l ɔː",
+   "syllables": 6,
+   "vowels": "ə u ɔ ə o ɔ",
+   "voiced_share": 0.917,
+   "noise_share": 0.167,
+   "stop_share": 0.083,
+   "mean_F2": 1058.0,
+   "chant_seconds": 3.2,
+   "ref": "Joshua 6:20",
+   "original": "תְּרוּעָה גְדוֹלָה",
+   "basis": "Tiberian-type (engine)",
+   "context": "the great shout at Jericho",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 7
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     },
+     {
+      "v": "ə",
+      "F1_harm": 4,
+      "F2_harm": 11
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 6
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 10
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ə",
+      "F1_harm": 3,
+      "F2_harm": 9
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "seven_vowels": {
+   "phonemes": "a ɛ e i o y ɔ",
+   "syllables": 7,
+   "vowels": "a ɛ e i o y ɔ",
+   "voiced_share": 1.0,
+   "noise_share": 0.0,
+   "stop_share": 0.0,
+   "mean_F2": 1569.0,
+   "chant_seconds": 5.4,
+   "ref": "Demetrius, On Style 71; PGM XIII",
+   "original": "αεηιουω",
+   "basis": "Koine-era values of the seven letters",
+   "context": "hymn of the Egyptian priests",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 14
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 6
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 14
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 4,
+      "F2_harm": 12
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "ɛ",
+      "F1_harm": 3,
+      "F2_harm": 11
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "o",
+      "F1_harm": 3,
+      "F2_harm": 5
+     },
+     {
+      "v": "y",
+      "F1_harm": 2,
+      "F2_harm": 11
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "iao": {
+   "phonemes": "i a ɔ",
+   "syllables": 3,
+   "vowels": "i a ɔ",
+   "voiced_share": 1.0,
+   "noise_share": 0.0,
+   "stop_share": 0.0,
+   "mean_F2": 1460.0,
+   "chant_seconds": 1.6,
+   "ref": "PGM (89 times)",
+   "original": "ΙΑΩ",
+   "basis": "Greek vowels of the divine name",
+   "context": "the most frequent magical name",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 6
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 4,
+      "F2_harm": 5
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "ɔ",
+      "F1_harm": 3,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "ablanathanalba": {
+   "phonemes": "a b l a n a θ a n a l b a",
+   "syllables": 6,
+   "vowels": "a a a a a a",
+   "voiced_share": 0.923,
+   "noise_share": 0.077,
+   "stop_share": 0.154,
+   "mean_F2": 1250.0,
+   "chant_seconds": 2.9,
+   "ref": "PGM (16 times)",
+   "original": "ΑΒΛΑΝΑΘΑΝΑΛΒΑ",
+   "basis": "Koine",
+   "context": "palindrome name",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "abrasax": {
+   "phonemes": "a b r a s a k s",
+   "syllables": 3,
+   "vowels": "a a a",
+   "voiced_share": 0.625,
+   "noise_share": 0.25,
+   "stop_share": 0.25,
+   "mean_F2": 1250.0,
+   "chant_seconds": 1.6,
+   "ref": "PGM (34 times); = 365",
+   "original": "ΑΒΡΑΣΑΞ",
+   "basis": "Koine",
+   "context": "the year-god",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.997
+  },
+  "djed_medu": {
+   "phonemes": "d ʒ e d m e d u",
+   "syllables": 3,
+   "vowels": "e e u",
+   "voiced_share": 1.0,
+   "noise_share": 0.125,
+   "stop_share": 0.375,
+   "mean_F2": 1690.0,
+   "chant_seconds": 2.0,
+   "ref": "Pyramid Texts rubric",
+   "original": "ḏd mdw",
+   "basis": "Egyptian 'words to be said'; vowels reconstructed from Coptic (Loprieno 1995) - uncertain",
+   "context": "rubric opening every spell",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 16
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 7
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "e",
+      "F1_harm": 3,
+      "F2_harm": 14
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 6
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "e",
+      "F1_harm": 2,
+      "F2_harm": 12
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.0
+  },
+  "ankh_wedja_seneb": {
+   "phonemes": "ʕ a n a x w a d ʒ a ʔ s a n a b",
+   "syllables": 6,
+   "vowels": "a a a a a a",
+   "voiced_share": 0.812,
+   "noise_share": 0.188,
+   "stop_share": 0.188,
+   "mean_F2": 1250.0,
+   "chant_seconds": 3.6,
+   "ref": "Egyptian formula",
+   "original": "ʿnḫ wḏꜣ snb",
+   "basis": "Egyptian 'life, prosperity, health'; vocalised by convention - uncertain",
+   "context": "blessing on the king",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.047
+  },
+  "heka": {
+   "phonemes": "ħ i k a ʔ",
+   "syllables": 2,
+   "vowels": "i a",
+   "voiced_share": 0.4,
+   "noise_share": 0.2,
+   "stop_share": 0.4,
+   "mean_F2": 1770.0,
+   "chant_seconds": 1.2,
+   "ref": "Egyptian",
+   "original": "ḥkꜣ",
+   "basis": "Egyptian 'magic, word-power' (Coptic hik); vowel uncertain",
+   "context": "the god and force of effective speech",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 17
+     },
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 15
+     },
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "i",
+      "F1_harm": 2,
+      "F2_harm": 13
+     },
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 1.0
+  },
+  "amun": {
+   "phonemes": "ʔ a m u n",
+   "syllables": 2,
+   "vowels": "a u",
+   "voiced_share": 0.8,
+   "noise_share": 0.0,
+   "stop_share": 0.2,
+   "mean_F2": 1060.0,
+   "chant_seconds": 1.2,
+   "ref": "Egyptian / PGM 'AMOUN' (14)",
+   "original": "jmn",
+   "basis": "Coptic Amoun; PGM spelling",
+   "context": "the hidden one",
+   "overtone_melody": {
+    "kings_chamber": [
+     {
+      "v": "a",
+      "F1_harm": 6,
+      "F2_harm": 9
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 7
+     }
+    ],
+    "holy_of_holies_solomon": [
+     {
+      "v": "a",
+      "F1_harm": 5,
+      "F2_harm": 8
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 6
+     }
+    ],
+    "rock_tomb_bethany_type": [
+     {
+      "v": "a",
+      "F1_harm": 4,
+      "F2_harm": 7
+     },
+     {
+      "v": "u",
+      "F1_harm": 2,
+      "F2_harm": 5
+     }
+    ]
+   },
+   "voiced_pct_vs_john": 0.063
+  }
+ },
+ "null_john_narrative": {
+  "n": 300,
+  "voiced_mean": 0.733,
+  "voiced_sd": 0.044,
+  "noise_mean": 0.141,
+  "F2_mean": 1529.0
+ },
+ "test_voiced_power_vs_narrative": {
+  "diff": 0.05,
+  "p": 0.001,
+  "n_power": 21
+ },
+ "renders": [
+  {
+   "key": "talitha_koum",
+   "room": "rock_tomb_bethany_type",
+   "f0": 171.0,
+   "file": "power/audio/r40_talitha_koum.mp3"
+  },
+  {
+   "key": "ephphatha",
+   "room": "galilee_synagogue_hall",
+   "f0": 173.5,
+   "file": "power/audio/r40_ephphatha.mp3"
+  },
+  {
+   "key": "lazarus",
+   "room": "rock_tomb_bethany_type",
+   "f0": 171.0,
+   "file": "power/audio/r40_lazarus.mp3"
+  },
+  {
+   "key": "ego_eimi",
+   "room": "galilee_synagogue_hall",
+   "f0": 173.5,
+   "file": "power/audio/r40_ego_eimi.mp3"
+  },
+  {
+   "key": "qadosh",
+   "room": "holy_of_holies_solomon",
+   "f0": 155.0,
+   "file": "power/audio/r40_qadosh.mp3"
+  },
+  {
+   "key": "yehi_or",
+   "room": "holy_of_holies_solomon",
+   "f0": 155.0,
+   "file": "power/audio/r40_yehi_or.mp3"
+  },
+  {
+   "key": "seven_vowels",
+   "room": "kings_chamber",
+   "f0": 132.0,
+   "file": "power/audio/r40_seven_vowels.mp3"
+  },
+  {
+   "key": "djed_medu",
+   "room": "kings_chamber",
+   "f0": 132.0,
+   "file": "power/audio/r40_djed_medu.mp3"
+  },
+  {
+   "key": "ankh_wedja_seneb",
+   "room": "queens_chamber",
+   "f0": 163.0,
+   "file": "power/audio/r40_ankh_wedja_seneb.mp3"
+  },
+  {
+   "key": "ablanathanalba",
+   "room": "kings_chamber",
+   "f0": 132.0,
+   "file": "power/audio/r40_ablanathanalba.mp3"
+  }
+ ]
+}

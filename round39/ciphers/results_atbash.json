@@ -1,0 +1,1172 @@
+{
+ "atbash": {
+  "total_all": 318,
+  "total_rare": 5,
+  "per_book_rare": {
+   "Jer": 3,
+   "2Sam": 1,
+   "1Chr": 1
+  },
+  "per_book_all": {
+   "Gen": 24,
+   "1Sam": 11,
+   "Exod": 3,
+   "Lev": 7,
+   "2Sam": 28,
+   "1Kgs": 10,
+   "2Kgs": 5,
+   "Jer": 50,
+   "Ruth": 1,
+   "Eccl": 6,
+   "2Chr": 9,
+   "1Chr": 22,
+   "Prov": 21,
+   "Num": 2,
+   "Deut": 27,
+   "Josh": 26,
+   "Judg": 10,
+   "Isa": 10,
+   "Ezek": 8,
+   "Ps": 7,
+   "Job": 7,
+   "Lam": 4,
+   "Dan": 2,
+   "Hos": 1,
+   "Joel": 1,
+   "Mic": 1,
+   "Nah": 1,
+   "Zech": 1,
+   "Neh": 11,
+   "Zeph": 2
+  },
+  "rare_hits": [
+   {
+    "ref": "Jer 25:26",
+    "source": "ששכ",
+    "decoded": "בבל",
+    "source_freq": 2,
+    "decoded_in_chapter": 4
+   },
+   {
+    "ref": "Jer 51:41",
+    "source": "ששכ",
+    "decoded": "בבל",
+    "source_freq": 2,
+    "decoded_in_chapter": 36
+   },
+   {
+    "ref": "2Sam 23:11",
+    "source": "שמא",
+    "decoded": "בית",
+    "source_freq": 2,
+    "decoded_in_chapter": 4
+   },
+   {
+    "ref": "1Chr 7:37",
+    "source": "שמא",
+    "decoded": "בית",
+    "source_freq": 2,
+    "decoded_in_chapter": 8
+   },
+   {
+    "ref": "Jer 51:1",
+    "source": "לבקמי",
+    "decoded": "כשדימ",
+    "source_freq": 1,
+    "decoded_in_chapter": 4
+   }
+  ],
+  "candidates_freq_le5": [
+   {
+    "ref": "Jer 25:26",
+    "source": "ששכ",
+    "decoded": "בבל",
+    "source_freq": 2,
+    "decoded_in_chapter": 4
+   },
+   {
+    "ref": "Jer 51:41",
+    "source": "ששכ",
+    "decoded": "בבל",
+    "source_freq": 2,
+    "decoded_in_chapter": 36
+   },
+   {
+    "ref": "2Sam 23:11",
+    "source": "שמא",
+    "decoded": "בית",
+    "source_freq": 2,
+    "decoded_in_chapter": 4
+   },
+   {
+    "ref": "1Chr 7:37",
+    "source": "שמא",
+    "decoded": "בית",
+    "source_freq": 2,
+    "decoded_in_chapter": 8
+   },
+   {
+    "ref": "2Sam 16:1",
+    "source": "מפי",
+    "decoded": "יומ",
+    "source_freq": 3,
+    "decoded_in_chapter": 2
+   },
+   {
+    "ref": "2Sam 16:4",
+    "source": "מפי",
+    "decoded": "יומ",
+    "source_freq": 3,
+    "decoded_in_chapter": 2
+   },
+   {
+    "ref": "2Sam 21:7",
+    "source": "מפי",
+    "decoded": "יומ",
+    "source_freq": 3,
+    "decoded_in_chapter": 1
+   },
+   {
+    "ref": "1Chr 4:25",
+    "source": "מבשמ",
+    "decoded": "ישבי",
+    "source_freq": 3,
+    "decoded_in_chapter": 2
+   },
+   {
+    "ref": "Jer 51:1",
+    "source": "לבקמי",
+    "decoded": "כשדימ",
+    "source_freq": 1,
+    "decoded_in_chapter": 4
+   }
+  ],
+  "null_involution": {
+   "n": 20000,
+   "rare_mean": 3.1823,
+   "rare_sd": 2.0425148004359723,
+   "rare_p": 0.23493825308734564,
+   "all_mean": 237.7591,
+   "all_obs": 318,
+   "all_p": 0.21623918804059797,
+   "rare_quantiles": [
+    3.0,
+    6.0,
+    9.0
+   ]
+  },
+  "null_permutation": {
+   "n": 5000,
+   "rare_mean": 3.252,
+   "rare_sd": 2.0016233411908444,
+   "rare_p": 0.2429514097180564,
+   "all_mean": 247.5108,
+   "all_obs": 318,
+   "all_p": 0.21495700859828035,
+   "rare_quantiles": [
+    3.0,
+    6.0,
+    9.0
+   ]
+  },
+  "per_book_vs_involution": {
+   "Gen": {
+    "obs": 0,
+    "null_mean": 0.2244,
+    "p": 1.0
+   },
+   "Exod": {
+    "obs": 0,
+    "null_mean": 0.0895,
+    "p": 1.0
+   },
+   "Lev": {
+    "obs": 0,
+    "null_mean": 0.0616,
+    "p": 1.0
+   },
+   "Num": {
+    "obs": 0,
+    "null_mean": 0.1563,
+    "p": 1.0
+   },
+   "Deut": {
+    "obs": 0,
+    "null_mean": 0.14555,
+    "p": 1.0
+   },
+   "Josh": {
+    "obs": 0,
+    "null_mean": 0.09485,
+    "p": 1.0
+   },
+   "Judg": {
+    "obs": 0,
+    "null_mean": 0.0701,
+    "p": 1.0
+   },
+   "1Sam": {
+    "obs": 0,
+    "null_mean": 0.09575,
+    "p": 1.0
+   },
+   "2Sam": {
+    "obs": 1,
+    "null_mean": 0.1176,
+    "p": 0.11004449777511124
+   },
+   "1Kgs": {
+    "obs": 0,
+    "null_mean": 0.13525,
+    "p": 1.0
+   },
+   "2Kgs": {
+    "obs": 0,
+    "null_mean": 0.0739,
+    "p": 1.0
+   },
+   "Isa": {
+    "obs": 0,
+    "null_mean": 0.28695,
+    "p": 1.0
+   },
+   "Jer": {
+    "obs": 3,
+    "null_mean": 0.18325,
+    "p": 0.0022498875056247186
+   },
+   "Ezek": {
+    "obs": 0,
+    "null_mean": 0.1559,
+    "p": 1.0
+   },
+   "Hos": {
+    "obs": 0,
+    "null_mean": 0.01485,
+    "p": 1.0
+   },
+   "Joel": {
+    "obs": 0,
+    "null_mean": 0.0058,
+    "p": 1.0
+   },
+   "Amos": {
+    "obs": 0,
+    "null_mean": 0.02165,
+    "p": 1.0
+   },
+   "Obad": {
+    "obs": 0,
+    "null_mean": 0.00225,
+    "p": 1.0
+   },
+   "Jonah": {
+    "obs": 0,
+    "null_mean": 0.00215,
+    "p": 1.0
+   },
+   "Mic": {
+    "obs": 0,
+    "null_mean": 0.01365,
+    "p": 1.0
+   },
+   "Nah": {
+    "obs": 0,
+    "null_mean": 0.0093,
+    "p": 1.0
+   },
+   "Hab": {
+    "obs": 0,
+    "null_mean": 0.0035,
+    "p": 1.0
+   },
+   "Zeph": {
+    "obs": 0,
+    "null_mean": 0.0048,
+    "p": 1.0
+   },
+   "Hag": {
+    "obs": 0,
+    "null_mean": 0.00075,
+    "p": 1.0
+   },
+   "Zech": {
+    "obs": 0,
+    "null_mean": 0.013,
+    "p": 1.0
+   },
+   "Mal": {
+    "obs": 0,
+    "null_mean": 0.00595,
+    "p": 1.0
+   },
+   "Ps": {
+    "obs": 0,
+    "null_mean": 0.1203,
+    "p": 1.0
+   },
+   "Prov": {
+    "obs": 0,
+    "null_mean": 0.11695,
+    "p": 1.0
+   },
+   "Job": {
+    "obs": 0,
+    "null_mean": 0.14305,
+    "p": 1.0
+   },
+   "Song": {
+    "obs": 0,
+    "null_mean": 0.01185,
+    "p": 1.0
+   },
+   "Ruth": {
+    "obs": 0,
+    "null_mean": 0.01595,
+    "p": 1.0
+   },
+   "Lam": {
+    "obs": 0,
+    "null_mean": 0.0471,
+    "p": 1.0
+   },
+   "Eccl": {
+    "obs": 0,
+    "null_mean": 0.01355,
+    "p": 1.0
+   },
+   "Esth": {
+    "obs": 0,
+    "null_mean": 0.0399,
+    "p": 1.0
+   },
+   "Dan": {
+    "obs": 0,
+    "null_mean": 0.20005,
+    "p": 1.0
+   },
+   "Ezra": {
+    "obs": 0,
+    "null_mean": 0.0661,
+    "p": 1.0
+   },
+   "Neh": {
+    "obs": 0,
+    "null_mean": 0.06045,
+    "p": 1.0
+   },
+   "1Chr": {
+    "obs": 1,
+    "null_mean": 0.30435,
+    "p": 0.23483825808709566
+   },
+   "2Chr": {
+    "obs": 0,
+    "null_mean": 0.05415,
+    "p": 1.0
+   }
+  }
+ },
+ "albam": {
+  "total_all": 89,
+  "total_rare": 2,
+  "per_book_rare": {
+   "1Chr": 1,
+   "1Kgs": 1
+  },
+  "per_book_all": {
+   "Ruth": 3,
+   "Exod": 3,
+   "Josh": 16,
+   "1Kgs": 8,
+   "Ezek": 12,
+   "Amos": 3,
+   "2Chr": 7,
+   "1Chr": 5,
+   "2Kgs": 9,
+   "Gen": 3,
+   "Deut": 1,
+   "Judg": 1,
+   "1Sam": 5,
+   "2Sam": 2,
+   "Isa": 3,
+   "Jer": 1,
+   "Mic": 3,
+   "Neh": 3,
+   "Num": 1
+  },
+  "rare_hits": [
+   {
+    "ref": "1Chr 29:2",
+    "source": "שיש",
+    "decoded": "ישי",
+    "source_freq": 1,
+    "decoded_in_chapter": 1
+   },
+   {
+    "ref": "1Kgs 18:27",
+    "source": "שיג",
+    "decoded": "ישנ",
+    "source_freq": 1,
+    "decoded_in_chapter": 1
+   }
+  ],
+  "candidates_freq_le5": [
+   {
+    "ref": "1Chr 29:2",
+    "source": "שיש",
+    "decoded": "ישי",
+    "source_freq": 1,
+    "decoded_in_chapter": 1
+   },
+   {
+    "ref": "1Kgs 18:27",
+    "source": "שיג",
+    "decoded": "ישנ",
+    "source_freq": 1,
+    "decoded_in_chapter": 1
+   },
+   {
+    "ref": "1Sam 17:42",
+    "source": "יבט",
+    "decoded": "שמר",
+    "source_freq": 5,
+    "decoded_in_chapter": 1
+   },
+   {
+    "ref": "Gen 21:33",
+    "source": "יטע",
+    "decoded": "שרה",
+    "source_freq": 4,
+    "decoded_in_chapter": 8
+   }
+  ],
+  "null_involution": {
+   "n": 20000,
+   "rare_mean": 3.1823,
+   "rare_sd": 2.0425148004359723,
+   "rare_p": 0.7819109044547773,
+   "all_mean": 237.7591,
+   "all_obs": 89,
+   "all_p": 0.7992600369981501,
+   "rare_quantiles": [
+    3.0,
+    6.0,
+    9.0
+   ]
+  },
+  "null_permutation": {
+   "n": 5000,
+   "rare_mean": 3.252,
+   "rare_sd": 2.0016233411908444,
+   "rare_p": 0.7986402719456108,
+   "all_mean": 247.5108,
+   "all_obs": 89,
+   "all_p": 0.8652269546090782,
+   "rare_quantiles": [
+    3.0,
+    6.0,
+    9.0
+   ]
+  },
+  "per_book_vs_involution": {
+   "Gen": {
+    "obs": 0,
+    "null_mean": 0.2244,
+    "p": 1.0
+   },
+   "Exod": {
+    "obs": 0,
+    "null_mean": 0.0895,
+    "p": 1.0
+   },
+   "Lev": {
+    "obs": 0,
+    "null_mean": 0.0616,
+    "p": 1.0
+   },
+   "Num": {
+    "obs": 0,
+    "null_mean": 0.1563,
+    "p": 1.0
+   },
+   "Deut": {
+    "obs": 0,
+    "null_mean": 0.14555,
+    "p": 1.0
+   },
+   "Josh": {
+    "obs": 0,
+    "null_mean": 0.09485,
+    "p": 1.0
+   },
+   "Judg": {
+    "obs": 0,
+    "null_mean": 0.0701,
+    "p": 1.0
+   },
+   "1Sam": {
+    "obs": 0,
+    "null_mean": 0.09575,
+    "p": 1.0
+   },
+   "2Sam": {
+    "obs": 0,
+    "null_mean": 0.1176,
+    "p": 1.0
+   },
+   "1Kgs": {
+    "obs": 1,
+    "null_mean": 0.13525,
+    "p": 0.11384430778461077
+   },
+   "2Kgs": {
+    "obs": 0,
+    "null_mean": 0.0739,
+    "p": 1.0
+   },
+   "Isa": {
+    "obs": 0,
+    "null_mean": 0.28695,
+    "p": 1.0
+   },
+   "Jer": {
+    "obs": 0,
+    "null_mean": 0.18325,
+    "p": 1.0
+   },
+   "Ezek": {
+    "obs": 0,
+    "null_mean": 0.1559,
+    "p": 1.0
+   },
+   "Hos": {
+    "obs": 0,
+    "null_mean": 0.01485,
+    "p": 1.0
+   },
+   "Joel": {
+    "obs": 0,
+    "null_mean": 0.0058,
+    "p": 1.0
+   },
+   "Amos": {
+    "obs": 0,
+    "null_mean": 0.02165,
+    "p": 1.0
+   },
+   "Obad": {
+    "obs": 0,
+    "null_mean": 0.00225,
+    "p": 1.0
+   },
+   "Jonah": {
+    "obs": 0,
+    "null_mean": 0.00215,
+    "p": 1.0
+   },
+   "Mic": {
+    "obs": 0,
+    "null_mean": 0.01365,
+    "p": 1.0
+   },
+   "Nah": {
+    "obs": 0,
+    "null_mean": 0.0093,
+    "p": 1.0
+   },
+   "Hab": {
+    "obs": 0,
+    "null_mean": 0.0035,
+    "p": 1.0
+   },
+   "Zeph": {
+    "obs": 0,
+    "null_mean": 0.0048,
+    "p": 1.0
+   },
+   "Hag": {
+    "obs": 0,
+    "null_mean": 0.00075,
+    "p": 1.0
+   },
+   "Zech": {
+    "obs": 0,
+    "null_mean": 0.013,
+    "p": 1.0
+   },
+   "Mal": {
+    "obs": 0,
+    "null_mean": 0.00595,
+    "p": 1.0
+   },
+   "Ps": {
+    "obs": 0,
+    "null_mean": 0.1203,
+    "p": 1.0
+   },
+   "Prov": {
+    "obs": 0,
+    "null_mean": 0.11695,
+    "p": 1.0
+   },
+   "Job": {
+    "obs": 0,
+    "null_mean": 0.14305,
+    "p": 1.0
+   },
+   "Song": {
+    "obs": 0,
+    "null_mean": 0.01185,
+    "p": 1.0
+   },
+   "Ruth": {
+    "obs": 0,
+    "null_mean": 0.01595,
+    "p": 1.0
+   },
+   "Lam": {
+    "obs": 0,
+    "null_mean": 0.0471,
+    "p": 1.0
+   },
+   "Eccl": {
+    "obs": 0,
+    "null_mean": 0.01355,
+    "p": 1.0
+   },
+   "Esth": {
+    "obs": 0,
+    "null_mean": 0.0399,
+    "p": 1.0
+   },
+   "Dan": {
+    "obs": 0,
+    "null_mean": 0.20005,
+    "p": 1.0
+   },
+   "Ezra": {
+    "obs": 0,
+    "null_mean": 0.0661,
+    "p": 1.0
+   },
+   "Neh": {
+    "obs": 0,
+    "null_mean": 0.06045,
+    "p": 1.0
+   },
+   "1Chr": {
+    "obs": 1,
+    "null_mean": 0.30435,
+    "p": 0.23483825808709566
+   },
+   "2Chr": {
+    "obs": 0,
+    "null_mean": 0.05415,
+    "p": 1.0
+   }
+  }
+ },
+ "positive_controls_found": {
+  "Jer 25:26": true,
+  "Jer 51:41": true,
+  "Jer 51:1": true
+ },
+ "jeremiah_rank": {
+  "atbash": 0.0022,
+  "albam": 1.0
+ },
+ "tests": [
+  {
+   "test": "atbash rare hits in Gen vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Exod vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Lev vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Num vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Deut vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Josh vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Judg vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 1Sam vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 2Sam vs random involutions",
+   "p": 0.11004449777511124,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 1Kgs vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 2Kgs vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Isa vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Jer vs random involutions",
+   "p": 0.0022498875056247186,
+   "family": "cipher_book",
+   "known": true
+  },
+  {
+   "test": "atbash rare hits in Ezek vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Hos vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Joel vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Amos vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Obad vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Jonah vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Mic vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Nah vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Hab vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Zeph vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Hag vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Zech vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Mal vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Ps vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Prov vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Job vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Song vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Ruth vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Lam vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Eccl vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Esth vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Dan vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Ezra vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in Neh vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 1Chr vs random involutions",
+   "p": 0.23483825808709566,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash rare hits in 2Chr vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "atbash total rare hits vs random involutions",
+   "p": 0.23493825308734564,
+   "family": "cipher_total"
+  },
+  {
+   "test": "atbash total rare hits vs random permutations",
+   "p": 0.2429514097180564,
+   "family": "cipher_total"
+  },
+  {
+   "test": "albam rare hits in Gen vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Exod vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Lev vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Num vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Deut vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Josh vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Judg vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 1Sam vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 2Sam vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 1Kgs vs random involutions",
+   "p": 0.11384430778461077,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 2Kgs vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Isa vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Jer vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Ezek vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Hos vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Joel vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Amos vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Obad vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Jonah vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Mic vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Nah vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Hab vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Zeph vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Hag vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Zech vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Mal vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Ps vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Prov vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Job vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Song vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Ruth vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Lam vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Eccl vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Esth vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Dan vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Ezra vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in Neh vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 1Chr vs random involutions",
+   "p": 0.23483825808709566,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam rare hits in 2Chr vs random involutions",
+   "p": 1.0,
+   "family": "cipher_book",
+   "known": false
+  },
+  {
+   "test": "albam total rare hits vs random involutions",
+   "p": 0.7819109044547773,
+   "family": "cipher_total"
+  },
+  {
+   "test": "albam total rare hits vs random permutations",
+   "p": 0.7986402719456108,
+   "family": "cipher_total"
+  }
+ ],
+ "n_units": 526420,
+ "n_unique_forms": 183585,
+ "n_targets": 3379
+}

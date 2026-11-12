@@ -1,0 +1,82 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "ritual",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "d",
+     "ʒ",
+     "e",
+     "d"
+    ],
+    "accent": "stress",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "m",
+     "e"
+    ],
+    "accent": "stress",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "d",
+     "u"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "ˈdʒed ˈme.du",
+ "melody": [
+  {
+   "t": 0.312,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 1.161,
+   "dur": 0.404,
+   "hz": [
+    234.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "stress"
+  },
+  {
+   "t": 1.678,
+   "dur": 0.323,
+   "hz": [
+    176.0,
+    132.0
+   ],
+   "cents_from_first": [
+    -498.0,
+    -996.1
+   ],
+   "accent": null
+  }
+ ],
+ "text": "ʤ ˈe d | m ˈe d u",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

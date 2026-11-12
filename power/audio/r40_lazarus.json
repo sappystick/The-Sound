@@ -1,0 +1,168 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "declaim",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "l",
+     "a"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "z",
+     "a"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "r",
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ð",
+     "ɛ",
+     "v"
+    ],
+    "accent": "circ",
+    "long": true
+   },
+   {
+    "phonemes": [
+     "r",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "ɛ",
+     "k"
+    ],
+    "accent": "acute",
+    "long": false
+   },
+   {
+    "phonemes": [
+     "s",
+     "o"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "ˈla.za.rɛ ˈðɛv.ro ˈɛk.so",
+ "melody": [
+  {
+   "t": 0.128,
+   "dur": 0.178,
+   "hz": [
+    224.7
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 0.426,
+   "dur": 0.143,
+   "hz": [
+    181.3,
+    146.3
+   ],
+   "cents_from_first": [
+    -371.6,
+    -742.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.665,
+   "dur": 0.143,
+   "hz": [
+    171.0
+   ],
+   "cents_from_first": [
+    -472.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 1.007,
+   "dur": 0.319,
+   "hz": [
+    218.3,
+    142.1
+   ],
+   "cents_from_first": [
+    -50.0,
+    -792.5
+   ],
+   "accent": "circ"
+  },
+  {
+   "t": 1.542,
+   "dur": 0.143,
+   "hz": [
+    176.1,
+    142.1
+   ],
+   "cents_from_first": [
+    -421.6,
+    -792.5
+   ],
+   "accent": null
+  },
+  {
+   "t": 1.764,
+   "dur": 0.178,
+   "hz": [
+    212.1
+   ],
+   "cents_from_first": [
+    -100.0
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 2.153,
+   "dur": 0.143,
+   "hz": [
+    171.1,
+    138.1,
+    134.0
+   ],
+   "cents_from_first": [
+    -471.6,
+    -842.5,
+    -895.2
+   ],
+   "accent": null
+  }
+ ],
+ "text": "Λάζαρε, δεῦρο ἔξω.",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

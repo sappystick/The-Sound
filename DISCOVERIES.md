@@ -448,3 +448,124 @@ The cut positions are measured; the pause lengths are assumptions. Running time 
   - the cornerstone episode quotes Psalm 118:22 and is lifted by a wind-spirit in a wineskin;
   - cross-links to Tobit (fish liver and gall against Asmodeus) and to Exodus 28 (twelve stones).
 - **Gematria with control:** serpent = Messiah = 358; ark = Urim = 257; love = one = 13. Three equal pairs against 0.6 expected, but the terms were chosen with known pairs in mind. Sums are at chance.
+
+## AM. Rounds 39–49: lenses, words of power as sound, the papyrus as score, the instrument, the languages
+Write-ups:
+- `round39/*/FINDINGS.md`
+- `POWER_SOUNDS.md`, `POWER_SIM.md`, `POWER_MACHINES.md`, `POWER_SCORE.md`
+- `POWER_MESE.md`, `POWER_AXIOM.md`, `POWER_LANGUAGE.md`, `POWER_SOURCES.md`
+
+### Measured, with controls
+- **Scribes corrected by ear.** In P66 only 9.7% of corrections sound the same, against 60% of variants (p ≈ 10⁻⁴⁰); Sinaiticus is alike.
+- **The papyri are laid out in spoken syllables.** 96–99% of line-end word splits fall at a syllable boundary, against 35% by chance (P66, P75, 01, 03).
+- **John was composed in Greek.** It carries more sound-patterning between neighbouring words than its Syriac translation. The control works: Hebrew Psalms beat their Greek translation.
+- **The Gospels' Aramaic words are Western, Palestinian.** They are attested in the targums, the Galilean Talmud and Qumran Aramaic, not in the Eastern Syriac. *Abba* is colloquial: absent from Qumran's literary Aramaic, common in Galilean.
+- **"Many waters" = a crowd.** 10–30 summed voices reach the spectral flatness of rushing water (Rev 19:6).
+- **The 364-day calendar engine reproduces the Qumran scrolls:** 57/57 festival weekdays and 42/42 priestly courses. John's chronology fits the lunar calendar (0 contradictions against 4).
+- **Rooms:** each has a favoured note (King's Chamber C3, 132 Hz). A pop or hiss excites every room mode, a sung note only 1–3%. A loud voice in a small stone chamber exceeds the 90 dB threshold of the balance organ.
+- **Original wording is not physically stronger than translation** (3 of 7 pairs; p 0.77).
+- **The speaking machine:** a three-section tube design reproduces all seven Greek vowels within 4%, at real-mouth size.
+
+### Suggestive (needs a pre-registered rerun)
+- **The middle "I am" is at the book's centre.** The fourth of seven, "I am the good shepherd … lays down his life" (10:11), stands at 0.487 of John's syllables (p ≈ 0.05 under every mapping). It overlaps claim C2.
+- **The middle belongs to Jesus.** In John all 4 uses of μέσος put Jesus in the middle, against 5 of 26 in the Synoptics (p 0.005, post hoc).
+- **Visions crescendo.** Their sound events rise toward a climax (p 0.0014, exploratory).
+- **"I am" verses end on the mese under the accent melody** (p 0.039; does not survive correction).
+- **John's power sayings lean toward Aramaic patterning** (p 0.20).
+
+### Sources brought in
+- Coptic SCRIPTORIUM; Sefer Yetzirah; Charles's 1 Enoch and Jubilees; Qumran calendar texts.
+- Heron, *Pneumatica* (temple sound machines).
+- P.Oxy. 1786 (Christian hymn with notes, late 3rd c.); P.Amh. 2.
+- Clement, *Protrepticus* 1.5: the human as the Logos's "many-voiced instrument": lyre, aulos, temple.
+- Berakhot 3b (wind-played lyre); Berakhot 62a (cantillation hand signs); Odes of Solomon.
+- Mishnah Arakhin 2, Tamid 3 and 7, Rosh Hashanah 4:9 (rhythm as ratios); Arakhin 11a (the *magrepha*).
+- Josephus, *Antiquities* 7.306 (*kinnor* 10 strings, *nabla* 12 notes); War Scroll trumpets.
+- Qumran Aramaic; the Jerusalem Talmud (Galilean).
+
+### Negative
+- No hidden letter-melody in the text.
+- No Sefer Yetzirah letter power.
+- No section modes.
+- "I am" is not at its own verse's centre.
+- Thomas has no Johannine vocabulary.
+- Sacred-name abbreviations are not a theology code.
+- Sound cannot topple walls (Jericho is short by about 250× in pressure).
+
+## AN. Round 52: pre-registered, the middle "I am" at the centre of the Gospel ending at 20:31 (`POWER_CENTRE.md`)
+- John 10:11 (the 4th of 7 "I am" sayings) stands at the centre of John 1:1–20:31, by manuscript lines.
+- **Sinaiticus:** 0.5075 (p 0.033). **Vaticanus:** 0.5046 (p 0.020). This passes the rule pre-registered in `robustness/PREREG_R52.md` (commit e7f7c5d).
+- Vaticanus's central line is 10:7, "I am the door of the sheep".
+- Secondary: Washingtonianus 0.524 (p 0.10, not significant).
+- The earlier small offset (0.487) was chapter 21, the epilogue.
+- **Round 53 (pre-registered, `PREREG_R53.md`):**
+  - P66 0.508 (p 0.034) and P75 0.506 (p 0.027), both reconstructed in part; Sahidic 0.509 (p 0.038); Peshitta 0.514 (p 0.062).
+  - The translation test failed (Peshitta). The papyrus test passed its rule but not the pre-registered correction.
+  - The position is stable at about 0.505 in every witness; the significance is moderate.
+- **Round 54 (pre-registered, `PREREG_R54.md`): the seven "I am" sayings form a balanced ring around the centre of John.**
+  - John 1:1–20:31: p 0.027 (SBLGNT words). Sinaiticus 0.044, Vaticanus 0.028, Sahidic 0.038, Peshitta 0.063.
+  - The full Gospel: p 0.005. The seven signs (control): p 0.95.
+  - Against 7 random "I" verses (post hoc): p 0.031.
+  - The pattern is centred and balanced, not a strict mirror (shape-only p 0.06–0.09).
+
+## AO. Round 55 (`POWER_PERFORMANCE.md`)
+- **Pre-registered performance tests failed** (string-ratio timing p 0.88; Amen cues at joints p 0.39). John is not a timed score.
+- **Sacred dimensions:** 71% consonant ratios, against 28% for random pairs. Secular objects reach 57%, so this is a design habit.
+  - Solomon's house (6:2:3), the tabernacle (3:1:1) and the Holy of Holies (1:1:1) resonate as single harmonic series.
+  - The table of showbread holds the octave, fifth and fourth.
+- **Repetition detector:** Isaiah 28:10 ranks 12th of 18,766 Hebrew verses; the most repetitive verse is the menorah's construction (Exod 37:21). John has no non-lexical passage.
+
+## AP. Round 56 (`POWER_TABERNACLE.md`): thought experiment, the tabernacle as one instrument
+- **Calc:** the ark's length (2.5 cubits, 154.2 Hz) is exactly 2 octaves above the tabernacle's Holy of Holies and 3 above Solomon's.
+- **Calc:** the court, the Holy Place, the Holy of Holies and the ark are harmonics 1, 5, 10 and 40 of 3.85 Hz.
+- **Sources:** Josephus, *Ant.* 3.291 (silver trumpets under a cubit, with a bell); Bavli Zevachim 88b (72 bells).
+- **Mapping (speculative):** a nested resonator tuned to the ark's note, with the voice output "from between the cherubim".
+- **Round 57:**
+  - **Noah's ark:** axes are harmonics 1, 6, 10; its 10-cubit decks share the Holy of Holies' 38.5 Hz; as a sealed hull it breathes at about 0.14 Hz (a 7-s swell).
+  - **Ezekiel's side chambers:** widths 4:5:6 resonate as an A-minor triad (5 and 6 inferred).
+  - **The furniture as a buildable instrument:** an ark box zither (gut 0.8–1.4 mm, 87–110 N), menorah pipes 0.41–0.73 m, a table monochord. All realistic.
+- **Round 58:**
+  - The prologue played on the ark instrument (499 syllables, 3 min 54 s): 1:12, the syllable centre, begins at 50.2% of the performance.
+  - **Added:** Solomon's side chambers 5/6/7 cubits (1 Kgs 6:6; the lowest is one octave below the ark's note); the centre bar, ringing at 131–187 Hz; Zechariah's seven pipes; *alamoth* and *sheminith* as registers; Herod's 100-cubit cube house (Middot 4:6) and Revelation's cube city.
+
+## AQ. Round 59 (`POWER_PLANETS.md`)
+- **The last construction pieces added**, among them: the anointing oil 2:1:1:2 and incense 1:1:1:1; Ezekiel's 36 gate cells at 55 Hz; Herod's 15 steps and the golden vine (John 15:1).
+- **Pliny, NH 2.84,** verified: the Pythagorean planetary intervals (tone, ½, ½, 1½, 1, ½, ½), with the Sun 4th of 7.
+- **The speaking planet organ:** vowels identified 97.8% through the tubes, against 0% without (machine test, not a human listening test). ἐγὼ εἰμι = Mercury, Mars, Sun, Sun.
+- **Round 60 (`POWER_PYRAMID.md`):** the Great Pyramid's internal dimensions (Petrie 1883) do not map onto the biblical measurements beyond chance (lengths p 0.062; shapes p 0.90). Shared: the cubit system (Ezekiel's long cubit = the Egyptian royal cubit of 7 palms) and round numbers (the King's Chamber is 20 × 10 royal cubits). The coffer is not the ark's volume under any attested cubit.
+- **Round 61 (`POWER_PYRAMID.md`), the area-by-area map:**
+  - Only the King's Chamber = 20 × 10 royal cubits (tabernacle Holy Place; Solomon's porch) survives correction (local p 0.001).
+  - The base against 500 × 500 (Ezekiel; Herod's Temple Mount) and the queens' pyramids against 100 × 100 need a foreign 18-inch cubit and do not survive correction.
+  - The rest are functional parallels only.
+- **Round 62 (`POWER_CODE.md`):** no elemental, mathematical-constant, electrical or magnetic code beyond chance.
+  - **π in the bronze sea:** fails as written (with the conjunction it gives 3.134), and the same ratio recurs in non-circle *ketiv/qere* pairs.
+  - **The ark as capacitor:** 2–9 nF, a few joules at most.
+  - **What is real:** the sanctuary is non-ferrous and iron is excluded (1 Kgs 6:7); a cube / square / double-square geometry; and the 4 × 3 twelve of the camp and the breastpiece.
+- **Round 63 (`POWER_EGYPT.md`):**
+  - "In the midst" is a Hebrew-Bible motif, twelve a New Testament one, the cube a philosophers' one. All three meet in Exod 28/39 (the breastpiece), 1 Kgs 7 and Ezek 43.
+  - **Verified:** Ezek 43:7 bars "the corpses of their kings" from God's dwelling-in-the-midst; Josephus *Ant.* 2.203 (Hebrews "building pyramids") and 13.62–64 (Onias's temple in the Heliopolite nome, built on Isaiah 19).
+  - **Reading:** the Bible keeps the Egyptian sacred matrix but reverses its purpose (God descends; the dead are excluded; twelve around the centre).
+- **Round 64 (`POWER_MANUAL.md`), thought experiment, the Bible as the pyramid's manual (the Day of Atonement):**
+  - **Calc:** the King's Chamber makes a shout felt (94 dB); with its shafts it "breathes" at 0.11 Hz (9 s); the inner voice is audible outside within about 50 m of the shaft mouths.
+  - **Ritual counts against pyramid counts:** chance level (p 0.49). The orientation (north against east) and purpose (tomb against no-dead) do not fit.
+
+## AR. Round 65 (`lang4d/`): KANON, the spoken-typed-played language
+- **S (design) + measured:** 7 vowels = planet-strings (data planes, ι the accumulator/mese, ω the silent archive), 12 consonants = the 4×3 breastpiece grid (operations and the audio keypad), ring-order execution (outer pairs first, centre commits last), base-12 digits, celestial phase stamps.
+- **Measured:** audio round-trip of full programs is exact on clean audio and at 25/15/8 dB SNR; the same verse reordered computes 22 vs 28 (the centre rule); ≈1.2×10⁹ context-distinct instructions from 19 glyphs.
+- Honest-claims table separates real results from the source sketch's physics errors (`lang4d/WHITEPAPER.md` §9).
+
+## AS. Round 66 (`lang4d/REVIEW_v02.md`): KANON v0.2
+
+- **Review of v0.1.**
+  - Middle syllables were inert, so the 1.2 × 10⁹ figure is withdrawn.
+  - Spoken marks were lost.
+  - There were no names, branches or while-loops.
+  - Loops were split by the ring, and there were no resource limits.
+- **v0.2.**
+  - Word-internal composition, names, guards and while-loops make it Turing complete. The prelude in KANON computes ×, gcd and factorial.
+  - The 44-name Canon is laid out on the 12 × 7 grid.
+  - Every mark is spoken, with mod-7039 verse checksums. On 120 random programs, every corrupted decode at 4 dB and 2 dB was flagged and none was missed.
+  - Seals.
+  - The JavaScript interpreter matches Python on 1,000 of 1,000 programs.
+  - A 30-step one-night course (Echo Ladder rule checked; planetary-week and calendar-palace memory aids).
+- **Order study.** Execution order is always unique. The outcome differs in 13% of word orderings and 53% of syllable orderings of random code, as commutation requires.

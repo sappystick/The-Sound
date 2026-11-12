@@ -1,0 +1,475 @@
+<title>KANON in One Night</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a night-school desk. Step list on the left, the lesson (example, sound, figure, your turn) on the right; stacks on phones. */
+:root{
+  --bg:#f1efe8; --panel:#fbfaf6; --ink:#1d2030; --muted:#5d6070; --line:#d9d6cc; --lamp:#a8641c; --night:#2f4a7a; --ok:#2e7a46; --bad:#b0362f; --code:#ecebe4;
+  --display:"EB Garamond", Georgia, "Times New Roman", serif; --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono:"IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#10131f;--panel:#171b2b;--ink:#e6e4dc;--muted:#9a9cab;--line:#2a2f45;--lamp:#e3a24f;--night:#8fb0e8;--ok:#6fc48a;--bad:#ef8a80;--code:#1f2438;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10131f;--panel:#171b2b;--ink:#e6e4dc;--muted:#9a9cab;--line:#2a2f45;--lamp:#e3a24f;--night:#8fb0e8;--ok:#6fc48a;--bad:#ef8a80;--code:#1f2438;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14.5px;line-height:1.55;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 56px}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-wrap:wrap;gap:10px 24px;align-items:flex-end;justify-content:space-between}
+h1{font-family:var(--display);font-weight:500;font-size:clamp(36px,6vw,56px);line-height:1;margin:0}
+h1 span{color:var(--lamp);font-style:italic;font-weight:400}
+.lede{color:var(--muted);max-width:64ch;margin:8px 0 0}
+.progress{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;width:220px;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--lamp);width:0}
+nav{display:flex;flex-wrap:wrap;gap:2px;border-bottom:1px solid var(--line)}
+nav button{font:inherit;background:none;border:0;border-bottom:2px solid transparent;padding:8px 14px;color:var(--muted);cursor:pointer}
+nav button[aria-selected="true"]{color:var(--ink);border-color:var(--lamp);font-weight:600}
+button:focus-visible,textarea:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--night);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,270px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:820px){.grid{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.steps{display:flex;flex-direction:column;gap:2px;max-height:72vh;overflow:auto}
+@media (max-width:820px){.steps{max-height:240px}}
+.watch{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--lamp);font-weight:600;padding:10px 6px 4px}
+.step{display:grid;grid-template-columns:28px 1fr 16px;gap:6px;align-items:center;text-align:left;font:inherit;font-size:13.5px;background:none;border:0;border-radius:4px;padding:5px 6px;color:var(--ink);cursor:pointer}
+.step:hover{background:var(--code)} .step[aria-current="true"]{background:var(--code);font-weight:600}
+.step .n{font-family:var(--mono);font-size:11.5px;color:var(--muted)} .step .d{color:var(--ok)}
+h2{font-family:var(--display);font-weight:500;font-size:32px;margin:0;line-height:1.1;text-wrap:balance}
+h3{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-family:var(--mono);font-size:13px;padding:2px 9px;border-radius:3px;background:var(--code);border:1px solid var(--line)}
+.aid{font-family:var(--display);font-size:19px;line-height:1.4;margin:0;max-width:62ch}
+.code{font-family:var(--mono);font-size:16px;background:var(--code);border-radius:4px;padding:10px 12px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;margin:0}
+.say{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:inherit;font-weight:600;font-size:13px;border-radius:4px;padding:7px 13px;cursor:pointer;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.btn.primary{background:var(--lamp);border-color:var(--lamp);color:var(--panel)}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,220px);gap:16px;align-items:start}
+@media (max-width:620px){.two{grid-template-columns:minmax(0,1fr)}}
+.result{font-family:var(--mono);font-size:12.5px;display:grid;grid-template-columns:auto 1fr;gap:3px 12px}
+.result dt{color:var(--muted)} .result dd{margin:0;word-break:break-word}
+textarea{font-family:var(--mono);font-size:15px;width:100%;min-height:76px;resize:vertical;background:var(--code);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:9px 11px}
+.verdict{font-weight:600} .verdict.ok{color:var(--ok)} .verdict.bad{color:var(--bad)}
+.seal{width:100%;max-width:220px;display:block;margin-left:auto}
+.seal svg{width:100%;height:auto;display:block}
+.bigseal svg{width:100%;height:auto;display:block}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.scroll{overflow-x:auto}
+.palace{display:grid;grid-template-columns:auto repeat(3,minmax(0,1fr));gap:6px;align-items:stretch}
+.room{border:1px solid var(--line);border-radius:5px;padding:8px 10px;background:var(--panel);display:flex;flex-direction:column;gap:2px;min-width:0}
+.room b{font-family:var(--mono);font-size:18px;color:var(--lamp)} .room small{color:var(--muted)}
+.season{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);align-self:center;writing-mode:vertical-rl;transform:rotate(180deg)}
+.trace{font-family:var(--mono);font-size:12px;background:var(--code);border-radius:4px;padding:8px 10px;max-height:220px;overflow:auto;white-space:pre-wrap;margin:0}
+.muted{color:var(--muted)} .mono{font-family:var(--mono)}
+.prose{max-width:70ch;display:flex;flex-direction:column;gap:10px} .prose p{margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>KANON <span>in one night</span></h1>
+      <p class="lede">A programming language you can type, speak, hear and draw. Thirty steps across the three watches of the night, one new sound at a time. Every example runs right here.</p>
+    </div>
+    <div class="progress"><span id="progText">0 of 30 steps done</span><div class="bar"><i id="progBar"></i></div></div>
+  </header>
+  <nav role="tablist">
+    <button role="tab" aria-selected="true" data-tab="course" id="t-course">Course</button>
+    <button role="tab" aria-selected="false" data-tab="play" id="t-play">Playground</button>
+    <button role="tab" aria-selected="false" data-tab="ref" id="t-ref">Palace and Canon</button>
+    <button role="tab" aria-selected="false" data-tab="about" id="t-about">About</button>
+  </nav>
+
+  <section id="course" class="grid">
+    <div class="panel" style="padding:8px"><div class="steps" id="stepList"></div></div>
+    <article class="panel" id="lesson" style="gap:16px"></article>
+  </section>
+
+  <section id="play" hidden>
+    <div class="panel" style="gap:14px">
+      <div class="two">
+        <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+          <label for="pg" class="muted" style="font-size:12.5px">Program</label>
+          <textarea id="pg" spellcheck="false">ki #70 | ka #30 | :kegi | :dasa | ki #5 | :kehi | :dasa | demorini</textarea>
+          <div class="row"><button class="btn primary" id="pgRun" type="button">Run</button><button class="btn" id="pgHear" type="button">Hear it spoken</button><span class="say" id="pgSay"></span></div>
+          <dl class="result" id="pgRes"></dl>
+          <h3>Trace</h3><pre class="trace" id="pgTrace"></pre>
+        </div>
+        <div class="seal" id="pgSeal" aria-label="The program's seal"></div>
+      </div>
+      <div class="row" style="gap:10px">
+        <label for="ringIn" class="muted" style="font-size:12.5px">Spell a sequence in ring order:</label>
+        <input id="ringIn" value="si #3 | pi #2 | ri | di" style="font-family:var(--mono);font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--code);color:var(--ink);min-width:0;flex:1 1 220px">
+        <span class="mono" id="ringOut"></span>
+      </div>
+      <div class="bigseal" id="pgBig"></div>
+    </div>
+  </section>
+
+  <section id="ref" hidden>
+    <div class="panel" style="gap:18px" id="refPanel"></div>
+  </section>
+
+  <section id="about" hidden>
+    <div class="panel prose">
+      <h2>What KANON is</h2>
+      <p>Every KANON program has five readings: text, speech, music, a process and a figure. Seven vowels are seven planes of data and seven strings of a monochord. Twelve consonants are twelve operations on the 4 × 3 grid of the breastpiece. A syllable is one of 84 cells.</p>
+      <p><b>Order carries meaning at three scales.</b> Syllables in a word run as a pipeline. Words in a verse run in ring order: the outer pair first and the centre last. Verses run in sequence. Each order has its own rule, so a reordering is a different process. It produces a different result whenever the operations interact. Operations that commute (two additions) give the same result in either order, as they must in any usable language.</p>
+      <p><b>No imports.</b> The Canon, a built-in library of 44 names on the grid, covers number theory, statistics, geometry, sequences, logic, music, Greek and Hebrew numerals, time and checksums. A prelude written in KANON itself supplies multiplication, Euclid's algorithm and the factorial. With names, guards and while-loops the language is Turing complete: the planes work as the registers of a counter machine.</p>
+      <p><b>Speaking is compiling.</b> The audio codec turns a program into tones and back. In tests, 120 of 120 random programs decoded exactly at 8 dB signal-to-noise. Every verse can carry a two-syllable checksum. At 4 and 2 dB, every decoding error was caught and none passed silently.</p>
+      <p><b>The memory aids are ancient.</b> The planetary week gives the vowels their days, and every weekday name still follows it. The months of the year, in four seasons of three, give the consonants their rooms in a memory palace. Ring composition gives the reading order.</p>
+      <p class="muted">"One night" is a design target. The course has 30 steps of about 4 minutes each, but it has not yet been tested on learners. The page's interpreter (JavaScript) agrees with the reference interpreter (Python) on 1,000 of 1,000 random programs and on every course example.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+// KANON v0.2 interpreter in JavaScript: the same language as kanon.py (parity-tested by course.py).
+// Runs in a browser or in node. No dependencies.
+(function (root) {
+  const VOWELS = "aeyiouw", CONS = "ktpbdglmnrsh", DIGITS = "0123456789te";
+  const RATIO = {a: 4/3, e: 32/27, y: 256/243, i: 1, o: 8/9, u: 64/81, w: 0.75};
+  const F0 = 154.2, FUEL = 200000, MAXLEN = 65536;
+  const isWord = w => {
+    if (w.length < 2) return false;
+    for (let j = 0; j < w.length - w.length % 2; j++) if (j % 2 ? !VOWELS.includes(w[j]) : !CONS.includes(w[j])) return false;
+    return w.length % 2 === 0 || VOWELS.includes(w[w.length - 1]);
+  };
+  const TOKEN = /\s*(\|)|\s*(=[a-z]+)|\s*(::?)([a-z]*)([!?]*)|\s*(~?)([a-z]+)([!?]*)|\s*(#[0-9te]+)/y;
+  function lex(src) {
+    const out = []; src = src.replace(/\n/g, " "); let pos = 0;
+    while (pos < src.length) {
+      if (!src.slice(pos).trim()) break;
+      TOKEN.lastIndex = pos; const m = TOKEN.exec(src);
+      if (!m || TOKEN.lastIndex === pos) throw new SyntaxError(`cannot read "${src.slice(pos, pos + 12)}"`);
+      pos = TOKEN.lastIndex;
+      if (m[1]) out.push(["bar"]);
+      else if (m[2]) out.push(["sum", m[2].slice(1)]);
+      else if (m[3]) {
+        if (m[3] === "::") out.push(m[4] ? ["def", m[4]] : ["end"]);
+        else { if (!isWord(m[4])) throw new SyntaxError(`bad name "${m[4]}"`); out.push(["call", m[4], {urgent: m[5].includes("!"), guard: m[5].includes("?"), sandbox: false}]); }
+      } else if (m[7]) {
+        if (!isWord(m[7])) throw new SyntaxError(`bad word "${m[7]}": syllables are consonant + vowel, with an optional final vowel`);
+        out.push(["word", m[7], {urgent: m[8].includes("!"), guard: m[8].includes("?"), sandbox: m[6] === "~"}]);
+      } else { let v = 0; for (const ch of m[9].slice(1)) v = v * 12 + DIGITS.indexOf(ch); out.push(["num", v]); }
+    }
+    return out;
+  }
+  function parse(src) {
+    const main = [], defs = {}; let cur = null, verse = [];
+    const close = () => { if (verse.length) (cur ? defs[cur] : main).push(verse); verse = []; };
+    for (const t of lex(src)) {
+      if (t[0] === "bar") close();
+      else if (t[0] === "def") { close(); cur = t[1]; defs[cur] = []; }
+      else if (t[0] === "end") { close(); cur = null; }
+      else if (t[0] === "num") { if (verse.length) verse[verse.length - 1].num = t[1]; else verse.push({kind: "word", word: "ki", num: t[1], urgent: false, guard: false, sandbox: false}); }
+      else if (t[0] === "sum") {}
+      else verse.push(Object.assign({kind: t[0], word: t[1], num: null}, t[2]));
+    }
+    close(); return [main, defs];
+  }
+  function bindLoops(items) {
+    const out = []; let i = 0;
+    while (i < items.length) { const it = items[i];
+      if (it.kind === "word" && it.word[0] === "l" && i + 1 < items.length) { out.push(Object.assign({}, it, {body: items[i + 1]})); i += 2; }
+      else { out.push(it); i++; } }
+    return out;
+  }
+  function schedule(items) {
+    const out = [], rest = []; for (const it of items) (it.urgent ? out : rest).push(it);
+    const n = rest.length; for (let k = 0; k < Math.floor(n / 2); k++) out.push(rest[k], rest[n - 1 - k]);
+    if (n % 2) out.push(rest[(n - 1) / 2]); return out;
+  }
+  function ring(seq) { const n = seq.length, order = [], pos = new Array(n);
+    for (let k = 0; k < Math.floor(n / 2); k++) order.push(k, n - 1 - k); if (n % 2) order.push((n - 1) / 2);
+    order.forEach((slot, j) => pos[slot] = seq[j]); return pos; }
+  const fold = x => { x = Math.abs(x) || 1; while (x >= 2.5) x /= 2; while (x < 0.625) x *= 2; return x; };
+  const toint = x => Math.trunc(Math.round(x * 1e9) / 1e9);
+  const truthy = p => p.length > 0 && p[p.length - 1] > 0;
+  const fmod = (a, b) => a % b;   // same sign rule as Python's math.fmod
+  const last = p => { if (!p.length) throw new RangeError("list index out of range"); return p[p.length - 1]; };
+  const sum = p => {   // Neumaier compensated summation, as Python 3.12+ sum() does for floats
+    let s = 0, c = 0; for (const x of p) { const t = s + x; c += Math.abs(s) >= Math.abs(x) ? (s - t) + x : (x - t) + s; s = t; } return s + c; };
+  const g = n => { const out = []; for (let k = 1; k <= n; k++) out.push(k); return out; };
+  const gcd = (a, b) => { a = Math.abs(a); b = Math.abs(b); while (b) [a, b] = [b, a % b]; return a; };
+  const primes = n => { const s = new Array(n + 1).fill(true); s[0] = false; if (n >= 1) s[1] = false;
+    for (let p = 2; p * p <= n; p++) if (s[p]) for (let q = p * p; q <= n; q += p) s[q] = false; return s.map((v, k) => v ? k : -1).filter(k => k >= 0); };
+  const GREEK = [[900,"ϡ"],[800,"ω"],[700,"ψ"],[600,"χ"],[500,"φ"],[400,"υ"],[300,"τ"],[200,"σ"],[100,"ρ"],[90,"ϙ"],[80,"π"],[70,"ο"],[60,"ξ"],[50,"ν"],[40,"μ"],[30,"λ"],[20,"κ"],[10,"ι"],[9,"θ"],[8,"η"],[7,"ζ"],[6,"ϛ"],[5,"ε"],[4,"δ"],[3,"γ"],[2,"β"],[1,"α"]];
+  const HEB = [[400,"ת"],[300,"ש"],[200,"ר"],[100,"ק"],[90,"צ"],[80,"פ"],[70,"ע"],[60,"ס"],[50,"נ"],[40,"מ"],[30,"ל"],[20,"כ"],[10,"י"],[9,"ט"],[8,"ח"],[7,"ז"],[6,"ו"],[5,"ה"],[4,"ד"],[3,"ג"],[2,"ב"],[1,"א"]];
+  function numeral(n, table) { n = Math.trunc(n); let s = "";
+    if (table === HEB) { while (n >= 400) { s += "ת"; n -= 400; }
+      if (n % 100 === 15 || n % 100 === 16) { if (n >= 100) s += numeral(n - n % 100, table); return s + (n % 100 === 15 ? "טו" : "טז"); } }
+    for (const [v, ch] of table) while (n >= v) { s += ch; n -= v; } return s + (table === GREEK ? "ʹ" : ""); }
+  const fmt = x => { if (Number.isInteger(x)) return String(x); const s = x.toPrecision(6); return String(parseFloat(s)); };
+  const modes = side => { const c = 343, set = new Set();
+    for (let a = 0; a < 4; a++) for (let b = 0; b < 4; b++) for (let d = 0; d < 4; d++) if (a + b + d) set.add(Math.round(c / 2 * Math.sqrt(a*a + b*b + d*d) / side * 100) / 100);
+    return [...set].sort((x, y) => x - y).slice(0, 7); };
+  const CANON = {
+    kamu: ["multiply: i ← i × a", vm => vm.set(vm.P.a.length === vm.P.i.length ? vm.P.i.map((x, k) => x * vm.P.a[k]) : vm.P.i.map(x => x * (vm.P.a.length ? last(vm.P.a) : 1)))],
+    kade: ["divide: i ← i ÷ a", vm => vm.set(vm.P.i.map(x => x / (last(vm.P.a) || NaN)))],
+    kagi: ["greatest common divisor of i", vm => vm.set(vm.P.i.length ? [vm.P.i.map(Math.trunc).reduce(gcd)] : [])],
+    kapi: ["primes up to i's last value", (vm, v) => { const n = Math.trunc(vm.P.i.length ? last(vm.P.i) : (v || 0)); if (n > 1e6) throw new RangeError("primes are listed up to 1,000,000"); vm.set(primes(n)); }],
+    kasu: ["square root", vm => vm.set(vm.P.i.map(Math.sqrt))],
+    kapo: ["power: i ^ a", vm => vm.set(vm.P.i.map(x => Math.pow(x, vm.P.a.length ? last(vm.P.a) : 2)))],
+    kaha: ["factorial", vm => { let f = 1; for (let k = 2; k <= Math.trunc(last(vm.P.i)); k++) f *= k; vm.set([f]); }],
+    kamo: ["product of all values", vm => vm.set([vm.P.i.reduce((p, x) => p * x, 1)])],
+    tame: ["mean", vm => vm.set([sum(vm.P.i) / vm.P.i.length])],
+    tado: ["median", vm => { const s = [...vm.P.i].sort((a, b) => a - b), n = s.length; vm.set([n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2]); }],
+    tasi: ["standard deviation", vm => { const m = sum(vm.P.i) / vm.P.i.length; vm.set([Math.sqrt(sum(vm.P.i.map(x => (x - m) ** 2)) / vm.P.i.length)]); }],
+    tami: ["minimum", vm => vm.set([Math.min(...vm.P.i)])],
+    tamo: ["maximum", vm => vm.set([Math.max(...vm.P.i)])],
+    taso: ["sort ascending", vm => vm.set([...vm.P.i].sort((a, b) => a - b))],
+    papi: ["π", vm => vm.set([Math.PI])],
+    pagu: ["the golden ratio", vm => vm.set([(1 + Math.sqrt(5)) / 2])],
+    pari: ["interior angle of a regular polygon with i sides", vm => vm.set(vm.P.i.map(x => 180 * (x - 2) / x))],
+    paso: ["star polygon {n/k}: visiting order (i = n, a = k)", vm => { const n = Math.trunc(last(vm.P.i)), k = Math.trunc(vm.P.a.length ? last(vm.P.a) : 2); vm.set(g(Math.min(n, MAXLEN + 1)).map(j => ((j - 1) * k) % n)); }],
+    pamo: ["first seven resonances of a cube room of side i metres", vm => vm.set(modes(last(vm.P.i)))],
+    pake: ["cubits to metres", vm => vm.set(vm.P.i.map(x => x * 0.5236))],
+    bari: ["Fibonacci numbers up to i", vm => { const n = last(vm.P.i), s = [1, 1]; while (s[s.length - 1] + s[s.length - 2] <= n) s.push(s[s.length - 1] + s[s.length - 2]); vm.set(s.filter(x => x <= n)); }],
+    basa: ["triangular numbers", vm => vm.set(g(Math.min(Math.trunc(last(vm.P.i)), MAXLEN + 1)).map(k => k * (k + 1) / 2))],
+    bake: ["running sum", vm => { let s = 0; vm.set(vm.P.i.map(x => s += x)); }],
+    bada: ["differences between neighbours", vm => vm.set(vm.P.i.slice(1).map((x, k) => x - vm.P.i[k]))],
+    baro: ["distinct values", vm => vm.set([...new Set(vm.P.i)])],
+    bato: ["take the first n values", (vm, v) => vm.set(vm.P.i.slice(0, Math.trunc(v || 3)))],
+    baka: ["count of values", vm => vm.set([vm.P.i.length])],
+    dasa: ["say i as numbers", vm => vm.say(vm.P.i.map(fmt).join(" "))],
+    dagi: ["say i as Greek numerals", vm => vm.say(vm.P.i.map(x => numeral(x, GREEK)).join(" "))],
+    dahe: ["say i as Hebrew numerals", vm => vm.say(vm.P.i.map(x => numeral(x, HEB)).join(" "))],
+    dami: ["sing i as a melody", vm => vm.events.push(["melody", vm.P.i.map(fold)])],
+    lane: ["not", vm => vm.set(vm.P.i.map(x => x ? 0 : 1))],
+    lake: ["equal: i == a", vm => vm.set([JSON.stringify(vm.P.i) === JSON.stringify(vm.P.a) ? 1 : 0])],
+    lame: ["less: i < a", vm => vm.set([last(vm.P.i) < last(vm.P.a) ? 1 : 0])],
+    lamo: ["more: i > a", vm => vm.set([last(vm.P.i) > last(vm.P.a) ? 1 : 0])],
+    maro: ["the seven string ratios", vm => vm.set([...VOWELS].map(c => RATIO[c]))],
+    mahe: ["ratios → Hz on the carrier", vm => vm.set(vm.P.i.map(x => x * F0))],
+    maki: ["interval in cents from i[0]", vm => vm.set(vm.P.i.map(x => 1200 * Math.log2(x / vm.P.i[0])))],
+    mapu: ["the Pythagorean comma in cents", vm => vm.set([1200 * Math.log2(Math.pow(3, 12) / Math.pow(2, 19))])],
+    rado: ["planetary weekday of J2000 + i days (0 = Sunday)", vm => vm.set([((Math.trunc(2451545 + (vm.P.i.length ? last(vm.P.i) : 0) + 1.5) % 7) + 7) % 7])],
+  };
+  const PRELUDE = `
+::kemu kua | kw #0 | lu :keso | kiw ::
+::keso bwi nu #1 gw ::
+::kegi la :keto ::
+::keto kei kia kae mea ::
+::kehi kyi | ko #1 | ly :keho | kio ::
+::keho kio :kemu ny #1 koi kay ::`;
+  class VM {
+    constructor() { this.P = {}; for (const v of VOWELS) this.P[v] = []; this.events = []; this.out = []; this.trace = []; this.defs = {}; this.fuel = FUEL;
+      Object.assign(this.defs, parse(PRELUDE)[1]); }
+    set(xs) { if (xs.length > MAXLEN) throw new RangeError(`result of ${xs.length} values exceeds ${MAXLEN}`); xs = xs.map(Number); if (!xs.every(Number.isFinite)) throw new RangeError("not a finite number (division by zero or an empty input)"); this.P.i = xs; }
+    say(t) { this.out.push(t); }
+    run(src) { const [main, defs] = parse(src); Object.assign(this.defs, defs); for (const v of main) this.verse(v); return this; }
+    verse(items) { for (const it of schedule(bindLoops(items))) this.item(it); }
+    tick() { if (--this.fuel < 0) throw new Error("out of fuel (a loop that never ends?)"); }
+    item(it) {
+      this.tick();
+      if (it.guard && !truthy(this.P.i)) { this.trace.push("skip " + it.word); return; }
+      try {
+        if (it.kind === "call") this.call(it.word, it.num);
+        else if (it.body) this.loop(it);
+        else this.word(it.word, it.num);
+      } catch (e) { if (it.sandbox) this.trace.push(`~${it.word}: skipped (${e.message})`); else throw e; }
+    }
+    loop(it) { const plane = it.word[1];
+      if (it.num !== null) for (let k = 0; k < toint(it.num); k++) this.item(it.body);
+      else while (truthy(this.P[plane])) this.item(it.body); }
+    call(name, val) { this.trace.push(":" + name);
+      if (this.defs[name]) { for (const v of this.defs[name]) this.verse(v); }
+      else if (CANON[name]) CANON[name][1](this, val);
+      else throw new Error(`unknown name :${name}`); }
+    word(w, val) {
+      const syl = []; for (let j = 0; j < w.length - w.length % 2; j += 2) syl.push(w.slice(j, j + 2));
+      const cad = w.length % 2 ? w[w.length - 1] : null, op = syl[0][0], head = syl[0][1];
+      if (op === "d" && syl.length >= 2) { this.events.push(["melody", [...w].filter(c => VOWELS.includes(c)).map(c => RATIO[c])]); this.trace.push(w + " (song)"); return; }
+      this.op(op, head, cad, val, cad !== null);
+      for (const s of syl.slice(1)) { this.tick(); this.op(s[0], head, s[1], null, true); }
+      this.trace.push(`${w}${val === null ? "" : " #" + val} → ${head} = [${this.P[head].slice(0, 8).map(fmt).join(", ")}]`);
+    }
+    op(op, head, src, val, explicit) {
+      const P = this.P, H = P[head], S = src ? P[src] : H;
+      switch (op) {
+        case "s": { const n = val !== null ? toint(val) : (explicit && S.length ? toint(last(S)) : 7); if (n > MAXLEN) throw new RangeError(`stream of ${n} values exceeds ${MAXLEN}`); P[head] = g(n); break; }
+        case "k": P[head] = val !== null ? [val] : (explicit ? [...S] : []); break;
+        case "b": P[head] = H.concat(S); break;
+        case "p": P[head] = H.map(x => x * (val !== null ? val : RATIO[src || "i"])); break;
+        case "g": P[head] = [sum(S) + (val || 0)]; break;
+        case "t": { const thr = val !== null ? val : (explicit && src !== head && S.length ? last(S) : (H.length ? sum(H) / H.length : 0)); P[head] = H.filter(x => x > thr); break; }
+        case "n": if (val !== null) P[head] = H.map(x => x - val); else if (explicit && src !== head) { const d = S.length ? last(S) : 0; P[head] = H.map(x => x - d); } else P[head] = H.map(x => -x); break;
+        case "r": if (val !== null && H.length) { const k = toint(val) % H.length; P[head] = H.slice(k).concat(H.slice(0, k)); } else P[head] = [...H].reverse(); break;
+        case "m": if (val !== null) P[head] = H.map(x => val ? fmod(x, val) : x);
+          else if (explicit && src !== head && S.length && last(S)) P[head] = H.map(x => fmod(x, last(S)));
+          else { const t = RATIO[src || "i"], n = Math.max(1, H.length); P[head] = H.map((x, j) => x * Math.pow(t, (j + 1) / n)); } break;
+        case "d": this.events.push(["melody", H.map(fold)]); this.out.push(H.map(fmt).join(" ")); break;
+        case "h": if (explicit) P[head] = [S.length]; else this.events.push(["rest", (val || 2) * 0.1]); break;
+      }
+      if (P[head].length > MAXLEN) throw new RangeError(`plane ${head} would hold ${P[head].length} values (limit ${MAXLEN})`);
+      if (!P[head].every(Number.isFinite)) throw new RangeError("not a finite number");
+    }
+  }
+  const api = {VM, parse, lex, ring, schedule, bindLoops, CANON, RATIO, VOWELS, CONS, DIGITS, isWord, fmt};
+  if (typeof module !== "undefined") module.exports = api; else root.KANON = api;
+})(this);
+
+const COURSE = {"meta": {"steps": 30, "watches": ["Evening watch: the sounds", "Midnight watch: order", "Morning watch: names and the Canon"], "ladder_problems": [], "js_parity": "60/60", "glyphs": {"vowels": 7, "consonants": 12, "marks": 7, "digits": 12}, "pronounce": {"vowels": {"a": "ah", "e": "eh", "y": "ay", "i": "ee", "o": "oh", "u": "oo", "w": "aw"}, "digits": {"0": "km", "1": "tm", "2": "pm", "3": "bm", "4": "dm", "5": "gm", "6": "lm", "7": "mm", "8": "nm", "9": "rm", "t": "sm", "e": "hm"}, "marks": {"|": "(breathe)", "!": "tsk", "~": "fff", "?": "vvv", ":": "shh", "=": "zzz"}}, "canon": {"kamu": "multiply: i <- i x a (pairwise, or by a's last value)", "kade": "divide: i <- i / a", "kagi": "greatest common divisor of the values of i", "kapi": "primes up to i's last value", "kasu": "square root of each value", "kapo": "power: i <- i ^ a's last value", "kaha": "factorial of i's last value", "kamo": "product of all values of i", "tame": "mean", "tado": "median", "tasi": "standard deviation", "taku": "correlation of i with a", "tami": "minimum", "tamo": "maximum", "taso": "sort ascending", "papi": "pi", "pagu": "the golden ratio", "pari": "interior angle of a regular polygon with i sides (degrees)", "paso": "star polygon {n/k}: the visiting order of its points (i = n, a = k)", "pamo": "first seven resonant frequencies of a cube room of side i metres (Hz)", "pake": "cubits to metres (royal cubit 0.5236 m)", "pahe": "Heron: area of a triangle with sides i[0], i[1], i[2]", "bari": "Fibonacci numbers up to i's last value", "basa": "triangular numbers T1..Tn, n = i's last value", "bake": "running sum", "bada": "differences between neighbours", "baro": "distinct values, in order of first appearance", "bato": "take the first n values (n = #number, default 3)", "baka": "count of values", "dasa": "say i as plain numbers", "dagi": "say i as Greek numerals (isopsephy)", "dahe": "say i as Hebrew numerals (gematria)", "dami": "sing i as a melody (folded to the octave)", "lane": "not", "lake": "equal: i == a", "lame": "less: i's last < a's last", "lamo": "more: i's last > a's last", "maro": "the seven string ratios (a e y i o u w)", "mahe": "ratios -> Hz on the carrier", "maki": "interval in cents from i[0] to each value", "mapu": "the Pythagorean comma (cents)", "raso": "celestial phase stamp: seven mean longitudes for J2000 + i days", "rado": "planetary weekday of J2000 + i days (0 = Sunday ... 6 = Saturday)", "haso": "checksum of i's values (mod 7039)"}, "prelude": "::kemu kua | kw #0 | lu :keso | kiw ::\n::keso bwi nu #1 gw ::\n::kegi la :keto ::\n::keto kei kia kae mea ::\n::kehi kyi | ko #1 | ly :keho | kio ::\n::keho kio :kemu ny #1 koi kay ::"}, "steps": [{"n": 1, "watch": "Evening watch: the sounds", "title": "The middle string", "new": "k i # 0-9", "aid": "i is Sunday, the Sun, the middle string: the accumulator where results gather. k is the first month (Nisan) and means keep.", "example": "ki #5", "say": "kee gm", "explain": "Keep the number 5 in plane i. A number always follows its word after #.", "task": "Keep 7 in i.", "answer": "ki #7", "check": {"kind": "i", "want": [7.0]}, "result": {"i": [5.0], "out": [], "song": 0}, "audio": "01.mp3"}, {"n": 2, "watch": "Evening watch: the sounds", "title": "The door", "new": "d", "aid": "d is Av, the month of the door: what is in a plane goes out through d.", "example": "ki #5 di", "say": "kee gm dee", "explain": "Two words in a verse run in the order written. di sends i out.", "task": "Send 9 out of the door.", "answer": "ki #9 di", "check": {"kind": "out", "want": ["9"]}, "result": {"i": [5.0], "out": ["5"], "song": 1}, "audio": "02.mp3"}, {"n": 3, "watch": "Evening watch: the sounds", "title": "Stream and breath", "new": "s |", "aid": "s is Shevat, the stream: count from one. | is a breath, the end of a verse.", "example": "si #7 | di", "say": "see mm (breathe) dee", "explain": "si #7 fills i with 1 to 7. The breath ends the verse; the next verse sends i out.", "task": "Count 1 to 4 and send it out.", "answer": "si #4 | di", "check": {"kind": "out", "want": ["1 2 3 4"]}, "result": {"i": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0], "out": ["1 2 3 4 5 6 7"], "song": 1}, "audio": "03.mp3"}, {"n": 4, "watch": "Evening watch: the sounds", "title": "Counting in twelves", "new": "# t e", "aid": "Numbers are base twelve: t is ten, e is eleven, #10 is twelve. Twelve stones, twelve months, twelve digits.", "example": "ki #10 | di", "say": "kee tm-km (breathe) dee", "explain": "#10 means one twelve and no units: 12.", "task": "Keep 23 (one twelve and eleven).", "answer": "ki #1e", "check": {"kind": "i", "want": [23.0]}, "result": {"i": [12.0], "out": ["12"], "song": 1}, "audio": "04.mp3"}, {"n": 5, "watch": "Evening watch: the sounds", "title": "The Moon plane, and the closing vowel", "new": "a", "aid": "a is Monday, the Moon: the input plane. A lone vowel at the end of a word names the plane it draws from.", "example": "sa #5 | kia | di", "say": "sah gm (breathe) kee-ah (breathe) dee", "explain": "sa #5 fills a; kia keeps into i a copy of a (the closing a is the source).", "task": "Fill a with 1 to 3 and copy it into i.", "answer": "sa #3 | kia", "check": {"kind": "i", "want": [1.0, 2.0, 3.0]}, "result": {"i": [1.0, 2.0, 3.0, 4.0, 5.0], "out": ["1 2 3 4 5"], "song": 1}, "audio": "05.mp3"}, {"n": 6, "watch": "Evening watch: the sounds", "title": "Gather", "new": "g", "aid": "g is Elul, the month of gathering the harvest: g adds a plane up.", "example": "sa #5 | gia | di", "say": "sah gm (breathe) gee-ah (breathe) dee", "explain": "gia gathers a into i: 1+2+3+4+5 = 15.", "task": "Gather 1 to 10 into i.", "answer": "sa #t | gia", "check": {"kind": "i", "want": [55.0]}, "result": {"i": [15.0], "out": ["15"], "song": 1}, "audio": "06.mp3"}, {"n": 7, "watch": "Evening watch: the sounds", "title": "Test", "new": "t", "aid": "t is Iyyar, the test: keep only what is above a number.", "example": "si #7 | ti #3 | di", "say": "see mm (breathe) tee bm (breathe) dee", "explain": "ti #3 keeps the values of i above 3.", "task": "Keep the values of 1 to 9 that are above 6.", "answer": "si #9 | ti #6", "check": {"kind": "i", "want": [7.0, 8.0, 9.0]}, "result": {"i": [4.0, 5.0, 6.0, 7.0], "out": ["4 5 6 7"], "song": 1}, "audio": "07.mp3"}, {"n": 8, "watch": "Evening watch: the sounds", "title": "Negate", "new": "n", "aid": "n is Kislev, the month of the longest nights: it subtracts, or with no number turns a value to its negative.", "example": "si #5 | ni #1 | di", "say": "see gm (breathe) nee tm (breathe) dee", "explain": "ni #1 takes 1 from every value of i.", "task": "Take 2 from each of 1 to 4.", "answer": "si #4 | ni #2", "check": {"kind": "i", "want": [-1.0, 0.0, 1.0, 2.0]}, "result": {"i": [0.0, 1.0, 2.0, 3.0, 4.0], "out": ["0 1 2 3 4"], "song": 1}, "audio": "08.mp3"}, {"n": 9, "watch": "Evening watch: the sounds", "title": "Project", "new": "p", "aid": "p is Sivan, the projection: multiply by a number, or by a string's ratio (pia = by 4:3, the fourth).", "example": "si #3 | pi #2 | di", "say": "see bm (breathe) pee pm (breathe) dee", "explain": "pi #2 doubles every value of i.", "task": "Triple 1 to 3.", "answer": "si #3 | pi #3", "check": {"kind": "i", "want": [3.0, 6.0, 9.0]}, "result": {"i": [2.0, 4.0, 6.0], "out": ["2 4 6"], "song": 1}, "audio": "09.mp3"}, {"n": 10, "watch": "Evening watch: the sounds", "title": "Retro", "new": "r", "aid": "r is Tevet, turning back: reverse the order.", "example": "si #5 | ri | di", "say": "see gm (breathe) ree (breathe) dee", "explain": "ri reverses i.", "task": "Make 4 3 2 1.", "answer": "si #4 | ri", "check": {"kind": "i", "want": [4.0, 3.0, 2.0, 1.0]}, "result": {"i": [5.0, 4.0, 3.0, 2.0, 1.0], "out": ["5 4 3 2 1"], "song": 1}, "audio": "10.mp3"}, {"n": 11, "watch": "Evening watch: the sounds", "title": "Bind", "new": "b", "aid": "b is Tammuz, binding: join another plane onto the end.", "example": "si #3 | sa #2 | bia | di", "say": "see bm (breathe) sah pm (breathe) bee-ah (breathe) dee", "explain": "bia binds a onto the end of i: 1 2 3 1 2.", "task": "Join 1 to 2 (in a) onto 1 to 3 (in i).", "answer": "si #3 | sa #2 | bia", "check": {"kind": "i", "want": [1.0, 2.0, 3.0, 1.0, 2.0]}, "result": {"i": [1.0, 2.0, 3.0, 1.0, 2.0], "out": ["1 2 3 1 2"], "song": 1}, "audio": "11.mp3"}, {"n": 12, "watch": "Evening watch: the sounds", "title": "Morph", "new": "m", "aid": "m is Cheshvan: morph. With a number it wraps values round like a clock (the remainder).", "example": "si #9 | mi #4 | di", "say": "see rm (breathe) mee dm (breathe) dee", "explain": "mi #4 replaces each value by its remainder after dividing by 4.", "task": "Show 1 to 7 on a clock of 3.", "answer": "si #7 | mi #3", "check": {"kind": "i", "want": [1.0, 2.0, 0.0, 1.0, 2.0, 0.0, 1.0]}, "result": {"i": [1.0, 2.0, 3.0, 0.0, 1.0, 2.0, 3.0, 0.0, 1.0], "out": ["1 2 3 0 1 2 3 0 1"], "song": 1}, "audio": "12.mp3"}, {"n": 13, "watch": "Evening watch: the sounds", "title": "Hold", "new": "h", "aid": "h is Adar, the last month: hold your breath and count. hia counts the values of a.", "example": "sa #9 | hia | di", "say": "sah rm (breathe) hee-ah (breathe) dee", "explain": "hia puts the number of values in a into i.", "task": "Count the values of 1 to 11 in a.", "answer": "sa #e | hia", "check": {"kind": "i", "want": [11.0]}, "result": {"i": [9.0], "out": ["9"], "song": 1}, "audio": "13.mp3"}, {"n": 14, "watch": "Evening watch: the sounds", "title": "The other five days", "new": "e y o u w", "aid": "e Wednesday (Mercury, scratch) · y Friday (Venus, pair) · o Tuesday (Mars, output) · u Thursday (Jupiter, store) · w Saturday (Saturn, archive).", "example": "so #4 | sw #2 | kio | biw | di", "say": "soh dm (breathe) saw pm (breathe) kee-oh (breathe) bee-aw (breathe) dee", "explain": "Seven planes now: fill o and w, copy o into i, bind w on.", "task": "Fill u with 1 to 6 and gather it into i.", "answer": "su #6 | giu", "check": {"kind": "i", "want": [21.0]}, "result": {"i": [1.0, 2.0, 3.0, 4.0, 1.0, 2.0], "out": ["1 2 3 4 1 2"], "song": 1}, "audio": "14.mp3"}, {"n": 15, "watch": "Midnight watch: order", "title": "The ring", "new": "(ring rule)", "aid": "A verse is read like a chiasm: first with last, second with second-last, and the centre word last of all.", "example": "sa #7 gia ta #3 | di", "say": "sah mm gee-ah tah bm (breathe) dee", "explain": "Ring order runs sa, then ta (the outer pair), then gia (the centre): 4+5+6+7 = 22. Written sa #7 ta #3 gia, the same words give 28.", "task": "Make the centre gather run before the test: get 28.", "answer": "sa #7 ta #3 gia", "check": {"kind": "i", "want": [28.0]}, "result": {"i": [22.0], "out": ["22"], "song": 1}, "audio": "15.mp3"}, {"n": 16, "watch": "Midnight watch: order", "title": "Spelling a sequence", "new": "(ring spelling)", "aid": "To run A B C D in that order, write A C D B: begin and end together, then the middle.", "example": "si #4 ri di pi #2", "say": "see dm ree dee pee pm", "explain": "Written si ri di pi, it runs si, pi, ri, di: 1 to 4, doubled, reversed, out: 8 6 4 2.", "task": "Run: stream 1 to 3, then reverse, then double.", "answer": "si #3 pi #2 ri", "check": {"kind": "i", "want": [6.0, 4.0, 2.0]}, "result": {"i": [8.0, 6.0, 4.0, 2.0], "out": ["8 6 4 2"], "song": 1}, "audio": "16.mp3"}, {"n": 17, "watch": "Midnight watch: order", "title": "A word is a pipeline", "new": "(syllable order)", "aid": "Inside a word, the syllables act one after another on the word's own plane. Change their order and the pipeline changes.", "example": "si #7 | ka #3 | pinata | di", "say": "see mm (breathe) kah bm (breathe) pee-nah-tah (breathe) dee", "explain": "pi (×1), na (subtract a's 3), ta (keep above 3): only 4 is left. pitana keeps first, then subtracts: 1 2 3 4.", "task": "Get 1 2 3 4 from the same start.", "answer": "si #7 | ka #3 | pitana", "check": {"kind": "i", "want": [1.0, 2.0, 3.0, 4.0]}, "result": {"i": [4.0], "out": ["4"], "song": 1}, "audio": "17.mp3"}, {"n": 18, "watch": "Midnight watch: order", "title": "Songs", "new": "(d-words)", "aid": "A d-word of two or more syllables sings its own vowel line. demorini is e-o-i-i, the vowels of ego eimi, 'I am'.", "example": "demorini", "say": "deh-moh-ree-nee", "explain": "No plane changes: the word is a melody, Mercury, Mars, Sun, Sun.", "task": "Sing a word whose vowels are a-i-a.", "answer": "daka", "check": {"kind": "events", "want": 1}, "result": {"i": [], "out": [], "song": 1}, "audio": "18.mp3"}, {"n": 19, "watch": "Midnight watch: order", "title": "Urgent", "new": "!", "aid": "! (tsk) puts a word ahead of the ring.", "example": "si #3 di ki! #9", "say": "see bm dee kee tsk rm", "explain": "Without !, ring order would run si, ki, di and say 9. With ki! first, si then di say 1 2 3.", "task": "Make 9 come out instead.", "answer": "si #3 di ki #9", "check": {"kind": "out", "want": ["9"]}, "result": {"i": [1.0, 2.0, 3.0], "out": ["1 2 3"], "song": 1}, "audio": "19.mp3"}, {"n": 20, "watch": "Midnight watch: order", "title": "Guard", "new": "?", "aid": "? (vvv) makes a word ask first: it runs only if i is positive.", "example": "ki #0 | ka #3 | kia? | di", "say": "kee km (breathe) kah bm (breathe) kee-ah vvv (breathe) dee", "explain": "i is 0, so kia? is skipped and 0 goes out.", "task": "Change one number so that 3 comes out.", "answer": "ki #1 | ka #3 | kia? | di", "check": {"kind": "out", "want": ["3"]}, "result": {"i": [0.0], "out": ["0"], "song": 1}, "audio": "20.mp3"}, {"n": 21, "watch": "Midnight watch: order", "title": "Loops", "new": "l", "aid": "l is Tishri, the turning of the year: repeat the next word.", "example": "si #2 | li #3 pi #2 | di", "say": "see pm (breathe) lee bm pee pm (breathe) dee", "explain": "li #3 repeats pi #2 three times: 1 2 becomes 8 16.", "task": "Double 1 to 2 five times.", "answer": "si #2 | li #5 pi #2", "check": {"kind": "i", "want": [32.0, 64.0]}, "result": {"i": [8.0, 16.0], "out": ["8 16"], "song": 1}, "audio": "21.mp3"}, {"n": 22, "watch": "Midnight watch: order", "title": "Sandbox", "new": "~", "aid": "~ (fff) wraps a word: if it fails, it is skipped and noted, and the program carries on.", "example": "ki #4 | ~si #100000 | di", "say": "kee dm (breathe) fff see tm-km-km-km-km-km (breathe) dee", "explain": "A stream of 248,832 values (#100000 is twelve to the fifth power) is over the limit; the sandbox skips it, so 4 goes out.", "task": "Remove the sandbox and see the error, then put it back.", "answer": "ki #4 | ~si #100000 | di", "check": {"kind": "out", "want": ["4"]}, "result": {"i": [4.0], "out": ["4"], "song": 1}, "audio": "22.mp3"}, {"n": 23, "watch": "Morning watch: names and the Canon", "title": "Calling a name", "new": ":", "aid": ": (shh) calls a name. The Canon is the built-in library; :tame is the mean, :dasa says i.", "example": "si #5 | :tame | :dasa", "say": "see gm (breathe) shh tah-meh (breathe) shh dah-sah", "explain": "The mean of 1 to 5 is 3.", "task": "Say the maximum of 1 to 8.", "answer": "si #8 | :tamo | :dasa", "check": {"kind": "out", "want": ["8"]}, "result": {"i": [3.0], "out": ["3"], "song": 0}, "audio": "23.mp3"}, {"n": 24, "watch": "Morning watch: names and the Canon", "title": "Defining a name, and while", "new": "::", "aid": "::name ... :: defines a word of your own. l with no number repeats while its plane is positive.", "example": "::kosu bogou nu #1 :: | ku #5 | ko #0 | lu :kosu | kio | di", "say": "shh-shh koh-soo boh-goh-oo noo tm shh-shh (breathe) koo gm (breathe) koh km (breathe) loo shh koh-soo (breathe) kee-oh (breathe) dee", "explain": "While u is positive: add u to o, take 1 from u. 5+4+3+2+1 = 15.", "task": "Sum 7 down to 1 the same way.", "answer": "::kosu bogou nu #1 :: | ku #7 | ko #0 | lu :kosu | kio", "check": {"kind": "i", "want": [28.0]}, "result": {"i": [15.0], "out": ["15"], "song": 1}, "audio": "24.mp3"}, {"n": 25, "watch": "Morning watch: names and the Canon", "title": "The prelude", "new": "(prelude)", "aid": "Some names are written in KANON itself: :kemu multiplies by repeated addition, :kegi is Euclid's algorithm, :kehi the factorial.", "example": "ki #7 | ka #6 | :kemu | :dasa", "say": "kee mm (breathe) kah lm (breathe) shh keh-moo (breathe) shh dah-sah", "explain": "7 × 6 = 42, using only bind, gather, negate and a while-loop.", "task": "Find the greatest common divisor of 84 and 36.", "answer": "ki #70 | ka #30 | :kegi", "check": {"kind": "i", "want": [12.0]}, "result": {"i": [42.0], "out": ["42"], "song": 0}, "audio": "25.mp3"}, {"n": 26, "watch": "Morning watch: names and the Canon", "title": "Number and letters", "new": "(Canon: k n d)", "aid": "The Canon is laid out on the grid: k-names are number, t statistics, p geometry, b sequences, d doors, l logic, m music, r time, h seals.", "example": "ki #29 | :kapi | :dasa", "say": "kee pm-rm (breathe) shh kah-pee (breathe) shh dah-sah", "explain": "The primes up to 33. :dagi says numbers as Greek numerals, :dahe as Hebrew numerals.", "task": "Say 23 as a Greek numeral.", "answer": "ki #1e | :dagi", "check": {"kind": "out", "want": ["κγʹ"]}, "result": {"i": [2.0, 3.0, 5.0, 7.0, 11.0, 13.0, 17.0, 19.0, 23.0, 29.0, 31.0], "out": ["2 3 5 7 11 13 17 19 23 29 31"], "song": 0}, "audio": "26.mp3"}, {"n": 27, "watch": "Morning watch: names and the Canon", "title": "Geometry and music", "new": "(Canon: p m)", "aid": "Star polygons, room resonances and string ratios are words of the language.", "example": "ki #8 | ka #3 | :paso | :dasa", "say": "kee nm (breathe) kah bm (breathe) shh pah-soh (breathe) shh dah-sah", "explain": "The star {8/3}: visit every third of eight points: 0 3 6 1 4 7 2 5.", "task": "List the first seven resonances of a cube room 10 metres on a side.", "answer": "ki #t | :pamo", "check": {"kind": "i", "want": [17.15, 24.25, 29.7, 34.3, 38.35, 42.01, 48.51]}, "result": {"i": [0.0, 3.0, 6.0, 1.0, 4.0, 7.0, 2.0, 5.0], "out": ["0 3 6 1 4 7 2 5"], "song": 0}, "audio": "27.mp3"}, {"n": 28, "watch": "Morning watch: names and the Canon", "title": "Time", "new": "(Canon: r)", "aid": "Days count from 1 January 2000. :rado gives the planetary weekday (0 Sunday ... 6 Saturday); :raso the seven planetary longitudes.", "example": "ki #0 | :rado | :dasa", "say": "kee km (breathe) shh rah-doh (breathe) shh dah-sah", "explain": "1 January 2000 was a Saturday: 6, Saturn's day, the plane w.", "task": "Which weekday was day 1?", "answer": "ki #1 | :rado", "check": {"kind": "i", "want": [0.0]}, "result": {"i": [6.0], "out": ["6"], "song": 0}, "audio": "28.mp3"}, {"n": 29, "watch": "Morning watch: names and the Canon", "title": "Speaking a program", "new": "=", "aid": "= (zzz) carries a checksum: two syllables that change if any sound is misheard or two neighbours are swapped.", "example": "sa #7 gia ta #3 =roby", "say": "sah mm gee-ah tah bm zzz roh-bay", "explain": "Every verse can end with its checksum; the decoder checks it. In tests, every corrupted program it decoded was caught.", "task": "Run the ring program again.", "answer": "sa #7 gia ta #3", "check": {"kind": "i", "want": [22.0]}, "result": {"i": [22.0], "out": [], "song": 0}, "audio": "29.mp3"}, {"n": 30, "watch": "Morning watch: names and the Canon", "title": "Your own Euclid", "new": "(all)", "aid": "Write the algorithm yourself: while a is positive, e = i mod a, i = a, a = e. Spell the body in ring order.", "example": "::kebo kei kia kae mea :: | ki #70 | ka #30 | la :kebo | :dasa", "say": "shh-shh keh-boh keh-ee kee-ah kah-eh meh-ah shh-shh (breathe) kee mm-km (breathe) kah bm-km (breathe) lah shh keh-boh (breathe) shh dah-sah", "explain": "kei kia kae mea runs as kei, mea, kia, kae (ring order). gcd(84, 36) = 12.", "task": "Find gcd(105, 45) with your own name.", "answer": "::kebo kei kia kae mea :: | ki #89 | ka #39 | la :kebo", "check": {"kind": "i", "want": [15.0]}, "result": {"i": [12.0], "out": ["12"], "song": 0}, "audio": "30.mp3"}]};
+const K = window.KANON, $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+let done = {}; try { done = JSON.parse(localStorage.getItem("kanon-done") || "{}"); } catch (_) {}
+const save = () => { try { localStorage.setItem("kanon-done", JSON.stringify(done)); } catch (_) {} };
+
+// ------------------------------------------------------------ checksum (same as kanon.py)
+function symbols(src) {
+  const codes = [], toks = src.replace(/::/g, ": :").match(/#[0-9te]+|[!?~:]|[a-z]+/g) || [];
+  for (const t of toks) {
+    if (t[0] === "#") for (const c of t.slice(1)) codes.push(91 + K.DIGITS.indexOf(c));
+    else if ("!?~:".includes(t)) codes.push(103 + "!?~:".indexOf(t));
+    else { for (let j = 0; j < t.length - t.length % 2; j += 2) codes.push(K.CONS.indexOf(t[j]) * 7 + K.VOWELS.indexOf(t[j + 1])); if (t.length % 2) codes.push(84 + K.VOWELS.indexOf(t[t.length - 1])); }
+    codes.push(109);
+  }
+  return codes;
+}
+function checksumWord(src) { const v = symbols(src).reduce((s, c, j) => (s + (j + 1) * c) % 7039, 0), a = Math.floor(v / 84), b = v % 84;
+  return K.CONS[Math.floor(a / 7)] + K.VOWELS[a % 7] + K.CONS[Math.floor(b / 7)] + K.VOWELS[b % 7]; }
+
+// ------------------------------------------------------------ seals (same drawing rules as kanon.py)
+const HEPT = {i:0,a:1,o:2,e:3,u:4,y:5,w:6};
+const pt = (cx, cy, r, k, n) => { const a = -Math.PI / 2 + 2 * Math.PI * k / n; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; };
+function wordSeal(w, cx, cy, r) {
+  const ink = css("--ink"), lamp = css("--lamp"), s = [];
+  s.push(`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${ink}" stroke-opacity=".2"/>`, `<circle cx="${cx}" cy="${cy}" r="${r * 1.22}" fill="none" stroke="${ink}" stroke-opacity=".12"/>`);
+  const vs = [...w].filter(c => K.VOWELS.includes(c)), pts = vs.map(v => pt(cx, cy, r, HEPT[v], 7));
+  if (pts.length > 1) s.push(`<polyline points="${pts.map(p => p.map(x => x.toFixed(1)).join(",")).join(" ")}" fill="none" stroke="${lamp}" stroke-width="${r / 9}" stroke-linejoin="round"/>`);
+  [...w].forEach((c, j) => { if (K.CONS.includes(c)) { const [x1, y1] = pt(cx, cy, r * 1.22, K.CONS.indexOf(c), 12);
+    if (j + 1 < w.length && K.VOWELS.includes(w[j + 1])) { const [x2, y2] = pt(cx, cy, r, HEPT[w[j + 1]], 7); s.push(`<line x1="${x1.toFixed(1)}" y1="${y1.toFixed(1)}" x2="${x2.toFixed(1)}" y2="${y2.toFixed(1)}" stroke="${ink}" stroke-opacity=".45" stroke-width="${r / 22}"/>`); }
+    s.push(`<rect x="${(x1 - r / 9).toFixed(1)}" y="${(y1 - r / 9).toFixed(1)}" width="${(r / 4.5).toFixed(1)}" height="${(r / 4.5).toFixed(1)}" fill="${ink}"/>`); } });
+  pts.forEach(([x, y], k) => s.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(k ? r / 9 : r / 6).toFixed(1)}" fill="${k ? ink : lamp}"/>`));
+  return s.join("");
+}
+function programSeal(src, wr = 20, maxCols = 3) {
+  let main; try { const p = K.parse(src); main = p[0].length ? p[0] : Object.values(p[1])[0] || []; } catch (e) { return ""; }
+  const n = Math.max(1, main.length), cols = Math.min(maxCols, n), rows = Math.ceil(n / cols), W = 300 * cols, H = 300 * rows, ink = css("--ink"), night = css("--night"), s = [];
+  main.forEach((v, vi) => { const cx = 150 + 300 * (vi % cols), cy = 150 + 300 * Math.floor(vi / cols), R = 108, m = v.length;
+    const order = K.schedule(K.bindLoops(v)), rank = new Map(order.map((it, k) => [it, k])), pos = v.map((_, k) => pt(cx, cy, R, k, Math.max(m, 1)));
+    for (let k = 0; k < Math.floor(m / 2); k++) { const [x1, y1] = pos[k], [x2, y2] = pos[m - 1 - k]; s.push(`<path d="M${x1.toFixed(1)},${y1.toFixed(1)} Q${cx},${cy} ${x2.toFixed(1)},${y2.toFixed(1)}" fill="none" stroke="${night}" stroke-opacity=".6" stroke-width="1.6"/>`); }
+    const single = m === 1, r0 = single ? 70 : wr;
+    v.forEach((it, k) => { const [x, y] = single ? [cx, cy - 10] : pos[k]; s.push(wordSeal(it.word, x, y, r0));
+      s.push(`<text x="${x.toFixed(1)}" y="${(y + r0 * 1.22 + 22).toFixed(1)}" font-size="${single ? 18 : 12 + wr / 6}" text-anchor="middle" fill="${ink}" font-family="IBM Plex Mono, monospace">${esc((it.kind === "call" ? ":" : "") + it.word)}</text>`);
+      if (rank.has(it) && !single) s.push(`<text x="${(x + 25).toFixed(1)}" y="${(y - 20).toFixed(1)}" font-size="11" fill="${night}" font-family="IBM Plex Mono, monospace">${rank.get(it) + 1}</text>`); });
+    if (m % 2 && !single) s.push(`<circle cx="${cx}" cy="${cy}" r="3" fill="${night}"/>`); });
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="Seal: each verse as a ring; arcs join the pairs the ring rule runs together; numbers give the order">${s.join("")}</svg>`;
+}
+function oneSeal(src) { return programSeal(src, 30, 1); }   // the lesson figure: larger word seals
+
+// ------------------------------------------------------------ the codec, played in the browser (same timing as kanon.py)
+const F0 = 154.2, ROW = [9, 11, 13, 15], COL = [17, 20, 23], MARK = {"!": 25, "~": 27, "?": 29, ":": 31, "=": 33};
+let actx = null;
+function speak(src) {
+  actx = actx || new (window.AudioContext || window.webkitAudioContext)(); const ctx = actx; let t = ctx.currentTime + 0.1;
+  const out = ctx.createGain(); out.gain.value = 0.18; out.connect(ctx.destination);
+  const tone = (fs, dur, amps) => { fs.forEach((f, k) => { const o = ctx.createOscillator(), g = ctx.createGain(); o.frequency.value = f; g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime((amps ? amps[k] : 1) / fs.length, t + 0.008); g.gain.setValueAtTime((amps ? amps[k] : 1) / fs.length, t + dur - 0.015); g.gain.linearRampToValueAtTime(0, t + dur); o.connect(g); g.connect(out); o.start(t); o.stop(t + dur + 0.02); }); t += dur; };
+  const vowel = (v, dur) => { const f = K.RATIO[v] * F0; tone([f, 2 * f, 3 * f], dur, [1, 0.45, 0.2]); };
+  for (const verse of src.split("|")) {
+    for (const tk of verse.trim().split(/\s+/).filter(Boolean)) {
+      if (tk[0] === "#") { for (const ch of tk.slice(1)) { const i = K.DIGITS.indexOf(ch); tone([ROW[Math.floor(i / 3)] * F0, COL[i % 3] * F0, 6 * F0], 0.07); vowel("i", 0.12); t += 0.045; } }
+      else { const m = tk.match(/^(~?)(::?|=)?([a-z]*)([!?]*)$/); if (!m) continue; const [, pre, colons, w, post] = m;
+        const mark = ch => { tone([MARK[ch] * F0], 0.07); t += 0.045; };
+        if (pre) mark("~"); for (const ch of (colons || "")) mark(ch);
+        for (let j = 0; j < w.length - w.length % 2; j += 2) { const i = K.CONS.indexOf(w[j]); tone([ROW[Math.floor(i / 3)] * F0, COL[i % 3] * F0], 0.07); vowel(w[j + 1], 0.18); t += 0.045; }
+        if (w.length % 2) { vowel(w[w.length - 1], 0.18); t += 0.045; }
+        for (const ch of post) mark(ch); }
+      t += 0.175;
+    }
+    t += 0.33;
+  }
+}
+const SAY = COURSE.meta.pronounce;
+function pronounce(src) { return (src.match(/#[0-9te]+|\||::|[:!?~=]|[a-z]+/g) || []).map(tk => {
+  if (tk[0] === "#") return [...tk.slice(1)].map(c => SAY.digits[c]).join("-"); if (tk === "::") return "shh-shh"; if (SAY.marks[tk]) return SAY.marks[tk];
+  const out = []; for (let j = 0; j < tk.length - tk.length % 2; j += 2) out.push(tk[j] + SAY.vowels[tk[j + 1]]); if (tk.length % 2) out.push(SAY.vowels[tk[tk.length - 1]]); return out.join("-"); }).join(" "); }
+
+// ------------------------------------------------------------ running
+function run(src) { const vm = new K.VM(); try { vm.run(src); return {vm}; } catch (e) { return {vm, error: e.message}; } }
+function resultHTML(r) {
+  const P = r.vm.P, rows = [];
+  for (const v of "iaeyouw") if (P[v].length) rows.push([v, "[" + P[v].slice(0, 12).map(K.fmt).join(", ") + (P[v].length > 12 ? ", …" : "") + "]"]);
+  if (r.vm.out.length) rows.push(["out", r.vm.out.join("  ·  ")]);
+  if (r.vm.events.some(e => e[0] === "melody")) rows.push(["song", r.vm.events.filter(e => e[0] === "melody").map(e => e[1].map(x => x.toFixed(3)).join(" ")).join(" | ")]);
+  if (r.error) rows.push(["error", r.error]);
+  if (!rows.length) rows.push(["", "(nothing kept)"]);
+  return rows.map(([a, b]) => `<dt>${esc(a)}</dt><dd>${esc(b)}</dd>`).join("");
+}
+function checkAnswer(step, src) {
+  const r = run(src); if (r.error) return [false, r.error]; const c = step.check;
+  if (c.kind === "i") { const got = r.vm.P.i; const ok = got.length === c.want.length && got.every((x, k) => Math.abs(x - c.want[k]) < 0.01); return [ok, "i = [" + got.map(K.fmt).join(", ") + "]"]; }
+  if (c.kind === "out") { const ok = JSON.stringify(r.vm.out) === JSON.stringify(c.want); return [ok, "out: " + (r.vm.out.join(" · ") || "(nothing)")]; }
+  const ok = r.vm.events.length === c.want; return [ok, ok ? "it sings" : "no song"];
+}
+
+// ------------------------------------------------------------ course view
+let cur = 0;
+function progress() { const n = Object.keys(done).length; $("progText").textContent = `${n} of ${COURSE.steps.length} steps done`; $("progBar").style.width = (100 * n / COURSE.steps.length) + "%"; }
+function list() {
+  let w = ""; $("stepList").innerHTML = COURSE.steps.map((s, k) => { const head = s.watch !== w ? `<div class="watch">${esc(s.watch)}</div>` : ""; w = s.watch;
+    return head + `<button class="step" type="button" data-k="${k}" ${k === cur ? 'aria-current="true"' : ""}><span class="n">${String(s.n).padStart(2, "0")}</span><span>${esc(s.title)}</span><span class="d">${done[s.n] ? "✓" : ""}</span></button>`; }).join("");
+}
+function lesson() {
+  const s = COURSE.steps[cur], r = run(s.example.replace(/\s*=[a-z]*$/, ""));
+  $("lesson").innerHTML = `
+    <div style="display:flex;flex-direction:column;gap:6px"><h3>${esc(s.watch)} · step ${s.n} of ${COURSE.steps.length}</h3><h2>${esc(s.title)}</h2></div>
+    <div class="chips">${(s.new.startsWith("(") ? [s.new] : s.new.split(" ")).map(g => `<span class="chip">${esc(g)}</span>`).join("")}</div>
+    <p class="aid">${esc(s.aid)}</p>
+    <div class="two">
+      <div style="display:flex;flex-direction:column;gap:8px;min-width:0">
+        <pre class="code">${esc(s.example)}</pre>
+        <div class="say">say it: ${esc(s.say)}</div>
+        <div class="row"><button class="btn" type="button" id="lsAudio">Hear the code</button><audio id="lsEl" preload="none" src="course/${s.audio}"></audio></div>
+        <p style="margin:0">${esc(s.explain)}</p>
+        <dl class="result">${resultHTML(r)}</dl>
+      </div>
+      <div class="seal">${oneSeal(s.example.replace(/\s*=[a-z]*$/, ""))}</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:12px">
+      <h3>Your turn</h3><p style="margin:0">${esc(s.task)}</p>
+      <textarea id="lsIn" spellcheck="false" aria-label="Your program">${esc(s.example.replace(/\s*=[a-z]*$/, ""))}</textarea>
+      <div class="row"><button class="btn primary" type="button" id="lsCheck">Check</button><button class="btn" type="button" id="lsShow">Show an answer</button><button class="btn" type="button" id="lsNext">Next step</button><span class="verdict" id="lsVerdict"></span></div>
+    </div>`;
+  $("lsAudio").onclick = () => { const a = $("lsEl"); a.currentTime = 0; a.play().catch(() => speak(s.example)); };
+  $("lsCheck").onclick = () => { const [ok, msg] = checkAnswer(s, $("lsIn").value); $("lsVerdict").className = "verdict " + (ok ? "ok" : "bad"); $("lsVerdict").textContent = (ok ? "Correct. " : "Not yet. ") + msg; if (ok) { done[s.n] = 1; save(); progress(); list(); } };
+  $("lsShow").onclick = () => { $("lsIn").value = s.answer; };
+  $("lsNext").onclick = () => { if (cur < COURSE.steps.length - 1) { cur++; list(); lesson(); window.scrollTo({top: 0}); } };
+}
+$("stepList").addEventListener("click", e => { const b = e.target.closest("button[data-k]"); if (!b) return; cur = +b.dataset.k; list(); lesson(); });
+
+// ------------------------------------------------------------ playground
+function play() { const src = $("pg").value, r = run(src); $("pgRes").innerHTML = resultHTML(r); $("pgTrace").textContent = r.vm.trace.join("\n");
+  $("pgSeal").innerHTML = ""; $("pgBig").innerHTML = programSeal(src); $("pgSay").textContent = pronounce(src); }
+$("pgRun").onclick = play; $("pg").addEventListener("input", () => { clearTimeout(window._pgT); window._pgT = setTimeout(play, 250); });
+$("pgHear").onclick = () => { const src = $("pg").value; const withSum = src.split("|").map(v => v.trim()).filter(Boolean).map(v => v + " =" + checksumWord(v)).join(" | "); speak(withSum); $("pgSay").textContent = pronounce(withSum); };
+function ringOut() { const seq = $("ringIn").value.split("|").map(x => x.trim()).filter(Boolean); $("ringOut").textContent = "→ " + K.ring(seq).join(" "); }
+$("ringIn").addEventListener("input", ringOut);
+
+// ------------------------------------------------------------ reference
+const MONTH = ["Nisan","Iyyar","Sivan","Tammuz","Av","Elul","Tishri","Cheshvan","Kislev","Tevet","Shevat","Adar"], SEASON = ["spring","summer","autumn","winter"];
+const OPS = {k:"keep",t:"test",p:"project",b:"bind",d:"door",g:"gather",l:"loop",m:"morph",n:"negate",r:"retro",s:"stream",h:"hold"};
+const DAYS = [["i","Sunday","Sun","accumulator (the middle string)","1 : 1"],["a","Monday","Moon","input, second argument","4 : 3"],["o","Tuesday","Mars","output","8 : 9"],["e","Wednesday","Mercury","scratch","32 : 27"],["u","Thursday","Jupiter","store, counter","64 : 81"],["y","Friday","Venus","pair register","256 : 243"],["w","Saturday","Saturn","archive (the silent string)","3 : 4"]];
+const DOM = {k:"number",t:"statistics",p:"geometry",b:"sequences",d:"doors",l:"logic",m:"music",r:"time",h:"seals"};
+const canon = Object.entries(COURSE.meta.canon), byDom = {}; canon.forEach(([k, d]) => (byDom[k[0]] = byDom[k[0]] || []).push([k, d]));
+$("refPanel").innerHTML = `
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>The calendar palace</h2><p class="muted" style="margin:0">Twelve consonants, twelve months, twelve operations. Walk the rooms by season.</p>
+    <div class="palace">${SEASON.map((se, r) => `<div class="season">${se}</div>` + [0,1,2].map(c => { const ch = K.CONS[r * 3 + c]; return `<div class="room"><b>${ch}</b><span>${OPS[ch]}</span><small>${MONTH[r * 3 + c]}</small></div>`; }).join("")).join("")}</div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>The planetary week</h2><div class="scroll"><table><thead><tr><th>Vowel</th><th>Say</th><th>Day</th><th>Planet</th><th>Plane</th><th>String ratio</th></tr></thead><tbody>${DAYS.map(d => `<tr><td class="mono"><b>${d[0]}</b></td><td class="mono">${SAY.vowels[d[0]]}</td><td>${d[1]}</td><td>${d[2]}</td><td>${d[3]}</td><td class="mono">${d[4]}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>Marks and numbers</h2><div class="scroll"><table><thead><tr><th>Mark</th><th>Say</th><th>Meaning</th></tr></thead><tbody>
+    ${[["|","(breathe)","end of verse"],["!","tsk","urgent: runs before the ring"],["~","fff","sandbox: a failure is skipped"],["?","vvv","guard: runs only if i is positive"],[":","shh",":name calls a name"],["::","shh-shh","::name … :: defines a name"],["=","zzz","checksum of the verse"],["#","(none)","a number in base twelve; each digit is its consonant, hummed: " + Object.entries(SAY.digits).map(([d, s]) => d + " " + s).join(", ")]].map(r => `<tr><td class="mono"><b>${esc(r[0])}</b></td><td class="mono">${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>The Canon</h2><p class="muted" style="margin:0">${canon.length} built-in names. The first consonant names the domain. Inputs are read from i (and a); results go to i.</p>
+    <div class="scroll"><table><thead><tr><th>Domain</th><th>Name</th><th>What it does</th></tr></thead><tbody>${Object.entries(byDom).map(([d, items]) => items.map(([k, desc], j) => `<tr><td>${j ? "" : esc(DOM[d] || d)}</td><td class="mono">:${k}</td><td>${esc(desc)}</td></tr>`).join("")).join("")}</tbody></table></div></div>
+  <div style="display:flex;flex-direction:column;gap:8px"><h2>The prelude, in KANON</h2><pre class="code" style="font-size:13.5px">${esc(COURSE.meta.prelude)}</pre></div>`;
+
+// ------------------------------------------------------------ tabs and start
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach(x => x.setAttribute("aria-selected", x === b ? "true" : "false"));
+  ["course","play","ref","about"].forEach(id => $(id).hidden = id !== b.dataset.tab); if (b.dataset.tab === "play") play(); }));
+progress(); list(); lesson(); ringOut(); play();
+</script>

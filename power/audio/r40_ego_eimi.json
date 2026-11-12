@@ -1,0 +1,97 @@
+{
+ "language": "greek",
+ "era": "koine",
+ "mode": "declaim",
+ "syllables": [
+  [
+   {
+    "phonemes": [
+     "ɛ"
+    ],
+    "accent": null,
+    "long": false
+   },
+   {
+    "phonemes": [
+     "ɣ",
+     "o"
+    ],
+    "accent": "acute",
+    "long": false
+   }
+  ],
+  [
+   {
+    "phonemes": [
+     "iː"
+    ],
+    "accent": null,
+    "long": true
+   },
+   {
+    "phonemes": [
+     "m",
+     "i"
+    ],
+    "accent": null,
+    "long": false
+   }
+  ]
+ ],
+ "ipa": "ɛ.ˈɣo iː.mi",
+ "melody": [
+  {
+   "t": 0.05,
+   "dur": 0.143,
+   "hz": [
+    173.5
+   ],
+   "cents_from_first": [
+    0.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.312,
+   "dur": 0.178,
+   "hz": [
+    227.9
+   ],
+   "cents_from_first": [
+    472.5
+   ],
+   "accent": "acute"
+  },
+  {
+   "t": 0.571,
+   "dur": 0.255,
+   "hz": [
+    166.1
+   ],
+   "cents_from_first": [
+    -75.0
+   ],
+   "accent": null
+  },
+  {
+   "t": 0.916,
+   "dur": 0.143,
+   "hz": [
+    166.1,
+    137.9
+   ],
+   "cents_from_first": [
+    -75.0,
+    -397.7
+   ],
+   "accent": null
+  }
+ ],
+ "text": "ἐγώ εἰμι.",
+ "ensemble": "none",
+ "feelings": [
+  "neutral",
+  "neutral"
+ ],
+ "tradition": null
+}

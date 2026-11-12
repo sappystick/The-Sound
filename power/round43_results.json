@@ -1,0 +1,220 @@
+{
+ "A_line_division": {
+  "P66": {
+   "word_splits": 998,
+   "at_syllable_boundary": 0.956,
+   "random_split_expected": 0.345,
+   "p_binomial": 0.0
+  },
+  "P75": {
+   "word_splits": 612,
+   "at_syllable_boundary": 0.98,
+   "random_split_expected": 0.35,
+   "p_binomial": 1.38e-251
+  },
+  "01": {
+   "word_splits": 2073,
+   "at_syllable_boundary": 0.988,
+   "random_split_expected": 0.353,
+   "p_binomial": 0.0
+  },
+  "03": {
+   "word_splits": 1595,
+   "at_syllable_boundary": 0.979,
+   "random_split_expected": 0.344,
+   "p_binomial": 0.0
+  }
+ },
+ "B_letters_as_notes": {
+  "John": {
+   "verses": 400,
+   "stepwise_share": 0.354,
+   "shuffled": 0.3716,
+   "diff": -0.0177,
+   "z": -5.01
+  },
+  "Mark": {
+   "verses": 400,
+   "stepwise_share": 0.3618,
+   "shuffled": 0.3858,
+   "diff": -0.0241,
+   "z": -6.48
+  },
+  "Revelation": {
+   "verses": 400,
+   "stepwise_share": 0.3364,
+   "shuffled": 0.3638,
+   "diff": -0.0274,
+   "z": -8.78
+  },
+  "Psalms (LXX)": {
+   "verses": 395,
+   "stepwise_share": 0.3201,
+   "shuffled": 0.3466,
+   "diff": -0.0265,
+   "z": -6.45
+  },
+  "Odes (LXX canticles)": {
+   "verses": 231,
+   "stepwise_share": 0.319,
+   "shuffled": 0.3528,
+   "diff": -0.0337,
+   "z": -6.84
+  },
+  "Genesis (LXX)": {
+   "verses": 399,
+   "stepwise_share": 0.4029,
+   "shuffled": 0.4036,
+   "diff": -0.0007,
+   "z": -0.21
+  }
+ },
+ "C_aeolian_lyre": {
+  "strings": [
+   {
+    "string": "hypate",
+    "vowel": "ω",
+    "planet": "Saturn",
+    "f0": 165.0,
+    "d0.8mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 5,
+     "5 m/s": 8,
+     "8 m/s": 12
+    },
+    "d1.2mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 3,
+     "5 m/s": 5,
+     "8 m/s": 8
+    }
+   },
+   {
+    "string": "parhypate",
+    "vowel": "υ",
+    "planet": "Jupiter",
+    "f0": 173.8,
+    "d0.8mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 4,
+     "5 m/s": 7,
+     "8 m/s": 12
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 3,
+     "5 m/s": 5,
+     "8 m/s": 8
+    }
+   },
+   {
+    "string": "lichanos",
+    "vowel": "ο",
+    "planet": "Mars",
+    "f0": 195.6,
+    "d0.8mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 4,
+     "5 m/s": 6,
+     "8 m/s": 10
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 3,
+     "5 m/s": 4,
+     "8 m/s": 7
+    }
+   },
+   {
+    "string": "mese",
+    "vowel": "ι",
+    "planet": "Sun",
+    "f0": 220.0,
+    "d0.8mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 3,
+     "5 m/s": 6,
+     "8 m/s": 9
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 2,
+     "5 m/s": 4,
+     "8 m/s": 6
+    }
+   },
+   {
+    "string": "trite",
+    "vowel": "η",
+    "planet": "Venus",
+    "f0": 231.8,
+    "d0.8mm": {
+     "1.5 m/s": 2,
+     "3 m/s": 3,
+     "5 m/s": 5,
+     "8 m/s": 9
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 2,
+     "5 m/s": 4,
+     "8 m/s": 6
+    }
+   },
+   {
+    "string": "paranete",
+    "vowel": "ε",
+    "planet": "Mercury",
+    "f0": 260.7,
+    "d0.8mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 3,
+     "5 m/s": 5,
+     "8 m/s": 8
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 2,
+     "5 m/s": 3,
+     "8 m/s": 5
+    }
+   },
+   {
+    "string": "nete",
+    "vowel": "α",
+    "planet": "Moon",
+    "f0": 293.3,
+    "d0.8mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 3,
+     "5 m/s": 4,
+     "8 m/s": 7
+    },
+    "d1.2mm": {
+     "1.5 m/s": 1,
+     "3 m/s": 2,
+     "5 m/s": 3,
+     "8 m/s": 5
+    }
+   }
+  ],
+  "rule": "vortex shedding f = 0.2 v / d locks onto the nearest string harmonic n = round(f / f0); gut strings 0.8-1.2 mm",
+  "texts": {
+   "Berakhot 3b": "a lyre hung over David's bed; at midnight the north wind blew on it and it played by itself",
+   "Odes of Solomon 6:1 (Harris 1909)": "as the hand moves over the harp and the strings speak, so speaks in my members the Spirit of the Lord",
+   "Clement, Protrepticus 1.5": "the Logos ... tuned the cosmos and man, soul and body, by the Holy Spirit, and plays to God on the many-voiced instrument: 'you are my lyre, aulos and temple'"
+  }
+ },
+ "D_score_P66_John_1_1_5": {
+  "note_line": "Ι Ι ΓΙ¯ ΓΙ¯ Ι Γ Μ Ι¯ Ι Γ Μ ΓΙ¯ Ι Ι Ι¯ Γ¯ ‖ Ι¯ Ι¯ Γ¯ ΓΙ¯ Ι Γ Μ ΓΙ¯ Μ ΓΙ¯ Ι Ι ΓΙ¯ Ι Ι Ι¯ Γ¯ ‖ Γ Μ Ι Ι¯ ΓΙ¯ Ι Γ Μ Μ Ι¯ Ι Γ Ι¯ ΓΙ¯ ‖ Ι Γ Μ Μ Ι¯ Γ Γ Ι Γ Μ Μ Ι Ι¯ ΓΙ¯ ‖ Ι Γ ΓΙ¯ Ι¯ Ι Ι Γ ΓΙ¯ Ι ΓΙ¯ ‖ ΓΙ¯ Ι Γ Μ Ι¯ Ι ΓΙ¯ Ι ΓΙ¯ Ι Γ Μ¯ Γ¯ Μ¯ ‖ Ι¯ Ι Ι Γ Μ Ι¯ Γ Ι¯ Ι Γ Μ Σ",
+  "text_line": "ɛn ar kʰe en o lo ɣos kɛ o lo ɣos en pros ton tʰɛ on ‖ kɛ tʰɛ os en o lo ɣos uː tos en ɛn ar kʰe pros ton tʰɛ on ‖ pan ta ði av tuː ɛ ɣɛ nɛ to kɛ kʰo ris av tuː ‖ ɛ ɣɛ nɛ to uː ðɛ ɛn o ɣɛ ɣo nɛn ɛn av to ‖ zo e en kɛ e zo e en to pʰos ‖ ton antʰ ro pon kɛ to pʰos ɛn te sko ti a pʰɛ niː ‖ kɛ e sko ti a av to uː ka tɛ la vɛn",
+  "p66_unspaced": "\\εν αρχη ην ο λογοσ και ο λογοσ ην προσ τον^ +=θν /και =θσ ην ο λογοσ / ουτοσ ην εν αρχη προσ το^ν^ ~=θν / /παντα δι αυτου εγενετο και χωρισ αυ^τ^ο^υ^ /εγενετο ουδεν ο γεγονεν / αυτω ζωη ην /και η ζωη ην το φωσ των ανθρωπω¯ / /και το φωσ εν τη σκοτια φαινει και η /σκοτια αυτο ου κατελαβεν",
+  "syllables": 97,
+  "rules": "accent rule (pre-classical and Delphic practice: Devine & Stephens 1994; West 1992); vowel quantity; rest at P66 line ends; sacred names x2 (Reading)"
+ },
+ "renders": [
+  "power/audio/r43_p66_john1_accent.mp3",
+  "power/audio/r43_p66_john1_letters_as_notes.mp3",
+  "power/audio/r43_aeolian_lyre_midnight.mp3"
+ ]
+}

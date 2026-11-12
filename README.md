@@ -3,7 +3,32 @@
 A research model that reads the Gospel of John, and the scriptures it points to, as spoken sound, structure and
 symbol. Every claim is tested against chance before it counts.
 
+- `SYNTHESIS.md`: what has been established, graded by evidence; publishable papers; threads to close
 - `EVIDENCE_TREE.md`: every discovery with its status (verified, known, negative, open) and the script behind it
+- **Two lines of work merged.** After round 38 the project ran on two branches, which were merged in round 67. Rounds 39-66 below come from one branch. The other branch's own "round 39" and "round 40" are labelled **39M** and **40M**:
+  - `VERIFIED.md`: 39M, the master update of verified discoveries; exact centre-motif p-values; the vowel-square render
+  - `ROUND40.md`: 40M, the open investigations across both Testaments (John 13:31-33, the voice-drawn outlines of Revelation and Job, ketiv/qere, Masoretic midpoints, 666/616)
+  - `RESONANCE.md` and `resonance/`: 40M, the Resonance sound engine (ancient vowels, tunings, temple room modes, breath pacing, beats; verifier, presets, samples, web app)
+- `lang4d/`: rounds 65-67, KANON - a spoken, typed, played and drawn programming language (white paper, v0.2 review, Python + JavaScript interpreters, checksummed audio codec, the Canon library, seals, the one-night course and its page in `lang4d/app/`)
+- `POWER_MANUAL.md`: round 64, thought experiment: the Day of Atonement as the pyramid's operating manual; chamber acoustics, Helmholtz breathing, voice through the shafts
+- `POWER_EGYPT.md`: round 63, cube / twelve / centre across the corpora; Egyptian parallels; the matrix with its purpose reversed
+- `POWER_CODE.md`: round 62, decoding tests on the building instructions (elements, constants, pi, capacitor, magnetism, geometry, geography)
+- `POWER_PYRAMID.md`: round 60, the Great Pyramid (Petrie 1883) against the biblical measurements, with chance baselines (negative; shared cubit system)
+- `POWER_PLANETS.md`: round 59, the last construction pieces; the speaking planet organ (Nicomachus and Pliny tunings) with a vowel-recognition test
+- `POWER_TABERNACLE.md`: round 56, thought experiment: the tabernacle and temple as one instrument; every part mapped and calculated; schematic and render
+- `POWER_PERFORMANCE.md`: round 55, pre-registered performance timing (fails); sacred dimensions as resonator ratios; non-lexical passage detector
+- `POWER_CENTRE.md`: round 52, pre-registered: 10:11 at the centre of John 1:1-20:31 in Sinaiticus and Vaticanus (passes)
+- `POWER_MEASURES.md`: round 51, performed time, breath groups, story time, the 20:31 ending, mapping-free tests, the band layers
+- `POWER_RERUN.md`: round 50, pre-registered reruns (R2 replicates in Revelation), Psalm 24 with Second Temple vowels, other units of measure, the seven-with-a-middle mold (Philo, Josephus, Revelation)
+- `POWER_SOURCES.md`: round 47, Palestinian Aramaic of the period (Qumran, targum, Galilean Talmud) vs the Gospel Aramaic words; ancient ways of writing sound; Jericho and magrepha physics
+- `POWER_LANGUAGE.md`: round 46, the four predictions by letters and accent; composition language (Greek vs Syriac, with controls)
+- `POWER_AXIOM.md`: round 45, John taken as the score of a lost instrument; the whole book mapped, the axiom tested
+- `POWER_MESE.md`: round 44, hymn papyri tests, "I am" on the middle string, the instrument, the technical second reading
+- `POWER_SCORE.md`: round 43, the papyrus as a score (P.Oxy. 1786, Clement on the human instrument, the wind-played lyre, syllabic line division)
+- `POWER_MACHINES.md`: round 42, a buildable speaking machine, ancient sound machines (Heron), texts as sound scores, "many waters"
+- `POWER_SIM.md`: round 41, power-word simulator (mouths, pitches, rooms, languages), words decoded into ancient notes, a lyre and vowel pipes to play them
+- `POWER_SOUNDS.md`: round 40, the original words of power as calculated sound in their spaces (renders in `power/audio/r40_*`)
+- `round39/`: multi-lens team (Coptic, scribal marks, Sefer Yetzirah and calendar; partial Targum, ciphers, Syriac)
 - `TIMELINE.md`: the historical Johns (the Baptist, the son of Zebedee, the beloved disciple, the Elder) as a timeline tree
 - `LENSES.md`: the era lenses (sound, number, geometry, music, light, water, spirit, temple, stones, medicine, heavens, style, Egypt)
 - `crossref/`: the lens cross-reference across all sources

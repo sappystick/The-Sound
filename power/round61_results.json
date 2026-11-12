@@ -1,0 +1,347 @@
+{
+ "pairs": [
+  {
+   "area": "King's Chamber",
+   "dims_m": [
+    10.47,
+    5.24,
+    5.84
+   ],
+   "source": "Petrie",
+   "function": "innermost sealed chamber; the coffer",
+   "best_biblical": "tabernacle Holy Place",
+   "biblical_cubits": [
+    20,
+    10,
+    10
+   ],
+   "unit": "royal 0.5236",
+   "biblical_m": [
+    10.47,
+    5.24,
+    5.24
+   ],
+   "shape_error_pct": 5.7,
+   "size_error_pct": 0.0,
+   "local_p": 0.001
+  },
+  {
+   "area": "Coffer (inside)",
+   "dims_m": [
+    1.98,
+    0.68,
+    0.87
+   ],
+   "source": "Petrie",
+   "function": "a lidded stone box in the inner chamber",
+   "best_biblical": "altar of burnt offering",
+   "biblical_cubits": [
+    5,
+    5,
+    3
+   ],
+   "unit": "common 0.445",
+   "biblical_m": [
+    2.23,
+    2.23,
+    1.33
+   ],
+   "shape_error_pct": 99.0,
+   "size_error_pct": 12.2,
+   "local_p": 0.965
+  },
+  {
+   "area": "Coffer (outside)",
+   "dims_m": [
+    2.28,
+    0.98,
+    1.05
+   ],
+   "source": "Petrie",
+   "function": "a lidded stone box in the inner chamber",
+   "best_biblical": "altar of burnt offering",
+   "biblical_cubits": [
+    5,
+    5,
+    3
+   ],
+   "unit": "18-inch 0.457",
+   "biblical_m": [
+    2.29,
+    2.29,
+    1.37
+   ],
+   "shape_error_pct": 74.1,
+   "size_error_pct": 0.4,
+   "local_p": 0.39
+  },
+  {
+   "area": "Antechamber",
+   "dims_m": [
+    2.95,
+    1.66,
+    3.79
+   ],
+   "source": "Petrie",
+   "function": "the small chamber before the inner room; 3 portcullis slabs",
+   "best_biblical": "Solomon's side chambers",
+   "biblical_cubits": [
+    5,
+    6,
+    7
+   ],
+   "unit": "royal 0.5236",
+   "biblical_m": [
+    2.62,
+    3.14,
+    3.67
+   ],
+   "shape_error_pct": 34.2,
+   "size_error_pct": 3.5,
+   "local_p": 0.598
+  },
+  {
+   "area": "Queen's Chamber",
+   "dims_m": [
+    5.75,
+    5.22,
+    4.68
+   ],
+   "source": "Petrie",
+   "function": "the middle chamber, gabled roof; a corbelled niche",
+   "best_biblical": "tabernacle Holy of Holies",
+   "biblical_cubits": [
+    10,
+    10,
+    10
+   ],
+   "unit": "royal 0.5236",
+   "biblical_m": [
+    5.24,
+    5.24,
+    5.24
+   ],
+   "shape_error_pct": 16.3,
+   "size_error_pct": 9.9,
+   "local_p": 0.745
+  },
+  {
+   "area": "Grand Gallery",
+   "dims_m": [
+    46.7,
+    8.6,
+    2.06
+   ],
+   "source": "approx (Petrie; Lehner 1997)",
+   "function": "the great ascending hall; 7 corbel courses",
+   "best_biblical": "Noah's ark",
+   "biblical_cubits": [
+    300,
+    50,
+    30
+   ],
+   "unit": "common 0.445",
+   "biblical_m": [
+    133.5,
+    22.25,
+    13.35
+   ],
+   "shape_error_pct": 58.3,
+   "size_error_pct": 185.9,
+   "local_p": 0.508
+  },
+  {
+   "area": "Subterranean chamber",
+   "dims_m": [
+    14.05,
+    8.26,
+    3.5
+   ],
+   "source": "approx (Petrie; Lehner)",
+   "function": "the unfinished rock-cut chamber below",
+   "best_biblical": "Solomon's Holy Place",
+   "biblical_cubits": [
+    40,
+    20,
+    30
+   ],
+   "unit": "common 0.445",
+   "biblical_m": [
+    17.8,
+    8.9,
+    13.35
+   ],
+   "shape_error_pct": 60.0,
+   "size_error_pct": 26.7,
+   "local_p": 0.987
+  },
+  {
+   "area": "Queen's niche",
+   "dims_m": [
+    4.67,
+    1.57,
+    1.04
+   ],
+   "source": "approx",
+   "function": "a corbelled niche, 5 steps narrowing upward",
+   "best_biblical": "pillar Jachin/Boaz",
+   "biblical_cubits": [
+    18,
+    3.82,
+    3.82
+   ],
+   "unit": "common 0.445",
+   "biblical_m": [
+    8.01,
+    1.7,
+    1.7
+   ],
+   "shape_error_pct": 28.9,
+   "size_error_pct": 71.5,
+   "local_p": 0.495
+  },
+  {
+   "area": "Base",
+   "dims_m": [
+    230.36,
+    230.36
+   ],
+   "source": "Petrie (9068.8 in)",
+   "function": "the square foundation, oriented to the cardinal points",
+   "best_biblical": "Ezekiel outer wall",
+   "biblical_cubits": [
+    500,
+    500
+   ],
+   "unit": "18-inch 0.457",
+   "biblical_m": [
+    228.6,
+    228.6
+   ],
+   "shape_error_pct": 0.0,
+   "size_error_pct": 0.8,
+   "local_p": 0.04
+  },
+  {
+   "area": "Height and base",
+   "dims_m": [
+    230.36,
+    146.6
+   ],
+   "source": "Petrie (9068.8; 5776.0 in)",
+   "function": "the whole building",
+   "best_biblical": "Ezekiel outer wall",
+   "biblical_cubits": [
+    500,
+    500
+   ],
+   "unit": "18-inch 0.457",
+   "biblical_m": [
+    228.6,
+    228.6
+   ],
+   "shape_error_pct": 57.1,
+   "size_error_pct": 0.8,
+   "local_p": 0.04
+  },
+  {
+   "area": "Khufu boat (pit S)",
+   "dims_m": [
+    43.4,
+    5.9
+   ],
+   "source": "approx (reassembled ship)",
+   "function": "a cedar ship buried beside the pyramid",
+   "best_biblical": "tabernacle court",
+   "biblical_cubits": [
+    100,
+    50
+   ],
+   "unit": "common 0.445",
+   "biblical_m": [
+    44.5,
+    22.25
+   ],
+   "shape_error_pct": 267.8,
+   "size_error_pct": 2.5,
+   "local_p": 0.193
+  },
+  {
+   "area": "Queens' pyramids (G1a)",
+   "dims_m": [
+    46.0,
+    46.0
+   ],
+   "source": "approx",
+   "function": "three smaller pyramids to the east",
+   "best_biblical": "Ezekiel temple",
+   "biblical_cubits": [
+    100,
+    100
+   ],
+   "unit": "18-inch 0.457",
+   "biblical_m": [
+    45.72,
+    45.72
+   ],
+   "shape_error_pct": 0.0,
+   "size_error_pct": 0.6,
+   "local_p": 0.033
+  }
+ ],
+ "functional_links": [
+  {
+   "pyramid": "King's Chamber",
+   "bible": "Holy of Holies / Solomon's porch",
+   "link": "the innermost chamber holding the box; its plan equals Solomon's porch (round 60)"
+  },
+  {
+   "pyramid": "Coffer",
+   "bible": "ark of the covenant",
+   "link": "a lidded box in the innermost room (not equal in size, round 60)"
+  },
+  {
+   "pyramid": "Antechamber with 3 portcullis slabs",
+   "bible": "the veil (and the two screens)",
+   "link": "barriers between the outer and the inner room"
+  },
+  {
+   "pyramid": "Grand Gallery, 7 corbel courses",
+   "bible": "the menorah (7) / the 15 steps (ascent)",
+   "link": "a sevenfold ascending structure"
+  },
+  {
+   "pyramid": "Queen's Chamber (middle)",
+   "bible": "Holy Place",
+   "link": "the middle room on the way inward"
+  },
+  {
+   "pyramid": "Subterranean chamber",
+   "bible": "the depths beneath (e.g. the rock under the altar)",
+   "link": "the rock-cut room below"
+  },
+  {
+   "pyramid": "Base square, cardinal orientation",
+   "bible": "the court / Temple Mount 500 x 500 / Ezekiel's 500 square",
+   "link": "the square sacred precinct oriented to the directions"
+  },
+  {
+   "pyramid": "Khufu's cedar ship",
+   "bible": "Noah's ark",
+   "link": "a great wooden vessel tied to the sacred building"
+  },
+  {
+   "pyramid": "Three queens' pyramids",
+   "bible": "the three storeys of side chambers / the three courts",
+   "link": "a set of three"
+  },
+  {
+   "pyramid": "Relieving chambers (5 above the King's Chamber)",
+   "bible": "Solomon's side-chamber storeys (3) / the five bars",
+   "link": "stacked compartments"
+  }
+ ],
+ "n_local_p_below_005": 4,
+ "n_areas": 12,
+ "expected_by_chance": 0.6
+}

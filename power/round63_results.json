@@ -1,0 +1,128 @@
+{
+ "rates_per_10k": {
+  "OT (LXX)": {
+   "words": 588579,
+   "twelve": 1.78,
+   "cube/square": 0.42,
+   "centre": 13.47
+  },
+  "NT": {
+   "words": 137554,
+   "twelve": 5.6,
+   "cube/square": 0.36,
+   "centre": 4.07
+  },
+  "Philo": {
+   "words": 574613,
+   "twelve": 1.11,
+   "cube/square": 2.18,
+   "centre": 4.87
+  },
+  "Josephus": {
+   "words": 473558,
+   "twelve": 1.79,
+   "cube/square": 0.63,
+   "centre": 3.13
+  },
+  "Corpus Hermeticum": {
+   "words": 39827,
+   "twelve": 2.26,
+   "cube/square": 0.25,
+   "centre": 5.77
+  },
+  "Clement of Alexandria": {
+   "words": 102394,
+   "twelve": 0.49,
+   "cube/square": 1.37,
+   "centre": 2.25
+  },
+  "Irenaeus": {
+   "words": 21886,
+   "twelve": 21.93,
+   "cube/square": 0.91,
+   "centre": 3.2
+  },
+  "Ignatius": {
+   "words": 27076,
+   "twelve": 0.74,
+   "cube/square": 0.74,
+   "centre": 0.0
+  },
+  "Eusebius": {
+   "words": 834428,
+   "twelve": 1.92,
+   "cube/square": 0.58,
+   "centre": 4.69
+  },
+  "Orphica": {
+   "words": 2378,
+   "twelve": 0.0,
+   "cube/square": 4.21,
+   "centre": 12.62
+  },
+  "Plato, Timaeus": {
+   "words": 23761,
+   "twelve": 0.42,
+   "cube/square": 2.53,
+   "centre": 12.63
+  },
+  "Hebrew Bible (WLC)": {
+   "words": 306785,
+   "twelve": 3.13,
+   "cube/square": 0.49,
+   "centre": 11.96
+  }
+ },
+ "greek_bible_chapters_with_all_three": [
+  [
+   "OT (LXX) Regnorum_III 7",
+   {
+    "twelve": 2,
+    "centre": 4,
+    "cube/square": 1
+   }
+  ],
+  [
+   "OT (LXX) Ezechiel 43",
+   {
+    "centre": 3,
+    "twelve": 2,
+    "cube/square": 1
+   }
+  ],
+  [
+   "OT (LXX) Exodus 36",
+   {
+    "cube/square": 1,
+    "twelve": 1,
+    "centre": 2
+   }
+  ]
+ ],
+ "hebrew_chapters_with_all_three": [
+  [
+   "Exod 39",
+   {
+    "centre": 4,
+    "cube/square": 1,
+    "twelve": 1
+   }
+  ],
+  [
+   "Exod 28",
+   {
+    "centre": 3,
+    "cube/square": 1,
+    "twelve": 1
+   }
+  ],
+  [
+   "Ezek 43",
+   {
+    "centre": 2,
+    "twelve": 1,
+    "cube/square": 2
+   }
+  ]
+ ]
+}

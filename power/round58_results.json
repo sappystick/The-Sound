@@ -1,0 +1,105 @@
+{
+ "A_prologue": {
+  "file": "power/audio/r58_prologue_ark_instrument.mp3",
+  "seconds": 233.5,
+  "syllables": 499,
+  "verse_start_seconds": {
+   "1:1": 1.0,
+   "1:2": 12.4,
+   "1:3": 17.9,
+   "1:4": 29.4,
+   "1:5": 38.4,
+   "1:6": 49.9,
+   "1:7": 60.0,
+   "1:8": 74.2,
+   "1:9": 83.8,
+   "1:10": 94.4,
+   "1:11": 107.2,
+   "1:12": 117.1,
+   "1:13": 133.9,
+   "1:14": 147.6,
+   "1:15": 168.2,
+   "1:16": 188.1,
+   "1:17": 199.2,
+   "1:18": 212.9
+  },
+  "strings_played": {
+   "lichanos": 181,
+   "paranete": 117,
+   "nete": 88,
+   "mese": 55,
+   "trite": 47,
+   "parhypate": 11
+  },
+  "centre": "1:12 (syllable centre of the prologue): the pipes open to the fourth and fifth above the mese"
+ },
+ "B_additions": {
+  "Solomon's side chambers (1 Kgs 6:6): 5, 6, 7 cubits wide, explicit": {
+   "Hz": [
+    77.1,
+    64.2,
+    55.1
+   ],
+   "notes": [
+    "D#2-16c",
+    "C2-31c",
+    "A1+2c"
+   ],
+   "chord": "frequencies 1/5 : 1/6 : 1/7 = 42 : 35 : 30, a minor third (6:5) over a septimal minor third (7:6): a narrow, dark, diminished-type chord"
+  },
+  "The centre bar (Exod 26:28): one bar through the boards from end to end, 30 cubits": {
+   "length_m": 13.35,
+   "longitudinal_Hz_range": [
+    131.0,
+    187.0
+   ],
+   "note": "along-grain sound speed of hardwood 3,500-5,000 m/s: the bar's lowest ring spans 131-187 Hz, the range of the ark zither"
+  },
+  "Ten lampstands (1 Kgs 7:49)": {
+   "lamps": 70,
+   "mapping": "the menorah multiplied: 5 on the right, 5 on the left = ten seven-pipe ranks, 70 pipes"
+  },
+  "Seven lamps with seven pipes (Zech 4:2)": {
+   "mapping": "the text itself names 'pipes' (Hebrew mutsaqot, conduits) on a seven-lamp golden stand"
+  },
+  "Harps on alamoth, lyres on the sheminith (1 Chr 15:20-21)": {
+   "reading": "widely read as registers: alamoth = high ('maidens'), sheminith = 'the eighth', an octave (K: meaning uncertain)",
+   "mapping": "the ark zither doubled: one rank high, one an octave below",
+   "octave_below_Hz": [
+    57.8,
+    60.9,
+    68.5,
+    77.1,
+    81.2,
+    91.3,
+    102.8
+   ]
+  },
+  "288 trained singers (1 Chr 25:7)": {
+   "structure": "24 courses x 12",
+   "note": "Josephus' nabla has 12 notes; 24 x 12 = 288"
+  },
+  "Almug-wood lyres and harps (1 Kgs 10:12)": {
+   "note": "the only explicit instruction to build instruments for the House"
+  },
+  "Herod's temple (Mishnah Middot 4:6)": {
+   "house": "100 x 100 x 100 cubits, a cube",
+   "Hz": 3.85,
+   "note": "the temple Jesus taught in was itself a cube; its Holy of Holies 20 x 20 (Middot 4:7); 15 steps where the Levites sang (Middot 2:5)"
+  },
+  "The New Jerusalem (Rev 21:16-17)": {
+   "city": "a cube, 12,000 stadia each way (about 2,220 km)",
+   "wall": "144 cubits",
+   "note": "the final Holy of Holies is a cube: the same shape as the tabernacle's and Solomon's inner rooms and Herod's house"
+  }
+ },
+ "B_still_missing": [
+  "Tabernacle: the boards' tenons and the 5 bars per side (Exod 26:15-29); the entrance screen on 5 pillars; the court's 60 pillars with silver hooks and bands (Exod 27:9-19)",
+  "Tabernacle: the laver made from bronze mirrors (Exod 38:8); the anointing oil and incense recipes (Exod 30:22-38)",
+  "Priestly garments in full: ephod, onyx shoulder stones with 12 names, sash, tunic, turban, the gold plate 'Holy to the LORD' (Exod 28)",
+  "Solomon: ten lavers on wheeled stands, 4 cubits, 40 baths each (1 Kgs 7:27-39); the doors of olive wood with five- and four-sided frames (1 Kgs 6:31-35); windows (6:4)",
+  "Ezekiel 40-48 in full: six gates with chambers and porches, 30 chambers on the pavement, the kitchens, the east gate shut (44:1-2)",
+  "Other sound objects with instructions: Joshua's seven shofars (Josh 6); Gideon's 300 trumpets and smashed jars (Judg 7:16-20); Miriam's drum (Exod 15:20); David's instruments (1 Chr 23:5)",
+  "Herod's temple in full: Mishnah Middot 1-5 and Josephus, War 5.184-237 (the Nicanor gate, the 15 steps, the golden vine over the entrance)"
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "v0.1_compat": {
+  "ring_22": [
+   22.0
+  ],
+  "reordered_28": [
+   28.0
+  ],
+  "iam_song": [
+   [
+    "melody",
+    [
+     1.1851851851851851,
+     0.8888888888888888,
+     1.0,
+     1.0
+    ]
+   ]
+  ]
+ },
+ "syllable_order": {
+  "pinata": [
+   4.0
+  ],
+  "pitana": [
+   1.0,
+   2.0,
+   3.0,
+   4.0
+  ],
+  "note": "the same three syllables: subtract a then keep values above a, or keep then subtract - two pipelines, two results"
+ },
+ "prelude": {
+  "multiply_7x6": [
+   42.0
+  ],
+  "gcd_35_20": [
+   5.0
+  ],
+  "factorial_5": [
+   120.0
+  ]
+ },
+ "while_loop": {
+  "o": [
+   15.0
+  ],
+  "note": "lu repeats :kosu while plane u is positive: 5+4+3+2+1"
+ },
+ "guard": {
+  "skipped": [
+   "0"
+  ],
+  "ran": [
+   "3"
+  ]
+ },
+ "canon_examples": [
+  "2 3 5 7 11 13 17 19 23 29 31",
+  "κγʹ",
+  "קלב",
+  "0 3 6 1 4 7 2 5",
+  "21.44 30.32 37.13 42.88 47.94 52.51 60.63"
+ ],
+ "canon_size": 44,
+ "codec_roundtrip": [
+  {
+   "src": "sa #7 gia ta #3 | di",
+   "exact": true,
+   "checks": true
+  },
+  {
+   "src": "ki #7 | ka #6 | :kemu | :dasa",
+   "exact": true,
+   "checks": true
+  },
+  {
+   "src": "~kia? sa! #5 | ::kesa gia di :: | :kesa",
+   "exact": true,
+   "checks": true
+  },
+  {
+   "src": "demorini | sa #7 gia ta #3 | lu #3 pia | ka #e bwi da",
+   "exact": true,
+   "checks": true
+  }
+ ],
+ "codec_fuzz": {
+  "clean": {
+   "exact": "120/120",
+   "errors_caught_by_checksum": 0,
+   "errors_missed": 0
+  },
+  "12 dB": {
+   "exact": "120/120",
+   "errors_caught_by_checksum": 0,
+   "errors_missed": 0
+  },
+  "8 dB": {
+   "exact": "120/120",
+   "errors_caught_by_checksum": 0,
+   "errors_missed": 0
+  },
+  "4 dB": {
+   "exact": "113/120",
+   "errors_caught_by_checksum": 7,
+   "errors_missed": 0
+  },
+  "2 dB": {
+   "exact": "3/120",
+   "errors_caught_by_checksum": 117,
+   "errors_missed": 0
+  }
+ },
+ "order_study": {
+  "words": {
+   "mean_distinct_fraction": 0.133,
+   "all_distinct_share": 0.0
+  },
+  "syllables": {
+   "mean_distinct_fraction": 0.527,
+   "all_distinct_share": 0.053
+  }
+ },
+ "namespace": {
+  "syllables": 84,
+  "behaviours_per_one_syllable_word": "12 ops x 7 heads x 8 cadences = 672 (+ number)",
+  "note": "v0.2: every syllable acts, so distinct words of k syllables can behave distinctly; the order study measures how often they do"
+ },
+ "phase_stamp_J2000+9800d": {
+  "Sun": 219.8101,
+  "Moon": 106.9968,
+  "Mercury": 37.1286,
+  "Venus": 42.8573,
+  "Mars": 90.8357,
+  "Jupiter": 128.5868,
+  "Saturn": 18.3565
+ }
+}

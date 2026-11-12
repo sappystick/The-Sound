@@ -1,0 +1,1643 @@
+{
+ "variants": [
+  {
+   "meaning": "I am",
+   "variant": "Greek Koine ἐγώ εἰμι",
+   "original": true,
+   "basis": "John 8:58, 18:6",
+   "phonemes": "ɛ ɣ o i m i",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.6655,
+    "body": 0.6547,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Mercury",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     6,
+     17,
+     17
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 873,
+    "value_mod7": 5,
+    "mothers_share": null,
+    "spelled": "εγωειμι"
+   },
+   "physical_index": 0.424
+  },
+  {
+   "meaning": "I am",
+   "variant": "Greek Attic",
+   "original": false,
+   "basis": "classical pronunciation",
+   "phonemes": "e g ɔ e m i",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.5762,
+    "body": 0.5893,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Saturn",
+     "Sun",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     16,
+     6,
+     16,
+     17
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 873,
+    "value_mod7": 5,
+    "mothers_share": null,
+    "spelled": "εγωειμι"
+   },
+   "physical_index": 0.133
+  },
+  {
+   "meaning": "I am",
+   "variant": "Greek late Koine",
+   "original": false,
+   "basis": "iotacist pronunciation",
+   "phonemes": "ɛ ɣ o i m i",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.6655,
+    "body": 0.6547,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Mercury",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     6,
+     17,
+     17
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 873,
+    "value_mod7": 5,
+    "mothers_share": null,
+    "spelled": "εγωειμι"
+   },
+   "physical_index": 0.424
+  },
+  {
+   "meaning": "I am",
+   "variant": "Hebrew ani hu",
+   "original": true,
+   "basis": "Isa 43:10, Deut 32:39 (LXX ego eimi)",
+   "phonemes": "ʔ a n i h u",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.668,
+    "body": 0.7038,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8868
+   },
+   "theory": {
+    "planets": [
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     17,
+     7
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 73,
+    "value_mod7": 3,
+    "mothers_share": 0.3333333333333333,
+    "spelled": "אניהוא"
+   },
+   "physical_index": 0.196
+  },
+  {
+   "meaning": "I am",
+   "variant": "Hebrew ehyeh",
+   "original": true,
+   "basis": "Exod 3:14",
+   "phonemes": "ʔ ɛ h j ɛ",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.8221,
+    "body": 0.4821,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8065
+   },
+   "theory": {
+    "planets": [
+     "Mercury"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     14
+    ],
+    "pythagorean_consonant_steps": null,
+    "letter_value": 21,
+    "value_mod7": 0,
+    "mothers_share": 0.25,
+    "spelled": "אהיה"
+   },
+   "physical_index": 0.071
+  },
+  {
+   "meaning": "I am",
+   "variant": "Aramaic ana hu",
+   "original": true,
+   "basis": "Jesus' likely speech (reconstructed)",
+   "phonemes": "ʔ ə n a h u",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.6841,
+    "body": 0.4533,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8537
+   },
+   "theory": {
+    "planets": [
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     11,
+     9,
+     7
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.166
+  },
+  {
+   "meaning": "I am",
+   "variant": "Coptic anok pe",
+   "original": false,
+   "basis": "Sahidic John 8:58",
+   "phonemes": "a n o k p e",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.77,
+    "body": 0.2006,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8537
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Moon",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     6,
+     16
+    ],
+    "pythagorean_consonant_steps": 0.5,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.281
+  },
+  {
+   "meaning": "I am",
+   "variant": "Latin ego sum",
+   "original": false,
+   "basis": "Vulgate",
+   "phonemes": "ɛ g o s u m",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.7886,
+    "body": 0.4812,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.9259
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Mercury"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     6,
+     7
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": 0.302
+  },
+  {
+   "meaning": "I am",
+   "variant": "English I am",
+   "original": false,
+   "basis": "modern translation",
+   "phonemes": "a i ɛ m",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.6998,
+    "body": 0.542,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Mercury",
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     17,
+     14
+    ],
+    "pythagorean_consonant_steps": 0.5,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": 0.363
+  },
+  {
+   "meaning": "Ablanathanalba",
+   "variant": "Greek magical name",
+   "original": true,
+   "basis": "PGM (16 times)",
+   "phonemes": "a b l a n a θ a n a l b a",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.9201,
+    "body": 0.1218,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.9659
+   },
+   "theory": {
+    "planets": [
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "pythagorean_consonant_steps": null,
+    "letter_value": 179,
+    "value_mod7": 4,
+    "mothers_share": null,
+    "spelled": "αβλαναθαναλβα"
+   },
+   "physical_index": 0.264
+  },
+  {
+   "meaning": "Ablanathanalba",
+   "variant": "proposed Aramaic 'ab lana atta' (you are our father)",
+   "original": true,
+   "basis": "proposed etymology, uncertain",
+   "phonemes": "ʔ a b l a n a ʔ a t t a",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.9201,
+    "body": 0.0896,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8389
+   },
+   "theory": {
+    "planets": [
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "pythagorean_consonant_steps": null,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.107
+  },
+  {
+   "meaning": "Talitha koum",
+   "variant": "Aramaic",
+   "original": true,
+   "basis": "Mark 5:41",
+   "phonemes": "tˤ a l i θ a q u m",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.6758,
+    "body": 0.5059,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8475
+   },
+   "theory": {
+    "planets": [
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     17,
+     9,
+     7
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.135
+  },
+  {
+   "meaning": "Talitha koum",
+   "variant": "Greek translation",
+   "original": false,
+   "basis": "Mark 5:41 (Mark's own)",
+   "phonemes": "t o k o r a s i o n ɛ ɣ i r ɛ",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.7725,
+    "body": 0.3237,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.92
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Mercury",
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     6,
+     6,
+     9,
+     17,
+     6,
+     14,
+     17,
+     14
+    ],
+    "pythagorean_consonant_steps": 0.5,
+    "letter_value": 1019,
+    "value_mod7": 4,
+    "mothers_share": null,
+    "spelled": "τοκορασιονεγειρε"
+   },
+   "physical_index": 0.052
+  },
+  {
+   "meaning": "Ephphatha",
+   "variant": "Greek transliteration",
+   "original": true,
+   "basis": "Mark 7:34",
+   "phonemes": "ʔ ɛ f f a θ a",
+   "physical": {
+    "tract": "15 cm (woman)",
+    "f0": 220,
+    "salience": 0.902,
+    "body": 0.0609,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.7143
+   },
+   "theory": {
+    "planets": [
+     "Mercury",
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     9,
+     9
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 1016,
+    "value_mod7": 1,
+    "mothers_share": null,
+    "spelled": "εφφαθα"
+   },
+   "physical_index": -0.509
+  },
+  {
+   "meaning": "Ephphatha",
+   "variant": "Aramaic etpatah",
+   "original": true,
+   "basis": "reconstructed",
+   "phonemes": "ʔ ɛ θ p ə θ a ħ",
+   "physical": {
+    "tract": "15 cm (woman)",
+    "f0": 220,
+    "salience": 0.8923,
+    "body": 0.0915,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.6667
+   },
+   "theory": {
+    "planets": [
+     "Mercury",
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     11,
+     9
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.617
+  },
+  {
+   "meaning": "Ephphatha",
+   "variant": "Greek translation",
+   "original": false,
+   "basis": "Mark 7:34 (Mark's own)",
+   "phonemes": "ð i a n y kʰ tʰ e t i",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.5566,
+    "body": 0.6842,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8647
+   },
+   "theory": {
+    "planets": [
+     "Jupiter",
+     "Moon",
+     "Sun",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     17,
+     9,
+     14,
+     16,
+     17
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 1072,
+    "value_mod7": 1,
+    "mothers_share": null,
+    "spelled": "διανοιχθητι"
+   },
+   "physical_index": -0.147
+  },
+  {
+   "meaning": "Abba",
+   "variant": "Aramaic",
+   "original": true,
+   "basis": "Mark 14:36",
+   "phonemes": "a b b a",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 132,
+    "salience": 0.8564,
+    "body": 0.1861,
+    "coupling": 1.0,
+    "room": "holy_place_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Moon"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     9
+    ],
+    "pythagorean_consonant_steps": null,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": 0.284
+  },
+  {
+   "meaning": "Abba",
+   "variant": "Greek translation",
+   "original": false,
+   "basis": "Mark 14:36",
+   "phonemes": "o p a t e r",
+   "physical": {
+    "tract": "13 cm (child)",
+    "f0": 110,
+    "salience": 0.722,
+    "body": 0.1782,
+    "coupling": 1.0,
+    "room": "holy_place_solomon",
+    "voiced": 0.8537
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Moon",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     6,
+     9,
+     16
+    ],
+    "pythagorean_consonant_steps": 0.5,
+    "letter_value": 559,
+    "value_mod7": 6,
+    "mothers_share": null,
+    "spelled": "οπατηρ"
+   },
+   "physical_index": -0.421
+  },
+  {
+   "meaning": "Amen",
+   "variant": "Hebrew",
+   "original": true,
+   "basis": "Deut 27:15",
+   "phonemes": "ʔ ɔ m e n",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.6833,
+    "body": 0.5359,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.9333
+   },
+   "theory": {
+    "planets": [
+     "Saturn",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     6,
+     16
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 91,
+    "value_mod7": 0,
+    "mothers_share": 0.6666666666666666,
+    "spelled": "אמן"
+   },
+   "physical_index": 0.143
+  },
+  {
+   "meaning": "Amen",
+   "variant": "Greek",
+   "original": false,
+   "basis": "John",
+   "phonemes": "a m e n",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.657,
+    "body": 0.5098,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Moon",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     16
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 99,
+    "value_mod7": 1,
+    "mothers_share": null,
+    "spelled": "αμην"
+   },
+   "physical_index": 0.222
+  },
+  {
+   "meaning": "Holy x3",
+   "variant": "Hebrew",
+   "original": true,
+   "basis": "Isa 6:3",
+   "phonemes": "q ɔ ð o ʃ q ɔ ð o ʃ q ɔ ð o ʃ",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.9559,
+    "body": 0.1553,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8519
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Saturn"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     6,
+     6,
+     6,
+     6,
+     6,
+     6
+    ],
+    "pythagorean_consonant_steps": null,
+    "letter_value": 1230,
+    "value_mod7": 5,
+    "mothers_share": 0.25,
+    "spelled": "קדושקדושקדוש"
+   },
+   "physical_index": 0.093
+  },
+  {
+   "meaning": "Holy x3",
+   "variant": "Greek",
+   "original": false,
+   "basis": "Isa 6:3 LXX, Rev 4:8",
+   "phonemes": "a ɣ i o s a ɣ i o s a ɣ i o s",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.8011,
+    "body": 0.2354,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.9155
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     9,
+     17,
+     6,
+     9,
+     17,
+     6,
+     9,
+     17,
+     6
+    ],
+    "pythagorean_consonant_steps": 0.25,
+    "letter_value": 852,
+    "value_mod7": 5,
+    "mothers_share": null,
+    "spelled": "αγιοσαγιοσαγιοσ"
+   },
+   "physical_index": -0.004
+  },
+  {
+   "meaning": "Let there be light",
+   "variant": "Hebrew",
+   "original": true,
+   "basis": "Gen 1:3",
+   "phonemes": "j ə h i ʔ o r",
+   "physical": {
+    "tract": "15 cm (woman)",
+    "f0": 220,
+    "salience": 0.717,
+    "body": 0.4082,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8966
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     11,
+     17,
+     6
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 232,
+    "value_mod7": 1,
+    "mothers_share": 0.16666666666666666,
+    "spelled": "יהיאור"
+   },
+   "physical_index": -0.034
+  },
+  {
+   "meaning": "Let there be light",
+   "variant": "Greek",
+   "original": false,
+   "basis": "Gen 1:3 LXX",
+   "phonemes": "ɣ ɛ n e tʰ e t o pʰ o s",
+   "physical": {
+    "tract": "13 cm (child)",
+    "f0": 220,
+    "salience": 0.8523,
+    "body": 0.2261,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.8273
+   },
+   "theory": {
+    "planets": [
+     "Mars",
+     "Mercury",
+     "Venus"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     14,
+     16,
+     16,
+     6,
+     6
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 2683,
+    "value_mod7": 2,
+    "mothers_share": null,
+    "spelled": "γενηθητωφωσ"
+   },
+   "physical_index": -0.125
+  },
+  {
+   "meaning": "Seven vowels",
+   "variant": "Greek",
+   "original": true,
+   "basis": "Demetrius 71; PGM XIII",
+   "phonemes": "a ɛ e i o y ɔ",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.7002,
+    "body": 0.3118,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Jupiter",
+     "Mars",
+     "Mercury",
+     "Moon",
+     "Saturn",
+     "Sun",
+     "Venus"
+    ],
+    "planet_complete": true,
+    "overtone_harmonics": [
+     9,
+     14,
+     16,
+     17,
+     6,
+     14,
+     6
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": 1294,
+    "value_mod7": 6,
+    "mothers_share": null,
+    "spelled": "αεηιουω"
+   },
+   "physical_index": 0.076
+  },
+  {
+   "meaning": "IAO",
+   "variant": "Greek",
+   "original": true,
+   "basis": "PGM",
+   "phonemes": "i a ɔ",
+   "physical": {
+    "tract": "19 cm (large man)",
+    "f0": 220,
+    "salience": 0.7934,
+    "body": 0.233,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 1.0
+   },
+   "theory": {
+    "planets": [
+     "Moon",
+     "Saturn",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     17,
+     9,
+     6
+    ],
+    "pythagorean_consonant_steps": 0.5,
+    "letter_value": 811,
+    "value_mod7": 6,
+    "mothers_share": null,
+    "spelled": "ιαω"
+   },
+   "physical_index": 0.195
+  },
+  {
+   "meaning": "Heka",
+   "variant": "Egyptian",
+   "original": true,
+   "basis": "reconstructed",
+   "phonemes": "ħ i k a ʔ",
+   "physical": {
+    "tract": "17.5 cm (man)",
+    "f0": 220,
+    "salience": 0.6387,
+    "body": 0.4554,
+    "coupling": 1.0,
+    "room": "holy_of_holies_solomon",
+    "voiced": 0.6897
+   },
+   "theory": {
+    "planets": [
+     "Moon",
+     "Sun"
+    ],
+    "planet_complete": false,
+    "overtone_harmonics": [
+     17,
+     9
+    ],
+    "pythagorean_consonant_steps": 0.0,
+    "letter_value": null,
+    "value_mod7": null,
+    "mothers_share": null,
+    "spelled": ""
+   },
+   "physical_index": -0.696
+  }
+ ],
+ "coupling_note": "coupling saturates (1.0 for every variant at its best mouth): above a room's Schroeder frequency modes overlap and any pitch couples; it drops out of the index (zero variance).",
+ "schroeder_Hz": {
+  "holy_of_holies_solomon": 130.0,
+  "holy_place_solomon": 92.0,
+  "tabernacle_holy_of_holies": 233.0,
+  "kings_chamber": 274.0,
+  "queens_chamber": 312.0,
+  "rock_tomb_bethany_type": 577.0,
+  "galilee_synagogue_hall": 57.0
+ },
+ "ranking_per_meaning": {
+  "I am": [
+   [
+    "Greek Koine ἐγώ εἰμι",
+    0.424
+   ],
+   [
+    "Greek late Koine",
+    0.424
+   ],
+   [
+    "English I am",
+    0.363
+   ],
+   [
+    "Latin ego sum",
+    0.302
+   ],
+   [
+    "Hebrew ani hu",
+    0.196
+   ],
+   [
+    "Greek Attic",
+    0.133
+   ],
+   [
+    "Hebrew ehyeh",
+    0.071
+   ],
+   [
+    "Aramaic ana hu",
+    -0.166
+   ],
+   [
+    "Coptic anok pe",
+    -0.281
+   ]
+  ],
+  "Ablanathanalba": [
+   [
+    "Greek magical name",
+    0.264
+   ],
+   [
+    "proposed Aramaic 'ab lana atta' (you are our father)",
+    -0.107
+   ]
+  ],
+  "Talitha koum": [
+   [
+    "Greek translation",
+    0.052
+   ],
+   [
+    "Aramaic",
+    -0.135
+   ]
+  ],
+  "Ephphatha": [
+   [
+    "Greek translation",
+    -0.147
+   ],
+   [
+    "Greek transliteration",
+    -0.509
+   ],
+   [
+    "Aramaic etpatah",
+    -0.617
+   ]
+  ],
+  "Abba": [
+   [
+    "Aramaic",
+    0.284
+   ],
+   [
+    "Greek translation",
+    -0.421
+   ]
+  ],
+  "Amen": [
+   [
+    "Greek",
+    0.222
+   ],
+   [
+    "Hebrew",
+    0.143
+   ]
+  ],
+  "Holy x3": [
+   [
+    "Hebrew",
+    0.093
+   ],
+   [
+    "Greek",
+    -0.004
+   ]
+  ],
+  "Let there be light": [
+   [
+    "Hebrew",
+    -0.034
+   ],
+   [
+    "Greek",
+    -0.125
+   ]
+  ],
+  "Seven vowels": [
+   [
+    "Greek",
+    0.076
+   ]
+  ],
+  "IAO": [
+   [
+    "Greek",
+    0.195
+   ]
+  ],
+  "Heka": [
+   [
+    "Egyptian",
+    -0.696
+   ]
+  ]
+ },
+ "original_vs_translation": {
+  "pairs": [
+   {
+    "meaning": "I am",
+    "original": 0.424,
+    "translation": 0.424
+   },
+   {
+    "meaning": "Talitha koum",
+    "original": -0.135,
+    "translation": 0.052
+   },
+   {
+    "meaning": "Ephphatha",
+    "original": -0.509,
+    "translation": -0.147
+   },
+   {
+    "meaning": "Abba",
+    "original": 0.284,
+    "translation": -0.421
+   },
+   {
+    "meaning": "Amen",
+    "original": 0.143,
+    "translation": 0.222
+   },
+   {
+    "meaning": "Holy x3",
+    "original": 0.093,
+    "translation": -0.004
+   },
+   {
+    "meaning": "Let there be light",
+    "original": -0.034,
+    "translation": -0.125
+   }
+  ],
+  "original_wins": 3,
+  "n": 7,
+  "sign_test_p": 0.7734
+ },
+ "by_language_mean_index": {
+  "English": 0.363,
+  "Latin": 0.302,
+  "Hebrew": 0.094,
+  "Greek": 0.045,
+  "proposed": -0.107,
+  "Aramaic": -0.159,
+  "Coptic": -0.281,
+  "Egyptian": -0.696
+ },
+ "decoded": {
+  "Ablanathanalba": {
+   "nicomachus": [
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    }
+   ],
+   "alypius_lydian": [
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "β",
+     "Hz": 268.4,
+     "note": "C4+44c"
+    },
+    {
+     "letter": "λ",
+     "Hz": 201.3,
+     "note": "G3+46c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "ν",
+     "Hz": 184.2,
+     "note": "F#3-7c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "θ",
+     "Hz": 226.4,
+     "note": "A3+50c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "ν",
+     "Hz": 184.2,
+     "note": "F#3-7c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "λ",
+     "Hz": 201.3,
+     "note": "G3+46c"
+    },
+    {
+     "letter": "β",
+     "Hz": 268.4,
+     "note": "C4+44c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    }
+   ],
+   "alypius_is_palindrome": true
+  },
+  "I am (ἐγὼ εἰμι)": {
+   "nicomachus": [
+    {
+     "letter": "ε",
+     "Hz": 260.7,
+     "note": "C4-6c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 165.0,
+     "note": "E3+2c"
+    },
+    {
+     "letter": "ε",
+     "Hz": 260.7,
+     "note": "C4-6c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    }
+   ],
+   "alypius_lydian": [
+    {
+     "letter": "ε",
+     "Hz": 254.8,
+     "note": "C4-46c"
+    },
+    {
+     "letter": "γ",
+     "Hz": 260.7,
+     "note": "C4-6c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 130.4,
+     "note": "C3-5c"
+    },
+    {
+     "letter": "ε",
+     "Hz": 254.8,
+     "note": "C4-46c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "μ",
+     "Hz": 195.6,
+     "note": "G3-4c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    }
+   ],
+   "alypius_is_palindrome": false
+  },
+  "Seven vowels": {
+   "nicomachus": [
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "ε",
+     "Hz": 260.7,
+     "note": "C4-6c"
+    },
+    {
+     "letter": "η",
+     "Hz": 231.8,
+     "note": "A#3-10c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "ο",
+     "Hz": 195.6,
+     "note": "G3-4c"
+    },
+    {
+     "letter": "υ",
+     "Hz": 173.8,
+     "note": "F3-8c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 165.0,
+     "note": "E3+2c"
+    }
+   ],
+   "alypius_lydian": [
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "ε",
+     "Hz": 254.8,
+     "note": "C4-46c"
+    },
+    {
+     "letter": "η",
+     "Hz": 233.1,
+     "note": "A#3+0c"
+    },
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "ο",
+     "Hz": 173.8,
+     "note": "F3-8c"
+    },
+    {
+     "letter": "υ",
+     "Hz": 151.0,
+     "note": "D3+48c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 130.4,
+     "note": "C3-5c"
+    }
+   ],
+   "alypius_is_palindrome": false
+  },
+  "IAO": {
+   "nicomachus": [
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 165.0,
+     "note": "E3+2c"
+    }
+   ],
+   "alypius_lydian": [
+    {
+     "letter": "ι",
+     "Hz": 220.0,
+     "note": "A3+0c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "ω",
+     "Hz": 130.4,
+     "note": "C3-5c"
+    }
+   ],
+   "alypius_is_palindrome": false
+  },
+  "Abrasax": {
+   "nicomachus": [
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 293.3,
+     "note": "D4-2c"
+    }
+   ],
+   "alypius_lydian": [
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "β",
+     "Hz": 268.4,
+     "note": "C4+44c"
+    },
+    {
+     "letter": "ρ",
+     "Hz": 169.8,
+     "note": "F3-48c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "σ",
+     "Hz": 165.0,
+     "note": "E3+2c"
+    },
+    {
+     "letter": "α",
+     "Hz": 276.2,
+     "note": "C#4-6c"
+    },
+    {
+     "letter": "ξ",
+     "Hz": 178.9,
+     "note": "F3+42c"
+    }
+   ],
+   "alypius_is_palindrome": false
+  }
+ },
+ "speculative_value_as_pitch": {
+  "Ablanathanalba": {
+   "value": 179,
+   "folded_Hz": 179.0,
+   "note": "F3+43c"
+  },
+  "I am (ἐγὼ εἰμι)": {
+   "value": 873,
+   "folded_Hz": 218.2,
+   "note": "A3-14c"
+  },
+  "Seven vowels": {
+   "value": 1294,
+   "folded_Hz": 161.8,
+   "note": "E3-32c"
+  },
+  "IAO": {
+   "value": 811,
+   "folded_Hz": 202.8,
+   "note": "G#3-41c"
+  },
+  "Abrasax": {
+   "value": 365,
+   "folded_Hz": 182.5,
+   "note": "F#3-24c"
+  }
+ },
+ "instrument": {
+  "heptachord_lyre": [
+   {
+    "string": "hypate",
+    "vowel": "ω",
+    "planet": "Saturn",
+    "Hz": 165.0,
+    "note": "E3+2c",
+    "length_mm": 650.0
+   },
+   {
+    "string": "parhypate",
+    "vowel": "υ",
+    "planet": "Jupiter",
+    "Hz": 173.8,
+    "note": "F3-8c",
+    "length_mm": 617.0
+   },
+   {
+    "string": "lichanos",
+    "vowel": "ο",
+    "planet": "Mars",
+    "Hz": 195.6,
+    "note": "G3-4c",
+    "length_mm": 548.4
+   },
+   {
+    "string": "mese",
+    "vowel": "ι",
+    "planet": "Sun",
+    "Hz": 220.0,
+    "note": "A3+0c",
+    "length_mm": 487.5
+   },
+   {
+    "string": "trite",
+    "vowel": "η",
+    "planet": "Venus",
+    "Hz": 231.8,
+    "note": "A#3-10c",
+    "length_mm": 462.7
+   },
+   {
+    "string": "paranete",
+    "vowel": "ε",
+    "planet": "Mercury",
+    "Hz": 260.7,
+    "note": "C4-6c",
+    "length_mm": 411.3
+   },
+   {
+    "string": "nete",
+    "vowel": "α",
+    "planet": "Moon",
+    "Hz": 293.3,
+    "note": "D4-2c",
+    "length_mm": 365.6
+   }
+  ],
+  "vowel_pipes": [
+   {
+    "vowel": "a",
+    "F1_Hz": 730,
+    "F1_pipe_mm": 117.0,
+    "F2_Hz": 1250,
+    "F2_pipe_mm": 69.0
+   },
+   {
+    "vowel": "ɛ",
+    "F1_Hz": 550,
+    "F1_pipe_mm": 156.0,
+    "F2_Hz": 1850,
+    "F2_pipe_mm": 46.0
+   },
+   {
+    "vowel": "e",
+    "F1_Hz": 400,
+    "F1_pipe_mm": 214.0,
+    "F2_Hz": 2100,
+    "F2_pipe_mm": 41.0
+   },
+   {
+    "vowel": "i",
+    "F1_Hz": 270,
+    "F1_pipe_mm": 318.0,
+    "F2_Hz": 2290,
+    "F2_pipe_mm": 37.0
+   },
+   {
+    "vowel": "o",
+    "F1_Hz": 450,
+    "F1_pipe_mm": 191.0,
+    "F2_Hz": 800,
+    "F2_pipe_mm": 107.0
+   },
+   {
+    "vowel": "y",
+    "F1_Hz": 270,
+    "F1_pipe_mm": 318.0,
+    "F2_Hz": 1850,
+    "F2_pipe_mm": 46.0
+   },
+   {
+    "vowel": "ɔ",
+    "F1_Hz": 570,
+    "F1_pipe_mm": 150.0,
+    "F2_Hz": 840,
+    "F2_pipe_mm": 102.0
+   }
+  ],
+  "note": "Stopped pipes, length = c/4f (end correction ignored). Kratzenstein (1779) built resonators that sounded the vowels."
+ },
+ "renders": [
+  "power/audio/r41_ablanathanalba_alypius_lydian.mp3",
+  "power/audio/r41_ablanathanalba_nicomachus.mp3",
+  "power/audio/r41_ego_eimi_alypius_lydian.mp3",
+  "power/audio/r41_ego_eimi_nicomachus.mp3",
+  "power/audio/r41_seven_nicomachus.mp3"
+ ]
+}

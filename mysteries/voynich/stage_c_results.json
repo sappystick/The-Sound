@@ -1,0 +1,251 @@
+{
+ "diagrams": {
+  "f70v1": 17,
+  "f70v2": 32,
+  "f71r": 18,
+  "f71v": 18,
+  "f72r1": 18,
+  "f72r2": 32,
+  "f72r3": 33,
+  "f72v1": 33,
+  "f72v2": 33,
+  "f72v3": 33,
+  "f73r": 33,
+  "f73v": 33
+ },
+ "n_diagrams": 12,
+ "total_labels": 333,
+ "C1_ring_regularity": {
+  "per_diagram": {
+   "f70v2": {
+    "n": 32,
+    "gap_cv": 0.85,
+    "expected_if_30": 12.0,
+    "mean_gap": 11.2
+   },
+   "f70v1": {
+    "n": 17,
+    "gap_cv": 0.645,
+    "expected_if_30": 12.0,
+    "mean_gap": 21.2
+   },
+   "f71r": {
+    "n": 18,
+    "gap_cv": 0.75,
+    "expected_if_30": 12.0,
+    "mean_gap": 20.0
+   },
+   "f71v": {
+    "n": 18,
+    "gap_cv": 0.791,
+    "expected_if_30": 12.0,
+    "mean_gap": 20.0
+   },
+   "f72r1": {
+    "n": 18,
+    "gap_cv": 0.791,
+    "expected_if_30": 12.0,
+    "mean_gap": 20.0
+   },
+   "f72r2": {
+    "n": 32,
+    "gap_cv": 0.972,
+    "expected_if_30": 12.0,
+    "mean_gap": 11.2
+   },
+   "f72r3": {
+    "n": 33,
+    "gap_cv": 1.031,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   },
+   "f72v3": {
+    "n": 33,
+    "gap_cv": 0.848,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   },
+   "f72v2": {
+    "n": 33,
+    "gap_cv": 0.795,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   },
+   "f72v1": {
+    "n": 33,
+    "gap_cv": 0.813,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   },
+   "f73r": {
+    "n": 33,
+    "gap_cv": 0.897,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   },
+   "f73v": {
+    "n": 33,
+    "gap_cv": 0.897,
+    "expected_if_30": 12.0,
+    "mean_gap": 10.9
+   }
+  },
+  "note": "gap_cv near 0 = evenly spaced ring; ~30 labels at ~12 deg spacing fits a day-ring"
+ },
+ "C2_angle_to_initial_glyph": {
+  "per_diagram": {
+   "f70v2": {
+    "obs": 0.202,
+    "null": 0.197,
+    "p": 0.439
+   },
+   "f70v1": {
+    "obs": 0.139,
+    "null": 0.207,
+    "p": 0.936
+   },
+   "f71r": {
+    "obs": 0.231,
+    "null": 0.172,
+    "p": 0.16
+   },
+   "f71v": {
+    "obs": 0.25,
+    "null": 0.275,
+    "p": 0.565
+   },
+   "f72r1": {
+    "obs": 0.193,
+    "null": 0.23,
+    "p": 0.669
+   },
+   "f72r2": {
+    "obs": 0.261,
+    "null": 0.24,
+    "p": 0.291
+   },
+   "f72r3": {
+    "obs": 0.2,
+    "null": 0.184,
+    "p": 0.327
+   },
+   "f72v3": {
+    "obs": 0.18,
+    "null": 0.201,
+    "p": 0.613
+   },
+   "f72v2": {
+    "obs": 0.281,
+    "null": 0.2,
+    "p": 0.104
+   },
+   "f72v1": {
+    "obs": 0.218,
+    "null": 0.135,
+    "p": 0.078
+   },
+   "f73r": {
+    "obs": 0.383,
+    "null": 0.289,
+    "p": 0.07
+   },
+   "f73v": {
+    "obs": 0.352,
+    "null": 0.244,
+    "p": 0.048
+   }
+  },
+  "significant": [
+   "f73v"
+  ]
+ },
+ "C3_cross_diagram_anchor": {
+  "mean_heldout_accuracy": 0.775,
+  "mean_null_accuracy": 0.775,
+  "majority_class_baseline": 0.772,
+  "p": 0.488,
+  "gate_anchor_reproducible": false,
+  "note": "predict a held-out diagram's label initial glyph from angular sector alone, map learned on other diagrams"
+ },
+ "C4_sequence_order": {
+  "per_diagram": {
+   "f70v2": {
+    "adj_equal": 19,
+    "null": 20.45,
+    "p": 1.0
+   },
+   "f70v1": {
+    "adj_equal": 15,
+    "null": 12.5,
+    "p": 0.016
+   },
+   "f71r": {
+    "adj_equal": 15,
+    "null": 15.13,
+    "p": 1.0
+   },
+   "f71v": {
+    "adj_equal": 9,
+    "null": 9.01,
+    "p": 0.637
+   },
+   "f72r1": {
+    "adj_equal": 12,
+    "null": 11.77,
+    "p": 0.537
+   },
+   "f72r2": {
+    "adj_equal": 25,
+    "null": 25.42,
+    "p": 1.0
+   },
+   "f72r3": {
+    "adj_equal": 20,
+    "null": 20.63,
+    "p": 0.77
+   },
+   "f72v3": {
+    "adj_equal": 17,
+    "null": 18.47,
+    "p": 0.942
+   },
+   "f72v2": {
+    "adj_equal": 17,
+    "null": 17.18,
+    "p": 0.653
+   },
+   "f72v1": {
+    "adj_equal": 20,
+    "null": 21.56,
+    "p": 1.0
+   },
+   "f73r": {
+    "adj_equal": 14,
+    "null": 13.54,
+    "p": 0.475
+   },
+   "f73v": {
+    "adj_equal": 15,
+    "null": 12.73,
+    "p": 0.196
+   }
+  },
+  "significant": [
+   "f70v1"
+  ]
+ },
+ "GATE_C": {
+  "anchors_found": false,
+  "c2_significant_diagrams": 1,
+  "verdict": "no reproducible angle->text anchor; labels do not encode a shared positional code",
+  "c5": "labels in a diagram ARE a tighter family (p<0.05)",
+  "two_anchor_probes": "C3 positional: FAIL; C5 coherence: PASS"
+ },
+ "C5_label_family_coherence": {
+  "within_diagram_coherence": 0.3421,
+  "between_diagram": 0.3296,
+  "null_mean": 0.3274,
+  "p": 0.002,
+  "verdict": "labels in a diagram ARE a tighter family (p<0.05)"
+ }
+}

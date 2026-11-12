@@ -735,3 +735,9 @@ Write-ups:
 - **Stage A PASS (V):** a slot grammar learned on even folios generates 86.5% of held-out odd-folio word-mass (shuffled null 30%). The prefix-root-suffix layer is real and generalises.
 - **Stage B:** ~58% of tokens are machinery (copies + top-20-root fillers); ~42% is the candidate content stream; the round-82 pilot localises its signal to the root.
 - **Gathered:** per-token coordinate/angle dataset (Placა spatial corpus) + Beinecke IIIF for Stage C anchoring.
+
+## AV. Round 84 (`mysteries/ROUND84.md`): Stage C anchor test - the zodiac labels
+- **N (decisive):** across 12 zodiac diagrams (333 labels with recorded clock-angles), label text does NOT encode angular position - predicting a held-out diagram's label glyph from its angle equals the majority-glyph baseline (0.775 vs 0.772, p 0.49). Not a day-ring; not a positional code. Firms up round 79's marginal result.
+- **Weak counter-signal:** labels within one diagram form a slightly tighter family than random (p 0.002, effect +0.015) - structured, possibly section style rather than meaning.
+- **Gate C NOT met:** 0 of a required 5 label->referent anchors found via the only externally measurable referent (position). Anchor-probe failure #1; the remaining probe is image/picture identity (Beinecke IIIF), the decider between a pictorially-anchored content system and an empty topic-imitator.
+- **Frontier:** the Voynich carries coarse page-topic meaning but resists fine label anchoring - the wall mapped precisely.

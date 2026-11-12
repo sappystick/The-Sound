@@ -1,0 +1,16 @@
+PASS  worst case 9 steps, memory bound 1 values, seal =hyde
+FAIL  worst case 7 steps, memory bound 2239488 values, seal =swky
+   F2  recursion: reto -> reto
+   F3  :kebo is not on the approved library list
+   F3  :kapi is not on the approved library list
+   F5  command dio is not guarded with ?
+   F1  while-loop la has no bound
+   F4  a plane may hold 2239488 values (limit 4096)
+   F6  verse without error-correction tail: ::reto :reto ::
+   F6  verse without error-correction tail: ki #5t
+   F6  verse without error-correction tail: ka #40
+   F6  verse without error-correction tail: :lamo
+   F6  verse without error-correction tail: dio
+   F6  verse without error-correction tail: la :kebo
+   F6  verse without error-correction tail: si #900000
+   F6  verse without error-correction tail: :kapi

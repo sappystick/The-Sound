@@ -1,0 +1,22 @@
+   m s^-1       spoken pani
+   m s^-2       spoken panini
+   N            spoken popanini
+   J            spoken popapanini
+   V            spoken popapanininine
+   1            spoken ki
+ok       rocket equation, Isp 311 s, 549 t -> 25.6 t
+         9349.39 m s^-1 [pani]
+ok       circular orbit speed at 400 km
+         7672.62 m s^-1 [pani]
+ok       kinetic energy of 1 kg at 7.67 km/s
+         2.94144e+07 J [popapanini]
+ok       photon energy of 500 nm light in eV
+         3.97289e-19 J [popapanini]
+refused  ERROR: adding a mass to a time
+         cannot add kg (po) and s (pi)
+refused  ERROR: log of a mass ratio left in kg
+         ln needs a dimensionless argument, got kg (po)
+refused  ERROR: thrust compared with an energy
+         cannot compare N (popanini) and J (popapanini)
+ok       Mars Climate Orbiter: 1 lbf s declared at the interface, expressed in N s
+         4.44822 kg m s^-1 [popani]

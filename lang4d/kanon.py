@@ -483,19 +483,29 @@ def correct(text, nsym=NSYM):
 def _tone(freqs, dur, amp=0.8):
     t = np.arange(int(dur * FS)) / FS; y = sum(np.sin(2 * np.pi * f * t) for f in freqs)
     return amp * y / max(1, len(freqs)) * np.minimum(1, t / 0.008) * np.minimum(1, (dur - t) / 0.015)
+CHANNELS = {   # where the tones sit. "studio": ratios of the carrier (the original design, scale-invariant).
+    # "phone": every tone inside the 300-3400 Hz telephone band, for phone lines, voice radio and speech codecs.
+    "studio": None,
+    "phone": dict(f0=500.0, row=[1000.0, 1150.0, 1320.0, 1520.0], col=[1750.0, 2010.0, 2310.0], mark=[2450.0, 2600.0, 2750.0, 2900.0, 3050.0]),
+}
+def _chan(f0, channel):
+    c = CHANNELS.get(channel)
+    if c is None: return [m * f0 for m in ROWMUL], [m * f0 for m in COLMUL], {k: v * f0 for k, v in MARKS.items()}, f0
+    return c["row"], c["col"], dict(zip(MARKS, c["mark"])), c["f0"]
 NUMRATIO = 1.6     # the number pitch: a digit is its consonant chord followed by this tone (outside the seven vowels)
-def _vowel(v, dur=0.18, f0=F0):
+def _vowel(v, dur=0.18, f0=F0, pure=False):
     f = (NUMRATIO if v == "#" else RATIO[v]) * f0; t = np.arange(int(dur * FS)) / FS
-    y = np.sin(2 * np.pi * f * t) + 0.45 * np.sin(2 * np.pi * 2 * f * t) + 0.2 * np.sin(2 * np.pi * 3 * f * t)
+    y = np.sin(2 * np.pi * f * t) * (1.65 if pure else 1) + (0 if pure else 0.45 * np.sin(2 * np.pi * 2 * f * t) + 0.2 * np.sin(2 * np.pi * 3 * f * t))
     return 0.8 * y / 1.65 * np.minimum(1, t / 0.012) * np.minimum(1, (dur - t) / 0.025)
-def encode(src, f0=F0):
+def encode(src, f0=F0, channel="studio"):
+    RW, CL, MK, f0 = _chan(f0, channel); pure = channel != "studio"
     GS, GW, GV = 0.045, 0.22, 0.55; out = [np.zeros(int(0.08 * FS))]; sil = lambda s: np.zeros(int(s * FS))
-    mark = lambda ch: [_tone([MARKS[ch] * f0], 0.07), sil(GS)]
+    mark = lambda ch: [_tone([MK[ch]], 0.07), sil(GS)]
     def syl(w):
         o = []
         for j in range(0, len(w) - len(w) % 2, 2):
-            i = CONS.index(w[j]); o += [_tone([ROWMUL[i // 3] * f0, COLMUL[i % 3] * f0], 0.07), _vowel(w[j + 1], 0.18, f0), sil(GS)]
-        if len(w) % 2: o += [_vowel(w[-1], 0.18, f0), sil(GS)]
+            i = CONS.index(w[j]); o += [_tone([RW[i // 3], CL[i % 3]], 0.07), _vowel(w[j + 1], 0.18, f0, pure), sil(GS)]
+        if len(w) % 2: o += [_vowel(w[-1], 0.18, f0, pure), sil(GS)]
         return o
     for vtext in src.replace("\n", " ").split("|"):
         for tk in vtext.split():
@@ -507,7 +517,7 @@ def encode(src, f0=F0):
                     out += syl(w)
             elif tk.startswith("#"):
                 for ch in tk[1:]:
-                    i = DIGITS.index(ch); out += [_tone([ROWMUL[i // 3] * f0, COLMUL[i % 3] * f0], 0.07), _vowel("#", 0.18, f0), sil(GS)]
+                    i = DIGITS.index(ch); out += [_tone([RW[i // 3], CL[i % 3]], 0.07), _vowel("#", 0.18, f0, pure), sil(GS)]
             else:
                 pre, colons, w, _, post = m.groups()
                 if pre: out += mark("~")
@@ -525,7 +535,8 @@ def _peak(mag, freqs, lo, hi):
         a, b, c = mag[i - 1], mag[i], mag[i + 1]; d = 0.5 * (a - c) / (a - 2 * b + c + 1e-12)
         return freqs[i] + d * (freqs[1] - freqs[0]), mag[i]
     return freqs[i], mag[i]
-def decode(y, f0=F0):
+def decode(y, f0=F0, channel="studio"):
+    RW, CL, MK, f0 = _chan(f0, channel)
     env = np.convolve(np.abs(y), np.ones(220) / 220, mode="same"); thr = 1.8 * np.percentile(env, 25) + 0.015 * env.max(); on = env > thr
     edges = np.flatnonzero(np.diff(on.astype(int)))
     starts = list(edges[::2] if on[0] == 0 else np.r_[0, edges[1::2]]); ends = list(edges[1::2] if on[0] == 0 else edges[0::2])
@@ -541,12 +552,13 @@ def decode(y, f0=F0):
             elif gap > 0.12: toks.append(" "); num = False
         prev = b; seg = y[a:b]; nb = min(len(seg), int(0.06 * FS))
         spec = np.abs(np.fft.rfft(seg[:nb] * np.hanning(nb), 1 << 14)); fr = np.fft.rfftfreq(1 << 14, 1 / FS)
-        best = lambda mults: (lambda es: (int(np.argmax(es)), max(es)))([_peak(spec, fr, m * f0 * 0.97, m * f0 * 1.03)[1] for m in mults])
-        r, er = best(ROWMUL); c, ec = best(COLMUL)
-        mi, em = best(list(MARKS.values()))
+        best = lambda fs: (lambda es: (int(np.argmax(es)), max(es)))([_peak(spec, fr, f * 0.97, f * 1.03)[1] for f in fs])
+        r, er = best(RW); c, ec = best(CL)
+        mi, em = best(list(MK.values()))
         if em > 2.0 * max(er, ec) and (b - a) < int(0.12 * FS):
             ch = list(MARKS)[mi]; toks.append(ch); num = False; continue
-        has_burst = max(er, ec) > 0.12 * spec.max(); vpart = seg[nb:] if has_burst else seg; vowel = None
+        vb = _peak(spec, fr, f0 * 0.70, f0 * 1.75)[1]
+        has_burst = max(er, ec) > 0.12 * spec.max() and min(er, ec) > 0.5 * vb; vpart = seg[nb:] if has_burst else seg; vowel = None
         if len(vpart) > (int(0.05 * FS) if has_burst else int(0.09 * FS)):
             vs = np.abs(np.fft.rfft(vpart * np.hanning(len(vpart)), 1 << 15)); vf = np.fft.rfftfreq(1 << 15, 1 / FS)
             fpk, _ = _peak(vs, vf, f0 * 0.70, f0 * 1.75); vowel = min(VOWELS + "#", key=lambda v: abs(math.log(fpk / ((NUMRATIO if v == "#" else RATIO[v]) * f0))))

@@ -581,3 +581,13 @@ Write-ups:
   - at 2 dB, correction raises the exact count from 12 to 17;
   - none came back wrong without a flag.
 - **Impact map.** Ranked: verifiable spoken commands for AI agents and automation, eyes-free programming, device setup over sound, culture-neutral teaching, digital humanities, performance, memory research.
+
+## AU. Round 68 (`lang4d/FIELDS.md`): KANON for physics, machine learning, spacecraft and AI satellites
+
+- **Strategy.** KANON should not replace the incumbents (Python and PyTorch, Julia and Fortran, C or Ada flight code). It should own the **verifiable command layer**: the short programs humans and autonomous systems hand each other. There are four profiles: FLIGHT, AGENT, LAB and ML.
+- **Built: `fields/units.py`.**
+  - The 7 SI base units map to the 7 vowels, so every dimension has a spoken word (speed *pani*, force *popanini*).
+  - Dimension errors are refused.
+  - The Mars Climate Orbiter case is a scale error, not a dimension error, and is stated as such.
+- **Built: `fields/profile.py`.** The KANON-FLIGHT static checker (bounded loops, no recursion, approved library, memory bound, guarded commands, ECC on every verse). It gives worst-case steps and a memory bound.
+- **Built: a phone channel.** The original codec scored **0 of 40** through a phone band and through GSM, which corrects the earlier phone-line claims. The phone channel scores 40 of 40 through a phone band, noise, GSM and G.726. Opus scores 35 of 40 at 16 kbit/s and 16 of 40 at 8 kbit/s. In every channel, no error went unflagged.

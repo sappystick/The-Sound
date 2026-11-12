@@ -1,0 +1,74 @@
+{
+ "telephone band 300-3400 Hz | studio": {
+  "exact_as_heard": 0,
+  "exact_after_correction": 0,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "telephone band 300-3400 Hz | phone": {
+  "exact_as_heard": 40,
+  "exact_after_correction": 40,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "telephone band + noise at 10 dB SNR | studio": {
+  "exact_as_heard": 0,
+  "exact_after_correction": 0,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "telephone band + noise at 10 dB SNR | phone": {
+  "exact_as_heard": 40,
+  "exact_after_correction": 40,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "GSM full-rate 13 kbit/s (mobile voice) | studio": {
+  "exact_as_heard": 0,
+  "exact_after_correction": 0,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "GSM full-rate 13 kbit/s (mobile voice) | phone": {
+  "exact_as_heard": 40,
+  "exact_after_correction": 40,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "G.726 ADPCM 32 kbit/s (DECT, VoIP) | studio": {
+  "exact_as_heard": 0,
+  "exact_after_correction": 0,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "G.726 ADPCM 32 kbit/s (DECT, VoIP) | phone": {
+  "exact_as_heard": 40,
+  "exact_after_correction": 40,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "Opus 16 kbit/s (internet voice) | studio": {
+  "exact_as_heard": 17,
+  "exact_after_correction": 17,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "Opus 16 kbit/s (internet voice) | phone": {
+  "exact_as_heard": 35,
+  "exact_after_correction": 35,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "Opus 8 kbit/s | studio": {
+  "exact_as_heard": 0,
+  "exact_after_correction": 0,
+  "wrong_without_flag": 0,
+  "of": 40
+ },
+ "Opus 8 kbit/s | phone": {
+  "exact_as_heard": 16,
+  "exact_after_correction": 16,
+  "wrong_without_flag": 0,
+  "of": 40
+ }
+}

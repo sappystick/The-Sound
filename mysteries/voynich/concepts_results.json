@@ -1,0 +1,167 @@
+{
+ "content_words": 114,
+ "min_freq": 20,
+ "burst_threshold": 2.0,
+ "window": 10,
+ "n_groups": 2,
+ "group_sizes": [
+  67,
+  47
+ ],
+ "modularity": {
+  "real": 0.2636,
+  "random_partition_mean": -0.0043,
+  "random_partition_sd": 0.0113,
+  "real_is_real_partition": true
+ },
+ "finer_than_sections": {
+  "n_sections": 4,
+  "n_groups": 2,
+  "MI_group_section": 0.739,
+  "H_group": 0.978,
+  "fraction_of_group_identity_from_section": 0.755,
+  "Q_discovered": 0.2636,
+  "Q_section_partition": 0.2144,
+  "discovered_beats_sections": true,
+  "reading": "Q_discovered vs Q_section: if the discovered partition scores higher than assigning words to their own section, the groups capture co-occurrence the section labels miss; MI/H says how section-like the top-level groups are"
+ },
+ "within_section_substructure": {
+  "herbal": {
+   "section": "H",
+   "n_words": 45,
+   "n_subgroups": 2,
+   "Q_real": 0.1125,
+   "Q_generator_mean": 0.0889,
+   "Q_generator_sd": 0.0086,
+   "Q_generator_95pct": 0.1055,
+   "real_exceeds_generator": true,
+   "excess_over_generator": 0.0237,
+   "example_subgroups": [
+    [
+     "chody",
+     "ckhol",
+     "shor",
+     "dol",
+     "cho",
+     "s",
+     "sheody",
+     "okor"
+    ],
+    [
+     "cthy",
+     "chor",
+     "cthol",
+     "sho",
+     "qotor",
+     "cthor",
+     "qotchy",
+     "chaiin"
+    ]
+   ]
+  },
+  "balneological": {
+   "section": "B",
+   "n_words": 25,
+   "n_subgroups": 4,
+   "Q_real": 0.1176,
+   "Q_generator_mean": 0.1092,
+   "Q_generator_sd": 0.0212,
+   "Q_generator_95pct": 0.1408,
+   "real_exceeds_generator": false,
+   "excess_over_generator": 0.0084,
+   "example_subgroups": [
+    [
+     "qokedy",
+     "okedy",
+     "qotedy",
+     "olkedy",
+     "kedy",
+     "shckhy",
+     "olshedy",
+     "lshedy"
+    ],
+    [
+     "qokain",
+     "olchedy",
+     "olkain",
+     "sheckhy",
+     "oly",
+     "ol"
+    ],
+    [
+     "qokeedy",
+     "qoteedy",
+     "lchedy",
+     "lol",
+     "checthy",
+     "sheedy"
+    ],
+    [
+     "qol",
+     "shedy",
+     "qokal"
+    ]
+   ]
+  }
+ },
+ "morphology_control": {
+  "morph_cooccurrence_correlation": 0.174,
+  "Q_discovered_on_cooccurrence": 0.2636,
+  "Q_discovered_on_morphology": 0.1624,
+  "mean_cooc_within_group_nonaffix_pairs": 0.5038,
+  "mean_cooc_cross_group_nonaffix_pairs": 0.1639,
+  "reading": "morph_cooc_corr and Q_on_morphology measure how affix-driven the groups are; if within-group co-occurrence exceeds cross-group EVEN for non-affix-sharing word pairs, the grouping carries association beyond morphology (toward real sub-topics); if not, it is largely affix-family structure",
+  "grouping_exceeds_morphology": true
+ },
+ "example_groups": [
+  {
+   "size": 67,
+   "words": [
+    "qokain",
+    "qokeedy",
+    "qol",
+    "shedy",
+    "qokedy",
+    "qoteedy",
+    "lchedy",
+    "keedy",
+    "okeeey",
+    "cheody",
+    "otedy",
+    "olchedy"
+   ],
+   "sections": {
+    "B": 25,
+    "S": 38,
+    "P": 2,
+    "H": 2
+   },
+   "dominant_section": "S",
+   "section_purity": 0.57
+  },
+  {
+   "size": 47,
+   "words": [
+    "cthy",
+    "chor",
+    "cthol",
+    "sho",
+    "okeol",
+    "qotor",
+    "cthor",
+    "qotchy",
+    "chody",
+    "chaiin",
+    "ckhey",
+    "ckhol"
+   ],
+   "sections": {
+    "H": 43,
+    "P": 2,
+    "S": 2
+   },
+   "dominant_section": "H",
+   "section_purity": 0.91
+  }
+ ]
+}

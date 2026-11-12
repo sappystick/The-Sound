@@ -724,47 +724,47 @@ Write-ups:
 - **Overall fit:** over 8 seeded runs it ties with round 80's short-range generator (2.59 ± 0.41 against 2.53 ± 0.35). The shared affixes weaken the section signal.
 - **Still unmatched by any generator:** real pages almost never reuse a rare word (0.19 against 0.33).
 
-## AT. Round 82 (`mysteries/voynich/PLAN.md`, `localize.py`): the unified Voynich plan + meaning-localization pilot
+## BI. Round 82 (`mysteries/voynich/PLAN.md`, `localize.py`): the unified Voynich plan + meaning-localization pilot
 - **Synthesis:** the Voynich is a constrained generative writing system (slots + self-citation) that still carries topic-level meaning (words track pictures, 90.8%). Central question reframed as meaning-bearing vs empty vs hybrid, with pre-registered decision gates.
 - **New data:** the ZL3b-n reference transliteration with page metadata ($I illustration, $L language, $H hand, $Q quire).
 - **Pilot (V, partial):** in Currier-B sections the word ROOT carries >= the topic signal of the whole word (hand 3: root 0.86 vs full 0.82, p 0.007); affixes are not pure noise; the herbal section needs anchor-level (not page-topic) targets.
 - **Plan:** a 10-angle matrix, a 5-stage gated decipherment pipeline, a provenance dossier, and the key tie-in - the Voynich generation method, Llull's wheels, Sefer Yetzirah's 231 gates (our round 39) and KANON are the same combinatorial idea, three of whose engines we already built.
 
-## AU. Round 83 (`mysteries/ROUND83.md`): the 231-gates test + pipeline Stages A-B executed
+## BJ. Round 83 (`mysteries/ROUND83.md`): the 231-gates test + pipeline Stages A-B executed
 - **231-gates (N for free combination):** the Voynich uses only 40% of possible glyph-pairs, is positionally layered (0.71), and has the lowest next-glyph entropy of any real text (2.26 bits) - a directional SLOT system, not Sefer Yetzirah's free bi-directional gates. Rules out Kabbalistic tzeruf / Llull wheels / 231-gates as the generation mechanism; keeps slot/nomenclator/abbreviation devices.
 - **Stage A PASS (V):** a slot grammar learned on even folios generates 86.5% of held-out odd-folio word-mass (shuffled null 30%). The prefix-root-suffix layer is real and generalises.
 - **Stage B:** ~58% of tokens are machinery (copies + top-20-root fillers); ~42% is the candidate content stream; the round-82 pilot localises its signal to the root.
 - **Gathered:** per-token coordinate/angle dataset (Placა spatial corpus) + Beinecke IIIF for Stage C anchoring.
 
-## AV. Round 84 (`mysteries/ROUND84.md`): Stage C anchor test - the zodiac labels
+## BK. Round 84 (`mysteries/ROUND84.md`): Stage C anchor test - the zodiac labels
 - **N (decisive):** across 12 zodiac diagrams (333 labels with recorded clock-angles), label text does NOT encode angular position - predicting a held-out diagram's label glyph from its angle equals the majority-glyph baseline (0.775 vs 0.772, p 0.49). Not a day-ring; not a positional code. Firms up round 79's marginal result.
 - **Weak counter-signal:** labels within one diagram form a slightly tighter family than random (p 0.002, effect +0.015) - structured, possibly section style rather than meaning.
 - **Gate C NOT met:** 0 of a required 5 label->referent anchors found via the only externally measurable referent (position). Anchor-probe failure #1; the remaining probe is image/picture identity (Beinecke IIIF), the decider between a pictorially-anchored content system and an empty topic-imitator.
 - **Frontier:** the Voynich carries coarse page-topic meaning but resists fine label anchoring - the wall mapped precisely.
 
-## AW. Round 85 (`mysteries/ROUND85.md`): image-anchor + mislabeling/displacement tests
+## BL. Round 85 (`mysteries/ROUND85.md`): image-anchor + mislabeling/displacement tests
 - **Mislabeling idea (user), tested two ways:** (M1) labels match their OWN section slightly more than chance (diagonal 0.22 vs null 0.15, p 0.003) - weakly correct, NO systematic displacement to another section; (M2) 34-63% of label words never occur in the running text, so labels are NOT recycled/transposed text. The transposition-via-mislabeling code is not supported; only a vision-dependent picture<->label permutation remains open.
 - **Image anchor (Stage C probe 2):** within the herbal section, crude ink-shape features vs text give Mantel r 0.10, p 0.078 - a weak, non-significant hint that plant appearance tracks text; feature-limited.
 - **Gate C unmet** (no anchor at p<0.01) but not declared empty: probe 2 is a feature-limited hint. The deciding instrument is a real vision model on the plant drawings - the true bottleneck.
 
-## AX. Round 86 (`mysteries/ROUND86.md`): plant morphometry - the decisive image anchor
+## BM. Round 86 (`mysteries/ROUND86.md`): plant morphometry - the decisive image anchor
 - **Method:** recreated each herbal drawing as 39 precise morphometric features (Hu moments, Zhang-Suen skeleton branch/endpoints, vertical/radial layering, stroke-angle histogram, box-counting fractal dimension) from scipy.ndimage+numpy - no deep model. Reconstruction overlay (morph_sample.png) demonstrates it.
 - **N (decisive, robust):** across 74-118 herbal plants, morphometric distance vs text distance gives Mantel r approximately 0 (p 0.53); round-85's marginal r 0.10 was a crude-feature/segmentation artifact. The herbal text does NOT track the specific plant's geometry.
 - **Stage C: both probes now null** (position round 84; geometry round 86) -> pre-registered rule -> herbal section carries no object-level reference.
 - **Synthesis:** the Voynich is topical but not referential - vocabulary shifts by section (S6, 90.8%) but names no individual thing. Fits a section-conditioned generative system: meaningful about categories, empty about individuals.
 
-## AY. Round 87 (`mysteries/ROUND87.md`): section-conditioned generator + plant geometry
+## BN. Round 87 (`mysteries/ROUND87.md`): section-conditioned generator + plant geometry
 - **V:** section-conditioning is necessary and sufficient for the Voynich's topicality - an unconditioned generator yields section-less pages (classifiability 0.13), a section-conditioned one reproduces it (0.65 vs real 0.52). Closes the round-86 model: a section-conditioned generative system.
 - **Plant geometry (f3v + 74 plants):** f3v is NOT unusually regular (64% of plants more regular); the "2 vs 4 uniform" impression doesn't survive measurement. A DNA/molecule/compound reading is ruled out by chronology (molecular structure post-1800, DNA 1953, vs vellum 1404-1438); regular leaf pairs are ordinary botany/medieval stylisation.
 - **N (drawing-as-code):** leaf-count sequence is near-maximal entropy (0.96) and uncorrelated with page text (r approximately 0) - the geometry carries no code linked to the text.
 - **Plant ID not claimable** (century of botanist disagreement) and would not unlock the text (round 86: shape does not track words).
 
-## AZ. Round 88 (`mysteries/ROUND88.md`): reference-free test - is there latent content?
+## BO. Round 88 (`mysteries/ROUND88.md`): reference-free test - is there latent content?
 - **V (pivotal):** the Voynich carries long-range information (0.041 bits, d>=21) ~2x its section-conditioned generator (0.020) and ~13x its shuffle floor (0.003). The null-content model does NOT reproduce it - there IS mid-range organisation to characterise (reproduces Montemurro-Zanette 2013).
 - **Reframe:** pivot from "match to known systems" to reference-free internal methods (latent-state extraction, Currier A/B Rosetta, steganographic low-rate channels, information budget) + comparison to UNIQUE systems (Codex Seraphinianus as asemic control, Rohonc) rather than languages + numeric/astronomical engines on the diagram sections.
 - **Reconciliation:** the anchor failures (rounds 84-87) ruled out object-level reference; round 88 finds mid-range organisation. Both true: content, if any, lives in the organisation, not word-to-picture naming.
 
-## BA. Round 89 (`mysteries/ROUND89.md`): Move 1 - latent state + discovery of the content-word layer
+## BP. Round 89 (`mysteries/ROUND89.md`): Move 1 - latent state + discovery of the content-word layer
 - **HMM latent state:** scaled Baum-Welch (from scratch), trained on even folios, scored on held-out odd. Best ~8 states (perplexity 6.72->6.58, a small gain); states are mostly structural (two states dominate every section; only balneological gets a distinctive state), and the state sequence is nearly memoryless (order1->3 bits 1.117->1.082).
 - **CAPSTONE (decisive redirect):** text generated from the fitted 8-state HMM reproduces only 0.0013 long-range word MI vs real 0.037 (iid generator 0.020) - the few-state drift FAILS to reproduce round 88. So the long-range structure is finer than a drifting state: it lives in which specific words recur at long range.
 - **V (strongest content signal yet):** word burstiness (clustering of occurrences; Poisson/filler=1) mean 2.15 vs shuffled-stream 0.93; 73% of frequent words significantly clustered (>1.3). Top carriers concentrate in one section each: cthy (burst 15.0, 89% H), chor (9.3, 72% H), qokain (9.3, 58% B), cthol (8.3, 86% H), qokeedy (7.5, 48% B), sho (7.0, 77% H), shedy (5.3, 52% B). The section-conditioned iid generator reproduces only ~half the long-range info (0.020 of 0.037), so the clustering is substantially finer than the coarse section blocks = specific words recur in local sub-topic bursts.
@@ -772,10 +772,16 @@ Write-ups:
 - **Honest limit:** topical word-clustering shows subject-structured organisation but does not by itself prove semantic meaning (a rich per-sub-topic generator could mimic it); it is real, specific and finer than any model we have.
 - **Next:** unsupervised concept-cluster discovery on the content-word layer (co-occurrence network -> concept groups), then Currier A/B Rosetta.
 
-## BB. Round 90 (`mysteries/ROUND90.md`): concept-cluster discovery on the content-word layer
+## BQ. Round 90 (`mysteries/ROUND90.md`): concept-cluster discovery on the content-word layer
 - **Method:** windowed-PPMI co-occurrence of the 114 bursty content words (round 89) -> Newman spectral communities, with four controls (random partition, section partition, morphology graph, section-conditioned generator ensemble). numpy only.
 - **V (robust):** content words form 2 real co-occurrence communities (Q 0.264 vs random partition -0.004+/-0.011, >20sigma) that independently RE-DERIVE the Currier A/B language split from word association alone: group 2 = herbal A-language (cth-/-or: cthy chor cthol sho), group 1 = B-language (qok-/-edy: qokain qokeedy shedy, in stars+balneo). MI(group;section)/H = 0.76.
 - **Beyond section and grammar:** discovered partition beats the raw section partition (Q 0.264 vs 0.214); NOT reducible to morphology (corr(cooc,affix)=0.17; Q-on-cooccurrence 0.264 > Q-on-morphology 0.162; for word pairs sharing NO affix, within-group co-occurrence 0.50 is 3x cross-group 0.16 = real association beyond grammar).
 - **N-leaning (honest, finer sub-topics):** the naive within-section test (vs random partition) is rigged - Newman finds positive Q on any frequency-heterogeneous graph. Against a proper section-conditioned iid GENERATOR ensemble: herbal real Q 0.113 > generator 95pct 0.105 (small real excess +0.024); balneological real Q 0.118 is INSIDE the generator spread (0.109+/-0.021, no excess). So finer sub-topics are weak and herbal-only; most within-section community structure is a frequency/method effect the iid generator reproduces. Tempers round 89.
 - **Compounded model:** surface slot+copy -> section/language pool (content words re-derive A/B) -> real above-morphology word association -> only weak herbal-only sub-topics. The robust content structure lives at the A/B-and-above level.
 - **Next (Move 2, internal Rosetta):** the two communities ARE Currier A and B; test whether A and B encode the SAME latent content in different surface forms (pair A/B pages by concept-group profile) - the decisive reference-free lever, for which this round built the concept-group representation.
+
+## BR. Round 91 (`mysteries/ROUND91.md`): Move 2, Currier A and B as an internal Rosetta (pre-registered)
+
+- **The pre-registered decision is INCONCLUSIVE.** Co-occurrence-based word alignment fails its positive control (Greek John against English John, p 0.28). It even fails to align herbal-A with itself (3% identity recovery). At this corpus size, no A ↔ B dictionary can be supported by word statistics, and neither can any statistics-only Voynich "translation".
+- **Exploratory:** nine affix rewrite rules learned on even pages (-or → -edy, -ol → -dy …) close 38% of the herbal-A/B gap on held-out pages. Random rules make it worse. A and B are partly the same words with shifted endings; the rest is different word choice.
+- **Next:** phrase anchors, meaning repeated multi-word sequences shared by A and B after rewriting, or plants drawn in both.

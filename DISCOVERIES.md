@@ -661,3 +661,15 @@ Write-ups:
 - **Voynich.**
   - Within the same hand and language, page vocabulary predicts the illustration type: 91% against 68%, and 86% with ±10 neighbours excluded (p = 0.003).
   - Lines are units like KJV verses (excess MI 0.231 against 0.249), unlike Greek John re-flowed into arbitrary lines (0.003).
+
+## BC. Round 76 (`mysteries/ROUND76.md`): Voynich against Macer Floridus; the Antikythera misfits
+
+- **Voynich herbal against a real Latin herbal.**
+  - Page-specific vocabulary and line units are like a herbal.
+  - But only 17% of pages repeat a name-like keyword, against 42–58% for length-matched Macer.
+  - Immediate word repetition is about 50–80× higher.
+  - Not written like a herbal that names its plants.
+- **Antikythera misfits.**
+  - The inexact number in each planet is always the remainder by subtraction from the synodic period (a working method, not a hidden message).
+  - No real Mars cycle gives 349/349 (0 of 328). The closest are aphelic cycles with retrograde in Leo, recurring every 79 years, so there is no unique epoch.
+  - The 8-day pause cannot be one observing threshold (3.1, 0.77 and 0.41′/day), so it is a convention.

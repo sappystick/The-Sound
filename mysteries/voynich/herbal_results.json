@@ -1,0 +1,132 @@
+{
+ "voynich_herbal": {
+  "entries": 128,
+  "words": 10679,
+  "M1_words_per_entry_median": 79.0,
+  "M1_cv": 0.3,
+  "M1_words_per_line": 6.77,
+  "M2_types_in_one_entry_only": 0.737,
+  "M2_median_dispersion_D": 0.726,
+  "M2_share_of_tokens_entry_specific": 0.329,
+  "M3_entries_with_own_keyword": 0.173,
+  "M3_keyword_in_first_line": 0.11,
+  "M3_examples": [
+   "dol",
+   "dan",
+   "dor",
+   "cham",
+   "chom",
+   "chaiin",
+   "shokchy",
+   "qoaiin"
+  ],
+  "M4_line_position_excess_MI": 0.1929,
+  "M5_immediate_repetition_rate": 0.0083
+ },
+ "macer_words": {
+  "entries": 77,
+  "words": 14042,
+  "M1_words_per_entry_median": 175.0,
+  "M1_cv": 0.54,
+  "M1_words_per_line": 6.15,
+  "M2_types_in_one_entry_only": 0.587,
+  "M2_median_dispersion_D": 0.708,
+  "M2_share_of_tokens_entry_specific": 0.25,
+  "M3_entries_with_own_keyword": 0.645,
+  "M3_keyword_in_first_line": 0.263,
+  "M3_examples": [
+   "herbarum",
+   "amne",
+   "absinthii",
+   "urticae",
+   "elixum",
+   "plantaginis",
+   "pota",
+   "dictum"
+  ],
+  "M4_line_position_excess_MI": 0.3873,
+  "M5_immediate_repetition_rate": 0.0001
+ },
+ "macer_stems": {
+  "entries": 77,
+  "words": 14042,
+  "M1_words_per_entry_median": 175.0,
+  "M1_cv": 0.54,
+  "M1_words_per_line": 6.15,
+  "M2_types_in_one_entry_only": 0.451,
+  "M2_median_dispersion_D": 0.729,
+  "M2_share_of_tokens_entry_specific": 0.135,
+  "M3_entries_with_own_keyword": 0.711,
+  "M3_keyword_in_first_line": 0.447,
+  "M3_examples": [
+   "artem",
+   "amne",
+   "nardu",
+   "urtic",
+   "elixu",
+   "plant",
+   "pota",
+   "dictu"
+  ],
+  "M4_line_position_excess_MI": 0.3452,
+  "M5_immediate_repetition_rate": 0.0003
+ },
+ "macer_truncated_to_79_words": {
+  "entries": 77,
+  "words": 5837,
+  "M1_words_per_entry_median": 79.0,
+  "M1_cv": 0.15,
+  "M1_words_per_line": 6.1,
+  "M2_types_in_one_entry_only": 0.649,
+  "M2_median_dispersion_D": 0.735,
+  "M2_share_of_tokens_entry_specific": 0.364,
+  "M3_entries_with_own_keyword": 0.421,
+  "M3_keyword_in_first_line": 0.211,
+  "M3_examples": [
+   "herbarum",
+   "sic",
+   "potu",
+   "prodest",
+   "uermes",
+   "uocatur",
+   "compescit",
+   "dictum"
+  ],
+  "M4_line_position_excess_MI": 0.3338,
+  "M5_immediate_repetition_rate": 0.0
+ },
+ "macer_stems_truncated_to_79": {
+  "entries": 77,
+  "words": 5837,
+  "M1_words_per_entry_median": 79.0,
+  "M1_cv": 0.15,
+  "M1_words_per_line": 6.1,
+  "M2_types_in_one_entry_only": 0.523,
+  "M2_median_dispersion_D": 0.745,
+  "M2_share_of_tokens_entry_specific": 0.239,
+  "M3_entries_with_own_keyword": 0.579,
+  "M3_keyword_in_first_line": 0.355,
+  "M3_examples": [
+   "artem",
+   "sic",
+   "potu",
+   "urtic",
+   "uerme",
+   "plant",
+   "medet",
+   "dictu"
+  ],
+  "M4_line_position_excess_MI": 0.3026,
+  "M5_immediate_repetition_rate": 0.0002
+ },
+ "macer_plant_names": [
+  "Artemisia",
+  "Abrotanum",
+  "Absinthium",
+  "Urtica",
+  "Allium",
+  "Plantago",
+  "Ruta",
+  "Apium"
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "remainders": {
+  "Venus": "68 = 584/2 - 224",
+  "Mars": "82 = 780 - 2 x 349",
+  "Jupiter": "104 = 398 - 2 x 139 - 2 x 8",
+  "note": "in every section the inexact number is the one obtained by subtraction from the synodic period"
+ },
+ "mars_best_cycles": [
+  {
+   "date": "500 BC",
+   "es_conj": 342.0,
+   "conj_ms": 342.5,
+   "retrograde": 80.7,
+   "rms": 5.6,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 127.0
+  },
+  {
+   "date": "137 BC",
+   "es_conj": 341.6,
+   "conj_ms": 342.8,
+   "retrograde": 80.7,
+   "rms": 5.6,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 133.3
+  },
+  {
+   "date": "58 BC",
+   "es_conj": 343.2,
+   "conj_ms": 341.3,
+   "retrograde": 80.7,
+   "rms": 5.6,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 136.2
+  },
+  {
+   "date": "421 BC",
+   "es_conj": 343.6,
+   "conj_ms": 340.9,
+   "retrograde": 80.6,
+   "rms": 5.7,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 129.9
+  },
+  {
+   "date": "579 BC",
+   "es_conj": 340.5,
+   "conj_ms": 344.0,
+   "retrograde": 80.8,
+   "rms": 5.8,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 124.2
+  },
+  {
+   "date": "216 BC",
+   "es_conj": 340.0,
+   "conj_ms": 344.4,
+   "retrograde": 80.8,
+   "rms": 5.9,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 130.5
+  },
+  {
+   "date": "342 BC",
+   "es_conj": 345.2,
+   "conj_ms": 339.4,
+   "retrograde": 80.6,
+   "rms": 6.0,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 132.7
+  },
+  {
+   "date": "658 BC",
+   "es_conj": 339.0,
+   "conj_ms": 345.6,
+   "retrograde": 80.8,
+   "rms": 6.2,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 121.3
+  },
+  {
+   "date": "295 BC",
+   "es_conj": 338.5,
+   "conj_ms": 346.0,
+   "retrograde": 80.8,
+   "rms": 6.4,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 127.6
+  },
+  {
+   "date": "263 BC",
+   "es_conj": 346.8,
+   "conj_ms": 337.8,
+   "retrograde": 80.6,
+   "rms": 6.6,
+   "retrograde_in": "Leo",
+   "opposition_longitude": 135.6
+  }
+ ],
+ "mars_cycles_with_both_halves_349_pm4": {
+  "count": 0,
+  "of": 328,
+  "retro_signs": [],
+  "retrograde_range": null
+ },
+ "pause_threshold": {
+  "per_planet": {
+   "Mars": {
+    "speed_threshold_arcmin_per_day": 3.09,
+    "pause_days": 8.0
+   },
+   "Jupiter": {
+    "speed_threshold_arcmin_per_day": 0.77,
+    "pause_days": 8.0
+   },
+   "Saturn": {
+    "speed_threshold_arcmin_per_day": 0.41,
+    "pause_days": 8.0
+   }
+  },
+  "common_threshold_arcmin_per_day": 0.77,
+  "at_common_threshold": {
+   "Mars": {
+    "retrograde_moving_days": 74.1,
+    "pause_days": 2.0
+   },
+   "Jupiter": {
+    "retrograde_moving_days": 112.9,
+    "pause_days": 8.0
+   },
+   "Saturn": {
+    "retrograde_moving_days": 123.3,
+    "pause_days": 14.9
+   }
+  }
+ },
+ "mars_82_explained?": {
+  "retrograde_moving": 74.1,
+  "plus_two_pauses": 78.1,
+  "inscribed": 82
+ }
+}

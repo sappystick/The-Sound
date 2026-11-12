@@ -1,0 +1,217 @@
+{
+ "top_clustered_words": [
+  {
+   "word": "cthy",
+   "freq": 91,
+   "burstiness": 14.98,
+   "section_concentration": 0.89,
+   "top_section": "H"
+  },
+  {
+   "word": "chor",
+   "freq": 172,
+   "burstiness": 9.29,
+   "section_concentration": 0.72,
+   "top_section": "H"
+  },
+  {
+   "word": "qokain",
+   "freq": 273,
+   "burstiness": 9.26,
+   "section_concentration": 0.58,
+   "top_section": "B"
+  },
+  {
+   "word": "cthol",
+   "freq": 49,
+   "burstiness": 8.34,
+   "section_concentration": 0.86,
+   "top_section": "H"
+  },
+  {
+   "word": "qokeedy",
+   "freq": 293,
+   "burstiness": 7.52,
+   "section_concentration": 0.48,
+   "top_section": "B"
+  },
+  {
+   "word": "sho",
+   "freq": 88,
+   "burstiness": 7.01,
+   "section_concentration": 0.77,
+   "top_section": "H"
+  },
+  {
+   "word": "qokchol",
+   "freq": 15,
+   "burstiness": 6.63,
+   "section_concentration": 0.87,
+   "top_section": "H"
+  },
+  {
+   "word": "qol",
+   "freq": 104,
+   "burstiness": 5.72,
+   "section_concentration": 0.72,
+   "top_section": "B"
+  },
+  {
+   "word": "okeol",
+   "freq": 55,
+   "burstiness": 5.61,
+   "section_concentration": 0.53,
+   "top_section": "P"
+  },
+  {
+   "word": "shaiin",
+   "freq": 19,
+   "burstiness": 5.53,
+   "section_concentration": 0.68,
+   "top_section": "H"
+  },
+  {
+   "word": "qotor",
+   "freq": 23,
+   "burstiness": 5.4,
+   "section_concentration": 0.74,
+   "top_section": "H"
+  },
+  {
+   "word": "shedy",
+   "freq": 356,
+   "burstiness": 5.32,
+   "section_concentration": 0.52,
+   "top_section": "B"
+  },
+  {
+   "word": "qokedy",
+   "freq": 257,
+   "burstiness": 5.31,
+   "section_concentration": 0.59,
+   "top_section": "B"
+  },
+  {
+   "word": "cthor",
+   "freq": 37,
+   "burstiness": 5.17,
+   "section_concentration": 0.92,
+   "top_section": "H"
+  },
+  {
+   "word": "cthar",
+   "freq": 15,
+   "burstiness": 5.14,
+   "section_concentration": 0.73,
+   "top_section": "H"
+  },
+  {
+   "word": "qotchy",
+   "freq": 57,
+   "burstiness": 5.12,
+   "section_concentration": 0.79,
+   "top_section": "H"
+  },
+  {
+   "word": "qoteedy",
+   "freq": 74,
+   "burstiness": 4.98,
+   "section_concentration": 0.53,
+   "top_section": "B"
+  },
+  {
+   "word": "chody",
+   "freq": 81,
+   "burstiness": 4.62,
+   "section_concentration": 0.51,
+   "top_section": "H"
+  },
+  {
+   "word": "chdaiin",
+   "freq": 16,
+   "burstiness": 4.4,
+   "section_concentration": 0.62,
+   "top_section": "S"
+  },
+  {
+   "word": "lchedy",
+   "freq": 108,
+   "burstiness": 4.34,
+   "section_concentration": 0.46,
+   "top_section": "B"
+  },
+  {
+   "word": "keedy",
+   "freq": 34,
+   "burstiness": 4.29,
+   "section_concentration": 0.56,
+   "top_section": "S"
+  },
+  {
+   "word": "shecthy",
+   "freq": 18,
+   "burstiness": 4.25,
+   "section_concentration": 0.61,
+   "top_section": "B"
+  },
+  {
+   "word": "okeeey",
+   "freq": 21,
+   "burstiness": 4.15,
+   "section_concentration": 0.57,
+   "top_section": "S"
+  },
+  {
+   "word": "cheody",
+   "freq": 73,
+   "burstiness": 4.13,
+   "section_concentration": 0.45,
+   "top_section": "S"
+  },
+  {
+   "word": "chaiin",
+   "freq": 39,
+   "burstiness": 4.11,
+   "section_concentration": 0.77,
+   "top_section": "H"
+  },
+  {
+   "word": "otedy",
+   "freq": 133,
+   "burstiness": 3.9,
+   "section_concentration": 0.42,
+   "top_section": "S"
+  },
+  {
+   "word": "ckhey",
+   "freq": 23,
+   "burstiness": 3.85,
+   "section_concentration": 0.48,
+   "top_section": "P"
+  },
+  {
+   "word": "olchedy",
+   "freq": 33,
+   "burstiness": 3.85,
+   "section_concentration": 0.64,
+   "top_section": "B"
+  },
+  {
+   "word": "oteey",
+   "freq": 90,
+   "burstiness": 3.84,
+   "section_concentration": 0.66,
+   "top_section": "S"
+  },
+  {
+   "word": "ckhol",
+   "freq": 20,
+   "burstiness": 3.77,
+   "section_concentration": 0.75,
+   "top_section": "H"
+  }
+ ],
+ "mean_burstiness": 2.152,
+ "shuffled_mean": 0.927,
+ "share_clustered": 0.725
+}

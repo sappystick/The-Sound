@@ -1,0 +1,105 @@
+{
+ "folios": 203,
+ "symbols": 61,
+ "model_selection": {
+  "1": {
+   "heldout_perplexity": 6.722,
+   "heldout_bits_per_word": 2.749
+  },
+  "2": {
+   "heldout_perplexity": 6.73,
+   "heldout_bits_per_word": 2.751
+  },
+  "4": {
+   "heldout_perplexity": 6.708,
+   "heldout_bits_per_word": 2.746
+  },
+  "8": {
+   "heldout_perplexity": 6.584,
+   "heldout_bits_per_word": 2.719
+  },
+  "12": {
+   "heldout_perplexity": 6.622,
+   "heldout_bits_per_word": 2.727
+  },
+  "16": {
+   "heldout_perplexity": 6.633,
+   "heldout_bits_per_word": 2.73
+  }
+ },
+ "best_N_states": 8,
+ "state_long_range_MI": {
+  "observed": {
+   "1": 1.3709,
+   "5": 0.2386,
+   "21": 0.0847,
+   "55": 0.0722,
+   "144": 0.0606
+  },
+  "shuffled": {
+   "1": 0.0013,
+   "5": 0.0008,
+   "21": 0.0012,
+   "55": 0.001,
+   "144": 0.001
+  },
+  "long_range_net": 0.2143,
+  "reading": "if the state path has long-range MI above its shuffle, the latent state (not the words) carries the organisation"
+ },
+ "state_by_section": {
+  "T": {
+   "3": 0.3,
+   "2": 0.28,
+   "7": 0.2,
+   "4": 0.07
+  },
+  "H": {
+   "3": 0.35,
+   "2": 0.34,
+   "0": 0.08,
+   "1": 0.07
+  },
+  "S": {
+   "3": 0.28,
+   "7": 0.26,
+   "2": 0.26,
+   "4": 0.07
+  },
+  "A": {
+   "2": 0.43,
+   "3": 0.41,
+   "0": 0.06,
+   "1": 0.03
+  },
+  "C": {
+   "3": 0.31,
+   "2": 0.31,
+   "0": 0.11,
+   "1": 0.09
+  },
+  "B": {
+   "7": 0.53,
+   "4": 0.16,
+   "3": 0.14,
+   "2": 0.12
+  },
+  "P": {
+   "2": 0.34,
+   "3": 0.33,
+   "0": 0.08,
+   "1": 0.07
+  }
+ },
+ "state_sequence_structure": {
+  "bits_order1": 1.117,
+  "bits_order2": 1.099,
+  "bits_order3": 1.082,
+  "reading": "falling bits from order1->3 = the state sequence has higher-order structure (reused motifs), not a memoryless walk"
+ },
+ "CAPSTONE_drift_explains_round88": {
+  "real_words_long_range": 0.037,
+  "hmm_generated_long_range": 0.0013,
+  "iid_generator_was": 0.02,
+  "reading": "if HMM-generated approx real, the latent-drift model fully reproduces the round-88 long-range signal -> the organisation is slow drift, not hidden content; residual = possible content"
+ }
+}

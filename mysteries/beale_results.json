@@ -1,0 +1,69 @@
+{
+ "B2_with_DoI": -5.398873639942795,
+ "B2_with_random_KJV_slices_mean": -7.366405854895373,
+ "B2_null_max": -6.7265641592828525,
+ "B1_with_DoI": -7.279271709818279,
+ "B3_with_DoI": -7.260132660592819,
+ "B1_DoI_alphabet_runs_8plus": [
+  [
+   185,
+   "defghiijklmmno"
+  ]
+ ],
+ "alphabet_runs_in_shuffled_B1_mean": 0.002,
+ "shuffled_with_any_run_share": 0.002,
+ "KJV_chapter_keys": {
+  "B1": {
+   "tested": 1185,
+   "best": [
+    [
+     -6.956780283025385,
+     "Zechariah 5"
+    ],
+    [
+     -6.963223918960286,
+     "Leviticus 3"
+    ],
+    [
+     -6.968612879760892,
+     "Leviticus 7"
+    ],
+    [
+     -6.975856259546604,
+     "I Chronicles 8"
+    ],
+    [
+     -6.9827509899196585,
+     "I Samuel 1"
+    ]
+   ],
+   "median": -7.38091111749125
+  },
+  "B3": {
+   "tested": 1188,
+   "best": [
+    [
+     -6.849415469607677,
+     "Leviticus 13"
+    ],
+    [
+     -6.851069370630014,
+     "Zechariah 5"
+    ],
+    [
+     -6.868600018671907,
+     "Numbers 3"
+    ],
+    [
+     -6.879220047786084,
+     "Exodus 25"
+    ],
+    [
+     -6.898150049408702,
+     "Joel 2"
+    ]
+   ],
+   "median": -7.379307089032416
+  }
+ }
+}

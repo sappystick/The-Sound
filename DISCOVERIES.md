@@ -629,3 +629,9 @@ Write-ups:
   - Three SHA-256 confirmation words come from the 76 non-verb words.
   - The approval is signed and single-use, and the explanation is claim-checked.
 - **Every attack failed:** payee swap, amount bump, replay, over-limit, computed argument. A lying explanation was flagged. The action survived a GSM call with an identical hash. Browser and Python agree on 11 of 11 cases.
+
+## AZ. Round 73 (`mysteries/MYSTERIES.md`): unsolved mysteries
+
+- **Beale ciphers.** The pipeline is validated on cipher 2: the Declaration key scores −5.40, against wrong keys at −7.37 (best −6.73). Gillogly's alphabet run reproduced ("defghiijklmmno", 0.2% in shuffles). **New: every KJV chapter start ruled out as the key for ciphers 1 and 3** (best −6.96 and −6.85, inside the wrong-key range).
+- **Copper Scroll.** Greek groups and letter values listed (ΚΕΝ 75, ΧΑΓ 604 …). The only testable pairing, ΚΕΝ after 17 talents, does not support "letters = amounts". The full test needs an edition's transcription.
+- **Ranked map of real mysteries:** Antikythera, the Signs Gospel and Voynich are next.
